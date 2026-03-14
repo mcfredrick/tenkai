@@ -1,3 +1,180 @@
 {
-  "urls": []
+  "urls": [
+    {
+      "url": "https://github.com/volcengine/OpenViking",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://github.com/p-e-w/heretic",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://github.com/langflow-ai/openrag",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://github.com/fishaudio/fish-speech",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://github.com/666ghj/MiroFish",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://github.com/vectorize-io/hindsight",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://github.com/microsoft/BitNet",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://github.com/topoteretes/cognee",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://github.com/karpathy/nanochat",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://github.com/browser-use/browser-use",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://huggingface.co/ferrazzipietro/ULS-MultiClinNERcz-Qwen2.5-14B-Instruct-symptom",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://huggingface.co/Enriqueag26/keysay-transcription-cleaner-0.8B-8bit",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://huggingface.co/HuggingTaro/chromophore-spectral-predictor",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://huggingface.co/yukiii02/Llama-3.1-8B-GSM8K-50K-step-900",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.11049",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.11052",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.11094",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.11099",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.11114",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.11117",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.11121",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.11131",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.11133",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.11137",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.11139",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.11140",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://aipapersacademy.com/chain-of-continuous-thought/",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://countless.dev/",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://enterprise.wikimedia.com/",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://gist.github.com/veekaybee/be375ab33085102f9027853128dc5f0e",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://jellyfin.org/docs/general/contributing/llm-policies/",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://artificialanalysis.ai",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://www.stochasticlifestyle.com/a-guide-to-gen-ai-llm-vibecoding-for-expert-programmers/",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://blog.codesolvent.com/2024/09/declarative-programming-with-aillms.html",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://ai.v-gar.de/ml/transformer/timeline/",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://hackaday.com/2023/12/02/mozilla-lets-folks-turn-ai-llms-into-single-file-executables/",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=46907001",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "http://npmjs.com/package/ezff",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://pypi.org/project/gem-dota/0.1.1/",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://pypi.org/project/pentatonic-agent-events/0.2.0b1/",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://pypi.org/project/camoufox-cli/0.1.8/",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://pypi.org/project/pygaeb/1.0.1/",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://pypi.org/project/akios/1.5.2/",
+      "date": "2026-03-14"
+    },
+    {
+      "url": "https://pypi.org/project/vector-inspector/0.6.0/",
+      "date": "2026-03-14"
+    }
+  ]
 }
