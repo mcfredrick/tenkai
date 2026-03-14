@@ -45,6 +45,10 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: python agents/research_agent.py
 
+      - name: Cooldown between agents
+        if: env.SKIP != 'true'
+        run: sleep 90  # Let free-tier rate limit window reset after research agent
+
       - name: Run writing agent
         if: env.SKIP != 'true'
         env:

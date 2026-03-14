@@ -46,7 +46,7 @@ Output ONLY the markdown body (no front matter). Structure:
 150-200 word paragraph connecting 2-3 of today's items into a concrete engineer-actionable idea."""
 
 
-def call_llm(content: str, model: str, retries: int = 3) -> str:
+def call_llm(content: str, model: str, retries: int = 5) -> str:
     payload = {
         "model": model,
         "messages": [
