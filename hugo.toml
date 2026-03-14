@@ -1,0 +1,20 @@
+baseURL = "https://mcfredrick.github.io/todai"
+title = "Tenkai"
+languageCode = "en-us"
+theme = "tenkai"
+paginate = 20
+
+[taxonomies]
+  tag = "tags"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+
+[params]
+  description = "Daily AI development news for engineers"
+  author = "Tenkai Bot"
+
+[markup]
+  [markup.highlight]
+    style = "github"

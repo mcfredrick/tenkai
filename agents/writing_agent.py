@@ -1,0 +1,185 @@
+#!/usr/bin/env python3
+"""Synthesizes research.json into a Hugo markdown post."""
+
+import json
+import os
+import sys
+from datetime import date, datetime, timedelta, timezone
+from pathlib import Path
+
+import httpx
+
+OPENROUTER_API = "https://openrouter.ai/api/v1/chat/completions"
+RESEARCH_FILE = Path("/tmp/research.json")
+SEEN_FILE = Path(__file__).parent / "seen.json"
+POSTS_DIR = Path(__file__).parent.parent / "content" / "posts"
+
+SYSTEM_PROMPT = """You are a technical writer for a daily AI/ML engineering digest called Tenkai.
+
+Your audience: senior software engineers and ML practitioners who want concise, actionable news.
+
+Style rules:
+- Direct and technical. No hype, no filler.
+- Never use: "exciting", "groundbreaking", "revolutionary", "game-changing", "impressive"
+- Each bullet: **[Name](url)** — 2-sentence technical summary. Why it matters to engineers.
+- Synthesis section: concrete, actionable. Propose real combinations/applications from today's items.
+- Only emit sections where you have real content.
+- No closing remarks or sign-offs.
+
+Output ONLY the markdown body (no front matter). Structure:
+
+## Open Source Releases
+- **[Name](url)** — summary.
+
+## Research Worth Reading
+- **[Title](url)** — summary.
+
+## Community Finds
+- **[Topic](url)** — summary.
+
+## Tutorials & Guides
+- **[Title](url)** — summary.
+
+## Today's Synthesis
+150-200 word paragraph connecting 2-3 of today's items into a concrete engineer-actionable idea."""
+
+
+def call_llm(content: str, model: str) -> str:
+    payload = {
+        "model": model,
+        "messages": [
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "user", "content": content},
+        ],
+        "temperature": 0.5,
+        "max_tokens": 3000,
+    }
+    headers = {
+        "Authorization": f"Bearer {os.environ['OPENROUTER_API_KEY']}",
+        "HTTP-Referer": "https://github.com/mattdlong/todai",
+        "X-Title": "Tenkai Writing Agent",
+    }
+
+    r = httpx.post(OPENROUTER_API, json=payload, headers=headers, timeout=180)
+    r.raise_for_status()
+    return r.json()["choices"][0]["message"]["content"].strip()
+
+
+def collect_all_items(research: dict) -> list[dict]:
+    items = []
+    for key, value in research.items():
+        if isinstance(value, list):
+            items.extend(value)
+    return items
+
+
+def build_writing_prompt(research: dict) -> str:
+    sections = []
+    for source, items in research.items():
+        if not isinstance(items, list) or not items:
+            continue
+        source_label = source.replace("_", " ").title()
+        sections.append(f"### {source_label}")
+        for item in items:
+            sections.append(
+                f"- [{item.get('title', '')}]({item.get('url', '')})\n"
+                f"  Category: {item.get('category', 'unknown')}\n"
+                f"  Relevance: {item.get('relevance_score', 0)}/10\n"
+                f"  Summary: {item.get('summary', '')}"
+            )
+        sections.append("")
+    return "\n".join(sections)
+
+
+def extract_tags(items: list[dict]) -> list[str]:
+    categories = {item.get("category", "") for item in items}
+    tag_map = {
+        "release": "releases",
+        "paper": "papers",
+        "discussion": "community",
+        "tutorial": "tutorials",
+    }
+    tags = ["llm", "open-source"] + [tag_map[c] for c in categories if c in tag_map]
+    return sorted(set(tags))
+
+
+def build_description(items: list[dict]) -> str:
+    if not items:
+        return "Daily AI development digest"
+    titles = [item.get("title", "") for item in items[:3] if item.get("title")]
+    if titles:
+        return f"Today: {', '.join(titles[:2])} and more."
+    return "Daily AI development digest"
+
+
+def update_seen(new_urls: list[str], post_date: str) -> None:
+    cutoff = datetime.now(tz=timezone.utc) - timedelta(days=60)
+
+    if SEEN_FILE.exists():
+        data = json.loads(SEEN_FILE.read_text())
+    else:
+        data = {"urls": []}
+
+    # Prune entries older than 60 days
+    data["urls"] = [
+        entry for entry in data["urls"]
+        if datetime.fromisoformat(entry["date"]).replace(tzinfo=timezone.utc) > cutoff
+    ]
+
+    # Add new URLs
+    existing = {e["url"] for e in data["urls"]}
+    for url in new_urls:
+        if url and url not in existing:
+            data["urls"].append({"url": url, "date": post_date})
+
+    SEEN_FILE.write_text(json.dumps(data, indent=2))
+
+
+def main() -> None:
+    model = os.environ.get("WRITING_MODEL", "meta-llama/llama-3.3-70b-instruct:free")
+    print(f"Writing model: {model}", file=sys.stderr)
+
+    if not RESEARCH_FILE.exists():
+        print(f"Error: {RESEARCH_FILE} not found", file=sys.stderr)
+        sys.exit(1)
+
+    research = json.loads(RESEARCH_FILE.read_text())
+    post_date = research.get("date", str(date.today()))
+
+    all_items = collect_all_items(research)
+    if not all_items:
+        print("No research items found, skipping post", file=sys.stderr)
+        sys.exit(0)
+
+    print(f"Writing post from {len(all_items)} items...", file=sys.stderr)
+    writing_prompt = build_writing_prompt(research)
+    body = call_llm(writing_prompt, model)
+
+    # Build front matter
+    post_date_fmt = datetime.strptime(post_date, "%Y-%m-%d").strftime("%B %-d, %Y")
+    tags = extract_tags(all_items)
+    description = build_description(all_items)
+
+    front_matter = f"""---
+title: "Tenkai Daily — {post_date_fmt}"
+date: {post_date}
+draft: false
+tags: [{", ".join(tags)}]
+description: "{description}"
+---"""
+
+    post_content = front_matter + "\n\n" + body + "\n"
+
+    output_path = POSTS_DIR / f"{post_date}.md"
+    POSTS_DIR.mkdir(parents=True, exist_ok=True)
+    output_path.write_text(post_content)
+    print(f"Wrote {output_path}", file=sys.stderr)
+
+    # Update seen URLs
+    new_urls = [item.get("url", "") for item in all_items]
+    update_seen(new_urls, post_date)
+    print(f"Updated {SEEN_FILE} with {len(new_urls)} URLs", file=sys.stderr)
+
+
+if __name__ == "__main__":
+    main()
