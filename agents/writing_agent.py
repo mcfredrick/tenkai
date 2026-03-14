@@ -7,6 +7,8 @@ import sys
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
+import time
+
 import httpx
 
 OPENROUTER_API = "https://openrouter.ai/api/v1/chat/completions"
@@ -44,7 +46,7 @@ Output ONLY the markdown body (no front matter). Structure:
 150-200 word paragraph connecting 2-3 of today's items into a concrete engineer-actionable idea."""
 
 
-def call_llm(content: str, model: str) -> str:
+def call_llm(content: str, model: str, retries: int = 3) -> str:
     payload = {
         "model": model,
         "messages": [
@@ -56,13 +58,28 @@ def call_llm(content: str, model: str) -> str:
     }
     headers = {
         "Authorization": f"Bearer {os.environ['OPENROUTER_API_KEY']}",
-        "HTTP-Referer": "https://github.com/mattdlong/todai",
+        "HTTP-Referer": "https://github.com/mcfredrick/todai",
         "X-Title": "Tenkai Writing Agent",
     }
 
-    r = httpx.post(OPENROUTER_API, json=payload, headers=headers, timeout=180)
-    r.raise_for_status()
-    return r.json()["choices"][0]["message"]["content"].strip()
+    for attempt in range(retries):
+        try:
+            r = httpx.post(OPENROUTER_API, json=payload, headers=headers, timeout=180)
+            if r.status_code == 429:
+                wait = 2 ** attempt * 10
+                print(f"  Rate limited, waiting {wait}s...", file=sys.stderr)
+                time.sleep(wait)
+                continue
+            r.raise_for_status()
+            return r.json()["choices"][0]["message"]["content"].strip()
+        except httpx.HTTPStatusError:
+            raise
+        except Exception as e:
+            print(f"  LLM call failed (attempt {attempt + 1}): {e}", file=sys.stderr)
+            if attempt < retries - 1:
+                time.sleep(2 ** attempt * 2)
+
+    raise RuntimeError(f"Writing LLM failed after {retries} attempts")
 
 
 def collect_all_items(research: dict) -> list[dict]:

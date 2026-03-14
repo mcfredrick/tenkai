@@ -62,7 +62,7 @@ def call_llm(content: str, model: str, retries: int = 3) -> list[dict]:
     }
     headers = {
         "Authorization": f"Bearer {os.environ['OPENROUTER_API_KEY']}",
-        "HTTP-Referer": "https://github.com/mattdlong/todai",
+        "HTTP-Referer": "https://github.com/mcfredrick/todai",
         "X-Title": "Tenkai Research Agent",
     }
 
