@@ -55,12 +55,16 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: python agents/writing_agent.py
 
-      - name: Build Hugo site
+      - name: Install Hugo
         if: env.SKIP != 'true'
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: '0.139.0'
           extended: false
+
+      - name: Build Hugo site
+        if: env.SKIP != 'true'
+        run: hugo --minify
 
       - name: Commit post and seen.json
         if: env.SKIP != 'true'
