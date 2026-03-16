@@ -12,6 +12,10 @@ permissions:
   issues: write
 
 jobs:
+  publish:
+    uses: ./.github/workflows/publish.yml
+    needs: generate-post
+
   generate-post:
     runs-on: ubuntu-latest
 
@@ -66,22 +70,6 @@ jobs:
           git add "$POST" agents/seen.json
           git commit -m "post: $(date -u +%Y-%m-%d) daily digest [skip ci]"
           git push
-
-      - name: Install Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: '0.139.0'
-          extended: false
-
-      - name: Build Hugo site
-        run: hugo --minify
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-          cname: ''  # Set to your custom domain if needed, e.g. tenkai.example.com
 
       - name: Create issue on failure
         if: failure()
