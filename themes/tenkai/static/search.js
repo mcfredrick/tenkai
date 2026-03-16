@@ -15,7 +15,7 @@ async function loadResources(statusEl) {
   if (index && embedder) return;
 
   statusEl.textContent = "Loading search index\u2026";
-  const [idx, { pipeline }] = await Promise.all([
+  const [idx, { pipeline, env }] = await Promise.all([
     fetch("/search-index.json").then((r) => {
       if (!r.ok) throw new Error(`search-index.json fetch failed: ${r.status} ${r.url}`);
       return r.json();
@@ -25,6 +25,8 @@ async function loadResources(statusEl) {
     ),
   ]);
   index = idx;
+
+  env.allowLocalModels = false; // fetch from HuggingFace, not localhost/models/
 
   statusEl.textContent =
     "Loading model (first visit ~7 MB, cached after)\u2026";
