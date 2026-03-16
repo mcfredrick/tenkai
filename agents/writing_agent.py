@@ -53,7 +53,7 @@ Output ONLY the markdown body (no front matter). Structure:
 - **[Title](url)** — summary.
 
 ## Today's Synthesis
-150-200 word paragraph connecting 2-3 of today's items into a concrete, engineer-actionable idea. Make it interesting."""
+150-200 word paragraph connecting 2-3 of today's items into a concrete, engineer-actionable idea. Make it interesting. When mentioning items from the sections above, use their full markdown links (e.g. **[Name](url)**) rather than just bolding the name."""
 
 
 STATIC_FALLBACKS = [
