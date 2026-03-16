@@ -243,6 +243,70 @@
     {
       "url": "https://pypi.org/project/quiver-vector-db/0.1.3/",
       "date": "2026-03-15"
+    },
+    {
+      "url": "https://github.com/langchain-ai/deepagents",
+      "date": "2026-03-16"
+    },
+    {
+      "url": "https://github.com/dimensionalOS/dimos",
+      "date": "2026-03-16"
+    },
+    {
+      "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "date": "2026-03-16"
+    },
+    {
+      "url": "https://github.com/FoundationAgents/MetaGPT",
+      "date": "2026-03-16"
+    },
+    {
+      "url": "https://github.com/Blaizzy/mlx-audio",
+      "date": "2026-03-16"
+    },
+    {
+      "url": "https://huggingface.co/addlabsviral/FLUX.2-klein-9B",
+      "date": "2026-03-16"
+    },
+    {
+      "url": "https://huggingface.co/ferrazzipietro/ULS-MultiClinNERsv-Mistral-7B-v0.1-procedure",
+      "date": "2026-03-16"
+    },
+    {
+      "url": "https://huggingface.co/JANGQ-AI/Qwen3.5-35B-A3B-JANG_2L",
+      "date": "2026-03-16"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=35083093",
+      "date": "2026-03-16"
+    },
+    {
+      "url": "https://pypi.org/project/haystack-ai/2.26.0.dev20260316000623/",
+      "date": "2026-03-16"
+    },
+    {
+      "url": "https://pypi.org/project/bighub-openai/3.0.1/",
+      "date": "2026-03-16"
+    },
+    {
+      "url": "https://pypi.org/project/bighub/3.0.1/",
+      "date": "2026-03-16"
+    },
+    {
+      "url": "https://pypi.org/project/geood/0.1.0/",
+      "date": "2026-03-16"
+    },
+    {
+      "url": "https://pypi.org/project/earlyai-agent/0.4.0/",
+      "date": "2026-03-16"
+    },
+    {
+      "url": "https://pypi.org/project/shadowdance/0.4.0/",
+      "date": "2026-03-16"
+    },
+    {
+      "url": "https://pypi.org/project/plutus-ai/0.3.77/",
+      "date": "2026-03-16"
     }
   ]
 }
