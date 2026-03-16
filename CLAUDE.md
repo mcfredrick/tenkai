@@ -28,6 +28,13 @@ Tenkai is an autonomous daily AI news blog hosted on GitHub Pages from this repo
 - Never mix refactors with features in the same PR
 - PR descriptions are mandatory — explain intent, highlight key areas, note non-obvious decisions
 
+## UI & Theme Standards
+
+- **All UI elements must use CSS variables** — never hardcode colors, backgrounds, or borders. Use `var(--text)`, `var(--accent)`, `var(--surface)`, `var(--border)`, `var(--muted)`, `var(--dim)`, `var(--glow)` etc.
+- **Test both themes** — any new UI feature must be verified in both dark and light mode before shipping.
+- **No inline styles with static values** — Hugo syntax highlighting must use `noClasses = false` (class-based) so the theme controls colors, not the highlighter.
+- **Interactive states** — hover, active, and focus states should use `var(--accent)` and `var(--glow)` to match the existing pattern.
+
 ## Code Quality Standards
 
 ### Comments

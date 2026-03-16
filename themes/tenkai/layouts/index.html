@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="home-header">
   <h1>{{ .Site.Title }}</h1>
-  <p class="tagline">{{ .Site.Params.description }}</p>
+  <p class="tagline">{{ .Site.Params.description }} — <a href="{{ "mcp/" | relURL }}">try our MCP server</a></p>
 </div>
 <div class="post-list">
   {{ range first 20 .Site.RegularPages }}

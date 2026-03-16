@@ -1,0 +1,30 @@
+{
+  "mcpId": "io.github.mcfredrick/tenkai-mcp",
+  "name": "tenkai-mcp",
+  "description": "Search Tenkai Daily AI news for open-source releases, papers, and tools. Updated daily.",
+  "license": "MIT",
+  "homepage": "https://tenkai.blog/mcp/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcfredrick/tenkai"
+  },
+  "npm": {
+    "package": "tenkai-mcp",
+    "version": "1.0.1"
+  },
+  "runtimes": ["node"],
+  "tools": [
+    {
+      "name": "search_posts",
+      "description": "Search Tenkai Daily AI news by keyword — finds releases, papers, and tutorials"
+    },
+    {
+      "name": "get_recent_posts",
+      "description": "Get the most recent Tenkai Daily posts"
+    },
+    {
+      "name": "list_tags",
+      "description": "List all topic tags in the index"
+    }
+  ]
+}

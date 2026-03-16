@@ -1,0 +1,32 @@
+{
+  "name": "tenkai-mcp",
+  "version": "1.0.1",
+  "description": "MCP server for searching Tenkai Daily AI news — find open-source releases, papers, and tools for your projects",
+  "type": "module",
+  "bin": {
+    "tenkai-mcp": "./index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.15.0",
+    "zod": "^3.23.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "ai",
+    "llm",
+    "open-source",
+    "search",
+    "news"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcfredrick/tenkai"
+  }
+}

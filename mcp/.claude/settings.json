@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "tenkai": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "tenkai-mcp"
+      ]
+    }
+  }
+}

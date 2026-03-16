@@ -17,4 +17,4 @@ paginate = 20
 
 [markup]
   [markup.highlight]
-    style = "github"
+    noClasses = false
