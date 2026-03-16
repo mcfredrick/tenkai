@@ -7,3 +7,5 @@ __pycache__/
 *.local
 mcp/node_modules/
 mcp/package-lock.json
+mcp/.mcp.json
+mcp/.claude/
