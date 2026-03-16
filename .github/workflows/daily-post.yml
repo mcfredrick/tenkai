@@ -60,13 +60,23 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: python agents/writing_agent.py
 
-      - name: Commit post and seen.json
+      - name: Cache fastembed model
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/fastembed
+          key: fastembed-bge-small-en-v1.5
+
+      - name: Build search index
+        if: env.SKIP_AGENTS != 'true'
+        run: python agents/build_index.py
+
+      - name: Commit post, seen.json, and search index
         if: env.SKIP_AGENTS != 'true'
         run: |
           git config user.name "tenkai-bot"
           git config user.email "tenkai-bot@users.noreply.github.com"
           POST="content/posts/$(date -u +%Y-%m-%d).md"
-          git add "$POST" agents/seen.json
+          git add "$POST" agents/seen.json static/search-index.json
           git commit -m "post: $(date -u +%Y-%m-%d) daily digest [skip ci]"
           git push
 
