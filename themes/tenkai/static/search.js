@@ -76,30 +76,23 @@ function renderResults(results, container) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  const form = document.getElementById("search-form");
-  const input = document.getElementById("search-input");
   const results = document.getElementById("search-results");
   const status = document.getElementById("search-status");
-  if (!form) return;
+  if (!results) return; // not on search results page
 
-  // Pre-fill from ?q= query string
   const q = new URLSearchParams(window.location.search).get("q");
-  if (q) {
-    input.value = q;
-    runSearch(q);
-  }
 
-  form.addEventListener("submit", (e) => {
-    e.preventDefault();
-    const query = input.value.trim();
-    if (query) runSearch(query);
-  });
+  // Keep nav input in sync with the current query
+  const navInput = document.querySelector(".nav-search input");
+  if (navInput && q) navInput.value = q;
+
+  if (q) runSearch(q);
 
   async function runSearch(query) {
     results.innerHTML = "";
     try {
       const hits = await search(query, status);
-      status.textContent = `${hits.length} result${hits.length !== 1 ? "s" : ""}`;
+      status.textContent = `${hits.length} result${hits.length !== 1 ? "s" : ""} for "${query}"`;
       renderResults(hits, results);
     } catch (err) {
       status.textContent = "Search failed — check console.";
