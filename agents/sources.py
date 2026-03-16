@@ -179,13 +179,83 @@ def pypi_updates() -> list[dict]:
     return results
 
 
+def hacker_news_devtools() -> list[dict]:
+    """Fetch HN threads about agentic coding assistants and AI dev tools."""
+    r = _get(
+        "https://hn.algolia.com/api/v1/search",
+        params={
+            "tags": "story",
+            "query": "cursor aider cline claude code assistant IDE plugin agentic coding",
+            "numericFilters": "points>30",
+            "hitsPerPage": 20,
+        },
+    )
+    if not r:
+        return []
+
+    results = []
+    for hit in r.json().get("hits", []):
+        results.append({
+            "title": hit.get("title", ""),
+            "url": hit.get("url") or f"https://news.ycombinator.com/item?id={hit.get('objectID')}",
+            "text": f"Points: {hit.get('points', 0)}, Comments: {hit.get('num_comments', 0)}",
+        })
+    return results
+
+
+def _fetch_reddit(subreddit: str, limit: int = 25) -> list[dict]:
+    r = _get(f"https://www.reddit.com/r/{subreddit}/hot.json?limit={limit}")
+    if not r:
+        return []
+    results = []
+    for child in r.json().get("data", {}).get("children", []):
+        post = child.get("data", {})
+        results.append({
+            "title": post.get("title", ""),
+            "url": post.get("url", ""),
+            "text": f"Score: {post.get('score', 0)}. {post.get('selftext', '')[:500]}",
+        })
+    return results
+
+
+def reddit_claudeai() -> list[dict]:
+    """Fetch hot posts from r/ClaudeAI."""
+    return _fetch_reddit("ClaudeAI")
+
+
+def reddit_cursor() -> list[dict]:
+    """Fetch hot posts from r/cursor."""
+    return _fetch_reddit("cursor")
+
+
+def reddit_vibecoding() -> list[dict]:
+    """Fetch hot posts from r/vibecoding."""
+    return _fetch_reddit("vibecoding")
+
+
+def reddit_ai_agents() -> list[dict]:
+    """Fetch hot posts from r/AI_Agents."""
+    return _fetch_reddit("AI_Agents")
+
+
+def reddit_anthropic() -> list[dict]:
+    """Fetch hot posts from r/Anthropic."""
+    return _fetch_reddit("Anthropic")
+
+
 ALL_SOURCES: dict[str, Any] = {
     "github_trending": github_trending,
     "huggingface_releases": huggingface_new_models,
     "papers": papers_with_code,
     "arxiv": arxiv_feeds,
     "hn_threads": hacker_news,
+    "hn_devtools": hacker_news_devtools,
     "reddit_llama": reddit_localllama,
     "reddit_ml": reddit_ml,
+    "reddit_claudeai": reddit_claudeai,
+    "reddit_cursor": reddit_cursor,
+    "reddit_vibecoding": reddit_vibecoding,
+    "reddit_ai_agents": reddit_ai_agents,
+    "reddit_anthropic": reddit_anthropic,
     "pypi_updates": pypi_updates,
 }
