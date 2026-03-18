@@ -29,11 +29,10 @@ def _get(url: str, **kwargs) -> httpx.Response | None:
         return None
 
 
-def github_trending() -> list[dict]:
-    """Scrape GitHub trending Python repos."""
+def _scrape_github_trending(language: str) -> list[dict]:
     from bs4 import BeautifulSoup
 
-    r = _get("https://github.com/trending/python?since=daily")
+    r = _get(f"https://github.com/trending/{language}?since=daily")
     if not r:
         return []
 
@@ -54,11 +53,16 @@ def github_trending() -> list[dict]:
     return results
 
 
+def github_trending() -> list[dict]:
+    """Scrape GitHub trending Python and TypeScript repos."""
+    return _scrape_github_trending("python") + _scrape_github_trending("typescript")
+
+
 def huggingface_new_models() -> list[dict]:
-    """Fetch recently created HuggingFace models."""
+    """Fetch trending HuggingFace models by likes."""
     r = _get(
         "https://huggingface.co/api/models",
-        params={"sort": "createdAt", "direction": -1, "limit": 20},
+        params={"sort": "likes7d", "direction": -1, "limit": 20},
     )
     if not r:
         return []
@@ -179,28 +183,36 @@ def pypi_updates() -> list[dict]:
     return results
 
 
-def hacker_news_devtools() -> list[dict]:
-    """Fetch HN threads about agentic coding assistants and AI dev tools."""
+def _hn_search(query: str, min_points: int = 30, limit: int = 15) -> list[dict]:
     r = _get(
         "https://hn.algolia.com/api/v1/search",
         params={
             "tags": "story",
-            "query": "cursor aider cline claude code assistant IDE plugin agentic coding",
-            "numericFilters": "points>30",
-            "hitsPerPage": 20,
+            "query": query,
+            "numericFilters": f"points>{min_points}",
+            "hitsPerPage": limit,
         },
     )
     if not r:
         return []
-
-    results = []
-    for hit in r.json().get("hits", []):
-        results.append({
+    return [
+        {
             "title": hit.get("title", ""),
             "url": hit.get("url") or f"https://news.ycombinator.com/item?id={hit.get('objectID')}",
             "text": f"Points: {hit.get('points', 0)}, Comments: {hit.get('num_comments', 0)}",
-        })
-    return results
+        }
+        for hit in r.json().get("hits", [])
+    ]
+
+
+def hacker_news_devtools() -> list[dict]:
+    """Fetch HN threads about agentic coding assistants and AI dev tools."""
+    return _hn_search("claude code cursor windsurf")
+
+
+def hacker_news_mcp() -> list[dict]:
+    """Fetch HN threads about MCP and the model context protocol ecosystem."""
+    return _hn_search("MCP model context protocol")
 
 
 def _fetch_reddit(subreddit: str, limit: int = 25) -> list[dict]:
@@ -243,6 +255,27 @@ def reddit_anthropic() -> list[dict]:
     return _fetch_reddit("Anthropic")
 
 
+def github_ai_tool_releases() -> list[dict]:
+    """Fetch recent releases from key AI dev tool repos via GitHub Atom feeds."""
+    repos = [
+        "anthropics/claude-code",
+        "block/goose",
+        "modelcontextprotocol/servers",
+        "continuedev/continue",
+        "paul-gauthier/aider",
+    ]
+    results = []
+    for repo in repos:
+        feed = feedparser.parse(f"https://github.com/{repo}/releases.atom")
+        for entry in feed.entries[:3]:
+            results.append({
+                "title": f"{repo}: {entry.get('title', '')}",
+                "url": entry.get("link", ""),
+                "text": entry.get("summary", "")[:400],
+            })
+    return results
+
+
 ALL_SOURCES: dict[str, Any] = {
     "github_trending": github_trending,
     "huggingface_releases": huggingface_new_models,
@@ -257,5 +290,7 @@ ALL_SOURCES: dict[str, Any] = {
     "reddit_vibecoding": reddit_vibecoding,
     "reddit_ai_agents": reddit_ai_agents,
     "reddit_anthropic": reddit_anthropic,
+    "hn_mcp": hacker_news_mcp,
+    "github_tool_releases": github_ai_tool_releases,
     "pypi_updates": pypi_updates,
 }
