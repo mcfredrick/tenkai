@@ -699,6 +699,162 @@
     {
       "url": "https://pypi.org/project/delfhos/0.4.2.1/",
       "date": "2026-03-17"
+    },
+    {
+      "url": "https://huggingface.co/Sirius518/sft_qwen3_8b_base_openthoughs400k_fixed_lr5e8_1223_0517",
+      "date": "2026-03-18"
+    },
+    {
+      "url": "https://huggingface.co/armand0e/Omnicoder-9B-Opus-Distill",
+      "date": "2026-03-18"
+    },
+    {
+      "url": "https://huggingface.co/zclfe/ppr_dpo_qwen_process_step3",
+      "date": "2026-03-18"
+    },
+    {
+      "url": "https://huggingface.co/armand0e/Omnicoder-9B-Opus-Distill-LoRA",
+      "date": "2026-03-18"
+    },
+    {
+      "url": "https://huggingface.co/mradermacher/Nexus-Quark-L2.5.28-GGUF",
+      "date": "2026-03-18"
+    },
+    {
+      "url": "https://huggingface.co/alearn2/rft_alfworld_9b_4b_epoch1",
+      "date": "2026-03-18"
+    },
+    {
+      "url": "https://huggingface.co/LongshenOu/phrase-ldm-64d-fixslot-uncond",
+      "date": "2026-03-18"
+    },
+    {
+      "url": "https://huggingface.co/amps93/qwen3-tts-finetune-korean-woman-v4-epoch-9",
+      "date": "2026-03-18"
+    },
+    {
+      "url": "https://huggingface.co/living-box/gemma-2-2b-it-alpaca-cleaned-SFT-PKU-SafeRLHF-NashMD-lora256-0318010237-epoch-6",
+      "date": "2026-03-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.15633",
+      "date": "2026-03-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.15634",
+      "date": "2026-03-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.15641",
+      "date": "2026-03-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.15642",
+      "date": "2026-03-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.15658",
+      "date": "2026-03-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.15661",
+      "date": "2026-03-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.15665",
+      "date": "2026-03-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.15666",
+      "date": "2026-03-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.15670",
+      "date": "2026-03-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.15674",
+      "date": "2026-03-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.15644",
+      "date": "2026-03-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.15645",
+      "date": "2026-03-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.15647",
+      "date": "2026-03-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.15650",
+      "date": "2026-03-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.15651",
+      "date": "2026-03-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.15654",
+      "date": "2026-03-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.15655",
+      "date": "2026-03-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.15656",
+      "date": "2026-03-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.15678",
+      "date": "2026-03-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.15681",
+      "date": "2026-03-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.15687",
+      "date": "2026-03-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.15689",
+      "date": "2026-03-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.15696",
+      "date": "2026-03-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.15708",
+      "date": "2026-03-18"
+    },
+    {
+      "url": "https://pypi.org/project/django-cfg/2.0.5/",
+      "date": "2026-03-18"
+    },
+    {
+      "url": "https://pypi.org/project/markdrop/4.0.2/",
+      "date": "2026-03-18"
+    },
+    {
+      "url": "https://pypi.org/project/edgeforge/0.1.2/",
+      "date": "2026-03-18"
+    },
+    {
+      "url": "https://pypi.org/project/langchain-githubcopilot-chat/0.2.0/",
+      "date": "2026-03-18"
+    },
+    {
+      "url": "https://pypi.org/project/stablestack/0.3.16/",
+      "date": "2026-03-18"
+    },
+    {
+      "url": "https://pypi.org/project/codecoverage-cli/0.2.0/",
+      "date": "2026-03-18"
     }
   ]
 }
