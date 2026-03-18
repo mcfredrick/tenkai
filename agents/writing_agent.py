@@ -34,6 +34,7 @@ Content rules:
 - Synthesis section: connect 2-3 of today's items into something actually useful. Be specific — vague "synergies" are a war crime
 - Only emit sections where you have real content
 - No closing remarks, sign-offs, or "that's a wrap!"
+- Never mention where an item was found (no "via HN", "trending on GitHub", "from Smithery", etc.)
 
 Output ONLY the markdown body (no front matter). Structure:
 
@@ -44,6 +45,10 @@ Output ONLY the markdown body (no front matter). Structure:
 - **[Title](url)** — summary.
 
 ## AI Dev Tools
+- **[Name](url)** — summary.
+
+## MCP Servers & Integrations
+Max 2-3 bullets.
 - **[Name](url)** — summary.
 
 ## Community Finds

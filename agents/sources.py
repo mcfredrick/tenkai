@@ -181,6 +181,27 @@ def hacker_news_mcp() -> list[dict]:
     return _hn_search("MCP model context protocol")
 
 
+def smithery_trending() -> list[dict]:
+    """Fetch top MCP servers by install count. Capped at 10 to avoid flooding the post."""
+    r = _get("https://registry.smithery.ai/servers", params={"pageSize": 50})
+    if not r:
+        return []
+
+    results = []
+    for server in r.json().get("servers", []):
+        use_count = server.get("useCount", 0)
+        if use_count < 500:
+            continue
+        name = server.get("displayName") or server.get("qualifiedName", "")
+        url = server.get("homepage") or f"https://smithery.ai/server/{server.get('qualifiedName', '')}"
+        results.append({
+            "title": name,
+            "url": url,
+            "text": f"Installs: {use_count:,}. {server.get('description', '')}",
+        })
+    return results[:10]
+
+
 def github_ai_tool_releases() -> list[dict]:
     """Fetch recent releases from key AI dev tool repos via GitHub Atom feeds."""
     repos = [
@@ -210,6 +231,7 @@ ALL_SOURCES: dict[str, Any] = {
     "hn_threads": hacker_news,
     "hn_devtools": hacker_news_devtools,
     "hn_mcp": hacker_news_mcp,
+    "smithery_mcp": smithery_trending,
     "github_tool_releases": github_ai_tool_releases,
     "pypi_updates": pypi_updates,
 }
