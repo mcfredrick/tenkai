@@ -855,6 +855,282 @@
     {
       "url": "https://pypi.org/project/codecoverage-cli/0.2.0/",
       "date": "2026-03-18"
+    },
+    {
+      "url": "https://github.com/unslothai/unsloth",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://github.com/newton-physics/newton",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://github.com/langchain-ai/open-swe",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://github.com/roboflow/trackers",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://github.com/coleam00/context-engineering-intro",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://github.com/resemble-ai/chatterbox",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://github.com/PostHog/posthog",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://github.com/1Panel-dev/MaxKB",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://github.com/pyodide/pyodide",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://github.com/plastic-labs/honcho",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://github.com/letta-ai/letta-code",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://github.com/shareAI-lab/learn-claude-code",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://github.com/YishenTu/claudian",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://github.com/FlorianBruniaux/claude-code-ultimate-guide",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://github.com/AykutSarac/jsoncrack.com",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://huggingface.co/fishaudio/s2-pro",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://huggingface.co/Tesslate/OmniCoder-9B",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://huggingface.co/Lightricks/LTX-2.3",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://huggingface.co/HumeAI/tada-1b",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://huggingface.co/RoyalCities/Foundation-1",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://huggingface.co/Tesslate/OmniCoder-9B-GGUF",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.17112",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.17233",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.17244",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.17305",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.17310",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.17319",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.17368",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.16901",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.16917",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.16929",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.17052",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://github.com/MeisnerDan/mission-control",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://memex.tech",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://mcpdefender.com",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://github.com/Operative-Sh/web-eval-agent",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://github.com/hyperbrowserai/mcp",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://www.npmjs.com/package/@joseairosa/recall",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://github.com/stuzero/pg-mcp",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://blender-mcp-psi.vercel.app/",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://github.com/lastmile-ai/mcp-agent",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://norahsakal.com/blog/mcp-vs-api-model-context-protocol-explained/",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://github.com/lharries/whatsapp-mcp",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://github.com/jlumbroso/passage-of-time-mcp",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://www.stephendiehl.com/posts/computer_algebra_mcp/",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://smithery.ai/servers/upstash/context7-mcp",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://smithery.ai/servers/exa",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://smithery.ai/servers/LinkupPlatform/linkup-mcp-server",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://smithery.ai/servers/browserbasehq/mcp-browserbase",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://smithery.ai/servers/Supabase",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.79",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.78",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.77",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://github.com/block/goose/releases/tag/v1.28.0",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.1.26",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.1.14",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2025.12.18",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://pypi.org/project/attune-ai/5.1.0/",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://pypi.org/project/ai-agent-proxy/1.0.0/",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://pypi.org/project/devsper/2.1.7/",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://pypi.org/project/agent-recipes/0.0.14/",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://pypi.org/project/llamphouse/1.2.2/",
+      "date": "2026-03-19"
+    },
+    {
+      "url": "https://pypi.org/project/thinkhive/4.2.0/",
+      "date": "2026-03-19"
     }
   ]
 }
