@@ -1,6 +1,6 @@
 {
   "name": "tenkai-mcp",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "MCP server for searching Tenkai Daily AI news — find open-source releases, papers, and tools for your projects",
   "type": "module",
   "bin": {

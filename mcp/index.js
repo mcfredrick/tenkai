@@ -122,7 +122,7 @@ async function hybridSearch(posts, query, limit) {
     }))
     .sort((a, b) => b.score - a.score)
     .slice(0, limit)
-    .map(({ post }) => formatPost(post));
+    .map(({ post }) => formatPost(post, { terms }));
 }
 
 function keywordSearch(posts, terms, limit) {
@@ -131,17 +131,34 @@ function keywordSearch(posts, terms, limit) {
     .filter(({ score }) => score > 0)
     .sort((a, b) => b.score - a.score || b.post.date.localeCompare(a.post.date))
     .slice(0, limit)
-    .map(({ post }) => formatPost(post));
+    .map(({ post }) => formatPost(post, { terms }));
 }
 
-function formatPost(post, { snippet = true } = {}) {
+function contextualSnippet(body, terms, windowSize = 300) {
+  if (!body || !terms?.length) return null;
+  const lower = body.toLowerCase();
+  let earliest = Infinity;
+  for (const term of terms) {
+    const idx = lower.indexOf(term);
+    if (idx !== -1 && idx < earliest) earliest = idx;
+  }
+  if (earliest === Infinity) return null;
+  const start = Math.max(0, earliest - 80);
+  const end = Math.min(body.length, start + windowSize);
+  return (start > 0 ? '…' : '') + body.slice(start, end).trim() + (end < body.length ? '…' : '');
+}
+
+function formatPost(post, { snippet = true, terms = null } = {}) {
   const lines = [
     `**${post.title}** (${post.date})`,
     post.description,
     `URL: ${BASE_URL}${post.url}`,
     `Tags: ${(post.tags ?? []).join(', ')}`,
   ];
-  if (snippet && post.snippet) lines.push('', post.snippet);
+  if (snippet) {
+    const excerpt = contextualSnippet(post.body, terms) ?? post.snippet;
+    if (excerpt) lines.push('', excerpt);
+  }
   return lines.join('\n');
 }
 
