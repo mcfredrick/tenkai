@@ -3,6 +3,7 @@
 
 import json
 import os
+import re
 import sys
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
@@ -140,6 +141,43 @@ def call_llm(content: str, preferred_model: str) -> str:
     raise RuntimeError("All writing models exhausted")
 
 
+def clean_post_body(body: str) -> str:
+    """Deduplicate URLs across sections and remove empty/None sections."""
+    sections = re.split(r'(?=^## )', body, flags=re.MULTILINE)
+    seen_urls: set[str] = set()
+    cleaned: list[str] = []
+
+    for section in sections:
+        if not section.strip():
+            continue
+
+        lines = section.splitlines(keepends=True)
+        header = lines[0]
+
+        if not header.startswith("## "):
+            cleaned.append(section)
+            continue
+
+        kept: list[str] = []
+        for line in lines[1:]:
+            url_match = re.search(r'\]\((https?://[^)]+)\)', line)
+            if url_match:
+                url = url_match.group(1)
+                if url in seen_urls:
+                    continue
+                seen_urls.add(url)
+            kept.append(line)
+
+        # Drop section if nothing meaningful remains
+        meaningful = [l for l in kept if l.strip() and l.strip().lower() != "none."]
+        if not meaningful:
+            continue
+
+        cleaned.append(header + "".join(kept))
+
+    return "".join(cleaned).strip()
+
+
 def collect_all_items(research: dict) -> list[dict]:
     items = []
     for key, value in research.items():
@@ -233,7 +271,7 @@ def main() -> None:
 
     print(f"Writing post from {len(all_items)} items...", file=sys.stderr)
     writing_prompt = build_writing_prompt(research)
-    body = call_llm(writing_prompt, model)
+    body = clean_post_body(call_llm(writing_prompt, model))
 
     # Build front matter
     post_date_fmt = datetime.strptime(post_date, "%Y-%m-%d").strftime("%B %-d, %Y")
