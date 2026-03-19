@@ -90,6 +90,33 @@ def call_llm(content: str, model: str, retries: int = 3) -> list[dict]:
     return []
 
 
+import re as _re
+
+# Word-boundary pattern prevents "cli" from matching "client", etc.
+# fine-tun prefix catches fine-tuning/fine-tune without a trailing boundary.
+_DEV_TOOL_PATTERN = _re.compile(
+    r"\b(?:framework|platform|agents?|sdk|cli|toolkit)\b|fine-tun\w*",
+    _re.IGNORECASE,
+)
+
+
+def recategorize(item: dict) -> dict:
+    """Override LLM-assigned category using URL patterns and keywords."""
+    url = item.get("url", "").lower()
+    text = item.get("title", "") + " " + item.get("summary", "")
+
+    if "huggingface.co/" in url:
+        return {**item, "category": "model"}
+    if "arxiv.org/" in url or "openreview.net/" in url:
+        return {**item, "category": "paper"}
+    if "smithery.ai/servers/" in url:
+        return {**item, "category": "mcp"}
+    if "github.com/" in url and _DEV_TOOL_PATTERN.search(text):
+        return {**item, "category": "dev-tool"}
+
+    return item
+
+
 def is_business_news(item: dict) -> bool:
     text = (item.get("title", "") + " " + item.get("summary", "")).lower()
     return any(kw in text for kw in BUSINESS_KEYWORDS)
@@ -138,12 +165,16 @@ def main() -> None:
         prompt = build_prompt_for_source(source_name, items)
         extracted = call_llm(prompt, model)
 
-        # Filter seen URLs and business news
-        filtered = [
-            item for item in extracted
-            if item.get("url") not in seen_urls
-            and not is_business_news(item)
-        ]
+        # Filter seen URLs and business news, then apply deterministic recategorization
+        filtered = []
+        for item in extracted:
+            if item.get("url") in seen_urls or is_business_news(item):
+                continue
+            try:
+                item = recategorize(item)
+            except Exception as e:
+                print(f"  recategorize failed for {item.get('url', '?')}: {e}", file=sys.stderr)
+            filtered.append(item)
         results[source_name] = filtered
         print(f"  {len(filtered)} items after filtering", file=sys.stderr)
 

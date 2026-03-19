@@ -28,38 +28,16 @@ Voice & tone:
 - Dry wit is welcome; eye-rolls at obvious hype are encouraged
 - Still technically precise — fun doesn't mean shallow
 - Never use: "exciting", "groundbreaking", "revolutionary", "game-changing", "impressive", "delve", "unleash", "leverage"
-- Write like you're texting a colleague who will immediately call you out if you're being boring or vague
 
 Content rules:
+- Items are pre-organized into sections — write them in the order given, do not reorganize
 - Each bullet: **[Name](url)** — 1-2 sentences. What it is, why an engineer might care (or why they might not)
-- Synthesis section: connect 2-3 of today's items into something actually useful. Be specific — vague "synergies" are a war crime
-- Only include sections that have actual items. If a section has nothing, omit it entirely — no empty headers.
-- No closing remarks, sign-offs, or "that's a wrap!"
-- Never mention where an item was found (no "via HN", "trending on GitHub", "from Smithery", etc.)
+- Only write sections that have items in the input. No empty sections, no "None."
+- Synthesis: connect 2-3 of today's items into something engineer-actionable. Be specific — vague "synergies" are a war crime
+- No closing remarks or sign-offs
+- Never mention where an item was found
 
-Output ONLY the markdown body (no front matter). Structure:
-
-## Open Source Releases
-- **[Name](url)** — summary.
-
-## Research Worth Reading
-- **[Title](url)** — summary.
-
-## AI Dev Tools
-- **[Name](url)** — summary.
-
-## MCP Servers & Integrations
-Max 2-3 bullets.
-- **[Name](url)** — summary.
-
-## Community Finds
-- **[Topic](url)** — summary.
-
-## Tutorials & Guides
-- **[Title](url)** — summary.
-
-## Today's Synthesis
-150-200 word paragraph connecting 2-3 of today's items into a concrete, engineer-actionable idea. Make it interesting. When mentioning items from the sections above, use their full markdown links (e.g. **[Name](url)**) rather than just bolding the name."""
+Output ONLY the markdown body (no front matter). For Today's Synthesis, use full markdown links when referencing items."""
 
 
 STATIC_FALLBACKS = [
@@ -178,6 +156,19 @@ def clean_post_body(body: str) -> str:
     return "".join(cleaned).strip()
 
 
+SECTION_ORDER = [
+    ("model",      "Model Releases"),
+    ("release",    "Open Source Releases"),
+    ("paper",      "Research Worth Reading"),
+    ("dev-tool",   "AI Dev Tools"),
+    ("mcp",        "MCP Servers & Integrations"),
+    ("discussion", "Community Finds"),
+    ("tutorial",   "Tutorials & Guides"),
+]
+
+_KNOWN_CATEGORIES = {cat for cat, _ in SECTION_ORDER}
+
+
 def collect_all_items(research: dict) -> list[dict]:
     items = []
     for key, value in research.items():
@@ -186,36 +177,66 @@ def collect_all_items(research: dict) -> list[dict]:
     return items
 
 
-def build_writing_prompt(research: dict) -> str:
-    # Collect all items, sort by relevance, cap to MAX_ITEMS_IN_PROMPT
+def _collect_sorted_items(research: dict) -> list[dict]:
     all_items = []
-    for source, items in research.items():
-        if isinstance(items, list):
-            for item in items:
-                all_items.append((source, item))
+    for value in research.values():
+        if isinstance(value, list):
+            all_items.extend(value)
+    all_items.sort(key=lambda x: x.get("relevance_score", 0), reverse=True)
+    return all_items[:MAX_ITEMS_IN_PROMPT]
 
-    all_items.sort(key=lambda x: x[1].get("relevance_score", 0), reverse=True)
-    top_items = all_items[:MAX_ITEMS_IN_PROMPT]
 
-    lines = [f"Top {len(top_items)} items by relevance:\n"]
-    for source, item in top_items:
+def _flat_prompt(items: list[dict]) -> str:
+    lines = [f"{len(items)} items (write into appropriate sections):\n"]
+    for item in items:
         lines.append(
-            f"- [{item.get('title', '')}]({item.get('url', '')})\n"
-            f"  Source: {source} | Category: {item.get('category', 'unknown')} | "
-            f"Relevance: {item.get('relevance_score', 0)}/10\n"
-            f"  Summary: {item.get('summary', '')[:300]}"
+            f"- [{item.get('title', '')}]({item.get('url', '')}) — "
+            f"{item.get('summary', '')[:300]}"
         )
+    lines.append("\n## Today's Synthesis")
+    lines.append("150-200 words connecting 2-3 items into a concrete engineer-actionable idea.")
     return "\n".join(lines)
+
+
+def build_writing_prompt(research: dict) -> str:
+    try:
+        items = _collect_sorted_items(research)
+        groups: dict[str, list[dict]] = {}
+        for item in items:
+            cat = item.get("category", "release")
+            if cat not in _KNOWN_CATEGORIES:
+                cat = "release"
+            groups.setdefault(cat, []).append(item)
+
+        lines = ["Items are pre-organized by section. Write each section in the order shown.\n"]
+        for cat, section_name in SECTION_ORDER:
+            if cat not in groups:
+                continue
+            lines.append(f"## {section_name}")
+            for item in groups[cat]:
+                lines.append(
+                    f"- [{item.get('title', '')}]({item.get('url', '')}) — "
+                    f"{item.get('summary', '')[:300]}"
+                )
+            lines.append("")
+        lines.append("## Today's Synthesis")
+        lines.append("150-200 words connecting 2-3 items into a concrete engineer-actionable idea. Use full markdown links.")
+        return "\n".join(lines)
+    except Exception as e:
+        print(f"  Prompt grouping failed, falling back to flat list: {e}", file=sys.stderr)
+        return _flat_prompt(_collect_sorted_items(research))
 
 
 def extract_tags(items: list[dict]) -> list[str]:
     categories = {item.get("category", "") for item in items}
     tag_map = {
         "release": "releases",
+        "model": "releases",
         "paper": "papers",
         "discussion": "community",
         "tutorial": "tutorials",
-        "tool": "dev-tools",
+        "dev-tool": "dev-tools",
+        "mcp": "dev-tools",
     }
     tags = ["llm", "open-source"] + [tag_map[c] for c in categories if c in tag_map]
     return sorted(set(tags))
