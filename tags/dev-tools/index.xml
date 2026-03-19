@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev-Tools on Tenkai</title><link>https://tenkai.blog/tags/dev-tools/</link><description>Recent content in Dev-Tools on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 19 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/dev-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — March 19, 2026</title><link>https://tenkai.blog/posts/2026-03-19/</link><pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-03-19/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;p>&lt;strong>&lt;a href="https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16" target="_blank" rel="noopener noreferrer">nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16&lt;/a>
+&lt;/strong> — 120B parameter MoE language model in BF16, supporting European/Asian languages with Azure deployment.&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4" target="_blank" rel="noopener noreferrer">nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4&lt;/a>
+&lt;/strong> — 8-bit NVFP4 quantized variant of Nemotron 3 Super for efficient inference.&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8" target="_blank" rel="noopener noreferrer">nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8&lt;/a>
+&lt;/strong> — FP8 precision version optimized for high-throughput inference with Azure deployment.&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled" target="_blank" rel="noopener noreferrer">Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled&lt;/a>
+&lt;/strong> — Distilled reasoning model emulating Claude 4.6 Opus capabilities for logical tasks.&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://huggingface.co/Tesslate/OmniCoder-9B" target="_blank" rel="noopener noreferrer">Tesslate/OmniCoder-9B&lt;/a>
+&lt;/strong> — Image-to-text-to-text coding agent for conversational code assistance.&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://huggingface.co/Lightricks/LTX-2.3" target="_blank" rel="noopener noreferrer">Lightricks/LTX-2.3&lt;/a>
+&lt;/strong> — Video generation suite supporting text/image/audio-to-video transformations.&lt;/p></description></item></channel></rss>
