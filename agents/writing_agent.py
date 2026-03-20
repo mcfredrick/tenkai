@@ -17,6 +17,7 @@ from holidays import get_holiday, Holiday
 OPENROUTER_API = "https://openrouter.ai/api/v1/chat/completions"
 OPENROUTER_MODELS_API = "https://openrouter.ai/api/v1/models"
 MAX_ITEMS_IN_PROMPT = 20
+MAX_ITEMS_PER_SECTION = 6
 RESEARCH_FILE = Path("/tmp/research.json")
 SEEN_FILE = Path(__file__).parent / "seen.json"
 POSTS_DIR = Path(__file__).parent.parent / "content" / "posts"
@@ -238,8 +239,6 @@ def _flat_prompt(items: list[dict]) -> str:
             f"- [{item.get('title', '')}]({item.get('url', '')}) — "
             f"{item.get('summary', '')[:300]}"
         )
-    lines.append("\n## Today's Synthesis")
-    lines.append("150-200 words connecting 2-3 items into a concrete engineer-actionable idea.")
     return "\n".join(lines)
 
 
@@ -267,18 +266,68 @@ def build_writing_prompt(research: dict, holiday: Holiday | None = None) -> str:
             if cat not in groups:
                 continue
             lines.append(f"## {section_name}")
-            for item in groups[cat]:
+            for item in groups[cat][:MAX_ITEMS_PER_SECTION]:
                 lines.append(
                     f"- [{item.get('title', '')}]({item.get('url', '')}) — "
                     f"{item.get('summary', '')[:300]}"
                 )
             lines.append("")
-        lines.append("## Today's Synthesis")
-        lines.append("150-200 words connecting 2-3 items into a concrete engineer-actionable idea. Use full markdown links.")
         return "\n".join(lines)
     except Exception as e:
         print(f"  Prompt grouping failed, falling back to flat list: {e}", file=sys.stderr)
         return _flat_prompt(_collect_sorted_items(research))
+
+
+def build_synthesis_prompt(bullets_body: str, holiday: Holiday | None = None) -> str:
+    lines = []
+    if holiday:
+        lines.append(
+            f"TODAY IS {holiday.name.upper()} {holiday.emoji}. "
+            f"Apply the holiday theme to your synthesis.\n"
+        )
+    lines.append("You have just written the following daily digest:\n")
+    lines.append(bullets_body)
+    lines.append(
+        "\nWrite the Today's Synthesis section: 150-200 words connecting 2-3 of the above "
+        "items into a concrete, engineer-actionable idea. Use full markdown links. "
+        "Output ONLY the synthesis paragraph — no ## header, no preamble."
+    )
+    return "\n".join(lines)
+
+
+def call_synthesis_llm(content: str, preferred_model: str) -> str:
+    """Call the LLM for synthesis only — any non-empty response is acceptable."""
+    api_key = os.environ["OPENROUTER_API_KEY"]
+    headers = {
+        "Authorization": f"Bearer {api_key}",
+        "HTTP-Referer": "https://github.com/mcfredrick/tenkai",
+        "X-Title": "Tenkai Writing Agent",
+    }
+
+    live_free = fetch_free_model_ids(api_key)
+    seen: set[str] = set()
+    candidates: list[str] = []
+    for m in [preferred_model] + live_free + STATIC_FALLBACKS:
+        if m not in seen:
+            seen.add(m)
+            candidates.append(m)
+
+    for candidate in candidates:
+        print(f"  Synthesis trying: {candidate}", file=sys.stderr)
+        try:
+            result = _try_model(content, candidate, headers)
+            if result is None:
+                print("  Waiting 15s before next model...", file=sys.stderr)
+                time.sleep(15)
+                continue
+            print(f"  Synthesis success: {candidate}", file=sys.stderr)
+            return result
+        except httpx.HTTPStatusError as e:
+            print(f"  {candidate} HTTP {e.response.status_code}, skipping", file=sys.stderr)
+        except Exception as e:
+            print(f"  {candidate} error: {e}, skipping", file=sys.stderr)
+
+    raise RuntimeError("All synthesis models exhausted")
 
 
 def extract_tags(items: list[dict]) -> list[str]:
@@ -351,10 +400,15 @@ def main() -> None:
 
     print(f"Writing post from {len(all_items)} items...", file=sys.stderr)
     writing_prompt = build_writing_prompt(research, holiday)
-    body = clean_post_body(call_llm(writing_prompt, model))
+    bullets_body = clean_post_body(call_llm(writing_prompt, model))
 
     if holiday and holiday.name == "April Fools' Day":
-        body = inject_april_fools_bullet(body)
+        bullets_body = inject_april_fools_bullet(bullets_body)
+
+    print("Generating synthesis...", file=sys.stderr)
+    synthesis_prompt = build_synthesis_prompt(bullets_body, holiday)
+    synthesis_text = call_synthesis_llm(synthesis_prompt, model)
+    body = bullets_body + "\n\n## Today's Synthesis\n\n" + synthesis_text
 
     # Build front matter
     post_date_fmt = post_date_obj.strftime("%B %-d, %Y")
