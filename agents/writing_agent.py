@@ -68,12 +68,12 @@ def fetch_free_model_ids(api_key: str) -> list[str]:
         return []
 
 
-def _try_model(content: str, model: str, headers: dict) -> str | None:
+def _try_model(content: str, model: str, headers: dict, system_prompt: str = SYSTEM_PROMPT) -> str | None:
     """Return text on success, None on 429 or empty content, raise on other errors."""
     payload = {
         "model": model,
         "messages": [
-            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "system", "content": system_prompt},
             {"role": "user", "content": content},
         ],
         "temperature": 0.7,
@@ -108,15 +108,7 @@ def call_llm(content: str, preferred_model: str) -> str:
         "HTTP-Referer": "https://github.com/mcfredrick/tenkai",
         "X-Title": "Tenkai Writing Agent",
     }
-
-    live_free = fetch_free_model_ids(api_key)
-    # Preferred first, then other live free models, then static fallbacks
-    seen: set[str] = set()
-    candidates: list[str] = []
-    for m in [preferred_model] + live_free + STATIC_FALLBACKS:
-        if m not in seen:
-            seen.add(m)
-            candidates.append(m)
+    candidates = _build_candidate_list(preferred_model, api_key)
 
     print(f"  Candidate models: {len(candidates)}", file=sys.stderr)
     for i, candidate in enumerate(candidates):
@@ -304,15 +296,7 @@ def call_synthesis_llm(content: str, preferred_model: str) -> str:
         "X-Title": "Tenkai Writing Agent",
     }
 
-    live_free = fetch_free_model_ids(api_key)
-    seen: set[str] = set()
-    candidates: list[str] = []
-    for m in [preferred_model] + live_free + STATIC_FALLBACKS:
-        if m not in seen:
-            seen.add(m)
-            candidates.append(m)
-
-    for candidate in candidates:
+    for candidate in _build_candidate_list(preferred_model, api_key):
         print(f"  Synthesis trying: {candidate}", file=sys.stderr)
         try:
             result = _try_model(content, candidate, headers)
@@ -328,6 +312,108 @@ def call_synthesis_llm(content: str, preferred_model: str) -> str:
             print(f"  {candidate} error: {e}, skipping", file=sys.stderr)
 
     raise RuntimeError("All synthesis models exhausted")
+
+
+QC_SYSTEM_PROMPT = """You are a quality-control editor for Tenkai, a daily AI/ML digest for senior engineers.
+
+Review the draft post and identify concrete structural or coherence issues. Be selective — a post with minor imperfections should pass. Only flag issues that genuinely hurt readability or usefulness.
+
+Flag ONLY:
+- A bullet that adds no information beyond its title (pure restatement)
+- A bullet where the description clearly contradicts or ignores what the URL points to
+- A synthesis paragraph that is vague or generic rather than engineer-actionable
+- A synthesis that doesn't reference specific items that actually appear in the post
+- Content that is visibly truncated mid-sentence
+
+Do NOT flag: tone, word choice, style, number of items, missing sections, or anything subjective.
+
+Return JSON only — no other text:
+{"approved": true, "issues": []}
+or
+{"approved": false, "issues": ["specific issue description", ...]}"""
+
+REVISION_SYSTEM_PROMPT = """You are a copy editor making targeted fixes to a daily AI/ML digest post.
+
+Apply only the changes described in the feedback. Do not reorganize sections, do not invent new items, do not alter content that wasn't flagged. Preserve all URLs exactly as written.
+
+Output ONLY the revised markdown body (no front matter, no preamble)."""
+
+
+def _build_candidate_list(preferred_model: str, api_key: str) -> list[str]:
+    live_free = fetch_free_model_ids(api_key)
+    seen: set[str] = set()
+    candidates: list[str] = []
+    for m in [preferred_model] + live_free + STATIC_FALLBACKS:
+        if m not in seen:
+            seen.add(m)
+            candidates.append(m)
+    return candidates
+
+
+def run_qc(body: str, preferred_model: str) -> list[str]:
+    """Return list of issues found. Empty list means approved. Fails open on errors."""
+    api_key = os.environ["OPENROUTER_API_KEY"]
+    headers = {
+        "Authorization": f"Bearer {api_key}",
+        "HTTP-Referer": "https://github.com/mcfredrick/tenkai",
+        "X-Title": "Tenkai QC Agent",
+    }
+    content = f"Review this post:\n\n{body}"
+
+    for candidate in _build_candidate_list(preferred_model, api_key):
+        print(f"  QC trying: {candidate}", file=sys.stderr)
+        try:
+            result = _try_model(content, candidate, headers, system_prompt=QC_SYSTEM_PROMPT)
+            if result is None:
+                time.sleep(15)
+                continue
+            # Extract JSON from response (model may wrap it in prose)
+            start, end = result.find("{"), result.rfind("}") + 1
+            if start == -1 or end == 0:
+                print("  QC: could not parse JSON, treating as approved", file=sys.stderr)
+                return []
+            data = json.loads(result[start:end])
+            issues = data.get("issues", [])
+            if data.get("approved", True) or not issues:
+                print("  QC approved", file=sys.stderr)
+                return []
+            print(f"  QC flagged {len(issues)} issue(s)", file=sys.stderr)
+            return issues
+        except Exception as e:
+            print(f"  QC {candidate} error: {e}, skipping", file=sys.stderr)
+
+    print("  QC: all models failed, treating as approved", file=sys.stderr)
+    return []
+
+
+def run_revision(body: str, issues: list[str], preferred_model: str) -> str:
+    """Apply targeted fixes. Falls back to original body if revision loses sections."""
+    api_key = os.environ["OPENROUTER_API_KEY"]
+    headers = {
+        "Authorization": f"Bearer {api_key}",
+        "HTTP-Referer": "https://github.com/mcfredrick/tenkai",
+        "X-Title": "Tenkai Revision Agent",
+    }
+    issues_text = "\n".join(f"- {issue}" for issue in issues)
+    content = f"Issues to fix:\n{issues_text}\n\nPost:\n\n{body}"
+
+    for candidate in _build_candidate_list(preferred_model, api_key):
+        print(f"  Revision trying: {candidate}", file=sys.stderr)
+        try:
+            result = _try_model(content, candidate, headers, system_prompt=REVISION_SYSTEM_PROMPT)
+            if result is None:
+                time.sleep(15)
+                continue
+            if not _has_sections(result):
+                print(f"  Revision {candidate}: response lost sections, skipping", file=sys.stderr)
+                continue
+            print(f"  Revision success: {candidate}", file=sys.stderr)
+            return result
+        except Exception as e:
+            print(f"  Revision {candidate} error: {e}, skipping", file=sys.stderr)
+
+    print("  Revision: all models failed, keeping original", file=sys.stderr)
+    return body
 
 
 def extract_tags(items: list[dict]) -> list[str]:
@@ -409,6 +495,12 @@ def main() -> None:
     synthesis_prompt = build_synthesis_prompt(bullets_body, holiday)
     synthesis_text = call_synthesis_llm(synthesis_prompt, model)
     body = bullets_body + "\n\n## Today's Synthesis\n\n" + synthesis_text
+
+    print("Running QC...", file=sys.stderr)
+    issues = run_qc(body, model)
+    if issues:
+        print(f"  Revising {len(issues)} issue(s)...", file=sys.stderr)
+        body = run_revision(body, issues, model)
 
     # Build front matter
     post_date_fmt = post_date_obj.strftime("%B %-d, %Y")
