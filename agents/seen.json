@@ -1327,6 +1327,50 @@
     {
       "url": "https://pypi.org/project/veronica-core/3.9.0/",
       "date": "2026-03-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.18329",
+      "date": "2026-03-21"
+    },
+    {
+      "url": "https://smithery.ai/servers/github",
+      "date": "2026-03-21"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.81",
+      "date": "2026-03-21"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.80",
+      "date": "2026-03-21"
+    },
+    {
+      "url": "https://pypi.org/project/stateweave/0.3.10/",
+      "date": "2026-03-21"
+    },
+    {
+      "url": "https://pypi.org/project/cdn-ai/0.4.1/",
+      "date": "2026-03-21"
+    },
+    {
+      "url": "https://pypi.org/project/rwkv-ops/0.8.0/",
+      "date": "2026-03-21"
+    },
+    {
+      "url": "https://pypi.org/project/slopcheck/0.1.0/",
+      "date": "2026-03-21"
+    },
+    {
+      "url": "https://pypi.org/project/contexthub/0.0.1/",
+      "date": "2026-03-21"
+    },
+    {
+      "url": "https://pypi.org/project/velar-sdk/0.4.11/",
+      "date": "2026-03-21"
+    },
+    {
+      "url": "https://pypi.org/project/streamlit-realtime-audio/0.0.8/",
+      "date": "2026-03-21"
     }
   ]
 }
