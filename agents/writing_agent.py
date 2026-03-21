@@ -37,11 +37,11 @@ Content rules:
 - Items are pre-organized into sections — write them in the order given, do not reorganize
 - Each bullet: **[Name](url)** — 1-2 sentences. What it is, why an engineer might care (or why they might not)
 - Only write sections that have items in the input. No empty sections, no "None."
-- Synthesis: connect 2-3 of today's items into something engineer-actionable. Be specific — vague "synergies" are a war crime
 - No closing remarks or sign-offs
 - Never mention where an item was found
+- Do NOT write a synthesis section — that is added separately
 
-Output ONLY the markdown body (no front matter). For Today's Synthesis, use full markdown links when referencing items."""
+Output ONLY the markdown body (no front matter). Do not include a "Today's Synthesis" section."""
 
 
 STATIC_FALLBACKS = [
