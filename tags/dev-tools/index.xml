@@ -19,14 +19,7 @@
 &lt;li>&lt;strong>&lt;a href="https://smithery.ai/servers/github" target="_blank" rel="noopener noreferrer">GitHub&lt;/a>
 &lt;/strong> — An MCP server that lets AI agents run Git commands, manage PRs, and hook into CI pipelines straight from prompts. Enables fully automated code collaboration without leaving the agent loop. 🔧&lt;/li>
 &lt;/ul>
-&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
-&lt;ul>
-&lt;li>Use &lt;strong>&lt;a href="https://pypi.org/project/stateweave/0.3.10/" target="_blank" rel="noopener noreferrer">stateweave&lt;/a>
-&lt;/strong> to snapshot your agent’s state before a risky experiment, then invoke &lt;strong>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.81" target="_blank" rel="noopener noreferrer">claude‑code v2.1.81&lt;/a>
-&lt;/strong> with the &lt;code>--bare&lt;/code> flag for fast, scripted prompts that bypass hooks. When the script decides a change is good, push the new state via the &lt;strong>&lt;a href="https://smithery.ai/servers/github" target="_blank" rel="noopener noreferrer">GitHub MCP server&lt;/a>
-&lt;/strong> to open a PR, letting you review and merge the agent’s modifications in a familiar Git workflow. 🤖📄🔧&lt;/li>
-&lt;/ul>
-&lt;h2 id="todays-synthesis-1">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;h2 id="todays-synthesis">Today’s Synthesis&lt;/h2>
 &lt;p>Start by checkpointing your agent’s current configuration with &lt;strong>&lt;a href="https://pypi.org/project/stateweave/0.3.10/" target="_blank" rel="noopener noreferrer">stateweave&lt;/a>
 &lt;/strong> so you can roll back any failed tweak. Then launch a sweep of prompt variations using &lt;strong>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.81" target="_blank" rel="noopener noreferrer">claude‑code v2.1.81&lt;/a>
 &lt;/strong> with the &lt;code>--bare&lt;/code> flag; this strips hooks, LSP, and plugin sync for rapid scripted &lt;code>-p&lt;/code> calls, letting you fire hundreds of iterations in a CI job without waiting for the full toolchain. While the sweep runs, you can enable &lt;strong>&lt;a href="https://pypi.org/project/cdn-ai/0.4.1/" target="_blank" rel="noopener noreferrer">cdn‑ai 0.4.1&lt;/a>
