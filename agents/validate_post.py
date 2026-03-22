@@ -44,6 +44,13 @@ def validate(path: Path) -> list[str]:
     if "## Today's Synthesis" not in body and "Today's Synthesis" not in body:
         errors.append("Missing Today's Synthesis section")
 
+    # No duplicate entry titles within the same post
+    titles = re.findall(r'\*\*\[([^\]]+)\]', body)
+    seen: set[str] = set()
+    dupes = {t for t in titles if t in seen or seen.add(t)}  # type: ignore[func-returns-value]
+    if dupes:
+        errors.append(f"Duplicate entry titles: {', '.join(sorted(dupes))}")
+
     return errors
 
 
