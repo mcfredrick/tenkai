@@ -54,10 +54,15 @@
       btn.innerHTML = ICON_LINK;
       btn.addEventListener('click', function() {
         var url = window.location.origin + window.location.pathname + '#' + slug;
-        navigator.clipboard.writeText(url).then(function() {
-          btn.classList.add('copied');
-          setTimeout(function() { btn.classList.remove('copied'); }, 1500);
-        });
+        var title = a.textContent.trim();
+        if (navigator.share) {
+          navigator.share({ url: url, title: title });
+        } else {
+          navigator.clipboard.writeText(url).then(function() {
+            btn.classList.add('copied');
+            setTimeout(function() { btn.classList.remove('copied'); }, 1500);
+          });
+        }
       });
       strong.appendChild(btn);
     });
