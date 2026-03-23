@@ -1443,6 +1443,162 @@
     {
       "url": "https://pypi.org/project/briefcase-ai/3.0.0/",
       "date": "2026-03-22"
+    },
+    {
+      "url": "https://github.com/HKUDS/LightRAG",
+      "date": "2026-03-23"
+    },
+    {
+      "url": "https://github.com/bytedance/deer-flow",
+      "date": "2026-03-23"
+    },
+    {
+      "url": "https://github.com/teng-lin/notebooklm-py",
+      "date": "2026-03-23"
+    },
+    {
+      "url": "https://github.com/home-assistant/core",
+      "date": "2026-03-23"
+    },
+    {
+      "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "date": "2026-03-23"
+    },
+    {
+      "url": "https://github.com/langchain-ai/local-deep-researcher",
+      "date": "2026-03-23"
+    },
+    {
+      "url": "https://github.com/different-ai/openwork",
+      "date": "2026-03-23"
+    },
+    {
+      "url": "https://github.com/refinedev/refine",
+      "date": "2026-03-23"
+    },
+    {
+      "url": "https://github.com/remotion-dev/remotion",
+      "date": "2026-03-23"
+    },
+    {
+      "url": "https://github.com/microsoft/aspire",
+      "date": "2026-03-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.19500",
+      "date": "2026-03-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.19514",
+      "date": "2026-03-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.19515",
+      "date": "2026-03-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.19579",
+      "date": "2026-03-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.19639",
+      "date": "2026-03-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.19685",
+      "date": "2026-03-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.19828",
+      "date": "2026-03-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.19896",
+      "date": "2026-03-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.19954",
+      "date": "2026-03-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.20046",
+      "date": "2026-03-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.19294",
+      "date": "2026-03-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.19296",
+      "date": "2026-03-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.19297",
+      "date": "2026-03-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.19302",
+      "date": "2026-03-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.19308",
+      "date": "2026-03-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.19312",
+      "date": "2026-03-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.19314",
+      "date": "2026-03-23"
+    },
+    {
+      "url": "https://artificialanalysis.ai/",
+      "date": "2026-03-23"
+    },
+    {
+      "url": "https://pypi.org/project/ai-push-hooks/0.1.11/",
+      "date": "2026-03-23"
+    },
+    {
+      "url": "https://pypi.org/project/cacheback-ai/0.1.0/",
+      "date": "2026-03-23"
+    },
+    {
+      "url": "https://pypi.org/project/memharness/1.0.0/",
+      "date": "2026-03-23"
+    },
+    {
+      "url": "https://pypi.org/project/loom-context/0.7.0/",
+      "date": "2026-03-23"
+    },
+    {
+      "url": "https://pypi.org/project/astroid/4.2.0b1/",
+      "date": "2026-03-23"
+    },
+    {
+      "url": "https://pypi.org/project/proxym/0.1.25/",
+      "date": "2026-03-23"
+    },
+    {
+      "url": "https://pypi.org/project/maia-toolkit/2.5.0/",
+      "date": "2026-03-23"
+    },
+    {
+      "url": "https://pypi.org/project/kagan/0.11.1/",
+      "date": "2026-03-23"
+    },
+    {
+      "url": "https://pypi.org/project/drako/2.2.1/",
+      "date": "2026-03-23"
+    },
+    {
+      "url": "https://pypi.org/project/harness-ai/0.1.0/",
+      "date": "2026-03-23"
+    },
+    {
+      "url": "https://pypi.org/project/ai-sdk-stream-python/0.2.0a4/",
+      "date": "2026-03-23"
     }
   ]
 }
