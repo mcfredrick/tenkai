@@ -40,10 +40,17 @@
     var ICON_LINK = '<svg viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>';
     var seenSlugs = {};
     document.querySelectorAll('.post-content p, .post-content li').forEach(function(p) {
-      var strong = p.firstElementChild;
-      if (!strong || strong.tagName !== 'STRONG') return;
-      var a = strong.firstElementChild;
-      if (!a || a.tagName !== 'A') return;
+      var first = p.firstElementChild;
+      if (!first) return;
+      // Support both **[link]()** (strong > a) and plain [link]() (a) as first child
+      var a;
+      if (first.tagName === 'STRONG' && first.firstElementChild && first.firstElementChild.tagName === 'A') {
+        a = first.firstElementChild;
+      } else if (first.tagName === 'A') {
+        a = first;
+      } else {
+        return;
+      }
       var base = a.textContent.trim().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
       seenSlugs[base] = (seenSlugs[base] || 0) + 1;
       var slug = seenSlugs[base] > 1 ? base + '-' + seenSlugs[base] : base;
@@ -64,7 +71,8 @@
           });
         }
       });
-      strong.appendChild(btn);
+      // Append button after the link (or its strong wrapper)
+      first.appendChild(btn);
     });
 
     document.getElementById('theme-toggle').addEventListener('click', function() {
