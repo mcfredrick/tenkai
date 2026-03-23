@@ -3,7 +3,8 @@
 &lt;li>&lt;a href="https://pypi.org/project/cacheback-ai/0.1.0/" target="_blank" rel="noopener noreferrer">cacheback-ai 0.1.0&lt;/a>
  — Universal semantic caching layer for AI APIs that works with text, image, and voice inputs, offering a drop‑in wrapper for OpenAI and Anthropic SDKs. It caches based on semantic similarity to cut redundant calls, lowering latency and cost. 🚀&lt;/li>
 &lt;li>&lt;a href="https://pypi.org/project/proxym/0.1.25/" target="_blank" rel="noopener noreferrer">proxym 0.1.25&lt;/a>
- — Intelligent AI proxy that routes requests across multiple LLM providers, applies semantic caching, and maintains delta context buffers to reduce token usage and improve response consistency. Includes policy‑driven load balancing, fallback mechanisms, and observability hooks. 🛠️- &lt;a href="https://pypi.org/project/drako/2.2.1/" target="_blank" rel="noopener noreferrer">drako 2.2.1&lt;/a>
+ — Intelligent AI proxy that routes requests across multiple LLM providers, applies semantic caching, and maintains delta context buffers to reduce token usage and improve response consistency. Includes policy‑driven load balancing, fallback mechanisms, and observability hooks. 🛠️&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/drako/2.2.1/" target="_blank" rel="noopener noreferrer">drako 2.2.1&lt;/a>
  — Python governance platform for AI agents that enforces over 80 policy rules, including tool interception, human‑in‑the‑loop approvals, FinOps cost controls, and vendor concentration limits. Provides deterministic execution traces and A2A communication auditing for compliance. 👮‍♂️&lt;/li>
 &lt;li>&lt;a href="https://github.com/langchain-ai/local-deep-researcher" target="_blank" rel="noopener noreferrer">local-deep-researcher&lt;/a>
  — Fully local web research and report‑writing assistant built on LangChain. Autonomously browses the web, gathers information, synthesizes findings, and generates cited reports without external APIs; stresses privacy, reproducibility, and extensibility. 🔍&lt;/li>
@@ -25,9 +26,10 @@
 &lt;li>&lt;a href="https://arxiv.org/abs/2603.19896" target="_blank" rel="noopener noreferrer">Utility-Guided Agent Orchestration for Efficient LLM Tool Use&lt;/a>
  — Studies the trade‑off between answer quality and execution cost in LLM tool‑using agents and proposes a utility‑guided orchestration mechanism that dynamically selects between fixed workflows and flexible reasoning (e.g., ReAct) based on expected utility. Estimates marginal gain of each option. ⚖️&lt;/li>
 &lt;/ul>
-&lt;h2 id="ai-dev-tools--deer-flowhttpsgithubcombytedancedeer-flow--opensource-superagent-harness-that-combines-sandboxes-memory-tools-skills-and-subagents-to-build-autonomous-agents-for-research-coding-and-creation-provides-a-modular-pipeline-for-task-decomposition-execution-and-reflection-">AI Dev Tools- &lt;a href="https://github.com/bytedance/deer-flow" target="_blank" rel="noopener noreferrer">deer-flow&lt;/a>
- — Open‑source SuperAgent harness that combines sandboxes, memory, tools, skills, and subagents to build autonomous agents for research, coding, and creation. Provides a modular pipeline for task decomposition, execution, and reflection. 🤖&lt;/h2>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
 &lt;ul>
+&lt;li>&lt;a href="https://github.com/bytedance/deer-flow" target="_blank" rel="noopener noreferrer">deer-flow&lt;/a>
+ — Open‑source SuperAgent harness that combines sandboxes, memory, tools, skills, and subagents to build autonomous agents for research, coding, and creation. Provides a modular pipeline for task decomposition, execution, and reflection. 🤖&lt;/li>
 &lt;li>&lt;a href="https://github.com/teng-lin/notebooklm-py" target="_blank" rel="noopener noreferrer">notebooklm-py&lt;/a>
  — Unofficial Python client granting programmatic access to Google NotebookLM features not exposed via the web UI. Offers a Python API, CLI bindings, and agent‑friendly interfaces for frameworks like Claude Code and Codex; users can create, query, and manage notebooks. 📓&lt;/li>
 &lt;li>&lt;a href="https://github.com/refinedev/refine" target="_blank" rel="noopener noreferrer">refine&lt;/a>
