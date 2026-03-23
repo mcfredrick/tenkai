@@ -360,6 +360,16 @@ a:hover {
 .entry-link-btn:hover svg,
 .entry-link-btn.copied svg { stroke: var(--accent); filter: drop-shadow(var(--glow)); }
 
+/* Always show share buttons on touch devices and make them tap-friendly */
+@media (hover: none) {
+  .entry-link-btn {
+    opacity: 1;
+    width: 1.2rem;
+    height: 1.2rem;
+    padding: 0.15rem;
+  }
+}
+
 /* ── Post navigation ─────────────────────────────────────── */
 .post-nav {
   display: flex;
