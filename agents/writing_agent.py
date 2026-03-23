@@ -214,8 +214,13 @@ def _normalize_formatting(body: str) -> str:
     1. Multiple bullets on one line separated by '  - ' instead of newlines.
     2. Section headers missing a space (e.g. '## Open SourceReleases').
     """
-    # Split inline bullets: '  - **[' → newline + '- **['
+    # Split inline bullets joined without a newline:
+    #   '  - **[' (bold links) or emoji immediately followed by '- ['
     body = re.sub(r'  - (\*\*\[)', r'\n- \1', body)
+    body = re.sub(r'(\S)- (\[)', r'\1\n- \2', body)
+
+    # Split first bullet crammed onto same line as section header: '## Foo- ['
+    body = re.sub(r'^(## [^\n]+?)- (\[)', r'\1\n- \2', body, flags=re.MULTILINE)
 
     # Fix merged section header words by normalizing against known names
     def _fix_header(m: re.Match) -> str:
