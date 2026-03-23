@@ -159,6 +159,7 @@ def inject_april_fools_bullet(body: str) -> str:
 
 def clean_post_body(body: str) -> str:
     """Deduplicate URLs across sections and remove empty/None sections."""
+    body = _normalize_formatting(body)
     sections = re.split(r'(?=^## )', body, flags=re.MULTILINE)
     seen_urls: set[str] = set()
     cleaned: list[str] = []
@@ -205,6 +206,27 @@ SECTION_ORDER = [
 ]
 
 _KNOWN_CATEGORIES = {cat for cat, _ in SECTION_ORDER}
+_KNOWN_SECTION_NAMES = {name for _, name in SECTION_ORDER} | {"Today's Synthesis"}
+
+
+def _normalize_formatting(body: str) -> str:
+    """Fix two common LLM formatting bugs:
+    1. Multiple bullets on one line separated by '  - ' instead of newlines.
+    2. Section headers missing a space (e.g. '## Open SourceReleases').
+    """
+    # Split inline bullets: '  - **[' → newline + '- **['
+    body = re.sub(r'  - (\*\*\[)', r'\n- \1', body)
+
+    # Fix merged section header words by normalizing against known names
+    def _fix_header(m: re.Match) -> str:
+        raw = m.group(1).strip()
+        for name in _KNOWN_SECTION_NAMES:
+            if raw.replace(" ", "").lower() == name.replace(" ", "").lower() and raw != name:
+                return f"## {name}"
+        return m.group(0)
+
+    body = re.sub(r'^## (.+)$', _fix_header, body, flags=re.MULTILINE)
+    return body
 
 
 def collect_all_items(research: dict) -> list[dict]:
