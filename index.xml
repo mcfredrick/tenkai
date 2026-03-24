@@ -1,4 +1,61 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tenkai</title><link>https://tenkai.blog/</link><description>Recent content on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 23 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — March 23, 2026</title><link>https://tenkai.blog/posts/2026-03-23/</link><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-03-23/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tenkai</title><link>https://tenkai.blog/</link><description>Recent content on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 24 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — March 24, 2026</title><link>https://tenkai.blog/posts/2026-03-24/</link><pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-03-24/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://huggingface.co/mistralai/Mistral-Small-4-119B-2603" target="_blank" rel="noopener noreferrer">mistralai/Mistral-Small-4-119B-2603&lt;/a>
+ — It&amp;rsquo;s a 119B parameter multilingual model covering many languages, with safetensors, FP8 quant, Apache‑2.0. Good if you need broad language coverage without paying for larger models.&lt;/li>
+&lt;li>&lt;a href="https://huggingface.co/Qwen/Qwen3.5-35B-A3B" target="_blank" rel="noopener noreferrer">Qwen/Qwen3.5-35B-A3B&lt;/a>
+ — MoE base model for image‑text‑to‑text and chat, safetensors, Azure‑ready, Apache‑2.0. Useful as a multimodal foundation.&lt;/li>
+&lt;li>&lt;a href="https://huggingface.co/Qwen/Qwen3.5-9B" target="_blank" rel="noopener noreferrer">Qwen/Qwen3.5-9B&lt;/a>
+ — Dense 9B base, safetensors, image‑text‑to‑text, Azure‑compatible, Apache‑2.0. Handy for fine‑tuning when you don&amp;rsquo;t need MoE overhead.&lt;/li>
+&lt;li>&lt;a href="https://huggingface.co/Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF" target="_blank" rel="noopener noreferrer">Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF&lt;/a>
+ — GGUF‑quantized distilled reasoning model from Qwen3.5‑9B, trained on Claude‑4.6 Opus CoT data, multilingual EN/ZH/KO, Apache‑2.0. Good for lightweight reasoning tasks.&lt;/li>
+&lt;li>&lt;a href="https://huggingface.co/datalab-to/chandra-ocr-2" target="_blank" rel="noopener noreferrer">datalab-to/chandra-ocr-2&lt;/a>
+ — Qwen3.5‑based OCR/layout/markdown extractor, safetensors, multilingual, OpenRAIL license. Useful if you need PDF‑to‑markdown pipelines.&lt;/li>
+&lt;li>&lt;a href="https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF" target="_blank" rel="noopener noreferrer">Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF&lt;/a>
+ — Same idea but 27B base, GGUF quant, distilled from Claude‑4.6 Opus, multilingual EN/ZH/KO, Apache‑2.0. Balances size and reasoning power.&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://pypi.org/project/awb/0.5.2/" target="_blank" rel="noopener noreferrer">awb 0.5.2&lt;/a>
+ — Benchmark harness for end‑to‑end AI coding tool performance, measures speed, correctness, integration overhead across dev environments. Supports customizable tasks.&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://arxiv.org/abs/2603.20397" target="_blank" rel="noopener noreferrer">KV Cache Optimization Strategies for Scalable and Efficient LLM Inference&lt;/a>
+ — Surveys quantization, compression, dynamic eviction for KV cache; analyzes trade‑offs; gives practical deployment guidelines.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2603.20260" target="_blank" rel="noopener noreferrer">ProMAS: Proactive Error Forecasting for Multi-Agent Systems Using Markov Transition Dynamics&lt;/a>
+ — Models agent interactions as Markov process to predict logical fallacies before they spread; improves robustness in collaborative reasoning.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2603.20285" target="_blank" rel="noopener noreferrer">AgentComm-Bench: Stress-Testing Cooperative Embodied AI Under Latency, Packet Loss, and Bandwidth Collapse&lt;/a>
+ — Benchmark suite for embodied AI under impaired comms; provides environments/metrics; shows robustness drops.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2603.20293" target="_blank" rel="noopener noreferrer">LLM-Enhanced Energy Contrastive Learning for Out-of-Distribution Detection in Text-Attributed Graphs&lt;/a>
+ — Combines LLM embeddings with energy‑based contrastive learning for OOD detection on graphs; uses textual node attributes; yields better detection.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2603.20470" target="_blank" rel="noopener noreferrer">DiffGraph: An Automated Agent-driven Model Merging Framework for In-the-Wild Text-to-Image Generation&lt;/a>
+ — Agent‑driven framework that merges online text‑to‑image diffusion models via graph optimization; resulting models cover broader generative abilities.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2603.20537" target="_blank" rel="noopener noreferrer">LLM-Driven Heuristic Synthesis for Industrial Process Control: Lessons from Hot Steel Rolling&lt;/a>
+ — Framework that iteratively proposes/refines human‑readable Python controllers for hot steel rolling using simulator feedback; yields auditable heuristics.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/tinygrad/tinygrad" target="_blank" rel="noopener noreferrer">tinygrad/tinygrad&lt;/a>
+ — Minimalist DL framework reimplementing core PyTorch with focus on simplicity; good for learning and quick prototyping.&lt;/li>
+&lt;li>&lt;a href="https://github.com/hao-ai-lab/FastVideo" target="_blank" rel="noopener noreferrer">hao-ai-lab/FastVideo&lt;/a>
+ — Unified framework for accelerated video generation, combining efficient inference with post‑training optimizations; targets text‑to‑video and video‑to‑video devs.&lt;/li>
+&lt;li>&lt;a href="https://github.com/elizaOS/eliza" target="_blank" rel="noopener noreferrer">elizaOS/eliza&lt;/a>
+ — Open‑source agent framework with modular memory, tool use, learning components; lowers barrier to building general‑purpose agents.&lt;/li>
+&lt;li>&lt;a href="https://github.com/triggerdotdev/trigger.dev" target="_blank" rel="noopener noreferrer">triggerdotdev/trigger.dev&lt;/a>
+ — Managed platform for building, deploying, scaling AI agents/workflows; handles infra, queuing, retries; lets you focus on agent logic.&lt;/li>
+&lt;li>&lt;a href="https://github.com/supermemoryai/supermemory" target="_blank" rel="noopener noreferrer">supermemoryai/supermemory&lt;/a>
+ — High‑performance scalable memory engine/API for AI apps; fast vector storage/retrieval/update; suited for long‑context agents and RAG.&lt;/li>
+&lt;/ul>
+&lt;h2 id="tutorials--guides">Tutorials &amp;amp; Guides&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/jingyaogong/minimind" target="_blank" rel="noopener noreferrer">jingyaogong/minimind&lt;/a>
+ — End‑to‑end script to train a 26M‑parameter GPT from scratch in ~2 hours, includes data prep, architecture, training loop; aimed at educators wanting hands‑on LLM training.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>Want a multilingual coding assistant that you can iterate on quickly? Start with the 119‑parameter Mistral‑Small‑4 model (&lt;a href="https://huggingface.co/mistralai/Mistral-Small-4-119B-2603" target="_blank" rel="noopener noreferrer">mistralai/Mistral-Small-4-119B-2603&lt;/a>
+) as a strong, Apache‑2.0‑licensed base that already handles dozens of languages and ships with safetensors and FP8 quantisation for cheaper inference. Wrap it in the awb benchmark harness (&lt;a href="https://pypi.org/project/awb/0.5.2/" target="_blank" rel="noopener noreferrer">awb 0.5.2&lt;/a>
+) to measure end‑to‑end speed, correctness and integration overhead across your IDE, CI pipelines and local dev boxes; the harness lets you swap in custom tasks (e.g., repo‑level docstring generation or bug‑fix synthesis) and get repeatable numbers without building a harness from scratch. While you’re tuning prompts or adapting the model, prototype changes in tinygrad (&lt;a href="https://github.com/tinygrad/tinygrad" target="_blank" rel="noopener noreferrer">tinygrad/tinygrad&lt;/a>
+) – its minimal PyTorch‑like API lets you experiment with LoRA adapters, quantisation schemes or custom loss functions in a few lines of code, then port the final weights back to the full‑size Mistral checkpoint for production evaluation. This loop gives you a concrete, low‑friction path from idea to measurable impact.&lt;/p></description></item><item><title>Tenkai Daily — March 23, 2026</title><link>https://tenkai.blog/posts/2026-03-23/</link><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-03-23/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://pypi.org/project/cacheback-ai/0.1.0/" target="_blank" rel="noopener noreferrer">cacheback-ai 0.1.0&lt;/a>
  — Universal semantic caching layer for AI APIs that works with text, image, and voice inputs, offering a drop‑in wrapper for OpenAI and Anthropic SDKs. It caches based on semantic similarity to cut redundant calls, lowering latency and cost. 🚀&lt;/li>
