@@ -1599,6 +1599,174 @@
     {
       "url": "https://pypi.org/project/ai-sdk-stream-python/0.2.0a4/",
       "date": "2026-03-23"
+    },
+    {
+      "url": "https://github.com/tinygrad/tinygrad",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://github.com/jingyaogong/minimind",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://github.com/hesreallyhim/awesome-claude-code",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://github.com/hao-ai-lab/FastVideo",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://github.com/czlonkowski/n8n-mcp",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://github.com/elizaOS/eliza",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://github.com/DayuanJiang/next-ai-draw-io",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://github.com/triggerdotdev/trigger.dev",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://github.com/supermemoryai/supermemory",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://huggingface.co/HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://huggingface.co/Qwen/Qwen3.5-9B",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://huggingface.co/Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://huggingface.co/datalab-to/chandra-ocr-2",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.20213",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.20260",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.20270",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.20285",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.20293",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.20435",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.20470",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.20537",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.20578",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.20266",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.20295",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.20296",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.20297",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.20315",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.20333",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.20339",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.20390",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.20397",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://pypi.org/project/dotmd-parser/0.2.0/",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://pypi.org/project/my-dev-team/0.6.1/",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://pypi.org/project/agethos/0.1.0/",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://pypi.org/project/conexus/2.4.1/",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://pypi.org/project/cxcoast-agent/0.1.31/",
+      "date": "2026-03-24"
+    },
+    {
+      "url": "https://pypi.org/project/awb/0.5.2/",
+      "date": "2026-03-24"
     }
   ]
 }
