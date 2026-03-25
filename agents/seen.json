@@ -1767,6 +1767,166 @@
     {
       "url": "https://pypi.org/project/awb/0.5.2/",
       "date": "2026-03-24"
+    },
+    {
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "date": "2026-03-25"
+    },
+    {
+      "url": "https://github.com/hsliuping/TradingAgents-CN",
+      "date": "2026-03-25"
+    },
+    {
+      "url": "https://github.com/usestrix/strix",
+      "date": "2026-03-25"
+    },
+    {
+      "url": "https://github.com/microsoft/markitdown",
+      "date": "2026-03-25"
+    },
+    {
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "date": "2026-03-25"
+    },
+    {
+      "url": "https://github.com/OWASP/Nettacker",
+      "date": "2026-03-25"
+    },
+    {
+      "url": "https://github.com/ruvnet/ruflo",
+      "date": "2026-03-25"
+    },
+    {
+      "url": "https://github.com/langgenius/dify",
+      "date": "2026-03-25"
+    },
+    {
+      "url": "https://github.com/davideast/stitch-mcp",
+      "date": "2026-03-25"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.22359",
+      "date": "2026-03-25"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.22300",
+      "date": "2026-03-25"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.22299",
+      "date": "2026-03-25"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.22303",
+      "date": "2026-03-25"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.22651",
+      "date": "2026-03-25"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.22608",
+      "date": "2026-03-25"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.22633",
+      "date": "2026-03-25"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.22345",
+      "date": "2026-03-25"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.22350",
+      "date": "2026-03-25"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.22386",
+      "date": "2026-03-25"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.22558",
+      "date": "2026-03-25"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.22619",
+      "date": "2026-03-25"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.22292",
+      "date": "2026-03-25"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.22294",
+      "date": "2026-03-25"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.22304",
+      "date": "2026-03-25"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.22305",
+      "date": "2026-03-25"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.22309",
+      "date": "2026-03-25"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=43506068",
+      "date": "2026-03-25"
+    },
+    {
+      "url": "https://smithery.ai/servers/browserbase",
+      "date": "2026-03-25"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.83",
+      "date": "2026-03-25"
+    },
+    {
+      "url": "https://github.com/continuedev/continue/releases/tag/v1.3.34-vscode",
+      "date": "2026-03-25"
+    },
+    {
+      "url": "https://github.com/continuedev/continue/releases/tag/v1.2.18-vscode",
+      "date": "2026-03-25"
+    },
+    {
+      "url": "https://github.com/continuedev/continue/releases/tag/v1.0.63-jetbrains",
+      "date": "2026-03-25"
+    },
+    {
+      "url": "https://pypi.org/project/ghostaudit/1.0.0/",
+      "date": "2026-03-25"
+    },
+    {
+      "url": "https://pypi.org/project/openai-agents/0.13.1/",
+      "date": "2026-03-25"
+    },
+    {
+      "url": "https://pypi.org/project/clawmetry/0.12.76/",
+      "date": "2026-03-25"
+    },
+    {
+      "url": "https://pypi.org/project/openmax/0.9.4/",
+      "date": "2026-03-25"
+    },
+    {
+      "url": "https://pypi.org/project/windows-use/0.7.66/",
+      "date": "2026-03-25"
+    },
+    {
+      "url": "https://pypi.org/project/sdkrouter/0.1.55/",
+      "date": "2026-03-25"
+    },
+    {
+      "url": "https://pypi.org/project/churnkit/0.99.6a5/",
+      "date": "2026-03-25"
+    },
+    {
+      "url": "https://pypi.org/project/llmhosts/0.7.0/",
+      "date": "2026-03-25"
     }
   ]
 }
