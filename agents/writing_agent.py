@@ -215,8 +215,8 @@ def _normalize_formatting(body: str) -> str:
     2. Section headers missing a space (e.g. '## Open SourceReleases').
     """
     # Split inline bullets joined without a newline:
-    #   '  - **[' (bold links) or emoji immediately followed by '- ['
-    body = re.sub(r'  - (\*\*\[)', r'\n- \1', body)
+    #   '  - [' or '  - **[' (plain or bold links crammed onto the same line)
+    body = re.sub(r'  - (\*\*\[|\[)', r'\n- \1', body)
     body = re.sub(r'(\S)- (\[)', r'\1\n- \2', body)
 
     # Split first bullet crammed onto same line as section header: '## Foo- ['
