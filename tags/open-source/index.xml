@@ -5,7 +5,8 @@
 &lt;li>&lt;a href="https://pypi.org/project/ghostaudit/1.0.0/" target="_blank" rel="noopener noreferrer">ghostaudit 1.0.0&lt;/a>
  🛠️ — Provides tamper‑evident auditing of AI workspaces using Merkle‑tree sealed findings and encrypted evidence capsules, targeting SOC 2 and HIPAA compliance by giving verifiable provenance for model outputs and data transformations.&lt;/li>
 &lt;li>&lt;a href="https://pypi.org/project/openai-agents/0.13.1/" target="_blank" rel="noopener noreferrer">openai-agents 0.13.1&lt;/a>
- 🛠️ — SDK that simplifies building agentic applications with abstractions for agent loops, tool usage, memory management, and sync/async execution against OpenAI’s API, letting developers compose complex behaviors with little boilerplate. - &lt;a href="https://pypi.org/project/llmhosts/0.7.0/" target="_blank" rel="noopener noreferrer">llmhosts 0.7.0&lt;/a>
+ 🛠️ — SDK that simplifies building agentic applications with abstractions for agent loops, tool usage, memory management, and sync/async execution against OpenAI’s API, letting developers compose complex behaviors with little boilerplate.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/llmhosts/0.7.0/" target="_blank" rel="noopener noreferrer">llmhosts 0.7.0&lt;/a>
  🛠️ — Acts as a personal AI cloud: an intelligent proxy/router/cache for LLMs that deduplicates requests, selects models dynamically based on workload, and persists responses to cut latency and cost on repeated queries.&lt;/li>
 &lt;li>&lt;a href="https://github.com/microsoft/markitdown" target="_blank" rel="noopener noreferrer">microsoft/markitdown&lt;/a>
  🛠️ — Python library and CLI that converts Office documents, PDFs, and images into Markdown via existing converters, offering a unified API for normalizing content in documentation pipelines.&lt;/li>
@@ -13,7 +14,8 @@
 &lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://arxiv.org/abs/2603.22359" target="_blank" rel="noopener noreferrer">STEM Agent: A Self-Adapting, Tool-Enabled, Extensible Architecture for Multi-Protocol AI Agent Systems&lt;/a>
- 📄 — Presents a modular architecture that dynamically adapts interaction protocols, tool integrations, and user models at runtime via a plugin system, supporting REST, WebSocket, gRPC and allowing hot‑swapping of tools. - &lt;a href="https://arxiv.org/abs/2603.22300" target="_blank" rel="noopener noreferrer">Scaling Attention via Feature Sparsity&lt;/a>
+ 📄 — Presents a modular architecture that dynamically adapts interaction protocols, tool integrations, and user models at runtime via a plugin system, supporting REST, WebSocket, gRPC and allowing hot‑swapping of tools.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2603.22300" target="_blank" rel="noopener noreferrer">Scaling Attention via Feature Sparsity&lt;/a>
  📄 — Introduces feature‑sparse attention that learns to attend to only a subset of feature dimensions, reducing compute from O(n²d) to O(n²k) with k≪d while preserving accuracy, using differentiable sparsification compatible with standard transformer blocks.&lt;/li>
 &lt;li>&lt;a href="https://arxiv.org/abs/2603.22299" target="_blank" rel="noopener noreferrer">Between the Layers Lies the Truth: Uncertainty Estimation in LLMs Using Intra-Layer Local Information Scores&lt;/a>
  📄 — Proposes a lightweight uncertainty estimator that measures agreement between intermediate layer representations in a single forward pass; the score correlates with model confidence and detects out‑of‑distribution inputs with minimal overhead.&lt;/li>
@@ -27,7 +29,8 @@
 &lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/usestrix/strix" target="_blank" rel="noopener noreferrer">usestrix/strix&lt;/a>
- 🛠️ — Deploys AI‑powered agents that autonomously probe applications for security vulnerabilities, suggest fixes, and validate remediation by blending offensive security techniques with LLM‑driven reasoning. - &lt;a href="https://github.com/agentscope-ai/agentscope" target="_blank" rel="noopener noreferrer">agentscope-ai/agentscope&lt;/a>
+ 🛠️ — Deploys AI‑powered agents that autonomously probe applications for security vulnerabilities, suggest fixes, and validate remediation by blending offensive security techniques with LLM‑driven reasoning.&lt;/li>
+&lt;li>&lt;a href="https://github.com/agentscope-ai/agentscope" target="_blank" rel="noopener noreferrer">agentscope-ai/agentscope&lt;/a>
  🛠️ — Framework for building, debugging, and observing AI agents with transparent logging, state inspection, and visualizable workflows, including built‑in tracing and performance metrics for trustworthy development.&lt;/li>
 &lt;li>&lt;a href="https://github.com/ruvnet/ruflo" target="_blank" rel="noopener noreferrer">ruvnet/ruflo&lt;/a>
  🛠️ — Agent orchestration platform for Claude that enables deployment of intelligent multi‑agent swarms, autonomous workflow coordination, and conversational AI; features enterprise‑grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code/Codex support.&lt;/li>
