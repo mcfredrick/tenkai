@@ -1927,6 +1927,98 @@
     {
       "url": "https://pypi.org/project/llmhosts/0.7.0/",
       "date": "2026-03-25"
+    },
+    {
+      "url": "https://github.com/BerriAI/litellm",
+      "date": "2026-03-26"
+    },
+    {
+      "url": "https://github.com/trustgraph-ai/trustgraph",
+      "date": "2026-03-26"
+    },
+    {
+      "url": "https://github.com/davila7/claude-code-templates",
+      "date": "2026-03-26"
+    },
+    {
+      "url": "https://github.com/letta-ai/claude-subconscious",
+      "date": "2026-03-26"
+    },
+    {
+      "url": "https://github.com/virattt/dexter",
+      "date": "2026-03-26"
+    },
+    {
+      "url": "https://github.com/firecrawl/firecrawl",
+      "date": "2026-03-26"
+    },
+    {
+      "url": "https://github.com/EveryInc/compound-engineering-plugin",
+      "date": "2026-03-26"
+    },
+    {
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "date": "2026-03-26"
+    },
+    {
+      "url": "https://huggingface.co/GAIR/daVinci-MagiHuman",
+      "date": "2026-03-26"
+    },
+    {
+      "url": "https://huggingface.co/rednote-hilab/dots.mocr",
+      "date": "2026-03-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.23873",
+      "date": "2026-03-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.23566",
+      "date": "2026-03-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.23575",
+      "date": "2026-03-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.23580",
+      "date": "2026-03-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.23853",
+      "date": "2026-03-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.23840",
+      "date": "2026-03-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.23838",
+      "date": "2026-03-26"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.84",
+      "date": "2026-03-26"
+    },
+    {
+      "url": "https://pypi.org/project/openmax/0.9.34/",
+      "date": "2026-03-26"
+    },
+    {
+      "url": "https://pypi.org/project/churnkit/0.99.7a2/",
+      "date": "2026-03-26"
+    },
+    {
+      "url": "https://pypi.org/project/fogcutter/0.1.0/",
+      "date": "2026-03-26"
+    },
+    {
+      "url": "https://pypi.org/project/langchain-docker-sandbox/0.1.1/",
+      "date": "2026-03-26"
+    },
+    {
+      "url": "https://pypi.org/project/jailbreak-arena/0.1.0/",
+      "date": "2026-03-26"
     }
   ]
 }
