@@ -1,4 +1,56 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev-Tools on Tenkai</title><link>https://tenkai.blog/tags/dev-tools/</link><description>Recent content in Dev-Tools on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 26 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/dev-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — March 26, 2026</title><link>https://tenkai.blog/posts/2026-03-26/</link><pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-03-26/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev-Tools on Tenkai</title><link>https://tenkai.blog/tags/dev-tools/</link><description>Recent content in Dev-Tools on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 27 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/dev-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — March 27, 2026</title><link>https://tenkai.blog/posts/2026-03-27/</link><pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-03-27/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/mistralai/Voxtral-4B-TTS-2603" target="_blank" rel="noopener noreferrer">mistralai/Voxtral-4B-TTS-2603&lt;/a>
+&lt;/strong> — A multilingual text‑to‑speech model built on the Ministral‑3B backbone, covering English, French, Spanish, Portuguese, Italian, Dutch, German, Arabic, and Hindi. It ships as safetensors and works with vLLM and mistral‑common for low‑latency inference.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/CohereLabs/cohere-transcribe-03-2026" target="_blank" rel="noopener noreferrer">CohereLabs/cohere-transcribe-03-2026&lt;/a>
+&lt;/strong> — An automatic speech recognition model supporting dozens of languages, released as safetensors with custom code for seamless HF ASR integration. Handy when you need a single‑stop transcription service across varied linguistic inputs.&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/netron/8.9.7/" target="_blank" rel="noopener noreferrer">netron 8.9.7&lt;/a>
+&lt;/strong> — A cross‑platform viewer for neural network models (ONNX, TensorFlow, PyTorch, Keras, etc.) that lets you inspect architecture, layers, and tensor values without running code.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.85" target="_blank" rel="noopener noreferrer">claude-code v2.1.85 adds MCP server multi-support and conditional hooks&lt;/a>
+&lt;/strong> — Introduces &lt;code>CLAUDE_CODE_MCP_SERVER_NAME&lt;/code> and &lt;code>CLAUDE_CODE_MCP_SERVER_URL&lt;/code> env vars so one helper can serve multiple MCP servers, plus a conditional &lt;code>if&lt;/code> field for hooks using permission‑rule syntax to prune unnecessary runs.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/staso/0.1.12/" target="_blank" rel="noopener noreferrer">staso 0.1.12&lt;/a>
+&lt;/strong> — Python SDK for observing, enforcing, evaluating, and debugging AI agents in production, offering instrumentation, logging, metrics, and guardrails to track behavior and catch anomalies early.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/velocirag/0.5.1/" target="_blank" rel="noopener noreferrer">velocirag 0.5.1&lt;/a>
+&lt;/strong> — A lightning‑fast RAG library built on ONNX with a four‑layer fusion architecture, includes an MCP server and has no PyTorch dependency, enabling low‑latency retrieval‑augmented generation for agents.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/playcanvas/supersplat" target="_blank" rel="noopener noreferrer">supersplat&lt;/a>
+&lt;/strong> — Browser‑based editor for 3D Gaussian splats, letting artists and developers create, edit, light, and export splat representations directly from the web UI.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/contextgo/0.9.1/" target="_blank" rel="noopener noreferrer">contextgo 0.9.1&lt;/a>
+&lt;/strong> — Local‑first context and memory runtime for multi‑agent AI coding teams, providing shared persistent memory, context propagation, and coordination primitives to keep agents in sync without a central broker.&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/deepseek-ai/Engram" target="_blank" rel="noopener noreferrer">Engram&lt;/a>
+&lt;/strong> — Introduces Conditional Memory via Scalable Lookup, a new sparsity axis that boosts memory efficiency and scaling in large language models, backed by implementation details and LM benchmark results.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2603.23910" target="_blank" rel="noopener noreferrer">AnalogAgent: Self-Improving Analog Circuit Design Automation with LLM Agents&lt;/a>
+&lt;/strong> — Presents a multi‑stage LLM pipeline that generates, simulates, and refines analog circuit designs using SPICE feedback, while retaining a memory of past attempts to avoid repeat mistakes and accumulate domain knowledge.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2603.23571" target="_blank" rel="noopener noreferrer">StateLinFormer: Stateful Training Enhancing Long-term Memory in Navigation&lt;/a>
+&lt;/strong> — Extends the Linear Transformer with a recurrent state mechanism to capture long‑term dependencies beyond the fixed context window, achieving O(1) memory retrieval and showing gains on navigation‑focused tasks.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2603.23749" target="_blank" rel="noopener noreferrer">Efficient Benchmarking of AI Agents&lt;/a>
+&lt;/strong> — Proposes a cost‑effective evaluation strategy that selects predictive task subsets preserving agent rankings, using stratified sampling and importance weighting to correct for scaffold‑driven distribution shifts in interactive benchmarks.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/datawhalechina/hello-agents" target="_blank" rel="noopener noreferrer">hello-agents&lt;/a>
+&lt;/strong> — A step‑by‑step tutorial (in Chinese) for building AI agents from scratch, covering principles, tool integration, memory, planning, and deployment, complete with code examples and exercises.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/Yeachan-Heo/oh-my-claudecode" target="_blank" rel="noopener noreferrer">oh-my-claudecode&lt;/a>
+&lt;/strong> — Teams‑first multi‑agent orchestration layer for Claude Code, enabling coordinated agent swarms, shared state, and collaborative task execution while hooking into Claude’s tool system for seamless automation.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/modelcontextprotocol/servers" target="_blank" rel="noopener noreferrer">modelcontextprotocol/servers&lt;/a>
+&lt;/strong> — Reference implementations of Model Context Protocol servers that standardize context exchange between AI models and external tools, data sources, or agents, including auth, versioning, and transport adapters.&lt;/li>
+&lt;/ul>
+&lt;h2 id="mcp-servers--integrations">MCP Servers &amp;amp; Integrations&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://smithery.ai/servers/brave" target="_blank" rel="noopener noreferrer">Brave Search&lt;/a>
+&lt;/strong> — MCP server providing a privacy‑focused search API with structured results for web, local businesses, images, videos, and news; results can be filtered by country, language, freshness, and SafeSearch, and returned with concise summaries.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>By pairingMistral’s Voxtral‑4B‑TTS‑2603 (&lt;a href="https://huggingface.co/mistralai/Voxtral-4B-TTS-2603" target="_blank" rel="noopener noreferrer">mistralai/Voxtral-4B-TTS-2603&lt;/a>
+) with Cohere’s multilingual ASR (&lt;a href="https://huggingface.co/CohereLabs/cohere-transcribe-03-2026" target="_blank" rel="noopener noreferrer">CohereLabs/cohere-transcribe-03-2026&lt;/a>
+) you get a low‑latency speech‑to‑text‑to‑speech loop that works in any of the nine supported languages. Feed the transcribed utterances into VelociRAG 0.5.1 (&lt;a href="https://pypi.org/project/velocirag/0.5.1/" target="_blank" rel="noopener noreferrer">velocirag 0.5.1&lt;/a>
+), an ONNX‑based RAG library that ships its own MCP server and needs no PyTorch, to retrieve relevant snippets from your internal knowledge base and generate concise answers. The whole stack can be wrapped in a Claude Code helper that toggles the MCP server via &lt;code>CLAUDE_CODE_MCP_SERVER_NAME&lt;/code> and &lt;code>CLAUDE_CODE_MCP_SERVER_URL&lt;/code>, letting you switch between local and remote indices with a single env‑var change. You can further tighten the loop with Claude Code’s new conditional hooks (&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.85" target="_blank" rel="noopener noreferrer">claude-code v2.1.85 adds MCP server multi-support and conditional hooks&lt;/a>
+), using the &lt;code>if&lt;/code> field to skip retrieval when the ASR confidence falls below a threshold, saving compute and keeping the agent responsive. The result is a plug‑and‑play voice agent that can be deployed on CPU‑only instances, scales horizontally via the MCP server, and gives engineers a concrete way to add multilingual, low‑latency conversational search to internal tooling without wrestling with heavyweight frameworks.&lt;/p></description></item><item><title>Tenkai Daily — March 26, 2026</title><link>https://tenkai.blog/posts/2026-03-26/</link><pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-03-26/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://huggingface.co/GAIR/daVinci-MagiHuman" target="_blank" rel="noopener noreferrer">GAIR/daVinci-MagiHuman&lt;/a>
  — daVinci-MagiHuman is a multimodal generative model capable of text‑to‑video, image‑to‑video, text‑to‑audio, and joint audio‑video synthesis. Built with Safetensors and accompanied by arXiv 2603.21986, it supports multiple languages including English, Chinese, Japanese, Korean, German, French.&lt;/li>
