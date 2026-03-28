@@ -1,4 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tenkai</title><link>https://tenkai.blog/</link><description>Recent content on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 27 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — March 27, 2026</title><link>https://tenkai.blog/posts/2026-03-27/</link><pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-03-27/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tenkai</title><link>https://tenkai.blog/</link><description>Recent content on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 28 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — March 28, 2026</title><link>https://tenkai.blog/posts/2026-03-28/</link><pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-03-28/</guid><description>&lt;p>##Model Releases&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://huggingface.co/meituan-longcat/LongCat-Next" target="_blank" rel="noopener noreferrer">meituan-longcat/LongCat-Next&lt;/a>
+ — A multimodal “any‑to‑any” transformer that can convert text, image, audio, or video to any other modality. MIT‑licensed with custom pipeline code, it tries to be a one‑model‑fits‑all solution. 🤖&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/ruc-datalab/DeepAnalyze" target="_blank" rel="noopener noreferrer">ruc-datalab/DeepAnalyze&lt;/a>
+ — Agentic LLM that takes raw data, runs EDA, feature engineering, model picking, and spits out a polished report with plots. Built on a planner‑executor loop and works with Python, R, or SQL backends.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/mycellm/0.2.1/" target="_blank" rel="noopener noreferrer">mycellm 0.2.1&lt;/a>
+ — LLM serving layer that splits model blocks across CPUs, GPUs, and other accelerators, balancing load and tolerating faults on heterogeneous clusters. Aimed at getting decent throughput without a uniform hardware farm.&lt;/li>
+&lt;li>&lt;a href="https://github.com/hacksider/Deep-Live-Cam" target="_blank" rel="noopener noreferrer">hacksider/Deep-Live-Cam&lt;/a>
+ — Real‑time face‑swap / deepfake tool that runs from a single source image, using a lightweight neural renderer and GPU‑accelerated pipelines for low‑latency swaps in streams or calls.&lt;/li>
+&lt;li>&lt;a href="https://github.com/microsoft/VibeVoice" target="_blank" rel="noopener noreferrer">microsoft/VibeVoice&lt;/a>
+ — Microsoft’s open voice AI suite offering high‑fidelity TTS, voice conversion, and STT models, multilingual pretrains, fine‑tuning scripts, and low‑latency CPU/GPU kernels for voice‑enabled apps.&lt;/li>
+&lt;li>&lt;a href="https://github.com/trailofbits/skills" target="_blank" rel="noopener noreferrer">trailofbits/skills&lt;/a>
+ — Collection of Claude Code skills geared toward security research: static analysis, fuzz harness generation, compliance checks, etc., chainable for broader audit workflows.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/haiku-rag/0.36.2/" target="_blank" rel="noopener noreferrer">haiku.rag 0.36.2&lt;/a>
+ — Opinionated RAG framework that ties LanceDB storage, Pydantic AI agents, and Docling document processing together, with sensible defaults for chunking, embedding, and retrieval to cut boilerplate.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/SakanaAI/AI-Scientist-v2" target="_blank" rel="noopener noreferrer">SakanaAI/AI-Scientist-v2&lt;/a>
+ — Framework that runs agentic tree search to propose hypotheses, design experiments, interpret results, and iterate, demonstrated on synthetic biology and materials science toy problems.&lt;/li>
+&lt;li>&lt;a href="https://github.com/SolaceLabs/solace-agent-mesh" target="_blank" rel="noopener noreferrer">SolaceLabs/solace-agent-mesh&lt;/a>
+ — Event‑driven platform for multi‑agent AI systems, letting agents subscribe to real‑world data via message brokers and coordinate through typed events, with durability, scalability, and observability.&lt;/li>
+&lt;li>&lt;a href="https://github.com/alirezarezvani/claude-skills" target="_blank" rel="noopener noreferrer">alirezarezvani/claude-skills&lt;/a>
+ — 192 ready‑made skills and agent plugins for Claude Code, Codex, Gemini CLI, Cursor, etc., covering engineering, security, compliance, product, and advisory tasks, each as a reusable module with clear I/O contracts.&lt;/li>
+&lt;li>&lt;a href="https://github.com/databricks-solutions/ai-dev-kit" target="_blank" rel="noopener noreferrer">databricks-solutions/ai-dev-kit&lt;/a>
+ — Toolkit for building coding agents that work inside a Lakehouse, providing notebook execution, job scheduling, Unity Catalog integration, plus example agents for data transforms, model training, and monitoring, with a CLI for local dev.&lt;/li>
+&lt;li>&lt;a href="https://github.com/microsoft/playwright-mcp" target="_blank" rel="noopener noreferrer">microsoft/playwright-mcp&lt;/a>
+ — Playwright MCP server that exposes Chromium/Firefox/WebKit control through the Model Context Protocol, letting agents drive browsers for UI testing, scraping, or interactive tasks, with sync/async APIs and anti‑detection helpers.&lt;/li>
+&lt;li>&lt;a href="https://github.com/nrslib/takt" target="_blank" rel="noopener noreferrer">nrslib/takt&lt;/a>
+ — YAML‑based language (TAKT) for specifying AI agent coordination, human‑in‑the‑loop points, and logged actions, supporting hierarchical task breakdown, concurrency limits, and exportable traces for auditability.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>A practical way to turnraw, heterogeneous data into production‑ready insights is to chain three of today’s releases: first, use the multimodal &lt;strong>LongCat‑Next&lt;/strong> (&lt;a href="https://huggingface.co/meituan-longcat/LongCat-Next" target="_blank" rel="noopener noreferrer">meituan-longcat/LongCat-Next&lt;/a>
+) to synthesize or augment missing modalities (e.g., turn tabular logs into illustrative diagrams or audio explanations) so your dataset becomes richer for downstream analysis; second, feed that enriched corpus into the agentic &lt;strong>DeepAnalyze&lt;/strong> (&lt;a href="https://github.com/ruc-datalab/DeepAnalyze" target="_blank" rel="noopener noreferrer">ruc-datalab/DeepAnalyze&lt;/a>
+) planner‑executor loop, which will automatically perform EDA, feature engineering, model selection, and spit out a polished report with plots—all without writing a single line of boilerplate code; finally, deploy the resulting models or inference pipelines with the &lt;strong>mycellm&lt;/strong> (&lt;a href="https://pypi.org/project/mycellm/0.2.1/" target="_blank" rel="noopener noreferrer">mycellm 0.2.1&lt;/a>
+) serving layer, which intelligently splits model blocks across CPUs, GPUs, and other accelerators, tolerates faults, and balances load on a heterogeneous cluster. By wiring these tools together, engineers can go from messy, multimodal raw data to a vetted, scalable AI service in a single, reproducible workflow.&lt;/p></description></item><item><title>Tenkai Daily — March 27, 2026</title><link>https://tenkai.blog/posts/2026-03-27/</link><pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-03-27/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/mistralai/Voxtral-4B-TTS-2603" target="_blank" rel="noopener noreferrer">mistralai/Voxtral-4B-TTS-2603&lt;/a>
 &lt;/strong> — A multilingual text‑to‑speech model built on the Ministral‑3B backbone, covering English, French, Spanish, Portuguese, Italian, Dutch, German, Arabic, and Hindi. It ships as safetensors and works with vLLM and mistral‑common for low‑latency inference.&lt;/li>
