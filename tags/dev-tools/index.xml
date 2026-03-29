@@ -1,4 +1,52 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev-Tools on Tenkai</title><link>https://tenkai.blog/tags/dev-tools/</link><description>Recent content in Dev-Tools on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 28 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/dev-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — March 28, 2026</title><link>https://tenkai.blog/posts/2026-03-28/</link><pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-03-28/</guid><description>&lt;p>##Model Releases&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev-Tools on Tenkai</title><link>https://tenkai.blog/tags/dev-tools/</link><description>Recent content in Dev-Tools on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 29 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/dev-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — March 29, 2026</title><link>https://tenkai.blog/posts/2026-03-29/</link><pubDate>Sun, 29 Mar 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-03-29/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;p>-&lt;a href="https://huggingface.co/RuneXX/LTX-2.3-Workflows" target="_blank" rel="noopener noreferrer">RuneXX/LTX-2.3-Workflows&lt;/a>
+ — A set of ComfyUI workflows and GGUF presets for the LTX-2.3 video model, covering text-to-video, image-to-video, audio-to-video and other multimodal pipelines. Handy if you want to plug LTX-2.3 into a creative workflow without building the config from scratch.&lt;/p>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://pypi.org/project/pfix/0.1.54/" target="_blank" rel="noopener noreferrer">pfix 0.1.54&lt;/a>
+ — A self‑healing Python helper that catches runtime errors and tries to fix them using LLMs and the Model Context Protocol. It can save debugging time, though the fixes are experimental and may not always be correct.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/quantumrag/0.3.2/" target="_blank" rel="noopener noreferrer">quantumrag 0.3.2&lt;/a>
+ — An index‑heavy, query‑light RAG engine that builds a comprehensive index upfront for low‑latency retrieval. Good when you have static corpora and need fast answers, less suited for rapidly changing data.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/hyperclaw/1.0.0/" target="_blank" rel="noopener noreferrer">hyperclaw 1.0.0&lt;/a>
+ — A multi‑agent swarm platform for coordinating large numbers of heterogeneous agents, with load balancing and fault tolerance. Useful if you need to scale agent‑based workloads across many cores or nodes.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/obra/3.2.19/" target="_blank" rel="noopener noreferrer">obra 3.2.19&lt;/a>
+ — A cloud‑native orchestration platform that runs autonomous agents to automate software development tasks, handling lifecycle, scheduling and CI/CD integration. Aimed at teams wanting to replace manual scripting with agent‑driven pipelines.&lt;/li>
+&lt;li>&lt;a href="https://github.com/lingfengQAQ/webnovel-writer" target="_blank" rel="noopener noreferrer">webnovel-writer&lt;/a>
+ — A Chinese‑language web novel writing assistant built on Claude Code that adds memory mechanisms to curb forgetting and hallucination in long generations. Supports outputs up to two million characters, aimed at writers who need coherent extended narratives.&lt;/li>
+&lt;li>&lt;a href="https://github.com/continuedev/continue/releases/tag/v1.0.67-jetbrains" target="_blank" rel="noopener noreferrer">continuedev/continue: v1.0.67-jetbrains&lt;/a>
+ — A JetBrains plugin update that redirects Winston logger to stderr to avoid IPC stream corruption and ensures config.yaml exists when accessed. Fixes stability issues that could cause silent failures in the IDE integration.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/cline/cline" target="_blank" rel="noopener noreferrer">cline&lt;/a>
+ — An autonomous coding agent that works inside your IDE, able to edit files, run terminal commands, control a browser and more under your supervision. It plugs into various LLM backends so you can drive complex programming tasks with natural language.&lt;/li>
+&lt;li>&lt;a href="https://github.com/anthropics/claude-agent-sdk-python" target="_blank" rel="noopener noreferrer">claude-agent-sdk-python&lt;/a>
+ — The official Python SDK for building agents that talk to Claude’s agent interface, supporting tool use, memory and multi‑step reasoning. Lets you embed Claude capabilities into custom workflows without reinventing the communication layer.&lt;/li>
+&lt;li>&lt;a href="https://github.com/vercel-labs/json-render" target="_blank" rel="noopener noreferrer">json-render&lt;/a>
+ — A generative UI framework from Vercel Labs that turns JSON descriptions into interactive interfaces, potentially using AI‑driven component synthesis. It aims to reduce boilerplate when creating UIs for AI‑generated designs.&lt;/li>
+&lt;li>&lt;a href="https://github.com/benjitaylor/agentation" target="_blank" rel="noopener noreferrer">agentation&lt;/a>
+ — A visual feedback tool that displays an AI agent’s internal state, actions and outcomes in real time, helping you spot failure modes. Useful for debugging complex agent behaviors during development.&lt;/li>
+&lt;li>&lt;a href="https://github.com/open-metadata/OpenMetadata" target="_blank" rel="noopener noreferrer">OpenMetadata&lt;/a>
+ — A unified metadata platform offering data discovery, observability and governance with column‑level lineage and team collaboration. It integrates with many data sources and can be handy for tracking ML datasets and model artifacts.&lt;/li>
+&lt;li>&lt;a href="https://github.com/thedotmack/claude-mem" target="_blank" rel="noopener noreferrer">claude-mem&lt;/a>
+ — A Claude Code plugin that logs agent activity, compresses the history with AI and injects relevant snippets into future sessions to keep long‑term memory without blowing the token budget. Helpful when you rely on Claude for extended coding sessions.&lt;/li>
+&lt;/ul>
+&lt;h2 id="mcp-servers--integrations">MCP Servers &amp;amp; Integrations&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://smithery.ai/servers/googlesheets" target="_blank" rel="noopener noreferrer">Google Sheets MCP Server&lt;/a>
+ — Lets AI agents read, write and format data in Google Sheets, execute formulas and manage sheets in real time. Enables agents to drive spreadsheet‑based data pipelines without custom API glue.&lt;/li>
+&lt;li>&lt;a href="https://smithery.ai/servers/instagram" target="_blank" rel="noopener noreferrer">Instagram MCP Server&lt;/a>
+ — Provides an MCP endpoint for Instagram Business and Creator accounts, allowing agents to publish photos, videos and stories programmatically. Covers standard media upload and metadata endpoints.&lt;/li>
+&lt;li>&lt;a href="https://smithery.ai/servers/clay-inc/clay-mcp" target="_blank" rel="noopener noreferrer">Clay MCP Server&lt;/a>
+ — Gives agents access to professional network data and tools for enriching apps with contact info, outreach and workflow automation. Designed to plug into existing systems via the MCP interface.&lt;/li>
+&lt;li>&lt;a href="https://smithery.ai/servers/googledrive" target="_blank" rel="noopener noreferrer">Google Drive MCP Server&lt;/a>
+ — Allows agents to upload, organize, share and search files in Google Drive, manage folder permissions and handle document metadata. Provides a full file‑system‑like interface through MCP.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>Combining theself‑healing capabilities of &lt;a href="https://pypi.org/project/pfix/0.1.54/" target="_blank" rel="noopener noreferrer">pfix 0.1.54&lt;/a>
+ with the official &lt;a href="https://github.com/anthropics/claude-agent-sdk-python" target="_blank" rel="noopener noreferrer">claude-agent-sdk-python&lt;/a>
+ lets you wrap autonomous coding agents in a safety net that catches runtime slips and attempts LLM‑driven patches before they bubble up to the user. Deploy those fortified agents across a cluster using the &lt;a href="https://pypi.org/project/hyperclaw/1.0.0/" target="_blank" rel="noopener noreferrer">hyperclaw 1.0.0&lt;/a>
+ multi‑agent swarm platform, which handles load balancing, fault tolerance and dynamic scaling across cores or nodes. In practice, you could spin up a swarm of Claude‑powered agents tasked with refactoring a legacy codebase; each agent runs inside your IDE via the SDK, pfix watches for exceptions (e.g., import errors, type mismatches) and proposes fixes, while hyperclaw redistributes work when a node stalls or an agent repeatedly fails. The result is a self‑scaling, self‑repairing workforce that reduces manual debugging overhead and keeps large‑scale refactoring pipelines moving even when individual agents hit snags.&lt;/p></description></item><item><title>Tenkai Daily — March 28, 2026</title><link>https://tenkai.blog/posts/2026-03-28/</link><pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-03-28/</guid><description>&lt;p>##Model Releases&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://huggingface.co/meituan-longcat/LongCat-Next" target="_blank" rel="noopener noreferrer">meituan-longcat/LongCat-Next&lt;/a>
  — A multimodal “any‑to‑any” transformer that can convert text, image, audio, or video to any other modality. MIT‑licensed with custom pipeline code, it tries to be a one‑model‑fits‑all solution. 🤖&lt;/li>
