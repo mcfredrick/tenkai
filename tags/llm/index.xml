@@ -1,4 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Llm on Tenkai</title><link>https://tenkai.blog/tags/llm/</link><description>Recent content in Llm on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 29 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/llm/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — March 29, 2026</title><link>https://tenkai.blog/posts/2026-03-29/</link><pubDate>Sun, 29 Mar 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-03-29/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Llm on Tenkai</title><link>https://tenkai.blog/tags/llm/</link><description>Recent content in Llm on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 30 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/llm/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — March 30, 2026</title><link>https://tenkai.blog/posts/2026-03-30/</link><pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-03-30/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://huggingface.co/zed-industries/zeta-2" target="_blank" rel="noopener noreferrer">zed-industries/zeta-2&lt;/a>
+ — A code‑editing model built on ByteDance Seed‑Coder‑8B, fine‑tuned for next‑edit suggestion and edit prediction. It ships as a safetensors‑compatible Transformer under Apache 2.0, ready for IDE integration.&lt;/li>
+&lt;li>&lt;a href="https://huggingface.co/nvidia/gpt-oss-puzzle-88B" target="_blank" rel="noopener noreferrer">nvidia/gpt-oss-puzzle-88B&lt;/a>
+ — An 88‑billion‑parameter mixture‑of‑experts model from NVIDIA meant as a puzzle‑style benchmark for GPT‑OSS architectures. It uses MXFP4 8‑bit quantization and is released under a custom license, with accompanying arxiv papers detailing its design.&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://pypi.org/project/agent-xray/1.21.0/" target="_blank" rel="noopener noreferrer">agent-xray 1.21.0&lt;/a>
+ — A local‑first toolkit for debugging, grading, and replaying AI agent traces. It offers breakpoint‑like inspection, performance scoring, and session replay to help iterate on complex workflows.&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://arxiv.org/abs/2603.25872" target="_blank" rel="noopener noreferrer">DRiffusion: Draft-and-Refine Process Parallelizes Diffusion Models with Ease&lt;/a>
+ — Introduces a draft‑and‑refine sampling scheme that creates coarse drafts in parallel then refines them, cutting sequential latency while keeping sample quality high.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2603.25747" target="_blank" rel="noopener noreferrer">BeSafe-Bench: Unveiling Behavioral Safety Risks of Situated Agents in Functional Environments&lt;/a>
+ — Provides a benchmark to measure unintentional safety violations of multimodal agents in digital and physical settings, enabling systematic reliability testing before deployment.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2603.26005" target="_blank" rel="noopener noreferrer">AutoB2G: A Large Language Model-Driven Agentic Framework For Automated Building-Grid Co-Simulation&lt;/a>
+ — Describes an LLM‑based agent framework that generates control policies via reinforcement learning to automate building‑grid co‑simulation, improving coordination across large building clusters.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2603.26266" target="_blank" rel="noopener noreferrer">GUIDE: Resolving Domain Bias in GUI Agents through Real-Time Web Video Retrieval and Plug-and-Play Annotation&lt;/a>
+ — Proposes fetching real‑time web videos and applying plug‑and‑play annotations to reduce domain bias in GUI agents, boosting task success rates on unfamiliar interfaces.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2603.26512" target="_blank" rel="noopener noreferrer">CADSmith: Multi-Agent CAD Generation with Programmatic Geometric Validation&lt;/a>
+ — Presents a multi‑agent pipeline that turns natural language into CadQuery code, then iteratively validates geometry with two nested correction loops to achieve higher text‑to‑CAD accuracy without visual feedback.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2603.25749" target="_blank" rel="noopener noreferrer">A Lightweight, Transferable, and Self-Adaptive Framework for Intelligent DC Arc-Fault Detection in Photovoltaic Systems&lt;/a>
+ — Proposes a compact ML model for DC arc‑fault detection in PV systems that adapts to changing conditions and hardware, delivering high detection rates with low compute overhead.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/luongnv89/claude-howto" target="_blank" rel="noopener noreferrer">claude-howto&lt;/a>
+ — A visual, example‑driven guide to Claude Code that walks users from basics to building advanced agents, complete with copy‑paste templates and best‑practice notes.&lt;/li>
+&lt;li>&lt;a href="https://github.com/NousResearch/hermes-agent" target="_blank" rel="noopener noreferrer">hermes-agent&lt;/a>
+ — A modular agent framework from Nous Research focused on continual learning and adaptability, providing core components, example agents, and documentation for building evolving agents.&lt;/li>
+&lt;li>&lt;a href="https://github.com/OpenBB-finance/OpenBB" target="_blank" rel="noopener noreferrer">OpenBB&lt;/a>
+ — An open‑source financial data platform that unifies market data, fundamentals, and alternative datasets via a single API, interactive terminal, and Python SDK for analysts, quants, and AI agents.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>Pairing Zed Industries’ Zeta‑2 code‑editing model with the agent‑xray toolkit gives engineers a tight loop for building and debugging AI‑powered IDE assistants. Because Zeta‑2 ships under Apache 2.0 and loads as a safetensors file, you can drop it into a private GPU node or even a quantized CPU build without worrying about licensing friction, and agent‑xray’s breakpoint‑like inspection works the same way whether the model runs locally or in a container. Zeta‑2, a safetensors‑ready 8B model fine‑tuned for next‑edit suggestion, can be hooked into an extension that proposes edits as you type, while agent‑xray records every agent turn, scores performance, and lets you replay sessions to spot where the model over‑ or under‑corrects. Add the visual guide from claude‑howto to scaffold the agent scaffolding—its copy‑paste templates show how to wire a Claude‑style controller, handle tool calls, and persist state, so you spend less time plumbing and more time iterating on the edit‑suggestion logic. The result is a locally‑runnable, inspectable coding copilot that you can tune, benchmark, and ship without sending data off‑site.&lt;/p></description></item><item><title>Tenkai Daily — March 29, 2026</title><link>https://tenkai.blog/posts/2026-03-29/</link><pubDate>Sun, 29 Mar 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-03-29/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;p>-&lt;a href="https://huggingface.co/RuneXX/LTX-2.3-Workflows" target="_blank" rel="noopener noreferrer">RuneXX/LTX-2.3-Workflows&lt;/a>
  — A set of ComfyUI workflows and GGUF presets for the LTX-2.3 video model, covering text-to-video, image-to-video, audio-to-video and other multimodal pipelines. Handy if you want to plug LTX-2.3 into a creative workflow without building the config from scratch.&lt;/p>
 &lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
