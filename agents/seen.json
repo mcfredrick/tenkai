@@ -2267,6 +2267,134 @@
     {
       "url": "https://pypi.org/project/obra/3.2.19/",
       "date": "2026-03-29"
+    },
+    {
+      "url": "https://github.com/luongnv89/claude-howto",
+      "date": "2026-03-30"
+    },
+    {
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "date": "2026-03-30"
+    },
+    {
+      "url": "https://github.com/OpenBB-finance/OpenBB",
+      "date": "2026-03-30"
+    },
+    {
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "date": "2026-03-30"
+    },
+    {
+      "url": "https://huggingface.co/zed-industries/zeta-2",
+      "date": "2026-03-30"
+    },
+    {
+      "url": "https://huggingface.co/nvidia/gpt-oss-puzzle-88B",
+      "date": "2026-03-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.25747",
+      "date": "2026-03-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.26005",
+      "date": "2026-03-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.26266",
+      "date": "2026-03-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.26499",
+      "date": "2026-03-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.26512",
+      "date": "2026-03-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.25749",
+      "date": "2026-03-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.25750",
+      "date": "2026-03-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.25758",
+      "date": "2026-03-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.25763",
+      "date": "2026-03-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.25764",
+      "date": "2026-03-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.25766",
+      "date": "2026-03-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.25767",
+      "date": "2026-03-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.25771",
+      "date": "2026-03-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.25779",
+      "date": "2026-03-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.25857",
+      "date": "2026-03-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.25861",
+      "date": "2026-03-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.25872",
+      "date": "2026-03-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.25923",
+      "date": "2026-03-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.25955",
+      "date": "2026-03-30"
+    },
+    {
+      "url": "https://pypi.org/project/docmancer/0.1.2/",
+      "date": "2026-03-30"
+    },
+    {
+      "url": "https://pypi.org/project/neural-memory/4.23.0/",
+      "date": "2026-03-30"
+    },
+    {
+      "url": "https://pypi.org/project/ccgram/2.5.0/",
+      "date": "2026-03-30"
+    },
+    {
+      "url": "https://pypi.org/project/repowire/0.9.5/",
+      "date": "2026-03-30"
+    },
+    {
+      "url": "https://pypi.org/project/vorim/2.0.0/",
+      "date": "2026-03-30"
+    },
+    {
+      "url": "https://pypi.org/project/agent-xray/1.21.0/",
+      "date": "2026-03-30"
+    },
+    {
+      "url": "https://pypi.org/project/campd/0.1.0/",
+      "date": "2026-03-30"
     }
   ]
 }
