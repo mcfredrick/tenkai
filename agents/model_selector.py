@@ -32,6 +32,7 @@ def fetch_free_models() -> list[dict]:
         return [
             m for m in models
             if str(m.get("pricing", {}).get("prompt", "1")) == "0"
+            and m.get("architecture", {}).get("modality", "") == "text->text"
         ]
     except Exception as e:
         print(f"Warning: failed to fetch models: {e}", file=sys.stderr)
