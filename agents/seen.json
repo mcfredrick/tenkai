@@ -2395,6 +2395,134 @@
     {
       "url": "https://pypi.org/project/campd/0.1.0/",
       "date": "2026-03-30"
+    },
+    {
+      "url": "https://github.com/google-research/timesfm",
+      "date": "2026-03-31"
+    },
+    {
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "date": "2026-03-31"
+    },
+    {
+      "url": "https://github.com/OpenBMB/ChatDev",
+      "date": "2026-03-31"
+    },
+    {
+      "url": "https://github.com/Canner/WrenAI",
+      "date": "2026-03-31"
+    },
+    {
+      "url": "https://github.com/SkyworkAI/Matrix-Game",
+      "date": "2026-03-31"
+    },
+    {
+      "url": "https://github.com/steipete/mcporter",
+      "date": "2026-03-31"
+    },
+    {
+      "url": "https://github.com/coder/mux",
+      "date": "2026-03-31"
+    },
+    {
+      "url": "https://github.com/khoj-ai/khoj",
+      "date": "2026-03-31"
+    },
+    {
+      "url": "https://huggingface.co/microsoft/harrier-oss-v1-0.6b",
+      "date": "2026-03-31"
+    },
+    {
+      "url": "https://huggingface.co/chromadb/context-1",
+      "date": "2026-03-31"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.26838",
+      "date": "2026-03-31"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.26996",
+      "date": "2026-03-31"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.27169",
+      "date": "2026-03-31"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.27270",
+      "date": "2026-03-31"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.26671",
+      "date": "2026-03-31"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.26775",
+      "date": "2026-03-31"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.26778",
+      "date": "2026-03-31"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.26786",
+      "date": "2026-03-31"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.26796",
+      "date": "2026-03-31"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.26797",
+      "date": "2026-03-31"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.26798",
+      "date": "2026-03-31"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.26799",
+      "date": "2026-03-31"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.26800",
+      "date": "2026-03-31"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.26801",
+      "date": "2026-03-31"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.26803",
+      "date": "2026-03-31"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.26823",
+      "date": "2026-03-31"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.88",
+      "date": "2026-03-31"
+    },
+    {
+      "url": "https://github.com/block/goose/releases/tag/v1.29.0",
+      "date": "2026-03-31"
+    },
+    {
+      "url": "https://pypi.org/project/mlx-serve/0.1.0/",
+      "date": "2026-03-31"
+    },
+    {
+      "url": "https://pypi.org/project/torchfinufft-ryan/2.2.0/",
+      "date": "2026-03-31"
+    },
+    {
+      "url": "https://pypi.org/project/privacyguard-platform/0.0.2/",
+      "date": "2026-03-31"
+    },
+    {
+      "url": "https://pypi.org/project/seraph-suite/1.0.1/",
+      "date": "2026-03-31"
     }
   ]
 }
