@@ -1,4 +1,52 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tenkai</title><link>https://tenkai.blog/posts/</link><description>Recent content in Posts on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 30 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — March 30, 2026</title><link>https://tenkai.blog/posts/2026-03-30/</link><pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-03-30/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tenkai</title><link>https://tenkai.blog/posts/</link><description>Recent content in Posts on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 31 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — March 31, 2026</title><link>https://tenkai.blog/posts/2026-03-31/</link><pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-03-31/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/microsoft/harrier-oss-v1-0.6b" target="_blank" rel="noopener noreferrer">microsoft/harrier-oss-v1-0.6b&lt;/a>
+&lt;/strong> — A 0.6B-parameter sentence transformer built on Qwen3, optimized for multilingual embeddings and MTEB. It’s MIT-licensed and small enough to run semantic search or RAG extraction on modest hardware without begging for a bigger GPU. 🤖&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/google-research/timesfm" target="_blank" rel="noopener noreferrer">google-research/timesfm&lt;/a>
+&lt;/strong> — Google’s pretrained foundation model for time-series forecasting that claims zero-shot prediction across diverse temporal datasets. Useful if you need a solid baseline for sequential modeling before spending weeks tuning a domain-specific architecture. 📈&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/mlx-serve/0.1.0/" target="_blank" rel="noopener noreferrer">mlx-serve&lt;/a>
+&lt;/strong> — A local inference server for Apple Silicon that hot-swaps between LLMs, vision, embeddings, and audio models without restarting. It exposes an OpenAI-compatible API, so you can finally test local multimodal pipelines on your Mac without constantly tearing down your dev environment. 🍎&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/SkyworkAI/Matrix-Game" target="_blank" rel="noopener noreferrer">SkyworkAI/Matrix-Game&lt;/a>
+&lt;/strong> — Matrix-Game 3.0 implements a streaming interactive world model with long-horizon memory. It’s less of a consumer toy and more of an engineering testbed for studying state tracking and temporal coherence in continuous generative environments. 🌐&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2603.26778" target="_blank" rel="noopener noreferrer">TED: Training-Free Experience Distillation for Multimodal Reasoning&lt;/a>
+&lt;/strong> — Proposes a training-free distillation framework that transfers teacher capabilities to student models without parameter updates or heavy retraining. If you’re deploying multimodal reasoning on constrained hardware, this sidesteps the usual fine-tuning tax. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2603.26796" target="_blank" rel="noopener noreferrer">Robust Batch-Level Query Routing for Large Language Models under Cost and Capacity Constraints&lt;/a>
+&lt;/strong> — Moves LLM query routing from a per-request gamble to a batch-level optimization that balances compute cost, GPU capacity, and concurrency. Worth a read if your production serving costs are creeping up and naive routing is leaving throughput on the table. 📉&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2603.26823" target="_blank" rel="noopener noreferrer">Throughput Optimization as a Strategic Lever in Large-Scale AI Systems: Evidence from Dataloader and Memory Profiling Innovations&lt;/a>
+&lt;/strong> — Digs into the unglamorous but critical bottlenecks of dataloader efficiency and memory profiling during large-scale training. The paper translates directly into actionable tuning steps to keep your GPUs pegged and your cloud bill from spiraling. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2603.27169" target="_blank" rel="noopener noreferrer">Aligning LLMs with Graph Neural Solvers for Combinatorial Optimization&lt;/a>
+&lt;/strong> — Combines LLMs with GNN-based solvers to tackle combinatorial optimization problems. If you’ve ever watched a pure language model hallucinate its way through a routing or scheduling constraint, this hybrid approach actually respects the underlying graph structure. 🧮&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2603.26671" target="_blank" rel="noopener noreferrer">Mitigating Forgetting in Continual Learning with Selective Gradient Projection&lt;/a>
+&lt;/strong> — Introduces SFAO, a dynamic regularization method that selectively projects gradients to preserve old representations while learning new ones. A practical angle for continual learning systems that need to adapt without completely overwriting their past. 🔄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2603.26775" target="_blank" rel="noopener noreferrer">Learning to Select Visual In-Context Demonstrations&lt;/a>
+&lt;/strong> — Swaps out standard k-NN retrieval for a learned demonstration selector that cuts redundancy and prioritizes quality for multimodal ICL. If you’re pushing visual regression tasks, this is a straightforward upgrade over brute-force context stuffing. 👁️&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/PaddlePaddle/PaddleOCR" target="_blank" rel="noopener noreferrer">PaddlePaddle/PaddleOCR&lt;/a>
+&lt;/strong> — A high-performance OCR toolkit supporting 100+ languages with quantized models and production-ready inference engines. It’s designed to cleanly extract structured text from messy images and PDFs before feeding them into downstream LLM pipelines. 🖨️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/OpenBMB/ChatDev" target="_blank" rel="noopener noreferrer">OpenBMB/ChatDev&lt;/a>
+&lt;/strong> — A multi-agent framework that automates chunks of the SDLC using LLM-driven role-playing agents. Useful for stress-testing agent orchestration, automated code generation, and testing loops, even if you still want a human signing off on prod. 🤝&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/Canner/WrenAI" target="_blank" rel="noopener noreferrer">Canner/WrenAI&lt;/a>
+&lt;/strong> — An open-source generative BI agent with a semantic layer that translates natural language into SQL and visualizations. It supports 12+ data sources and any LLM backend, making it a flexible starting point for internal analytics dashboards that don&amp;rsquo;t lock you into a vendor. 📊&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/steipete/mcporter" target="_blank" rel="noopener noreferrer">steipete/mcporter&lt;/a>
+&lt;/strong> — A TypeScript wrapper that exposes Model Context Protocol servers as standard APIs or CLI tools. It strips away the MCP plumbing so Node.js developers can integrate external tooling into agentic workflows without debugging protocol handshakes. 🔌&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/coder/mux" target="_blank" rel="noopener noreferrer">coder/mux&lt;/a>
+&lt;/strong> — A desktop app that sandboxes and parallelizes multiple AI coding agents. If you want to run concurrent LLM-driven dev tasks without environment collisions or stepping on your own toes, this handles the isolation overhead. 📦&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/khoj-ai/khoj" target="_blank" rel="noopener noreferrer">khoj-ai/khoj&lt;/a>
+&lt;/strong> — A self-hosted AI assistant that ties together local file retrieval, web search, and customizable agent workflows. It supports both open and proprietary backends, giving you a modular RAG/automation setup you actually control. 🕳️&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>If you’re tired of paying premium rates for oversized embedding APIs, you can spin up a tightly controlled local RAG extraction pipeline using &lt;a href="https://huggingface.co/microsoft/harrier-oss-v1-0.6b" target="_blank" rel="noopener noreferrer">microsoft/harrier-oss-v1-0.6b&lt;/a>
+ and &lt;a href="https://pypi.org/project/mlx-serve/0.1.0/" target="_blank" rel="noopener noreferrer">mlx-serve&lt;/a>
+. The 0.6B model runs comfortably on Apple Silicon, and the hot-swapping server lets you iterate on multimodal workflows without constantly tearing down your environment. But local prototyping is the easy part—the actual infrastructure savings hit when you push to production. Instead of routing every semantic query as a blocking, per-request gamble, implement the batch-level optimization strategy from &lt;a href="https://arxiv.org/abs/2603.26796" target="_blank" rel="noopener noreferrer">Robust Batch-Level Query Routing for Large Language Models&lt;/a>
+. It groups incoming requests, dynamically balances them against real GPU memory limits, and smooths out concurrency spikes that usually choke naive autoscalers. Pair a lightweight, MIT-licensed transformer with intelligent batch scheduling, and you get deterministic throughput without renting a massive cluster. Stop treating retrieval like it requires an H100, and start optimizing the actual plumbing.&lt;/p></description></item><item><title>Tenkai Daily — March 30, 2026</title><link>https://tenkai.blog/posts/2026-03-30/</link><pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-03-30/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://huggingface.co/zed-industries/zeta-2" target="_blank" rel="noopener noreferrer">zed-industries/zeta-2&lt;/a>
  — A code‑editing model built on ByteDance Seed‑Coder‑8B, fine‑tuned for next‑edit suggestion and edit prediction. It ships as a safetensors‑compatible Transformer under Apache 2.0, ready for IDE integration.&lt;/li>
