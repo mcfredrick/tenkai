@@ -2523,6 +2523,82 @@
     {
       "url": "https://pypi.org/project/seraph-suite/1.0.1/",
       "date": "2026-03-31"
+    },
+    {
+      "url": "https://huggingface.co/facebook/sam3.1",
+      "date": "2026-04-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.28955",
+      "date": "2026-04-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.28986",
+      "date": "2026-04-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.28990",
+      "date": "2026-04-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.29085",
+      "date": "2026-04-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.29112",
+      "date": "2026-04-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.29139",
+      "date": "2026-04-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.29161",
+      "date": "2026-04-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.28845",
+      "date": "2026-04-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.28921",
+      "date": "2026-04-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.28942",
+      "date": "2026-04-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.28964",
+      "date": "2026-04-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.28992",
+      "date": "2026-04-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.29010",
+      "date": "2026-04-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.29068",
+      "date": "2026-04-01"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.89",
+      "date": "2026-04-01"
+    },
+    {
+      "url": "https://pypi.org/project/aspose-html-cloud-mcp/1.0.0/",
+      "date": "2026-04-01"
+    },
+    {
+      "url": "https://pypi.org/project/chitta-bridge/0.8.0/",
+      "date": "2026-04-01"
+    },
+    {
+      "url": "https://pypi.org/project/carpenter-ai/0.0.1/",
+      "date": "2026-04-01"
     }
   ]
 }
