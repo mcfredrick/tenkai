@@ -1,4 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Papers on Tenkai</title><link>https://tenkai.blog/tags/papers/</link><description>Recent content in Papers on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 31 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/papers/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — March 31, 2026</title><link>https://tenkai.blog/posts/2026-03-31/</link><pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-03-31/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Papers on Tenkai</title><link>https://tenkai.blog/tags/papers/</link><description>Recent content in Papers on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 01 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/papers/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — April 1, 2026</title><link>https://tenkai.blog/posts/2026-04-01/</link><pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-01/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://tenkai.blog/tenkai-agi-1/" target="_blank" rel="noopener noreferrer">TenkAI-AGI-1&lt;/a>
+&lt;/strong> — Tenkai Research Lab quietly dropped open weights for the world&amp;rsquo;s first AGI model overnight. Apache 2.0, 10T parameters, 99.97% MMLU. No blog post, no press release — just a weights link and a README that says &amp;lsquo;good luck.&amp;rsquo;&lt;/li>
+&lt;li>&lt;a href="https://huggingface.co/facebook/sam3.1" target="_blank" rel="noopener noreferrer">Meta SAM 3.1 Video Segmentation&lt;/a>
+ — Another SAM iteration adds temporal mask generation to stop masks from jittering across video frames. 🤖 Useful if your vision pipeline hates flickering segmentation, but benchmark it on your own motion-heavy data before assuming it magically solved temporal coherence. 🃏&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://pypi.org/project/aspose-html-cloud-mcp/1.0.0/" target="_blank" rel="noopener noreferrer">aspose-html-cloud-mcp 1.0.0&lt;/a>
+ — Wraps Aspose’s document conversion into an MCP server so your LLM can swap HTML for PDF or EPUB via tool calls. 🛠️ Practical for agent-driven formatting, but routing every conversion through a cloud API adds latency you’ll feel immediately.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/chitta-bridge/0.8.0/" target="_blank" rel="noopener noreferrer">chitta-bridge 0.8.0&lt;/a>
+ — Routes queries across cloud APIs, local GPUs, and CLI agents under one MCP interface. 🤡 The &amp;ldquo;advanced agentic memory&amp;rdquo; claim is just better prompt caching, but the unified routing saves you from stitching custom switches for hybrid deployments.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/carpenter-ai/0.0.1/" target="_blank" rel="noopener noreferrer">carpenter-ai 0.0.1&lt;/a>
+ — Forces autonomous agents to output reviewable Python code blocks instead of executing raw actions. 🎭 It’s essentially a glorified &lt;code>eval()&lt;/code> wrapper with audit logging, but compliance teams will sleep better knowing exactly what the model ran.&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://arxiv.org/abs/2603.29085" target="_blank" rel="noopener noreferrer">PAR$^2$-RAG: Planned Active Retrieval and Reasoning for Multi-Hop Question Answering&lt;/a>
+ — Dynamically adjusts retrieval queries mid-conversation to stop early hallucination from cascading through multi-hop QA. 📄 The math holds, but iterative planning means more LLM calls and higher latency, so measure your throughput before adopting it.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2603.28845" target="_blank" rel="noopener noreferrer">OneComp: One-Line Revolution for Generative AI Model Compression&lt;/a>
+ — Claims a single post-training trick that shrinks memory and latency with minimal accuracy drop. 🃏 The title screams April Fools, but if it actually unifies quantization and pruning into one pass, it could save serious engineering overhead.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2603.29010" target="_blank" rel="noopener noreferrer">Improving Efficiency of GPU Kernel Optimization Agents using a Domain-Specific Language and Speed-of-Light Guidance&lt;/a>
+ — Uses a DSL and theoretical hardware limits to stop LLM agents from brute-forcing kernel configurations. 🛠️ Smart constraint injection that drastically cuts profiling cycles, which is exactly what you need when tuning custom ops.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2603.28955" target="_blank" rel="noopener noreferrer">Enhancing Policy Learning with World-Action Model&lt;/a>
+ — Adds an inverse dynamics objective to DreamerV2 so the model learns both the next state and the action that caused the transition. 📄 Should stabilize RL training and improve sample efficiency, saving you from watching agents flail for three weeks.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2603.28986" target="_blank" rel="noopener noreferrer">Mimosa Framework: Toward Evolving Multi-Agent Systems for Scientific Research&lt;/a>
+ — Auto-generates agent workflows and toolsets to adapt to novel experimental setups. 🎭 The &amp;ldquo;evolving AI scientists&amp;rdquo; pitch is heavy, but the dynamic architecture routing underneath is a solid workaround to hardcoded graphs.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2603.28990" target="_blank" rel="noopener noreferrer">Drop the Hierarchy and Roles: How Self-Organizing LLM Agents Outperform Designed Structures&lt;/a>
+ — Benchmarks 25,000 tasks across 256 LLMs to prove flat coordination beats rigid role assignments. 🤡 Turns out letting models negotiate in an open chatroom outperforms pre-defined org charts, giving you empirical backing to drop the manager-agent pattern.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.89" target="_blank" rel="noopener noreferrer">Claude Code v2.1.89: Deferred Tool Permissions &amp;amp; Terminal Rendering&lt;/a>
+ — Adds a &amp;lsquo;defer&amp;rsquo; permission for PreToolUse hooks so headless sessions can pause at tool calls and resume via CLI flags. 🛠️ Actually useful for CI pipelines that need manual approval gates mid-execution, plus the alt-screen rendering fixes the usual terminal flicker.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>If you’ve spent the last year building multi-agent pipelines with rigid manager-worker hierarchies, consider this your official April Fools’ wake-up call. The real punchline isn’t some phantom AGI dropping overnight; it’s the orchestration bloat we keep shipping. &lt;a href="https://arxiv.org/abs/2603.28990" target="_blank" rel="noopener noreferrer">Drop the Hierarchy and Roles: How Self-Organizing LLM Agents Outperform Designed Structures&lt;/a>
+ benchmarks 25,000 tasks to prove flat coordination beats predefined org charts, mostly because routing through a middleman agent just burns tokens and compounds latency. You don’t need a simulation of corporate management to run inference—you need deterministic routing with hard safety boundaries. Pair that empirical backing with something like &lt;a href="https://pypi.org/project/chitta-bridge/0.8.0/" target="_blank" rel="noopener noreferrer">chitta-bridge 0.8.0&lt;/a>
+ for unified local/cloud dispatch, then force all autonomous outputs through an execution sandbox like &lt;a href="https://pypi.org/project/carpenter-ai/0.0.1/" target="_blank" rel="noopener noreferrer">carpenter-ai 0.0.1&lt;/a>
+ that logs every generated code block before it runs. Strip the orchestration down to a flat router + audit gate, measure your token savings and p95 latency, and let your infra handle the “management” instead of brittle prompt templates. 🤡&lt;/p></description></item><item><title>Tenkai Daily — March 31, 2026</title><link>https://tenkai.blog/posts/2026-03-31/</link><pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-03-31/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/microsoft/harrier-oss-v1-0.6b" target="_blank" rel="noopener noreferrer">microsoft/harrier-oss-v1-0.6b&lt;/a>
 &lt;/strong> — A 0.6B-parameter sentence transformer built on Qwen3, optimized for multilingual embeddings and MTEB. It’s MIT-licensed and small enough to run semantic search or RAG extraction on modest hardware without begging for a bigger GPU. 🤖&lt;/li>
