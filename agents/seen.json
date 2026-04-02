@@ -2599,6 +2599,82 @@
     {
       "url": "https://pypi.org/project/carpenter-ai/0.0.1/",
       "date": "2026-04-01"
+    },
+    {
+      "url": "https://github.com/NVIDIA/Model-Optimizer",
+      "date": "2026-04-02"
+    },
+    {
+      "url": "https://github.com/allenai/OLMo-core",
+      "date": "2026-04-02"
+    },
+    {
+      "url": "https://github.com/microsoft/agent-framework",
+      "date": "2026-04-02"
+    },
+    {
+      "url": "https://github.com/LMCache/LMCache",
+      "date": "2026-04-02"
+    },
+    {
+      "url": "https://huggingface.co/prism-ml/Bonsai-8B-gguf",
+      "date": "2026-04-02"
+    },
+    {
+      "url": "https://huggingface.co/Hcompany/Holo3-35B-A3B",
+      "date": "2026-04-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.00137",
+      "date": "2026-04-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.00356",
+      "date": "2026-04-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.00362",
+      "date": "2026-04-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.00414",
+      "date": "2026-04-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.00421",
+      "date": "2026-04-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.00442",
+      "date": "2026-04-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.00478",
+      "date": "2026-04-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.00001",
+      "date": "2026-04-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.00136",
+      "date": "2026-04-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.00199",
+      "date": "2026-04-02"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.90",
+      "date": "2026-04-02"
+    },
+    {
+      "url": "https://pypi.org/project/cellcog/1.16.0/",
+      "date": "2026-04-02"
+    },
+    {
+      "url": "https://pypi.org/project/pocketteam/1.0.4/",
+      "date": "2026-04-02"
     }
   ]
 }
