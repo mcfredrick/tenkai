@@ -2675,6 +2675,74 @@
     {
       "url": "https://pypi.org/project/pocketteam/1.0.4/",
       "date": "2026-04-02"
+    },
+    {
+      "url": "https://github.com/MervinPraison/PraisonAI",
+      "date": "2026-04-03"
+    },
+    {
+      "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
+      "date": "2026-04-03"
+    },
+    {
+      "url": "https://github.com/roboflow/supervision",
+      "date": "2026-04-03"
+    },
+    {
+      "url": "https://github.com/Yeachan-Heo/oh-my-codex",
+      "date": "2026-04-03"
+    },
+    {
+      "url": "https://huggingface.co/google/gemma-4-31B-it",
+      "date": "2026-04-03"
+    },
+    {
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-350M",
+      "date": "2026-04-03"
+    },
+    {
+      "url": "https://huggingface.co/google/gemma-4-26B-A4B-it",
+      "date": "2026-04-03"
+    },
+    {
+      "url": "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF",
+      "date": "2026-04-03"
+    },
+    {
+      "url": "https://smithery.ai/servers/gmail",
+      "date": "2026-04-03"
+    },
+    {
+      "url": "https://smithery.ai/servers/notion",
+      "date": "2026-04-03"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.91",
+      "date": "2026-04-03"
+    },
+    {
+      "url": "https://pypi.org/project/pdf-autofillr/1.0.7/",
+      "date": "2026-04-03"
+    },
+    {
+      "url": "https://pypi.org/project/liger-kernel-nightly/0.7.0.dev20260403081233/",
+      "date": "2026-04-03"
+    },
+    {
+      "url": "https://pypi.org/project/brainctl/0.5.0/",
+      "date": "2026-04-03"
+    },
+    {
+      "url": "https://pypi.org/project/ya-agent-sdk/0.51.3/",
+      "date": "2026-04-03"
+    },
+    {
+      "url": "https://pypi.org/project/qwen3-embed/1.7.0/",
+      "date": "2026-04-03"
+    },
+    {
+      "url": "https://pypi.org/project/agent-failure-debugger/0.3.1/",
+      "date": "2026-04-03"
     }
   ]
 }
