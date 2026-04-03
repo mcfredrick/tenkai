@@ -1,4 +1,52 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Llm on Tenkai</title><link>https://tenkai.blog/tags/llm/</link><description>Recent content in Llm on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 02 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/llm/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — April 2, 2026</title><link>https://tenkai.blog/posts/2026-04-02/</link><pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-02/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Llm on Tenkai</title><link>https://tenkai.blog/tags/llm/</link><description>Recent content in Llm on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 03 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/llm/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — April 3, 2026</title><link>https://tenkai.blog/posts/2026-04-03/</link><pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-03/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://huggingface.co/google/gemma-4-31B-it" target="_blank" rel="noopener noreferrer">Gemma 4 31B Instruct&lt;/a>
+ — Google’s 31B‑parameter multimodal model handles image‑text‑to‑text generation, comes with safety fine‑tuning and Apache‑2.0 licensing. Good if you need a conversational vision‑language model that plays nice with standard endpoints. 🤖&lt;/li>
+&lt;li>&lt;a href="https://huggingface.co/google/gemma-4-26B-A4B-it" target="_blank" rel="noopener noreferrer">Gemma 4 26B A4B Instruct&lt;/a>
+ — A 26B‑parameter mixture‑of‑experts variant (4 experts) from the Gemma 4 family, also image‑text‑to‑text capable under Apache‑2.0. Handy when you want MoE efficiency without sacrificing multimodal skills. 🛠️&lt;/li>
+&lt;li>&lt;a href="https://huggingface.co/LiquidAI/LFM2.5-350M" target="_blank" rel="noopener noreferrer">LiquidAI LFM2.5 350M&lt;/a>
+ — Tiny 350M‑parameter LM built for edge devices, multilingual, Safetensors‑ready, and low‑latency. Ideal for on‑device text generation where memory and power are tight. 📱&lt;/li>
+&lt;li>&lt;a href="https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF" target="_blank" rel="noopener noreferrer">Ungrounded Gemma 4 26B A4B GGUF&lt;/a>
+ — Unsloth’s GGUF‑quantized Gemma‑4‑26B‑A4B‑it for llama.cpp, keeping the original abilities while enabling fast CPU/GPU inference. Includes Imatrix quantization and stays Apache‑2.0. 🚀&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://pypi.org/project/liger-kernel-nightly/0.7.0.dev20260403081233/" target="_blank" rel="noopener noreferrer">liger-kernel-nightly 0.7.0.dev20260403081233&lt;/a>
+ — Nightly build delivering Triton‑fused kernels for attention and rotary embeddings, aiming to cut memory use and boost training throughput on GPUs. Targets researchers squeezing extra performance from large LLMs. ⚡&lt;/li>
+&lt;li>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.91" target="_blank" rel="noopener noreferrer">anthropics/claude-code: v2.1.91&lt;/a>
+ — Adds a &lt;code>_meta['anthropic/maxResultSizeChars']&lt;/code> override to let MCP tools return up to 500K characters, plus a flag to disable inline shell execution in skills and commands. Useful when you need big payloads from Claude‑driven agents. 📄&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/brainctl/0.5.0/" target="_blank" rel="noopener noreferrer">brainctl 0.5.0&lt;/a>
+ — Unified cognitive memory library for AI agents, blending episodic, semantic, and procedural stores with FTS5 text search and vector similarity. Includes neuromodulation hooks and MCP server hooks for distributed agent coordination. 🧠&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/ya-agent-sdk/0.51.3/" target="_blank" rel="noopener noreferrer">ya-agent-sdk 0.51.3&lt;/a>
+ — Pydantic‑AI‑based framework for building stateful, hierarchical agents with session management, tool abstraction, and logging. Makes modular agent construction less boilerplate‑heavy. 🤖&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/qwen3-embed/1.7.0/" target="_blank" rel="noopener noreferrer">qwen3-embed 1.7.0&lt;/a>
+ — Thin wrapper around Qwen3 text embeddings and rerankers, using ONNX Runtime and GGUF for fast inference. A FastEmbed fork that adds Qwen3 support for low‑latency RAG pipelines. 🔍&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/pdf-autofillr/1.0.7/" target="_blank" rel="noopener noreferrer">pdf-autofillr 1.0.7&lt;/a>
+ — Modular PDF form‑filling kit combining a chatbot UI, field mapping, and RAG‑powered completion. Lets you pick and install only the pieces you need for document‑processing workflows. 📑&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/MervinPraison/PraisonAI" target="_blank" rel="noopener noreferrer">PraisonAI – Low‑code multi‑agent AI platform&lt;/a>
+ — Framework for assembling autonomous agent teams that can plan, research, code, and chat over Telegram, Discord, WhatsApp, etc. Comes with guardrails, memory, RAG, and broad LLM compatibility. 🤖&lt;/li>
+&lt;li>&lt;a href="https://github.com/yusufkaraaslan/Skill_Seekers" target="_blank" rel="noopener noreferrer">Skill_Seekers – Convert docs/repos/Pdfs into Claude AI skills&lt;/a>
+ — Turns documentation sites, repos, and PDFs into reusable Claude skill modules, auto‑detecting conflicts. Streamlines knowledge ingestion for LLM‑based agents. 📚&lt;/li>
+&lt;li>&lt;a href="https://github.com/roboflow/supervision" target="_blank" rel="noopener noreferrer">Supervision – Reusable computer vision tools&lt;/a>
+ — Collection of framework‑agnostic utilities for annotation, detection, segmentation, tracking, plus visualizers and metrics. Speeds up CV experimentation without locking you into a specific stack. 👁️&lt;/li>
+&lt;li>&lt;a href="https://github.com/Yeachan-Heo/oh-my-codex" target="_blank" rel="noopener noreferrer">Oh My Codex – Extend GitHub Copilot with hooks and agent teams&lt;/a>
+ — Adds custom hook registration, agent team orchestration, and HUDs to GitHub Copilot, enabling programmable AI‑assisted coding interactions. 💡&lt;/li>
+&lt;/ul>
+&lt;h2 id="mcp-servers--integrations">MCP Servers &amp;amp; Integrations&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://smithery.ai/servers/gmail" target="_blank" rel="noopener noreferrer">Gmail&lt;/a>
+ — Provides end‑to‑end Gmail control for AI agents: send, draft, reply, forward, bulk‑modify/delete, label, archive, trash, and fetch contacts. Mirrors native Gmail capabilities for agent workflows. ✉️&lt;/li>
+&lt;li>&lt;a href="https://smithery.ai/servers/notion" target="_blank" rel="noopener noreferrer">Notion&lt;/a>
+ — Lets agents search Notion workspaces, view full page details, create/update content, manage databases, and add comments. Brings your knowledge base into agent‑driven processes. 🗂️&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>If you’re still routing internal document workflows through paid inference APIs, stop burning budget on token counts and try a fully local stack. Pair &lt;a href="https://huggingface.co/LiquidAI/LFM2.5-350M" target="_blank" rel="noopener noreferrer">LiquidAI LFM2.5 350M&lt;/a>
+ with &lt;a href="https://pypi.org/project/qwen3-embed/1.7.0/" target="_blank" rel="noopener noreferrer">qwen3-embed 1.7.0&lt;/a>
+ and &lt;a href="https://pypi.org/project/pdf-autofillr/1.0.7/" target="_blank" rel="noopener noreferrer">pdf-autofillr 1.0.7&lt;/a>
+ to build a self-contained RAG pipeline that actually respects your data retention policies. The 350M parameter model runs comfortably on consumer edge hardware without melting VRAM, while qwen3-embed’s ONNX/GGUF backend keeps retrieval latency strictly under 10ms. Feed those vectors into pdf-autofillr’s modular field mapper and you get structured extraction without writing brittle regex chains. Wire the components together via a lightweight FastAPI shim, memory-map the quantized weights, and swap out default Python loops for batched CUDA kernels to push throughput past 50 req/s on a single 3090. It won’t replace your 70B fine-tunes for creative generation, but for high-volume form parsing and local compliance QA, it’s the kind of boring infrastructure that actually ships and survives audits. 📉&lt;/p></description></item><item><title>Tenkai Daily — April 2, 2026</title><link>https://tenkai.blog/posts/2026-04-02/</link><pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-02/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/prism-ml/Bonsai-8B-gguf" target="_blank" rel="noopener noreferrer">prism-ml/Bonsai-8B-gguf&lt;/a>
 &lt;/strong> 🤖 8B model pushed down to 1-bit quantization via GGUF, specifically targeting llama.cpp compatibility with CUDA/Metal hooks. Useful if you&amp;rsquo;re trying to run inference on constrained edge hardware, though you&amp;rsquo;ll want to benchmark quality drops carefully before trusting it with anything critical.&lt;/li>
