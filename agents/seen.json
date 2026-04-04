@@ -2743,6 +2743,118 @@
     {
       "url": "https://pypi.org/project/agent-failure-debugger/0.3.1/",
       "date": "2026-04-03"
+    },
+    {
+      "url": "https://github.com/Blaizzy/mlx-vlm",
+      "date": "2026-04-04"
+    },
+    {
+      "url": "https://github.com/LearningCircuit/local-deep-research",
+      "date": "2026-04-04"
+    },
+    {
+      "url": "https://github.com/oumi-ai/oumi",
+      "date": "2026-04-04"
+    },
+    {
+      "url": "https://github.com/multica-ai/multica",
+      "date": "2026-04-04"
+    },
+    {
+      "url": "https://github.com/simstudioai/sim",
+      "date": "2026-04-04"
+    },
+    {
+      "url": "https://huggingface.co/netflix/void-model",
+      "date": "2026-04-04"
+    },
+    {
+      "url": "https://huggingface.co/google/gemma-4-E2B-it",
+      "date": "2026-04-04"
+    },
+    {
+      "url": "https://huggingface.co/google/gemma-4-31B",
+      "date": "2026-04-04"
+    },
+    {
+      "url": "https://huggingface.co/Jackrong/Qwopus3.5-9B-v3-GGUF",
+      "date": "2026-04-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.01302",
+      "date": "2026-04-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.01312",
+      "date": "2026-04-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.01348",
+      "date": "2026-04-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.01350",
+      "date": "2026-04-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.01354",
+      "date": "2026-04-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.01404",
+      "date": "2026-04-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.01413",
+      "date": "2026-04-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.01432",
+      "date": "2026-04-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.01457",
+      "date": "2026-04-04"
+    },
+    {
+      "url": "https://smithery.ai/servers/youtube",
+      "date": "2026-04-04"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.92",
+      "date": "2026-04-04"
+    },
+    {
+      "url": "https://pypi.org/project/langchain-suprawall/0.1.2/",
+      "date": "2026-04-04"
+    },
+    {
+      "url": "https://pypi.org/project/light-llm-hp/0.3.2/",
+      "date": "2026-04-04"
+    },
+    {
+      "url": "https://pypi.org/project/aidiff/0.1.0/",
+      "date": "2026-04-04"
+    },
+    {
+      "url": "https://pypi.org/project/memgraph-sdk/0.7.0/",
+      "date": "2026-04-04"
+    },
+    {
+      "url": "https://pypi.org/project/pyqual/0.1.124/",
+      "date": "2026-04-04"
+    },
+    {
+      "url": "https://pypi.org/project/neo-mcp/0.4.19/",
+      "date": "2026-04-04"
+    },
+    {
+      "url": "https://pypi.org/project/gopherhole/0.3.2/",
+      "date": "2026-04-04"
+    },
+    {
+      "url": "https://pypi.org/project/agent-immune/0.1.0/",
+      "date": "2026-04-04"
     }
   ]
 }
