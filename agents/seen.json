@@ -2855,6 +2855,78 @@
     {
       "url": "https://pypi.org/project/agent-immune/0.1.0/",
       "date": "2026-04-04"
+    },
+    {
+      "url": "https://github.com/imbue-ai/mngr",
+      "date": "2026-04-05"
+    },
+    {
+      "url": "https://github.com/ml-explore/mlx-lm",
+      "date": "2026-04-05"
+    },
+    {
+      "url": "https://github.com/QwenLM/qwen-code",
+      "date": "2026-04-05"
+    },
+    {
+      "url": "https://github.com/yamadashy/repomix",
+      "date": "2026-04-05"
+    },
+    {
+      "url": "https://github.com/github/copilot-sdk",
+      "date": "2026-04-05"
+    },
+    {
+      "url": "https://huggingface.co/google/gemma-4-E4B-it",
+      "date": "2026-04-05"
+    },
+    {
+      "url": "https://huggingface.co/k2-fsa/OmniVoice",
+      "date": "2026-04-05"
+    },
+    {
+      "url": "https://huggingface.co/nvidia/Gemma-4-31B-IT-NVFP4",
+      "date": "2026-04-05"
+    },
+    {
+      "url": "https://pypi.org/project/a3s-code/1.6.0/",
+      "date": "2026-04-05"
+    },
+    {
+      "url": "https://pypi.org/project/repowise/0.1.31/",
+      "date": "2026-04-05"
+    },
+    {
+      "url": "https://pypi.org/project/energyscope-mcp/2.1.3/",
+      "date": "2026-04-05"
+    },
+    {
+      "url": "https://pypi.org/project/cnllm/0.4.2/",
+      "date": "2026-04-05"
+    },
+    {
+      "url": "https://pypi.org/project/tfdwt/0.1.1/",
+      "date": "2026-04-05"
+    },
+    {
+      "url": "https://pypi.org/project/astrocyte/0.2.5/",
+      "date": "2026-04-05"
+    },
+    {
+      "url": "https://pypi.org/project/llm-pentest-benchmark/0.1.6/",
+      "date": "2026-04-05"
+    },
+    {
+      "url": "https://pypi.org/project/inferwall/0.1.6/",
+      "date": "2026-04-05"
+    },
+    {
+      "url": "https://pypi.org/project/maestro-ai/1.4.0/",
+      "date": "2026-04-05"
+    },
+    {
+      "url": "https://pypi.org/project/maestro-core/1.4.0/",
+      "date": "2026-04-05"
     }
   ]
 }
