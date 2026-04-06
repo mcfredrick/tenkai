@@ -1,4 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open-Source on Tenkai</title><link>https://tenkai.blog/tags/open-source/</link><description>Recent content in Open-Source on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 05 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/open-source/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — April 5, 2026</title><link>https://tenkai.blog/posts/2026-04-05/</link><pubDate>Sun, 05 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-05/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open-Source on Tenkai</title><link>https://tenkai.blog/tags/open-source/</link><description>Recent content in Open-Source on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 06 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/open-source/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — April 6, 2026</title><link>https://tenkai.blog/posts/2026-04-06/</link><pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-06/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://pypi.org/project/aig-guardian/0.8.0/" target="_blank" rel="noopener noreferrer">aig-guardian 0.8.0&lt;/a>
+ — Zero‑dependency middleware that spots prompt injections, jailbreaks, and PII leaks while covering the OWASP LLM Top 10. Plug it into FastAPI, LangChain, or direct API calls for a quick security layer. 🛡️&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/sam-gate/0.1.3/" target="_blank" rel="noopener noreferrer">sam-gate 0.1.3&lt;/a>
+ — A semantic‑aware memory gate that compresses heterogeneous KV‑caches in transformers, aiming to cut inference memory without hurting accuracy. Drop‑in module for existing model serving pipelines. 📦&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/crewai/1.14.0a3/" target="_blank" rel="noopener noreferrer">crewai 1.14.0a3&lt;/a>
+ — Framework for orchestrating role‑playing, autonomous AI agents that collaborate on complex tasks. This alpha tightens agent communication and task handling for smoother multi‑agent workflows. 🤖&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/toolregistry-hub/0.8.0/" target="_blank" rel="noopener noreferrer">toolregistry-hub 0.8.0&lt;/a>
+ — Utility belt for LLMs offering math, date/time, file ops, web search, unit conversion, and more. Handy when you need ready‑made tools for function calling or general scripting. 🧰&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/torch-mpo/0.2.3/" target="_blank" rel="noopener noreferrer">torch-mpo 0.2.3&lt;/a>
+ — PyTorch implementation of Matrix Product Operators for compressing large weight matrices into low‑rank forms. Supports training and inference with lower memory and compute footprints. 📉&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/nteract/2.1.1a202604060758/" target="_blank" rel="noopener noreferrer">nteract 2.1.1a202604060758&lt;/a>
+ — Brings AI capabilities to Jupyter notebooks via an MCP server that talks to Claude, ChatGPT, Gemini, OpenCode, and any agent. Enables inline AI‑assisted coding and data exploration. 📓&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/google-deepmind/gemma" target="_blank" rel="noopener noreferrer">Gemma: Google DeepMind&amp;rsquo;s Open-Weight LLM Library&lt;/a>
+ — Provides access to DeepMind’s open‑weight LLMs with inference and fine‑tuning code. Built for efficiency so you can experiment locally without massive hardware. 🧠&lt;/li>
+&lt;li>&lt;a href="https://github.com/HKUDS/RAG-Anything" target="_blank" rel="noopener noreferrer">RAG-Anything: All-in-One Retrieval-Augmented Generation Framework&lt;/a>
+ — Modular RAG pipeline that lets you swap loaders, embedders, stores, and LLMs via config. Reduces boilerplate when building custom retrieval‑augmented apps. 🔍&lt;/li>
+&lt;li>&lt;a href="https://github.com/badlogic/pi-mono" target="_blank" rel="noopener noreferrer">Pi-Mono: AI Agent Toolkit with Coding Agent CLI and LLM API&lt;/a>
+ — Full‑stack kit for AI agents: coding agent CLI, unified LLM API, TUI/web UIs, Slack bot, and vLLM pod support. Aims to cut the glue code needed for autonomous agents. 🛠️&lt;/li>
+&lt;li>&lt;a href="https://github.com/campfirein/byterover-cli" target="_blank" rel="noopener noreferrer">ByteRover CLI: Portable Memory Layer for Autonomous Coding Agents&lt;/a>
+ — Persistent storage for agent experiences and knowledge, usable across sessions and environments. Helps agents retain long‑term context without rebuilding from scratch. 💾&lt;/li>
+&lt;li>&lt;a href="https://github.com/tobi/qmd" target="_blank" rel="noopener noreferrer">QMD: Mini CLI Search Engine for Local Docs and Knowledge Bases&lt;/a>
+ — Offline, embedding‑based search tool for your personal docs, notes, and wikis. Fast, relevant results with zero external dependencies. 🔎&lt;/li>
+&lt;/ul>
+&lt;h2 id="mcp-servers--integrations">MCP Servers &amp;amp; Integrations&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://smithery.ai/servers/googlecalendar" target="_blank" rel="noopener noreferrer">Google Calendar MCP Server&lt;/a>
+ — Lets AI agents create events, check free/busy, set reminders, and manage calendars across time zones via the Model Context Protocol. Simple way to give agents scheduling superpowers. 📅&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>Combine aig-guardian’s zero‑dependency prompt‑injection shield with sam-gate’s semantic‑aware KV‑cache compressor and ByteRover CLI’s persistent memory layer to create a hardened, low‑footprint agent service that remembers past interactions safely. First, wrap your model‑serving endpoint (FastAPI, LangChain, or raw HTTP) with aig-guardian &lt;a href="https://pypi.org/project/aig-guardian/0.8.0/" target="_blank" rel="noopener noreferrer">0.8.0&lt;/a>
+ to automatically detect and block jailbreaks, PII leaks, and OWASP LLM Top 10 attacks before they reach the LLM. Next, insert sam‑gate &lt;a href="https://pypi.org/project/sam-gate/0.1.3/" target="_blank" rel="noopener noreferrer">0.1.3&lt;/a>
+ as a drop‑in module that rewrites the transformer’s KV‑cache into a compact, semantic representation, cutting inference memory by 30‑50 % without noticeable accuracy loss. Finally, persist the agent’s episodic knowledge using ByteRover CLI &lt;a href="https://github.com/campfirein/byterover-cli" target="_blank" rel="noopener noreferrer">byterover‑cli&lt;/a>
+ – a lightweight, cross‑session store that lets you reload past tool calls, embeddings, and conversation summaries on startup. The resulting pipeline gives you a secure, memory‑efficient, stateful agent that can be deployed on modest hardware while retaining long‑term context. You can benchmark latency with hey or wrk, monitor memory via Prometheus, and iterate on the compression ratio by tuning sam‑gate’s rank threshold.&lt;/p></description></item><item><title>Tenkai Daily — April 5, 2026</title><link>https://tenkai.blog/posts/2026-04-05/</link><pubDate>Sun, 05 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-05/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/google/gemma-4-E4B-it" target="_blank" rel="noopener noreferrer">google/gemma-4-E4B-it&lt;/a>
 &lt;/strong> — Any-to-any modality model (text, image, audio) released under Apache 2.0. If you’re building conversational agents that need to swap between media types without stitching together a brittle inference pipeline, this handles the routing out of the box. 🤖&lt;/li>
