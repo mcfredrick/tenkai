@@ -2975,6 +2975,50 @@
     {
       "url": "https://pypi.org/project/nteract/2.1.1a202604060758/",
       "date": "2026-04-06"
+    },
+    {
+      "url": "https://github.com/KeygraphHQ/shannon",
+      "date": "2026-04-07"
+    },
+    {
+      "url": "https://github.com/qwibitai/nanoclaw",
+      "date": "2026-04-07"
+    },
+    {
+      "url": "https://github.com/Jeffallan/claude-skills",
+      "date": "2026-04-07"
+    },
+    {
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "date": "2026-04-07"
+    },
+    {
+      "url": "https://smithery.ai/servers/blockscout/mcp-server",
+      "date": "2026-04-07"
+    },
+    {
+      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.29.0",
+      "date": "2026-04-07"
+    },
+    {
+      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.28.0",
+      "date": "2026-04-07"
+    },
+    {
+      "url": "https://pypi.org/project/slsqp-jax/0.8.1/",
+      "date": "2026-04-07"
+    },
+    {
+      "url": "https://pypi.org/project/aicd/1.0.6/",
+      "date": "2026-04-07"
+    },
+    {
+      "url": "https://pypi.org/project/custom-langchain-model/0.1.6/",
+      "date": "2026-04-07"
+    },
+    {
+      "url": "https://pypi.org/project/pw-agent/1.5.8/",
+      "date": "2026-04-07"
     }
   ]
 }
