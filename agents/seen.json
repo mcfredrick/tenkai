@@ -3019,6 +3019,42 @@
     {
       "url": "https://pypi.org/project/pw-agent/1.5.8/",
       "date": "2026-04-07"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.96",
+      "date": "2026-04-08"
+    },
+    {
+      "url": "https://pypi.org/project/dynabatch/0.1.9/",
+      "date": "2026-04-08"
+    },
+    {
+      "url": "https://pypi.org/project/memgraph-sdk/0.8.2/",
+      "date": "2026-04-08"
+    },
+    {
+      "url": "https://pypi.org/project/modelswitch/0.2.2/",
+      "date": "2026-04-08"
+    },
+    {
+      "url": "https://pypi.org/project/langchain-task-steering/0.1.1/",
+      "date": "2026-04-08"
+    },
+    {
+      "url": "https://pypi.org/project/openagent-framework/0.1.7/",
+      "date": "2026-04-08"
+    },
+    {
+      "url": "https://pypi.org/project/redsl/1.2.8/",
+      "date": "2026-04-08"
+    },
+    {
+      "url": "https://pypi.org/project/vector-graph-rag/0.1.3/",
+      "date": "2026-04-08"
+    },
+    {
+      "url": "https://pypi.org/project/sygen/1.2.31/",
+      "date": "2026-04-08"
     }
   ]
 }
