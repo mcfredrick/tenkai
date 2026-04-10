@@ -280,7 +280,7 @@ def _hn_search(query: str, min_points: int = 30, limit: int = 15) -> list[dict]:
 
 def hacker_news_devtools() -> list[dict]:
     """Fetch HN threads about agentic coding assistants and AI dev tools."""
-    return _hn_search("claude code cursor windsurf")
+    return _hn_search("claude code cursor windsurf opencode codex pi nanoclaw openclaw aider goose")
 
 
 def hacker_news_mcp() -> list[dict]:
