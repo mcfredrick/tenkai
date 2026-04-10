@@ -59,17 +59,11 @@ function renderResults(results, container) {
     .map(
       (r) => `
     <article class="search-result">
-      <h3><a href="${r.url}">${r.title}</a></h3>
+      <h3><a href="${r.url}" target="_blank" rel="noopener noreferrer">${r.title} ↗</a></h3>
       <div class="search-meta">
         <span class="search-date">${r.date}</span>
-        ${r.tags
-          .map(
-            (t) =>
-              `<a href="/tags/${t.toLowerCase().replace(/\s+/g, "-")}/" class="tag">${t}</a>`
-          )
-          .join("")}
       </div>
-      <p class="search-snippet">${r.snippet}</p>
+      ${r.description ? `<p class="search-snippet">${r.description}</p>` : ""}
     </article>`
     )
     .join("");
