@@ -3087,6 +3087,90 @@
     {
       "url": "https://pypi.org/project/pw-agent/1.16.0/",
       "date": "2026-04-09"
+    },
+    {
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "date": "2026-04-10"
+    },
+    {
+      "url": "https://github.com/opendataloader-project/opendataloader-pdf",
+      "date": "2026-04-10"
+    },
+    {
+      "url": "https://github.com/coleam00/Archon",
+      "date": "2026-04-10"
+    },
+    {
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "date": "2026-04-10"
+    },
+    {
+      "url": "https://huggingface.co/zai-org/GLM-5.1",
+      "date": "2026-04-10"
+    },
+    {
+      "url": "https://huggingface.co/openbmb/VoxCPM2",
+      "date": "2026-04-10"
+    },
+    {
+      "url": "https://huggingface.co/tencent/HY-OmniWeaving",
+      "date": "2026-04-10"
+    },
+    {
+      "url": "https://huggingface.co/unsloth/gemma-4-31B-it-GGUF",
+      "date": "2026-04-10"
+    },
+    {
+      "url": "https://smithery.ai/servers/agentidx/agentcrawl",
+      "date": "2026-04-10"
+    },
+    {
+      "url": "https://smithery.ai/servers/shawnnygoh/arxiv-scout",
+      "date": "2026-04-10"
+    },
+    {
+      "url": "https://smithery.ai/servers/samson-art/transcriptor-mcp",
+      "date": "2026-04-10"
+    },
+    {
+      "url": "https://smithery.ai/servers/ta-mcp/technical-analysis-mcp",
+      "date": "2026-04-10"
+    },
+    {
+      "url": "https://smithery.ai/servers/sgroy10/speclock",
+      "date": "2026-04-10"
+    },
+    {
+      "url": "https://pypi.org/project/matrix-for-agents/0.6.9.34/",
+      "date": "2026-04-10"
+    },
+    {
+      "url": "https://pypi.org/project/dobbe/0.8.0/",
+      "date": "2026-04-10"
+    },
+    {
+      "url": "https://pypi.org/project/openai-rest-cli/0.1.0/",
+      "date": "2026-04-10"
+    },
+    {
+      "url": "https://pypi.org/project/semantic-keywords/0.2.7/",
+      "date": "2026-04-10"
+    },
+    {
+      "url": "https://pypi.org/project/x2fromx/0.1.1/",
+      "date": "2026-04-10"
+    },
+    {
+      "url": "https://pypi.org/project/python-gfm/0.1.2/",
+      "date": "2026-04-10"
+    },
+    {
+      "url": "https://pypi.org/project/gllm-pipeline-binary/0.5.6/",
+      "date": "2026-04-10"
+    },
+    {
+      "url": "https://pypi.org/project/quantcpp/0.11.0/",
+      "date": "2026-04-10"
     }
   ]
 }
