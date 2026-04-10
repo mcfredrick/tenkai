@@ -1,5 +1,6 @@
 """Source fetchers for the research agent. Each returns raw content or []."""
 
+import os
 import re
 import sys
 from typing import Any
@@ -42,8 +43,8 @@ def _quality_score(repo: dict) -> float:
     stars = repo.get("stargazers_count", 0)
     forks = repo.get("forks_count", 0)
 
-    created_at = datetime.fromisoformat(repo["created_at"].replace("Z", "+00:00"))
-    pushed_at = datetime.fromisoformat(repo["pushed_at"].replace("Z", "+00:00"))
+    created_at = datetime.fromisoformat(repo.get("created_at", "1970-01-01T00:00:00Z").replace("Z", "+00:00"))
+    pushed_at = datetime.fromisoformat(repo.get("pushed_at", "1970-01-01T00:00:00Z").replace("Z", "+00:00"))
     age_days = max((now - created_at).days, 1)
     pushed_days_ago = (now - pushed_at).days
 
@@ -108,7 +109,6 @@ def github_search_tools(since_days: int = 30, score_threshold: float = 0.5) -> l
         f"\"coding assistant\" OR \"agentic coding\" in:description stars:20..1000 pushed:>{since_14d}",
     ]
 
-    import os
     gh_token = os.environ.get("GH_TOKEN", "")
     gh_headers = {**HEADERS, "Authorization": f"Bearer {gh_token}"} if gh_token else HEADERS
 
@@ -221,29 +221,6 @@ def arxiv_feeds() -> list[dict]:
             })
     return results
 
-
-def hacker_news() -> list[dict]:
-    """Fetch high-scoring HN threads about AI/LLM."""
-    r = _get(
-        "https://hn.algolia.com/api/v1/search",
-        params={
-            "tags": "story",
-            "query": "AI LLM",
-            "numericFilters": "points>50",
-            "hitsPerPage": 20,
-        },
-    )
-    if not r:
-        return []
-
-    results = []
-    for hit in r.json().get("hits", []):
-        results.append({
-            "title": hit.get("title", ""),
-            "url": hit.get("url") or f"https://news.ycombinator.com/item?id={hit.get('objectID')}",
-            "text": f"Points: {hit.get('points', 0)}, Comments: {hit.get('num_comments', 0)}",
-        })
-    return results
 
 
 def pypi_updates() -> list[dict]:
