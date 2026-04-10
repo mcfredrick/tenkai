@@ -14,6 +14,7 @@ from sources import ALL_SOURCES
 
 OPENROUTER_API = "https://openrouter.ai/api/v1/chat/completions"
 SEEN_FILE = Path(__file__).parent / "seen.json"
+WATCHLIST_FILE = Path(__file__).parent.parent / "watchlist.txt"
 OUTPUT_FILE = Path("/tmp/research.json")
 BUSINESS_KEYWORDS = {"funding", "valuation", "ipo", "acquisition", "acquires", "merger", "raises", "series a", "series b", "series c"}
 
@@ -49,6 +50,50 @@ def load_seen_urls() -> set[str]:
         return set()
     data = json.loads(SEEN_FILE.read_text())
     return {entry["url"] for entry in data.get("urls", [])}
+
+
+def load_watchlist(seen_urls: set[str], path: Path = WATCHLIST_FILE) -> list[str]:
+    if not path.exists():
+        return []
+    lines = path.read_text().splitlines()
+    kept_lines = []
+    urls = []
+    for line in lines:
+        stripped = line.strip()
+        if not stripped or stripped.startswith("#"):
+            kept_lines.append(line)
+            continue
+        if stripped not in seen_urls:
+            kept_lines.append(line)
+            urls.append(stripped)
+    path.write_text("\n".join(kept_lines) + ("\n" if kept_lines else ""))
+    return urls
+
+
+def save_watchlist(consumed_urls: set[str], path: Path = WATCHLIST_FILE) -> None:
+    if not path.exists():
+        return
+    lines = path.read_text().splitlines()
+    kept_lines = [
+        line for line in lines
+        if not line.strip() or line.strip().startswith("#") or line.strip() not in consumed_urls
+    ]
+    path.write_text("\n".join(kept_lines) + ("\n" if kept_lines else ""))
+
+
+def fetch_url(url: str) -> str:
+    try:
+        r = httpx.get(
+            url,
+            headers={"User-Agent": "tenkai-bot/1.0 (github.com/mattdlong/tenkai)"},
+            timeout=20,
+            follow_redirects=True,
+        )
+        r.raise_for_status()
+        return r.text[:2000]
+    except Exception as e:
+        print(f"  fetch failed {url}: {e}", file=sys.stderr)
+        return ""
 
 
 def call_llm(content: str, model: str, retries: int = 3) -> list[dict]:

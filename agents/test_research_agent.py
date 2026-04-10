@@ -1,7 +1,10 @@
 """Tests for research_agent categorization logic."""
 
+import json
+from pathlib import Path
+
 import pytest
-from research_agent import recategorize
+from research_agent import load_watchlist, recategorize, save_watchlist
 
 
 def item(title, url, summary, category="release"):
@@ -127,3 +130,66 @@ def test_recategorize_preserves_other_fields():
     assert result["summary"] == original["summary"]
     assert result["relevance_score"] == 8
     assert result["category"] == "paper"
+
+
+def test_load_watchlist_missing_file(tmp_path):
+    result = load_watchlist(set(), path=tmp_path / "watchlist.txt")
+    assert result == []
+
+
+def test_load_watchlist_returns_urls(tmp_path):
+    wl = tmp_path / "watchlist.txt"
+    wl.write_text("https://example.com/a\nhttps://example.com/b\n")
+    result = load_watchlist(set(), path=wl)
+    assert result == ["https://example.com/a", "https://example.com/b"]
+
+
+def test_load_watchlist_strips_seen_urls(tmp_path):
+    wl = tmp_path / "watchlist.txt"
+    wl.write_text("https://example.com/a\nhttps://example.com/b\n")
+    result = load_watchlist({"https://example.com/a"}, path=wl)
+    assert result == ["https://example.com/b"]
+    assert "https://example.com/a" not in wl.read_text()
+    assert "https://example.com/b" in wl.read_text()
+
+
+def test_load_watchlist_preserves_comments_and_blanks(tmp_path):
+    wl = tmp_path / "watchlist.txt"
+    wl.write_text("# my note\nhttps://example.com/a\n\nhttps://example.com/seen\n")
+    result = load_watchlist({"https://example.com/seen"}, path=wl)
+    assert result == ["https://example.com/a"]
+    text = wl.read_text()
+    assert "# my note" in text
+    assert "https://example.com/seen" not in text
+
+
+def test_load_watchlist_empty_file(tmp_path):
+    wl = tmp_path / "watchlist.txt"
+    wl.write_text("")
+    result = load_watchlist(set(), path=wl)
+    assert result == []
+
+
+def test_save_watchlist_missing_file(tmp_path):
+    # No file → no error, nothing created
+    save_watchlist({"https://example.com/a"}, path=tmp_path / "watchlist.txt")
+    assert not (tmp_path / "watchlist.txt").exists()
+
+
+def test_save_watchlist_removes_consumed(tmp_path):
+    wl = tmp_path / "watchlist.txt"
+    wl.write_text("https://example.com/a\nhttps://example.com/b\n")
+    save_watchlist({"https://example.com/a"}, path=wl)
+    text = wl.read_text()
+    assert "https://example.com/a" not in text
+    assert "https://example.com/b" in text
+
+
+def test_save_watchlist_preserves_comments(tmp_path):
+    wl = tmp_path / "watchlist.txt"
+    wl.write_text("# keep me\nhttps://example.com/a\nhttps://example.com/b\n")
+    save_watchlist({"https://example.com/b"}, path=wl)
+    text = wl.read_text()
+    assert "# keep me" in text
+    assert "https://example.com/a" in text
+    assert "https://example.com/b" not in text
