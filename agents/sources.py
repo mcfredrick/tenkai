@@ -319,7 +319,6 @@ def github_ai_tool_releases() -> list[dict]:
         "paul-gauthier/aider",
         # Agentic coding ecosystem additions
         "sst/opencode",
-        "opencode-ai/opencode",
         "sigoden/aichat",
         "plandex-ai/plandex",
         "cline/cline",
