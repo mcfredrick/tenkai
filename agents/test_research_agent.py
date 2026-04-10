@@ -161,6 +161,20 @@ def test_load_watchlist_preserves_comments_and_blanks(tmp_path):
     text = wl.read_text()
     assert "# my note" in text
     assert "https://example.com/seen" not in text
+    assert "\n\n" in text  # blank line preserved
+
+
+def test_load_watchlist_no_filtering_preserves_content(tmp_path):
+    wl = tmp_path / "watchlist.txt"
+    original = "# comment\nhttps://example.com/a\n\nhttps://example.com/b\n"
+    wl.write_text(original)
+    result = load_watchlist(set(), path=wl)
+    assert result == ["https://example.com/a", "https://example.com/b"]
+    text = wl.read_text()
+    assert "# comment" in text
+    assert "https://example.com/a" in text
+    assert "https://example.com/b" in text
+    assert "\n\n" in text  # blank line preserved
 
 
 def test_load_watchlist_empty_file(tmp_path):
