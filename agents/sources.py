@@ -317,6 +317,13 @@ def github_ai_tool_releases() -> list[dict]:
         "modelcontextprotocol/servers",
         "continuedev/continue",
         "paul-gauthier/aider",
+        # Agentic coding ecosystem additions
+        "sst/opencode",
+        "opencode-ai/opencode",
+        "sigoden/aichat",
+        "plandex-ai/plandex",
+        "cline/cline",
+        "RooVetGit/Roo-Code",
     ]
     results = []
     for repo in repos:
