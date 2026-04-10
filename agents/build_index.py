@@ -10,74 +10,75 @@ import json
 import re
 from pathlib import Path
 
-from fastembed import TextEmbedding
-
 POSTS_DIR = Path("content/posts")
 INDEX_PATH = Path("static/search-index.json")
 MODEL = "BAAI/bge-small-en-v1.5"
 
+# Matches [Title](url) with optional **bold** wrapping
+_LINK_RE = re.compile(r'\*{0,2}\[([^\]]+)\]\(([^)]+)\)\*{0,2}')
 
-def parse_post(path: Path) -> dict | None:
+
+def parse_links(body: str, date: str) -> list[dict]:
+    """Extract one entry per bullet-list link from a post body."""
+    results = []
+    for line in body.splitlines():
+        stripped = line.strip()
+        if not stripped.startswith("- "):
+            continue
+        m = _LINK_RE.search(stripped)
+        if not m:
+            continue
+        title = m.group(1)
+        url = m.group(2)
+        after = stripped[m.end():]
+        description = after.split(" — ", 1)[1].strip() if " — " in after else ""
+        results.append({"title": title, "url": url, "description": description, "date": date})
+    return results
+
+
+def _parse_post(path: Path) -> tuple[str, str] | None:
+    """Return (body, date) for a post, or None if unparseable."""
     text = path.read_text()
     parts = text.split("---", 2)
     if len(parts) < 3:
         return None
     front, body = parts[1], parts[2].strip()
-
-    def field(key):
-        m = re.search(rf'^{key}:\s*"?(.+?)"?\s*$', front, re.MULTILINE)
-        return m.group(1) if m else ""
-
-    title, date = field("title"), field("date")
-    if not title or not date:
-        return None
-
-    tags_m = re.search(r'^tags:\s*\[(.+?)\]', front, re.MULTILINE)
-    tags = [t.strip().strip('"') for t in tags_m.group(1).split(",")] if tags_m else []
-
-    # Strip markdown for search and display
-    stripped = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', body)
-    stripped = re.sub(r'[#*`>]', '', stripped).strip()
-
-    return {
-        "title": title,
-        "date": date,
-        "url": f"/posts/{path.stem}/",
-        "tags": tags,
-        "description": field("description"),
-        "snippet": stripped[:300],
-        "body": stripped,
-        "raw": body,
-    }
+    m = re.search(r"^date:\s*(.+?)\s*$", front, re.MULTILINE)
+    return (body, m.group(1)) if m else None
 
 
 def main():
-    posts = [p for path in sorted(POSTS_DIR.glob("*.md")) if (p := parse_post(path))]
-    print(f"Indexing {len(posts)} posts with {MODEL}...")
+    from fastembed import TextEmbedding
+
+    links = []
+    for path in sorted(POSTS_DIR.glob("*.md")):
+        result = _parse_post(path)
+        if not result:
+            continue
+        body, date = result
+        links.extend(parse_links(body, date))
+
+    print(f"Indexing {len(links)} links with {MODEL}...")
 
     model = TextEmbedding(MODEL)
-    # Embed title + description + full body for best retrieval quality
-    texts = [f"{p['title']}. {p['description']} {p['body']}" for p in posts]
+    texts = [f"{link['title']}. {link['description']}" for link in links]
     embeddings = list(model.embed(texts))
 
     index = [
         {
-            "title": post["title"],
-            "date": post["date"],
-            "url": post["url"],
-            "tags": post["tags"],
-            "description": post["description"],
-            "snippet": post["snippet"],
-            "body": post["body"],
+            "title": link["title"],
+            "url": link["url"],
+            "description": link["description"],
+            "date": link["date"],
             # Round to 5 decimal places — negligible quality loss, ~40% smaller JSON
             "embedding": [round(float(x), 5) for x in emb],
         }
-        for post, emb in zip(posts, embeddings)
+        for link, emb in zip(links, embeddings)
     ]
 
     INDEX_PATH.write_text(json.dumps(index, separators=(",", ":")))
     size_kb = INDEX_PATH.stat().st_size // 1024
-    print(f"Wrote {INDEX_PATH} ({size_kb} KB, {len(index)} posts)")
+    print(f"Wrote {INDEX_PATH} ({size_kb} KB, {len(index)} links)")
 
 
 if __name__ == "__main__":
