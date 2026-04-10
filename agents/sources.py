@@ -21,7 +21,8 @@ AI_KEYWORDS = re.compile(
 
 def _get(url: str, **kwargs) -> httpx.Response | None:
     try:
-        r = httpx.get(url, headers=HEADERS, timeout=TIMEOUT, follow_redirects=True, **kwargs)
+        headers = kwargs.pop("headers", HEADERS)
+        r = httpx.get(url, headers=headers, timeout=TIMEOUT, follow_redirects=True, **kwargs)
         r.raise_for_status()
         return r
     except Exception as e:
@@ -107,6 +108,10 @@ def github_search_tools(since_days: int = 30, score_threshold: float = 0.5) -> l
         f"\"coding assistant\" OR \"agentic coding\" in:description stars:20..1000 pushed:>{since_14d}",
     ]
 
+    import os
+    gh_token = os.environ.get("GH_TOKEN", "")
+    gh_headers = {**HEADERS, "Authorization": f"Bearer {gh_token}"} if gh_token else HEADERS
+
     seen_urls: set[str] = set()
     results = []
 
@@ -114,6 +119,7 @@ def github_search_tools(since_days: int = 30, score_threshold: float = 0.5) -> l
         r = _get(
             "https://api.github.com/search/repositories",
             params={"q": query, "sort": "stars", "order": "desc", "per_page": 30},
+            headers=gh_headers,
         )
         if not r:
             continue
