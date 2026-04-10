@@ -42,7 +42,9 @@ Return ONLY a JSON array. Each element must have exactly these fields:
   "relevance_score": <integer 1-10>
 }
 
-Drop items with relevance_score below 7. Return [] if nothing qualifies."""
+Drop items with relevance_score below 7. Return [] if nothing qualifies.
+
+Items marked [CURATED - author hand-picked] were personally selected by the author — treat them as high-priority and include at least one per post if they meet the minimum quality bar."""
 
 
 def load_seen_urls() -> set[str]:
@@ -197,10 +199,38 @@ def main() -> None:
     seen_urls = load_seen_urls()
     print(f"Loaded {len(seen_urls)} seen URLs", file=sys.stderr)
 
+    watchlist_urls = load_watchlist(seen_urls)
+    if watchlist_urls:
+        print(f"Loaded {len(watchlist_urls)} watchlist URLs", file=sys.stderr)
+
     raw_sources = fetch_all_sources()
 
     # Process each source through LLM
     results: dict[str, list[dict]] = {"date": str(date.today())}
+
+    # Process curated watchlist items first
+    if watchlist_urls:
+        curated_items = []
+        for url in watchlist_urls:
+            print(f"Fetching curated URL: {url}", file=sys.stderr)
+            text = fetch_url(url)
+            curated_items.append({"title": url, "url": url, "text": text})
+
+        print("Processing curated watchlist with LLM...", file=sys.stderr)
+        prompt = build_prompt_for_source("[CURATED - author hand-picked]", curated_items)
+        extracted = call_llm(prompt, model)
+        filtered = []
+        for item in extracted:
+            if item.get("url") in seen_urls or is_business_news(item):
+                continue
+            try:
+                item = recategorize(item)
+            except Exception as e:
+                print(f"  recategorize failed for {item.get('url', '?')}: {e}", file=sys.stderr)
+            filtered.append(item)
+        results["curated"] = filtered
+        print(f"  {len(filtered)} curated items after filtering", file=sys.stderr)
+
     for source_name, items in raw_sources.items():
         if not items:
             results[source_name] = []
@@ -210,7 +240,6 @@ def main() -> None:
         prompt = build_prompt_for_source(source_name, items)
         extracted = call_llm(prompt, model)
 
-        # Filter seen URLs and business news, then apply deterministic recategorization
         filtered = []
         for item in extracted:
             if item.get("url") in seen_urls or is_business_news(item):
@@ -228,6 +257,11 @@ def main() -> None:
 
     OUTPUT_FILE.write_text(json.dumps(results, indent=2))
     print(f"Wrote {OUTPUT_FILE}", file=sys.stderr)
+
+    # Remove consumed watchlist URLs from watchlist.txt
+    if watchlist_urls:
+        consumed = {item["url"] for items in results.values() if isinstance(items, list) for item in items}
+        save_watchlist(consumed)
 
 
 if __name__ == "__main__":
