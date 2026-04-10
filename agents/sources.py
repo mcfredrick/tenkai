@@ -88,7 +88,7 @@ def _quality_score(repo: dict) -> float:
     return min(score, 1.0)
 
 
-def github_search_tools(since_days: int = 30, score_threshold: float = 0.4) -> list[dict]:
+def github_search_tools(since_days: int = 30, score_threshold: float = 0.5) -> list[dict]:
     """Search GitHub for early-trending AI coding tools and community projects.
 
     Runs 4 targeted queries against the GitHub search API (unauthenticated).
