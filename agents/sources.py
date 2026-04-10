@@ -289,15 +289,26 @@ def hacker_news_mcp() -> list[dict]:
 
 
 def smithery_trending() -> list[dict]:
-    """Fetch top MCP servers by install count. Capped at 10 to avoid flooding the post."""
-    r = _get("https://registry.smithery.ai/servers", params={"pageSize": 50})
+    """Fetch recently added MCP servers with meaningful install counts."""
+    from datetime import datetime, timezone, timedelta
+
+    cutoff = datetime.now(timezone.utc) - timedelta(days=60)
+    r = _get("https://registry.smithery.ai/servers", params={"pageSize": 100})
     if not r:
         return []
 
     results = []
     for server in r.json().get("servers", []):
+        created_at = server.get("createdAt", "")
+        if created_at:
+            try:
+                created = datetime.fromisoformat(created_at.replace("Z", "+00:00"))
+                if created < cutoff:
+                    continue
+            except ValueError:
+                pass
         use_count = server.get("useCount", 0)
-        if use_count < 500:
+        if use_count < 100:
             continue
         name = server.get("displayName") or server.get("qualifiedName", "")
         url = server.get("homepage") or f"https://smithery.ai/server/{server.get('qualifiedName', '')}"
@@ -342,7 +353,6 @@ ALL_SOURCES: dict[str, Any] = {
     "huggingface_releases": huggingface_new_models,
     "papers": papers_with_code,
     "arxiv": arxiv_feeds,
-    "hn_threads": hacker_news,
     "hn_devtools": hacker_news_devtools,
     "hn_mcp": hacker_news_mcp,
     "smithery_mcp": smithery_trending,
