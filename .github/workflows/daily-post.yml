@@ -17,10 +17,19 @@ permissions:
 jobs:
   publish:
     uses: ./.github/workflows/publish.yml
+    needs: [generate-post, rebuild-index]
+    if: always() && !failure() && !cancelled()
+    secrets: inherit
+
+  rebuild-index:
     needs: generate-post
+    if: needs.generate-post.outputs.post_committed == 'true'
+    uses: ./.github/workflows/rebuild-index.yml
     secrets: inherit
 
   generate-post:
+    outputs:
+      post_committed: ${{ steps.commit.outputs.committed }}
     runs-on: ubuntu-latest
 
     steps:
@@ -34,7 +43,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          uv sync --group index
+          uv sync
           echo "$GITHUB_WORKSPACE/.venv/bin" >> $GITHUB_PATH
 
       - name: Guard — skip agents if today's post already exists
@@ -106,26 +115,18 @@ jobs:
           echo "All writing attempts failed validation"
           exit 1
 
-      - name: Cache fastembed model
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/fastembed
-          key: fastembed-bge-small-en-v1.5
-
-      - name: Build search index
-        if: env.SKIP_AGENTS != 'true'
-        run: python agents/build_index.py
-
-      - name: Commit post, seen.json, and search index
+      - name: Commit post and seen.json
+        id: commit
         if: env.SKIP_AGENTS != 'true'
         run: |
           git config user.name "tenkai-bot"
           git config user.email "tenkai-bot@users.noreply.github.com"
           POST="content/posts/$(date -u +%Y-%m-%d).md"
-          git add "$POST" agents/seen.json static/search-index.json
+          git add "$POST" agents/seen.json
           git commit -m "post: $(date -u +%Y-%m-%d) daily digest [skip ci]"
           git pull --rebase
           git push
+          echo "committed=true" >> "$GITHUB_OUTPUT"
 
       - name: Create issue on failure
         if: failure()
