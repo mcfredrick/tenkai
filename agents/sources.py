@@ -88,6 +88,56 @@ def _quality_score(repo: dict) -> float:
     return min(score, 1.0)
 
 
+def github_search_tools(since_days: int = 30, score_threshold: float = 0.4) -> list[dict]:
+    """Search GitHub for early-trending AI coding tools and community projects.
+
+    Runs 4 targeted queries against the GitHub search API (unauthenticated).
+    Pre-filters by composite quality score before returning to keep LLM payload lean.
+    """
+    from datetime import datetime, timezone, timedelta
+
+    now = datetime.now(timezone.utc)
+    since_date = (now - timedelta(days=since_days)).strftime("%Y-%m-%d")
+    since_14d = (now - timedelta(days=14)).strftime("%Y-%m-%d")
+
+    queries = [
+        f"topic:claude-code OR topic:mcp-server OR topic:llm-agent pushed:>{since_date}",
+        f"stars:10..500 created:>{since_date} claude OR llm OR mcp OR \"ai agent\" OR \"coding assistant\" in:name,description",
+        "opencode OR nanoclaw OR openclaw OR \"codex cli\" OR \"pi editor\" OR \"coding assistant\" in:name stars:5..500",
+        f"\"coding assistant\" OR \"agentic coding\" in:description stars:20..1000 pushed:>{since_14d}",
+    ]
+
+    seen_urls: set[str] = set()
+    results = []
+
+    for query in queries:
+        r = _get(
+            "https://api.github.com/search/repositories",
+            params={"q": query, "sort": "stars", "order": "desc", "per_page": 30},
+        )
+        if not r:
+            continue
+
+        for repo in r.json().get("items", []):
+            url = repo.get("html_url", "")
+            if not url or url in seen_urls:
+                continue
+            seen_urls.add(url)
+
+            if _quality_score(repo) < score_threshold:
+                continue
+
+            desc = repo.get("description") or ""
+            topics = " ".join(repo.get("topics", []))
+            results.append({
+                "title": repo.get("full_name", ""),
+                "url": url,
+                "text": f"Stars: {repo['stargazers_count']}, Forks: {repo['forks_count']}. {desc}. Topics: {topics}",
+            })
+
+    return results
+
+
 def github_trending() -> list[dict]:
     """Scrape all-languages GitHub trending repos, pre-filtered by AI keywords."""
     from bs4 import BeautifulSoup
@@ -282,6 +332,7 @@ def github_ai_tool_releases() -> list[dict]:
 
 ALL_SOURCES: dict[str, Any] = {
     "github_trending": github_trending,
+    "github_search": github_search_tools,
     "huggingface_releases": huggingface_new_models,
     "papers": papers_with_code,
     "arxiv": arxiv_feeds,
