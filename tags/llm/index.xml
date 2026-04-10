@@ -1,4 +1,55 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Llm on Tenkai</title><link>https://tenkai.blog/tags/llm/</link><description>Recent content in Llm on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 09 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/llm/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — April 9, 2026</title><link>https://tenkai.blog/posts/2026-04-09/</link><pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-09/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Llm on Tenkai</title><link>https://tenkai.blog/tags/llm/</link><description>Recent content in Llm on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 10 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/llm/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — April 10, 2026</title><link>https://tenkai.blog/posts/2026-04-10/</link><pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-10/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/zai-org/GLM-5.1" target="_blank" rel="noopener noreferrer">ZAI Org GLM-5.1&lt;/a>
+&lt;/strong> — A bilingual (English/Chinese) MoE model under an MIT license. Good if you need scalable performance without the proprietary handcuffs. 🤖&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/openbmb/VoxCPM2" target="_blank" rel="noopener noreferrer">OpenBMB VoxCPM2&lt;/a>
+&lt;/strong> — Diffusion-based TTS that handles multilingual voice cloning across dozens of languages. Apache 2.0, so it&amp;rsquo;s actually usable in production.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/tencent/HY-OmniWeaving" target="_blank" rel="noopener noreferrer">Tencent HY-OmniWeaving&lt;/a>
+&lt;/strong> — A video diffusion model fine-tuned from HunyuanVideo-1.5 for frame interpolation and weaving. Mostly for researchers who enjoy fighting with video weights.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/unsloth/gemma-4-31B-it-GGUF" target="_blank" rel="noopener noreferrer">Unsloth Gemma-4-31B-it GGUF&lt;/a>
+&lt;/strong> — Quantized version of Google&amp;rsquo;s 31B model for llama.cpp. Keeps the multimodal capabilities but actually fits on your hardware. 🛠️&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/coleam00/Archon" target="_blank" rel="noopener noreferrer">Archon&lt;/a>
+&lt;/strong> — A harness builder for AI coding designed to make LLM output deterministic. Because &amp;ldquo;it worked once in the chat&amp;rdquo; isn&amp;rsquo;t a deployment strategy.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/quantcpp/0.11.0/" target="_blank" rel="noopener noreferrer">quantcpp 0.11.0&lt;/a>
+&lt;/strong> — A single-header C++ library that compresses KV caches by up to 7x without sacrificing fp32 precision. A rare win for memory-constrained deployments. 🔥&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/opendataloader-project/opendataloader-pdf" target="_blank" rel="noopener noreferrer">opendataloader-pdf&lt;/a>
+&lt;/strong> — A PDF parser that tries to preserve semantic layout for ML pipelines. Because parsing PDFs is still a nightmare. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/shiyu-coder/Kronos" target="_blank" rel="noopener noreferrer">Kronos&lt;/a>
+&lt;/strong> — An open-weight foundation model trained specifically on financial market data. Useful if you&amp;rsquo;re doing risk modeling and don&amp;rsquo;t want to prompt-engineer a generalist model.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/matrix-for-agents/0.6.9.34/" target="_blank" rel="noopener noreferrer">matrix-for-agents 0.6.9.34&lt;/a>
+&lt;/strong> — Modular architecture for AI agents with interchangeable skill modules. Basically a plugin system for your LLM workflows.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/dobbe/0.8.0/" target="_blank" rel="noopener noreferrer">dobbe 0.8.0&lt;/a>
+&lt;/strong> — A CLI that coordinates multiple Claude Code agents for PR reviews, vulnerability scanning, and DORA tracking. An attempt to automate the parts of software engineering we all hate.&lt;/li>
+&lt;/ul>
+&lt;h2 id="mcp-servers--integrations">MCP Servers &amp;amp; Integrations&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://smithery.ai/servers/sgroy10/speclock" target="_blank" rel="noopener noreferrer">SpecLock&lt;/a>
+&lt;/strong> — A constraint engine and &amp;ldquo;patch firewall&amp;rdquo; for code governance. It adds a layer of typed constraints to keep AI coding assistants from hallucinating your architecture away.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://smithery.ai/servers/shawnnygoh/arxiv-scout" target="_blank" rel="noopener noreferrer">ArXiv Scout&lt;/a>
+&lt;/strong> — MCP server for searching arXiv and extracting PDF text. Saves you from manually downloading 20 papers to find one relevant equation. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://smithery.ai/servers/agentidx/agentcrawl" target="_blank" rel="noopener noreferrer">AgentIndex&lt;/a>
+&lt;/strong> — A discovery platform indexing 20k+ agents across GitHub and HuggingFace. Like a yellow pages for AI agents.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://smithery.ai/servers/samson-art/transcriptor-mcp" target="_blank" rel="noopener noreferrer">Transcriptor&lt;/a>
+&lt;/strong> — Fetches transcripts from almost every video platform with a Whisper fallback for audio. Useful for turning video tutorials into LLM context.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://smithery.ai/servers/ta-mcp/technical-analysis-mcp" target="_blank" rel="noopener noreferrer">Technical Analysis&lt;/a>
+&lt;/strong> — Provides 150+ TA-Lib indicators and stock screening for AI agents. For those building algorithmic trading bots that they hope won&amp;rsquo;t blow up their accounts.&lt;/li>
+&lt;/ul>
+&lt;h2 id="tutorials--guides">Tutorials &amp;amp; Guides&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/forrestchang/andrej-karpathy-skills" target="_blank" rel="noopener noreferrer">andrej-karpathy-skills&lt;/a>
+&lt;/strong> — A distilled &lt;code>CLAUDE.md&lt;/code> file based on Karpathy&amp;rsquo;s observations of LLM coding failures. Practical guidelines to stop Claude from making the same mistakes over and over. 🔥&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>If you’re trying to run a large multimodal model on modest hardware without sacrificing determinism, start by pulling the &lt;a href="https://huggingface.co/unsloth/gemma-4-31B-it-GGUF" target="_blank" rel="noopener noreferrer">Unsloth Gemma-4-31B-it GGUF&lt;/a>
+ quantized checkpoint for llama.cpp, then layer &lt;a href="https://pypi.org/project/quantcpp/0.11.0/" target="_blank" rel="noopener noreferrer">quantcpp 0.11.0&lt;/a>
+ on top to shrink the KV cache by up to 7× while keeping fp32 precision — this cuts memory pressure enough to fit the 31B model on a single 24 GB GPU. Wrap the resulting inference service in a thin agent built with &lt;a href="https://pypi.org/project/matrix-for-agents/0.6.9.34/" target="_blank" rel="noopener noreferrer">matrix-for-agents 0.6.9.34&lt;/a>
+ so you can hot‑swap skill modules (e.g., a financial‑analysis plug‑in using &lt;a href="https://github.com/shiyu-coder/Kronos" target="_blank" rel="noopener noreferrer">Kronos&lt;/a>
+ or a PDF‑parser using &lt;a href="https://github.com/opendataloader-project/opendataloader-pdf" target="_blank" rel="noopener noreferrer">opendataloader-pdf&lt;/a>
+) without rebuilding the core. Finally, guard the whole pipeline with &lt;a href="https://smithery.ai/servers/sgroy10/speclock" target="_blank" rel="noopener noreferrer">SpecLock&lt;/a>
+ to enforce typed constraints on the LLM’s output, preventing hallucinated architecture changes or unsafe financial advice from slipping into production. The combo gives you a lean, controllable, and extensible AI stack you can actually deploy today.&lt;/p></description></item><item><title>Tenkai Daily — April 9, 2026</title><link>https://tenkai.blog/posts/2026-04-09/</link><pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-09/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.97" target="_blank" rel="noopener noreferrer">Claude Code v2.1.97 adds focus view toggle and refresh interval setting&lt;/a>
  — Introduces a focus view toggle (Ctrl+O) in NO_FLICKER mode that shows the prompt, a one‑line tool summary with edit diffstats, and the final response. Also adds a refreshInterval setting to re‑run the status line command every N seconds and includes workspace.git_worktree info, useful for reducing visual noise during long coding sessions.&lt;/li>
