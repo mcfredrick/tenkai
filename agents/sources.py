@@ -29,10 +29,11 @@ def _get(url: str, **kwargs) -> httpx.Response | None:
         return None
 
 
-def _scrape_github_trending(language: str) -> list[dict]:
+def github_trending() -> list[dict]:
+    """Scrape all-languages GitHub trending repos, pre-filtered by AI keywords."""
     from bs4 import BeautifulSoup
 
-    r = _get(f"https://github.com/trending/{language}?since=daily")
+    r = _get("https://github.com/trending?since=daily")
     if not r:
         return []
 
@@ -47,15 +48,12 @@ def _scrape_github_trending(language: str) -> list[dict]:
             url = f"https://github.com/{repo_path}"
             desc_tag = article.select_one("p")
             desc = desc_tag.get_text(strip=True) if desc_tag else ""
+            if not AI_KEYWORDS.search(repo_path) and not AI_KEYWORDS.search(desc):
+                continue
             results.append({"title": repo_path, "url": url, "text": desc})
         except Exception:
             continue
     return results
-
-
-def github_trending() -> list[dict]:
-    """Scrape GitHub trending Python and TypeScript repos."""
-    return _scrape_github_trending("python") + _scrape_github_trending("typescript")
 
 
 def huggingface_new_models() -> list[dict]:
