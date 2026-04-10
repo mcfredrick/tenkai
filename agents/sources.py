@@ -29,6 +29,65 @@ def _get(url: str, **kwargs) -> httpx.Response | None:
         return None
 
 
+def _quality_score(repo: dict) -> float:
+    """Compute a 0–1 quality score for a GitHub search result.
+
+    Uses signals available in the search API response with no extra requests.
+    Higher = more likely to be a quality, actively-maintained project.
+    """
+    from datetime import datetime, timezone
+
+    now = datetime.now(timezone.utc)
+    stars = repo.get("stargazers_count", 0)
+    forks = repo.get("forks_count", 0)
+
+    created_at = datetime.fromisoformat(repo["created_at"].replace("Z", "+00:00"))
+    pushed_at = datetime.fromisoformat(repo["pushed_at"].replace("Z", "+00:00"))
+    age_days = max((now - created_at).days, 1)
+    pushed_days_ago = (now - pushed_at).days
+
+    score = 0.0
+
+    # Star velocity (up to 0.30)
+    velocity = stars / age_days
+    if velocity >= 10:
+        score += 0.30
+    elif velocity >= 5:
+        score += 0.20
+    elif velocity >= 1:
+        score += 0.10
+
+    # Fork ratio (up to 0.20)
+    if stars > 0:
+        ratio = forks / stars
+        if ratio >= 0.15:
+            score += 0.20
+        elif ratio >= 0.05:
+            score += 0.10
+
+    # Pushed recently (0.15)
+    if pushed_days_ago <= 14:
+        score += 0.15
+
+    # Has description (0.10)
+    if repo.get("description"):
+        score += 0.10
+
+    # Has topics (0.10)
+    if repo.get("topics"):
+        score += 0.10
+
+    # Has license (0.05)
+    if repo.get("license"):
+        score += 0.05
+
+    # Minimum star threshold — at least some real users (0.10)
+    if stars >= 20:
+        score += 0.10
+
+    return min(score, 1.0)
+
+
 def github_trending() -> list[dict]:
     """Scrape all-languages GitHub trending repos, pre-filtered by AI keywords."""
     from bs4 import BeautifulSoup
