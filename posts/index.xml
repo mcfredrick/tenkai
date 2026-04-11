@@ -1,4 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tenkai</title><link>https://tenkai.blog/posts/</link><description>Recent content in Posts on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 10 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — April 10, 2026</title><link>https://tenkai.blog/posts/2026-04-10/</link><pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-10/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tenkai</title><link>https://tenkai.blog/posts/</link><description>Recent content in Posts on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 11 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — April 11, 2026</title><link>https://tenkai.blog/posts/2026-04-11/</link><pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-11/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://huggingface.co/kai-os/Carnice-9b" target="_blank" rel="noopener noreferrer">kai-os/Carnice-9b&lt;/a>
+ — Carnice-9b merges Qwen3.5-9B with Hermes-agent capabilities, letting it run tools, terminals, and browsers straight out of the box. Apache 2.0 licensed, it’s aimed at conversational agents that actually need to reason. 🤖&lt;/li>
+&lt;li>&lt;a href="https://huggingface.co/Jackrong/Qwopus3.5-27B-v3-GGUF" target="_blank" rel="noopener noreferrer">Jackrong/Qwopus3.5-27B-v3-GGUF&lt;/a>
+ — This GGUF build takes a Qwen3.5-27B reasoning model and distills it with competitive‑programming and chain‑of‑thought data. It handles English, Chinese, Korean, and can juggle image‑text‑to‑text tasks. 📄&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://pypi.org/project/agentory/0.4.0/" target="_blank" rel="noopener noreferrer">agentory 0.4.0&lt;/a>
+ — Agentory is a lightweight framework for building tool‑using AI agents that plugs into the Model Context Protocol for standardized tool hooks. It gives you agent loops, tool registration, and context management so you can spin up autonomous agents fast. 🛠️&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/sandflare/2.1.7/" target="_blank" rel="noopener noreferrer">sandflare 2.1.7&lt;/a>
+ — Sandflare wraps Firecracker microVMs in a Python SDK, letting agents run code in isolated sandboxes with almost no overhead. It handles VM lifecycle, networking, and resource caps, making it a solid pick for untrusted code or model inference. 🔒&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/juvenal/0.28.18/" target="_blank" rel="noopener noreferrer">juvenal 0.28.18&lt;/a>
+ — Juvenal orchestrates AI coding agents through verified implementation phases, using formal checks and test‑driven workflows to keep output correct. It manages handoffs, version control, and incremental validation of generated code. 🧩&lt;/li>
+&lt;li>&lt;a href="https://github.com/rowboatlabs/rowboat" target="_blank" rel="noopener noreferrer">Rowboat&lt;/a>
+ — Rowboat is an open‑source AI coworker with persistent memory, built to pair with you on software engineering tasks over long sessions. It hooks into your IDE to keep context, track progress, and help with code generation, debugging, and docs. 🧠&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/mindvault-ai/0.2.9/" target="_blank" rel="noopener noreferrer">mindvault-ai 0.2.9&lt;/a>
+ — Mindvault‑ai bundles search, graph‑based relationships, and wiki‑style docs into a single knowledge platform for agents. It lets agents fetch and organize info efficiently, supporting semantic queries and versioned content. The library includes APIs for indexing, retrieval, and updating knowledge graphs. 📚&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/stdiobus/2.1.1/" target="_blank" rel="noopener noreferrer">stdiobus 2.1.1&lt;/a>
+ — Stdiobus gives you a Python SDK for the stdio_bus transport layer, ensuring reliable IPC between agent components. It does message framing, backpressure handling, and reconnection logic tuned for low‑latency pipelines. The update adds support for binary payloads and tighter timeout handling. ⚡&lt;/li>
+&lt;/ul>
+&lt;h2 id="mcp-servers--integrations">MCP Servers &amp;amp; Integrations&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://smithery.ai/servers/strale-io/strale" target="_blank" rel="noopener noreferrer">strale&lt;/a>
+ — Strale serves up over 270 quality‑scored APIs for AI agents, spanning compliance, company data, financial validation, and web intelligence across 27 countries. These APIs let agents pull in external data and services, boosting their usefulness in finance, legal, and healthcare scenarios. 🌐&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>Carnice-9b (&lt;a href="https://huggingface.co/kai-os/Carnice-9b" target="_blank" rel="noopener noreferrer">kai-os/Carnice-9b&lt;/a>
+) gives you a reasoning‑ready model that can invoke tools, terminals, and browsers out of the box, while agentory (&lt;a href="https://pypi.org/project/agentory/0.4.0/" target="_blank" rel="noopener noreferrer">agentory 0.4.0&lt;/a>
+) supplies the lightweight orchestration loop—agent cycles, tool registration, and context management—needed to turn those capabilities into a reliable autonomous agent. Pair that with sandflare (&lt;a href="https://pypi.org/project/sandflare/2.1.7/" target="_blank" rel="noopener noreferrer">sandflare 2.1.7&lt;/a>
+), which wraps Firecracker microVMs in a Python SDK to run untrusted code in isolated, low‑overhead sandboxes with strict resource caps. An engineer can now prototype a coding‑assistant agent: use Carnice-9b to parse a user request and plan the necessary shell or editor commands, let agentory handle the tool‑call loop and state persistence, and execute each command inside a sandflare‑managed microVM to guarantee safety and reproducibility. This stack lets you iterate on agent behavior quickly, swap in different models or tools, and maintain confidence that the agent won’t escape its execution environment. 🤖🛠️🔒&lt;/p></description></item><item><title>Tenkai Daily — April 10, 2026</title><link>https://tenkai.blog/posts/2026-04-10/</link><pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-10/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/zai-org/GLM-5.1" target="_blank" rel="noopener noreferrer">ZAI Org GLM-5.1&lt;/a>
 &lt;/strong> — A bilingual (English/Chinese) MoE model under an MIT license. Good if you need scalable performance without the proprietary handcuffs. 🤖&lt;/li>
