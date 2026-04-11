@@ -1,0 +1,17 @@
+# GitHub Lists to harvest for blog post candidates.
+# One list slug per line. Repos starred within the last 14 days are considered.
+# Add or remove slugs to control which lists are harvested.
+# A dedicated "tenkai" list can be created for items that don't fit existing lists.
+
+genai
+ai-coding
+video-genai
+machine-learning
+audio-ai-ml
+rag-and-stuff
+audioml
+
+# Uncomment to include:
+# tools-and-scripts
+# self-hosted
+# langsec

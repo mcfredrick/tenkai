@@ -64,6 +64,7 @@ jobs:
         if: env.SKIP_AGENTS != 'true'
         env:
           GH_TOKEN: ${{ github.token }}
+          GH_PAT: ${{ secrets.GH_PAT }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: |
           USED_CACHE=false
