@@ -3171,6 +3171,46 @@
     {
       "url": "https://pypi.org/project/quantcpp/0.11.0/",
       "date": "2026-04-10"
+    },
+    {
+      "url": "https://github.com/rowboatlabs/rowboat",
+      "date": "2026-04-11"
+    },
+    {
+      "url": "https://huggingface.co/kai-os/Carnice-9b",
+      "date": "2026-04-11"
+    },
+    {
+      "url": "https://huggingface.co/Jackrong/Qwopus3.5-27B-v3-GGUF",
+      "date": "2026-04-11"
+    },
+    {
+      "url": "https://smithery.ai/servers/strale-io/strale",
+      "date": "2026-04-11"
+    },
+    {
+      "url": "https://pypi.org/project/mindvault-ai/0.2.9/",
+      "date": "2026-04-11"
+    },
+    {
+      "url": "https://pypi.org/project/agentory/0.4.0/",
+      "date": "2026-04-11"
+    },
+    {
+      "url": "https://pypi.org/project/stdiobus/2.1.1/",
+      "date": "2026-04-11"
+    },
+    {
+      "url": "https://pypi.org/project/sandflare/2.1.7/",
+      "date": "2026-04-11"
+    },
+    {
+      "url": "https://pypi.org/project/saujana-nlp/0.1.1/",
+      "date": "2026-04-11"
+    },
+    {
+      "url": "https://pypi.org/project/juvenal/0.28.18/",
+      "date": "2026-04-11"
     }
   ]
 }
