@@ -40,6 +40,11 @@ def validate(path: Path) -> list[str]:
     if len(all_links) < MIN_ITEMS:
         errors.append(f"Only {len(all_links)} linked items (minimum {MIN_ITEMS})")
 
+    # URLs must not contain spaces (broken markdown link)
+    bad_urls = re.findall(r'\]\((https?://[^)]*\s[^)]*)\)', body)
+    if bad_urls:
+        errors.append(f"Links with spaces in URL (hallucinated): {bad_urls[:3]}")
+
     # Must have a synthesis section
     if "## Today's Synthesis" not in body and "Today's Synthesis" not in body:
         errors.append("Missing Today's Synthesis section")
