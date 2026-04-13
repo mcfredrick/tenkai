@@ -1,4 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Tenkai</title><link>https://tenkai.blog/tags/releases/</link><description>Recent content in Releases on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 12 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — April 12, 2026</title><link>https://tenkai.blog/posts/2026-04-12/</link><pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-12/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Tenkai</title><link>https://tenkai.blog/tags/releases/</link><description>Recent content in Releases on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 13 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — April 13, 2026</title><link>https://tenkai.blog/posts/2026-04-13/</link><pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-13/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/aaif-goose/goose/releases/tag/v1.30.0" target="_blank" rel="noopener noreferrer">block/goose v1.30.0&lt;/a>
+ — Terminal UI gets a refresh with tab-expandable tool calls and better message rendering. Also adds sub recipe management in the desktop UI and passes toolInfo to MCP Apps via hostContext.&lt;/li>
+&lt;li>&lt;a href="https://github.com/JuliusBrussee/caveman" target="_blank" rel="noopener noreferrer">JuliusBrussee/caveman&lt;/a>
+ — Claude Code skill that cuts token usage by 65% by forcing the model to chat like a caveman. You get smaller bills; results may vary.&lt;/li>
+&lt;li>&lt;a href="https://github.com/cline/cline/releases/tag/v3.78.0" target="_blank" rel="noopener noreferrer">cline/cline v3.78.0&lt;/a>
+ — Ships a &amp;lsquo;Spend Limit Reached&amp;rsquo; error UI and fixes read_file line range display in the chat view. Also updates docs.&lt;/li>
+&lt;li>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.101" target="_blank" rel="noopener noreferrer">claude-code v2.1.101&lt;/a>
+ — Adds a /team-onboarding command for auto-generating ramp-up guides. Also adds OS CA certificate store trust for enterprise TLS proxies with a bundled fallback.&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://arxiv.org/abs/2604.08601" target="_blank" rel="noopener noreferrer">OpenKedge: Governing Agentic Mutation with Execution-Bound Safety and Evidence Chains&lt;/a>
+ — Proposes OpenKedge to control AI agent mutations as a governed process, using execution-bound safety and evidence chains to manage probabilistic risks.&lt;/li>
+&lt;li>[From Business Events to Auditable Decisions: Ontology-Governed Graph Simulation for Enterprise AI](https://grounded LLM-based agent decisions in business event simulation to produce auditable outcomes with traceable decision trails.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2604.08621" target="_blank" rel="noopener noreferrer">Sustained Impact of Agentic Personalisation in Marketing: A Longitudinal Case Study&lt;/a>
+ — Examines how long agentic personalization in marketing CRM holds up and why human-in-the-loop oversight still matters.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2604.08685" target="_blank" rel="noopener noreferrer">RAMP: Hybrid DRL for Online Learning of Numeric Action Models&lt;/a>
+ — Introduces a hybrid DRL approach to learn numeric action models from observations, skipping the need for offline expert traces.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2604.08865" target="_blank" rel="noopener noreferrer">SPPO: Sequence-Level PPO for Long-Horizon Reasoning Tasks&lt;/a>
+ — Addresses temporal credit instability in long-horizon reasoning with sequence-level PPO for LLMs using verifiable rewards.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2604.08905" target="_blank" rel="noopener noreferrer">StaRPO: Stability-Augmented Reinforcement Policy Optimization&lt;/a>
+ — Augments RL with stability considerations to capture the internal logical structure of reasoning, not just final-answer correctness.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/affaan-m/everything-claude-code" target="_blank" rel="noopener noreferrer">affaan-m/everything-claude-code&lt;/a>
+ — Agent harness performance optimization for Claude Code, covering skills, memory, security, and research-first workflows.&lt;/li>
+&lt;li>&lt;a href="https://github.com/rtk-ai/rtk" target="_blank" rel="noopener noreferrer">rtk-ai/rtk&lt;/a>
+ — CLI proxy that shaves 60–90% off LLM token usage for dev commands. One Rust binary, no dependencies.&lt;/li>
+&lt;li>&lt;a href="https://github.com/oraios/serena" target="_blank" rel="noopener noreferrer">oraios/serena&lt;/a>
+ — MCP toolkit for coding with semantic retrieval and editing. Thinks of itself as an IDE for agent-based workflows 🤖.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>Use &lt;a href="https://github.com/rtk-ai/rtk" target="_blank" rel="noopener noreferrer">rtk-ai/rtk&lt;/a>
+ to cut token burn on Claude Code workflows, pairing it with &lt;a href="https://github.com/affaan-m/everything-claude-code" target="_blank" rel="noopener noreferrer">affaan-m/everything-claude-code&lt;/a>
+ to tune skills, memory, and security for measurable cost control 🤖. Route prompts through the proxy to shave 60–90% of token usage on routine refactors and tests, while the harness framework structures how agents access tools and retain context, reducing wasted cycles. Layer in &lt;a href="https://github.com/JuliusBrussee/caveman" target="_blank" rel="noopener noreferrer">JuliusBrussee/caveman&lt;/a>
+ to force models into tighter, more predictable reasoning patterns that further trim token use without relying on complex fine-tuning. Combine these with insights from &lt;a href="https://arxiv.org/abs/2604.08865" target="_blank" rel="noopener noreferrer">SPPO: Sequence-Level PPO for Long-Horizon Reasoning Tasks&lt;/a>
+ to design verifiable reward signals that keep long-running agentic sessions on track. This setup gives engineers a concrete stack: proxy for traffic control, harness for governance, and compact prompting strategies to sustain performance. The result is lower bills, clearer audit trails, and fewer surprises when agent workflows scale, making disciplined agent economics a default rather than an edge case.&lt;/p></description></item><item><title>Tenkai Daily — April 12, 2026</title><link>https://tenkai.blog/posts/2026-04-12/</link><pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-12/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/shawnnygoh/arxiv-scout" target="_blank" rel="noopener noreferrer">ArXiv Scout&lt;/a>
  — Search and fetch arXiv papers, pull full‑text PDFs for summaries, lit reviews, side‑by‑side comparison, and citation tracking. 📄 Handy for engineers who need to keep up with the literature without drowning in PDFs.&lt;/li>
