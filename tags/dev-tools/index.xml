@@ -13,7 +13,8 @@
 &lt;ul>
 &lt;li>&lt;a href="https://arxiv.org/abs/2604.08601" target="_blank" rel="noopener noreferrer">OpenKedge: Governing Agentic Mutation with Execution-Bound Safety and Evidence Chains&lt;/a>
  — Proposes OpenKedge to control AI agent mutations as a governed process, using execution-bound safety and evidence chains to manage probabilistic risks.&lt;/li>
-&lt;li>[From Business Events to Auditable Decisions: Ontology-Governed Graph Simulation for Enterprise AI](https://grounded LLM-based agent decisions in business event simulation to produce auditable outcomes with traceable decision trails.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2604.08603" target="_blank" rel="noopener noreferrer">From Business Events to Auditable Decisions: Ontology-Governed Graph Simulation for Enterprise AI&lt;/a>
+ — Grounds LLM-based agent decisions in business event simulation to produce auditable outcomes with traceable decision trails.&lt;/li>
 &lt;li>&lt;a href="https://arxiv.org/abs/2604.08621" target="_blank" rel="noopener noreferrer">Sustained Impact of Agentic Personalisation in Marketing: A Longitudinal Case Study&lt;/a>
  — Examines how long agentic personalization in marketing CRM holds up and why human-in-the-loop oversight still matters.&lt;/li>
 &lt;li>&lt;a href="https://arxiv.org/abs/2604.08685" target="_blank" rel="noopener noreferrer">RAMP: Hybrid DRL for Online Learning of Numeric Action Models&lt;/a>
