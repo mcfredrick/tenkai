@@ -103,7 +103,10 @@ def github_search_tools(since_days: int = 30, score_threshold: float = 0.5) -> l
     since_14d = (now - timedelta(days=14)).strftime("%Y-%m-%d")
 
     queries = [
-        f"topic:claude-code OR topic:mcp-server OR topic:llm-agent pushed:>{since_date}",
+        # Split multi-topic OR queries — GitHub API rejects topic:X OR topic:Y with date filters
+        f"topic:claude-code pushed:>{since_date}",
+        f"topic:mcp-server pushed:>{since_date}",
+        f"topic:llm-agent pushed:>{since_date}",
         f"stars:10..500 created:>{since_date} claude OR llm OR mcp OR \"ai agent\" OR \"coding assistant\" in:name,description",
         "opencode OR nanoclaw OR openclaw OR \"codex cli\" OR \"pi editor\" OR \"coding assistant\" in:name stars:5..500",
         f"\"coding assistant\" OR \"agentic coding\" in:description stars:20..1000 pushed:>{since_14d}",

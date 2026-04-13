@@ -98,7 +98,12 @@ def fetch_url(url: str) -> str:
         return ""
 
 
-def call_llm(content: str, model: str, retries: int = 3) -> list[dict]:
+def call_llm(content: str, model: str, retries: int = 3) -> list[dict] | None:
+    """Call the LLM to extract and filter items.
+
+    Returns a list on success (possibly empty if model found nothing worth keeping),
+    or None if all attempts failed (caller should fall back to rule-based filtering).
+    """
     payload = {
         "model": model,
         "messages": [
@@ -134,7 +139,32 @@ def call_llm(content: str, model: str, retries: int = 3) -> list[dict]:
             if attempt < retries - 1:
                 time.sleep(2 ** attempt * 2)
 
-    return []
+    return None
+
+
+def passthrough_filter(items: list[dict]) -> list[dict]:
+    """Rule-based fallback when LLM is unavailable.
+
+    Applies seen-URL and business-news filters, assigns a default category
+    and relevance score so downstream code works without LLM scoring.
+    """
+    results = []
+    for raw in items[:20]:  # cap to avoid bloating the post
+        item = {
+            "title": raw.get("title", ""),
+            "url": raw.get("url", ""),
+            "summary": raw.get("text", "")[:300],
+            "category": "release",
+            "relevance_score": 7,
+        }
+        if is_business_news(item):
+            continue
+        try:
+            item = recategorize(item)
+        except Exception:
+            pass
+        results.append(item)
+    return results
 
 
 import re as _re
@@ -219,15 +249,10 @@ def main() -> None:
         print("Processing curated watchlist with LLM...", file=sys.stderr)
         prompt = build_prompt_for_source("[CURATED - author hand-picked]", curated_items)
         extracted = call_llm(prompt, model)
-        filtered = []
-        for item in extracted:
-            if item.get("url") in seen_urls or is_business_news(item):
-                continue
-            try:
-                item = recategorize(item)
-            except Exception as e:
-                print(f"  recategorize failed for {item.get('url', '?')}: {e}", file=sys.stderr)
-            filtered.append(item)
+        if extracted is None:
+            print("  LLM unavailable, using passthrough for curated items", file=sys.stderr)
+            extracted = passthrough_filter(curated_items)
+        filtered = [item for item in extracted if item.get("url") not in seen_urls and not is_business_news(item)]
         results["curated"] = filtered
         print(f"  {len(filtered)} curated items after filtering", file=sys.stderr)
 
@@ -239,6 +264,9 @@ def main() -> None:
         print(f"Processing {source_name} with LLM...", file=sys.stderr)
         prompt = build_prompt_for_source(source_name, items)
         extracted = call_llm(prompt, model)
+        if extracted is None:
+            print(f"  LLM unavailable, using passthrough for {source_name}", file=sys.stderr)
+            extracted = passthrough_filter(items)
 
         filtered = []
         for item in extracted:
