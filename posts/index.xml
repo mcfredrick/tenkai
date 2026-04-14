@@ -1,4 +1,60 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tenkai</title><link>https://tenkai.blog/posts/</link><description>Recent content in Posts on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 13 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — April 13, 2026</title><link>https://tenkai.blog/posts/2026-04-13/</link><pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-13/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tenkai</title><link>https://tenkai.blog/posts/</link><description>Recent content in Posts on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 14 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — April 14, 2026</title><link>https://tenkai.blog/posts/2026-04-14/</link><pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-14/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://huggingface.co/unsloth/GLM-5.1-GGUF" target="_blank" rel="noopener noreferrer">unsloth/GLM-5.1-GGUF&lt;/a>
+ — GGUF quantized variant of GLM-5.1 enabling efficient local deployment for conversational Chinese and English text generation, based on the original GLM-5.1 model.&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/nextlevelbuilder/ui-ux-pro-max-skill" target="_blank" rel="noopener noreferrer">nextlevelbuilder/ui-ux-pro-max-skill&lt;/a>
+ — An AI skill for building professional UI/UX across multiple platforms, integrating design intelligence with tools like React and Tailwind CSS.&lt;/li>
+&lt;li>&lt;a href="https://github.com/gsd-build/get-shit-done" target="_blank" rel="noopener noreferrer">gsd-build/get-shit-done&lt;/a>
+ — A lightweight and powerful meta-prompting and spec-driven development system for Claude Code, emphasizing context engineering.&lt;/li>
+&lt;li>&lt;a href="https://github.com/asgeirtj/system_prompts_leaks" target="_blank" rel="noopener noreferrer">asgeirtj/system_prompts_leaks&lt;/a>
+ — A collection of extracted system prompts from major AI models, including Claude and GPT, for transparency and research.&lt;/li>
+&lt;li>&lt;a href="https://github.com/sickn33/antigravity-awesome-skills" target="_blank" rel="noopener noreferrer">sickn33/antigravity-awesome-skills&lt;/a>
+ — A library of over 1,400 agentic skills for Claude Code and other coding platforms, with installation and management tools.&lt;/li>
+&lt;li>&lt;a href="https://github.com/santifer/career-ops" target="_blank" rel="noopener noreferrer">santifer/career-ops&lt;/a>
+ — An AI-powered job search system leveraging Claude Code for automation, resume generation, and interview preparation.&lt;/li>
+&lt;li>&lt;a href="https://github.com/safishamsi/graphify" target="_blank" rel="noopener noreferrer">safishamsi/graphify&lt;/a>
+ — An AI coding skill that converts codebases into queryable knowledge graphs, enhancing code understanding and navigation.&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://arxiv.org/abs/2604.09576" target="_blank" rel="noopener noreferrer">AHC: Meta-Learned Adaptive Compression for Continual Object Detection on Memory-Constrained Microcontrollers&lt;/a>
+ — Introduces AHC, a meta-learned adaptive compression framework for continual object detection on microcontrollers with under 100KB memory. Enables dynamic compression strategy adjustment to evolving task distributions, improving memory utilization.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2604.09590" target="_blank" rel="noopener noreferrer">DeepReviewer 2.0: A Traceable Agentic System for Auditable Scientific Peer Review&lt;/a>
+ — Presents DeepReviewer 2.0, a traceable agentic system for auditable scientific peer review. Focuses on output contracts that provide justifications, evidence, and concrete follow-ups to enable human review and verification of AI-generated critiques.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2604.09574" target="_blank" rel="noopener noreferrer">Turing Test on Screen: A Benchmark for Mobile GUI Agent Humanization&lt;/a>
+ — Proposes a benchmark to evaluate mobile GUI agents on humanization—anti-detection capabilities in human-centric digital ecosystems—rather than solely utility and robustness. Addresses adversarial countermeasures and agent behavior in human-like interactions.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2604.09580" target="_blank" rel="noopener noreferrer">OOWM: Structuring Embodied Reasoning and Planning via Object-Oriented Programmatic World Modeling&lt;/a>
+ — Proposes Object-Oriented Programmatic World Modeling (OOWM) to structure embodied reasoning and planning. Addresses limitations of linear natural language prompting by explicitly representing state-space, object hierarchies, and causal dependencies for embodied tasks.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://provider" target="_blank" rel="noopener noreferrer">farion1231/cc-switch&lt;/a>
+ — A cross-platform desktop assistant tool for Claude Code and related platforms, enabling provider management and skill integration.&lt;/li>
+&lt;li>&lt;a href="https://github.com/CherryHQ/cherry-studio" target="_blank" rel="noopener noreferrer">CherryHQ/cherry-studio&lt;/a>
+ — An AI productivity studio offering smart chat, autonomous agents, and unified access to frontier LLMs.&lt;/li>
+&lt;li>&lt;a href="https://github.com/HKUDS/nanobot" target="_blank" rel="noopener noreferrer">HKUDS/nanobot&lt;/a>
+ — An ultra-lightweight personal AI agent designed for efficiency and ease of use across multiple platforms.&lt;/li>
+&lt;li>&lt;a href="https://github.com/wshobson/agents" target="_blank" rel="noopener noreferrer">wshobson/agents&lt;/a>
+ — A framework for intelligent automation and multi-agent orchestration, focusing on Claude Code and related tools.&lt;/li>
+&lt;li>&lt;a href="https://github.com/router-for-me/CLIProxyAPI" target="_blank" rel="noopener noreferrer">router-for-me/CLIProxyAPI&lt;/a>
+ — An API service that wraps multiple AI CLI tools, providing a unified interface for Gemini, Claude, and other models.&lt;/li>
+&lt;li>&lt;a href="https://github.com/iOfficeAI/AionUi" target="_blank" rel="noopener noreferrer">iOfficeAI/AionUi&lt;/a>
+ — A free, local, open-source cowork app providing OpenClaw and AI agent support for multiple platforms.&lt;/li>
+&lt;/ul>
+&lt;h2 id="tutorials--guides">Tutorials &amp;amp; Guides&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/shanraisshan/claude-code-best-practice" target="_blank" rel="noopener noreferrer">shanraisshan/claude-code-best-practice&lt;/a>
+ — A repository of best practices for Claude Code, covering agentic engineering and workflow optimization.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>Anchor on &lt;a href="https://huggingface.co/unsloth/GLM-5.1-GGUF" target="_blank" rel="noopener noreferrer">unsloth/GLM-5.1-GGUF&lt;/a>
+ for local conversational efficiency as a baseline deployment requirement. Wrap it with &lt;a href="https://github.com/farion1231/cc-switch" target="_blank" rel="noopener noreferrer">farion1231/cc-switch&lt;/a>
+ to manage provider routing and skill integration, enabling toggling between local and cloud backends without rewriting core logic. Use &lt;a href="https://github.com/HKUDS/nanobot" target="_blank" rel="noopener noreferrer">HKUDS/nanobot&lt;/a>
+ for lightweight, efficient task execution to avoid runtime bloat. Combine this stack with &lt;a href="https://github.com/sickn33/antigravity-awesome-skills" target="_blank" rel="noopener noreferrer">sickn33/antigravity-awesome-skills&lt;/a>
+ to reuse proven agentic patterns and accelerate feature delivery. This synthesis leverages the specific items above: a local model for privacy/speed, a unified API layer for flexibility, and a curated skill library for rapid orchestration, keeping infra maintainable and deployments honest about resource constraints.&lt;/p></description></item><item><title>Tenkai Daily — April 13, 2026</title><link>https://tenkai.blog/posts/2026-04-13/</link><pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-13/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/aaif-goose/goose/releases/tag/v1.30.0" target="_blank" rel="noopener noreferrer">block/goose v1.30.0&lt;/a>
  — Terminal UI gets a refresh with tab-expandable tool calls and better message rendering. Also adds sub recipe management in the desktop UI and passes toolInfo to MCP Apps via hostContext.&lt;/li>
