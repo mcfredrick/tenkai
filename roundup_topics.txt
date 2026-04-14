@@ -6,3 +6,5 @@
 # Higher surface count = topic has appeared as a strong candidate multiple weeks running.
 Agentic workflows tooling | 2026-04-14 | 1
 Token cost optimization | 2026-04-14 | 1
+Token cost optimization for coding agents | 2026-04-14 | 1
+Local LLM setups for coding assistants | 2026-04-14 | 1
