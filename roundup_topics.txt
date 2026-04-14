@@ -1,0 +1,8 @@
+# Roundup topic suggestions
+# Format: topic | first_surfaced | times_surfaced
+#
+# You can add topics manually — just one topic per line, no extra fields needed.
+# Topics carried forward from the agent will include date and surface count.
+# Higher surface count = topic has appeared as a strong candidate multiple weeks running.
+Agentic workflows tooling | 2026-04-14 | 1
+Token cost optimization | 2026-04-14 | 1

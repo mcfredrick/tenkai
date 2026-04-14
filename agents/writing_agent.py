@@ -13,6 +13,7 @@ import time
 import httpx
 
 from holidays import get_holiday, Holiday
+from model_selector import build_candidate_list
 
 OPENROUTER_API = "https://openrouter.ai/api/v1/chat/completions"
 OPENROUTER_MODELS_API = "https://openrouter.ai/api/v1/models"
@@ -44,28 +45,6 @@ Content rules:
 Output ONLY the markdown body (no front matter). Do not include a "Today's Synthesis" section."""
 
 
-STATIC_FALLBACKS = [
-    "meta-llama/llama-3.3-70b-instruct:free",
-    "google/gemma-3-27b-it:free",
-    "mistralai/mistral-small-3.1-24b-instruct:free",
-]
-
-
-def fetch_free_model_ids(api_key: str) -> list[str]:
-    try:
-        r = httpx.get(
-            OPENROUTER_MODELS_API,
-            headers={"Authorization": f"Bearer {api_key}"},
-            timeout=15,
-        )
-        r.raise_for_status()
-        return [
-            m["id"] for m in r.json().get("data", [])
-            if str(m.get("pricing", {}).get("prompt", "1")) == "0"
-        ]
-    except Exception as e:
-        print(f"  Could not fetch model list: {e}", file=sys.stderr)
-        return []
 
 
 def _try_model(content: str, model: str, headers: dict, system_prompt: str = SYSTEM_PROMPT) -> str | None:
@@ -367,14 +346,7 @@ Output ONLY the revised markdown body (no front matter, no preamble)."""
 
 
 def _build_candidate_list(preferred_model: str, api_key: str) -> list[str]:
-    live_free = fetch_free_model_ids(api_key)
-    seen: set[str] = set()
-    candidates: list[str] = []
-    for m in [preferred_model] + live_free + STATIC_FALLBACKS:
-        if m not in seen:
-            seen.add(m)
-            candidates.append(m)
-    return candidates
+    return build_candidate_list(preferred_model, api_key)
 
 
 def _parse_qc_response(text: str) -> list[str]:

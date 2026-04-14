@@ -75,6 +75,23 @@ def pick_writing_model(free_models: list[dict]) -> str:
     return pick_research_model(free_models)
 
 
+def build_candidate_list(preferred: str, api_key: str) -> list[str]:
+    """Return an ordered list of free models to try for LLM calls.
+
+    Preferred model is first. Then all currently available free models from
+    OpenRouter (so fallbacks are never stale). The preferred model is not
+    repeated if it also appears in the live list.
+    """
+    live_ids = [m["id"] for m in fetch_free_models()]
+    seen: set[str] = set()
+    candidates: list[str] = []
+    for m in [preferred] + live_ids:
+        if m not in seen:
+            seen.add(m)
+            candidates.append(m)
+    return candidates
+
+
 def main() -> None:
     free_models = fetch_free_models()
 
