@@ -4,6 +4,6 @@
 # You can add topics manually — just one topic per line, no extra fields needed.
 # Topics carried forward from the agent will include date and surface count.
 # Higher surface count = topic has appeared as a strong candidate multiple weeks running.
-Token optimization for coding agents — Claude Code and beyond
-Agentic workflows tooling | 2026-04-14 | 1
-Local LLM setups for coding assistants | 2026-04-14 | 1
+Token optimization for coding agents — Claude Code and beyond | 2026-04-14 | 1
+Local LLM setups for coding assistants | 2026-04-14 | 2
+Token optimization for coding agents | 2026-04-14 | 1
