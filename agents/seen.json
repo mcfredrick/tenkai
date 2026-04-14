@@ -3471,6 +3471,26 @@
     {
       "url": "https://github.com/kevinelliott/agentpipe",
       "date": "2026-04-14"
+    },
+    {
+      "url": "https://github.com/russelleNVy/three-man-team",
+      "date": "2026-04-14"
+    },
+    {
+      "url": "https://github.com/langchain-ai/langchain",
+      "date": "2026-04-14"
+    },
+    {
+      "url": "https://github.com/langchain-ai/langgraph",
+      "date": "2026-04-14"
+    },
+    {
+      "url": "https://github.com/openai/openai-agents-python",
+      "date": "2026-04-14"
+    },
+    {
+      "url": "https://github.com/warpdotdev/Warp",
+      "date": "2026-04-14"
     }
   ]
 }
