@@ -32,6 +32,22 @@ POSTS_DIR = Path(__file__).parent.parent / "content" / "posts"
 HEADERS = {"User-Agent": "tenkai-bot/1.0 (github.com/mcfredrick/tenkai)"}
 TIMEOUT = 20
 
+PINNED_TOPIC_PROMPT = """You are an editor for Tenkai, a weekly AI/dev tools digest for senior engineers.
+
+A topic has been manually specified for this week's roundup. Your job is to flesh it out.
+
+Return ONLY valid JSON (no markdown fences):
+{
+  "topic": "the topic name as given (clean it up slightly if needed)",
+  "description": "one sentence: what this topic is and why engineers care",
+  "rationale": "one sentence: why this is worth covering now",
+  "search_queries": ["query1", "query2", "query3"],
+  "from_watchlist_index": null
+}
+
+search_queries: 3 specific queries to find the best tools/projects on this topic via GitHub and HN search.
+Make them targeted enough to surface real implementations, not tutorials or blog posts."""
+
 SYSTEM_PROMPT = """You are an editor for Tenkai, a weekly AI/dev tools digest for senior engineers.
 
 Your job: identify the 3-5 best roundup topics from this week's signals, ranked by how useful an article would be to the most engineers right now.
@@ -328,9 +344,56 @@ def fetch_recent_roundup_titles() -> list[str]:
     return titles
 
 
+def run_pinned(topic_name: str, model: str) -> None:
+    """Skip signal gathering; use LLM to flesh out a manually specified topic."""
+    print(f"Pinned topic: {topic_name}", file=sys.stderr)
+    api_key = os.environ["OPENROUTER_API_KEY"]
+    headers = {
+        "Authorization": f"Bearer {api_key}",
+        "HTTP-Referer": "https://github.com/mcfredrick/tenkai",
+        "X-Title": "Tenkai Topic Agent",
+    }
+    for candidate in build_candidate_list(model, api_key):
+        print(f"  Trying: {candidate}", file=sys.stderr)
+        try:
+            r = httpx.post(OPENROUTER_API, json={
+                "model": candidate,
+                "messages": [
+                    {"role": "system", "content": PINNED_TOPIC_PROMPT},
+                    {"role": "user", "content": f'Topic: "{topic_name}"'},
+                ],
+                "temperature": 0.3,
+                "max_tokens": 400,
+            }, headers=headers, timeout=60)
+            if r.status_code == 429:
+                print("  Rate limited, skipping", file=sys.stderr)
+                continue
+            r.raise_for_status()
+            text = r.json()["choices"][0]["message"]["content"].strip()
+            text = re.sub(r'^```(?:json)?\s*|\s*```$', '', text.strip())
+            result = json.loads(text)
+            TOPIC_FILE.write_text(json.dumps(result, indent=2))
+            print(f"Wrote {TOPIC_FILE}", file=sys.stderr)
+            return
+        except json.JSONDecodeError as e:
+            print(f"  {candidate}: invalid JSON — {e}", file=sys.stderr)
+        except Exception as e:
+            print(f"  {candidate} error: {e}", file=sys.stderr)
+    raise RuntimeError("Pinned topic agent failed to produce search queries")
+
+
 def main() -> None:
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--topic", default="", help="Pin a specific topic, bypassing signal gathering")
+    args = parser.parse_args()
+
     model = os.environ.get("WRITING_MODEL", "meta-llama/llama-3.3-70b-instruct:free")
     print(f"Topic model: {model}", file=sys.stderr)
+
+    if args.topic:
+        run_pinned(args.topic, model)
+        return
 
     all_signals: list[dict] = []
 

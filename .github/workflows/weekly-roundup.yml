@@ -5,6 +5,10 @@ on:
     - cron: '0 9 * * 1'  # 09:00 UTC Mondays (1hr after daily digest)
   workflow_dispatch:
     inputs:
+      topic:
+        description: 'Pin a specific topic (bypasses autonomous topic selection)'
+        type: string
+        default: ''
       skip_research:
         description: 'Reuse cached roundup_research.json from last run'
         type: boolean
@@ -64,7 +68,13 @@ jobs:
         if: env.SKIP_AGENTS != 'true'
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-        run: python agents/topic_agent.py
+        run: |
+          TOPIC="${{ inputs.topic }}"
+          if [ -n "$TOPIC" ]; then
+            python agents/topic_agent.py --topic "$TOPIC"
+          else
+            python agents/topic_agent.py
+          fi
 
       - name: Research — restore cache or run fresh
         if: env.SKIP_AGENTS != 'true'
