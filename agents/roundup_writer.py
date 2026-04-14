@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Writes a weekly roundup post from roundup_research.json."""
+"""Writes a roundup post from roundup_research.json."""
 
 import json
 import os
@@ -158,19 +158,20 @@ def main() -> None:
     post_date_fmt = post_date.strftime("%B %-d, %Y")
 
     description = build_description(items)
-    title = f"This Week in AI: {topic['topic']}"
+    title = topic['topic']
 
     front_matter = f"""---
 title: "{title}"
 date: {post_date_str}
 draft: false
-tags: [weekly-roundup]
+tags: [roundup]
 description: "{description}"
 ---
 
 """
 
-    post_path = POSTS_DIR / f"{post_date_str}-roundup.md"
+    slug = re.sub(r'[^a-z0-9]+', '-', title.lower()).strip('-')[:50]
+    post_path = POSTS_DIR / f"{post_date_str}-{slug}.md"
     post_path.write_text(front_matter + body)
     print(f"Wrote post: {post_path}", file=sys.stderr)
 

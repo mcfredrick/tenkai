@@ -1,4 +1,4 @@
-name: Weekly AI Roundup
+name: AI Roundup
 
 on:
   schedule:
@@ -50,22 +50,12 @@ jobs:
           uv sync
           echo "$GITHUB_WORKSPACE/.venv/bin" >> $GITHUB_PATH
 
-      - name: Guard — skip if today's roundup already exists
-        run: |
-          POST="content/posts/$(date -u +%Y-%m-%d)-roundup.md"
-          if [ -f "$POST" ]; then
-            echo "Roundup $POST already exists, skipping."
-            echo "SKIP_AGENTS=true" >> "$GITHUB_ENV"
-          fi
-
       - name: Select models
-        if: env.SKIP_AGENTS != 'true'
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: python agents/model_selector.py
 
       - name: Topic agent
-        if: env.SKIP_AGENTS != 'true'
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: |
@@ -74,6 +64,17 @@ jobs:
             python agents/topic_agent.py --topic "$TOPIC"
           else
             python agents/topic_agent.py
+          fi
+
+      - name: Guard — skip if this post already exists
+        run: |
+          TOPIC=$(python -c "import json; print(json.load(open('/tmp/roundup_topic.json'))['topic'])")
+          SLUG=$(python -c "import re,sys; print(re.sub(r'[^a-z0-9]+', '-', sys.stdin.read().strip().lower()).strip('-')[:50])" <<< "$TOPIC")
+          POST="content/posts/$(date -u +%Y-%m-%d)-${SLUG}.md"
+          echo "POST_PATH=$POST" >> "$GITHUB_ENV"
+          if [ -f "$POST" ]; then
+            echo "Post $POST already exists, skipping."
+            echo "SKIP_AGENTS=true" >> "$GITHUB_ENV"
           fi
 
       - name: Research — restore cache or run fresh
@@ -86,7 +87,7 @@ jobs:
           USED_CACHE=false
 
           if [ "${{ inputs.skip_research }}" = "true" ]; then
-            run_id=$(gh run list --workflow=weekly-roundup.yml --status=success --limit=5 \
+            run_id=$(gh run list --workflow=roundup.yml --status=success --limit=5 \
               --json databaseId --jq '.[0].databaseId' 2>/dev/null || echo "")
             if [ -n "$run_id" ] && gh run download "$run_id" --name roundup-research-json --dir /tmp 2>/dev/null; then
               echo "Restored roundup_research.json from run $run_id"
@@ -118,16 +119,15 @@ jobs:
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: |
-          POST="content/posts/$(date -u +%Y-%m-%d)-roundup.md"
           for attempt in 1 2 3; do
             echo "=== Writing attempt $attempt ==="
             python agents/roundup_writer.py
-            if python agents/validate_roundup.py "$POST"; then
+            if python agents/validate_roundup.py "$POST_PATH"; then
               echo "Validation passed on attempt $attempt"
               exit 0
             fi
             echo "Validation failed, retrying in 30s..."
-            rm -f "$POST"
+            rm -f "$POST_PATH"
             sleep 30
           done
           echo "All writing attempts failed" >&2
@@ -139,10 +139,9 @@ jobs:
         run: |
           git config user.name "tenkai-bot"
           git config user.email "tenkai-bot@users.noreply.github.com"
-          POST="content/posts/$(date -u +%Y-%m-%d)-roundup.md"
-          git add "$POST" agents/seen.json
+          git add "$POST_PATH" agents/seen.json
           if [ -f roundup_topics.txt ]; then git add roundup_topics.txt; fi
-          git commit -m "post: $(date -u +%Y-%m-%d) weekly roundup [skip ci]"
+          git commit -m "post: $(date -u +%Y-%m-%d) roundup [skip ci]"
           git pull --rebase
           git push
           echo "committed=true" >> "$GITHUB_OUTPUT"
@@ -155,7 +154,7 @@ jobs:
             github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              title: `Weekly roundup failed — ${new Date().toISOString().slice(0,10)}`,
-              body: `The weekly roundup workflow failed. [View run](${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId})`,
+              title: `Roundup failed — ${new Date().toISOString().slice(0,10)}`,
+              body: `The roundup workflow failed. [View run](${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId})`,
               labels: ['bot-failure'],
             })
