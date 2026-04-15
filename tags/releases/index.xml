@@ -1,4 +1,61 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Tenkai</title><link>https://tenkai.blog/tags/releases/</link><description>Recent content in Releases on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 14 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — April 14, 2026</title><link>https://tenkai.blog/posts/2026-04-14/</link><pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-14/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Tenkai</title><link>https://tenkai.blog/tags/releases/</link><description>Recent content in Releases on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 15 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — April 15, 2026</title><link>https://tenkai.blog/posts/2026-04-15/</link><pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-15/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://huggingface.co/MiniMaxAI/MiniMax-M2.7" target="_blank" rel="noopener noreferrer">MiniMaxAI/MiniMax-M2.7&lt;/a>
+ — A transformer-based text-generation model for conversational use, distributed with safetensors and supporting FP8 precision. It is endpoints-compatible and configured for US region deployment.&lt;/li>
+&lt;li>&lt;a href="https://huggingface.co/tencent/HY-Embodied-0.5" target="_blank" rel="noopener noreferrer">tencent/HY-Embodied-0.5&lt;/a>
+ — An embodied vision-language model for image-to-text tasks, supporting end-to-end motion tracking and conversational interactions. It is multilingual and released under a custom license.&lt;/li>
+&lt;li>&lt;a href="https://huggingface.co/Jiunsong/supergemma4-26b-uncensored-gguf-v2" target="_blank" rel="noopener noreferrer">Jiunsong/supergemma4-26b-uncensored-gguf-v2&lt;/a>
+ — A GGUF-quantized Gemma 4 model for fast local inference on Apple Silicon. Supports conversational tasks and reasoning, with Korean language enhancements.&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/nextlevelbuilder/ui-ux-pro-skill" target="_blank" rel="noopener noreferrer">nextlevelbuilder/ui-ux-pro-max-skill&lt;/a>
+ — An AI skill for building professional UI/UX across multiple platforms, leveraging AI for design intelligence.&lt;/li>
+&lt;li>&lt;a href="https://github.com/gsd-build/get-shit-done" target="_blank" rel="noopener noreferrer">gsd-build/get-shit-done&lt;/a>
+ — A lightweight, powerful meta-prompting and spec-driven development system for Claude Code.&lt;/li>
+&lt;li>&lt;a href="https://github.com/asgeirtj/system_prompts_leaks" target="_blank" rel="noopener noreferrer">asgeirtj/system_prompts_leaks&lt;/a>
+ — A repository of extracted system prompts from major LLM providers, including Claude Code and related models.&lt;/li>
+&lt;li>&lt;a href="https://github.com/santifer/career-ops" target="_blank" rel="noopener noreferrer">santifer/career-ops&lt;/a>
+ — An AI-powered job search system built on Claude Code, with features like PDF generation and batch processing.&lt;/li>
+&lt;li>&lt;a href="https://github.com/safishamsi/graphify" target="_blank" rel="noopener noreferrer">safishamsi/graphify&lt;/a>
+ — An AI coding assistant skill that converts codebases into queryable knowledge graphs.&lt;/li>
+&lt;li>&lt;a href="https://ccproxyapi.router-for-me.com" target="_blank" rel="noopener noreferrer">router-for-me/CLIProxyAPI&lt;/a>
+ — An API service that wraps multiple AI coding assistants, providing a unified interface for Claude Code and others.&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://arxiv.org/abs/2604.11828" target="_blank" rel="noopener noreferrer">The Non-Optimality of Scientific Knowledge: Path Dependence, Lock-In, and The Local Minimum Trap&lt;/a>
+ — Frames scientific knowledge as a local optimum rather than a global optimum, analyzing path dependence and lock-in effects that trap scientific progress in suboptimal states. Provides a conceptual framework for understanding historical trajectories in scientific discovery.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2604.11838" target="_blank" rel="noopener noreferrer">A Layer-wise Analysis of Supervised Fine-Tuning&lt;/a>
+ — Examines how supervised fine-tuning (SFT) affects transformer layers using information-theoretic, geometric, and optimization metrics across model scales (1B-32B). Identifies layer-wise mechanisms and risks of catastrophic forgetting during alignment training.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/farion1231/cc-switch" target="_blank" rel="noopener noreferrer">farion1231/cc-switch&lt;/a>
+ — A cross-platform desktop assistant tool for Claude Code and related coding agents, with features like MCP support.&lt;/li>
+&lt;li>&lt;a href="https://github.com/CherryHQ/cherry-studio" target="_blank" rel="noopener noreferrer">CherryHQ/cherry-studio&lt;/a>
+ — An AI productivity studio with smart chat, autonomous agents, and unified access to frontier LLMs.&lt;/li>
+&lt;li>&lt;a href="https://github.com/HKUDS/nanobot" target="_blank" rel="noopener noreferrer">HKUDS/nanobot&lt;/a>
+ — An ultra-lightweight personal AI agent for Claude Code and other coding platforms.&lt;/li>
+&lt;li>&lt;a href="https://github.com/wshobson/agents" target="_blank" rel="noopener noreferrer">wshobson/agents&lt;/a>
+ — Intelligent automation and multi-agent orchestration for Claude Code, with support for sub-agents and workflows.&lt;/li>
+&lt;li>&lt;a href="https://github.com/sickn33/antigravity-awesome-skills" target="_blank" rel="noopener noreferrer">sickn33/antigravity-awesome-skills&lt;/a>
+ — A library of over 1,400 agentic skills for Claude Code and other coding agents, with installer CLI and workflow bundles.&lt;/li>
+&lt;li>&lt;a href="https://github.com/gastownhall/beads" target="_blank" rel="noopener noreferrer">gastownhall/beads&lt;/a>
+ — A memory upgrade for coding agents, enhancing their ability to retain and use context.&lt;/li>
+&lt;/ul>
+&lt;h2 id="tutorials--guides">Tutorials &amp;amp; Guides&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/shanraisshan/claude-code-best-practice" target="_blank" rel="noopener noreferrer">shanraisshan/claude-code-best-practice&lt;/a>
+ — A curated collection of best practices and skills for Claude Code, focusing on agentic engineering and vibe coding.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>The steady stream of model releases and dev tools points to a straightforward strategy: wrap specialized capabilities into agent workflows you can actually ship 🔥. Start with &lt;a href="https://huggingface.co/MiniMaxAI/MiniMax-M2.7" target="_blank" rel="noopener noreferrer">MiniMaxAI/MiniMax-M2.7&lt;/a>
+ for conversational text generation and pair it with &lt;a href="https://github.com/farion1231/cc-switch" target="_blank" rel="noopener noreferrer">farion1231/cc-switch&lt;/a>
+ to route prompts across multiple coding assistants, giving you a controlled, endpoint-style pipeline. Layer in &lt;a href="https://github.com/sickn33/antigravity-awesome-skills" target="_blank" rel="noopener noreferrer">sickn33/antigravity-awesome-skills&lt;/a>
+ to bootstrap reusable agentic skills like codebase-aware debugging or PR summarization—explicit capabilities referenced from the Open Source Releases section—then use &lt;a href="https://github.com/HKUDS/nanobot" target="_blank" rel="noopener noreferrer">HKUDS/nanobot&lt;/a>
+ as the lightweight client for on-device orchestration. For research context, &lt;a href="https://arxiv.org/abs/2604.11838" target="_blank" rel="noopener noreferrer">A Layer-wise Analysis of Supervised Fine-Tuning&lt;/a>
+ suggests measuring how each layer handles alignment, so you can fine-tune selectively without nuking earlier behavior. Combine these to prototype a self-improving agent that writes, tests, and refactors code while logging layer-level behavior changes. This keeps the stack personal, observable, and bounded—no hype required.&lt;/p></description></item><item><title>Tenkai Daily — April 14, 2026</title><link>https://tenkai.blog/posts/2026-04-14/</link><pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-14/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://huggingface.co/unsloth/GLM-5.1-GGUF" target="_blank" rel="noopener noreferrer">unsloth/GLM-5.1-GGUF&lt;/a>
  — GGUF quantized variant of GLM-5.1 enabling efficient local deployment for conversational Chinese and English text generation, based on the original GLM-5.1 model.&lt;/li>
