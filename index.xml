@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tenkai</title><link>https://tenkai.blog/</link><description>Recent content on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 15 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — April 15, 2026</title><link>https://tenkai.blog/posts/2026-04-15/</link><pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-15/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tenkai</title><link>https://tenkai.blog/</link><description>Recent content on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 16 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — April 16, 2026</title><link>https://tenkai.blog/posts/2026-04-16/</link><pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-16/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/google/magika" target="_blank" rel="noopener noreferrer">google/magika&lt;/a>
+ — Fast file type detection using a pretrained neural network; useful if you need to classify files without burning cycles on custom logic.&lt;/li>
+&lt;li>&lt;a href="https://apify.com/nexgendata" target="_blank" rel="noopener noreferrer">Apify.com data provider for GitHub&lt;/a>
+ — Provides structured GitHub repository data for scraping and analysis; handy when you want to pipe repo data into an AI assistant without writing your own scraper.&lt;/li>
+&lt;li>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.110" target="_blank" rel="noopener noreferrer">anthropics/claude-code: v2.1.110&lt;/a>
+ — Adds a /tui and notification tools; relevant if you live in Claude Code and want fewer visual glitches.&lt;/li>
+&lt;li>&lt;a href="https://github.com/sigoden/aichat/releases/tag/v0.29.0" target="_blank" rel="noopener noreferrer">sigoden/aichat: v0.29.0&lt;/a>
+ — Brings cmd_prelude and claude-3-7-sonnet; nice if you rely on aichat for multi-model scripting.&lt;/li>
+&lt;li>&lt;a href="https://github.com/sigoden/aichat/releases/tag/v0.28.0" target="_blank" rel="noopener noreferrer">sigoden/aichat: v0.28.0&lt;/a>
+ — Adds reasoning tokens and webui support; patch-level tweaks for aichat users.&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://arxiv.org/abs/2604.13226" target="_blank" rel="noopener noreferrer">KV Packet: Recomputation-Free Context-Independent KV Caching for LLMs&lt;/a>
+ — Proposes KV caching without recomputation for reused documents; could reduce latency if your serving stack can absorb the format.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2604.13081" target="_blank" rel="noopener noreferrer">Sparse Goodness: How Selective Measurement Transforms Forward-Forward Learning&lt;/a>
+ — Examines selective measurement in FF learning; of interest if you’re exploring alternatives to backpropagation.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2604.13133" target="_blank" rel="noopener noreferrer">Automated co-design of high-performance thermodynamic cycles via graph-based hierarchical reinforcement learning&lt;/a>
+ — Uses graph-based hierarchical RL for cycle design; niche unless you optimize energy systems.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2604.13085" target="_blank" rel="noopener noreferrer">Adaptive Memory Crystallization for Autonomous AI Agent Learning in Dynamic Environments&lt;/a>
+ — Introduces AMC for continual RL; relevant if you need agents to consolidate experience without overwriting skills.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/Donchitos/Claude-Code-Game-Studios" target="_blank" rel="noopener noreferrer">Donchitos/Claude-Code-Game-Studios&lt;/a>
+ — Framework for game dev with Claude Code and 49 agents; consider if orchestrating large-scale AI workflows is your actual problem.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>If you run a service that ingests user-supplied files, start with &lt;strong>&lt;a href="https://github.com/google/magika" target="_blank" rel="noopener noreferrer">google/magika&lt;/a>
+&lt;/strong> to classify file types before any business logic runs; it offloads format detection to a pretrained model so you avoid writing and maintaining fragile magic bytes checks. Pair that with &lt;strong>&lt;a href="https://arxiv.org/abs/2604.13226" target="_blank" rel="noopener noreferrer">KV Packet: Recomputation-Free Context-Independent KV Caching for LLMs&lt;/a>
+&lt;/strong> to cache document-level KV states across requests, cutting latency when the same or similar files are processed repeatedly. For teams already using &lt;strong>&lt;a href="https://github.com/Donchitos/Claude-Code-Game-Studios" target="_blank" rel="noopener noreferrer">Donchitos/Claude-Code-Game-Studios&lt;/a>
+&lt;/strong> to orchestrate AI workflows, this combo gives you a small, reliable pipeline: classify once, cache embeddings, and reuse context across agents without recomputation. Validate hit rates on your actual file distribution and iterate; measure cache efficiency and detection accuracy before committing to infrastructure changes. Treat these as building blocks rather than a turnkey solution, and validate hit rates on your actual file distribution before scaling.&lt;/p></description></item><item><title>Tenkai Daily — April 15, 2026</title><link>https://tenkai.blog/posts/2026-04-15/</link><pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-15/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://huggingface.co/MiniMaxAI/MiniMax-M2.7" target="_blank" rel="noopener noreferrer">MiniMaxAI/MiniMax-M2.7&lt;/a>
  — A transformer-based text-generation model for conversational use, distributed with safetensors and supporting FP8 precision. It is endpoints-compatible and configured for US region deployment.&lt;/li>
