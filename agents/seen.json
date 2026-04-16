@@ -3671,6 +3671,102 @@
     {
       "url": "https://pypi.org/project/create-ai-project/0.1.4/",
       "date": "2026-04-15"
+    },
+    {
+      "url": "https://github.com/google/magika",
+      "date": "2026-04-16"
+    },
+    {
+      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "date": "2026-04-16"
+    },
+    {
+      "url": "https://huggingface.co/OBLITERATUS/gemma-4-E4B-it-OBLITERATED",
+      "date": "2026-04-16"
+    },
+    {
+      "url": "https://huggingface.co/Comfy-Org/ERNIE-Image",
+      "date": "2026-04-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.13226",
+      "date": "2026-04-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.13081",
+      "date": "2026-04-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.13133",
+      "date": "2026-04-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.13085",
+      "date": "2026-04-16"
+    },
+    {
+      "url": "https://apify.com/nexgendata",
+      "date": "2026-04-16"
+    },
+    {
+      "url": "https://apify.com/nexgendata",
+      "date": "2026-04-16"
+    },
+    {
+      "url": "https://projectbrain.tools/",
+      "date": "2026-04-16"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.110",
+      "date": "2026-04-16"
+    },
+    {
+      "url": "https://github.com/continuedev/continue/releases/tag/v1.2.22-vscode",
+      "date": "2026-04-16"
+    },
+    {
+      "url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.3.dev",
+      "date": "2026-04-16"
+    },
+    {
+      "url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.2",
+      "date": "2026-04-16"
+    },
+    {
+      "url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.2.dev",
+      "date": "2026-04-16"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/github-v1.2.22",
+      "date": "2026-04-16"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/github-v1.2.21",
+      "date": "2026-04-16"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/github-v1.2.20",
+      "date": "2026-04-16"
+    },
+    {
+      "url": "https://github.com/sigoden/aichat/releases/tag/v0.29.0",
+      "date": "2026-04-16"
+    },
+    {
+      "url": "https://github.com/sigoden/aichat/releases/tag/v0.28.0",
+      "date": "2026-04-16"
+    },
+    {
+      "url": "https://pypi.org/project/drydock-cli/2.6.116/",
+      "date": "2026-04-16"
+    },
+    {
+      "url": "https://pypi.org/project/lightrace/1.0.14/",
+      "date": "2026-04-16"
+    },
+    {
+      "url": "https://pypi.org/project/shibaclaw/0.0.35/",
+      "date": "2026-04-16"
     }
   ]
 }
