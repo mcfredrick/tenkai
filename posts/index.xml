@@ -1,4 +1,48 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tenkai</title><link>https://tenkai.blog/posts/</link><description>Recent content in Posts on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 16 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — April 16, 2026</title><link>https://tenkai.blog/posts/2026-04-16/</link><pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-16/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tenkai</title><link>https://tenkai.blog/posts/</link><description>Recent content in Posts on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 17 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — April 17, 2026</title><link>https://tenkai.blog/posts/2026-04-17/</link><pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-17/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/NucleusAI/Nucleus-Image" target="_blank" rel="noopener noreferrer">NucleusAI/Nucleus-Image&lt;/a>
+&lt;/strong> — Open-source diffusion model using a Mixture-of-Experts architecture for text-to-image generation. Worth a look if you&amp;rsquo;re benchmarking MoE designs, otherwise just another checkpoint cluttering your disk 🤖.&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.111" target="_blank" rel="noopener noreferrer">anthropics/claude-code: v2.1.111&lt;/a>
+&lt;/strong> — Upgraded effort levels and auto mode for Max subscribers, plus UI changes that separate focus from transcript. The new presets might actually save you a few config tweaks 🤖.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anomalyco/opencode/releases/tag/v1.4.7" target="_blank" rel="noopener noreferrer">sst/opencode: v1.4.7&lt;/a>
+&lt;/strong> — Adds GPT-5-mini low effort mode and Cloudflare AI Gateway integration. Useful if you live in the Anthropic ecosystem, otherwise incremental at best 🛠️.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/cline/cline/releases/tag/v3.79.0" target="_blank" rel="noopener noreferrer">cline/cline: v3.79.0&lt;/a>
+&lt;/strong> — Claude Opus 4.7 support, Azure Blob provider, and fixes for cache reflection. Solid update if you&amp;rsquo;re already in the cline workflow 🛠️.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/z-lab/dflash" target="_blank" rel="noopener noreferrer">z-lab/dflash&lt;/a>
+&lt;/strong> — Implements Block Diffusion for Flash Speculative Decoding to accelerate LLM inference. Could shave time off your prompts if your hardware plays nice 🤖.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://swisstruth.org/trust" target="_blank" rel="noopener noreferrer">Swiss Truth MCP&lt;/a>
+&lt;/strong> — Curated Swiss law/health/finance knowledge with a 5-stage validation pipeline. Low hallucination claims, but you&amp;rsquo;ll still want to verify critical outputs 📄.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/linxule/mcp-music-studio" target="_blank" rel="noopener noreferrer">mcp-music-studio&lt;/a>
+&lt;/strong> — Two-mode music production with Strudel integration and 128 GM instruments. Niche tool for the composer-coder in you 🎵.&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2604.13694" target="_blank" rel="noopener noreferrer">Weight Patching: Toward Source-Level Mechanistic Localization in LLMs&lt;/a>
+&lt;/strong> — Proposes weight patching for mechanistic interpretability at the source level. A potential step up from activation-based analysis, if you have the cycles to digest it 📄.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2604.13759" target="_blank" rel="noopener noreferrer">The cognitive companion: a lightweight parallel monitoring architecture for detecting and recovering from reasoning degradation in LLM agents&lt;/a>
+&lt;/strong> — Introduces a parallel monitor to catch reasoning drift with lower overhead. Could be a useful guardrail for long-running agent workflows 📄.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2604.13151" target="_blank" rel="noopener noreferrer">Exploration and Exploitation Errors Are Measurable for Language Model Agents&lt;/a>
+&lt;/strong> — Quantifies exploration vs exploitation errors in open-ended agent tasks. Offers a framework for debugging agent missteps, but may feel academic depending on your role 📄.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2604.13180" target="_blank" rel="noopener noreferrer">SciFi: A Safe, Lightweight, User-Friendly, and Fully Autonomous Agentic AI Workflow for Scientific Applications&lt;/a>
+&lt;/strong> — Presents a safe agentic framework for scientific workflows. Might save you some scaffolding if your work is experiment-driven 📄.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2604.13206" target="_blank" rel="noopener noreferrer">Numerical Instability and Chaos: Quantifying the Unpredictability of Large Language Models&lt;/a>
+&lt;/strong> — Analyzes chaos and numerical instability as sources of LLM unpredictability. Dense read, but useful if you&amp;rsquo;re chasing reliability in agentic systems 📄.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2604.14262" target="_blank" rel="noopener noreferrer">GUI-Perturbed: Domain Randomization Reveals Systematic Brittleness in GUI Grounding Models&lt;/a>
+&lt;/strong> — Uses domain randomization to expose GUI grounding brittleness. Relevant if you test GUI agents, otherwise more academic noise 📄.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/SotoAlt/ayni-protocol" target="_blank" rel="noopener noreferrer">Ayni&lt;/a>
+&lt;/strong> — Standardizes AI agent communication via a glyph-based protocol with Monad blockchain attestation. Attractive if you care about verifiable agent intent, otherwise adds another protocol to the pile 🛠️.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>Adopting the lightweight agentic framework &lt;strong>&lt;a href="https://arxiv.org/abs/2604.13180" target="_blank" rel="noopener noreferrer">SciFi&lt;/a>
+&lt;/strong> together with the parallel monitoring architecture &lt;strong>&lt;a href="https://arxiv.org/abs/2604.13759" target="_blank" rel="noopener noreferrer">The cognitive companion&lt;/a>
+&lt;/strong> provides a concrete, low-overhead guardrail strategy for teams shipping agents. Use SciFi for constrained, experiment-driven tasks and the cognitive companion to detect and recover from reasoning drift in real time. Instrument the monitor on top of your existing pipeline to add resilience without a full rewrite. When you need to trace failure causes back to specific components or layers, apply &lt;strong>&lt;a href="https://arxiv.org/abs/2604.13694" target="_blank" rel="noopener noreferrer">Weight Patching&lt;/a>
+&lt;/strong> to build a clearer map of agent logic divergence from expected behavior. Start with one agent service, add the monitor, and use weight-patching insights to prioritize fixes where they matter most.&lt;/p></description></item><item><title>Tenkai Daily — April 16, 2026</title><link>https://tenkai.blog/posts/2026-04-16/</link><pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-16/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/google/magika" target="_blank" rel="noopener noreferrer">google/magika&lt;/a>
  — Fast file type detection using a pretrained neural network; useful if you need to classify files without burning cycles on custom logic.&lt;/li>
