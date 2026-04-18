@@ -3903,6 +3903,86 @@
     {
       "url": "https://pypi.org/project/infoblox-ddi-mcp/2.2.2/",
       "date": "2026-04-17"
+    },
+    {
+      "url": "https://github.com/Tracer-Cloud/opensre",
+      "date": "2026-04-18"
+    },
+    {
+      "url": "https://huggingface.co/tencent/HY-World-2.0",
+      "date": "2026-04-18"
+    },
+    {
+      "url": "https://huggingface.co/nvidia/Lyra-2.0",
+      "date": "2026-04-18"
+    },
+    {
+      "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+      "date": "2026-04-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.14246",
+      "date": "2026-04-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.14265",
+      "date": "2026-04-18"
+    },
+    {
+      "url": "https://www.gantta.co",
+      "date": "2026-04-18"
+    },
+    {
+      "url": "https://www.standardaccounting.co.uk",
+      "date": "2026-04-18"
+    },
+    {
+      "url": "https://smithery.ai/servers/settlegrid/settlegrid-discovery",
+      "date": "2026-04-18"
+    },
+    {
+      "url": "https://mcp.senzing.com",
+      "date": "2026-04-18"
+    },
+    {
+      "url": "https://nworobotics.cloud",
+      "date": "2026-04-18"
+    },
+    {
+      "url": "https://cryptoiz.org/McpLanding",
+      "date": "2026-04-18"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.114",
+      "date": "2026-04-18"
+    },
+    {
+      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.31.0",
+      "date": "2026-04-18"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.4.11",
+      "date": "2026-04-18"
+    },
+    {
+      "url": "https://github.com/plandex-ai/plandex/releases/tag/server%2Fv2.2.1",
+      "date": "2026-04-18"
+    },
+    {
+      "url": "https://pypi.org/project/saklas/1.4.5/",
+      "date": "2026-04-18"
+    },
+    {
+      "url": "https://pypi.org/project/syncfield/0.3.18/",
+      "date": "2026-04-18"
+    },
+    {
+      "url": "https://pypi.org/project/thin-supervisor/0.3.4/",
+      "date": "2026-04-18"
+    },
+    {
+      "url": "https://pypi.org/project/tokenbee-sdk/0.2.0/",
+      "date": "2026-04-18"
     }
   ]
 }
