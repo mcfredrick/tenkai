@@ -1,4 +1,53 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open-Source on Tenkai</title><link>https://tenkai.blog/tags/open-source/</link><description>Recent content in Open-Source on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 17 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/open-source/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — April 17, 2026</title><link>https://tenkai.blog/posts/2026-04-17/</link><pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-17/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open-Source on Tenkai</title><link>https://tenkai.blog/tags/open-source/</link><description>Recent content in Open-Source on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 18 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/open-source/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — April 18, 2026</title><link>https://tenkai.blog/posts/2026-04-18/</link><pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-18/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://huggingface.co/tencent/HY-World-2.0" target="_blank" rel="noopener noreferrer">tencent/HY-World-2.0&lt;/a>
+ — A world model for 3D generation and understanding, enabling image-to-3D conversion with multilingual support.&lt;/li>
+&lt;li>&lt;a href="https://huggingface.co/nvidia/Lyra-2.0" target="_blank" rel="noopener noreferrer">nvidia/Lyra-2.0&lt;/a>
+ — An audio generation model with associated research paper (arXiv:2604.13036), focused on high-fidelity audio synthesis.&lt;/li>
+&lt;li>&lt;a href="https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive" target="_blank" rel="noopener noreferrer">HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive&lt;/a>
+ — An uncensored GGUF variant of Qwen3.6-35B-A3B with multimodal vision support, optimized for conversational and coding use.&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://pypi.org/project/saklas/1.4.5/" target="_blank" rel="noopener noreferrer">saklas 1.4.5&lt;/a>
+ — Activation steering and trait monitoring library for HuggingFace transformers, includes an OpenAI-compatible server and terminal UI for model behavior analysis.&lt;/li>
+&lt;li>&lt;a href="https://www.gantta.co" target="_blank" rel="noopener noreferrer">Gantta&lt;/a>
+ — Installs: 46,731. Converts natural language descriptions into structured project plans with milestones, dependencies, deadlines, and deliverables via a project management backend.&lt;/li>
+&lt;li>&lt;a href="https://www.standardaccounting.co.uk" target="_blank" rel="noopener noreferrer">Standard Accounting Public MCP&lt;/a>
+ — Installs: 16,488. Public MCP server offering UK company filing guidance, products, deadlines, and knowledge-center content.&lt;/li>
+&lt;li>&lt;a href="https://mcp.senzing.com" target="_blank" rel="noopener noreferrer">Senzing&lt;/a>
+ — Installs: 9,932. Identity Intelligence for Agentic AI Workflows MCP Server v0.39.11 providing entity resolution knowledge for AI assistants.&lt;/li>
+&lt;li>&lt;a href="https://nworobotics.cloud" target="_blank" rel="noopener noreferrer">srv-d7aoqmh5pdvs7391dcqg&lt;/a>
+ — Installs: 9,673. NWO Robotics MCP Server exposing 64 low-level controls via natural language through the NWO Robotics API for robots, IoT devices, and autonomous agent swarms.&lt;/li>
+&lt;li>&lt;a href="https://cryptoiz.org/McpLanding" target="_blank" rel="noopener noreferrer">cryptoiz-mcp&lt;/a>
+ — Installs: 9,672. AI-powered Solana DEX smart money signals MCP server detecting whale/dolphin accumulation, divergence patterns, and market phases with pay-per-call micropayments.&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://arxiv.org/abs/2604.14246" target="_blank" rel="noopener noreferrer">Awakening Dormant Experts: Counterfactual Routing to Mitigate MoE Hallucinations&lt;/a>
+ — Identifies static Top-k routing in Sparse Mixture-of-Experts models as a cause of hallucinations on long-tail knowledge, and proposes counterfactual routing to activate dormant experts. Offers a targeted fix for MoE hallucination without requiring additional training overhead.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2604.14265" target="_blank" rel="noopener noreferrer">Reinforcement Learning via Value Gradient Flow&lt;/a>
+ — Presents a behavior-regularized RL framework based on value gradient flow to prevent value over-optimization from out-of-distribution extrapolation. Bridges model-agnostic RL with policy-gradient methods by leveraging reference distributions for regularization.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.114" target="_blank" rel="noopener noreferrer">claude-code v2.1.114: permission dialog crash fix&lt;/a>
+ — Fixes a crash in the permission dialog that occurred when an agent teammate requested tool permission. A targeted stability fix for the Claude Code agent UI.&lt;/li>
+&lt;li>&lt;a href="https://github.com/Tracer-Cloud/opensre" target="_blank" rel="noopener noreferrer">Tracer-Cloud/opensre&lt;/a>
+ — Build your own AI SRE agents. Open source toolkit for creating AI-powered Site Reliability Engineering agents for monitoring and system management.&lt;/li>
+&lt;li>&lt;a href="https://github.com/plandex-ai/plandex/releases/tag/server%2Fv2.2.1" target="_blank" rel="noopener noreferrer">plandex server/v2.2.1: CLI 2.2.1 link to server release&lt;/a>
+ — Points to CLI 2.2.1 release notes; enables connecting Claude Pro/Max subscription for Anthropic models in Cloud or BYO Key Mode.&lt;/li>
+&lt;/ul>
+&lt;h2 id="mcp-servers--integrations">MCP Servers &amp;amp; Integrations&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://smithery.ai/servers/settlegrid/settlegrid-discovery" target="_blank" rel="noopener noreferrer">settlegrid-discovery&lt;/a>
+ — Installs: 14,565. MCP server for settlement grid discovery.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>Use &lt;a href="https://mcp.senzing.com" target="_blank" rel="noopener noreferrer">Senzing&lt;/a>
+ for identity resolution and &lt;a href="https://nworobotics.cloud" target="_blank" rel="noopener noreferrer">srv-d7aoqmh5pdvs7391dcqg&lt;/a>
+ for low-level robot controls to build a reliable observable stack; instrument it with &lt;a href="https://pypi.org/project/saklas/1.4.5/" target="_blank" rel="noopener noreferrer">saklas&lt;/a>
+ to trace tool-call behavior and catch regressions. Start by wiring Senzing entity IDs into saklas traces for a single high-value robot, then expand to the fleet while using srv-d7aoqmh5pdvs7391dcqg for on-the-f corrections. Track install counts and error rates as your leading indicators; when a new MCP or model update shifts those numbers, roll back fast. Treat identity resolution as your guardrail and tool-call observability as your feedback loop, and you turn a collection of integrations into a reliable, observable control surface.&lt;/p></description></item><item><title>Tenkai Daily — April 17, 2026</title><link>https://tenkai.blog/posts/2026-04-17/</link><pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-17/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/NucleusAI/Nucleus-Image" target="_blank" rel="noopener noreferrer">NucleusAI/Nucleus-Image&lt;/a>
 &lt;/strong> — Open-source diffusion model using a Mixture-of-Experts architecture for text-to-image generation. Worth a look if you&amp;rsquo;re benchmarking MoE designs, otherwise just another checkpoint cluttering your disk 🤖.&lt;/li>
