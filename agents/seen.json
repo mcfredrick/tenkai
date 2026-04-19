@@ -3983,6 +3983,50 @@
     {
       "url": "https://pypi.org/project/tokenbee-sdk/0.2.0/",
       "date": "2026-04-18"
+    },
+    {
+      "url": "https://github.com/deepseek-ai/DeepGEMM",
+      "date": "2026-04-19"
+    },
+    {
+      "url": "https://github.com/thunderbird/thunderbolt",
+      "date": "2026-04-19"
+    },
+    {
+      "url": "https://sincetmw.ai",
+      "date": "2026-04-19"
+    },
+    {
+      "url": "https://github.com/Fabsbags/sbb-mcp",
+      "date": "2026-04-19"
+    },
+    {
+      "url": "https://octomil.com",
+      "date": "2026-04-19"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.113",
+      "date": "2026-04-19"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.14.17",
+      "date": "2026-04-19"
+    },
+    {
+      "url": "https://pypi.org/project/jaxnn/0.1.22/",
+      "date": "2026-04-19"
+    },
+    {
+      "url": "https://pypi.org/project/mfu-tracker/0.1.0/",
+      "date": "2026-04-19"
+    },
+    {
+      "url": "https://pypi.org/project/sumd/0.2.0rc1/",
+      "date": "2026-04-19"
+    },
+    {
+      "url": "https://pypi.org/project/feishu-bridge/2026.4.19.6/",
+      "date": "2026-04-19"
     }
   ]
 }
