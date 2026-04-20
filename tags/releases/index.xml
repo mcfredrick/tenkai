@@ -1,4 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Tenkai</title><link>https://tenkai.blog/tags/releases/</link><description>Recent content in Releases on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 19 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — April 19, 2026</title><link>https://tenkai.blog/posts/2026-04-19/</link><pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-19/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Tenkai</title><link>https://tenkai.blog/tags/releases/</link><description>Recent content in Releases on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 20 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — April 20, 2026</title><link>https://tenkai.blog/posts/2026-04-20/</link><pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-20/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8" target="_blank" rel="noopener noreferrer">Qwen/Qwen3.6-35B-A3B-FP8&lt;/a>
+ — An 8-bit floating-point quantized version of Qwen3.6-35B-A3B, trading some precision for faster inference and lower memory use. Useful when you need the model on constrained hardware without a full rewrite 🤖.&lt;/li>
+&lt;li>&lt;a href="https://huggingface.co/Jackrong/Qwopus-GLM-18B-Merged-GGUF" target="_blank" rel="noopener noreferrer">Jackrong/Qwopus-GLM-18B-Merged-GGUF&lt;/a>
+ — A merged GLM-18B/Qwopus-3.5 reasoning model in GGUF, optimized for local inference and multilingual code generation. Worth a look if you run on consumer GPUs and need solid code output 🧠.&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://pypi.org/project/router-maestro/0.1.33/" target="_blank" rel="noopener noreferrer">router-maestro 0.1.33&lt;/a>
+ — Multi-model routing and load balancing system with an OpenAI-compatible API. Handy for splitting traffic across LLM providers without rewriting your client logic 🛠️.&lt;/li>
+&lt;li>&lt;a href="https://github.com/anomalyco/opencode/releases/tag/v1.14.19" target="_blank" rel="noopener noreferrer">opencode v1.14.19 prevents binary startup crash&lt;/a>
+ — Fixes a circular dependency that caused compiled binaries to fail on startup, plus renames a setting and preserves concurrent edits. Only relevant if you use opencode in your build pipeline 🔧.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/tinillm/2.1.1/" target="_blank" rel="noopener noreferrer">tinillm 2.1.1&lt;/a>
+ — Hardware LLM capability scanner that profiles local models against your GPU/CPU. Good for pre-deployment checks, though it won’t fix a model too large for your hardware 🤖.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/vallm/0.1.86/" target="_blank" rel="noopener noreferrer">vallm 0.1.86&lt;/a>
+ — End-to-end toolkit for validating LLM-generated code with tests, security checks, and quality metrics. Integrates into CI if you trust its heuristics 🛡️.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/nvd-claude-proxy/0.2.5/" target="_blank" rel="noopener noreferrer">nvd-claude-proxy 0.2.5&lt;/a>
+ — Proxy that exposes Claude Code/Anthropic SDK calls over NVIDIA NIM. Useful for teams already invested in NIM infrastructure, otherwise more complexity 🔌.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/vibelign/2.0.19/" target="_blank" rel="noopener noreferrer">vibelign 2.0.19&lt;/a>
+ — Safety guardrails for AI coding workflows, blocking obviously unsafe patterns. Helps reduce risk when codemods are flying 🛡️.&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://arxiv.org/abs/2604.15839" target="_blank" rel="noopener noreferrer">Discover and Prove: An Open-source Agentic Framework for Hard Mode Automated Theorem Proving in Lean 4&lt;/a>
+ — An agentic framework that must discover proof steps autonomously in Lean 4’s hard mode. Relevant if you care about automated reasoning benchmarks 🤖.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2604.15350" target="_blank" rel="noopener noreferrer">The Spectral Geometry of Thought: Phase Transitions, Instruction Reversal, Token-Level Dynamics, and Perfect Correctness Prediction in How Transformers Reason&lt;/a>
+ — Spectral analysis across 11 models showing phase transitions and token-level reasoning dynamics. Offers a mechanistic view of transformer computation 📄.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2604.15529" target="_blank" rel="noopener noreferrer">LACE: Lattice Attention for Cross-thread Exploration&lt;/a>
+ — Coordinates parallel reasoning paths by enabling cross-thread interaction, aiming to reduce redundant failures. Worth skimming if you’re optimizing search-heavy inference 🔍.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2604.15351" target="_blank" rel="noopener noreferrer">Aletheia: Gradient-Guided Layer Selection for Efficient LoRA Fine-Tuning Across Architectures&lt;/a>
+ — Uses gradients to pick the most impactful layers for LoRA, avoiding uniform adapter placement. Helpful for cutting fine-tuning costs without a accuracy drop 🛠️.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2604.15356" target="_blank" rel="noopener noreferrer">Sequential KV Cache Compression via Probabilistic Language Tries: Beyond the Per-Vector Shannon Limit&lt;/a>
+ — Compresses KV cache as a sequence using probabilistic tries, targeting memory and latency wins. Relevant for long-context deployments 📉.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2604.15411" target="_blank" rel="noopener noreferrer">PRL-Bench: A Comprehensive Benchmark Evaluating LLMs&amp;rsquo; Capabilities in Frontier Physics Research&lt;/a>
+ — Bench for long-horizon physics research evaluation, testing agentic exploration beyond surface knowledge. Useful if you benchmark LLMs for research tasks 📊.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>Use &lt;a href="https://pypi.org/project/tinillm/2.1.1/" target="_blank" rel="noopener noreferrer">tinillm 2.1.1&lt;/a>
+ to profile your hardware against candidate checkpoints and measure baseline throughput and memory. Then apply &lt;a href="https://arxiv.org/abs/2604.15351" target="_blank" rel="noopener noreferrer">Aletheia: Gradient-Guided Layer Selection for Efficient LoRA Fine-Tuning Across Architectures&lt;/a>
+ to select a minimal set of layers for LoRA, cutting memory and fine-tuning costs while preserving accuracy. For long-context services, deploy &lt;a href="https://arxiv.org/abs/2604.15356" target="_blank" rel="noopener noreferrer">Sequential KV Cache Compression via Probabilistic Language Tries&lt;/a>
+ to shrink KV cache and reduce latency, but validate compression does not degrade task-critical outputs. When assembling a reliable local inference stack, combine these with &lt;a href="https://pypi.org/project/vallm/0.1.86/" target="_blank" rel="noopener noreferrer">vallm 0.1.86&lt;/a>
+ to validate generated code or configurations in CI, ensuring compressed caches and adapter-only changes do not introduce regressions. Use &lt;a href="https://pypi.org/project/router-maestro/0.1.33/" target="_blank" rel="noopener noreferrer">router-maestro 0.1.33&lt;/a>
+ to split traffic across model versions if needed, keeping client logic intact while you iterate. These steps pair measurement with disciplined validation to avoid hardware mismatches and silent correctness issues.&lt;/p></description></item><item><title>Tenkai Daily — April 19, 2026</title><link>https://tenkai.blog/posts/2026-04-19/</link><pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-19/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/deepseek-ai/DeepGEMM" target="_blank" rel="noopener noreferrer">deepseek-ai/DeepGEMM&lt;/a>
  — Clean and efficient FP8 GEMM kernels with fine-grained scaling. Targets high-throughput, low-precision matrix multiplication for inference workloads.&lt;/li>
