@@ -4027,6 +4027,66 @@
     {
       "url": "https://pypi.org/project/feishu-bridge/2026.4.19.6/",
       "date": "2026-04-19"
+    },
+    {
+      "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8",
+      "date": "2026-04-20"
+    },
+    {
+      "url": "https://huggingface.co/Jackrong/Qwopus-GLM-18B-Merged-GGUF",
+      "date": "2026-04-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.15839",
+      "date": "2026-04-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.15529",
+      "date": "2026-04-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.15350",
+      "date": "2026-04-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.15351",
+      "date": "2026-04-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.15356",
+      "date": "2026-04-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.15411",
+      "date": "2026-04-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.15877",
+      "date": "2026-04-20"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.14.19",
+      "date": "2026-04-20"
+    },
+    {
+      "url": "https://pypi.org/project/tinillm/2.1.1/",
+      "date": "2026-04-20"
+    },
+    {
+      "url": "https://pypi.org/project/vibelign/2.0.19/",
+      "date": "2026-04-20"
+    },
+    {
+      "url": "https://pypi.org/project/router-maestro/0.1.33/",
+      "date": "2026-04-20"
+    },
+    {
+      "url": "https://pypi.org/project/vallm/0.1.86/",
+      "date": "2026-04-20"
+    },
+    {
+      "url": "https://pypi.org/project/nvd-claude-proxy/0.2.5/",
+      "date": "2026-04-20"
     }
   ]
 }
