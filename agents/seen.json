@@ -4087,6 +4087,34 @@
     {
       "url": "https://pypi.org/project/nvd-claude-proxy/0.2.5/",
       "date": "2026-04-20"
+    },
+    {
+      "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
+      "date": "2026-04-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.15709",
+      "date": "2026-04-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.16335",
+      "date": "2026-04-21"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.116",
+      "date": "2026-04-21"
+    },
+    {
+      "url": "https://pypi.org/project/vllm-sr/0.3.0.dev20260421083012/",
+      "date": "2026-04-21"
+    },
+    {
+      "url": "https://pypi.org/project/agents-gateway/0.2.8/",
+      "date": "2026-04-21"
+    },
+    {
+      "url": "https://pypi.org/project/ai-runtime-guard/2.2.2/",
+      "date": "2026-04-21"
     }
   ]
 }
