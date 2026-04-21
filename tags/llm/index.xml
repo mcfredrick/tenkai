@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Llm on Tenkai</title><link>https://tenkai.blog/tags/llm/</link><description>Recent content in Llm on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 20 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/llm/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — April 20, 2026</title><link>https://tenkai.blog/posts/2026-04-20/</link><pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-20/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Llm on Tenkai</title><link>https://tenkai.blog/tags/llm/</link><description>Recent content in Llm on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 21 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/llm/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — April 21, 2026</title><link>https://tenkai.blog/posts/2026-04-21/</link><pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-21/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://huggingface.co/Qwen/Qwen3.6-35B-A3B" target="_blank" rel="noopener noreferrer">Qwen/Qwen3.6-35B-A3B&lt;/a>
+ — 35B MoE model for image-text-to-text and chat, served in safetensors under Apache 2.0 with Azure deployment. Useful if you need a large decoder that fits in a datacenter budget; questionable if you just need a small endpoint 🔥🤖&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.116" target="_blank" rel="noopener noreferrer">anthropic/claude-code: v2.1.116&lt;/a>
+ — Performance bumps for big sessions, faster resume, and smoother VS Code fullscreen scrolling. Worth a look if you live in Claude Code, but still a CLI wrapper with its own tax 🛠️&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/vllm-sr/0.3.0.dev20260421083012/" target="_blank" rel="noopener noreferrer">vllm-sr 0.3.0.dev20260421083012&lt;/a>
+ — Semantic router for MoM setups to pick models based on input intent. Good for cutting inference costs if your workload is diverse; integration overhead may not be worth it for a single model 🛠️&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/agents-gateway/0.2.8/" target="_blank" rel="noopener noreferrer">agents-gateway 0.2.8&lt;/a>
+ — FastAPI extension for API-first agent services with structured routing. Handy if you are wiring agents into an existing HTTP stack; otherwise another layer to debug 🛠️&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/ai-runtime-guard/2.2.2/" target="_blank" rel="noopener noreferrer">ai-runtime-guard 2.2.2&lt;/a>
+ — MCP security wrapper with policy tiers and audit controls. Relevant if you are deploying MCP hosts in mixed environments; adds latency so measure first 🛠️&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://arxiv.org/abs/2604.15709" target="_blank" rel="noopener noreferrer">Bilevel Optimization of Agent Skills via Monte Carlo Tree Search&lt;/a>
+ — Uses MCTS-based bilevel optimization to improve agent skill packages. Interesting if you like search-based tuning; heavy on compute and abstract for most teams 📄&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2604.16335" target="_blank" rel="noopener noreferrer">Beyond Verifiable Rewards: Rubric-Based GRM for Reinforced Fine-Tuning SWE Agents&lt;/a>
+ — Proposes a rubric reward model to shape SWE agent behavior beyond terminal feedback. Could help reduce reward hacking, but rubric construction remains an art 📄&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>To make this actionable: deploy vllm-sr as a routing layer that classifies intent (simple vs. complex) and map each class to an SLO-driven policy. Connect the router to agents-gateway in your FastAPI stack so authenticated requests are directed to either a cost-optimized small model or to Qwen3.6-35B-A3B when task complexity justifies higher spend. Validate routing heuristics with A/B tests on token counts and error rates; measure end-to-end latency and cost per request before enabling the security guardrail to avoid adding pure overhead. Feed routing and execution signals (chosen model, latency, token usage, outcome) into a lightweight reward model designed using the rubric approach to reinforce cheaper paths that meet quality thresholds. Start with a small cohort, instrument token and cost savings, and iterate routing rules rather than chasing another MoE benchmark.&lt;/p></description></item><item><title>Tenkai Daily — April 20, 2026</title><link>https://tenkai.blog/posts/2026-04-20/</link><pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-20/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8" target="_blank" rel="noopener noreferrer">Qwen/Qwen3.6-35B-A3B-FP8&lt;/a>
  — An 8-bit floating-point quantized version of Qwen3.6-35B-A3B, trading some precision for faster inference and lower memory use. Useful when you need the model on constrained hardware without a full rewrite 🤖.&lt;/li>
