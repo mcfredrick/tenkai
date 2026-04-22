@@ -1,4 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Papers on Tenkai</title><link>https://tenkai.blog/tags/papers/</link><description>Recent content in Papers on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 21 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/papers/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — April 21, 2026</title><link>https://tenkai.blog/posts/2026-04-21/</link><pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-21/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Papers on Tenkai</title><link>https://tenkai.blog/tags/papers/</link><description>Recent content in Papers on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 22 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/papers/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — April 22, 2026</title><link>https://tenkai.blog/posts/2026-04-22/</link><pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-22/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://quantoracle.dev" target="_blank" rel="noopener noreferrer">quantoracle&lt;/a>
+ — Deterministic computation platform offering 63 financial and mathematical tools including Black-Scholes, portfolio optimization, Monte Carlo simulation, and technical indicators with consistent outputs. Efficient compute paths keep the energy cost per calculation in check 🌱.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/albumentationsx/2.2.1/" target="_blank" rel="noopener noreferrer">albumentationsx 2.2.1&lt;/a>
+ — Advanced augmentation library for computer vision and medical imaging, offering 2D and 3D transformations with optimized performance. Streamlined ops help trim unnecessary GPU cycles 🌍♻️.&lt;/li>
+&lt;li>&lt;a href="https://github.com/anomalyco/opencode/releases/tag/v1.14.20" target="_blank" rel="noopener noreferrer">sst/opencode: v1.14.20&lt;/a>
+ — Fixed system theme regression in the TUI. Added GET /config to the experimental HTTP API. Fixed local dynamic imports on Windows when running under Node, improving plugin and tool loading.&lt;/li>
+&lt;li>&lt;a href="https://github.com/anomalyco/opencode/releases/tag/v1.14.18" target="_blank" rel="noopener noreferrer">sst/opencode: v1.14.18&lt;/a>
+ — Restore the native ripgrep backend so file search and file listing work reliably again. Community contributions acknowledged ☀️.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/graphifyy/0.4.29/" target="_blank" rel="noopener noreferrer">graphifyy 0.4.29&lt;/a>
+ — AI coding assistant that converts codebases, docs, papers, images, and videos into a queryable knowledge graph. Supports multiple agent frameworks and aims to enable graph-based retrieval for development workflows.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/automate-mcp/0.5.0/" target="_blank" rel="noopener noreferrer">automate-mcp 0.5.0&lt;/a>
+ — Zero-config desktop automation MCP server enabling LLMs to control desktop environments with hands-and-eyes capabilities. Abstracts GUI interactions for AI-driven automation across applications 🌱.&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://arxiv.org/abs/2604.18789" target="_blank" rel="noopener noreferrer">ARES: Adaptive Red-Teaming and End-to-End Repair of Policy-Reward System&lt;/a>
+ — Analyzes a critical vulnerability in RLHF where an imperfect reward model becomes a single point of failure for unsafe LLM behaviors. Proposes adaptive red-teaming and end-to-end repair techniques to address policy-reward misalignment beyond just policy-level weaknesses 🌍.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2604.18916" target="_blank" rel="noopener noreferrer">Error-free Training for MedMNIST Datasets&lt;/a>
+ — Introduces Artificial Special Intelligence via error-free training methods for 18 MedMNIST biomedical datasets, significantly reducing classification mistakes. Demonstrates practical approaches to achieve near-zero error rates in medical image classification 🌱.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2604.18934" target="_blank" rel="noopener noreferrer">AutomationBench&lt;/a>
+ — Presents a comprehensive benchmark for software automation AI agents that combines cross-application coordination, autonomous API discovery, and policy adherence. Addresses real business workflow challenges spanning CRM, inbox, calendar, and messaging platforms.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2604.18946" target="_blank" rel="noopener noreferrer">Reasoning Structure Matters for Safety Alignment of Reasoning Models&lt;/a>
+ — Investigates how the structure of reasoning in large reasoning models creates safety vulnerabilities to malicious queries. Provides insights into effective safety alignment strategies specifically targeting reasoning architecture 🌍.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2604.18964" target="_blank" rel="noopener noreferrer">DW-Bench: Benchmarking LLMs on Data Warehouse Graph Topology Reasoning&lt;/a>
+ — Introduces DW-Bench, a benchmark for evaluating LLMs on graph-topology reasoning over data warehouse schemas with foreign-key and data-lineage edges. Includes 1,046 verifiable questions across five schemas to test complex relational reasoning.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2604.18639" target="_blank" rel="noopener noreferrer">Easy Samples Are All You Need: Self-Evolving LLMs via Data-Efficient Reinforcement Learning&lt;/a>
+ — Proposes a data-efficient RL approach for LLM self-evolution that avoids high annotation costs and issues like model collapse or reward hacking. Uses easy samples as the foundation for iterative model improvement 🌱♻️.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/microsoft/ai-agents-for-beginners" target="_blank" rel="noopener noreferrer">microsoft/ai-agents-for-beginners&lt;/a>
+ — A structured learning path with 12 lessons covering foundational concepts and practical implementation techniques for developing AI agent systems.&lt;/li>
+&lt;li>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.117" target="_blank" rel="noopener noreferrer">anthropics/claude-code: v2.1.117&lt;/a>
+ — Forked subagents can now be enabled on external builds via CLAUDE_CODE_FORK_SUBAGENT=1. Agent frontmatter mcpServers are loaded for main-thread agent sessions via &amp;ndash;agent. The /model command now persists selections across restarts even when the project pins a different model.&lt;/li>
+&lt;li>&lt;a href="https://github.com/sansan0/TrendRadar" target="_blank" rel="noopener noreferrer">sansan0/TrendRadar&lt;/a>
+ — AI-powered multi-platform monitoring tool for public opinion and trend analysis, featuring aggregation, RSS integration, smart alerts, and optional Docker deployment with local/cloud data control. Efficient resource use keeps the footprint light 🌱☀️.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>Use &lt;a href="https://github.com/anomalyco/opencode/releases/tag/v1.14.20" target="_blank" rel="noopener noreferrer">sst/opencode v1.14.20&lt;/a>
+ to fix the TUI theme regression and streamline plugin loading, reducing GPU cycles as described in the AI Dev Tools section. Then apply &lt;a href="https://pypi.org/project/automate-mcp/0.5.0/" target="_blank" rel="noopener noreferrer">automate-mcp 0.5.0&lt;/a>
+ to abstract GUI interactions for CRM or messaging workflows, cutting manual overhead. For data practices, follow &lt;a href="https://arxiv.org/abs/2604.18916" target="_blank" rel="noopener noreferrer">Error-free Training for MedMNIST Datasets&lt;/a>
+ to implement error-free methods in your pipelines, preventing classification mistakes before they propagate. These steps directly reduce energy use while maintaining reliability, turning daily workflows into measurable efficiency gains. 🌍♻️🤖&lt;/p></description></item><item><title>Tenkai Daily — April 21, 2026</title><link>https://tenkai.blog/posts/2026-04-21/</link><pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-21/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://huggingface.co/Qwen/Qwen3.6-35B-A3B" target="_blank" rel="noopener noreferrer">Qwen/Qwen3.6-35B-A3B&lt;/a>
  — 35B MoE model for image-text-to-text and chat, served in safetensors under Apache 2.0 with Azure deployment. Useful if you need a large decoder that fits in a datacenter budget; questionable if you just need a small endpoint 🔥🤖&lt;/li>
