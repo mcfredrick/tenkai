@@ -4239,6 +4239,46 @@
     {
       "url": "https://pypi.org/project/stability-analysis-agent/1.1.2/",
       "date": "2026-04-22"
+    },
+    {
+      "url": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF",
+      "date": "2026-04-23"
+    },
+    {
+      "url": "https://huggingface.co/openai/privacy-filter",
+      "date": "2026-04-23"
+    },
+    {
+      "url": "https://huggingface.co/moonshotai/Kimi-K2.6",
+      "date": "2026-04-23"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.118",
+      "date": "2026-04-23"
+    },
+    {
+      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.32.0",
+      "date": "2026-04-23"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.14.21",
+      "date": "2026-04-23"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/v3.80.0",
+      "date": "2026-04-23"
+    },
+    {
+      "url": "https://pypi.org/project/agent-framework/1.1.1/",
+      "date": "2026-04-23"
+    },
+    {
+      "url": "https://pypi.org/project/ramjetio/0.8.5/",
+      "date": "2026-04-23"
+    },
+    {
+      "url": "https://pypi.org/project/sumd/0.3.33/",
+      "date": "2026-04-23"
     }
   ]
 }
