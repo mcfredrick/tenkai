@@ -4279,6 +4279,102 @@
     {
       "url": "https://pypi.org/project/sumd/0.3.33/",
       "date": "2026-04-23"
+    },
+    {
+      "url": "https://github.com/huggingface/ml-intern",
+      "date": "2026-04-24"
+    },
+    {
+      "url": "https://github.com/microsoft/onnxruntime",
+      "date": "2026-04-24"
+    },
+    {
+      "url": "https://github.com/mksglu/context-mode",
+      "date": "2026-04-24"
+    },
+    {
+      "url": "https://github.com/Anil-matcha/Open-Generative-AI",
+      "date": "2026-04-24"
+    },
+    {
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "date": "2026-04-24"
+    },
+    {
+      "url": "https://huggingface.co/Qwen/Qwen3.6-27B",
+      "date": "2026-04-24"
+    },
+    {
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash",
+      "date": "2026-04-24"
+    },
+    {
+      "url": "https://huggingface.co/hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
+      "date": "2026-04-24"
+    },
+    {
+      "url": "https://huggingface.co/inclusionAI/LLaDA2.0-Uni",
+      "date": "2026-04-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.19767",
+      "date": "2026-04-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.19835",
+      "date": "2026-04-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.19877",
+      "date": "2026-04-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.21018",
+      "date": "2026-04-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.19859",
+      "date": "2026-04-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.20987",
+      "date": "2026-04-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.19756",
+      "date": "2026-04-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.21027",
+      "date": "2026-04-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.19757",
+      "date": "2026-04-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.21154",
+      "date": "2026-04-24"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.119",
+      "date": "2026-04-24"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.14.22",
+      "date": "2026-04-24"
+    },
+    {
+      "url": "https://pypi.org/project/aicost-cli/1.1.1/",
+      "date": "2026-04-24"
+    },
+    {
+      "url": "https://pypi.org/project/uipath-langchain/0.10.3/",
+      "date": "2026-04-24"
+    },
+    {
+      "url": "https://pypi.org/project/cognitx-codegraph/0.1.81/",
+      "date": "2026-04-24"
     }
   ]
 }
