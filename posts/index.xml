@@ -1,4 +1,58 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tenkai</title><link>https://tenkai.blog/posts/</link><description>Recent content in Posts on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 23 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — April 23, 2026</title><link>https://tenkai.blog/posts/2026-04-23/</link><pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-23/</guid><description>&lt;h2 id="model-releases-">Model Releases 📖&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tenkai</title><link>https://tenkai.blog/posts/</link><description>Recent content in Posts on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 24 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — April 24, 2026</title><link>https://tenkai.blog/posts/2026-04-24/</link><pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-24/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro" target="_blank" rel="noopener noreferrer">DeepSeek-V4-Pro&lt;/a>
+&lt;/strong> — FP8 and 8-bit quantized text generator with transformers/safetensors support and endpoint-ready packaging. MIT license keeps legal overhead at zero for commercial or research stacks. 🤖&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/Qwen/Qwen3.6-27B" target="_blank" rel="noopener noreferrer">Qwen3.6-27B&lt;/a>
+&lt;/strong> — Dense transformer for image-text-to-text chat, shipped in safetensors with eval numbers and endpoint compatibility. Apache-2.0 keeps it permissive and predictable. 🤖&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash" target="_blank" rel="noopener noreferrer">DeepSeek-V4-Flash&lt;/a>
+&lt;/strong> — Flash-attention variant of V4 tuned for high-throughput text generation with FP8/8-bit quantization. Endpoint compatible and MIT-licensed for fast, cheap serving. 🔥🤖&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF" target="_blank" rel="noopener noreferrer">Qwen3.6-35B-A3B-Claude-Opus-Distilled&lt;/a>
+&lt;/strong> — GGUF-quantized model distilled from Claude-4.6-Opus reasoning data, optimized for chain-of-thought without the API tax. 🤖&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/inclusionAI/LLaDA2.0-Uni" target="_blank" rel="noopener noreferrer">LLaDA2.0-Uni&lt;/a>
+&lt;/strong> — Any-to-any multimodal MoE+diffusion model for generation, understanding, and editing. Paper included, Apache-2.0 licensed if you want to poke at the architecture. 📄🤖&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.119" target="_blank" rel="noopener noreferrer">claude-code v2.1.119&lt;/a>
+&lt;/strong> — Adds persistent config via &lt;code>~/.claude/settings.json&lt;/code> and a &lt;code>prUrlTemplate&lt;/code> for custom code-review footer links. Less yak-shaving for long-lived projects. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anomalyco/opencode/releases/tag/v1.14.22" target="_blank" rel="noopener noreferrer">opencode v1.14.22&lt;/a>
+&lt;/strong> — Now respects &lt;code>.npmrc&lt;/code> during installs, persists custom icons, and stops losing session view state when you hop between workspaces. Small wins that don’t suck. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/uipath-langchain/0.10.3/" target="_blank" rel="noopener noreferrer">uipath-langchain 0.10.3&lt;/a>
+&lt;/strong> — Python SDK for shipping LangGraph agents to UiPath Cloud. Bridges LangChain workflows with RPA infra for production agent deployment, if that’s your jam. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/cognitx-codegraph/0.1.81/" target="_blank" rel="noopener noreferrer">cognitx-codegraph 0.1.81&lt;/a>
+&lt;/strong> — Indexes TS/Python/NestJS/FastAPI/React into Neo4j so you can Cypher your way through architecture and deps. Handy for Claude Code and other AI agents that need a map. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/Anil-matcha/Open-Generative-AI" target="_blank" rel="noopener noreferrer">Anil-matcha/Open-Generative-AI&lt;/a>
+&lt;/strong> — Self-hosted studio with 200+ uncensored models (Flux, SD variants, video). MIT-licensed alternative to paid generation platforms and vendor lock-in. 🛠️🔥&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2604.19767" target="_blank" rel="noopener noreferrer">Accelerating PayPal&amp;rsquo;s Commerce Agent with Speculative Decoding: EAGLE3 + Nemotron&lt;/a>
+&lt;/strong> — Shows how EAGLE3 speculative decoding cuts latency and cost for PayPal’s Llama-3.1-Nemotron-8B commerce agent on 2xH100 with vLLM vs NIM. Real production numbers, no fairy tales. 📄🔥&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2604.19835" target="_blank" rel="noopener noreferrer">Expert Upcycling: Shifting the Compute-Efficient Frontier of Mixture-of-Experts&lt;/a>
+&lt;/strong> — Analyzes MoE scaling and routing that decouples total params from active compute. Good news if you care about frontier efficiency and deployment cost. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2604.19877" target="_blank" rel="noopener noreferrer">Super Apriel: One Checkpoint, Many Speeds&lt;/a>
+&lt;/strong> — 15B supernet where each decoder layer supports four attention variants (FA/SWA/KDA/GDN) selectable per request without reloading weights. One model, multiple latency/accuracy tradeoffs. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2604.21018" target="_blank" rel="noopener noreferrer">Adaptive Test-Time Compute Allocation with Evolving In-Context Demonstrations&lt;/a>
+&lt;/strong> — Framework that jointly decides where to spend compute and how to generate at test time, moving past static budgets and fixed sampling. Smart, if you can afford the orchestration. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2604.19859" target="_blank" rel="noopener noreferrer">DR-Venus: Frontier Edge-Scale Deep Research Agents with 10K Open Data&lt;/a>
+&lt;/strong> — Trains a 4B deep research agent for edge using limited open data via better quality and utilization tricks. Promising for on-device research without the cloud bill. 📄🔥&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2604.20987" target="_blank" rel="noopener noreferrer">Co-Evolving LLM Decision and Skill Bank Agents for Long-Horizon Tasks&lt;/a>
+&lt;/strong> — Multi-step agent framework for long-horizon tasks with delayed rewards and partial observability. Chain skills over many timesteps without losing the plot. 📄&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/microsoft/onnxruntime" target="_blank" rel="noopener noreferrer">microsoft/onnxruntime&lt;/a>
+&lt;/strong> — Cross-platform, high-performance ONNX inferencing and training accelerator across CPU/GPU/edge. The boring, fast path for production ML. 🛠️🔥&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/mksglu/context-mode" target="_blank" rel="noopener noreferrer">mksglu/context-mode&lt;/a>
+&lt;/strong> — Context-window optimizer for AI coding agents with sandboxed tool output isolation. Claims 98% context pollution reduction across 12 platforms. Nice if your context keeps getting trashed. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/huggingface/ml-intern" target="_blank" rel="noopener noreferrer">huggingface/ml-intern&lt;/a>
+&lt;/strong> — Open-source ML engineer agent that reads papers, trains models, and ships them. Autonomous pipeline from research to deployment, minus the intern coffee runs. 🤖🛠️&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>If you’re running text services at scale, pair &lt;a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash" target="_blank" rel="noopener noreferrer">DeepSeek-V4-Flash&lt;/a>
+ with &lt;a href="https://github.com/microsoft/onnxruntime" target="_blank" rel="noopener noreferrer">microsoft/onnxruntime&lt;/a>
+ and let PayPal’s numbers from &lt;a href="https://arxiv.org/abs/2604.19767" target="_blank" rel="noopener noreferrer">Accelerating PayPal&amp;rsquo;s Commerce Agent with Speculative Decoding: EAGLE3 + Nemotron&lt;/a>
+ set your latency target. V4-Flash ships FP8/8-bit quantization and flash attention tuned for throughput; ONNX Runtime gives you the boring, cross-platform path to keep GPU time cheap and predictable. Treat EAGLE3-style speculative decoding as your budgeting lever: draft with the distilled checkpoint, verify with the larger head, and measure real tail latency on 2xH100-class hardware before promising SLAs. You don’t need heroic scaling to hit tight latency — just a quantized model that fits, a runtime that doesn’t waste cycles, and a decoding strategy that trades a small verification tax for much cheaper prefill. The result is lower cost per token and fewer midnight pages when traffic spikes. 🔥&lt;/p></description></item><item><title>Tenkai Daily — April 23, 2026</title><link>https://tenkai.blog/posts/2026-04-23/</link><pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-23/</guid><description>&lt;h2 id="model-releases-">Model Releases 📖&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/unsloth/Qwen3.6-27B-GGUF" target="_blank" rel="noopener noreferrer">unsloth/Qwen3.6-27B-GGUF Quantized Release&lt;/a>
 &lt;/strong> — Unsloth drops GGUF quantized versions of the Qwen3.6-27B dense model for those running inference locally. It uses imatrix quantization and plays nice with standard transformer serving endpoints, so you can keep the library on your laptop. 🤖&lt;/li>
