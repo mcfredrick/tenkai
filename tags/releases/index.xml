@@ -1,4 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Tenkai</title><link>https://tenkai.blog/tags/releases/</link><description>Recent content in Releases on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 24 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — April 24, 2026</title><link>https://tenkai.blog/posts/2026-04-24/</link><pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-24/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Tenkai</title><link>https://tenkai.blog/tags/releases/</link><description>Recent content in Releases on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 25 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — April 25, 2026</title><link>https://tenkai.blog/posts/2026-04-25/</link><pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-25/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://huggingface.co/Qwen/Qwen3.6-27B-FP8" target="_blank" rel="noopener noreferrer">Qwen3.6-27B-FP8: Native FP8 vision-language model&lt;/a>
+ — Native FP8 quantized version of Qwen3.6-27B for accelerated inference with image-text-to-text capabilities, supporting Azure deployment and endpoints compatibility. Less VRAM, faster throughput, and no hand-waving about precision loss — if your GPU likes FP8, this just works. 🤖&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/deepseek-ai/DeepEP" target="_blank" rel="noopener noreferrer">DeepEP: efficient expert-parallel communication library&lt;/a>
+ — A high-performance communication library optimized for expert-parallel training in mixture-of-experts models. It reduces all-to-all and collective communication overhead during MoE forward/backward passes, improving throughput and scaling for large sparse models.&lt;/li>
+&lt;li>&lt;a href="https://github.com/anomalyco/opencode/releases/tag/v1.14.24" target="_blank" rel="noopener noreferrer">opencode v1.14.24: DeepSeek reasoning fix and model config inheritance&lt;/a>
+ — Fixes DeepSeek assistant messages to always include reasoning content, preventing provider formatting failures, and resolves model config inheritance for interleaved-capability models with fallback behavior.&lt;/li>
+&lt;li>&lt;a href="https://github.com/cline/cline/releases/tag/v3.81.0" target="_blank" rel="noopener noreferrer">cline v3.81.0: GPT-5.5 support and memory diagnostics&lt;/a>
+ — Adds GPT-5.5 model support for OpenAI Codex users, removes hardcoded welcome banners in favor of remote-configured ones, and enhances memory diagnostics with near-heap-limit heap snapshots.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/shadow-diff/1.7.1/" target="_blank" rel="noopener noreferrer">shadow-diff 1.7.1&lt;/a>
+ — Git-native behavioral diff and shadow deployment tooling for LLM agents, enabling versioned behavioral comparisons and safe rollout of agent changes.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/appium-mcp/1.0.12/" target="_blank" rel="noopener noreferrer">appium-mcp 1.0.12&lt;/a>
+ — AI-driven mobile test automation framework exposing an MCP server with Page Object Model generation and AWS Bedrock integration for natural-language test authoring. 🛠️&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/mcp-mem0/0.2.0/" target="_blank" rel="noopener noreferrer">mcp-mem0 0.2.0&lt;/a>
+ — Cross-session memory system for AI agent tools combining mem0, Qdrant, and MCP to provide persistent, searchable context across agent invocations.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/ComposioHQ/awesome-claude-skills" target="_blank" rel="noopener noreferrer">ComposioHQ/awesome-claude-skills: curated skill index&lt;/a>
+ — Curated list of Claude Skills, tools, and workflow automations for customizing Claude AI. Covers agent-skills, MCP, Rube, and integration patterns across multiple providers.&lt;/li>
+&lt;li>&lt;a href="https://github.com/addyosmani/agent-skills" target="_blank" rel="noopener noreferrer">addyosmani/agent-skills: production-grade engineering skills&lt;/a>
+ — Collection of production-grade engineering skills for AI coding agents, optimized for Claude Code and Cursor. Focuses on reliability, testing, and maintainability in agentic workflows. 🛠️&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>If you’re already eyeing &lt;a href="https://huggingface.co/Qwen/Qwen3.6-27B-FP8" target="_blank" rel="noopener noreferrer">Qwen3.6-27B-FP8&lt;/a>
+ for cheaper vision-language inference, pair it with &lt;a href="https://pypi.org/project/mcp-mem0/0.2.0/" target="_blank" rel="noopener noreferrer">mcp-mem0 0.2.0&lt;/a>
+ so the model can actually remember what it saw across sessions instead of relearning context every turn. The FP8 footprint keeps GPU costs sane while Qdrant-backed memory keeps retrieval sharp, letting you run multi-turn image analysis without constantly re-prompting or re-indexing. Layer in &lt;a href="https://github.com/addyosmani/agent-skills" target="_blank" rel="noopener noreferrer">addyosmani/agent-skills&lt;/a>
+ for the scaffolding that keeps this pipeline from rotting into prompt soup: structured testing, retry hygiene, and artifact handoffs so the agent doesn’t hallucinate a fix and call it done. The combo is simple: fast eyes, long memory, and disciplined plumbing. You trade fireworks for throughput, and for production workloads that’s usually the right side of the bet. 🔥&lt;/p></description></item><item><title>Tenkai Daily — April 24, 2026</title><link>https://tenkai.blog/posts/2026-04-24/</link><pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-24/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro" target="_blank" rel="noopener noreferrer">DeepSeek-V4-Pro&lt;/a>
 &lt;/strong> — FP8 and 8-bit quantized text generator with transformers/safetensors support and endpoint-ready packaging. MIT license keeps legal overhead at zero for commercial or research stacks. 🤖&lt;/li>
