@@ -4375,6 +4375,54 @@
     {
       "url": "https://pypi.org/project/cognitx-codegraph/0.1.81/",
       "date": "2026-04-24"
+    },
+    {
+      "url": "https://github.com/deepseek-ai/DeepEP",
+      "date": "2026-04-25"
+    },
+    {
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "date": "2026-04-25"
+    },
+    {
+      "url": "https://github.com/addyosmani/agent-skills",
+      "date": "2026-04-25"
+    },
+    {
+      "url": "https://huggingface.co/Qwen/Qwen3.6-27B-FP8",
+      "date": "2026-04-25"
+    },
+    {
+      "url": "https://docs.glassnode.com/guides-and-tutorials/glassnode-mcp-server",
+      "date": "2026-04-25"
+    },
+    {
+      "url": "https://strale.dev",
+      "date": "2026-04-25"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.14.24",
+      "date": "2026-04-25"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/v3.81.0",
+      "date": "2026-04-25"
+    },
+    {
+      "url": "https://pypi.org/project/shadow-diff/1.7.1/",
+      "date": "2026-04-25"
+    },
+    {
+      "url": "https://pypi.org/project/appium-mcp/1.0.12/",
+      "date": "2026-04-25"
+    },
+    {
+      "url": "https://pypi.org/project/mcp-mem0/0.2.0/",
+      "date": "2026-04-25"
+    },
+    {
+      "url": "https://pypi.org/project/clawmetry/0.12.153/",
+      "date": "2026-04-25"
     }
   ]
 }
