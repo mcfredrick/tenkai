@@ -1,4 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tenkai</title><link>https://tenkai.blog/</link><description>Recent content on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 25 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — April 25, 2026</title><link>https://tenkai.blog/posts/2026-04-25/</link><pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-25/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tenkai</title><link>https://tenkai.blog/</link><description>Recent content on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 26 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — April 26, 2026</title><link>https://tenkai.blog/posts/2026-04-26/</link><pubDate>Sun, 26 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-26/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/z-lab/Qwen3.6-35B-A3B-DFlash" target="_blank" rel="noopener noreferrer">z-lab/Qwen3.6-35B-A3B-DFlash&lt;/a>
+&lt;/strong> — Diffusion-based speculative decoding that swaps the usual draft-and-verify loop for a block-diffusion approach. Promises fewer tokens wasted on bad guesses, though you’ll need to stomach custom generation code to get the speedup. 🤖&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anomalyco/opencode/releases/tag/v1.14.25" target="_blank" rel="noopener noreferrer">opencode v1.14.25&lt;/a>
+&lt;/strong> — Keeps permission configs in order, ships IntelliSense for tool keys, and finally lets Roslyn LSP handle Razor and C# without losing your working directory after shell login. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/qamigrate/0.5.19/" target="_blank" rel="noopener noreferrer">qamigrate 0.5.19&lt;/a>
+&lt;/strong> — Turns Selenium Java into Playwright while keeping TestNG/JUnit/Cucumber baggage intact. Saves you from rewriting tests, but still leaves you with the same test logic you probably didn’t love in the first place. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/llm-notebook/1.3.8/" target="_blank" rel="noopener noreferrer">llm-notebook 1.3.8&lt;/a>
+&lt;/strong> — Scrapes Claude Code, Codex CLI, Cursor, and Obsidian into a searchable, versioned wiki of AI-assisted dev sessions. Great if you want to remember what you asked the bots last Tuesday. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/reveal-cli/0.87.0/" target="_blank" rel="noopener noreferrer">reveal-cli 0.87.0&lt;/a>
+&lt;/strong> — Walks AI agents through repos without dumping the whole codebase into context. Adapter-driven progressive disclosure keeps token burn low and curiosity high. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/CJackHwang/ds2api" target="_blank" rel="noopener noreferrer">ds2api&lt;/a>
+&lt;/strong> — Proxy that normalizes Deepseek (and friends) into OpenAI/Claude/Google-style endpoints. Multi-account rotation and Docker/Vercel options mean you can swap models without rewriting client code. 🔥&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/ait-vcs/0.4.0/" target="_blank" rel="noopener noreferrer">ait-vcs 0.4.0&lt;/a>
+&lt;/strong> — MVP that bakes AI into commits, diffs, and branches. Experimental, so treat it like a research preview, not your production trunk. 🤖&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/lastmine-ai/mcp-agent" target="_blank" rel="noopener noreferrer">Mcp-Agent framework&lt;/a>
+&lt;/strong> — Builds production-ready agents atop the Model Context Protocol with standardized tool hooks and multi-step reasoning. Less glue code, more guardrails. 🛠️&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>If you’re tired of paying token tolls every time an agent panics and dumps a repo into context, pair &lt;a href="https://pypi.org/project/reveal-cli/0.87.0/" target="_blank" rel="noopener noreferrer">reveal-cli&lt;/a>
+ with &lt;a href="https://github.com/CJackHwang/ds2api" target="_blank" rel="noopener noreferrer">ds2api&lt;/a>
+ and let the adapter do the walking. reveal-cli’s progressive disclosure keeps prompts tight and intent legible, while ds2api normalizes whatever model you want to run—Deepseek, Claude, Gemini—behind one OpenAI-shaped keyhole. You can swap cheaper or smarter models per task without refactoring clients, and you burn fewer tokens on regurgitating code the agent would hallucinate anyway. Treat &lt;a href="https://pypi.org/project/ait-vcs/0.4.0/" target="_blank" rel="noopener noreferrer">ait-vcs&lt;/a>
+ as the logging layer: commit messages, diff intent, and branch rationale captured upstream so agents don’t re-derive context they already had. The net effect is a workflow where context grows only as fast as intent, spend drops because models stop guessing in the dark, and you still get to swap brains when the economics change. 🤖🔥&lt;/p></description></item><item><title>Tenkai Daily — April 25, 2026</title><link>https://tenkai.blog/posts/2026-04-25/</link><pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-25/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://huggingface.co/Qwen/Qwen3.6-27B-FP8" target="_blank" rel="noopener noreferrer">Qwen3.6-27B-FP8: Native FP8 vision-language model&lt;/a>
  — Native FP8 quantized version of Qwen3.6-27B for accelerated inference with image-text-to-text capabilities, supporting Azure deployment and endpoints compatibility. Less VRAM, faster throughput, and no hand-waving about precision loss — if your GPU likes FP8, this just works. 🤖&lt;/li>
