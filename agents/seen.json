@@ -4531,6 +4531,30 @@
     {
       "url": "https://pypi.org/project/stability-analysis-agent/1.2.1/",
       "date": "2026-04-27"
+    },
+    {
+      "url": "https://github.com/graykode/abtop",
+      "date": "2026-04-27"
+    },
+    {
+      "url": "https://github.com/jazzyalex/agent-sessions",
+      "date": "2026-04-27"
+    },
+    {
+      "url": "https://github.com/Dicklesworthstone/coding_agent_account_manager",
+      "date": "2026-04-27"
+    },
+    {
+      "url": "https://github.com/uppinote20/claude-dashboard",
+      "date": "2026-04-27"
+    },
+    {
+      "url": "https://github.com/NoobyGains/claude-pulse",
+      "date": "2026-04-27"
+    },
+    {
+      "url": "https://github.com/Dubibubii/usage-limit-reducer",
+      "date": "2026-04-27"
     }
   ]
 }
