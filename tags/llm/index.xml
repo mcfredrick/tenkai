@@ -1,4 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Llm on Tenkai</title><link>https://tenkai.blog/tags/llm/</link><description>Recent content in Llm on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 26 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/llm/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — April 26, 2026</title><link>https://tenkai.blog/posts/2026-04-26/</link><pubDate>Sun, 26 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-26/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Llm on Tenkai</title><link>https://tenkai.blog/tags/llm/</link><description>Recent content in Llm on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 27 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/llm/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — April 27, 2026</title><link>https://tenkai.blog/posts/2026-04-27/</link><pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-27/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/tfp-nightly/0.26.0.dev20260427/" target="_blank" rel="noopener noreferrer">tfp-nightly 0.26.0.dev20260427&lt;/a>
+&lt;/strong> — Nightly TensorFlow Probability build with fresh distributions, bijectors, and MCMC tooling. Good if you need bleeding-edge probabilistic bits and can tolerate the occasional midnight breakage. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anomalyco/opencode/releases/tag/v1.14.28-26" target="_blank" rel="noopener noreferrer">opencode v1.14.28-26&lt;/a>
+&lt;/strong> — Shell config defaults and saner config parsing. A tidy release for folks wiring IDEs to AI backends without losing permission sanity. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/project-mind/0.2.0/" target="_blank" rel="noopener noreferrer">project-mind 0.2.0&lt;/a>
+&lt;/strong> — Persistent context manager that merges Claude, Gemini, Cursor, Codex, and Copilot transcripts into one LLM-tuning file. Less copy-paste archaeology when you’re juggling multiple AI coding assistants. 🤖&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/stability-analysis-agent/1.2.1/" target="_blank" rel="noopener noreferrer">stability-analysis-agent 1.2.1&lt;/a>
+&lt;/strong> — CLI/daemon stack for automated crash-log triage and root-cause hunting. Handy if you’d rather not grep prod logs at 3 a.m. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://mcp.senzing.com/mcp" target="_blank" rel="noopener noreferrer">Senzing MCP&lt;/a>
+&lt;/strong> — Entity-resolution server v0.39.11 that feeds identity graphs to agents via MCP. Useful when your AI assistant needs to know that “Jon,” “J. Smith,” and “jsmith@corp” are the same human. 🤖&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/engaku/1.1.7/" target="_blank" rel="noopener noreferrer">engaku 1.1.7&lt;/a>
+&lt;/strong> — Persistent memory layer for VS Code Copilot that keeps context across sessions. Finally, your AI pair programmer might remember what you were doing before coffee. 🤖&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2604.22032" target="_blank" rel="noopener noreferrer">Kernel Contracts: A Specification Language for ML Kernel Correctness Across Heterogeneous Silicon&lt;/a>
+&lt;/strong> — Formal specs for ML kernels to catch silent divergence, OOB accesses, and precision mismatches across AMD/NVIDIA/accelerators. Because “it trains” isn’t the same as “it’s right.” 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2604.22085" target="_blank" rel="noopener noreferrer">Memanto: Typed Semantic Memory with Information-Theoretic Retrieval for Long-Horizon Agents&lt;/a>
+&lt;/strong> — Memory architecture that trades hybrid semantic-graph overhead for typed retrieval. Aimed at agents that need to remember beyond the last prompt window. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2604.22050" target="_blank" rel="noopener noreferrer">LayerBoost: Layer-Aware Attention Reduction for Efficient LLMs&lt;/a>
+&lt;/strong> — Replaces softmax attention selectively across layers instead of uniformly. Targets the quadratic sequence-length tax without torching quality. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2604.22034" target="_blank" rel="noopener noreferrer">LTBs-KAN: Linear-Time B-splines Kolmogorov-Arnold Networks&lt;/a>
+&lt;/strong> — Linear-time B-splines to un-bottleneck KANs. Makes them less glacial than recursive B-splines while keeping the explainability perks. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2604.22031" target="_blank" rel="noopener noreferrer">Mochi: Aligning Pre-training and Inference for Efficient Graph Foundation Models via Meta-Learning&lt;/a>
+&lt;/strong> — Jointly aligns pre-training and downstream tasks via meta-learning for graph models. Skips the “pretrain then pray” two-step. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2604.21999" target="_blank" rel="noopener noreferrer">Universal Transformers Need Memory: Depth-State Trade-offs in Adaptive Recursive Reasoning&lt;/a>
+&lt;/strong> — Shows learned memory tokens are empirically necessary for single-block Universal Transformers on hard combinatorial tasks. Depth isn’t always the answer; sometimes you need a scratchpad. 📄&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/trycua/cua" target="_blank" rel="noopener noreferrer">cua: Computer-Use Agents Infrastructure&lt;/a>
+&lt;/strong> — Open-source stack for training and evaluating agents that drive full desktop environments across macOS, Linux, and Windows. Sandboxes, SDKs, and benchmarks included. Good if you want your LLM to actually click things instead of hallucinating clicks. 🤖&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/jeecgboot/JeecgBoot" target="_blank" rel="noopener noreferrer">jeecgboot/JeecgBoot&lt;/a>
+&lt;/strong> — Low-code platform with Claude Code integration, AI chat assistants, MCP support, and natural-language-to-SQL/flow generation. Accelerates boilerplate when you’d rather not hand-roll another CRUD screen. 🛠️&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>If you’re building agents that actually touch production, pair Senzing MCP (entity-resolution server) with &lt;a href="https://github.com/trycua/cua" target="_blank" rel="noopener noreferrer">cua: Computer-Use Agents Infrastructure&lt;/a>
+ so identity resolution precedes action. Let the entity-resolution server feed identity graphs that clarify “Jon,” “J. Smith,” and stale aliases refer to the same human before the agent starts clicking through dashboards or mutating state. That linkage cuts hallucinated targets and makes audit trails legible instead of speculative. Layer in &lt;a href="https://arxiv.org/abs/2604.22032" target="_blank" rel="noopener noreferrer">Kernel Contracts: A Specification Language for ML Kernel Correctness Across Heterogeneous Silicon&lt;/a>
+ for any numerical heavy lifting the agent triggers on GPUs or accelerators: encode precision bounds and memory layouts as preconditions so silent divergence surfaces as test failures, not 3 a.m. pager surprises. The result is an agent workflow that knows who it’s acting on, can perform across desktop environments, and refuses to lie quietly when math goes sideways — basically, competence with guardrails. 🛠️🤖📄&lt;/p></description></item><item><title>Tenkai Daily — April 26, 2026</title><link>https://tenkai.blog/posts/2026-04-26/</link><pubDate>Sun, 26 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-26/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/z-lab/Qwen3.6-35B-A3B-DFlash" target="_blank" rel="noopener noreferrer">z-lab/Qwen3.6-35B-A3B-DFlash&lt;/a>
 &lt;/strong> — Diffusion-based speculative decoding that swaps the usual draft-and-verify loop for a block-diffusion approach. Promises fewer tokens wasted on bad guesses, though you’ll need to stomach custom generation code to get the speedup. 🤖&lt;/li>
