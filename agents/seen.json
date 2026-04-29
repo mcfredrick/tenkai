@@ -4667,6 +4667,70 @@
     {
       "url": "https://pypi.org/project/tfp-nightly/0.26.0.dev20260428/",
       "date": "2026-04-28"
+    },
+    {
+      "url": "https://github.com/fspecii/ace-step-ui",
+      "date": "2026-04-29"
+    },
+    {
+      "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5",
+      "date": "2026-04-29"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.22951",
+      "date": "2026-04-29"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.24801",
+      "date": "2026-04-29"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.24805",
+      "date": "2026-04-29"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.24809",
+      "date": "2026-04-29"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.24827",
+      "date": "2026-04-29"
+    },
+    {
+      "url": "https://bitpoort.com",
+      "date": "2026-04-29"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.123",
+      "date": "2026-04-29"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.122",
+      "date": "2026-04-29"
+    },
+    {
+      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.33.1",
+      "date": "2026-04-29"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.14.29",
+      "date": "2026-04-29"
+    },
+    {
+      "url": "https://pypi.org/project/jetson-examples/0.2.5/",
+      "date": "2026-04-29"
+    },
+    {
+      "url": "https://pypi.org/project/threat-thinker/0.8.0/",
+      "date": "2026-04-29"
+    },
+    {
+      "url": "https://pypi.org/project/kingdee-mcp-saas/0.1.15/",
+      "date": "2026-04-29"
+    },
+    {
+      "url": "https://pypi.org/project/ziniao/0.2.71/",
+      "date": "2026-04-29"
     }
   ]
 }
