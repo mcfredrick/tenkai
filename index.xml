@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tenkai</title><link>https://tenkai.blog/</link><description>Recent content on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 29 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — April 29, 2026</title><link>https://tenkai.blog/posts/2026-04-29/</link><pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-29/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tenkai</title><link>https://tenkai.blog/</link><description>Recent content on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 30 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — April 30, 2026</title><link>https://tenkai.blog/posts/2026-04-30/</link><pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-30/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16" target="_blank" rel="noopener noreferrer">nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16&lt;/a>
+ — NVIDIA&amp;rsquo;s reasoning-optimized 30B-A3B multimodal model with any-to-any capabilities and BF16 precision. Includes the model code and an arXiv paper (2604.24954) for those who want the technical details.&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://pypi.org/project/llm-radar/0.2.0/" target="_blank" rel="noopener noreferrer">llm-radar 0.2.0&lt;/a>
+ — Real-time observability dashboard for LLM apps that tracks prompts, tokens, costs, and latency. One-line integration means you can finally debug that production cost explosion.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/anomalyco/opencode/releases/tag/v1.14.30" target="_blank" rel="noopener noreferrer">opencode v1.14.30: Session management and provider fixes&lt;/a>
+ — Fixes desktop session path mismatches and recovers stored data. Adds Mistral Medium 3.5 with reasoning support and improves DeepSeek compatibility.&lt;/p></description></item><item><title>Tenkai Daily — April 29, 2026</title><link>https://tenkai.blog/posts/2026-04-29/</link><pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-29/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://huggingface.co/XiaomiMiMo/MiMo-V2.5" target="_blank" rel="noopener noreferrer">XiaomiMiMo-V2.5: Multimodal vision-language-audio agent&lt;/a>
  — Multimodal agent supporting vision, language, audio, and video understanding with FP8 optimization. MIT license with eval-results for long-context benchmarks.&lt;/li>
