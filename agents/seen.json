@@ -4731,6 +4731,62 @@
     {
       "url": "https://pypi.org/project/ziniao/0.2.71/",
       "date": "2026-04-29"
+    },
+    {
+      "url": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
+      "date": "2026-04-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.26091",
+      "date": "2026-04-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.26211",
+      "date": "2026-04-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.26311",
+      "date": "2026-04-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.26522",
+      "date": "2026-04-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.26039",
+      "date": "2026-04-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.25975",
+      "date": "2026-04-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.26130",
+      "date": "2026-04-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.26644",
+      "date": "2026-04-30"
+    },
+    {
+      "url": "https://thenextgennexus.com",
+      "date": "2026-04-30"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.14.30",
+      "date": "2026-04-30"
+    },
+    {
+      "url": "https://pypi.org/project/turnzero/0.8.0/",
+      "date": "2026-04-30"
+    },
+    {
+      "url": "https://pypi.org/project/llm-radar/0.2.0/",
+      "date": "2026-04-30"
+    },
+    {
+      "url": "https://pypi.org/project/adlib-client/0.1.2/",
+      "date": "2026-04-30"
     }
   ]
 }
