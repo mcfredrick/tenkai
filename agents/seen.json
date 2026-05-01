@@ -4787,6 +4787,98 @@
     {
       "url": "https://pypi.org/project/adlib-client/0.1.2/",
       "date": "2026-04-30"
+    },
+    {
+      "url": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B",
+      "date": "2026-05-01"
+    },
+    {
+      "url": "https://huggingface.co/sensenova/SenseNova-U1-8B-MoT",
+      "date": "2026-05-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.26999",
+      "date": "2026-05-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.27007",
+      "date": "2026-05-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.27096",
+      "date": "2026-05-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.26984",
+      "date": "2026-05-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.26985",
+      "date": "2026-05-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.27003",
+      "date": "2026-05-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.27019",
+      "date": "2026-05-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.27031",
+      "date": "2026-05-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.27077",
+      "date": "2026-05-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.27083",
+      "date": "2026-05-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.27089",
+      "date": "2026-05-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.27063",
+      "date": "2026-05-01"
+    },
+    {
+      "url": "://github.com/apify/mcpc",
+      "date": "2026-05-01"
+    },
+    {
+      "url": "://www.stephendiehl.com/posts/computer_algebra_mcp/",
+      "date": "2026-05-01"
+    },
+    {
+      "url": "https://jina.ai",
+      "date": "2026-05-01"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
+      "date": "2026-05-01"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.14.31",
+      "date": "2026-05-01"
+    },
+    {
+      "url": "https://pypi.org/project/pixeltable/0.6.0/",
+      "date": "2026-05-01"
+    },
+    {
+      "url": "https://pypi.org/project/hprobes/0.5.4/",
+      "date": "2026-05-01"
+    },
+    {
+      "url": "https://pypi.org/project/doubled-graph/1.0.11/",
+      "date": "2026-05-01"
+    },
+    {
+      "url": "https://pypi.org/project/schift/0.6.0/",
+      "date": "2026-05-01"
     }
   ]
 }
