@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tenkai</title><link>https://tenkai.blog/posts/</link><description>Recent content in Posts on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 30 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — April 30, 2026</title><link>https://tenkai.blog/posts/2026-04-30/</link><pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-30/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tenkai</title><link>https://tenkai.blog/posts/</link><description>Recent content in Posts on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 01 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — May 1, 2026</title><link>https://tenkai.blog/posts/2026-05-01/</link><pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-05-01/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://huggingface.co/mistralai/Mistral-Medium-3.5-128B" target="_blank" rel="noopener noreferrer">Mistral-Medium-3.5-128B&lt;/a>
+ — A 128B parameter model covering 25+ languages, shipping with vLLM compatibility and FP8 quantization out of the box. Multilingual deployments just got a new default option. 🤖&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://huggingface.co/sensenova/SenseNova-U1-8B-MoT" target="_blank" rel="noopener noreferrer">SenseNova-U1-8B-MoT&lt;/a>
+ — An 8B multimodal model doing text-to-image, image-to-text, image-editing, and interleaved generation in a single any-to-any framework. Apache 2.0 licensed with custom code, so you can actually poke around.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.126" target="_blank" rel="noopener noreferrer">Claude Code v2.1.126&lt;/a>
+ — The &lt;code>/model picker&lt;/code> now reads from the gateway&amp;rsquo;s &lt;code>/v1/models&lt;/code> endpoint when &lt;code>ANTHROPIC_BASE_URL&lt;/code> points at a compatible gateway, so custom model routing finally works. Also ships &lt;code>claude project purge [path]&lt;/code> to nuke all Claude Code state for a project — transcripts, tasks, file history, config, the lot.&lt;/p></description></item><item><title>Tenkai Daily — April 30, 2026</title><link>https://tenkai.blog/posts/2026-04-30/</link><pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-04-30/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16" target="_blank" rel="noopener noreferrer">nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16&lt;/a>
  — NVIDIA&amp;rsquo;s reasoning-optimized 30B-A3B multimodal model with any-to-any capabilities and BF16 precision. Includes the model code and an arXiv paper (2604.24954) for those who want the technical details.&lt;/li>
