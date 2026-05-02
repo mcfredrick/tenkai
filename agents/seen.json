@@ -4879,6 +4879,38 @@
     {
       "url": "https://pypi.org/project/schift/0.6.0/",
       "date": "2026-05-01"
+    },
+    {
+      "url": "https://huggingface.co/inclusionAI/Ling-2.6-1T",
+      "date": "2026-05-02"
+    },
+    {
+      "url": "https://github.com/apify/mcpc",
+      "date": "2026-05-02"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/v3.82.0",
+      "date": "2026-05-02"
+    },
+    {
+      "url": "https://pypi.org/project/oc-piloci/0.2.31/",
+      "date": "2026-05-02"
+    },
+    {
+      "url": "https://pypi.org/project/roam-code/12.6.0/",
+      "date": "2026-05-02"
+    },
+    {
+      "url": "https://pypi.org/project/stigmer-runner/0.3.1/",
+      "date": "2026-05-02"
+    },
+    {
+      "url": "https://pypi.org/project/doubled-graph/1.4.8/",
+      "date": "2026-05-02"
+    },
+    {
+      "url": "https://pypi.org/project/zyndai-agent/0.5.0/",
+      "date": "2026-05-02"
     }
   ]
 }
