@@ -4947,6 +4947,82 @@
     {
       "url": "https://pypi.org/project/timevec/0.3.2/",
       "date": "2026-05-03"
+    },
+    {
+      "url": "https://github.com/AIDC-AI/Pixelle-Video",
+      "date": "2026-05-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.00005",
+      "date": "2026-05-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.00011",
+      "date": "2026-05-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.00082",
+      "date": "2026-05-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.00126",
+      "date": "2026-05-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.00069",
+      "date": "2026-05-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.00064",
+      "date": "2026-05-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.00130",
+      "date": "2026-05-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.00253",
+      "date": "2026-05-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.00086",
+      "date": "2026-05-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.00199",
+      "date": "2026-05-04"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.14.33",
+      "date": "2026-05-04"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.1.31",
+      "date": "2026-05-04"
+    },
+    {
+      "url": "https://pypi.org/project/tensor-optix/1.12.2/",
+      "date": "2026-05-04"
+    },
+    {
+      "url": "https://pypi.org/project/code-outline-graph/0.2.15/",
+      "date": "2026-05-04"
+    },
+    {
+      "url": "https://pypi.org/project/timbal/2.0.6/",
+      "date": "2026-05-04"
+    },
+    {
+      "url": "https://pypi.org/project/vmlx/1.5.12/",
+      "date": "2026-05-04"
+    },
+    {
+      "url": "https://pypi.org/project/tokentoll/0.6.1/",
+      "date": "2026-05-04"
+    },
+    {
+      "url": "https://pypi.org/project/tfp-nightly/0.26.0.dev20260504/",
+      "date": "2026-05-04"
     }
   ]
 }
