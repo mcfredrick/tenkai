@@ -5039,6 +5039,114 @@
     {
       "url": "https://news.ycombinator.com/item?id=44713757",
       "date": "2026-05-04"
+    },
+    {
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "date": "2026-05-05"
+    },
+    {
+      "url": "https://huggingface.co/ibm-granite/granite-4.1-8b",
+      "date": "2026-05-05"
+    },
+    {
+      "url": "https://huggingface.co/inclusionAI/Ling-2.6-flash",
+      "date": "2026-05-05"
+    },
+    {
+      "url": "https://huggingface.co/poolside/Laguna-XS.2",
+      "date": "2026-05-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.00060",
+      "date": "2026-05-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.00123",
+      "date": "2026-05-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.00136",
+      "date": "2026-05-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.00224",
+      "date": "2026-05-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.00334",
+      "date": "2026-05-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.00412",
+      "date": "2026-05-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.00425",
+      "date": "2026-05-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.00438",
+      "date": "2026-05-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.00833",
+      "date": "2026-05-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.00836",
+      "date": "2026-05-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.00837",
+      "date": "2026-05-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.00924",
+      "date": "2026-05-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.00925",
+      "date": "2026-05-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.00931",
+      "date": "2026-05-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.00935",
+      "date": "2026-05-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.00936",
+      "date": "2026-05-05"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
+      "date": "2026-05-05"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.14.37",
+      "date": "2026-05-05"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.14.34",
+      "date": "2026-05-05"
+    },
+    {
+      "url": "https://pypi.org/project/livelossplot/0.6.1/",
+      "date": "2026-05-05"
+    },
+    {
+      "url": "https://pypi.org/project/code-outline-graph/0.2.35/",
+      "date": "2026-05-05"
+    },
+    {
+      "url": "https://pypi.org/project/puvinoise-sdk/0.3.55/",
+      "date": "2026-05-05"
+    },
+    {
+      "url": "https://pypi.org/project/corio/2.1.17/",
+      "date": "2026-05-05"
     }
   ]
 }
