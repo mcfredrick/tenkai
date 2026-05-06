@@ -89,5 +89,19 @@
       if (btn) btn.textContent = t === 'dark' ? '[LITE]' : '[DARK]';
     })();
   </script>
+  <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+  <script>
+    (function() {
+      var s = getComputedStyle(document.documentElement);
+      var bg = s.getPropertyValue('--surface').trim();
+      var fg = s.getPropertyValue('--accent').trim();
+      kofiWidgetOverlay.draw('dayjobdev', {
+        'type': 'floating-chat',
+        'floating-chat.donateButton.text': 'Support me',
+        'floating-chat.donateButton.background-color': bg,
+        'floating-chat.donateButton.text-color': fg,
+      });
+    })();
+  </script>
 </body>
 </html>
