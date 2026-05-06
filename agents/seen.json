@@ -5147,6 +5147,102 @@
     {
       "url": "https://pypi.org/project/corio/2.1.17/",
       "date": "2026-05-05"
+    },
+    {
+      "url": "https://github.com/PriorLabs/TabPFN",
+      "date": "2026-05-06"
+    },
+    {
+      "url": "https://github.com/InsForge/InsForge",
+      "date": "2026-05-06"
+    },
+    {
+      "url": "https://huggingface.co/ibm-granite/granite-4.1-30b",
+      "date": "2026-05-06"
+    },
+    {
+      "url": "https://huggingface.co/google/gemma-4-31B-it-assistant",
+      "date": "2026-05-06"
+    },
+    {
+      "url": "https://huggingface.co/AngelSlim/Hy-MT1.5-1.8B-1.25bit",
+      "date": "2026-05-06"
+    },
+    {
+      "url": "https://huggingface.co/SulphurAI/Sulphur-2-base",
+      "date": "2026-05-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.02904",
+      "date": "2026-05-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.02905",
+      "date": "2026-05-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.02907",
+      "date": "2026-05-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.02909",
+      "date": "2026-05-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.02913",
+      "date": "2026-05-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.02914",
+      "date": "2026-05-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.00842",
+      "date": "2026-05-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.01130",
+      "date": "2026-05-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.01143",
+      "date": "2026-05-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.01030",
+      "date": "2026-05-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.02918",
+      "date": "2026-05-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.02938",
+      "date": "2026-05-06"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.131",
+      "date": "2026-05-06"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.129",
+      "date": "2026-05-06"
+    },
+    {
+      "url": "https://pypi.org/project/pruna-mcp-server/0.1.0/",
+      "date": "2026-05-06"
+    },
+    {
+      "url": "https://pypi.org/project/dglz/0.1.10.post4/",
+      "date": "2026-05-06"
+    },
+    {
+      "url": "https://pypi.org/project/mnemon-memory/0.6.0rc12/",
+      "date": "2026-05-06"
+    },
+    {
+      "url": "https://pypi.org/project/lexsi-sdk/0.1.46/",
+      "date": "2026-05-06"
     }
   ]
 }
