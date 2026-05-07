@@ -5243,6 +5243,110 @@
     {
       "url": "https://pypi.org/project/lexsi-sdk/0.1.46/",
       "date": "2026-05-06"
+    },
+    {
+      "url": "://github.com/cheahjs/free-llm-api-resources",
+      "date": "2026-05-07"
+    },
+    {
+      "url": "https://huggingface.co/google/gemma-4-26B-A4B-it-assistant",
+      "date": "2026-05-07"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.02910",
+      "date": "2026-05-07"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.03034",
+      "date": "2026-05-07"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.03101",
+      "date": "2026-05-07"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.03159",
+      "date": "2026-05-07"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.03195",
+      "date": "2026-05-07"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.03227",
+      "date": "2026-05-07"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.03231",
+      "date": "2026-05-07"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.03339",
+      "date": "2026-05-07"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.04055",
+      "date": "2026-05-07"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.04058",
+      "date": "2026-05-07"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.04059",
+      "date": "2026-05-07"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.04061",
+      "date": "2026-05-07"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.04062",
+      "date": "2026-05-07"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.04069",
+      "date": "2026-05-07"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.04072",
+      "date": "2026-05-07"
+    },
+    {
+      "url": "https://blender-mcpsi.vercel.app/",
+      "date": "2026-05-07"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.132",
+      "date": "2026-05-07"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.14.40",
+      "date": "2026-05-07"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.14.39",
+      "date": "2026-05-07"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.14.38",
+      "date": "2026-05-07"
+    },
+    {
+      "url": "https://pypi.org/project/optillm/0.3.15/",
+      "date": "2026-05-07"
+    },
+    {
+      "url": "https://pypi.org/project/pydtnn/3.8.6/",
+      "date": "2026-05-07"
+    },
+    {
+      "url": "://pypi.org/project/privacy-steward/0.1.2/",
+      "date": "2026-05-07"
+    },
+    {
+      "url": "https://pypi.org/project/waggle-chat/0.9.0/",
+      "date": "2026-05-07"
     }
   ]
 }
