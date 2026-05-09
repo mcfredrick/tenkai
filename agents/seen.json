@@ -5455,6 +5455,102 @@
     {
       "url": "https://pypi.org/project/haxaml/0.6.7/",
       "date": "2026-05-08"
+    },
+    {
+      "url": "https://github.com/decolua/9router",
+      "date": "2026-05-09"
+    },
+    {
+      "url": "https://github.com/awslabs/aidlc-workflows",
+      "date": "2026-05-09"
+    },
+    {
+      "url": "https://github.com/HKUDS/AI-Trader",
+      "date": "2026-05-09"
+    },
+    {
+      "url": "https://github.com/safishammsi/graphify",
+      "date": "2026-05-09"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.138",
+      "date": "2026-05-09"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.137",
+      "date": "2026-05-09"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.136",
+      "date": "2026-05-09"
+    },
+    {
+      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.33.0",
+      "date": "2026-05-09"
+    },
+    {
+      "url": "https://github.com/aaif-goose/goose/releases/tag/v2.0.0-rc-04-27-0",
+      "date": "2026-05-09"
+    },
+    {
+      "url": "https://pypi.org/project/controlled-execution-system/0.1.14/",
+      "date": "2026-05-09"
+    },
+    {
+      "url": "https://pypi.org/project/ttfs/0.3.0/",
+      "date": "2026-05-09"
+    },
+    {
+      "url": "https://pypi.org/project/vgis-ai/1.7.10/",
+      "date": "2026-05-09"
+    },
+    {
+      "url": "https://pypi.org/project/pagent/0.1.1/",
+      "date": "2026-05-09"
+    },
+    {
+      "url": "https://pypi.org/project/frame-check-mcp/0.9.4/",
+      "date": "2026-05-09"
+    },
+    {
+      "url": "https://pypi.org/project/etzchaim/0.2.32/",
+      "date": "2026-05-09"
+    },
+    {
+      "url": "https://pypi.org/project/pgvectordb/0.0.5/",
+      "date": "2026-05-09"
+    },
+    {
+      "url": "https://pypi.org/project/memocode/0.5.24/",
+      "date": "2026-05-09"
+    },
+    {
+      "url": "https://pypi.org/project/paperprism-agent/0.2.2/",
+      "date": "2026-05-09"
+    },
+    {
+      "url": "https://pypi.org/project/ait-vcs/0.55.48/",
+      "date": "2026-05-09"
+    },
+    {
+      "url": "https://pypi.org/project/csaq-quant/0.5.1/",
+      "date": "2026-05-09"
+    },
+    {
+      "url": "https://pypi.org/project/justai/5.5.5/",
+      "date": "2026-05-09"
+    },
+    {
+      "url": "https://pypi.org/project/synthpilot/1.2.1/",
+      "date": "2026-05-09"
+    },
+    {
+      "url": "https://pypi.org/project/etzchaim/0.2.31/",
+      "date": "2026-05-09"
+    },
+    {
+      "url": "https://pypi.org/project/linkright/0.5.2/",
+      "date": "2026-05-09"
     }
   ]
 }
