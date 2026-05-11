@@ -5603,6 +5603,98 @@
     {
       "url": "https://pypi.org/project/wide-research/0.2.0/",
       "date": "2026-05-10"
+    },
+    {
+      "url": "https://github.com/jundot/omlx",
+      "date": "2026-05-11"
+    },
+    {
+      "url": "https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates",
+      "date": "2026-05-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.06671",
+      "date": "2026-05-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.06672",
+      "date": "2026-05-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.06702",
+      "date": "2026-05-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.06716",
+      "date": "2026-05-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.06761",
+      "date": "2026-05-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.06812",
+      "date": "2026-05-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.06840",
+      "date": "2026-05-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.06675",
+      "date": "2026-05-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.06676",
+      "date": "2026-05-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.06683",
+      "date": "2026-05-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.06679",
+      "date": "2026-05-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.06680",
+      "date": "2026-05-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.06841",
+      "date": "2026-05-11"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.14.48",
+      "date": "2026-05-11"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.14.47",
+      "date": "2026-05-11"
+    },
+    {
+      "url": "https://pypi.org/project/torch-npu/2.9.1/",
+      "date": "2026-05-11"
+    },
+    {
+      "url": "https://pypi.org/project/yobitsugi/0.1.7/",
+      "date": "2026-05-11"
+    },
+    {
+      "url": "https://pypi.org/project/sigil-sdk-langchain/0.2.1/",
+      "date": "2026-05-11"
+    },
+    {
+      "url": "https://pypi.org/project/dsalt/0.2.22/",
+      "date": "2026-05-11"
+    },
+    {
+      "url": "https://pypi.org/project/llmakits/0.6.61/",
+      "date": "2026-05-11"
+    },
+    {
+      "url": "https://pypi.org/project/memnotary/0.0.1/",
+      "date": "2026-05-11"
     }
   ]
 }
