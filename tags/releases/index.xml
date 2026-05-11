@@ -1,4 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Tenkai</title><link>https://tenkai.blog/tags/releases/</link><description>Recent content in Releases on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 10 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — May 10, 2026</title><link>https://tenkai.blog/posts/2026-05-10/</link><pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-05-10/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Tenkai</title><link>https://tenkai.blog/tags/releases/</link><description>Recent content in Releases on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 11 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — May 11, 2026</title><link>https://tenkai.blog/posts/2026-05-11/</link><pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-05-11/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates" target="_blank" rel="noopener noreferrer">Qwen-Fixed-Chat-Templates&lt;/a>
+&lt;/strong> — Corrected Jinja chat templates for Qwen3.5 and Qwen3.6, fixing tool-calling and thinking-mode formatting. If you&amp;rsquo;ve been fighting broken XML tags or mangled think blocks in LM Studio, llama.cpp, or MLX, this is your fix. 🤖&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/yobitsugi/0.1.7/" target="_blank" rel="noopener noreferrer">yobitsugi 0.1.7&lt;/a>
+&lt;/strong> — AI-powered SAST/SCA scanner that patches your codebase via local LLMs, callable as a slash command from Claude Code, Codex, Cursor, Gemini CLI, Aider, OpenCode, and Copilot CLI. Finally, a vulnerability scanner that doesn&amp;rsquo;t just scream &amp;ldquo;HIGH SEVERITY&amp;rdquo; at you and leave you holding the bag. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/dsalt/0.2.22/" target="_blank" rel="noopener noreferrer">dsalt 0.2.22&lt;/a>
+&lt;/strong> — Dynamic sparse attention with landmark tokens, powered by a Triton implementation. If you&amp;rsquo;ve been hand-rolling custom CUDA kernels for attention and crying into your keyboard, this might save you. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/jundot/omlx" target="_blank" rel="noopener noreferrer">omlx&lt;/a>
+&lt;/strong> — LLM inference server for Apple Silicon with continuous batching and SSD caching, managed from the macOS menu bar. For the &amp;ldquo;I want 70B running locally on my M-series Mac&amp;rdquo; crowd. 🤖&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/torch-npu/2.9.1/" target="_blank" rel="noopener noreferrer">torch-npu 2.9.1&lt;/a>
+&lt;/strong> — PyTorch bridge for NPU hardware. If you&amp;rsquo;re targeting Ascend or other non-GPU accelerators inside the PyTorch ecosystem, this keeps you from rewriting everything from scratch. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/sigil-sdk-langchain/0.2.1/" target="_blank" rel="noopener noreferrer">sigil-sdk-langchain 0.2.1&lt;/a>
+&lt;/strong> — LangChain callback handlers for the Sigil Python SDK. Part of a broader SDK wave covering LangChain, Anthropic, LlamaIndex, OpenAI Agents, Pydantic AI, and OpenAI wrappers. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/llmakits/0.6.61/" target="_blank" rel="noopener noreferrer">llmakits 0.6.61&lt;/a>
+&lt;/strong> — Python toolkit for multi-model LLM integration with scheduling, fault tolerance, and load balancing. Building resilient multi-model infra and don&amp;rsquo;t want to duct-together five libraries yourself? Here you go. 🛠️&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.06675" target="_blank" rel="noopener noreferrer">RateQuant&lt;/a>
+&lt;/strong> — Applies rate-distortion theory to KV cache quantization, assigning optimal mixed-precision bit-widths per attention head instead of a blunt uniform approach. The KV cache memory wall is arguably the biggest serving bottleneck right now, so squeezing it intelligently matters. 🔥&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.06676" target="_blank" rel="noopener noreferrer">LKV&lt;/a>
+&lt;/strong> — End-to-end learned head-wise budgets and token selection for KV cache eviction. Ditches the heuristic priors and optimizes directly for downstream task objectives. Neat idea, though the &amp;ldquo;end-to-end&amp;rdquo; training cost will make some teams flinch. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.06683" target="_blank" rel="noopener noreferrer">Toeplitz MLP Mixers&lt;/a>
+&lt;/strong> — Replaces attention with triangular-masked Toeplitz matrix multiplication, pulling sequence modeling down to O(dn log n) from quadratic. A genuinely interesting alternative architecture if you&amp;rsquo;re tired of the attention tax. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.06671" target="_blank" rel="noopener noreferrer">GraphDC&lt;/a>
+&lt;/strong> — A divide-and-conquer multi-agent framework for LLM-based graph algorithm reasoning. Decomposes gnarly topology problems into sub-tasks handled by specialized agents. Graph reasoning remains one of LLMs&amp;rsquo; weak spots, so any structured decomposition approach is worth eyeballing. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.06672" target="_blank" rel="noopener noreferrer">More Thinking, More Bias&lt;/a>
+&lt;/strong> — Shows that longer reasoning trajectories in models like DeepSeek-R1 actually &lt;em>amplify&lt;/em> per-question position bias rather than dampening it. Kinda deflates the &amp;ldquo;just add more chain-of-thought&amp;rdquo; reflex. Worth reading before you naively bump max_think_tokens. 🔥&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.06702" target="_blank" rel="noopener noreferrer">CASCADE&lt;/a>
+&lt;/strong> — Case-based continual adaptation for LLMs during deployment, breaking the training-deployment boundary. The idea of models learning from live interactions post-deployment without full retraining is compelling, though the catastrophic forgetting gremlins are far from solved. 📄&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>If you&amp;rsquo;re running models with long chain-of-thought — especially reasoning-heavy ones like DeepSeek-R1 — you&amp;rsquo;re getting hit from two directions at once. &lt;a href="https://arxiv.org/abs/2605.06672" target="_blank" rel="noopener noreferrer">More Thinking, More Bias&lt;/a>
+ shows that longer reasoning trajectories actually &lt;em>amplify&lt;/em> position bias rather than dampening it, meaning blindly cranking &lt;code>max_think_tokens&lt;/code> is a losing strategy. And every extra token in that trajectory is another entry in your KV cache, already the biggest serving bottleneck in production LLMs today. Two papers point at concrete relief: &lt;a href="https://arxiv.org/abs/2605.06675" target="_blank" rel="noopener noreferrer">RateQuant&lt;/a>
+ assigns mixed-precision bit-widths per attention head instead of a blunt uniform cut, and &lt;a href="https://arxiv.org/abs/2605.06676" target="_blank" rel="noopener noreferrer">LKV&lt;/a>
+ learns head-wise eviction budgets optimized directly for your downstream task. The practical move: profile your long-reasoning workloads, find which attention heads are the memory hogs, and apply mixed-precision quantization or learned eviction there before you throw more GPUs at the wall.&lt;/p></description></item><item><title>Tenkai Daily — May 10, 2026</title><link>https://tenkai.blog/posts/2026-05-10/</link><pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-05-10/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/HiDream-ai/HiDream-O1-Image" target="_blank" rel="noopener noreferrer">HiDream-O1-Image&lt;/a>
 &lt;/strong> — A Qwen3-VL-based reasoning model for image generation that also handles image-text-to-text. MIT-licensed endpoints, which is nice for anyone tired of commercial API lock-in. 🤖&lt;/li>
