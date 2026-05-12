@@ -5695,6 +5695,90 @@
     {
       "url": "https://pypi.org/project/memnotary/0.0.1/",
       "date": "2026-05-11"
+    },
+    {
+      "url": "https://github.com/rasbt/LLMs-from-scratch",
+      "date": "2026-05-12"
+    },
+    {
+      "url": "https://github.com/rohitg00/agentmemory",
+      "date": "2026-05-12"
+    },
+    {
+      "url": "https://huggingface.co/openbmb/MiniCPM-V-4.6",
+      "date": "2026-05-12"
+    },
+    {
+      "url": "https://huggingface.co/Supertone/supertonic-3",
+      "date": "2026-05-12"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.08200",
+      "date": "2026-05-12"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.08220",
+      "date": "2026-05-12"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.08354",
+      "date": "2026-05-12"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.08368",
+      "date": "2026-05-12"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.08374",
+      "date": "2026-05-12"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.08386",
+      "date": "2026-05-12"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.08399",
+      "date": "2026-05-12"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.08405",
+      "date": "2026-05-12"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.08110",
+      "date": "2026-05-12"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.08111",
+      "date": "2026-05-12"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.08114",
+      "date": "2026-05-12"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.08116",
+      "date": "2026-05-12"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.08123",
+      "date": "2026-05-12"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+      "date": "2026-05-12"
+    },
+    {
+      "url": "https://pypi.org/project/docforge-cli/0.6.1/",
+      "date": "2026-05-12"
+    },
+    {
+      "url": "https://pypi.org/project/rao-agent/1.0.2.post2449/",
+      "date": "2026-05-12"
+    },
+    {
+      "url": "https://pypi.org/project/orq-ai-sdk/4.9.0rc47/",
+      "date": "2026-05-12"
     }
   ]
 }
