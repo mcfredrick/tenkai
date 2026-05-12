@@ -1,4 +1,49 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Papers on Tenkai</title><link>https://tenkai.blog/tags/papers/</link><description>Recent content in Papers on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 11 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/papers/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — May 11, 2026</title><link>https://tenkai.blog/posts/2026-05-11/</link><pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-05-11/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Papers on Tenkai</title><link>https://tenkai.blog/tags/papers/</link><description>Recent content in Papers on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 12 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/papers/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — May 12, 2026</title><link>https://tenkai.blog/posts/2026-05-12/</link><pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-05-12/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/openbmb/MiniCPM-V-4.6" target="_blank" rel="noopener noreferrer">MiniCPM-V-4.6&lt;/a>
+&lt;/strong> — OpenBMB&amp;rsquo;s latest small multimodal model, Apache 2.0 licensed, with four supporting arXiv papers covering architecture and training details. If you&amp;rsquo;ve been waiting for a competent vision-language model you can actually run without selling a kidney, this one&amp;rsquo;s worth a look. 🤖&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/Supertone/supertonic-3" target="_blank" rel="noopener noreferrer">Supertone/supertonic-3&lt;/a>
+&lt;/strong> — Multilingual TTS model in ONNX format, 30+ languages, designed for on-device inference. OpenRAIL license means it&amp;rsquo;s open but with some guardrails baked in. Useful if you need speech synthesis that doesn&amp;rsquo;t phone home to a cloud endpoint. 🗣️&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/docforge-cli/0.6.1/" target="_blank" rel="noopener noreferrer">docforge-cli 0.6.1&lt;/a>
+&lt;/strong> — Indexes Confluence and git repos to build searchable context for AI coding assistants. Basically the &amp;ldquo;connect your docs to the AI&amp;rdquo; bridge that every RAG-based dev workflow is quietly begging for. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/rao-agent/1.0.2.post2449/" target="_blank" rel="noopener noreferrer">rao-agent 1.0.2.post2449&lt;/a>
+&lt;/strong> — Framework for building Retrieval-Augmented Orchestrator agents on Progress&amp;rsquo;s Agentic RAG platform. Structured approach if you&amp;rsquo;re building RAG-based agents and want something less &amp;ldquo;duct-tape three libraries together.&amp;rdquo; 🛠️&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.08200" target="_blank" rel="noopener noreferrer">Where Reliability Lives in Vision-Language Models&lt;/a>
+&lt;/strong> — Tests the assumption that sharp attention maps = reliable answers across LLaVA-1.5, PaliGemma, and Qwen2-VL. Spoiler: the mechanistic reality is messier than the intuition suggests. Good read if you&amp;rsquo;re deploying VLMs and care about knowing when they&amp;rsquo;re guessing. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.08374" target="_blank" rel="noopener noreferrer">MemQ: Integrating Q-Learning into Self-Evolving Memory Agents&lt;/a>
+&lt;/strong> — Applies TD(λ) eligibility traces to episodic memory in LLM agents, using a provenance DAG instead of treating memories as independent bag-of-facts. If your agents keep retrieving garbage memories on long-horizon tasks, this paper&amp;rsquo;s credit assignment approach might actually help. 🤖&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.08110" target="_blank" rel="noopener noreferrer">BaLoRA: Bayesian Low-Rank Adaptation&lt;/a>
+&lt;/strong> — LoRA but with Bayesian uncertainty quantification baked in. Addresses the well-known accuracy gap between LoRA and full fine-tuning while giving you confidence intervals for free. Drop-in replacement if you&amp;rsquo;re already using LoRA in production. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.08114" target="_blank" rel="noopener noreferrer">Statistical Inference and Quality Measures of KV Cache Quantisations&lt;/a>
+&lt;/strong> — Rigorous analysis of three KV cache quantization schemes under a fixed bit budget. Traces exactly how quantization noise on K gets amplified through softmax (by π/2 variance inflation, if you were wondering). Practical guidance for anyone tuning serving stacks. 🔥&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.08123" target="_blank" rel="noopener noreferrer">Block-Wise Differentiable Sinkhorn Attention&lt;/a>
+&lt;/strong> — Entropic optimal transport attention with a stopped-base tail-refinement surrogate, benchmarked on TPU hardware. The R=2 case with four staircase plan factors in the backward pass is the production-relevant takeaway for long-context workloads. Dense paper, worth the effort. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.08220" target="_blank" rel="noopener noreferrer">Spatial Priming Outperforms Semantic Prompting on Chart Data&lt;/a>
+&lt;/strong> — Grid-based spatial priming beats semantic prompting for extracting data from scientific charts, especially non-standardized ones. If you&amp;rsquo;re building automated lit review pipelines, this is a cheap accuracy win. 🛠️&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.139" target="_blank" rel="noopener noreferrer">Claude Code v2.1.139&lt;/a>
+&lt;/strong> — Agent View (Research Preview) gives you a unified dashboard of all Claude Code sessions, plus a &lt;code>/goal&lt;/code> command for autonomous task completion. The agent view alone saves the tab-switching tax if you&amp;rsquo;re juggling multiple sessions. 🤖&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/rohitg00/agentmemory" target="_blank" rel="noopener noreferrer">rohitg00/agentmemory&lt;/a>
+&lt;/strong> — Persistent memory system for AI coding agents, benchmarked against real-world scenarios. Solves the &amp;ldquo;my agent has amnesia between sessions&amp;rdquo; problem. 🛠️&lt;/li>
+&lt;/ul>
+&lt;h2 id="tutorials--guides">Tutorials &amp;amp; Guides&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/rasbt/LLMs-from-scratch" target="_blank" rel="noopener noreferrer">LLMs from Scratch&lt;/a>
+&lt;/strong> — Build a ChatGPT-like LLM from scratch in PyTorch, step by step. If you&amp;rsquo;ve only ever used transformers as a black box and want to understand what&amp;rsquo;s actually happening under the hood, this is the tutorial. Educational and hands-on. 📄&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>If you&amp;rsquo;re running vision-language models in production—or considering it—today&amp;rsquo;s papers and releases form a surprisingly coherent deployment playbook. Start with &lt;a href="https://huggingface.co/openbmb/MiniCPM-V-4.6" target="_blank" rel="noopener noreferrer">MiniCPM-V-4.6&lt;/a>
+: it&amp;rsquo;s one of the few small VLMs you can self-host without immediately regretting your GPU budget. But shipping a model is only half the problem. The &lt;a href="https://arxiv.org/abs/2605.08114" target="_blank" rel="noopener noreferrer">KV Cache quantization paper&lt;/a>
+ gives you the math to understand exactly how quantization noise on keys propagates through softmax—knowledge you&amp;rsquo;ll need when tuning your serving stack for latency-sensitive inference on constrained hardware. And once you&amp;rsquo;re in production, you&amp;rsquo;ll want to iterate on your model without full fine-tuning cycles; &lt;a href="https://arxiv.org/abs/2605.08110" target="_blank" rel="noopener noreferrer">BaLoRA&lt;/a>
+ offers a drop-in replacement for standard LoRA that gives you Bayesian confidence intervals on top of parameter efficiency, so you know when your adapted model is guessing. Together, these three pieces cover the actual lifecycle: choose a model you can run, optimize serving for real-world throughput, and fine-tune with uncertainty awareness when you need to adapt.&lt;/p></description></item><item><title>Tenkai Daily — May 11, 2026</title><link>https://tenkai.blog/posts/2026-05-11/</link><pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-05-11/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates" target="_blank" rel="noopener noreferrer">Qwen-Fixed-Chat-Templates&lt;/a>
 &lt;/strong> — Corrected Jinja chat templates for Qwen3.5 and Qwen3.6, fixing tool-calling and thinking-mode formatting. If you&amp;rsquo;ve been fighting broken XML tags or mangled think blocks in LM Studio, llama.cpp, or MLX, this is your fix. 🤖&lt;/li>
