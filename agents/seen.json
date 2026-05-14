@@ -1,74 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://huggingface.co/DevQuasar/Tesslate.OmniCoder-9B-GGUF",
-      "date": "2026-03-15"
-    },
-    {
-      "url": "https://huggingface.co/nsomazr/blood-donation-llama32-3b-gguf",
-      "date": "2026-03-15"
-    },
-    {
-      "url": "https://huggingface.co/agurung/colar-qwen25-7b-ff-post-sft",
-      "date": "2026-03-15"
-    },
-    {
-      "url": "https://huggingface.co/zamber1991/Qwen3-0.6B-Full-Finetuning-No-Thinking",
-      "date": "2026-03-15"
-    },
-    {
-      "url": "https://huggingface.co/nsomazr/blood-donation-llama32-3b-merged-16bit",
-      "date": "2026-03-15"
-    },
-    {
-      "url": "https://huggingface.co/nsomazr/blood-donation-llama32-3b-lora",
-      "date": "2026-03-15"
-    },
-    {
-      "url": "https://huggingface.co/pea-tree/Qwen3.5-40B-Claude-4.5-Opus-High-Reasoning-Thinking-MLX-4bit",
-      "date": "2026-03-15"
-    },
-    {
-      "url": "https://huggingface.co/dv347/qwen2.5-7b_openscad",
-      "date": "2026-03-15"
-    },
-    {
-      "url": "https://huggingface.co/Mosescreates/Aamil-0.8B-4bit",
-      "date": "2026-03-15"
-    },
-    {
-      "url": "https://huggingface.co/ferrazzipietro/ULS-MultiClinNERes-Qwen2.5-7B-symptom",
-      "date": "2026-03-15"
-    },
-    {
-      "url": "https://huggingface.co/Manaaal1234/final_ar",
-      "date": "2026-03-15"
-    },
-    {
-      "url": "https://pypi.org/project/crowdsentinel-mcp-server/0.3.3/",
-      "date": "2026-03-15"
-    },
-    {
-      "url": "https://pypi.org/project/langchain-insumer/0.10.3/",
-      "date": "2026-03-15"
-    },
-    {
-      "url": "https://pypi.org/project/airvo/0.1.0/",
-      "date": "2026-03-15"
-    },
-    {
-      "url": "https://pypi.org/project/deepbach-pytorch/0.1.1/",
-      "date": "2026-03-15"
-    },
-    {
-      "url": "https://pypi.org/project/craft-auth/4.2.1/",
-      "date": "2026-03-15"
-    },
-    {
-      "url": "https://pypi.org/project/quiver-vector-db/0.1.3/",
-      "date": "2026-03-15"
-    },
-    {
       "url": "https://github.com/langchain-ai/deepagents",
       "date": "2026-03-16"
     },
@@ -5675,6 +5607,114 @@
     {
       "url": "https://pypi.org/project/sniffly-lzwind/0.4.10/",
       "date": "2026-05-13"
+    },
+    {
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "date": "2026-05-14"
+    },
+    {
+      "url": "https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF",
+      "date": "2026-05-14"
+    },
+    {
+      "url": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-MTP-GGUF",
+      "date": "2026-05-14"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.12620",
+      "date": "2026-05-14"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.12673",
+      "date": "2026-05-14"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.12674",
+      "date": "2026-05-14"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.12718",
+      "date": "2026-05-14"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.12755",
+      "date": "2026-05-14"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.12922",
+      "date": "2026-05-14"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.12561",
+      "date": "2026-05-14"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.12580",
+      "date": "2026-05-14"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.12648",
+      "date": "2026-05-14"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.12652",
+      "date": "2026-05-14"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.12683",
+      "date": "2026-05-14"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.12693",
+      "date": "2026-05-14"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
+      "date": "2026-05-14"
+    },
+    {
+      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.34.0",
+      "date": "2026-05-14"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.14.50",
+      "date": "2026-05-14"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.14.49",
+      "date": "2026-05-14"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/v3.83.0",
+      "date": "2026-05-14"
+    },
+    {
+      "url": "https://pypi.org/project/khora/0.11.1/",
+      "date": "2026-05-14"
+    },
+    {
+      "url": "https://pypi.org/project/codevira/2.0.0/",
+      "date": "2026-05-14"
+    },
+    {
+      "url": "https://pypi.org/project/slopshield/0.1.0/",
+      "date": "2026-05-14"
+    },
+    {
+      "url": "https://pypi.org/project/agloom/0.1.73/",
+      "date": "2026-05-14"
+    },
+    {
+      "url": "https://pypi.org/project/gl-mcp-feedback/2.2.2/",
+      "date": "2026-05-14"
+    },
+    {
+      "url": "https://pypi.org/project/pipelex/0.28.0/",
+      "date": "2026-05-14"
+    },
+    {
+      "url": "https://pypi.org/project/mcpbundles/1.5.29/",
+      "date": "2026-05-14"
     }
   ]
 }
