@@ -1,4 +1,50 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Papers on Tenkai</title><link>https://tenkai.blog/tags/papers/</link><description>Recent content in Papers on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 14 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/papers/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — May 14, 2026</title><link>https://tenkai.blog/posts/2026-05-14/</link><pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-05-14/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Papers on Tenkai</title><link>https://tenkai.blog/tags/papers/</link><description>Recent content in Papers on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 15 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/papers/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — May 15, 2026</title><link>https://tenkai.blog/posts/2026-05-15/</link><pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-05-15/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anomalyco/opencode/releases/tag/v1.15.0" target="_blank" rel="noopener noreferrer">OpenCode v1.15.0&lt;/a>
+&lt;/strong> — Effect-based core event system for more reliable event delivery across sessions and integrations. Also stops custom tool modules from exploding on invalid exports and handles missing project instructions gracefully. Solid housekeeping release.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/corpulse/0.1.0/" target="_blank" rel="noopener noreferrer">corpulse 0.1.0&lt;/a>
+&lt;/strong> — Corpus health analytics for RAG pipelines. Tracks document quality, coverage, and drift. If your retrieval system is a black box, this gives you some instrumentation. 🔥&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/octopoda/3.1.9/" target="_blank" rel="noopener noreferrer">octopoda 3.1.9&lt;/a>
+&lt;/strong> — Persistent memory kernel for AI agents with crash recovery, shared memory, audit trails, and a real-time dashboard. Basically the infrastructure layer your long-running multi-agent systems have been missing — or cobbling together with duct tape.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/opik/2.0.36/" target="_blank" rel="noopener noreferrer">opik 2.0.36&lt;/a>
+&lt;/strong> — Comet&amp;rsquo;s LLM observability tool. Logging, tracing, eval for LLM app runs. Useful if you&amp;rsquo;re tired of &lt;code>print()&lt;/code> debugging your agent chains in production.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://app.tavily.com/home" target="_blank" rel="noopener noreferrer">Tavily MCP&lt;/a>
+&lt;/strong> — MCP server that gives AI agents clean, structured web search with source URLs and relevance scoring. Nearly 5k installs, squarely aimed at RAG use cases. Worth a look if you&amp;rsquo;re building agent toolkits. 🤖&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anomalyco/opencode/releases/tag/v1.14.51" target="_blank" rel="noopener noreferrer">OpenCode v1.14.51&lt;/a>
+&lt;/strong> — Experimental background subagents so your tasks keep churning while you keep coding. Plus the billing origin header NVIDIA decided was needed. Two things you didn&amp;rsquo;t know you wanted, simultaneously.&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.13848" target="_blank" rel="noopener noreferrer">GraphBit&lt;/a>
+&lt;/strong> — Replaces prompted orchestration in agent frameworks with explicit DAG-based workflow definitions. No more hallucinated routing or infinite loops from the model &amp;ldquo;winging it.&amp;rdquo; Deterministic execution is underrated. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.14051" target="_blank" rel="noopener noreferrer">SPIN&lt;/a>
+&lt;/strong> — Planning wrapper that combines validated DAG planning with prefix-based execution to stop LLM planners from generating structurally broken or wildly bloated workflows. Targets the brittle-failure problem in production agent systems.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.13941" target="_blank" rel="noopener noreferrer">EvolveMem&lt;/a>
+&lt;/strong> — Co-evolves stored content &lt;em>and&lt;/em> the retrieval/scoring infrastructure in agent memory. The core insight: your scoring functions shouldn&amp;rsquo;t be frozen at deploy while your content keeps changing. AutoResearch-driven adaptation. Smart.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.13986" target="_blank" rel="noopener noreferrer">TabPFN-3&lt;/a>
+&lt;/strong> — Scales tabular foundation models to 1M-row datasets with substantially lower training and inference cost. If you&amp;rsquo;ve been ignoring foundation models for tabular data because of scale limits, this one&amp;rsquo;s for you. 🔥&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.13997" target="_blank" rel="noopener noreferrer">HodgeCover&lt;/a>
+&lt;/strong> — Tackles an irreducible cycle obstruction in MoE compression where pairwise-compatible experts form incompatible triples. Higher-order topological coverage framework. Niche but real if you care about efficient MoE inference.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.13880" target="_blank" rel="noopener noreferrer">PREPING&lt;/a>
+&lt;/strong> — Pre-task memory construction for agents. Addresses the cold-start problem: what do you stuff in agent memory &lt;em>before&lt;/em> it has any task experience? No curated demos, no post-deploy bootstrapping required.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization" target="_blank" rel="noopener noreferrer">NVIDIA AI Blueprints: Video Search &amp;amp; Summarization&lt;/a>
+&lt;/strong> — Reference architectures for GPU-accelerated vision agents and video analytics. Practical starting points if you want to build video search/summarization on NVIDIA kit without reinventing the pipeline. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.142" target="_blank" rel="noopener noreferrer">Claude Code v2.1.142&lt;/a>
+&lt;/strong> — New &lt;code>claude agents&lt;/code> flags (&lt;code>--add-dir&lt;/code>, &lt;code>--settings&lt;/code>, &lt;code>--mcp-config&lt;/code>, &lt;code>--plugin-dir&lt;/code>, &lt;code>--permission-mode&lt;/code>, &lt;code>--model&lt;/code>, &lt;code>--effort&lt;/code>, &lt;code>--dangerously-skip-permissions&lt;/code>) for configuring background sessions. Fast mode now defaults to Opus 4.7. The &lt;code>--dangerously-skip-permissions&lt;/code> flag is doing a lot of heavy lifting in that name, btw. 🤖&lt;/li>
+&lt;/ul>
+&lt;h2 id="community-finds">Community Finds&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://www.stephendiehl.com/posts/computer_algebra_mcp/" target="_blank" rel="noopener noreferrer">Symbolic Algebra with MCP&lt;/a>
+&lt;/strong> — Hooking symbolic math systems into MCP so LLMs can do precise mathematical reasoning through external tools instead of confidently hallucinating integrals. The future is LLMs knowing when they&amp;rsquo;re out of their depth. 📄&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>If you&amp;rsquo;re building agent systems headed for production, today&amp;rsquo;s reads converge on one theme: stop letting LLMs wing the control flow and start treating your data layer as infrastructure, not an afterthought. &lt;a href="https://arxiv.org/abs/2605.13848" target="_blank" rel="noopener noreferrer">GraphBit&lt;/a>
+ and &lt;a href="https://arxiv.org/abs/2605.14051" target="_blank" rel="noopener noreferrer">SPIN&lt;/a>
+ both argue for replacing prompted orchestration with explicit DAG-based planning — one at the workflow definition level, the other at execution validation. Together they sketch a clear pattern: define routing as structure, not suggestion. But deterministic execution only helps if the data you&amp;rsquo;re retrieving is actually any good. That&amp;rsquo;s where &lt;a href="https://pypi.org/project/corpulse/0.1.0/" target="_blank" rel="noopener noreferrer">corpulse&lt;/a>
+ fits — it gives you instrumentation for the corpus feeding your RAG pipeline, tracking quality, coverage, and drift over time. The concrete play: wire your agent orchestration through DAG-defined workflows, then instrument the retrieval corpus with corpulse so you can distinguish routing bugs from data rot when things break. Two different failure modes, two different fixes, and both are now actionable.&lt;/p></description></item><item><title>Tenkai Daily — May 14, 2026</title><link>https://tenkai.blog/posts/2026-05-14/</link><pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-05-14/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF" target="_blank" rel="noopener noreferrer">unsloth/Qwen3.6-27B-MTP-GGUF&lt;/a>
 &lt;/strong> — Unsloth&amp;rsquo;s quantized GGUF build of Qwen3.6-27B with Multi-Token Prediction baked in and imatrix quantization for tighter quality-per-bit. If you&amp;rsquo;re running local inference and want MTP without compiling from source, this is your grab-and-go option. 🤖&lt;/li>
