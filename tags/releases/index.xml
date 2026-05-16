@@ -1,4 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Tenkai</title><link>https://tenkai.blog/tags/releases/</link><description>Recent content in Releases on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 15 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — May 15, 2026</title><link>https://tenkai.blog/posts/2026-05-15/</link><pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-05-15/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Tenkai</title><link>https://tenkai.blog/tags/releases/</link><description>Recent content in Releases on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 16 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — May 16, 2026</title><link>https://tenkai.blog/posts/2026-05-16/</link><pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-05-16/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/TencentARC/Pixal3D" target="_blank" rel="noopener noreferrer">TencentARC/Pixal3D&lt;/a>
+&lt;/strong> — Image-to-3D generation that turns a single photo into a 3D model. Not magic, but it&amp;rsquo;s a step up from the usual 2.5D garbage. 🤖&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/ResembleAI/Dramabox" target="_blank" rel="noopener noreferrer">ResembleAI/Dramabox&lt;/a>
+&lt;/strong> — Diffusion transformer for expressive voice cloning, fine-tuned from LTX-2.3. If you need dramatic voices, this is worth a listen. 🔥&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.143" target="_blank" rel="noopener noreferrer">Claude Code v2.1.143&lt;/a>
+&lt;/strong> — Plugin dependencies are now enforced, and you get projected token costs per turn. Finally, a reason to actually read the docs. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/entroly/0.19.4/" target="_blank" rel="noopener noreferrer">entroly 0.19.4&lt;/a>
+&lt;/strong> — Token-saving proxy for AI coding agents. Claims 80% cost reduction while keeping full context. If that holds up, Cursor users should be paying attention. 💰&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/mithril-llm/0.2.1/" target="_blank" rel="noopener noreferrer">mithril-llm 0.2.1&lt;/a>
+&lt;/strong> — LLM firewall blocking prompt injection, jailbreaks, and PII leaks in real time. Not sexy, but essential. 🛡️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://ternlang.com" target="_blank" rel="noopener noreferrer">Ternary Intelligence Stack&lt;/a>
+&lt;/strong> — 30 tools for AI agents, adding a &amp;ldquo;hold&amp;rdquo; state (trit=0) for routing. &amp;ldquo;Ternary&amp;rdquo; is a bit of a gimmick, but the routing logic might actually be useful. 🤔&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.13851" target="_blank" rel="noopener noreferrer">Invisible Orchestrators Suppress Protective Behavior and Dissociate Power-Holders&lt;/a>
+&lt;/strong> — Hidden coordinators in multi-agent LLMs suppress safety behaviors. 365 runs, 5 agents each. If you&amp;rsquo;re deploying multi-agent systems, this is a must-read. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.14038" target="_blank" rel="noopener noreferrer">Model-Adaptive Tool Necessity Reveals the Knowing-Doing Gap in LLM Tool Use&lt;/a>
+&lt;/strong> — LLMs know when to use a tool but often fail to do it. The knowing-doing gap. Implications for tool-use design. 🧠&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.14054" target="_blank" rel="noopener noreferrer">Bad Seeing or Bad Thinking? Rewarding Perception for Vision-Language Reasoning&lt;/a>
+&lt;/strong> — VLMs need better perception to reason. Rewarding perception quality avoids static textual limits. A more efficient path to robust vision-language reasoning. 👁️&lt;/li>
+&lt;/ul>
+&lt;h2 id="tutorials--guides">Tutorials &amp;amp; Guides&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="httpsorahsakal.com/blog/mcp-vs-api-model-context-protocol-explained/" target="_blank" rel="noopener noreferrer">MCP vs. API Explained&lt;/a>
+&lt;/strong> — Breaks down Model Context Protocol vs. traditional APIs. If you&amp;rsquo;re integrating AI tools, understanding MCP is probably important. 📐&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>When you stack &lt;a href="https://arxiv.org/abs/2605.13851" target="_blank" rel="noopener noreferrer">Invisible Orchestrators Suppress Protective Behavior and Dissociate Power-Holders&lt;/a>
+ with &lt;a href="https://pypi.org/project/mithril-llm/0.2.1/" target="_blank" rel="noopener noreferrer">mithril-llm 0.2.1&lt;/a>
+, a practical pattern emerges: if you&amp;rsquo;re running multi-agent LLM workflows, wrap each agent with a real-time firewall like mithril-llm that blocks prompt injection and PII leaks — then monitor for the coordination patterns the paper describes, where a hidden orchestrator quietly suppresses safety behaviors across agents. Pair that with the finding from &lt;a href="https://arxiv.org/abs/2605.14038" target="_blank" rel="noopener noreferrer">Model-Adaptive Tool Necessity Reveals the Knowing-Doing Gap in LLM Tool Use&lt;/a>
+: even when your agents &amp;ldquo;know&amp;rdquo; they should call a tool, they often don&amp;rsquo;t. So add explicit tool-use assertions and fallback checks rather than assuming tool-use will happen on its own. The combo gives you guardrails on the outside and awareness of internal failures on the inside.&lt;/p></description></item><item><title>Tenkai Daily — May 15, 2026</title><link>https://tenkai.blog/posts/2026-05-15/</link><pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-05-15/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://github.com/anomalyco/opencode/releases/tag/v1.15.0" target="_blank" rel="noopener noreferrer">OpenCode v1.15.0&lt;/a>
 &lt;/strong> — Effect-based core event system for more reliable event delivery across sessions and integrations. Also stops custom tool modules from exploding on invalid exports and handles missing project instructions gracefully. Solid housekeeping release.&lt;/li>
