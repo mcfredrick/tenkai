@@ -1,4 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev-Tools on Tenkai</title><link>https://tenkai.blog/tags/dev-tools/</link><description>Recent content in Dev-Tools on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 17 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/dev-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — May 17, 2026</title><link>https://tenkai.blog/posts/2026-05-17/</link><pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-05-17/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev-Tools on Tenkai</title><link>https://tenkai.blog/tags/dev-tools/</link><description>Recent content in Dev-Tools on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 18 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/dev-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — May 18, 2026</title><link>https://tenkai.blog/posts/2026-05-18/</link><pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-05-18/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/microsoft/Fara-7B" target="_blank" rel="noopener noreferrer">Microsoft Fara-7B: Multimodal VL model&lt;/a>
+&lt;/strong> — Qwen2.5-VL based image-text-to-text model under MIT license, with TGI support. Solid if you need a permissively-licensed multimodal model that won&amp;rsquo;t ask you to sign your firstborn over to a cloud provider. 📄&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/code-context-mcp/2.0.4/" target="_blank" rel="noopener noreferrer">code-context-mcp 2.0.4&lt;/a>
+&lt;/strong> — MCP server that gives Claude Code local RAG over your repo. Stops your AI from hallucinating functions that haven&amp;rsquo;t existed since 2019. 🛠️&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.15202" target="_blank" rel="noopener noreferrer">DeepSlide: From Artifacts to Presentation Delivery&lt;/a>
+&lt;/strong> — Looks at the gap between &amp;ldquo;generating a pretty slide deck&amp;rdquo; and &amp;ldquo;actually delivering a presentation well.&amp;rdquo; Spoiler: pacing and narrative matter more than gradients. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.15204" target="_blank" rel="noopener noreferrer">SDOF: Taming the Alignment Tax in Multi-Agent Orchestration with State-Constrained Dispatch&lt;/a>
+&lt;/strong> — SDOF adds stage constraints to LangChain/LangGraph/CrewAI pipelines so they stop pretending business processes are just graphs with vibes. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.15215" target="_blank" rel="noopener noreferrer">SkillSmith: Compiling Agent Skills into Boundary-Guided Runtime Interfaces&lt;/a>
+&lt;/strong> — Instead of stuffing skills into prompts and hoping, SkillSmith compiles them into proper runtime interfaces with boundaries. Sensible engineering approach to the skills-in-prompts problem. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.15217" target="_blank" rel="noopener noreferrer">Fair outputs, Biased Internals: Causal Potency and Asymmetry of Latent Bias in LLMs for High-Stakes Decisions&lt;/a>
+&lt;/strong> — Instruction-tuned models can look fair on the surface while carrying biased representations under the hood. This paper asks whether those internals can leak through—and the answer isn&amp;rsquo;t comforting. 🔥&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.15218" target="_blank" rel="noopener noreferrer">CAX-Agent: A Lightweight Agent Harness for Reliable APDL Automation&lt;/a>
+&lt;/strong> — LLMs running MAPDL simulations tend to break things. CAX-Agent adds structured execution control, tool encapsulation, and fault recovery so your FEA runs don&amp;rsquo;t become a comedy of errors. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.15219" target="_blank" rel="noopener noreferrer">NOVA: Fundamental Limits of Knowledge Discovery Through AI&lt;/a>
+&lt;/strong> — Models the &amp;ldquo;generate, verify, accumulate, retrain&amp;rdquo; loop as adaptive sampling and asks: can AI actually discover new knowledge, and at what cost? The limits it finds are worth thinking about. 📄&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/tech-leads-club/agent-skills" target="_blank" rel="noopener noreferrer">tech-leads-club/agent-skills&lt;/a>
+&lt;/strong> — Vetted skill registry for Antigravity, Claude Code, Cursor, and Copilot. Think of it as a curated plugin store that won&amp;rsquo;t let your agents run off the rails. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/Light-Heart-Labs/DreamServer" target="_blank" rel="noopener noreferrer">Light-Heart-Labs/DreamServer&lt;/a>
+&lt;/strong> — Self-hosted local AI platform: LLM inference, chat, voice, agents, RAG, image gen — no cloud, no subscriptions. For the &amp;ldquo;I want it all on my hardware&amp;rdquo; crowd. 🤖&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>There&amp;rsquo;s a quiet theme running through today&amp;rsquo;s picks: the industry is slowly admitting that stuffing more capabilities into prompts isn&amp;rsquo;t engineering—it&amp;rsquo;s gambling. &lt;strong>&lt;a href="https://arxiv.org/abs/2605.15215" target="_blank" rel="noopener noreferrer">SkillSmith&lt;/a>
+&lt;/strong> tackles this head-on by compiling agent skills into proper runtime interfaces with boundaries instead of hoping the model respects a markdown comment. &lt;strong>&lt;a href="https://arxiv.org/abs/2605.15204" target="_blank" rel="noopener noreferrer">SDOF&lt;/a>
+&lt;/strong> applies the same discipline to multi-agent orchestration, adding stage constraints so your LangGraph pipeline doesn&amp;rsquo;t treat a procurement approval like a free-form chat. And the &lt;strong>&lt;a href="https://github.com/tech-leads-club/agent-skills" target="_blank" rel="noopener noreferrer">tech-leeds-club/agent-skills&lt;/a>
+&lt;/strong> registry gives you a curated starting point so you&amp;rsquo;re not hand-rolling every skill from scratch. The through-line: if you&amp;rsquo;re building anything beyond a toy agent, stop relying on prompt-level conventions and start enforcing structural constraints—at the skill level, at the orchestration level, and at the registry level. The tools and research are converging on the same answer. 🛠️&lt;/p></description></item><item><title>Tenkai Daily — May 17, 2026</title><link>https://tenkai.blog/posts/2026-05-17/</link><pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-05-17/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/ScenemaAI/scenema-audio" target="_blank" rel="noopener noreferrer">ScenemaAI/scenema-audio: Expressive speech generation&lt;/a>
 &lt;/strong> — Diffusion-based text-to-audio that handles expressive speech, voice cloning, and voice acting across 17 languages. Solid coverage if you&amp;rsquo;re building anything voice-adjacent; the voice acting angle is less common than the usual clone-and-read pipeline.&lt;/li>
