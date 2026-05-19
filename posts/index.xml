@@ -1,4 +1,58 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tenkai</title><link>https://tenkai.blog/posts/</link><description>Recent content in Posts on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 18 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — May 18, 2026</title><link>https://tenkai.blog/posts/2026-05-18/</link><pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-05-18/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tenkai</title><link>https://tenkai.blog/posts/</link><description>Recent content in Posts on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 19 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — May 19, 2026</title><link>https://tenkai.blog/posts/2026-05-19/</link><pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-05-19/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/bytedance-research/Lance" target="_blank" rel="noopener noreferrer">Lance: Bytedance&amp;rsquo;s Any-to-Any Multimodal Model&lt;/a>
+&lt;/strong> — Bytedance&amp;rsquo;s any-to-any model that handles image gen, video gen, image editing, and video understanding. Built on Qwen2.5-VL-3B-Instruct, Apache 2.0, so it&amp;rsquo;s actually usable. Worth poking at if you care about multimodal without vendor lock-in. 🤖&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://www.npmjs.com/package/@joseairosa/recall" target="_blank" rel="noopener noreferrer">Recall: Give Claude memory with Redis-backed persistent context&lt;/a>
+&lt;/strong> — Persistent memory for Claude via Redis, letting your agent carry state across sessions. If you&amp;rsquo;re building stateful agents, this solves a genuinely annoying problem. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anomalyco/opencode/releases/tag/v1.15.5" target="_blank" rel="noopener noreferrer">OpenCode v1.15.5&lt;/a>
+&lt;/strong> — Native OpenAI runtime preview behind an experimental flag, plus &lt;code>--replay&lt;/code> to replay recent history and fixes for plugin tool calls. Solid incremental release for a tool that&amp;rsquo;s actually getting feature-rich.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/torch-pyodide/0.0.17/" target="_blank" rel="noopener noreferrer">torch-pyodide 0.0.17&lt;/a>
+&lt;/strong> — PyTorch in the browser via Pyodide + WebGPU with autograd, einsum, DataLoader, and float16/bfloat16. 11 new playground examples to mess with. If you&amp;rsquo;ve ever wanted to run PyTorch without a backend, this is the ticket. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/agloom/0.1.91/" target="_blank" rel="noopener noreferrer">agloom 0.1.91&lt;/a>
+&lt;/strong> — Production agent framework on LangChain/LangGraph with nine execution patterns, persistent memory, MCP, multi-level HITL, and observability hooks. Name&amp;rsquo;s unfortunate but the feature list is thorough. 🛠️&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.16265" target="_blank" rel="noopener noreferrer">AgentWall: A Runtime Safety Layer for Local AI Agents&lt;/a>
+&lt;/strong> — Runtime safety framework for agents that actually do things—shell commands, file edits, API calls, web browsing. Most safety work focuses on text output; AgentWall targets the stuff that can break your system. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/NVlabs/Sana" target="_blank" rel="noopener noreferrer">NVlabs/Sana&lt;/a>
+&lt;/strong> — High-resolution image synthesis using Linear Diffusion Transformers. Efficiency angle is the draw here. 🤖&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.16309" target="_blank" rel="noopener noreferrer">ANNEAL: Adapting LLM Agents via Governed Symbolic Patch Learning&lt;/a>
+&lt;/strong> — Instead of fiddling with prompts or weights, ANNEAL repairs the agent&amp;rsquo;s symbolic process knowledge—operator schemas, preconditions, constraints. Targets the root cause of repeated execution failures. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.16565" target="_blank" rel="noopener noreferrer">Skim: Speculative Execution for Fast and Efficient Web Agents&lt;/a>
+&lt;/strong> — Speculative execution for web agents that exploits the predictable structure of websites to cut down on model inference, browser rendering, and ReAct planning. Pre-computes likely next steps. Practical if you&amp;rsquo;re building browser agents. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.16259" target="_blank" rel="noopener noreferrer">Systematic Optimization of Real-Time Diffusion Model Inference on Apple M3 Ultra&lt;/a>
+&lt;/strong> — 10 phases of optimization targeting real-time diffusion on Apple M3 Ultra (60-core GPU, 512 GB unified memory). Fills a real gap—nobody&amp;rsquo;s talking about diffusion optimization outside CUDA land. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.16311" target="_blank" rel="noopener noreferrer">SignMuon: Communication-Efficient Distributed Muon Optimization&lt;/a>
+&lt;/strong> — 1-bit, matrix-aware distributed optimizer combining signSGD majority voting with Muon&amp;rsquo;s polar-step framework. Cuts both gradient communication cost and ignores coordinatewise optimizer blind spots. 📄&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/humanlayer/12-factor-agents" target="_blank" rel="noopener noreferrer">humanlayer/12-factor-agents&lt;/a>
+&lt;/strong> — Twelve principles for production-grade LLM software. Covers reliability, observability, maintainability—basically what we&amp;rsquo;ve learned the hard way building agents that don&amp;rsquo;t fall apart. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/affaan-m/ECC" target="_blank" rel="noopener noreferrer">affaan-m/ECC — Agent Harness Performance Optimization System&lt;/a>
+&lt;/strong> — Performance optimization framework for Claude Code, Codex, Opencode, Cursor, and friends. Skills, instincts, memory, security, research-first dev. 186k stars says something. 🔥&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/shareAI-lab/learn-claude-code" target="_blank" rel="noopener noreferrer">shareAI-lab/learn-claude-code — Nano Agent Harness Built from Scratch&lt;/a>
+&lt;/strong> — Build a Claude Code–like agent from zero. 61k stars for good reason—it&amp;rsquo;s the &amp;ldquo;see how the sausage is made&amp;rdquo; resource for agent architecture. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/stuzero/pg-mcp" target="_blank" rel="noopener noreferrer">Cloud-Ready Postgres MCP Server&lt;/a>
+&lt;/strong> — MCP server exposing PostgreSQL as a tool-callable resource. LLMs can query and interact with Postgres via MCP. Useful if your agent needs to actually work with data. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/lastmile-ai/mcp-agent" target="_blank" rel="noopener noreferrer">Mcp-Agent – Build effective agents with Model Context Protocol&lt;/a>
+&lt;/strong> — Higher-level abstraction for multi-step agent workflows using MCP. Tool orchestration and context management built in. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.144" target="_blank" rel="noopener noreferrer">Claude Code v2.1.144&lt;/a>
+&lt;/strong> — Adds &lt;code>/resume&lt;/code> for background sessions and elapsed duration notifications. Plugin browse/discover panes updated. Background subagent time tracking is the kind of detail that matters in production. 🛠️&lt;/li>
+&lt;/ul>
+&lt;h2 id="community-finds">Community Finds&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://www.stephendiehl.com/posts/computer_algebra_mcp/" target="_blank" rel="noopener noreferrer">Adventures in Symbolic Algebra with Model Context Protocol&lt;/a>
+&lt;/strong> — Deep dive into symbolic algebra via MCP, exploring how LLMs can use CAS tools for math reasoning. If you&amp;rsquo;ve ever wanted your agent to do actual algebra rather than hallucinate a solution, this is worth the read. 🔥&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>If you&amp;rsquo;re shipping web agents that do actual work—browsing, clicking, scraping—Skim&amp;rsquo;s speculative execution cuts inference cost by pre-computing likely next steps, but that&amp;rsquo;s only useful if your agent doesn&amp;rsquo;t blow up the system. Pair it with &lt;a href="https://arxiv.org/abs/2605.16265" target="_blank" rel="noopener noreferrer">AgentWall&lt;/a>
+ to gate shell commands, file edits, and API calls at runtime, and you&amp;rsquo;ve got speed plus guardrails. Layer in the &lt;a href="https://github.com/humanlayer/12-factor-agents" target="_blank" rel="noopener noreferrer">12-factor-agents&lt;/a>
+ checklist to keep the whole thing maintainable—observability, state management, fail-safes baked in from day one. The gap most teams hit isn&amp;rsquo;t capability; it&amp;rsquo;s making agents reliable enough to run unattended. This combo addresses the inference cost, the safety surface, and the operational hygiene in one shot.&lt;/p></description></item><item><title>Tenkai Daily — May 18, 2026</title><link>https://tenkai.blog/posts/2026-05-18/</link><pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-05-18/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/microsoft/Fara-7B" target="_blank" rel="noopener noreferrer">Microsoft Fara-7B: Multimodal VL model&lt;/a>
 &lt;/strong> — Qwen2.5-VL based image-text-to-text model under MIT license, with TGI support. Solid if you need a permissively-licensed multimodal model that won&amp;rsquo;t ask you to sign your firstborn over to a cloud provider. 📄&lt;/li>
