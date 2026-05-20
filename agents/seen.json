@@ -1,50 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://arxiv.org/abs/2603.18329",
-      "date": "2026-03-21"
-    },
-    {
-      "url": "https://smithery.ai/servers/github",
-      "date": "2026-03-21"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.81",
-      "date": "2026-03-21"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.80",
-      "date": "2026-03-21"
-    },
-    {
-      "url": "https://pypi.org/project/stateweave/0.3.10/",
-      "date": "2026-03-21"
-    },
-    {
-      "url": "https://pypi.org/project/cdn-ai/0.4.1/",
-      "date": "2026-03-21"
-    },
-    {
-      "url": "https://pypi.org/project/rwkv-ops/0.8.0/",
-      "date": "2026-03-21"
-    },
-    {
-      "url": "https://pypi.org/project/slopcheck/0.1.0/",
-      "date": "2026-03-21"
-    },
-    {
-      "url": "https://pypi.org/project/contexthub/0.0.1/",
-      "date": "2026-03-21"
-    },
-    {
-      "url": "https://pypi.org/project/velar-sdk/0.4.11/",
-      "date": "2026-03-21"
-    },
-    {
-      "url": "https://pypi.org/project/streamlit-realtime-audio/0.0.8/",
-      "date": "2026-03-21"
-    },
-    {
       "url": "https://github.com/meta-pytorch/OpenEnv",
       "date": "2026-03-22"
     },
@@ -5047,6 +5003,130 @@
     {
       "url": "https://pypi.org/project/tfp-nightly/0.26.0.dev20260519/",
       "date": "2026-05-19"
+    },
+    {
+      "url": "https://huggingface.co/inclusionAI/Ring-2.6-1T",
+      "date": "2026-05-20"
+    },
+    {
+      "url": "https://huggingface.co/sapientinc/HRM-Text-1B",
+      "date": "2026-05-20"
+    },
+    {
+      "url": "https://huggingface.co/Jackrong/Qwopus3.5-9B-Coder-GGUF",
+      "date": "2026-05-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.18795",
+      "date": "2026-05-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.18796",
+      "date": "2026-05-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.18797",
+      "date": "2026-05-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.18800",
+      "date": "2026-05-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.18810",
+      "date": "2026-05-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.18812",
+      "date": "2026-05-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.19008",
+      "date": "2026-05-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.19042",
+      "date": "2026-05-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.18807",
+      "date": "2026-05-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.19099",
+      "date": "2026-05-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.19127",
+      "date": "2026-05-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.18794",
+      "date": "2026-05-20"
+    },
+    {
+      "url": "https://github.com/Aherontas/Pycon_Greece_2025_Presentation_Agents",
+      "date": "2026-05-20"
+    },
+    {
+      "url": "https://norahsakal.com/blog/mcp-vs-api-model-context-protocol-explained/",
+      "date": "2026-05-20"
+    },
+    {
+      "url": "https://github.com/apify/mcp-cli",
+      "date": "2026-05-20"
+    },
+    {
+      "url": "://github.com/jlumbroso/passage-of-time-mcp",
+      "date": "2026-05-20"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=46220577",
+      "date": "2026-05-20"
+    },
+    {
+      "url": "https://github.com/ahujasid/ableton-mcp",
+      "date": "2026-05-20"
+    },
+    {
+      "url": "https://api.contrastcyber.com",
+      "date": "2026-05-20"
+    },
+    {
+      "url": "https://plith.ai",
+      "date": "2026-05-20"
+    },
+    {
+      "url": "https://www.weavely.ai/",
+      "date": "2026-05-20"
+    },
+    {
+      "url": "https://fruitflies.ai",
+      "date": "2026-05-20"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.145",
+      "date": "2026-05-20"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/cli-v3.0.9",
+      "date": "2026-05-20"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/cli-v3.0.8",
+      "date": "2026-05-20"
+    },
+    {
+      "url": "https://pypi.org/project/phi-gateway/0.4.0/",
+      "date": "2026-05-20"
+    },
+    {
+      "url": "https://pypi.org/project/vllm-htop/0.4.0/",
+      "date": "2026-05-20"
+    },
+    {
+      "url": "https://pypi.org/project/rao-agent/1.0.2.post2511/",
+      "date": "2026-05-20"
     }
   ]
 }
