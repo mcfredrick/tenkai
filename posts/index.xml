@@ -1,4 +1,52 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tenkai</title><link>https://tenkai.blog/posts/</link><description>Recent content in Posts on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 19 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — May 19, 2026</title><link>https://tenkai.blog/posts/2026-05-19/</link><pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-05-19/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tenkai</title><link>https://tenkai.blog/posts/</link><description>Recent content in Posts on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — May 20, 2026</title><link>https://tenkai.blog/posts/2026-05-20/</link><pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-05-20/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/inclusionAI/Ring-2.6-1T" target="_blank" rel="noopener noreferrer">inclusionAI/Ring-2.6-1T: Large-Scale Hybrid Architecture Model&lt;/a>
+&lt;/strong> — A 1T parameter hybrid-architecture conversational model, MIT-licensed, with eval results and compressed-tensors support. The hybrid angle is worth poking at if you&amp;rsquo;re tired of monolithic decoder blocks doing everything. 🤖&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/sapientinc/HRM-Text-1B" target="_blank" rel="noopener noreferrer">sapientinc/HRM-Text-1B: Hierarchical Reasoning Model&lt;/a>
+&lt;/strong> — Hierarchical reasoning via a prefix-LM architecture with a pre-alignment approach, Apache 2.0. Targets non-chat text generation rather than the usual chat pipeline. Niche, but if you&amp;rsquo;re building structured outputs it might be worth a look. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/Jackrong/Qwopus3.5-9B-Coder-GGUF" target="_blank" rel="noopener noreferrer">Jackrong/Qwopus3.5-9B-Coder-GGUF: Agent-Focused Coding Model&lt;/a>
+&lt;/strong> — Qwen3.5-based model fine-tuned on Claude Opus reasoning traces for coding, tool-use, and function calling. Available in GGUF, which means you can actually run it locally. Practical. 🔥&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://api.contrastcyber.com" target="_blank" rel="noopener noreferrer">ContrastAPI Security Intelligence MCP Server&lt;/a>
+&lt;/strong> — MCP server with 53 security-intel tools: CVE/KEV, MITRE ATLAS+D3FEND, Sigma rules, email posture, domain/web intel, threat intel. 4,614 installs and growing. If you&amp;rsquo;re wiring security into an agent stack, this is a solid foundation. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://plith.ai" target="_blank" rel="noopener noreferrer">Plith Agent Infrastructure APIs&lt;/a>
+&lt;/strong> — Five APIs as the base layer for AI agents: task dedup, cost prediction, output validation, behavioral governance, shared failure intel. 1,000 free credits/month, no credit card. The &amp;ldquo;no credit card&amp;rdquo; part alone makes it worth a glance. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://www.weavely.ai/" target="_blank" rel="noopener noreferrer">Weavely AI Forms &amp;amp; Surveys MCP Server&lt;/a>
+&lt;/strong> — MCP server (1,534 installs) with 13 tools covering the full form lifecycle: creation, 25+ element types, conditional logic, themes, multi-step pages, publishing — all via natural language with live preview. Niche but the MCP angle is clever. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/phi-gateway/0.4.0/" target="_blank" rel="noopener noreferrer">phi-gateway 0.4.0&lt;/a>
+&lt;/strong> — Self-hosted AI gateway with LLM proxy, MCP tool registry, RAG knowledge base, and agent memory through a single API. Zero vendor lock-in is the pitch, and on paper it covers a lot of ground. Worth evaluating if you&amp;rsquo;re tired of cobbling together your own orchestration layer. 🔥&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/vllm-htop/0.4.0/" target="_blank" rel="noopener noreferrer">vllm-htop 0.4.0&lt;/a>
+&lt;/strong> — htop-style terminal monitor for vLLM inference servers: GPU utilization, request throughput, KV-cache metrics in real time. If you&amp;rsquo;re running vLLM in production, you should already be looking at this. 🛠️&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.18795" target="_blank" rel="noopener noreferrer">HELoRA: Hot Experts Layer-Level Low-Rank Adaptation for Mixture-of-Experts Models&lt;/a>
+&lt;/strong> — HELoRA targets MoE models specifically, exploiting sparse activation patterns for more efficient LoRA-style fine-tuning. Most LoRA work ignores MoE sparsity; this tries to close that gap. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.18796" target="_blank" rel="noopener noreferrer">UCCI: Calibrated Uncertainty for Cost-Optimal LLM Cascade Routing&lt;/a>
+&lt;/strong> — Maps token-level margin uncertainty to per-query error probability, enabling cost-optimal routing between small and large models without per-workload threshold tuning. Solves a real deployment pain point. 🔥&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.18800" target="_blank" rel="noopener noreferrer">Theory-optimal Quantization Based on Flatness&lt;/a>
+&lt;/strong> — Proposes a quantization approach grounded in activation flatness to mitigate outlier effects at low bit precision. Gives a principled framework for LLM compression rather than the usual &amp;ldquo;try 4-bit and pray.&amp;rdquo; 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.18810" target="_blank" rel="noopener noreferrer">D-PACE: Dynamic Position-Aware Cross-Entropy for Parallel Speculative Drafting&lt;/a>
+&lt;/strong> — D-PACE improves multi-token drafter training for parallel speculative decoding, specifically targeting diffusion-based drafters like DFlash. Enables deeper drafters and longer accepted token sequences. If you&amp;rsquo;re into speculative decoding, this is relevant. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.18812" target="_blank" rel="noopener noreferrer">PASC: Pipeline-Aware Conformal Prediction with Joint Coverage Guarantees for Multi-Stage NLP and LLM Pipelines&lt;/a>
+&lt;/strong> — PASC provides joint coverage guarantees across multi-stage pipelines, accounting for error compounding. Stage-independent calibration is a known weakness in pipeline systems; this addresses it directly. 🔥&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.18797" target="_blank" rel="noopener noreferrer">Simply Stabilizing the Loop via Fully Looped Transformer&lt;/a>
+&lt;/strong> — Fully Looped Transformer reuses the same Transformer blocks iteratively, trading compute for performance without increasing parameters or context length. Loop count is adjustable at inference time. An interesting trade-off to consider. 🤖&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.145" target="_blank" rel="noopener noreferrer">Claude Code v2.1.145: JSON session listing and improved OTEL tracing&lt;/a>
+&lt;/strong> — Adds &lt;code>claude agents --json&lt;/code> for scripting session data (tmux-resurrect, status bars, session pickers). OTEL spans now include &lt;code>agent_id&lt;/code>/&lt;code>parent_agent_id&lt;/code> and background subagent spans nest correctly. JSON output alone makes this worth the upgrade. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/cline/cline/releases/tag/cli-v3.0.9" target="_blank" rel="noopener noreferrer">Cline CLI v3.0.9: Concurrent plugin loading and optimistic config toggles&lt;/a>
+&lt;/strong> — Loads sandboxed plugins concurrently, caches tool descriptors, and makes config toggles optimistic in the TUI. Faster startup and less annoying reconfig cycles. Fuzzy ranking is back too. 🛠️&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>If you&amp;rsquo;re building an agent stack that needs to be both cost-effective and security-conscious, the combination of &lt;a href="https://arxiv.org/abs/2605.18796" target="_blank" rel="noopener noreferrer">UCCI&lt;/a>
+ for routing and &lt;a href="https://api.contrastcyber.com" target="_blank" rel="noopener noreferrer">ContrastAPI Security Intelligence MCP Server&lt;/a>
+ for threat intel makes a practical pairing—route sensitive queries to a larger model only when UCCI&amp;rsquo;s uncertainty metric flags them, otherwise handle with a smaller model and skip the overhead. Wire both through &lt;a href="https://pypi.org/project/phi-gateway/0.4.0/" target="_blank" rel="noopener noreferrer">phi-gateway 0.4.0&lt;/a>
+ to keep a single control plane for LLM proxying, MCP tool registration, and agent memory. The gateway gives you the orchestration layer without vendor lock-in, while UCCI prevents over-provisioning and ContrastAPI catches the queries that do need the bigger model but also carry security risk. It&amp;rsquo;s not a silver bullet, but it&amp;rsquo;s a deployment pattern that actually cuts costs and adds guardrails at the same time.&lt;/p></description></item><item><title>Tenkai Daily — May 19, 2026</title><link>https://tenkai.blog/posts/2026-05-19/</link><pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-05-19/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/bytedance-research/Lance" target="_blank" rel="noopener noreferrer">Lance: Bytedance&amp;rsquo;s Any-to-Any Multimodal Model&lt;/a>
 &lt;/strong> — Bytedance&amp;rsquo;s any-to-any model that handles image gen, video gen, image editing, and video understanding. Built on Qwen2.5-VL-3B-Instruct, Apache 2.0, so it&amp;rsquo;s actually usable. Worth poking at if you care about multimodal without vendor lock-in. 🤖&lt;/li>
