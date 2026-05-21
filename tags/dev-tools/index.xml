@@ -1,4 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev-Tools on Tenkai</title><link>https://tenkai.blog/tags/dev-tools/</link><description>Recent content in Dev-Tools on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/dev-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — May 20, 2026</title><link>https://tenkai.blog/posts/2026-05-20/</link><pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-05-20/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev-Tools on Tenkai</title><link>https://tenkai.blog/tags/dev-tools/</link><description>Recent content in Dev-Tools on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 21 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/dev-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — May 21, 2026</title><link>https://tenkai.blog/posts/2026-05-21/</link><pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-05-21/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/CohereLabs/command-a-plus-05-2026-w4a4" target="_blank" rel="noopener noreferrer">CohereLabs/command-a-plus-05-2026-w4a4&lt;/a>
+&lt;/strong> — A 4-bit weight-only quantized Cohere model for image-text-to-text in 40+ languages. Lean and Apache 2.0 licensed, perfect for running on hardware that isn&amp;rsquo;t a GPU cluster. 🤖&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/NemoStation/Marlin-2B" target="_blank" rel="noopener noreferrer">NemoStation/Marlin-2B&lt;/a>
+&lt;/strong> — 2B-parameter video-text VLM fine-tuned from Qwen3.5-2B. Handles captioning and temporal grounding; Apache 2.0 with a stack of arXiv papers backing it. 📄&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/ggml-org/llama.cpp" target="_blank" rel="noopener noreferrer">ggml-org/llama.cpp&lt;/a>
+&lt;/strong> — LLM inference in C/C++. The backbone for running models locally without Python overhead. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anomalyco/opencode/releases/tag/v1.15.6" target="_blank" rel="noopener noreferrer">OpenCode v1.15.6&lt;/a>
+&lt;/strong> — TUI diff viewer, shell mode, subagent picker, and plugin error resilience. Finally made plugin failures non-breaking, which is overdue. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/nexusmemo/0.2.2/" target="_blank" rel="noopener noreferrer">nexusmemo 0.2.2&lt;/a>
+&lt;/strong> — Local-first AI memory layer for persistent, structured LLM memory. Cuts dependency on cloud vector stores for stateful apps. 🔥&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/vllm-htop/0.4.6/" target="_blank" rel="noopener noreferrer">vllm-htop 0.4.6&lt;/a>
+&lt;/strong> — htop for vLLM inference servers. Real-time terminal metrics for debugging production deployments. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/ml-atlas-sdk/0.2.0/" target="_blank" rel="noopener noreferrer">ml-atlas-sdk 0.2.0&lt;/a>
+&lt;/strong> — Pushes PyTorch models and validation data to MLflow for TensorRT/Triton. Bridges training and inference deployment pipelines. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/marm-mcp-server/2.6.1/" target="_blank" rel="noopener noreferrer">marm-mcp-server 2.6.1&lt;/a>
+&lt;/strong> — MARM-Systems: memory backend, semantic search, and agent coordination protocol. A full-stack solution for multi-agent AI workflows. 🤖&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.18801" target="_blank" rel="noopener noreferrer">Position: Let&amp;rsquo;s Develop Data Probes to Fundamentally Understand How Data Affects LLM Performance&lt;/a>
+&lt;/strong> — We know data matters; we don&amp;rsquo;t know why. This paper calls for probes to figure out what makes training/tuning/alignment data actually useful. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.18818" target="_blank" rel="noopener noreferrer">Operationalizing Document AI: A Microservice Architecture for OCR and LLM Pipelines in Production&lt;/a>
+&lt;/strong> — Academic research stops at model definition; this fills the gap with a microservice architecture for OCR and LLM pipelines at scale. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.18937" target="_blank" rel="noopener noreferrer">Evaluating the Utility of Personal Health Records in Personalized Health AI&lt;/a>
+&lt;/strong> — LLMs on PHRs? They assess whether patient-managed records actually help or just add noise. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.19010" target="_blank" rel="noopener noreferrer">AgentNLQ: A General-Purpose Agent for Natural Language to SQL&lt;/a>
+&lt;/strong> — NL2SQL agent built on LLMs. Aimed at making natural language queries to databases less of a headache. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.19031" target="_blank" rel="noopener noreferrer">KAN-MLP-Mixer: A comprehensive investigation of the usage of Kolmogorov-Arnold Networks (KANs) for improving IMU-based Human Activity Recognition&lt;/a>
+&lt;/strong> — KANs on clean data are great; on noisy IMU data, not so much. This paper investigates why. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.19035" target="_blank" rel="noopener noreferrer">Trustworthy Agent Network: Trust in Agent Networks Must Be Baked In, Not Bolted On&lt;/a>
+&lt;/strong> — As agents collaborate, trust can&amp;rsquo;t be an afterthought. This paper argues for built-in trust mechanisms. 📄&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.146" target="_blank" rel="noopener noreferrer">Claude Code v2.1.146&lt;/a>
+&lt;/strong> — /code-review command, OTEL span fixes, Windows PowerShell fix. Renamed /simplify to /code-review, fixed Auto mode suppression, and added claude agents &amp;ndash;json. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/can1357/oh-my-pi" target="_blank" rel="noopener noreferrer">can1357/oh-my-pi&lt;/a>
+&lt;/strong> — Terminal-based AI coding agent with hash-anchored edits, LSP integration, and subagent orchestration. For those who prefer their AI assistants in the terminal. 🛠️&lt;/li>
+&lt;/ul>
+&lt;h2 id="tutorials--guides">Tutorials &amp;amp; Guides&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/multica-ai/andrej-karpathy-skills" target="_blank" rel="noopener noreferrer">multica-ai/andrej-karpathy-skills&lt;/a>
+&lt;/strong> — CLAUDE.md config derived from Karpathy&amp;rsquo;s LLM coding pitfalls. Optimizes Claude Code behavior for AI-assisted workflows. 🛠️&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>The CohereLabs/command-a-plus-05-2026-w4a4 model paired with ggml-org/llama.cpp gives you a 4-bit multilingual model you can run locally without Python overhead. Stack nexusmemo 0.2.2 on top for persistent, structured memory so the model retains context across sessions without relying on cloud vector stores. Add vllm-htop 0.4.6 for real-time metrics when debugging deployments. The result: a lean, stateful LLM service that runs on modest hardware and actually works in production without begging for GPU time. For teams building document AI or NL2SQL pipelines, this is a concrete stack—quantize the model, keep memory local, monitor it like any other service, and skip the cloud dependency tax entirely. If you need multi-agent coordination, marm-mcp-server 2.6.1 can layer on top for agent communication and semantic search. 🤖&lt;/p></description></item><item><title>Tenkai Daily — May 20, 2026</title><link>https://tenkai.blog/posts/2026-05-20/</link><pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-05-20/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/inclusionAI/Ring-2.6-1T" target="_blank" rel="noopener noreferrer">inclusionAI/Ring-2.6-1T: Large-Scale Hybrid Architecture Model&lt;/a>
 &lt;/strong> — A 1T parameter hybrid-architecture conversational model, MIT-licensed, with eval results and compressed-tensors support. The hybrid angle is worth poking at if you&amp;rsquo;re tired of monolithic decoder blocks doing everything. 🤖&lt;/li>
