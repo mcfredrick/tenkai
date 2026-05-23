@@ -1,174 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/tinygrad/tinygrad",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://github.com/jingyaogong/minimind",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://github.com/hesreallyhim/awesome-claude-code",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://github.com/hao-ai-lab/FastVideo",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://github.com/czlonkowski/n8n-mcp",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://github.com/elizaOS/eliza",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://github.com/DayuanJiang/next-ai-draw-io",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://github.com/triggerdotdev/trigger.dev",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://github.com/supermemoryai/supermemory",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://huggingface.co/HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://huggingface.co/Qwen/Qwen3.5-9B",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://huggingface.co/Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://huggingface.co/datalab-to/chandra-ocr-2",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.20213",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.20260",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.20270",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.20285",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.20293",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.20435",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.20470",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.20537",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.20578",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.20266",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.20295",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.20296",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.20297",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.20315",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.20333",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.20339",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.20390",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.20397",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://pypi.org/project/dotmd-parser/0.2.0/",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://pypi.org/project/my-dev-team/0.6.1/",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://pypi.org/project/agethos/0.1.0/",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://pypi.org/project/conexus/2.4.1/",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://pypi.org/project/cxcoast-agent/0.1.31/",
-      "date": "2026-03-24"
-    },
-    {
-      "url": "https://pypi.org/project/awb/0.5.2/",
-      "date": "2026-03-24"
-    },
-    {
       "url": "https://github.com/mvanhorn/last30days-skill",
       "date": "2026-03-25"
     },
@@ -5107,6 +4939,110 @@
     {
       "url": "https://pypi.org/project/buddyme/0.2.8/",
       "date": "2026-05-22"
+    },
+    {
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "date": "2026-05-23"
+    },
+    {
+      "url": "https://github.com/karpathy/nn-zero-to-hero",
+      "date": "2026-05-23"
+    },
+    {
+      "url": "https://huggingface.co/tencent/Hy-MT2-30B-A3B",
+      "date": "2026-05-23"
+    },
+    {
+      "url": "https://huggingface.co/circlestone-labs/Anima",
+      "date": "2026-05-23"
+    },
+    {
+      "url": "https://huggingface.co/Efficient-Large-Model/SANA-WM_bidirectional",
+      "date": "2026-05-23"
+    },
+    {
+      "url": "https://rettfrabonden.com",
+      "date": "2026-05-23"
+    },
+    {
+      "url": "https://travel-deals-mcp.site",
+      "date": "2026-05-23"
+    },
+    {
+      "url": "https://vistoya.com/mcp",
+      "date": "2026-05-23"
+    },
+    {
+      "url": "https://smithery.ai/servers/alexandria-shai-eden/caselaw",
+      "date": "2026-05-23"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.149",
+      "date": "2026-05-23"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/cli-v3.0.13",
+      "date": "2026-05-23"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.15.9",
+      "date": "2026-05-23"
+    },
+    {
+      "url": "https://pypi.org/project/awaithumans/0.1.6/",
+      "date": "2026-05-23"
+    },
+    {
+      "url": "https://pypi.org/project/nwcortex/1.2.5/",
+      "date": "2026-05-23"
+    },
+    {
+      "url": "https://pypi.org/project/eventdisplay-ml/3.0.0/",
+      "date": "2026-05-23"
+    },
+    {
+      "url": "https://pypi.org/project/agent-strace/0.51.0/",
+      "date": "2026-05-23"
+    },
+    {
+      "url": "https://pypi.org/project/agent-strace/0.50.0/",
+      "date": "2026-05-23"
+    },
+    {
+      "url": "https://pypi.org/project/bijotel/1.5.3/",
+      "date": "2026-05-23"
+    },
+    {
+      "url": "https://pypi.org/project/synapse-orch-ai/1.6.0/",
+      "date": "2026-05-23"
+    },
+    {
+      "url": "https://pypi.org/project/b4n1-web/0.9.0/",
+      "date": "2026-05-23"
+    },
+    {
+      "url": "https://pypi.org/project/backpropagate/1.2.0/",
+      "date": "2026-05-23"
+    },
+    {
+      "url": "https://pypi.org/project/juniper-cascor-worker/0.4.0/",
+      "date": "2026-05-23"
+    },
+    {
+      "url": "https://pypi.org/project/juniper-cascor-client/0.4.0/",
+      "date": "2026-05-23"
+    },
+    {
+      "url": "https://pypi.org/project/wonderland-ai/0.10.0/",
+      "date": "2026-05-23"
+    },
+    {
+      "url": "https://pypi.org/project/entroly/1.0.3/",
+      "date": "2026-05-23"
+    },
+    {
+      "url": "https://pypi.org/project/botu-cli/0.3.0/",
+      "date": "2026-05-23"
     }
   ]
 }
