@@ -1,166 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/mvanhorn/last30days-skill",
-      "date": "2026-03-25"
-    },
-    {
-      "url": "https://github.com/hsliuping/TradingAgents-CN",
-      "date": "2026-03-25"
-    },
-    {
-      "url": "https://github.com/usestrix/strix",
-      "date": "2026-03-25"
-    },
-    {
-      "url": "https://github.com/microsoft/markitdown",
-      "date": "2026-03-25"
-    },
-    {
-      "url": "https://github.com/agentscope-ai/agentscope",
-      "date": "2026-03-25"
-    },
-    {
-      "url": "https://github.com/OWASP/Nettacker",
-      "date": "2026-03-25"
-    },
-    {
-      "url": "https://github.com/ruvnet/ruflo",
-      "date": "2026-03-25"
-    },
-    {
-      "url": "https://github.com/langgenius/dify",
-      "date": "2026-03-25"
-    },
-    {
-      "url": "https://github.com/davideast/stitch-mcp",
-      "date": "2026-03-25"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.22359",
-      "date": "2026-03-25"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.22300",
-      "date": "2026-03-25"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.22299",
-      "date": "2026-03-25"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.22303",
-      "date": "2026-03-25"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.22651",
-      "date": "2026-03-25"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.22608",
-      "date": "2026-03-25"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.22633",
-      "date": "2026-03-25"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.22345",
-      "date": "2026-03-25"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.22350",
-      "date": "2026-03-25"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.22386",
-      "date": "2026-03-25"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.22558",
-      "date": "2026-03-25"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.22619",
-      "date": "2026-03-25"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.22292",
-      "date": "2026-03-25"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.22294",
-      "date": "2026-03-25"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.22304",
-      "date": "2026-03-25"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.22305",
-      "date": "2026-03-25"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.22309",
-      "date": "2026-03-25"
-    },
-    {
-      "url": "https://news.ycombinator.com/item?id=43506068",
-      "date": "2026-03-25"
-    },
-    {
-      "url": "https://smithery.ai/servers/browserbase",
-      "date": "2026-03-25"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.83",
-      "date": "2026-03-25"
-    },
-    {
-      "url": "https://github.com/continuedev/continue/releases/tag/v1.3.34-vscode",
-      "date": "2026-03-25"
-    },
-    {
-      "url": "https://github.com/continuedev/continue/releases/tag/v1.2.18-vscode",
-      "date": "2026-03-25"
-    },
-    {
-      "url": "https://github.com/continuedev/continue/releases/tag/v1.0.63-jetbrains",
-      "date": "2026-03-25"
-    },
-    {
-      "url": "https://pypi.org/project/ghostaudit/1.0.0/",
-      "date": "2026-03-25"
-    },
-    {
-      "url": "https://pypi.org/project/openai-agents/0.13.1/",
-      "date": "2026-03-25"
-    },
-    {
-      "url": "https://pypi.org/project/clawmetry/0.12.76/",
-      "date": "2026-03-25"
-    },
-    {
-      "url": "https://pypi.org/project/openmax/0.9.4/",
-      "date": "2026-03-25"
-    },
-    {
-      "url": "https://pypi.org/project/windows-use/0.7.66/",
-      "date": "2026-03-25"
-    },
-    {
-      "url": "https://pypi.org/project/sdkrouter/0.1.55/",
-      "date": "2026-03-25"
-    },
-    {
-      "url": "https://pypi.org/project/churnkit/0.99.6a5/",
-      "date": "2026-03-25"
-    },
-    {
-      "url": "https://pypi.org/project/llmhosts/0.7.0/",
-      "date": "2026-03-25"
-    },
-    {
       "url": "https://github.com/BerriAI/litellm",
       "date": "2026-03-26"
     },
@@ -5043,6 +4883,54 @@
     {
       "url": "https://pypi.org/project/botu-cli/0.3.0/",
       "date": "2026-05-23"
+    },
+    {
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "date": "2026-05-24"
+    },
+    {
+      "url": "https://huggingface.co/numind/NuExtract3",
+      "date": "2026-05-24"
+    },
+    {
+      "url": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-GGUF",
+      "date": "2026-05-24"
+    },
+    {
+      "url": "https://pypi.org/project/hexdag/0.8.0.dev4/",
+      "date": "2026-05-24"
+    },
+    {
+      "url": "https://pypi.org/project/cli-comet/1.0.0/",
+      "date": "2026-05-24"
+    },
+    {
+      "url": "https://pypi.org/project/observeco/0.1.0/",
+      "date": "2026-05-24"
+    },
+    {
+      "url": "https://pypi.org/project/dglz/0.1.16.post9/",
+      "date": "2026-05-24"
+    },
+    {
+      "url": "https://pypi.org/project/llm-redacted/0.2.1/",
+      "date": "2026-05-24"
+    },
+    {
+      "url": "https://pypi.org/project/slopguard-cli/0.2.0/",
+      "date": "2026-05-24"
+    },
+    {
+      "url": "://pypi.org/project/hermes-katana/3.0.0/",
+      "date": "2026-05-24"
+    },
+    {
+      "url": "https://pypi.org/project/github-context-tools/0.1.0/",
+      "date": "2026-05-24"
+    },
+    {
+      "url": "https://pypi.org/project/llm-join/0.2.4/",
+      "date": "2026-05-24"
     }
   ]
 }
