@@ -1,4 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tenkai</title><link>https://tenkai.blog/posts/</link><description>Recent content in Posts on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 23 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — May 23, 2026</title><link>https://tenkai.blog/posts/2026-05-23/</link><pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-05-23/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tenkai</title><link>https://tenkai.blog/posts/</link><description>Recent content in Posts on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — May 24, 2026</title><link>https://tenkai.blog/posts/2026-05-24/</link><pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-05-24/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/numind/NuExtract3" target="_blank" rel="noopener noreferrer">numind/NuExtract3: Document Understanding &amp;amp; Structured Extraction VLM&lt;/a>
+&lt;/strong> — Fine-tuned from Qwen3.5-4B, this VLM does OCR-to-markdown, structured extraction, and RAG prep. If you&amp;rsquo;re drowning in forms and invoices, it&amp;rsquo;s worth a look; multilingual and Apache 2.0 so it won&amp;rsquo;t bite you on licensing. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-GGUF" target="_blank" rel="noopener noreferrer">Jackrong/Qwopus3.6-27B-v2-GGUF: Multimodal Agent Model&lt;/a>
+&lt;/strong> — GGUF-quantized, vision-capable, chain-of-thought, tool-use — the full agent stack. Trained via LoRA/SFT on Claude Opus traces, so it&amp;rsquo;s trying to be the assistant you didn&amp;rsquo;t ask for but might actually use. 🤖&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/slopguard-cli/0.2.0/" target="_blank" rel="noopener noreferrer">slopguard-cli 0.2.0&lt;/a>
+&lt;/strong> — Stops LLM-hallucinated package names from becoming malicious installs. Slop is a real problem when your Copilot has a gambling problem with &lt;code>pip install&lt;/code>. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="://pypi.org/project/hermes-katana/3.0.0/">hermes-katana 3.0.0&lt;/a>
+&lt;/strong> — Taint tracking, secret guards, policy engines, red-team benchmarks — the works. If you&amp;rsquo;re deploying agents in production, this is the kind of paranoia you want. 🔥&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/hexdag/0.8.0.dev4/" target="_blank" rel="noopener noreferrer">hexdag 0.8.0.dev4&lt;/a>
+&lt;/strong> — OS abstractions for agents: pipelines, ports, drivers, stdlib. Lets you stop writing ad-hoc shell scripts to babysit your agent infrastructure. Finally. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/observeco/0.1.0/" target="_blank" rel="noopener noreferrer">observeco 0.1.0&lt;/a>
+&lt;/strong> — Pulse monitoring, circuit breakers, token compression, dashboard. Because agents will crash at 3am and you&amp;rsquo;ll wish you had metrics. 📊&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/llm-redacted/0.2.1/" target="_blank" rel="noopener noreferrer">llm-redacted 0.2.1&lt;/a>
+&lt;/strong> — Zero-dependency sanitizer that strips secrets and PII from LLM outputs. Small, focused, does one job — which is more than most security tools manage. 🛡️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/llm-join/0.2.4/" target="_blank" rel="noopener noreferrer">llm-join 0.2.4&lt;/a>
+&lt;/strong> — Fuzzy joins on DataFrames using LLM scoring and embeddings. For when your entity resolution can&amp;rsquo;t survive on exact string matches alone. 📄&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/mukul975/Anthropic-Cybersecurity-Skills" target="_blank" rel="noopener noreferrer">mukul975/Anthropic-Cybersecurity-Skills&lt;/a>
+&lt;/strong> — 754 cybersecurity skills mapped to MITRE ATT&amp;amp;CK, NIST CSF, ATLAS, D3FEND, AI RMF. Plug it into Claude Code, Copilot, or Cursor — your AI can finally pretend to know what it&amp;rsquo;s defending against. 🤖&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>If you&amp;rsquo;re running LLM agents in any real environment, treat them like untrusted subprocesses — because they are. Start with &lt;strong>&lt;a href="https://pypi.org/project/slopguard-cli/0.2.0/" target="_blank" rel="noopener noreferrer">slopguard-cli&lt;/a>
+&lt;/strong> to block hallucinated package names from ever hitting your CI pipeline; that&amp;rsquo;s the &amp;ldquo;don&amp;rsquo;t &lt;code>pip install&lt;/code> what the model invents&amp;rdquo; layer. Layer &lt;strong>&lt;a href="https://pypi.org/project/observeco/0.1.0/" target="_blank" rel="noopener noreferrer">observeco&lt;/a>
+&lt;/strong> on top so you actually see when an agent chokes at 3am — token usage spikes, circuit breakers trip, you get a dashboard instead of a Slack message you missed. Finally, run every output through &lt;strong>&lt;a href="https://pypi.org/project/llm-redacted/0.2.1/" target="_blank" rel="noopener noreferrer">llm-redacted&lt;/a>
+&lt;/strong> before it touches a downstream system; strip secrets and PII at the edge, not after the fact. Together these three give you a skeleton: deploy agents, watch them, sanitize what they say, and make sure they can&amp;rsquo;t install something stupid. It&amp;rsquo;s not fancy, but it&amp;rsquo;s the boring operational hygiene that keeps you out of an incident report.&lt;/p></description></item><item><title>Tenkai Daily — May 23, 2026</title><link>https://tenkai.blog/posts/2026-05-23/</link><pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-05-23/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>
 &lt;p>&lt;strong>&lt;a href="https://huggingface.co/tencent/Hy-MT2-30B-A3B" target="_blank" rel="noopener noreferrer">tencent/Hy-MT2-30B-A3B&lt;/a>
