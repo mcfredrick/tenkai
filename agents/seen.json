@@ -1,98 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/BerriAI/litellm",
-      "date": "2026-03-26"
-    },
-    {
-      "url": "https://github.com/trustgraph-ai/trustgraph",
-      "date": "2026-03-26"
-    },
-    {
-      "url": "https://github.com/davila7/claude-code-templates",
-      "date": "2026-03-26"
-    },
-    {
-      "url": "https://github.com/letta-ai/claude-subconscious",
-      "date": "2026-03-26"
-    },
-    {
-      "url": "https://github.com/virattt/dexter",
-      "date": "2026-03-26"
-    },
-    {
-      "url": "https://github.com/firecrawl/firecrawl",
-      "date": "2026-03-26"
-    },
-    {
-      "url": "https://github.com/EveryInc/compound-engineering-plugin",
-      "date": "2026-03-26"
-    },
-    {
-      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "date": "2026-03-26"
-    },
-    {
-      "url": "https://huggingface.co/GAIR/daVinci-MagiHuman",
-      "date": "2026-03-26"
-    },
-    {
-      "url": "https://huggingface.co/rednote-hilab/dots.mocr",
-      "date": "2026-03-26"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.23873",
-      "date": "2026-03-26"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.23566",
-      "date": "2026-03-26"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.23575",
-      "date": "2026-03-26"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.23580",
-      "date": "2026-03-26"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.23853",
-      "date": "2026-03-26"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.23840",
-      "date": "2026-03-26"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.23838",
-      "date": "2026-03-26"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.84",
-      "date": "2026-03-26"
-    },
-    {
-      "url": "https://pypi.org/project/openmax/0.9.34/",
-      "date": "2026-03-26"
-    },
-    {
-      "url": "https://pypi.org/project/churnkit/0.99.7a2/",
-      "date": "2026-03-26"
-    },
-    {
-      "url": "https://pypi.org/project/fogcutter/0.1.0/",
-      "date": "2026-03-26"
-    },
-    {
-      "url": "https://pypi.org/project/langchain-docker-sandbox/0.1.1/",
-      "date": "2026-03-26"
-    },
-    {
-      "url": "https://pypi.org/project/jailbreak-arena/0.1.0/",
-      "date": "2026-03-26"
-    },
-    {
       "url": "https://github.com/datawhalechina/hello-agents",
       "date": "2026-03-27"
     },
@@ -4931,6 +4839,94 @@
     {
       "url": "https://pypi.org/project/llm-join/0.2.4/",
       "date": "2026-05-24"
+    },
+    {
+      "url": "https://github.com/earendil-works/pi",
+      "date": "2026-05-25"
+    },
+    {
+      "url": "https://github.com/ruvnet/ruflo",
+      "date": "2026-05-25"
+    },
+    {
+      "url": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.5",
+      "date": "2026-05-25"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.22863",
+      "date": "2026-05-25"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.22869",
+      "date": "2026-05-25"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.22884",
+      "date": "2026-05-25"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.23074",
+      "date": "2026-05-25"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.22883",
+      "date": "2026-05-25"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.22898",
+      "date": "2026-05-25"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.22868",
+      "date": "2026-05-25"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.22902",
+      "date": "2026-05-25"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.22873",
+      "date": "2026-05-25"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.22885",
+      "date": "2026-05-25"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.23109",
+      "date": "2026-05-25"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=43506068",
+      "date": "2026-05-25"
+    },
+    {
+      "url": "https://pypi.org/project/cache-dit/1.3.8/",
+      "date": "2026-05-25"
+    },
+    {
+      "url": "https://pypi.org/project/clustertrace/0.14.0/",
+      "date": "2026-05-25"
+    },
+    {
+      "url": "https://pypi.org/project/orchemist/0.10.0/",
+      "date": "2026-05-25"
+    },
+    {
+      "url": "https://pypi.org/project/sourcecode/1.31.20/",
+      "date": "2026-05-25"
+    },
+    {
+      "url": "https://pypi.org/project/greatminds/1.2.6/",
+      "date": "2026-05-25"
+    },
+    {
+      "url": "https://pypi.org/project/ragstash/0.0.1/",
+      "date": "2026-05-25"
+    },
+    {
+      "url": "https://pypi.org/project/hol-guard/2.0.310/",
+      "date": "2026-05-25"
     }
   ]
 }
