@@ -5,6 +5,6 @@
 # Topics carried forward from the agent will include date and surface count.
 # Higher surface count = topic has appeared as a strong candidate multiple weeks running.
 Token optimization for coding agents — Claude Code and beyond | 2026-04-14 | 1
-Local LLM setups for coding assistants | 2026-04-14 | 4
-Token optimization for coding agents | 2026-04-14 | 3
-AI agent value and real-world use cases | 2026-05-04 | 1
+Local LLM setups for coding assistants | 2026-04-14 | 5
+Token optimization for coding agents | 2026-04-14 | 4
+AI agent value and real-world use cases | 2026-05-04 | 2
