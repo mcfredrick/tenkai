@@ -1,78 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/datawhalechina/hello-agents",
-      "date": "2026-03-27"
-    },
-    {
-      "url": "https://github.com/deepseek-ai/Engram",
-      "date": "2026-03-27"
-    },
-    {
-      "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
-      "date": "2026-03-27"
-    },
-    {
-      "url": "https://github.com/playcanvas/supersplat",
-      "date": "2026-03-27"
-    },
-    {
-      "url": "https://github.com/modelcontextprotocol/servers",
-      "date": "2026-03-27"
-    },
-    {
-      "url": "https://huggingface.co/mistralai/Voxtral-4B-TTS-2603",
-      "date": "2026-03-27"
-    },
-    {
-      "url": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
-      "date": "2026-03-27"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.23910",
-      "date": "2026-03-27"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.23571",
-      "date": "2026-03-27"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.23749",
-      "date": "2026-03-27"
-    },
-    {
-      "url": "https://smithery.ai/servers/brave",
-      "date": "2026-03-27"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.85",
-      "date": "2026-03-27"
-    },
-    {
-      "url": "https://pypi.org/project/staso/0.1.12/",
-      "date": "2026-03-27"
-    },
-    {
-      "url": "https://pypi.org/project/velocirag/0.5.1/",
-      "date": "2026-03-27"
-    },
-    {
-      "url": "https://pypi.org/project/contextgo/0.9.1/",
-      "date": "2026-03-27"
-    },
-    {
-      "url": "https://pypi.org/project/vantinel-sdk/0.5.4/",
-      "date": "2026-03-27"
-    },
-    {
-      "url": "https://pypi.org/project/netron/8.9.7/",
-      "date": "2026-03-27"
-    },
-    {
-      "url": "https://pypi.org/project/prajnyavan/0.3.0/",
-      "date": "2026-03-27"
-    },
-    {
       "url": "https://github.com/hacksider/Deep-Live-Cam",
       "date": "2026-03-28"
     },
@@ -4943,6 +4871,90 @@
     {
       "url": "https://github.com/YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill",
       "date": "2026-05-25"
+    },
+    {
+      "url": "https://github.com/manaflow-ai/cmux",
+      "date": "2026-05-26"
+    },
+    {
+      "url": "https://github.com/moeru-ai/airi",
+      "date": "2026-05-26"
+    },
+    {
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "date": "2026-05-26"
+    },
+    {
+      "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
+      "date": "2026-05-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.23926",
+      "date": "2026-05-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.23929",
+      "date": "2026-05-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.23909",
+      "date": "2026-05-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.24041",
+      "date": "2026-05-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.24058",
+      "date": "2026-05-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.24033",
+      "date": "2026-05-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.24048",
+      "date": "2026-05-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.24059",
+      "date": "2026-05-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.24057",
+      "date": "2026-05-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.24042",
+      "date": "2026-05-26"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/v3.85.0",
+      "date": "2026-05-26"
+    },
+    {
+      "url": "https://pypi.org/project/tea-agent/0.9.7/",
+      "date": "2026-05-26"
+    },
+    {
+      "url": "https://pypi.org/project/polymetrics/0.1.0/",
+      "date": "2026-05-26"
+    },
+    {
+      "url": "https://pypi.org/project/gwenflow/1.0.0/",
+      "date": "2026-05-26"
+    },
+    {
+      "url": "https://pypi.org/project/greatminds/1.2.10/",
+      "date": "2026-05-26"
+    },
+    {
+      "url": "https://pypi.org/project/imagine-mcp/1.5.0/",
+      "date": "2026-05-26"
+    },
+    {
+      "url": "https://pypi.org/project/mnemo-mcp/2.1.0/",
+      "date": "2026-05-26"
     }
   ]
 }
