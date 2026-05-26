@@ -1,4 +1,49 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Llm on Tenkai</title><link>https://tenkai.blog/tags/llm/</link><description>Recent content in Llm on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 25 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/llm/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — May 25, 2026</title><link>https://tenkai.blog/posts/2026-05-25/</link><pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-05-25/</guid><description>&lt;h2 id="-model-releases">🌌 Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Llm on Tenkai</title><link>https://tenkai.blog/tags/llm/</link><description>Recent content in Llm on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 26 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/llm/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — May 26, 2026</title><link>https://tenkai.blog/posts/2026-05-26/</link><pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-05-26/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/openbmb/MiniCPM5-1B" target="_blank" rel="noopener noreferrer">OpenBMB MiniCPM5-1B: On-Device Long-Context Model&lt;/a>
+&lt;/strong> — A 1B-parameter model built for edge deployment with long-context support and tool-calling. Trained on Ultra-FineWeb and UltraData, it targets conversational and agentic workloads in English and Chinese. 📄&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/cline/cline/releases/tag/v3.85.0" target="_blank" rel="noopener noreferrer">cline v3.85.0: GPT-5.5, DeepSeek V4, Gemini 3.5 Flash model support&lt;/a>
+&lt;/strong> — Cline adds GPT-5.5 on SAP AI Core, DeepSeek V4 Flash/Pro, Gemini 3.5 Flash, and an /lg-task webhook for LG dashboard integrations. More providers, more things to configure.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/tea-agent/0.9.7/" target="_blank" rel="noopener noreferrer">tea-agent 0.9.7&lt;/a>
+&lt;/strong> — Self-evolving agent framework with dynamic toolkit management and optional OCR/TTS/ASR. The &amp;ldquo;self-evolving&amp;rdquo; part is doing a lot of heavy lifting in that description.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/polymetrics/0.1.0/" target="_blank" rel="noopener noreferrer">polymetrics 0.1.0&lt;/a>
+&lt;/strong> — Fast polygon metrics library for geospatial ML — precision, recall, F1, IoU, mAP, shape stats. Niche but useful if you&amp;rsquo;re doing spatial evaluation. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/gwenflow/1.0.0/" target="_blank" rel="noopener noreferrer">gwenflow 1.0.0&lt;/a>
+&lt;/strong> — Framework for orchestrating apps powered by autonomous AI agents and LLMs. Another orchestration framework — because we didn&amp;rsquo;t have enough.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/greatminds/1.2.10/" target="_blank" rel="noopener noreferrer">greatminds 1.2.10&lt;/a>
+&lt;/strong> — File-based multi-agent coordination protocol with per-role queues and a plugin set for Claude Code, plus profile-v2 for OpenAI Codex. The name promises a lot.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/imagine-mcp/1.5.0/" target="_blank" rel="noopener noreferrer">imagine-mcp 1.5.0&lt;/a>
+&lt;/strong> — MCP server for image/video understanding and generation supporting Gemini, OpenAI, and Grok. 🤖&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.23926" target="_blank" rel="noopener noreferrer">How Much Thinking is Enough? Quantifying Redundancy in LLM Reasoning&lt;/a>
+&lt;/strong> — Measures unnecessary deliberation in chain-of-thought at scale — lots of reformulation, verification, and circular self-reflection. Provides a framework to trim the fat from reasoning traces. 🔥&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.23929" target="_blank" rel="noopener noreferrer">Toward Reliable Design of LLM-Enabled Agentic Workflows: Optimizing Latency-Reliability-Cost Tradeoffs&lt;/a>
+&lt;/strong> — Analyzes latency-reliability-cost tradeoffs in multi-agent workflows mixing LLMs with conventional compute. Introduces performance models for both LLM and non-LLM components. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.23909" target="_blank" rel="noopener noreferrer">Confidence Calibration in Large Language Models&lt;/a>
+&lt;/strong> — Preregistered study showing LLMs are systematically overconfident — confidence exceeds accuracy on average, moderated by a hard-easy effect. Relevant if you&amp;rsquo;re building systems that need trustworthy uncertainty estimates. 🔥&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.24041" target="_blank" rel="noopener noreferrer">Iterative Refinement Neural Operators for Spectral Bias Mitigation&lt;/a>
+&lt;/strong> — Introduces IRNO, augmenting pretrained neural operators with a learned refinement step to address spectral bias in scientific modeling surrogates. Avoids retraining by improving what you already have. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.24058" target="_blank" rel="noopener noreferrer">Signs Beat Floats: Low-Rank Double-Binary Adaptation for On-Device Fine-Tuning&lt;/a>
+&lt;/strong> — Double-binary low-rank adaptation method that skips floating-point overhead of standard LoRA, targeting resource-constrained edge devices. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.24033" target="_blank" rel="noopener noreferrer">Towards Verifiable Transformers: Solver-Checkable Circuit Explanations&lt;/a>
+&lt;/strong> — Converts Transformer circuits into solver-checkable explanations, bridging the gap between finding plausible circuits and formally proving what they do. Mechanistic interpretability needed this yesterday. 🔥&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/manaflow-ai/cmux" target="_blank" rel="noopener noreferrer">cmux: Ghostty-based macOS Terminal for AI Coding Agents&lt;/a>
+&lt;/strong> — macOS terminal emulator built on Ghostty with vertical tabs and native notifications, designed around AI coding agent workflows. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/moeru-ai/airi" target="_blank" rel="noopener noreferrer">airi: Self-Hosted AI Companion Platform&lt;/a>
+&lt;/strong> — Self-hosted platform for real-time voice chat and game interaction (Minecraft, Factorio) across Web, macOS, and Windows. Embodied AI agents for your downtime. 🤖&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/Lum1104/Understand-Anything" target="_blank" rel="noopener noreferrer">Lum1104/Understand-Anything — Interactive Code Knowledge Graphs&lt;/a>
+&lt;/strong> — Turns any codebase into an interactive knowledge graph you can explore, search, and query. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more. 📄&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>&lt;strong>Today&amp;rsquo;s Synthesis&lt;/strong>&lt;/p></description></item><item><title>Tenkai Daily — May 25, 2026</title><link>https://tenkai.blog/posts/2026-05-25/</link><pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-05-25/</guid><description>&lt;h2 id="-model-releases">🌌 Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.5" target="_blank" rel="noopener noreferrer">meituan-longcat/LongCat-Video-Avatar-1.5: Audio-Driven Avatar Video Generation&lt;/a>
 &lt;/strong> — Generates and continues avatar videos from audio, image, and text inputs in English and Chinese. MIT-licensed with Diffusers, ONNX, and safetensors — because the universe apparently needed more ways to animate disembodied heads. 🏊&lt;/li>
