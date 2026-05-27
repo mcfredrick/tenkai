@@ -1,4 +1,49 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tenkai</title><link>https://tenkai.blog/posts/</link><description>Recent content in Posts on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 26 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — May 26, 2026</title><link>https://tenkai.blog/posts/2026-05-26/</link><pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-05-26/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tenkai</title><link>https://tenkai.blog/posts/</link><description>Recent content in Posts on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 27 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — May 27, 2026</title><link>https://tenkai.blog/posts/2026-05-27/</link><pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-05-27/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/nvidia/PiD" target="_blank" rel="noopener noreferrer">nvidia/PiD: Pixel-diffusion decoder for super-resolution&lt;/a>
+&lt;/strong> — PiD from NVIDIA is a pixel-diffusion decoder and VAE-decoder for super-resolution image-to-image tasks, fine-tuned from Tongyi-MAI/Z-Image. Useful if you&amp;rsquo;re shipping high-res upscaling pipelines and want a VAE-based approach instead of pixel-perfect restoration. 🤖&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.152" target="_blank" rel="noopener noreferrer">Claude Code v2.1.152: /code-review &amp;ndash;fix and skill-level tool restrictions&lt;/a>
+&lt;/strong> — /code-review &amp;ndash;fix now auto-applies suggestions, and skills can lock down tool access via frontmatter. Saves you from reviewing the same suggestions twice and gives you guardrails on agent tooling. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/vajra-streamer/0.0.21/" target="_blank" rel="noopener noreferrer">vajra-streamer 0.0.21&lt;/a>
+&lt;/strong> — Zero-copy PyTorch tensor streaming for ML inference pipelines. If you&amp;rsquo;re shuffling tensors between services and tired of unnecessary copies eating your latency, this is the drop-in you want. 🔥&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/reasonblocks/0.2.5/" target="_blank" rel="noopener noreferrer">reasonblocks 0.2.5&lt;/a>
+&lt;/strong> — Agent observability and steering for LangChain, LangGraph, OpenAI Agents SDK, Claude Agent SDK. Gives you a single pane of glass for debugging multi-agent chaos. 🤖&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/cognitive-ledger/0.4.0/" target="_blank" rel="noopener noreferrer">cognitive-ledger 0.4.0&lt;/a>
+&lt;/strong> — File-based memory for AI agents. No DB required, just persistent state files. Useful for lightweight agent backends that need to remember things between runs. 📄&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.26175" target="_blank" rel="noopener noreferrer">InfoQuant: Shaping Activation Distributions for Low-Bit LLM Quantization&lt;/a>
+&lt;/strong> — InfoQuant reshapes activation distributions to play nicer with low-bit uniform quantizers, tackling the outlier problem that makes low-bit inference tricky. If you&amp;rsquo;re deploying sub-8-bit models, this is worth a look. 🔥&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.26121" target="_blank" rel="noopener noreferrer">GEM: Geometric Entropy Mixing for Optimal LLM Data Curation&lt;/a>
+&lt;/strong> — GEM reformulates data mixing using geometric entropy, sidestepping human taxonomy misalignment and embedding anisotropy. Solid approach if you&amp;rsquo;re still hand-curating pretraining corpora. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.26184" target="_blank" rel="noopener noreferrer">GAC: Noise-Aware Adaptive Mixing for Hybrid SFT-RL Post-Training&lt;/a>
+&lt;/strong> — GAC adaptively balances SFT and RL signals during post-training based on gradient variance and disagreement estimates. Fixes the &amp;ldquo;just guess a mixing ratio and hope for the best&amp;rdquo; problem. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.26128" target="_blank" rel="noopener noreferrer">The Constraint Tax: Measuring Validity-Correctness Tradeoffs in Structured Outputs for Small Language Models&lt;/a>
+&lt;/strong> — Studies the validity vs correctness tradeoff in sub-3B models for JSON and tool-call schemas. On-device and low-cost deployments need to know how much they&amp;rsquo;re paying for schema compliance. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.26172" target="_blank" rel="noopener noreferrer">ARBITER: Reasoning Trajectory Basins and Majority Vote Failures in Test-Time Sampling&lt;/a>
+&lt;/strong> — Shows that reasoning trajectories cluster into basins, not independent paths, explaining why majority vote fails. Adds a layer of nuance to test-time compute scaling strategies. 🤖&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.26366" target="_blank" rel="noopener noreferrer">Automatic Layer Selection for Hallucination Detection&lt;/a>
+&lt;/strong> — Automates picking intermediate layers for hallucination detection, since intermediate layers carry stronger signals than the final layer. If you&amp;rsquo;re building hallucination guards, this saves you from manual tuning. 🔥&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/twentyhq/twenty" target="_blank" rel="noopener noreferrer">Twenty: Open-Source CRM Designed for AI&lt;/a>
+&lt;/strong> — Open-source Salesforce alternative built for AI workflows and agents. If you&amp;rsquo;ve ever wished your CRM could actually talk to your agents, here you go. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/code-yeongyu/oh-my-openagent" target="_blank" rel="noopener noreferrer">oh-my-openagent: Multi-Harness Agent Orchestration&lt;/a>
+&lt;/strong> — Supports Claude Code, Codex, Cursor, Gemini, OpenAI, and AMP with skills orchestration. 59.7k stars and counting — probably because it actually works across multiple harnesses. 🤖&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anomalyco/opencode/releases/tag/v1.15.11" target="_blank" rel="noopener noreferrer">OpenCode v1.15.11: Provider headerTimeout config and background agent push updates&lt;/a>
+&lt;/strong> — Adds headerTimeout config (10s default) and background agents push updates without polling. Also lets you set only input or output modalities. Small QoL stuff that adds up. 🛠️&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>If you&amp;rsquo;re running multi-agent systems, reasonblocks gives you the observability layer to see what each agent is actually doing, and ARBITER&amp;rsquo;s finding that reasoning trajectories cluster into basins rather than independent paths explains why majority vote on outputs often falls flat—those trajectories are already correlated, so voting doesn&amp;rsquo;t add much. Pair that with Automatic Layer Selection for Hallucination Detection, which shows intermediate layers carry stronger hallucination signals than the final output, and you have a concrete recipe: use reasonblocks to trace trajectories, spot the basins where agents converge (or diverge), then apply hallucination detection on the right layers instead of post-hoc output checking. This turns your observability stack from &amp;ldquo;nice to have&amp;rdquo; into something that actually catches bad outputs before they reach users. For on-device or low-cost deployments, the Constraint Tax paper reminds you that sub-3B models trade validity for correctness on structured outputs, so combining basin-aware trajectory monitoring with layer-level hallucination checks gives you a way to catch schema violations early. &lt;a href="https://pypi.org/project/reasonblocks/0.2.5/" target="_blank" rel="noopener noreferrer">reasonblocks&lt;/a>
+, &lt;a href="https://arxiv.org/abs/2605.26172" target="_blank" rel="noopener noreferrer">ARBITER&lt;/a>
+, &lt;a href="https://arxiv.org/abs/2605.26366" target="_blank" rel="noopener noreferrer">Automatic Layer Selection for Hallucination Detection&lt;/a>
+, &lt;a href="https://arxiv.org/abs/2605.26128" target="_blank" rel="noopener noreferrer">The Constraint Tax&lt;/a>
+&lt;/p></description></item><item><title>Tenkai Daily — May 26, 2026</title><link>https://tenkai.blog/posts/2026-05-26/</link><pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-05-26/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/openbmb/MiniCPM5-1B" target="_blank" rel="noopener noreferrer">OpenBMB MiniCPM5-1B: On-Device Long-Context Model&lt;/a>
 &lt;/strong> — A 1B-parameter model built for edge deployment with long-context support and tool-calling. Trained on Ultra-FineWeb and UltraData, it targets conversational and agentic workloads in English and Chinese. 📄&lt;/li>
