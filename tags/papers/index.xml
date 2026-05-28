@@ -1,4 +1,59 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Papers on Tenkai</title><link>https://tenkai.blog/tags/papers/</link><description>Recent content in Papers on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 27 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/papers/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — May 27, 2026</title><link>https://tenkai.blog/posts/2026-05-27/</link><pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-05-27/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Papers on Tenkai</title><link>https://tenkai.blog/tags/papers/</link><description>Recent content in Papers on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 28 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/papers/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — May 28, 2026</title><link>https://tenkai.blog/posts/2026-05-28/</link><pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-05-28/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/microsoft/Lens" target="_blank" rel="noopener noreferrer">microsoft/Lens&lt;/a>
+&lt;/strong> — Microsoft&amp;rsquo;s new text-to-image model built on Diffusers, released under MIT.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/microsoft/Lens-Turbo" target="_blank" rel="noopener noreferrer">microsoft/Lens-Turbo&lt;/a>
+&lt;/strong> — The &amp;ldquo;faster&amp;rdquo; sibling to Lens, same framework but optimized for speed.&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.153" target="_blank" rel="noopener noreferrer">Claude Code v2.1.153&lt;/a>
+&lt;/strong> — Adds &lt;code>skipLfs&lt;/code> to avoid Git LFS bloat, auto-update notices when npm can&amp;rsquo;t handle it, and terminal-aware status lines. Finally, someone thought about the CI/CD pain.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anomalyco/opencode/releases/tag/github-v1.2.24" target="_blank" rel="noopener noreferrer">OpenCode github-v1.2.24&lt;/a>
+&lt;/strong> — Refactored HTTP API routing with PTY WebSocket support. If you&amp;rsquo;re building terminal-integrated tools, this regression coverage might save you a headache.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/cyllama-vulkan/0.3.0/" target="_blank" rel="noopener noreferrer">cyllama 0.3.0&lt;/a>
+&lt;/strong> — Zero-dependency Python wrapper for llama.cpp/whisper.cpp/stable-diffusion.cpp across Vulkan, SYCL, ROCm, and CUDA12. One package, four GPU backends.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/albumentationsx/2.3.1/" target="_blank" rel="noopener noreferrer">albumentationsx 2.3.1&lt;/a>
+&lt;/strong> — Advanced augmentation for 2D/3D data with medical imaging focus. AGPL-3.0 license requires source disclosure for commercial use.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/mykg/0.1.9/" target="_blank" rel="noopener noreferrer">mykg 0.1.9&lt;/a>
+&lt;/strong> — Markdown-to-knowledge-graph pipeline with OWL ontology generation. Two-pass LLM processing for confidence scoring—useful if you&amp;rsquo;re drowning in unstructured docs.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/redactkit/0.1.0/" target="_blank" rel="noopener noreferrer">redactkit 0.1.0&lt;/a>
+&lt;/strong> — Redaction tool targeting PII in logs, LLM payloads, and AWS URLs. Because accidentally leaking PII in your training data is a resume-generating event.&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.27608" target="_blank" rel="noopener noreferrer">Laguna M.1/XS.2 Technical Report&lt;/a>
+&lt;/strong> — Two MoE models (225.8B/33.4B total params) trained from scratch for long-horizon coding agents. Internal &amp;ldquo;Model Factory&amp;rdquo; training—sounds fancy, but the real question is whether they actually work or just generate more GitHub issues.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.27570" target="_blank" rel="noopener noreferrer">LaneRoPE&lt;/a>
+&lt;/strong> — Positional encoding that lets batched parallel generation reuse intermediate computations.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.27567" target="_blank" rel="noopener noreferrer">Why LLMs Fail at Causal Discovery&lt;/a>
+&lt;/strong> — Proves supervised fine-tuning limits causal discovery, shows interventional agents work better. The math checks out, but good luck explaining this to your product manager.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.27575" target="_blank" rel="noopener noreferrer">Agyn&lt;/a>
+&lt;/strong> — Open-source platform for AI agents with scalable execution and zero-trust access. &amp;ldquo;Agent definition as code&amp;rdquo; for declarative agent configuration.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.27499" target="_blank" rel="noopener noreferrer">GenSBI&lt;/a>
+&lt;/strong> — JAX library for generative simulation-based inference. If you&amp;rsquo;re doing Bayesian stats or scientific computing, this might actually make your life easier.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2605.27569" target="_blank" rel="noopener noreferrer">RULER&lt;/a>
+&lt;/strong> — Verifies machine unlearning by checking intermediate representations, not just outputs.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/Yeachan-Heo/oh-my-claudecode" target="_blank" rel="noopener noreferrer">oh-my-claudecode&lt;/a>
+&lt;/strong> — Multi-agent orchestration for Claude Code with parallel execution. Teams-first design means your code review bot can now argue with itself in real-time.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/cline/cline/releases/tag/cli-v3.0.14" target="_blank" rel="noopener noreferrer">Cline CLI v3.0.14&lt;/a>
+&lt;/strong> — Fixed OTEL telemetry bundling in compiled builds. Small fix, but telemetry that actually works is rarer than you&amp;rsquo;d think.&lt;/li>
+&lt;/ul>
+&lt;h2 id="mcp-servers--integrations">MCP Servers &amp;amp; Integrations&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://smithery.ai/servers/alex-kenny-lee-vfjv/panko-food-safety" target="_blank" rel="noopener noreferrer">Panko Alerts&lt;/a>
+&lt;/strong> — Food safety MCP server aggregating FDA/FSIS/CDC data across 25+ sources. 3,676 installs suggest someone&amp;rsquo;s actually worried about that romaine lettuce.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://smithery.ai/servers/underground-district/ucd-mcp" target="_blank" rel="noopener noreferrer">UCD-MCP&lt;/a>
+&lt;/strong> — Literary ecosystem MCP with marketplace, agent identity, and 19 tools. 2,683 installs for what&amp;rsquo;s basically a digital Renaissance fair for AI agents—surprisingly practical?&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>The through-line today is &lt;strong>multi-agent systems getting real infrastructure&lt;/strong>. &lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.153" target="_blank" rel="noopener noreferrer">Claude Code v2.1.153&lt;/a>
+ shipped CI/CD-aware fixes that make it less painful in pipeline contexts, and &lt;a href="https://github.com/Yeachan-Heo/oh-my-claudecode" target="_blank" rel="noopener noreferrer">oh-my-claudecode&lt;/a>
+ adds multi-agent orchestration on top of it—parallel execution with a teams-first design. If you&amp;rsquo;re already using Claude Code for individual tasks, the combo is worth evaluating: orchestrate multiple agents for code review, refactoring, or test generation in parallel rather than sequential babysitting. The practical move is to start small—wire up one multi-agent workflow (e.g., one agent writes tests, another reviews the diff) and measure wall-clock time and output quality against your current single-agent loop. Meanwhile, the &lt;a href="https://arxiv.org/abs/2605.27608" target="_blank" rel="noopener noreferrer">Laguna M.1/XS.2 Technical Report&lt;/a>
+ suggests the models themselves are being built specifically for long-horizon agentic tasks, so the stack is maturing from both ends.&lt;/p></description></item><item><title>Tenkai Daily — May 27, 2026</title><link>https://tenkai.blog/posts/2026-05-27/</link><pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-05-27/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/nvidia/PiD" target="_blank" rel="noopener noreferrer">nvidia/PiD: Pixel-diffusion decoder for super-resolution&lt;/a>
 &lt;/strong> — PiD from NVIDIA is a pixel-diffusion decoder and VAE-decoder for super-resolution image-to-image tasks, fine-tuned from Tongyi-MAI/Z-Image. Useful if you&amp;rsquo;re shipping high-res upscaling pipelines and want a VAE-based approach instead of pixel-perfect restoration. 🤖&lt;/li>
