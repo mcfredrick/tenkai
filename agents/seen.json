@@ -1,86 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/anthropics/claude-agent-sdk-python",
-      "date": "2026-03-29"
-    },
-    {
-      "url": "https://github.com/lingfengQAQ/webnovel-writer",
-      "date": "2026-03-29"
-    },
-    {
-      "url": "https://github.com/benjitaylor/agentation",
-      "date": "2026-03-29"
-    },
-    {
-      "url": "https://github.com/open-metadata/OpenMetadata",
-      "date": "2026-03-29"
-    },
-    {
-      "url": "https://github.com/vercel-labs/json-render",
-      "date": "2026-03-29"
-    },
-    {
-      "url": "https://github.com/cline/cline",
-      "date": "2026-03-29"
-    },
-    {
-      "url": "https://github.com/thedotmack/claude-mem",
-      "date": "2026-03-29"
-    },
-    {
-      "url": "https://huggingface.co/RuneXX/LTX-2.3-Workflows",
-      "date": "2026-03-29"
-    },
-    {
-      "url": "https://smithery.ai/servers/instagram",
-      "date": "2026-03-29"
-    },
-    {
-      "url": "https://smithery.ai/servers/googlesheets",
-      "date": "2026-03-29"
-    },
-    {
-      "url": "https://smithery.ai/servers/clay-inc/clay-mcp",
-      "date": "2026-03-29"
-    },
-    {
-      "url": "https://smithery.ai/servers/googledrive",
-      "date": "2026-03-29"
-    },
-    {
-      "url": "https://github.com/continuedev/continue/releases/tag/v1.0.67-jetbrains",
-      "date": "2026-03-29"
-    },
-    {
-      "url": "https://pypi.org/project/quantumrag/0.3.2/",
-      "date": "2026-03-29"
-    },
-    {
-      "url": "https://pypi.org/project/pfix/0.1.54/",
-      "date": "2026-03-29"
-    },
-    {
-      "url": "https://pypi.org/project/theaios-agent-monitor/0.1.0/",
-      "date": "2026-03-29"
-    },
-    {
-      "url": "https://pypi.org/project/pascal-agent/0.8.2/",
-      "date": "2026-03-29"
-    },
-    {
-      "url": "https://pypi.org/project/argo-proxy/3.0.0b9/",
-      "date": "2026-03-29"
-    },
-    {
-      "url": "https://pypi.org/project/hyperclaw/1.0.0/",
-      "date": "2026-03-29"
-    },
-    {
-      "url": "https://pypi.org/project/obra/3.2.19/",
-      "date": "2026-03-29"
-    },
-    {
       "url": "https://github.com/luongnv89/claude-howto",
       "date": "2026-03-30"
     },
@@ -4927,6 +4847,94 @@
     {
       "url": "https://pypi.org/project/cognitive-ledger/0.4.0/",
       "date": "2026-05-27"
+    },
+    {
+      "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+      "date": "2026-05-28"
+    },
+    {
+      "url": "https://huggingface.co/microsoft/Lens",
+      "date": "2026-05-28"
+    },
+    {
+      "url": "https://huggingface.co/microsoft/Lens-Turbo",
+      "date": "2026-05-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.27605",
+      "date": "2026-05-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.27570",
+      "date": "2026-05-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.27569",
+      "date": "2026-05-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.27567",
+      "date": "2026-05-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.27575",
+      "date": "2026-05-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.27499",
+      "date": "2026-05-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.27482",
+      "date": "2026-05-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.27431",
+      "date": "2026-05-28"
+    },
+    {
+      "url": "https://smithery.ai/servers/alex-kenny-lee-vfjv/panko-food-safety",
+      "date": "2026-05-28"
+    },
+    {
+      "url": "https://smithery.ai/servers/underground-district/ucd-mcp",
+      "date": "2026-05-28"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
+      "date": "2026-05-28"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/github-v1.2.24",
+      "date": "2026-05-28"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/cli-v3.0.14",
+      "date": "2026-05-28"
+    },
+    {
+      "url": "https://pypi.org/project/cyllama-vulkan/0.3.0/",
+      "date": "2026-05-28"
+    },
+    {
+      "url": "https://pypi.org/project/mykg/0.1.9/",
+      "date": "2026-05-28"
+    },
+    {
+      "url": "https://pypi.org/project/redactkit/0.1.0/",
+      "date": "2026-05-28"
+    },
+    {
+      "url": "https://pypi.org/project/agentcage/0.22.4/",
+      "date": "2026-05-28"
+    },
+    {
+      "url": "https://pypi.org/project/albumentationsx/2.3.1/",
+      "date": "2026-05-28"
+    },
+    {
+      "url": "https://pypi.org/project/fyron/0.1.9/",
+      "date": "2026-05-28"
     }
   ]
 }
