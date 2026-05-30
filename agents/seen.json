@@ -1,134 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/google-research/timesfm",
-      "date": "2026-03-31"
-    },
-    {
-      "url": "https://github.com/PaddlePaddle/PaddleOCR",
-      "date": "2026-03-31"
-    },
-    {
-      "url": "https://github.com/OpenBMB/ChatDev",
-      "date": "2026-03-31"
-    },
-    {
-      "url": "https://github.com/Canner/WrenAI",
-      "date": "2026-03-31"
-    },
-    {
-      "url": "https://github.com/SkyworkAI/Matrix-Game",
-      "date": "2026-03-31"
-    },
-    {
-      "url": "https://github.com/steipete/mcporter",
-      "date": "2026-03-31"
-    },
-    {
-      "url": "https://github.com/coder/mux",
-      "date": "2026-03-31"
-    },
-    {
-      "url": "https://github.com/khoj-ai/khoj",
-      "date": "2026-03-31"
-    },
-    {
-      "url": "https://huggingface.co/microsoft/harrier-oss-v1-0.6b",
-      "date": "2026-03-31"
-    },
-    {
-      "url": "https://huggingface.co/chromadb/context-1",
-      "date": "2026-03-31"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.26838",
-      "date": "2026-03-31"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.26996",
-      "date": "2026-03-31"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.27169",
-      "date": "2026-03-31"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.27270",
-      "date": "2026-03-31"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.26671",
-      "date": "2026-03-31"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.26775",
-      "date": "2026-03-31"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.26778",
-      "date": "2026-03-31"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.26786",
-      "date": "2026-03-31"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.26796",
-      "date": "2026-03-31"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.26797",
-      "date": "2026-03-31"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.26798",
-      "date": "2026-03-31"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.26799",
-      "date": "2026-03-31"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.26800",
-      "date": "2026-03-31"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.26801",
-      "date": "2026-03-31"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.26803",
-      "date": "2026-03-31"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.26823",
-      "date": "2026-03-31"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.88",
-      "date": "2026-03-31"
-    },
-    {
-      "url": "https://github.com/block/goose/releases/tag/v1.29.0",
-      "date": "2026-03-31"
-    },
-    {
-      "url": "https://pypi.org/project/mlx-serve/0.1.0/",
-      "date": "2026-03-31"
-    },
-    {
-      "url": "https://pypi.org/project/torchfinufft-ryan/2.2.0/",
-      "date": "2026-03-31"
-    },
-    {
-      "url": "https://pypi.org/project/privacyguard-platform/0.0.2/",
-      "date": "2026-03-31"
-    },
-    {
-      "url": "https://pypi.org/project/seraph-suite/1.0.1/",
-      "date": "2026-03-31"
-    },
-    {
       "url": "https://huggingface.co/facebook/sam3.1",
       "date": "2026-04-01"
     },
@@ -4951,6 +4823,62 @@
     {
       "url": "https://pypi.org/project/vaara/0.42.0/",
       "date": "2026-05-29"
+    },
+    {
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "date": "2026-05-30"
+    },
+    {
+      "url": "://github.com/twentyhq/twenty",
+      "date": "2026-05-30"
+    },
+    {
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "date": "2026-05-30"
+    },
+    {
+      "url": "https://github.com/hardikpandya/stop-slop",
+      "date": "2026-05-30"
+    },
+    {
+      "url": "github.com/thedotmack/claude-mem",
+      "date": "2026-05-30"
+    },
+    {
+      "url": "https://aidatanorge.no",
+      "date": "2026-05-30"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.158",
+      "date": "2026-05-30"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
+      "date": "2026-05-30"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/cli-v3.0.15",
+      "date": "2026-05-30"
+    },
+    {
+      "url": "https://pypi.org/project/openagentd/1.37.0/",
+      "date": "2026-05-30"
+    },
+    {
+      "url": "https://pypi.org/project/tfp-nightly/0.26.0.dev20260530/",
+      "date": "2026-05-30"
+    },
+    {
+      "url": "://pypi.org/project/attestplane/1.9.1/",
+      "date": "2026-05-30"
+    },
+    {
+      "url": "https://pypi.org/project/helix-context/0.6.1/",
+      "date": "2026-05-30"
+    },
+    {
+      "url": "https://pypi.org/project/conexus/5.4.5/",
+      "date": "2026-05-30"
     }
   ]
 }
