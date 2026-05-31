@@ -1,82 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://huggingface.co/facebook/sam3.1",
-      "date": "2026-04-01"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.28955",
-      "date": "2026-04-01"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.28986",
-      "date": "2026-04-01"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.28990",
-      "date": "2026-04-01"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.29085",
-      "date": "2026-04-01"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.29112",
-      "date": "2026-04-01"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.29139",
-      "date": "2026-04-01"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.29161",
-      "date": "2026-04-01"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.28845",
-      "date": "2026-04-01"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.28921",
-      "date": "2026-04-01"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.28942",
-      "date": "2026-04-01"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.28964",
-      "date": "2026-04-01"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.28992",
-      "date": "2026-04-01"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.29010",
-      "date": "2026-04-01"
-    },
-    {
-      "url": "https://arxiv.org/abs/2603.29068",
-      "date": "2026-04-01"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.89",
-      "date": "2026-04-01"
-    },
-    {
-      "url": "https://pypi.org/project/aspose-html-cloud-mcp/1.0.0/",
-      "date": "2026-04-01"
-    },
-    {
-      "url": "https://pypi.org/project/chitta-bridge/0.8.0/",
-      "date": "2026-04-01"
-    },
-    {
-      "url": "https://pypi.org/project/carpenter-ai/0.0.1/",
-      "date": "2026-04-01"
-    },
-    {
       "url": "https://github.com/NVIDIA/Model-Optimizer",
       "date": "2026-04-02"
     },
@@ -4879,6 +4803,54 @@
     {
       "url": "https://pypi.org/project/conexus/5.4.5/",
       "date": "2026-05-30"
+    },
+    {
+      "url": "https://github.com/FareedKhan-dev/train-llm-from-scratch",
+      "date": "2026-05-31"
+    },
+    {
+      "url": "https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6",
+      "date": "2026-05-31"
+    },
+    {
+      "url": "https://github.com/kuibinlin/hsk-mcp-server",
+      "date": "2026-05-31"
+    },
+    {
+      "url": "https://unclick.world",
+      "date": "2026-05-31"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.15.13",
+      "date": "2026-05-31"
+    },
+    {
+      "url": "https://pypi.org/project/verifiable-rag/0.5.1/",
+      "date": "2026-05-31"
+    },
+    {
+      "url": "https://pypi.org/project/hugiml-core/1.1.4/",
+      "date": "2026-05-31"
+    },
+    {
+      "url": "https://pypi.org/project/connordb/1.8.5/",
+      "date": "2026-05-31"
+    },
+    {
+      "url": "https://pypi.org/project/oragent/0.3.13/",
+      "date": "2026-05-31"
+    },
+    {
+      "url": "https://pypi.org/project/qybersafe/0.1.0a3/",
+      "date": "2026-05-31"
+    },
+    {
+      "url": "https://pypi.org/project/lamcp/0.1.1/",
+      "date": "2026-05-31"
+    },
+    {
+      "url": "://pypi.org/project/alchemydetect/0.5.0/",
+      "date": "2026-05-31"
     }
   ]
 }
