@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev-Tools on Tenkai</title><link>https://tenkai.blog/tags/dev-tools/</link><description>Recent content in Dev-Tools on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 30 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/dev-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — May 30, 2026</title><link>https://tenkai.blog/posts/2026-05-30/</link><pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-05-30/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev-Tools on Tenkai</title><link>https://tenkai.blog/tags/dev-tools/</link><description>Recent content in Dev-Tools on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 31 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/dev-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — May 31, 2026</title><link>https://tenkai.blog/posts/2026-05-31/</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-05-31/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6" target="_blank" rel="noopener noreferrer">PaddlePaddle/PaddleOCR-VL-1.6&lt;/a>
+ — PaddleOCR-VL-1.6 integrates ERNIE 4.5 for document parsing — OCR, layout analysis, table/formula/chart recognition, seal spotting, the whole kitchen sink. Multilingual support with a research paper to back it up. If your pipeline eats PDFs for breakfast, this is worth a look. 📄&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://pypi.org/project/verifiable-rag/0.5.1/" target="_blank" rel="noopener noreferrer">verifiable-rag 0.5.1&lt;/a>
+ — RAG library that actually checks its work. Provides sentence-level citations and faithfulness verification so your generated answers are backed by source documents. For anyone tired of hallucinated nonsense masquerading as retrieval.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/hugiml-core/1.1.4/" target="_blank" rel="noopener noreferrer">hugiml-core 1.1.4&lt;/a>
+ — Interpretable rule-based ML with the HUG-IML classifier, adaptive binning, EBM-style explainability plots, and pattern pruning. Published in IEEE Access 2024 — built for engineers who need models that can be audited, not just admired. 🛠️&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/connordb/1.8.5/" target="_blank" rel="noopener noreferrer">connordb 1.8.5&lt;/a>
+ — Python SDK for the connordb engine (gRPC-only) with atomic multi-modal commits, async embedding freshness, and hybrid vector + keyword search. Real-time embedding updates without the usual refresh headaches.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/oragent/0.3.13/" target="_blank" rel="noopener noreferrer">oragent 0.3.13&lt;/a>
+ — Agent Supervisor for AI coding agents. A state-aware cockpit for juggling multiple Claude Code, Codex, and Shell sessions in parallel. For teams who&amp;rsquo;ve discovered that one AI coding assistant is never enough (and never simple).&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/qybersafe/0.1.0a3/" target="_blank" rel="noopener noreferrer">qybersafe 0.1.0a3&lt;/a>
+ — Post-quantum cryptography library implementing ML-KEM, ML-DSA, SLH-DSA, and hybrid encryption. NIST-standardized PQC algorithms in a Python-native package. Future-proofing starts now, apparently. 🔐&lt;/li>
+&lt;li>&lt;a href="https://github.com/kuibinlin/hsk-mcp-server" target="_blank" rel="noopener noreferrer">hsk-mcp-server&lt;/a>
+ — HSK Chinese vocabulary as an MCP server — 11,470 headwords, 13 tools, 8 resources covering HSK 1-7 (new 3.0) and old 2.0. Word lookup, transcription conversion, frequency analysis, study set generation. Niche? Absolutely. Useful for its audience? Totally.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/anomalyco/opencode/releases/tag/v1.15.13" target="_blank" rel="noopener noreferrer">OpenCode v1.15.13&lt;/a>
+ — Fixes adaptive reasoning for Anthropic Opus 4.7+ (no more empty thinking blocks) and adds custom session metadata support via API and SDK. Small release, solid fixes.&lt;/li>
+&lt;/ul>
+&lt;h2 id="tutorials--guides">Tutorials &amp;amp; Guides&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/FareedKhan-dev/train-llm-from-scratch" target="_blank" rel="noopener noreferrer">train-llm-from-scratch&lt;/a>
+ — End-to-end guide for training your own LLM: data downloading, preprocessing, training, text generation. No abstractions hiding the hard parts — just the full pipeline laid bare. Good for understanding what&amp;rsquo;s actually happening under the hood. 📄&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>Here&amp;rsquo;s a pattern worth noticing: the gap between generating text and generating &lt;em>trustworthy&lt;/em> text is becoming a first-class engineering problem. &lt;a href="https://pypi.org/project/verifiable-rag/0.5.1/" target="_blank" rel="noopener noreferrer">verifiable-rag&lt;/a>
+ tackles this head-on with sentence-level citations and faithfulness checks — basically, it forces your RAG pipeline to show its work instead of bluffing. Pair that with &lt;a href="https://github.com/FareedKhan-dev/train-llm-from-scratch" target="_blank" rel="noopener noreferrer">train-llm-from-scratch&lt;/a>
+, which strips away every abstraction so you can see exactly where hallucinations creep in during training, and you&amp;rsquo;ve got a solid one-two punch: understand how models learn, then build retrieval systems that hold their outputs accountable. The practical move? Take a hallucination that&amp;rsquo;s been bugging your production RAG system, trace it back through the training data pipeline using the from-scratch guide as a diagnostic framework, then wire in verifiable-rag&amp;rsquo;s citation layer to catch similar failures before they reach users. It&amp;rsquo;s the kind of boring, unglamorous work that actually makes AI systems less embarrassing in production. 🔍&lt;/p></description></item><item><title>Tenkai Daily — May 30, 2026</title><link>https://tenkai.blog/posts/2026-05-30/</link><pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-05-30/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
 &lt;p>📹 &lt;strong>&lt;a href="https://github.com/harry0703/MoneyPrinterTurbo" target="_blank" rel="noopener noreferrer">MoneyPrinterTurbo&lt;/a>
 &lt;/strong> — Turn a single prompt into HD short videos using LLMs wired into video synthesis pipelines. Fully open-source, targeting automated content creation workflows.&lt;/p>
 &lt;p>🤖 &lt;strong>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.158" target="_blank" rel="noopener noreferrer">Claude Code v2.1.158&lt;/a>
