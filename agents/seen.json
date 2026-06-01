@@ -1,82 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/NVIDIA/Model-Optimizer",
-      "date": "2026-04-02"
-    },
-    {
-      "url": "https://github.com/allenai/OLMo-core",
-      "date": "2026-04-02"
-    },
-    {
-      "url": "https://github.com/microsoft/agent-framework",
-      "date": "2026-04-02"
-    },
-    {
-      "url": "https://github.com/LMCache/LMCache",
-      "date": "2026-04-02"
-    },
-    {
-      "url": "https://huggingface.co/prism-ml/Bonsai-8B-gguf",
-      "date": "2026-04-02"
-    },
-    {
-      "url": "https://huggingface.co/Hcompany/Holo3-35B-A3B",
-      "date": "2026-04-02"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.00137",
-      "date": "2026-04-02"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.00356",
-      "date": "2026-04-02"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.00362",
-      "date": "2026-04-02"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.00414",
-      "date": "2026-04-02"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.00421",
-      "date": "2026-04-02"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.00442",
-      "date": "2026-04-02"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.00478",
-      "date": "2026-04-02"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.00001",
-      "date": "2026-04-02"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.00136",
-      "date": "2026-04-02"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.00199",
-      "date": "2026-04-02"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.90",
-      "date": "2026-04-02"
-    },
-    {
-      "url": "https://pypi.org/project/cellcog/1.16.0/",
-      "date": "2026-04-02"
-    },
-    {
-      "url": "https://pypi.org/project/pocketteam/1.0.4/",
-      "date": "2026-04-02"
-    },
-    {
       "url": "https://github.com/MervinPraison/PraisonAI",
       "date": "2026-04-03"
     },
@@ -4851,6 +4775,118 @@
     {
       "url": "://pypi.org/project/alchemydetect/0.5.0/",
       "date": "2026-05-31"
+    },
+    {
+      "url": "https://github.com/supermemoryai/supermemory",
+      "date": "2026-06-01"
+    },
+    {
+      "url": "https://github.com/a5c-ai/babysitter",
+      "date": "2026-06-01"
+    },
+    {
+      "url": "https://huggingface.co/nvidia/Qwen3.6-35B-A3B-NVFP4",
+      "date": "2026-06-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.30512",
+      "date": "2026-06-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.30542",
+      "date": "2026-06-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.30576",
+      "date": "2026-06-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.30621",
+      "date": "2026-06-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.30738",
+      "date": "2026-06-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.30785",
+      "date": "2026-06-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.30832",
+      "date": "2026-06-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.30376",
+      "date": "2026-06-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.30381",
+      "date": "2026-06-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.30451",
+      "date": "2026-06-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.30452",
+      "date": "2026-06-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.30456",
+      "date": "2026-06-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.30461",
+      "date": "2026-06-01"
+    },
+    {
+      "url": "https://superpowers.social",
+      "date": "2026-06-01"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/v3.86.1",
+      "date": "2026-06-01"
+    },
+    {
+      "url": "https://pypi.org/project/elitea-sdk/0.7.9/",
+      "date": "2026-06-01"
+    },
+    {
+      "url": "https://pypi.org/project/jbfoundry/0.2.0/",
+      "date": "2026-06-01"
+    },
+    {
+      "url": "https://pypi.org/project/fry-bisenetv2/0.1.0/",
+      "date": "2026-06-01"
+    },
+    {
+      "url": "https://pypi.org/project/python-code-quality/0.2.1/",
+      "date": "2026-06-01"
+    },
+    {
+      "url": "https://pypi.org/project/opik-mcp/0.2.0/",
+      "date": "2026-06-01"
+    },
+    {
+      "url": "https://pypi.org/project/dsalt/0.3.88/",
+      "date": "2026-06-01"
+    },
+    {
+      "url": "https://pypi.org/project/ranksmith/0.5.1/",
+      "date": "2026-06-01"
+    },
+    {
+      "url": "https://pypi.org/project/llm-inspect/0.1.8/",
+      "date": "2026-06-01"
+    },
+    {
+      "url": "https://pypi.org/project/nvidia-nat-memmachine/1.8.0a20260601/",
+      "date": "2026-06-01"
+    },
+    {
+      "url": "https://pypi.org/project/qualix/0.2.0a1/",
+      "date": "2026-06-01"
     }
   ]
 }
