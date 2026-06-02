@@ -1,4 +1,48 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev-Tools on Tenkai</title><link>https://tenkai.blog/tags/dev-tools/</link><description>Recent content in Dev-Tools on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/dev-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — June 1, 2026</title><link>https://tenkai.blog/posts/2026-06-01/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-06-01/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev-Tools on Tenkai</title><link>https://tenkai.blog/tags/dev-tools/</link><description>Recent content in Dev-Tools on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 02 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/dev-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — June 2, 2026</title><link>https://tenkai.blog/posts/2026-06-02/</link><pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-06-02/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://huggingface.co/nvidia/Cosmos3-Nano" target="_blank" rel="noopener noreferrer">NVIDIA Cosmos3-Nive&lt;/a>
+ — NVIDIA&amp;rsquo;s compact omnimodal that handles text, image, video, audio, and action. Supports vLLM-omni inference if you want to run it without melting your GPU setup.&lt;/li>
+&lt;li>&lt;a href="https://huggingface.co/prism-ml/bonsai-image-ternary-4B-gemlite-2bit" target="_blank" rel="noopener noreferrer">Prism ML Bonsai Ternary 4B with GemLite 2-bit Quantization&lt;/a>
+ — Ternary weights at 1.58-bit plus GemLite 2-bit quantization for a 4B text-to-image diffusion model. Extreme quantization meets custom CUDA kernels — the kind of thing that makes &amp;ldquo;just use fp16&amp;rdquo; people nervous.&lt;/li>
+&lt;li>&lt;a href="https://huggingface.co/OpenMOSS-Team/MOSS-TTS-v1.5" target="_blank" rel="noopener noreferrer">OpenMOSS MOSS-TTS-v1.5&lt;/a>
+ — Multilingual TTS covering 27 languages including Mandarin, Cantonese, Japanese, Korean, and most of Europe. Apache 2.0 licensed with a backing arXiv paper, so you can actually ship with it.&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.160" target="_blank" rel="noopener noreferrer">Claude Code v2.1.160&lt;/a>
+ — Now prompts before touching shell startup files and git config, because nobody wants an AI quietly rewriting their &lt;code>.zshenv&lt;/code> at 2 AM. Also warns before editing build-tool configs that could grant code execution.&lt;/li>
+&lt;li>&lt;a href="https://smarts.md" target="_blank" rel="noopener noreferrer">smarts.md MCP Server&lt;/a>
+ — Live docs for verified smart contracts, queryable via MCP. Lets AI agents pull real-time contract documentation instead of hallucinating ABI details. 3,185 installs suggests people are actually using this.&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://arxiv.org/abs/2606.00079" target="_blank" rel="noopener noreferrer">BitsMoE&lt;/a>
+ — Spectral energy-guided bit allocation for MoE LLM quantization at ultra-low bits. Unlike pruning (which throws capacity away forever), this tries to keep quality while actually fitting the model in memory.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2606.00172" target="_blank" rel="noopener noreferrer">CAST&lt;/a>
+ — Fixes the GRPO failure mode where all sampled trajectories for a prompt are uniformly right or wrong, leaving the model with zero useful gradient signal. Clipped asymmetric self-teaching with advantage flipping sounds like exactly the kind of thing you&amp;rsquo;d wish existed six months ago.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2606.00144" target="_blank" rel="noopener noreferrer">BudgetDraft&lt;/a>
+ — Speculative decoding that actually accounts for the drafter&amp;rsquo;s resource constraints. Trains the drafter with token acceptance awareness while using a sparse KV cache, since the drafter and verifier rarely share the same memory budget in practice.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2606.00232" target="_blank" rel="noopener noreferrer">TIGER&lt;/a>
+ — Graph-based evidence routing for fact-level hallucination repair in multimodal generation. Avoids the circular feedback problem where you condition on the output you&amp;rsquo;re trying to verify.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2606.00240" target="_blank" rel="noopener noreferrer">MindZero&lt;/a>
+ — Theory of Mind inference learned online, no annotations required. Updates mental-state hypotheses in real time for AI agents assisting humans. Enables agents to infer what a user knows, intends, or believes mid-interaction and adapt behavior accordingly — critical for assistive AI that must respond to shifting human needs without explicit labels.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2606.00147" target="_blank" rel="noopener noreferrer">RAFT&lt;/a>
+ — Tackles catastrophic forgetting in domain fine-tuning through data refinement and adaptive distillation. Closes the gap between what the domain data expects and what the model naturally wants to say, then distills to keep general capabilities intact.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/anomalyco/opencode/releases/tag/v1.15.13" target="_blank" rel="noopener noreferrer">OpenCode v1.15.13&lt;/a>
+ — Custom session metadata via API/SDK, plus a fix for Gateway Anthropic Opus 4.7+ returning empty thinking blocks. Metadata on sessions sounds small until you&amp;rsquo;re debugging a complex agent pipeline and actually need it.&lt;/li>
+&lt;li>&lt;a href="https://github.com/dmtrKovalenko/fff" target="_blank" rel="noopener noreferrer">fff — Fast File Finder&lt;/a>
+ — Fast file search toolkit for AI agents, Neovim, and general dev workflows. Rust, C, and NodeJS support. Because &amp;ldquo;find that file&amp;rdquo; is the bottleneck nobody talks about until their agent is timing out on a 50k-file repo.&lt;/li>
+&lt;li>&lt;a href="https://github.com/luongnv89/claude-howto" target="_blank" rel="noopener noreferrer">luongnv89/claude-howto&lt;/a>
+ — Visual, example-driven Claude Code guide from basics to advanced agents, with copy-paste templates. For those who learn better from &amp;ldquo;here&amp;rsquo;s exactly what to type&amp;rdquo; than from reading docs for an hour.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>The through-line today is making large models actually run where you need them — on constrained hardware, in production, without losing your mind. &lt;a href="https://arxiv.org/abs/2606.00079" target="_blank" rel="noopener noreferrer">BitsMoE&lt;/a>
+ tackles the memory wall for MoE models with spectral bit allocation, while &lt;a href="https://huggingface.co/prism-ml/bonsai-image-ternary-4B-gemlite-2bit" target="_blank" rel="noopener noreferrer">Prism ML Bonsai Ternary 4B&lt;/a>
+ pushes quantization to 1.58-bit ternary weights plus 2-bit activations with custom CUDA kernels. Together they point to a practical playbook: instead of just shrinking models uniformly, you allocate precision where the model actually needs it and compress aggressively everywhere else. If you&amp;rsquo;re deploying diffusion or MoE models at the edge or on a budget GPU cluster, the combination of structured quantization and smarter bit allocation is the difference between &amp;ldquo;fits in memory&amp;rdquo; and &amp;ldquo;fits in memory at acceptable quality.&amp;rdquo; Pair either approach with &lt;a href="https://arxiv.org/abs/2606.00144" target="_blank" rel="noopener noreferrer">BudgetDraft&lt;/a>
+&amp;rsquo;s resource-aware speculative decoding and you&amp;rsquo;ve got a full inference stack that respects real-world constraints from weights to latency.&lt;/p></description></item><item><title>Tenkai Daily — June 1, 2026</title><link>https://tenkai.blog/posts/2026-06-01/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-06-01/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://huggingface.co/nvidia/Qwen3.6-35B-A3B-NVFP4" target="_blank" rel="noopener noreferrer">nvidia/Qwen3.6-35B-A3B-NVFP4&lt;/a>
  — NVIDIA&amp;rsquo;s FP4 quantized MoE variant of Qwen3.6-35B-A3B via ModelOpt. Cuts precision to FP4 for cheaper inference while keeping the MoE architecture intact. If you&amp;rsquo;re deploying MoE models at scale and want to shave off memory, this is worth a look.&lt;/li>
