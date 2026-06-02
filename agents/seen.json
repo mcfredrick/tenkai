@@ -1,74 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/MervinPraison/PraisonAI",
-      "date": "2026-04-03"
-    },
-    {
-      "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
-      "date": "2026-04-03"
-    },
-    {
-      "url": "https://github.com/roboflow/supervision",
-      "date": "2026-04-03"
-    },
-    {
-      "url": "https://github.com/Yeachan-Heo/oh-my-codex",
-      "date": "2026-04-03"
-    },
-    {
-      "url": "https://huggingface.co/google/gemma-4-31B-it",
-      "date": "2026-04-03"
-    },
-    {
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-350M",
-      "date": "2026-04-03"
-    },
-    {
-      "url": "https://huggingface.co/google/gemma-4-26B-A4B-it",
-      "date": "2026-04-03"
-    },
-    {
-      "url": "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF",
-      "date": "2026-04-03"
-    },
-    {
-      "url": "https://smithery.ai/servers/gmail",
-      "date": "2026-04-03"
-    },
-    {
-      "url": "https://smithery.ai/servers/notion",
-      "date": "2026-04-03"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.91",
-      "date": "2026-04-03"
-    },
-    {
-      "url": "https://pypi.org/project/pdf-autofillr/1.0.7/",
-      "date": "2026-04-03"
-    },
-    {
-      "url": "https://pypi.org/project/liger-kernel-nightly/0.7.0.dev20260403081233/",
-      "date": "2026-04-03"
-    },
-    {
-      "url": "https://pypi.org/project/brainctl/0.5.0/",
-      "date": "2026-04-03"
-    },
-    {
-      "url": "https://pypi.org/project/ya-agent-sdk/0.51.3/",
-      "date": "2026-04-03"
-    },
-    {
-      "url": "https://pypi.org/project/qwen3-embed/1.7.0/",
-      "date": "2026-04-03"
-    },
-    {
-      "url": "https://pypi.org/project/agent-failure-debugger/0.3.1/",
-      "date": "2026-04-03"
-    },
-    {
       "url": "https://github.com/Blaizzy/mlx-vlm",
       "date": "2026-04-04"
     },
@@ -4887,6 +4819,102 @@
     {
       "url": "https://pypi.org/project/qualix/0.2.0a1/",
       "date": "2026-06-01"
+    },
+    {
+      "url": "https://github.com/dmtrKovalenko/fff",
+      "date": "2026-06-02"
+    },
+    {
+      "url": "https://github.com/luongnv89/claude-howto",
+      "date": "2026-06-02"
+    },
+    {
+      "url": "https://huggingface.co/nvidia/Cosmos3-Nano",
+      "date": "2026-06-02"
+    },
+    {
+      "url": "https://huggingface.co/prism-ml/bonsai-image-ternary-4B-gemlite-2bit",
+      "date": "2026-06-02"
+    },
+    {
+      "url": "https://huggingface.co/OpenMOSS-Team/MOSS-TTS-v1.5",
+      "date": "2026-06-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.00079",
+      "date": "2026-06-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.00172",
+      "date": "2026-06-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.00144",
+      "date": "2026-06-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.00232",
+      "date": "2026-06-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.00240",
+      "date": "2026-06-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.00147",
+      "date": "2026-06-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.00135",
+      "date": "2026-06-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.00132",
+      "date": "2026-06-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.00130",
+      "date": "2026-06-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.00138",
+      "date": "2026-06-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.00083",
+      "date": "2026-06-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.00151",
+      "date": "2026-06-02"
+    },
+    {
+      "url": "https://smarts.md",
+      "date": "2026-06-02"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.160",
+      "date": "2026-06-02"
+    },
+    {
+      "url": "://github.com/anomalyco/opencode/releases/tag/v1.15.13",
+      "date": "2026-06-02"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/v3.86.2",
+      "date": "2026-06-02"
+    },
+    {
+      "url": "https://github.com/continuedev/continue/releases/tag/v1.0.67-jetbrains",
+      "date": "2026-06-02"
+    },
+    {
+      "url": "https://pypi.org/project/nvidia-nat-rag/1.8.0a20260602/",
+      "date": "2026-06-02"
+    },
+    {
+      "url": "https://pypi.org/project/clawmetry/0.12.386/",
+      "date": "2026-06-02"
     }
   ]
 }
