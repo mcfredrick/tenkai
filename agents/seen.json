@@ -1,118 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/Blaizzy/mlx-vlm",
-      "date": "2026-04-04"
-    },
-    {
-      "url": "https://github.com/LearningCircuit/local-deep-research",
-      "date": "2026-04-04"
-    },
-    {
-      "url": "https://github.com/oumi-ai/oumi",
-      "date": "2026-04-04"
-    },
-    {
-      "url": "https://github.com/multica-ai/multica",
-      "date": "2026-04-04"
-    },
-    {
-      "url": "https://github.com/simstudioai/sim",
-      "date": "2026-04-04"
-    },
-    {
-      "url": "https://huggingface.co/netflix/void-model",
-      "date": "2026-04-04"
-    },
-    {
-      "url": "https://huggingface.co/google/gemma-4-E2B-it",
-      "date": "2026-04-04"
-    },
-    {
-      "url": "https://huggingface.co/google/gemma-4-31B",
-      "date": "2026-04-04"
-    },
-    {
-      "url": "https://huggingface.co/Jackrong/Qwopus3.5-9B-v3-GGUF",
-      "date": "2026-04-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.01302",
-      "date": "2026-04-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.01312",
-      "date": "2026-04-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.01348",
-      "date": "2026-04-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.01350",
-      "date": "2026-04-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.01354",
-      "date": "2026-04-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.01404",
-      "date": "2026-04-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.01413",
-      "date": "2026-04-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.01432",
-      "date": "2026-04-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.01457",
-      "date": "2026-04-04"
-    },
-    {
-      "url": "https://smithery.ai/servers/youtube",
-      "date": "2026-04-04"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.92",
-      "date": "2026-04-04"
-    },
-    {
-      "url": "https://pypi.org/project/langchain-suprawall/0.1.2/",
-      "date": "2026-04-04"
-    },
-    {
-      "url": "https://pypi.org/project/light-llm-hp/0.3.2/",
-      "date": "2026-04-04"
-    },
-    {
-      "url": "https://pypi.org/project/aidiff/0.1.0/",
-      "date": "2026-04-04"
-    },
-    {
-      "url": "https://pypi.org/project/memgraph-sdk/0.7.0/",
-      "date": "2026-04-04"
-    },
-    {
-      "url": "https://pypi.org/project/pyqual/0.1.124/",
-      "date": "2026-04-04"
-    },
-    {
-      "url": "https://pypi.org/project/neo-mcp/0.4.19/",
-      "date": "2026-04-04"
-    },
-    {
-      "url": "https://pypi.org/project/gopherhole/0.3.2/",
-      "date": "2026-04-04"
-    },
-    {
-      "url": "https://pypi.org/project/agent-immune/0.1.0/",
-      "date": "2026-04-04"
-    },
-    {
       "url": "https://github.com/imbue-ai/mngr",
       "date": "2026-04-05"
     },
@@ -4915,6 +4803,114 @@
     {
       "url": "https://pypi.org/project/clawmetry/0.12.386/",
       "date": "2026-06-02"
+    },
+    {
+      "url": "https://github.com/chopratejas/headroom",
+      "date": "2026-06-03"
+    },
+    {
+      "url": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber",
+      "date": "2026-06-03"
+    },
+    {
+      "url": "https://huggingface.co/JetBrains/Mellum2-12B-A2.5B-Thinking",
+      "date": "2026-06-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.02673",
+      "date": "2026-06-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.02775",
+      "date": "2026-06-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.02862",
+      "date": "2026-06-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.02866",
+      "date": "2026-06-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.02875",
+      "date": "2026-06-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.02965",
+      "date": "2026-06-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.02596",
+      "date": "2026-06-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.02606",
+      "date": "2026-06-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.02608",
+      "date": "2026-06-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.02628",
+      "date": "2026-06-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.02607",
+      "date": "2026-06-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.02609",
+      "date": "2026-06-03"
+    },
+    {
+      "url": "https://bouch.dev/products/celestine-mcp/",
+      "date": "2026-06-03"
+    },
+    {
+      "url": "https://jobsbase.io",
+      "date": "2026-06-03"
+    },
+    {
+      "url": "https://openvan.camp/",
+      "date": "2026-06-03"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.161",
+      "date": "2026-06-03"
+    },
+    {
+      "url": "https://pypi.org/project/repo-rag/0.1.6/",
+      "date": "2026-06-03"
+    },
+    {
+      "url": "https://pypi.org/project/fast-mcp-telegram/0.28.1/",
+      "date": "2026-06-03"
+    },
+    {
+      "url": "https://pypi.org/project/sage-agent-sdk/9.0.0/",
+      "date": "2026-06-03"
+    },
+    {
+      "url": "https://pypi.org/project/prune-sdk/0.1.0/",
+      "date": "2026-06-03"
+    },
+    {
+      "url": "https://pypi.org/project/egent-code-plexus/0.6.4/",
+      "date": "2026-06-03"
+    },
+    {
+      "url": "https://pypi.org/project/agenthatch/0.5.9/",
+      "date": "2026-06-03"
+    },
+    {
+      "url": "https://pypi.org/project/vaultlayer/0.1.49/",
+      "date": "2026-06-03"
+    },
+    {
+      "url": "https://pypi.org/project/clawmetry/0.12.421/",
+      "date": "2026-06-03"
     }
   ]
 }
