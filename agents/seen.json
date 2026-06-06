@@ -1,50 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/KeygraphHQ/shannon",
-      "date": "2026-04-07"
-    },
-    {
-      "url": "https://github.com/qwibitai/nanoclaw",
-      "date": "2026-04-07"
-    },
-    {
-      "url": "https://github.com/Jeffallan/claude-skills",
-      "date": "2026-04-07"
-    },
-    {
-      "url": "https://github.com/HKUDS/DeepTutor",
-      "date": "2026-04-07"
-    },
-    {
-      "url": "https://smithery.ai/servers/blockscout/mcp-server",
-      "date": "2026-04-07"
-    },
-    {
-      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.29.0",
-      "date": "2026-04-07"
-    },
-    {
-      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.28.0",
-      "date": "2026-04-07"
-    },
-    {
-      "url": "https://pypi.org/project/slsqp-jax/0.8.1/",
-      "date": "2026-04-07"
-    },
-    {
-      "url": "https://pypi.org/project/aicd/1.0.6/",
-      "date": "2026-04-07"
-    },
-    {
-      "url": "https://pypi.org/project/custom-langchain-model/0.1.6/",
-      "date": "2026-04-07"
-    },
-    {
-      "url": "https://pypi.org/project/pw-agent/1.5.8/",
-      "date": "2026-04-07"
-    },
-    {
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.96",
       "date": "2026-04-08"
     },
@@ -4995,6 +4951,106 @@
     {
       "url": "https://pypi.org/project/tensor-grep/1.13.34/",
       "date": "2026-06-05"
+    },
+    {
+      "url": "https://github.com/CopilotKit/CopilotKit",
+      "date": "2026-06-06"
+    },
+    {
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "date": "2026-06-06"
+    },
+    {
+      "url": "https://github.com/MemPalace/mempalace",
+      "date": "2026-06-06"
+    },
+    {
+      "url": "https://huggingface.co/google/gemma-4-12B-it",
+      "date": "2026-06-06"
+    },
+    {
+      "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b",
+      "date": "2026-06-06"
+    },
+    {
+      "url": "https://huggingface.co/ByteDance/Bernini-R",
+      "date": "2026-06-06"
+    },
+    {
+      "url": "https://huggingface.co/bosonai/higgs-audio-v3-tts-4b",
+      "date": "2026-06-06"
+    },
+    {
+      "url": "https://huggingface.co/ideogram-ai/ideogram-4-fp8",
+      "date": "2026-06-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.05332",
+      "date": "2026-06-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.05389",
+      "date": "2026-06-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.05400",
+      "date": "2026-06-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.05408",
+      "date": "2026-06-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.05304",
+      "date": "2026-06-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.05382",
+      "date": "2026-06-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.05404",
+      "date": "2026-06-06"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=462220577",
+      "date": "2026-06-06"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.166",
+      "date": "2026-06-06"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.16.2",
+      "date": "2026-06-06"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/v3.88.0",
+      "date": "2026-06-06"
+    },
+    {
+      "url": "https://pypi.org/project/mcp-memory-service-lite/10.74.1/",
+      "date": "2026-06-06"
+    },
+    {
+      "url": "https://pypi.org/project/mcp-memory-service/10.74.1/",
+      "date": "2026-06-06"
+    },
+    {
+      "url": "https://pypi.org/project/diffjudge/0.1.0/",
+      "date": "2026-06-06"
+    },
+    {
+      "url": "https://pypi.org/project/ragcheck-cli/0.2.7/",
+      "date": "2026-06-06"
+    },
+    {
+      "url": "https://pypi.org/project/graphifyy/0.8.33/",
+      "date": "2026-06-06"
+    },
+    {
+      "url": "https://pypi.org/project/nullspace-sdk/0.1.9/",
+      "date": "2026-06-06"
     }
   ]
 }
