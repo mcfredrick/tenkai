@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.96",
-      "date": "2026-04-08"
-    },
-    {
-      "url": "https://pypi.org/project/dynabatch/0.1.9/",
-      "date": "2026-04-08"
-    },
-    {
-      "url": "https://pypi.org/project/memgraph-sdk/0.8.2/",
-      "date": "2026-04-08"
-    },
-    {
-      "url": "https://pypi.org/project/modelswitch/0.2.2/",
-      "date": "2026-04-08"
-    },
-    {
-      "url": "https://pypi.org/project/langchain-task-steering/0.1.1/",
-      "date": "2026-04-08"
-    },
-    {
-      "url": "https://pypi.org/project/openagent-framework/0.1.7/",
-      "date": "2026-04-08"
-    },
-    {
-      "url": "https://pypi.org/project/redsl/1.2.8/",
-      "date": "2026-04-08"
-    },
-    {
-      "url": "https://pypi.org/project/vector-graph-rag/0.1.3/",
-      "date": "2026-04-08"
-    },
-    {
-      "url": "https://pypi.org/project/sygen/1.2.31/",
-      "date": "2026-04-08"
-    },
-    {
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.97",
       "date": "2026-04-09"
     },
@@ -5051,6 +5015,34 @@
     {
       "url": "https://pypi.org/project/nullspace-sdk/0.1.9/",
       "date": "2026-06-06"
+    },
+    {
+      "url": "https://github.com/microsoft/VibeVoice",
+      "date": "2026-06-07"
+    },
+    {
+      "url": "://github.com/openai/whisper",
+      "date": "2026-06-07"
+    },
+    {
+      "url": "https://pypi.org/project/agent-guardian/1.0.0rc10/",
+      "date": "2026-06-07"
+    },
+    {
+      "url": "https://pypi.org/project/agent-commerce-protocol-mcp/1.0.4/",
+      "date": "2026-06-07"
+    },
+    {
+      "url": "https://pypi.org/project/chimera-memory/0.8.0/",
+      "date": "2026-06-07"
+    },
+    {
+      "url": "https://pypi.org/project/evi-assistant/0.24.0/",
+      "date": "2026-06-07"
+    },
+    {
+      "url": "https://pypi.org/project/xpander-sdk/2.0.344/",
+      "date": "2026-06-07"
     }
   ]
 }
