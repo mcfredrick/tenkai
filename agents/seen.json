@@ -1,90 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/mauriziofonte/toktoken",
-      "date": "2026-04-14"
-    },
-    {
-      "url": "https://github.com/natiixnt/ContextBudget",
-      "date": "2026-04-14"
-    },
-    {
-      "url": "https://github.com/khankaif/ContextQuant",
-      "date": "2026-04-14"
-    },
-    {
-      "url": "https://github.com/DinoQuinten/specter-tree",
-      "date": "2026-04-14"
-    },
-    {
-      "url": "https://github.com/naranor/code-rag",
-      "date": "2026-04-14"
-    },
-    {
-      "url": "https://github.com/Piebald-AI/tweakcc",
-      "date": "2026-04-14"
-    },
-    {
-      "url": "https://opencode.ai/",
-      "date": "2026-04-14"
-    },
-    {
-      "url": "https://github.com/charmbracelet/crush",
-      "date": "2026-04-14"
-    },
-    {
-      "url": "https://github.com/plandex-ai/plandex",
-      "date": "2026-04-14"
-    },
-    {
-      "url": "https://github.com/BloopAI/vibe-kanban",
-      "date": "2026-04-14"
-    },
-    {
-      "url": "https://github.com/AmElmo/proofshot",
-      "date": "2026-04-14"
-    },
-    {
-      "url": "https://github.com/joewinke/jat",
-      "date": "2026-04-14"
-    },
-    {
-      "url": "https://github.com/microsoft/spec-to-agents",
-      "date": "2026-04-14"
-    },
-    {
-      "url": "https://github.com/josstei/maestro-orchestrate",
-      "date": "2026-04-14"
-    },
-    {
-      "url": "https://github.com/sudocode-ai/sudocode",
-      "date": "2026-04-14"
-    },
-    {
-      "url": "https://github.com/kevinelliott/agentpipe",
-      "date": "2026-04-14"
-    },
-    {
-      "url": "https://github.com/russelleNVy/three-man-team",
-      "date": "2026-04-14"
-    },
-    {
-      "url": "https://github.com/langchain-ai/langchain",
-      "date": "2026-04-14"
-    },
-    {
-      "url": "https://github.com/langchain-ai/langgraph",
-      "date": "2026-04-14"
-    },
-    {
-      "url": "https://github.com/openai/openai-agents-python",
-      "date": "2026-04-14"
-    },
-    {
-      "url": "https://github.com/warpdotdev/Warp",
-      "date": "2026-04-14"
-    },
-    {
       "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
       "date": "2026-04-15"
     },
@@ -5223,6 +5139,50 @@
     {
       "url": "https://pypi.org/project/bee-sdk/0.4.0/",
       "date": "2026-06-12"
+    },
+    {
+      "url": "https://github.com/LMCache/LMCache",
+      "date": "2026-06-13"
+    },
+    {
+      "url": "https://github.com/rtk-ai/rtk",
+      "date": "2026-06-13"
+    },
+    {
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "date": "2026-06-13"
+    },
+    {
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3",
+      "date": "2026-06-13"
+    },
+    {
+      "url": "https://huggingface.co/nex-agi/Nex-N2-Pro",
+      "date": "2026-06-13"
+    },
+    {
+      "url": "https://redstone.finance",
+      "date": "2026-06-13"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.176",
+      "date": "2026-06-13"
+    },
+    {
+      "url": "https://pypi.org/project/django-cfg/2.2.70/",
+      "date": "2026-06-13"
+    },
+    {
+      "url": "https://pypi.org/project/cobol-bridge-mcp/1.1.10/",
+      "date": "2026-06-13"
+    },
+    {
+      "url": "https://pypi.org/kagura-code-reviewer/0.3.0/",
+      "date": "2026-06-13"
+    },
+    {
+      "url": "https://pypi.org/meeting-helper/7.4.0/",
+      "date": "2026-06-13"
     }
   ]
 }
