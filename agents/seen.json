@@ -1,102 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/google/magika",
-      "date": "2026-04-16"
-    },
-    {
-      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
-      "date": "2026-04-16"
-    },
-    {
-      "url": "https://huggingface.co/OBLITERATUS/gemma-4-E4B-it-OBLITERATED",
-      "date": "2026-04-16"
-    },
-    {
-      "url": "https://huggingface.co/Comfy-Org/ERNIE-Image",
-      "date": "2026-04-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.13226",
-      "date": "2026-04-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.13081",
-      "date": "2026-04-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.13133",
-      "date": "2026-04-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.13085",
-      "date": "2026-04-16"
-    },
-    {
-      "url": "https://apify.com/nexgendata",
-      "date": "2026-04-16"
-    },
-    {
-      "url": "https://apify.com/nexgendata",
-      "date": "2026-04-16"
-    },
-    {
-      "url": "https://projectbrain.tools/",
-      "date": "2026-04-16"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.110",
-      "date": "2026-04-16"
-    },
-    {
-      "url": "https://github.com/continuedev/continue/releases/tag/v1.2.22-vscode",
-      "date": "2026-04-16"
-    },
-    {
-      "url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.3.dev",
-      "date": "2026-04-16"
-    },
-    {
-      "url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.2",
-      "date": "2026-04-16"
-    },
-    {
-      "url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.2.dev",
-      "date": "2026-04-16"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/github-v1.2.22",
-      "date": "2026-04-16"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/github-v1.2.21",
-      "date": "2026-04-16"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/github-v1.2.20",
-      "date": "2026-04-16"
-    },
-    {
-      "url": "https://github.com/sigoden/aichat/releases/tag/v0.29.0",
-      "date": "2026-04-16"
-    },
-    {
-      "url": "https://github.com/sigoden/aichat/releases/tag/v0.28.0",
-      "date": "2026-04-16"
-    },
-    {
-      "url": "https://pypi.org/project/drydock-cli/2.6.116/",
-      "date": "2026-04-16"
-    },
-    {
-      "url": "https://pypi.org/project/lightrace/1.0.14/",
-      "date": "2026-04-16"
-    },
-    {
-      "url": "https://pypi.org/project/shibaclaw/0.0.35/",
-      "date": "2026-04-16"
-    },
-    {
       "url": "https://github.com/z-lab/dflash",
       "date": "2026-04-17"
     },
@@ -5055,6 +4959,126 @@
     {
       "url": "https://pypi.org/project/ltcai/4.7.0/",
       "date": "2026-06-14"
+    },
+    {
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "date": "2026-06-15"
+    },
+    {
+      "url": "https://github.com/safishamsi/graphify",
+      "date": "2026-06-15"
+    },
+    {
+      "url": "https://github.com/gsd-build/get-shit-done",
+      "date": "2026-06-15"
+    },
+    {
+      "url": "https://github.com/wshobson/agents",
+      "date": "2026-06-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.13740",
+      "date": "2026-06-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.13705",
+      "date": "2026-06-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.13753",
+      "date": "2026-06-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.13795",
+      "date": "2026-06-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.13767",
+      "date": "2026-06-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.13748",
+      "date": "2026-06-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.13862",
+      "date": "2026-06-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.13720",
+      "date": "2026-06-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.13803",
+      "date": "2026-06-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.13815",
+      "date": "2026-06-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.13732",
+      "date": "2026-06-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.13884",
+      "date": "2026-06-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.13871",
+      "date": "2026-06-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.13742",
+      "date": "2026-06-15"
+    },
+    {
+      "url": "https://github.com/cyanheads/pubmed-mcp-server",
+      "date": "2026-06-15"
+    },
+    {
+      "url": "https://arxiv.caseyjhand.com/mcp",
+      "date": "2026-06-15"
+    },
+    {
+      "url": "https://lad.lviv.ua/",
+      "date": "2026-06-15"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.17.7",
+      "date": "2026-06-15"
+    },
+    {
+      "url": "https://github.com/sigoden/aichat/releases/tag/v0.30.0",
+      "date": "2026-06-15"
+    },
+    {
+      "url": "https://github.com/plandex-ai/plandex/releases/tag/cli%2Fv2.2.1",
+      "date": "2026-06-15"
+    },
+    {
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.6.3",
+      "date": "2026-06-15"
+    },
+    {
+      "url": "https://pypi.org/project/lilbee/0.6.66b497/",
+      "date": "2026-06-15"
+    },
+    {
+      "url": "https://pypi.org/project/langchain-litellm/0.7.0/",
+      "date": "2026-06-15"
+    },
+    {
+      "url": "https://pypi.org/project/rakam-frugal-ai/2026.6.15.1/",
+      "date": "2026-06-15"
+    },
+    {
+      "url": "https://pypi.org/project/tag-agent/0.6.0/",
+      "date": "2026-06-15"
+    },
+    {
+      "url": "https://pypi.org/project/aastf/2.1.0/",
+      "date": "2026-06-15"
     }
   ]
 }
