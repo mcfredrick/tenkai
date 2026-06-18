@@ -1,4 +1,50 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev-Tools on Tenkai</title><link>https://tenkai.blog/tags/dev-tools/</link><description>Recent content in Dev-Tools on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 17 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/dev-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — June 17, 2026</title><link>https://tenkai.blog/posts/2026-06-17/</link><pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-06-17/</guid><description>&lt;h2 id="-model-releases-the-main-course">🥗 Model Releases: The Main Course&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev-Tools on Tenkai</title><link>https://tenkai.blog/tags/dev-tools/</link><description>Recent content in Dev-Tools on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 18 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/dev-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — June 18, 2026</title><link>https://tenkai.blog/posts/2026-06-18/</link><pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-06-18/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/Jackrong/Qwopus3.6-27B-Coder-MTP-GGUF" target="_blank" rel="noopener noreferrer">Jackrong/Qwopus3.6-27B-Coder-MTP-GGUF&lt;/a>
+&lt;/strong> 🤖 A 27B Qwen3.6 coder fine‑tuned with LoRA/SFT on Claude Opus trace inversion data, supporting chain‑of‑thought, tool‑use and function calling. GGUF format means you can drop it into llama.cpp for local inference.&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/google-research/timesfm" target="_blank" rel="noopener noreferrer">Google Research TimesFM&lt;/a>
+&lt;/strong> 🤖 Pretrained foundation model for time‑series forecasting that works out‑of‑the‑box on generic temporal data. Handy if you need a plug‑and‑play predictor without building your own seq2seq pipeline.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.181" target="_blank" rel="noopener noreferrer">Claude Code v2.1.181&lt;/a>
+&lt;/strong> 🛠️ Adds &lt;code>/config key=value&lt;/code> syntax for runtime tweaks and a sandbox Apple‑Events opt‑in on macOS. If you’re tweaking Claude Code’s behavior from the prompt, this saves a lot of back‑and‑forth.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/vincio/3.0.0/" target="_blank" rel="noopener noreferrer">vincio 3.0.0&lt;/a>
+&lt;/strong> 🛠️ Context‑engineering platform that bundles prompts, memory, retrieval, tools, schemas and policies into validated, observable context packets. Looks like a sanity check for anyone drowning in prompt‑engineering sprawl.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/trpc-agent-py/1.1.10/" target="_blank" rel="noopener noreferrer">trpc-agent-py 1.1.10&lt;/a>
+&lt;/strong> 🛠️ Python LLM agent framework that talks OpenAI, Anthropic, Gemini, DeepSeek and plugs into A2A/MCP/AGUI protocols plus FastAPI. Broad model support means you won’t be locked into a single provider.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/alexzhang13/rlm" target="_blank" rel="noopener noreferrer">rlm&lt;/a>
+&lt;/strong> 🛠️ Plug‑and‑play inference library for Recursive Language Models with flexible sandboxing for safe execution. If you’re experimenting with recursive prompting, this gives you a sandbox without reinventing the wheel.&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2606.18271" target="_blank" rel="noopener noreferrer">NAVI-Orbital&lt;/a>
+&lt;/strong> 📄 First in‑orbit demo of a zero‑shot VLM for autonomous Earth observation, tackling the bandwidth bottleneck by doing onboard inference. Worth a look if you’re building satellite payloads.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2606.18385" target="_blank" rel="noopener noreferrer">CaVe-VLM-CoT&lt;/a>
+&lt;/strong> 📄 Interpretable VLM framework that adds step‑level citation grounding to curb hallucinations. Could be a template for reducing flaky vision‑language outputs.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2606.18413" target="_blank" rel="noopener noreferrer">Searching for Synergy in Shared Workspace Human‑AI Collaboration&lt;/a>
+&lt;/strong> 📄 Study of how AI agents and humans coordinate responsibilities in a shared workspace. Relevant if you’re designing collaborative tooling.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2606.18543" target="_blank" rel="noopener noreferrer">CEO‑Bench&lt;/a>
+&lt;/strong> 📄 Benchmark for agents tackling long‑horizon, multi‑skill tasks beyond isolated demos. Gives you a reality check on “agent‑orchestration” hype.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2606.18598" target="_blank" rel="noopener noreferrer">Optimizing Lithium Production Decisions under Uncertainties&lt;/a>
+&lt;/strong> 📄 POMDP framework for multi‑objective decisions in lithium mining under geological, demand and price uncertainties. Niche, but the decision‑theoretic patterns are transferable.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2606.18686" target="_blank" rel="noopener noreferrer">ForecastBench‑Sim&lt;/a>
+&lt;/strong> 📄 Simulated‑world forecasting benchmark that mimics tail events and counterfactual scoring. Useful if you’re building or evaluating forecasting models in a sandbox.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/calesthio/OpenMontage" target="_blank" rel="noopener noreferrer">OpenMontage&lt;/a>
+&lt;/strong> 🛠️ Agentic video production system with 12 pipelines, 52 tools and 500+ skills that turns an AI coding assistant into a video studio. Shows how you can chain agents for creative workflows.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/sickn33/antigravity-awesome-skills" target="_blank" rel="noopener noreferrer">sickn33/antigravity-awesome-skills&lt;/a>
+&lt;/strong> 🛠️ Installable library of 1,500+ agentic skills for Claude Code, Cursor, Gemini CLI, etc. Includes bundles and an installer CLI—basically a one‑stop shop for skill‑shopping.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/DietrichGebert/ponytail" target="_blank" rel="noopener noreferrer">DietrichGebert/ponytail&lt;/a>
+&lt;/strong> 🛠️ YAGNI prompt‑engineering skill that nudges agents toward minimal code and avoids over‑engineering. Handy if your team keeps asking for “just a prototype that never ships.”&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>If you need a recursive prompting system that actually stays safe and useful, start with &lt;a href="https://github.com/alexzhang13/rlm" target="_blank" rel="noopener noreferrer">rlm&lt;/a>
+ for plug‑and‑play sandboxing, then layer &lt;a href="https://pypi.org/project/vincio/3.0.0/" target="_blank" rel="noopener noreferrer">vincio 3.0.0&lt;/a>
+ to package prompts, memory, retrieval, and tool calls into observable context packets. Vincio’s validation stops you from leaking half‑baked state, while rlm’s isolated execution lets you iterate on recursive loops without blowing up your host. To give the loop real‑world capabilities, pull in the &lt;a href="https://github.com/sickn33/antigravity-awesome-skills" target="_blank" rel="noopener noreferrer">sickn33/antigravity-awesome-skills&lt;/a>
+ skill catalog—its 1,500+ agentic skills cover everything from file manipulation to API calls, and the installer CLI lets you spin up a custom bundle in minutes. The result is a self‑improving agent that can recursively refine its own reasoning, keep its context auditable, and execute a growing toolbox of actions without ever leaving the sandbox. This combo gives you a production‑ready recursive LLM pipeline that you can drop into existing workflows and iterate on without reinventing the safety and composability layers in production.&lt;/p></description></item><item><title>Tenkai Daily — June 17, 2026</title><link>https://tenkai.blog/posts/2026-06-17/</link><pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-06-17/</guid><description>&lt;h2 id="-model-releases-the-main-course">🥗 Model Releases: The Main Course&lt;/h2>
 &lt;p>&lt;strong>&lt;a href="https://huggingface.co/zai-org/GLM-5.2" target="_blank" rel="noopener noreferrer">zai-org/GLM-5.2 — MoE model with DSA attention&lt;/a>
 &lt;/strong> — Z.ai drops a Mixture-of-Experts model with Dual Sparse Attention under MIT license, backed by two arXiv papers. The DSA mechanism aims to make sparse attention actually work at scale rather than just sounding good in a blog post. Worth a look if you&amp;rsquo;re evaluating MoE architectures for production — the papers (2602.15763, 2603.12201) detail the training recipe so you can judge the nutritional label yourself. 🥦&lt;/p></description></item><item><title>Tenkai Daily — June 16, 2026</title><link>https://tenkai.blog/posts/2026-06-16/</link><pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-06-16/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
 &lt;ul>
