@@ -1,50 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/deepseek-ai/DeepGEMM",
-      "date": "2026-04-19"
-    },
-    {
-      "url": "https://github.com/thunderbird/thunderbolt",
-      "date": "2026-04-19"
-    },
-    {
-      "url": "https://sincetmw.ai",
-      "date": "2026-04-19"
-    },
-    {
-      "url": "https://github.com/Fabsbags/sbb-mcp",
-      "date": "2026-04-19"
-    },
-    {
-      "url": "https://octomil.com",
-      "date": "2026-04-19"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.113",
-      "date": "2026-04-19"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.14.17",
-      "date": "2026-04-19"
-    },
-    {
-      "url": "https://pypi.org/project/jaxnn/0.1.22/",
-      "date": "2026-04-19"
-    },
-    {
-      "url": "https://pypi.org/project/mfu-tracker/0.1.0/",
-      "date": "2026-04-19"
-    },
-    {
-      "url": "https://pypi.org/project/sumd/0.2.0rc1/",
-      "date": "2026-04-19"
-    },
-    {
-      "url": "https://pypi.org/project/feishu-bridge/2026.4.19.6/",
-      "date": "2026-04-19"
-    },
-    {
       "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8",
       "date": "2026-04-20"
     },
@@ -5031,6 +4987,150 @@
     {
       "url": "https://pypi.org/project/abstractintegratedmodule/0.5.6/",
       "date": "2026-06-17"
+    },
+    {
+      "url": "https://github.com/google-research/timesfm",
+      "date": "2026-06-18"
+    },
+    {
+      "url": "https://github.com/calesthio/OpenMontage",
+      "date": "2026-06-18"
+    },
+    {
+      "url": "https://github.com/alexzhang13/rlm",
+      "date": "2026-06-18"
+    },
+    {
+      "url": "https://github.com/sickn33/antigravity-awesome-skills",
+      "date": "2026-06-18"
+    },
+    {
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "date": "2026-06-18"
+    },
+    {
+      "url": "https://huggingface.co/Jackrong/Qwopus3.6-27B-Coder-MTP-GGUF",
+      "date": "2026-06-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.18271",
+      "date": "2026-06-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.18385",
+      "date": "2026-06-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.18413",
+      "date": "2026-06-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.18543",
+      "date": "2026-06-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.18598",
+      "date": "2026-06-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.18686",
+      "date": "2026-06-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.18746",
+      "date": "2026-06-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.18786",
+      "date": "2026-06-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.18803",
+      "date": "2026-06-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.18847",
+      "date": "2026-06-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.18874",
+      "date": "2026-06-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.18888",
+      "date": "2026-06-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.18890",
+      "date": "2026-06-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.18936",
+      "date": "2026-06-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.18283",
+      "date": "2026-06-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.18284",
+      "date": "2026-06-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.18286",
+      "date": "2026-06-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.18287",
+      "date": "2026-06-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.18303",
+      "date": "2026-06-18"
+    },
+    {
+      "url": "https://github.com/cyanheads/clinicaltrialsgov-mcp-server",
+      "date": "2026-06-18"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.181",
+      "date": "2026-06-18"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.17.8",
+      "date": "2026-06-18"
+    },
+    {
+      "url": "https://pypi.org/project/vincio/3.0.0/",
+      "date": "2026-06-18"
+    },
+    {
+      "url": "https://pypi.org/project/trpc-agent-py/1.1.10/",
+      "date": "2026-06-18"
+    },
+    {
+      "url": "://pypi.org/project/raw-agents/0.1.6/",
+      "date": "2026-06-18"
+    },
+    {
+      "url": "https://pypi.org/project/isabelle-mcp/0.1.3/",
+      "date": "2026-06-18"
+    },
+    {
+      "url": "https://pypi.org/project/agentic-fabriq-sdk/0.1.87/",
+      "date": "2026-06-18"
+    },
+    {
+      "url": "https://pypi.org/project/solvedesk-ai/0.5.3/",
+      "date": "2026-06-18"
+    },
+    {
+      "url": "https://pypi.org/project/ms2deepscore-onnx-converter/0.1.1/",
+      "date": "2026-06-18"
+    },
+    {
+      "url": "https://pypi.org/project/aidial-sdk/0.38.0.dev9/",
+      "date": "2026-06-18"
     }
   ]
 }
