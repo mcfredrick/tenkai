@@ -1,4 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Llm on Tenkai</title><link>https://tenkai.blog/tags/llm/</link><description>Recent content in Llm on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 18 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/llm/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — June 18, 2026</title><link>https://tenkai.blog/posts/2026-06-18/</link><pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-06-18/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Llm on Tenkai</title><link>https://tenkai.blog/tags/llm/</link><description>Recent content in Llm on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 19 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/llm/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — June 19, 2026</title><link>https://tenkai.blog/posts/2026-06-19/</link><pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-06-19/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/Zyphra/ZONOS2" target="_blank" rel="noopener noreferrer">Zyphra/ZONOS2&lt;/a>
+&lt;/strong> 🤖 — Zyphra’s new TTS model released under Apache‑2.0, giving you a fresh voice option for synthesis tasks.&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/agenticbridge/0.1.0/" target="_blank" rel="noopener noreferrer">AgenticBridge 0.1.0&lt;/a>
+&lt;/strong> 🛠️ — SQLite‑backed MCP server that acts as a shared memory bus for AI coding agents, persisting context across sessions.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/nvidia-nat-langchain/1.9.0a20260619/" target="_blank" rel="noopener noreferrer">nvidia-nat-langchain 1.9.0a&lt;/a>
+&lt;/strong> 🛠️ — Official NeMo Agent Toolkit subpackage that plugs NVIDIA’s agents into LangChain/LangGraph, easing production‑grade LLM agent builds.&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2606.19538" target="_blank" rel="noopener noreferrer">ITNet&lt;/a>
+&lt;/strong> 📄 — Proposes ITNet, a learnable integral transform that mathematically unifies convolutions, recurrences, and transformers.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2606.19475" target="_blank" rel="noopener noreferrer">Diffusion Language Models&lt;/a>
+&lt;/strong> 📄 — Experimental analysis of DLMs, an autoregressive alternative that generates text via iterative denoising, with benchmarks against classic LLMs.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2606.19464" target="_blank" rel="noopener noreferrer">Deontic Policies&lt;/a>
+&lt;/strong> 📄 — Introduces a runtime governance framework for LLM‑driven agents, encoding obligations, permissions, and prohibitions beyond simple auth.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2606.19494" target="_blank" rel="noopener noreferrer">Hidden Anchors&lt;/a>
+&lt;/strong> 📄 — Explores why multi‑agent LLM deliberation improves reasoning, identifying “hidden anchors” in early rounds that skew later consensus.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2606.19559" target="_blank" rel="noopener noreferrer">Uncertainty Decomposition&lt;/a>
+&lt;/strong> 📄 — Extends aleatoric/epistemic uncertainty for interactive agents, providing decomposable uncertainty that lets agents ask clarifying questions proactively.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2606.19607" target="_blank" rel="noopener noreferrer">Post‑Training Pair Selection&lt;/a>
+&lt;/strong> 📄 — Studies optimal pairing strategies for preference‑based post‑training (DPO/RLHF), giving actionable guidance on which completions to compare.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/Lightricks/LTX-2" target="_blank" rel="noopener noreferrer">LTX-2&lt;/a>
+&lt;/strong> 🤖 — Official Python package for inference and LoRA fine‑tuning of Lightricks’ LTX‑2 audio‑video model, supporting joint AV generation.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/NousResearch/hermes-agent" target="_blank" rel="noopener noreferrer">hermes-agent&lt;/a>
+&lt;/strong> 🤖 — NousResearch’s adaptive AI agent that grows with the user, integrating with Claude Code, Codex, and other harnesses.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.183" target="_blank" rel="noopener noreferrer">Claude Code v2.1.183&lt;/a>
+&lt;/strong> 🛡️ — Blocks destructive git commands and terraform destroy unless explicitly requested, plus guards against unauthorized commit amendments.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/farion1231/cc-switch" target="_blank" rel="noopener noreferrer">cc-switch&lt;/a>
+&lt;/strong> 🛠️ — Cross‑platform desktop app that unifies management of Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI, and Hermes Agent, built with Rust/Tauri and WSL support.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/HKUDS/nanobot" target="_blank" rel="noopener noreferrer">nanobot&lt;/a>
+&lt;/strong> 🛠️ — HKUDS’ lightweight open‑source AI agent for tools, chats, and workflows, supporting Claude Code, Codex, and other frameworks with simplicity and extensibility.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>The agent ecosystem is quietly standardizing around shared memory and unified control. &lt;strong>AgenticBridge&lt;/strong> gives you a SQLite-backed MCP server that persists context across sessions — plug &lt;strong>hermes-agent&lt;/strong> and &lt;strong>nanobot&lt;/strong> into it, and you&amp;rsquo;ve got multiple specialized agents (one for refactoring, one for tests, one for docs) that actually remember what the others did. &lt;strong>cc-switch&lt;/strong> then becomes your mission control, letting you hot-swap between Claude Code, Codex, and these open agents without losing thread continuity. The missing piece? Governance. &lt;strong>Deontic Policies&lt;/strong> shows how to encode obligations and prohibitions at runtime — pair that with &lt;strong>Claude Code&amp;rsquo;s&lt;/strong> new guardrails (blocking &lt;code>terraform destroy&lt;/code> and unauthorized commit amendments) and you can enforce &amp;ldquo;no force-push to main&amp;rdquo; at the policy layer, not just the config layer. Start small: spin up AgenticBridge locally, register two agents with distinct roles, and write one deontic rule — &amp;ldquo;agents may not delete files without explicit user confirmation.&amp;rdquo; You&amp;rsquo;ll have a governed, memory-sharing multi-agent loop running in an afternoon.&lt;/p></description></item><item><title>Tenkai Daily — June 18, 2026</title><link>https://tenkai.blog/posts/2026-06-18/</link><pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-06-18/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/Jackrong/Qwopus3.6-27B-Coder-MTP-GGUF" target="_blank" rel="noopener noreferrer">Jackrong/Qwopus3.6-27B-Coder-MTP-GGUF&lt;/a>
 &lt;/strong> 🤖 A 27B Qwen3.6 coder fine‑tuned with LoRA/SFT on Claude Opus trace inversion data, supporting chain‑of‑thought, tool‑use and function calling. GGUF format means you can drop it into llama.cpp for local inference.&lt;/li>
