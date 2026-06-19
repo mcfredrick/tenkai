@@ -1,66 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8",
-      "date": "2026-04-20"
-    },
-    {
-      "url": "https://huggingface.co/Jackrong/Qwopus-GLM-18B-Merged-GGUF",
-      "date": "2026-04-20"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.15839",
-      "date": "2026-04-20"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.15529",
-      "date": "2026-04-20"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.15350",
-      "date": "2026-04-20"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.15351",
-      "date": "2026-04-20"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.15356",
-      "date": "2026-04-20"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.15411",
-      "date": "2026-04-20"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.15877",
-      "date": "2026-04-20"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.14.19",
-      "date": "2026-04-20"
-    },
-    {
-      "url": "https://pypi.org/project/tinillm/2.1.1/",
-      "date": "2026-04-20"
-    },
-    {
-      "url": "https://pypi.org/project/vibelign/2.0.19/",
-      "date": "2026-04-20"
-    },
-    {
-      "url": "https://pypi.org/project/router-maestro/0.1.33/",
-      "date": "2026-04-20"
-    },
-    {
-      "url": "https://pypi.org/project/vallm/0.1.86/",
-      "date": "2026-04-20"
-    },
-    {
-      "url": "https://pypi.org/project/nvd-claude-proxy/0.2.5/",
-      "date": "2026-04-20"
-    },
-    {
       "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
       "date": "2026-04-21"
     },
@@ -5131,6 +5071,98 @@
     {
       "url": "https://pypi.org/project/aidial-sdk/0.38.0.dev9/",
       "date": "2026-06-18"
+    },
+    {
+      "url": "https://github.com/Lightricks/LTX-2",
+      "date": "2026-06-19"
+    },
+    {
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "date": "2026-06-19"
+    },
+    {
+      "url": "https://github.com/farion1231/cc-switch",
+      "date": "2026-06-19"
+    },
+    {
+      "url": "https://github.com/HKUDS/nanobot",
+      "date": "2026-06-19"
+    },
+    {
+      "url": "https://huggingface.co/Zyphra/ZONOS2",
+      "date": "2026-06-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.19538",
+      "date": "2026-06-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.19475",
+      "date": "2026-06-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.19464",
+      "date": "2026-06-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.19494",
+      "date": "2026-06-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.19559",
+      "date": "2026-06-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.19607",
+      "date": "2026-06-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.19527",
+      "date": "2026-06-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.19376",
+      "date": "2026-06-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.19365",
+      "date": "2026-06-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.19367",
+      "date": "2026-06-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.19364",
+      "date": "2026-06-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.19602",
+      "date": "2026-06-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.19588",
+      "date": "2026-06-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.19363",
+      "date": "2026-06-19"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.183",
+      "date": "2026-06-19"
+    },
+    {
+      "url": "https://pypi.org/project/agenticbridge/0.1.0/",
+      "date": "2026-06-19"
+    },
+    {
+      "url": "https://pypi.org/project/nvidia-nat-langchain/1.9.0a20260619/",
+      "date": "2026-06-19"
+    },
+    {
+      "url": "https://pypi.org/project/nvidia-nat-memmachine/1.9.0a20260619/",
+      "date": "2026-06-19"
     }
   ]
 }
