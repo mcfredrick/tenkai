@@ -1,34 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
-      "date": "2026-04-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.15709",
-      "date": "2026-04-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.16335",
-      "date": "2026-04-21"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.116",
-      "date": "2026-04-21"
-    },
-    {
-      "url": "https://pypi.org/project/vllm-sr/0.3.0.dev20260421083012/",
-      "date": "2026-04-21"
-    },
-    {
-      "url": "https://pypi.org/project/agents-gateway/0.2.8/",
-      "date": "2026-04-21"
-    },
-    {
-      "url": "https://pypi.org/project/ai-runtime-guard/2.2.2/",
-      "date": "2026-04-21"
-    },
-    {
       "url": "https://github.com/microsoft/ai-agents-for-beginners",
       "date": "2026-04-22"
     },
@@ -5163,6 +5135,42 @@
     {
       "url": "https://pypi.org/project/nvidia-nat-memmachine/1.9.0a20260619/",
       "date": "2026-06-19"
+    },
+    {
+      "url": "https://github.com/aishwaryanr/awesome-generative-ai-guide",
+      "date": "2026-06-20"
+    },
+    {
+      "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF",
+      "date": "2026-06-20"
+    },
+    {
+      "url": "https://zlurp.ai/",
+      "date": "2026-06-20"
+    },
+    {
+      "url": "https://pypi.org/project/mnemostack/0.7.0/",
+      "date": "2026-06-20"
+    },
+    {
+      "url": "https://pypi.org/tau-coding-agent/0.2.0/",
+      "date": "2026-06-20"
+    },
+    {
+      "url": "https://pypi.org/saidso/0.4.1/",
+      "date": "2026-06-20"
+    },
+    {
+      "url": "https://pypi.org/jentic-apitools-score/1.0.0a19/",
+      "date": "2026-06-20"
+    },
+    {
+      "url": "https://pypi.org/jentic-apitools-llm/1.0.0a19/",
+      "date": "2026-06-20"
+    },
+    {
+      "url": "https://pypi.org/cc-agent-messenger/0.2.0/",
+      "date": "2026-06-20"
     }
   ]
 }
