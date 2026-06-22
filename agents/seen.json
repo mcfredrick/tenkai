@@ -1,46 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF",
-      "date": "2026-04-23"
-    },
-    {
-      "url": "https://huggingface.co/openai/privacy-filter",
-      "date": "2026-04-23"
-    },
-    {
-      "url": "https://huggingface.co/moonshotai/Kimi-K2.6",
-      "date": "2026-04-23"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.118",
-      "date": "2026-04-23"
-    },
-    {
-      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.32.0",
-      "date": "2026-04-23"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.14.21",
-      "date": "2026-04-23"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/v3.80.0",
-      "date": "2026-04-23"
-    },
-    {
-      "url": "https://pypi.org/project/agent-framework/1.1.1/",
-      "date": "2026-04-23"
-    },
-    {
-      "url": "https://pypi.org/project/ramjetio/0.8.5/",
-      "date": "2026-04-23"
-    },
-    {
-      "url": "https://pypi.org/project/sumd/0.3.33/",
-      "date": "2026-04-23"
-    },
-    {
       "url": "https://github.com/huggingface/ml-intern",
       "date": "2026-04-24"
     },
@@ -5099,6 +5059,34 @@
     {
       "url": "https://pypi.org/code-mower/0.5.0b27/",
       "date": "2026-06-21"
+    },
+    {
+      "url": "https://github.com/topoteretes/cognee",
+      "date": "2026-06-22"
+    },
+    {
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "date": "2026-06-22"
+    },
+    {
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-Embedding-350M",
+      "date": "2026-06-22"
+    },
+    {
+      "url": "https://huggingface.co/datalab-to/lift",
+      "date": "2026-06-22"
+    },
+    {
+      "url": "https://pypi.org/project/vault-for-llm/0.6.37/",
+      "date": "2026-06-22"
+    },
+    {
+      "url": "https://pypi.org/project/skillware/0.3.7/",
+      "date": "2026-06-22"
+    },
+    {
+      "url": "https://pypi.org/project/aimd-tool/0.10.0/",
+      "date": "2026-06-22"
     }
   ]
 }
