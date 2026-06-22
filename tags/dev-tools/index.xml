@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev-Tools on Tenkai</title><link>https://tenkai.blog/tags/dev-tools/</link><description>Recent content in Dev-Tools on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 21 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/dev-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — June 21, 2026</title><link>https://tenkai.blog/posts/2026-06-21/</link><pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-06-21/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev-Tools on Tenkai</title><link>https://tenkai.blog/tags/dev-tools/</link><description>Recent content in Dev-Tools on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 22 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/dev-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — June 22, 2026</title><link>https://tenkai.blog/posts/2026-06-22/</link><pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-06-22/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/LiquidAI/LFM2.5-Embedding-350M" target="_blank" rel="noopener noreferrer">LiquidAI/LFM2.5-Embedding-350M&lt;/a>
+&lt;/strong> 🤖 — A 350M‑parameter sentence embedder fine‑tuned from LFM2.5‑350M‑Base, supporting 12 languages and built for edge deployment (arxiv:2511.23404).&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/datalab-to/lift" target="_blank" rel="noopener noreferrer">datalab-to/lift&lt;/a>
+&lt;/strong> 📄 — Qwen3.5‑based PDF extractor that spits out clean JSON, OpenRail licensed and endpoint‑ready.&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/vault-for-llm/0.6.37/" target="_blank" rel="noopener noreferrer">vault-for-llm 0.6.37&lt;/a>
+&lt;/strong> 🛠️ — Local‑first Markdown + SQLite memory layer for LLM agents, with keyword search, optional embeddings, MCP hooks and citation tools—great for privacy‑obsessed memory stacks.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/skillware/0.3.7/" target="_blank" rel="noopener noreferrer">skillware 0.3.7&lt;/a>
+&lt;/strong> 🛠️ — Framework for building modular, self‑contained AI “skills” so you can compose agent capabilities without a custom mess of glue code.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/aimd-tool/0.10.0/" target="_blank" rel="noopener noreferrer">aimd-tool 0.10.0&lt;/a>
+&lt;/strong> 🛠️ — Context prep tool that likely handles prompt construction, retrieval and window management, handy for squeezing more juice out of LLM input pipelines.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/headroomlabs-ai/headroom" target="_blank" rel="noopener noreferrer">headroomlabs-ai/headroom&lt;/a>
+&lt;/strong> 🤖 — Token compressor for tool outputs, logs, files and RAG chunks, slashing token usage by 60‑95% while keeping answer quality intact; library, proxy and MCP server with Python/TypeScript support, LangChain, FastAPI, etc.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/topoteretes/cognee" target="_blank" rel="noopener noreferrer">Cognee&lt;/a>
+&lt;/strong> 🤖 — Open‑source, self‑hosted knowledge‑graph memory platform that gives agents persistent long‑term context across sessions—solves the classic “where did I leave my conversation?” problem.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>Imagine you drop a new LLM agent into a privacy‑first pipeline. You grab [vault-for-llm 0.6.37] 🛠️ for a local SQLite‑backed memory store that indexes your Markdown notes and lets you search or embed them on demand. Then you plug in [skillware 0.3.7] 🛠️ to compose reusable “skills” (PDF parsing, data validation, etc.) without weaving glue code, keeping the agent’s behavior modular and testable. To keep the token budget under control, you feed every tool output, log, and retrieved chunk through [headroomlabs-ai/headroom] 🤖, which slashes token usage by 60‑95% while preserving answer fidelity. The result is a self‑hosted, privacy‑preserving agent that never forgets past sessions, swaps in new capabilities on the fly, and stays cheap enough to run on a modest GPU, and scales linearly with additional skills, and you can even expose the pipeline as a REST endpoint using FastAPI if you need to batch requests. The only extra step is wiring the three together with a simple orchestrator—nothing more than a few lines of Python and you’ve built a production‑ready, low‑latency agent stack.&lt;/p></description></item><item><title>Tenkai Daily — June 21, 2026</title><link>https://tenkai.blog/posts/2026-06-21/</link><pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-06-21/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://huggingface.co/WeiboAI/VibeThinker-3B" target="_blank" rel="noopener noreferrer">VibeThinker-3B: Math &amp;amp; Code Reasoning Fine-tune&lt;/a>
  — WeiboAI fine-tunes Qwen2.5-Coder-3B into VibeThinker-3B, targeting math, code reasoning, and instruction‑following. MIT licensed with TIE support, backed by arXiv:2606.16140. 🤖&lt;/li>
