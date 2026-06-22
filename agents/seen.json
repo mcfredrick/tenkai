@@ -5087,6 +5087,30 @@
     {
       "url": "https://pypi.org/project/aimd-tool/0.10.0/",
       "date": "2026-06-22"
+    },
+    {
+      "url": "https://github.com/obra/superpowers",
+      "date": "2026-06-22"
+    },
+    {
+      "url": "https://github.com/bytedance/deer-flow",
+      "date": "2026-06-22"
+    },
+    {
+      "url": "https://github.com/langchain-ai/langgraph",
+      "date": "2026-06-22"
+    },
+    {
+      "url": "https://github.com/openai/openai-agents-python",
+      "date": "2026-06-22"
+    },
+    {
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "date": "2026-06-22"
+    },
+    {
+      "url": "https://github.com/deepset-ai/haystack",
+      "date": "2026-06-22"
     }
   ]
 }
