@@ -1,54 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/deepseek-ai/DeepEP",
-      "date": "2026-04-25"
-    },
-    {
-      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
-      "date": "2026-04-25"
-    },
-    {
-      "url": "https://github.com/addyosmani/agent-skills",
-      "date": "2026-04-25"
-    },
-    {
-      "url": "https://huggingface.co/Qwen/Qwen3.6-27B-FP8",
-      "date": "2026-04-25"
-    },
-    {
-      "url": "https://docs.glassnode.com/guides-and-tutorials/glassnode-mcp-server",
-      "date": "2026-04-25"
-    },
-    {
-      "url": "https://strale.dev",
-      "date": "2026-04-25"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.14.24",
-      "date": "2026-04-25"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/v3.81.0",
-      "date": "2026-04-25"
-    },
-    {
-      "url": "https://pypi.org/project/shadow-diff/1.7.1/",
-      "date": "2026-04-25"
-    },
-    {
-      "url": "https://pypi.org/project/appium-mcp/1.0.12/",
-      "date": "2026-04-25"
-    },
-    {
-      "url": "https://pypi.org/project/mcp-mem0/0.2.0/",
-      "date": "2026-04-25"
-    },
-    {
-      "url": "https://pypi.org/project/clawmetry/0.12.153/",
-      "date": "2026-04-25"
-    },
-    {
       "url": "https://github.com/CJackHwang/ds2api",
       "date": "2026-04-26"
     },
@@ -5063,6 +5015,78 @@
     {
       "url": "https://pypi.org/project/gllm-docproc-binary/0.11.28/",
       "date": "2026-06-23"
+    },
+    {
+      "url": "https://github.com/jamiepine/voicebox",
+      "date": "2026-06-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.24010",
+      "date": "2026-06-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.24014",
+      "date": "2026-06-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.24026",
+      "date": "2026-06-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.24124",
+      "date": "2026-06-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.24157",
+      "date": "2026-06-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.23739",
+      "date": "2026-06-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.23740",
+      "date": "2026-06-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.23741",
+      "date": "2026-06-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.24064",
+      "date": "2026-06-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.23858",
+      "date": "2026-06-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.23867",
+      "date": "2026-06-24"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.187",
+      "date": "2026-06-24"
+    },
+    {
+      "url": "https://pypi.org/project/lmdeploy/0.14.0/",
+      "date": "2026-06-24"
+    },
+    {
+      "url": "https://pypi.org/project/amjax/0.0.3/",
+      "date": "2026-06-24"
+    },
+    {
+      "url": "https://pypi.org/project/vault-for-llm/0.6.88/",
+      "date": "2026-06-24"
+    },
+    {
+      "url": "https://pypi.org/project/tencentcloud-cls-sdk-langchain/1.0.1/",
+      "date": "2026-06-24"
+    },
+    {
+      "url": "https://pypi.org/project/mureo/0.10.13/",
+      "date": "2026-06-24"
     }
   ]
 }
