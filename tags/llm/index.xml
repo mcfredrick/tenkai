@@ -1,4 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Llm on Tenkai</title><link>https://tenkai.blog/tags/llm/</link><description>Recent content in Llm on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 24 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/llm/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — June 24, 2026</title><link>https://tenkai.blog/posts/2026-06-24/</link><pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-06-24/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Llm on Tenkai</title><link>https://tenkai.blog/tags/llm/</link><description>Recent content in Llm on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 25 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/llm/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — June 25, 2026</title><link>https://tenkai.blog/posts/2026-06-25/</link><pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-06-25/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B" target="_blank" rel="noopener noreferrer">Qwen/Qwen-AgentWorld-35B-A3B&lt;/a>
+&lt;/strong> — A 35B‑parameter MoE agent model fine‑tuned from Qwen3.5‑35B‑A3B‑Base for environment simulation and world‑model tasks, includes AgentWorldBench and image‑to‑text input. Apache‑2.0 with TGI endpoint support 🤖📄&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/cuda-triton-multiarch/0.1.0/" target="_blank" rel="noopener noreferrer">cuda-triton-multiarch 0.1.0&lt;/a>
+&lt;/strong> — Provides Triton GPU kernels for transformer ops: softmax, FlashAttention‑2, RMSNorm, SwiGLU, and quantized matmul. Handy for custom CUDA‑optimized inference or training pipelines 🛠️🔥&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/dv-pipecat-ai/0.0.93.dev92/" target="_blank" rel="noopener noreferrer">dv-pipecat-ai 0.0.93.dev92&lt;/a>
+&lt;/strong> — Open‑source framework for voice and multimodal AI assistants, continuing the Pipecat pipeline architecture for real‑time conversational workflows. Great if you need modular, streaming agents 🎙️📢&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/prompt-shield-ai/0.6.0/" target="_blank" rel="noopener noreferrer">prompt-shield-ai 0.6.0&lt;/a>
+&lt;/strong> — Self‑learning engine that spots prompt injections, helping keep LLM apps from being hijacked by adversarial inputs. Production teams building chatbots will want this 🛡️⚡&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/contextlake/2.4.0/" target="_blank" rel="noopener noreferrer">contextlake 2.4.0&lt;/a>
+&lt;/strong> — Mirrors local repos, indexes them into a knowledge graph, and serves context over MCP. Perfect for AI‑powered dev tools that need structured codebase awareness 📚🔗&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/tm-ai/3.3.55/" target="_blank" rel="noopener noreferrer">tm-ai 3.3.55&lt;/a>
+&lt;/strong> — “Time Machine for AI Agents,” offering cognitive version control for LLM context so you can track and roll back agent memory and reasoning state. Essential for long‑running, multi‑step agent systems 🧠⏪&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/myrm-agent-harness/0.1.0rc4/" target="_blank" rel="noopener noreferrer">myrm-agent-harness 0.1.0rc4&lt;/a>
+&lt;/strong> — LangChain‑based professional agent framework with an advanced skill system and MCP integration. Good for teams building modular agents that actually use tools 🧩🔌&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2606.24898" target="_blank" rel="noopener noreferrer">Dense Supervision Is Not Enough: The Readout Blind Spot in Looped Language Models&lt;/a>
+&lt;/strong> — Shows that dense per‑loop cross‑entropy only controls readout‑exposed variables, a blind spot for state management in recurrent/recursive LLM designs. If you’re fiddling with looped models, this is a reality check 📏🧪&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2606.24900" target="_blank" rel="noopener noreferrer">On-Device Neural Architecture Search&lt;/a>
+&lt;/strong> — Performs lightweight NAS directly on deployment devices for near‑sensor computing, enabling real‑time adaptation to sensor data. Edge AI engineers working on tinyML will find this useful 🖥️⚙️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2606.24901" target="_blank" rel="noopener noreferrer">LLM Evolution as an Industry‑Scale Ecosystem: A Lifecycle Perspective on Continual Learning&lt;/a>
+&lt;/strong> — Surveys continual learning for industrial LLMs from a lifecycle angle, emphasizing incremental updates rather than full retraining. Practical guide for scaling production LLMs 📈🔄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2606.24945" target="_blank" rel="noopener noreferrer">When Do Conservation Laws Survive Learned Representations? Certified Horizons for Latent World Models&lt;/a>
+&lt;/strong> — Investigates when conservation laws stay certifiable after latent representation learning, introducing certified horizons that bound rollout error. Theoretical safety nets for simulation and robotics folks 🤖📐&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2606.24946" target="_blank" rel="noopener noreferrer">Conformal Orbit‑Valid Trust Horizons for Equivariant World Models&lt;/a>
+&lt;/strong> — Extends trust‑horizon certification to latent world models with known group symmetries using split‑conformal calibration. Ideal for physics‑informed or symmetry‑aware world models needing certified prediction bounds 🛡️🔬&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2606.24956" target="_blank" rel="noopener noreferrer">Convex–Concave Quadratic Spectral Filtering for Graph Neural Networks&lt;/a>
+&lt;/strong> — Proposes DCQ‑GNN, a spectral GNN based on convex‑concave quadratic filters that boost frequency selectivity while staying optimization‑friendly. GNN engineers seeking better spectral designs will appreciate this 📊🔧&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/addyosmani/agent-skills" target="_blank" rel="noopener noreferrer">addyosmani/agent-skills&lt;/a>
+&lt;/strong> — A curated collection of production‑grade engineering skills for AI coding agents, covering proven patterns and practices for agent‑driven development workflows. Good reference if you’re hunting for battle‑tested agent capabilities 🛠️📚&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.191" target="_blank" rel="noopener noreferrer">Claude Code v2.1.191 – Conversation Rewind, Agent Fixes&lt;/a>
+&lt;/strong> — Adds &lt;code>/rewind&lt;/code> to resume after &lt;code>/clear&lt;/code>, fixes scroll‑position jumping during streaming, makes stopping background agents permanent, and tosses in a &lt;code>/voice&lt;/code> fix. Helpful for anyone wrestling with Claude’s UI quirks 🎙️🔧&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anomalyco/opencode/releases/tag/v1.17.10" target="_blank" rel="noopener noreferrer">OpenCode v1.17.10 – MCP Server Instructions, Resource Templates, &amp;ndash;mini CLI&lt;/a>
+&lt;/strong> — Brings MCP server instructions into session context, adds MCP resource template listing and read tools, a &lt;code>--mini&lt;/code> CLI mode, and provider integrations managed by OpenCode. Nice for folks who like tight MCP integration ⚙️🖥️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/JCodesMore/ai-website-cloner-template" target="_blank" rel="noopener noreferrer">AI website cloner template using coding agents&lt;/a>
+&lt;/strong> — One‑shot website cloning with AI coding agents, showcasing practical agent‑driven code generation and web scraping/reconstruction. A handy reference for building agentic automation tools for web tasks 🌐🤖&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>Combine &lt;a href="https://pypi.org/project/tm-ai/3.3.55/" target="_blank" rel="noopener noreferrer">tm-ai 3.3.55&lt;/a>
+’s cognitive version control with &lt;a href="https://pypi.org/project/myrm-agent-harness/0.1.0rc4/" target="_blank" rel="noopener noreferrer">myrm-agent-harness 0.1.0rc4&lt;/a>
+’s modular skill system and &lt;a href="https://pypi.org/project/contextlake/2.4.0/" target="_blank" rel="noopener noreferrer">contextlake 2.4.0&lt;/a>
+’s knowledge‑graph indexing to build a self‑documenting agent that can both reason through code changes and roll back its reasoning. Start by hooking contextlake into the agent&amp;rsquo;s startup pipeline so it mirrors your repo, builds an MCP‑served knowledge graph, and injects structured context into prompts. Use myrm-agent-harness to expose reusable skills (e.g., file read/write, test generation) that the agent can invoke via MCP. Wire tm-ai as the agent&amp;rsquo;s memory layer, wrapping each reasoning step with a versioned checkpoint that can be inspected or rewound if a skill fails or a bug surfaces. When the agent encounters a regression, you can revert to a prior checkpoint, reload the corresponding context snapshot from contextlake, and re‑execute the skill chain. This triad gives you long‑running agents that are both traceable and safe, with full rollback capability and an up‑to‑date codebase awareness for production deployments.&lt;/p></description></item><item><title>Tenkai Daily — June 24, 2026</title><link>https://tenkai.blog/posts/2026-06-24/</link><pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-06-24/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://pypi.org/project/lmdeploy/0.14.0/" target="_blank" rel="noopener noreferrer">lmdeploy 0.14.0 — LLM compression, deployment, and serving toolkit&lt;/a>
 &lt;/strong> 🛠️ Updated toolset for compressing, deploying, and serving large language models. Relevant for ML engineers working on LLM inference optimization and production serving pipelines.&lt;/li>
