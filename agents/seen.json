@@ -1,102 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/trycua/cua",
-      "date": "2026-04-27"
-    },
-    {
-      "url": "https://github.com/jeecgboot/JeecgBoot",
-      "date": "2026-04-27"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.22085",
-      "date": "2026-04-27"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.22032",
-      "date": "2026-04-27"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.22050",
-      "date": "2026-04-27"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.22034",
-      "date": "2026-04-27"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.22031",
-      "date": "2026-04-27"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.21999",
-      "date": "2026-04-27"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.22273",
-      "date": "2026-04-27"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.22436",
-      "date": "2026-04-27"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.22446",
-      "date": "2026-04-27"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.21952",
-      "date": "2026-04-27"
-    },
-    {
-      "url": "https://mcp.senzing.com/mcp",
-      "date": "2026-04-27"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.14.26",
-      "date": "2026-04-27"
-    },
-    {
-      "url": "https://pypi.org/project/project-mind/0.2.0/",
-      "date": "2026-04-27"
-    },
-    {
-      "url": "https://pypi.org/project/engaku/1.1.7/",
-      "date": "2026-04-27"
-    },
-    {
-      "url": "https://pypi.org/project/tfp-nightly/0.26.0.dev20260427/",
-      "date": "2026-04-27"
-    },
-    {
-      "url": "https://pypi.org/project/stability-analysis-agent/1.2.1/",
-      "date": "2026-04-27"
-    },
-    {
-      "url": "https://github.com/graykode/abtop",
-      "date": "2026-04-27"
-    },
-    {
-      "url": "https://github.com/jazzyalex/agent-sessions",
-      "date": "2026-04-27"
-    },
-    {
-      "url": "https://github.com/Dicklesworthstone/coding_agent_account_manager",
-      "date": "2026-04-27"
-    },
-    {
-      "url": "https://github.com/uppinote20/claude-dashboard",
-      "date": "2026-04-27"
-    },
-    {
-      "url": "https://github.com/NoobyGains/claude-pulse",
-      "date": "2026-04-27"
-    },
-    {
-      "url": "https://github.com/Dubibubii/usage-limit-reducer",
-      "date": "2026-04-27"
-    },
-    {
       "url": "https://github.com/deepseek-ai/DeepSeek-V3",
       "date": "2026-04-28"
     },
@@ -5119,6 +5023,82 @@
     {
       "url": "https://pypi.org/project/myrm-agent-harness/0.1.0rc4/",
       "date": "2026-06-25"
+    },
+    {
+      "url": "https://github.com/aws/agent-toolkit-for-aws",
+      "date": "2026-06-26"
+    },
+    {
+      "url": "https://github.com/opendatalab/MinerU",
+      "date": "2026-06-26"
+    },
+    {
+      "url": "https://huggingface.co/krea/Krea-2-Raw",
+      "date": "2026-06-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.26155",
+      "date": "2026-06-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.26161",
+      "date": "2026-06-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.26173",
+      "date": "2026-06-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.26300",
+      "date": "2026-06-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.26356",
+      "date": "2026-06-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.26257",
+      "date": "2026-06-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.26290",
+      "date": "2026-06-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.26217",
+      "date": "2026-06-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.26179",
+      "date": "2026-06-26"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
+      "date": "2026-06-26"
+    },
+    {
+      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.39.0",
+      "date": "2026-06-26"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.17.11",
+      "date": "2026-06-26"
+    },
+    {
+      "url": "https://github.com/sigoden/aichat/releases/tag/v0.29.0",
+      "date": "2026-06-26"
+    },
+    {
+      "url": "https://pypi.org/project/openagentd/1.72.0/",
+      "date": "2026-06-26"
+    },
+    {
+      "url": "https://pypi.org/project/trinity-agent/1.0.331/",
+      "date": "2026-06-26"
+    },
+    {
+      "url": "https://pypi.org/project/sanipy/0.1.1/",
+      "date": "2026-06-26"
     }
   ]
 }
