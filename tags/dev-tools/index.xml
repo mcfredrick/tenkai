@@ -1,4 +1,50 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev-Tools on Tenkai</title><link>https://tenkai.blog/tags/dev-tools/</link><description>Recent content in Dev-Tools on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 25 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/dev-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — June 25, 2026</title><link>https://tenkai.blog/posts/2026-06-25/</link><pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-06-25/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev-Tools on Tenkai</title><link>https://tenkai.blog/tags/dev-tools/</link><description>Recent content in Dev-Tools on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/dev-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — June 26, 2026</title><link>https://tenkai.blog/posts/2026-06-26/</link><pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-06-26/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://huggingface.co/krea/Krea-2-Raw" target="_blank" rel="noopener noreferrer">krea/Krea-2-Raw&lt;/a>
+ — Base text‑to‑image diffusion model built on the custom Krea2Pipeline in Diffusers; it’s the backbone for Krea‑2‑Turbo and ComfyUI integration. 🤖&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.193" target="_blank" rel="noopener noreferrer">Claude Code v2.1.193: Auto-mode classifier for all shell commands and OpenTelemetry events&lt;/a>
+ — Adds &lt;code>autoMode.classifyAllShell&lt;/code> to route every Bash/PowerShell command through the classifier, surfaces denial reasons in transcripts and UI, plus new telemetry hooks. 🛠️&lt;/li>
+&lt;li>&lt;a href="https://github.com/anomalyco/opencode/releases/tag/v1.17.11" target="_blank" rel="noopener noreferrer">OpenCode v1.17.11: Session snapshots and revert controls&lt;/a>
+ — Lets you roll a session back to an earlier message with full file‑change restoration, adds Chrome‑style tab cycling, and fixes MCP OAuth URL printing. 🛠️&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/openagentd/1.72.0/" target="_blank" rel="noopener noreferrer">openagentd 1.72.0 — Self-hosted multi-agent AI runtime&lt;/a>
+ — Self‑hosted framework supporting streaming chat, tool use, persistent memory, and multi‑agent teams for private deployments. 🤖&lt;/li>
+&lt;li>&lt;a href="https://github.com/opendatalab/MinerU" target="_blank" rel="noopener noreferrer">MinerU: Document-to-LLM pipeline for PDFs and Office docs&lt;/a>
+ — Converts PDFs and Office docs into markdown/JSON ready for RAG pipelines and agent ingestion. 📄&lt;/li>
+&lt;li>&lt;a href="https://github.com/aaif-goose/goose/releases/tag/v1.39.0" target="_blank" rel="noopener noreferrer">Goose v1.39.0: ACP method for managing recipes and global config&lt;/a>
+ — Introduces ACP methods for recipes, UI tweaks, and global config management, plus session‑extension handling in &lt;code>new_session&lt;/code>. 🛠️&lt;/li>
+&lt;li>&lt;a href="https://github.com/sigoden/aichat/releases/tag/v0.29.0" target="_blank" rel="noopener noreferrer">AIChat v0.29.0: Claude 3.7 Sonnet support and Azure API update&lt;/a>
+ — Adds Claude 3.7 Sonnet, updates Azure OpenAI API to 2024‑12‑01‑preview, and swaps &lt;code>prelude&lt;/code> for &lt;code>cmd_prelude&lt;/code>. 🤖&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://arxiv.org/abs/2606.26161" target="_blank" rel="noopener noreferrer">Refusal Lives Downstream of Persona in Chat Models&lt;/a>
+ — Shows refusal and persona traits share linear directions in activation space; a compliant persona can gate refusals. Experiments on Qwen2.5‑7B and Llama‑3.1‑8B. 📄&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2606.26356" target="_blank" rel="noopener noreferrer">Instruction Bleed: Cross-Module Interference in Prompt-Composed Agentic Systems&lt;/a>
+ — Formalizes “compositional behavioral leakage” where editing one prompt module silently alters others, despite no shared state. 📄&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2606.26155" target="_blank" rel="noopener noreferrer">Detecting and Controlling Sycophancy with Cascading Linear Features&lt;/a>
+ — Uses cascading linear probes to spot and steer sycophantic behavior, cutting down on the need for massive contrastive datasets. 📄&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2606.26300" target="_blank" rel="noopener noreferrer">The Verification Horizon: No Silver Bullet for Coding Agent Rewards&lt;/a>
+ — Argues that reliable verification has become the bottleneck for coding agents as generation outpaces it. 📄&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2606.26290" target="_blank" rel="noopener noreferrer">SSM Adapters via Hankel Reduced-order Modeling: Injection Site Determines Task Suitability in Long-Context Fine-Tuning&lt;/a>
+ — Introduces HRM adapters for SSMs as a PEFT method; compares to MLP adapters and studies injection‑site effects. 📄&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2606.26173" target="_blank" rel="noopener noreferrer">AlgoEvolve: LLM-driven Meta-evolution of Algorithmic Trading Programs&lt;/a>
+ — Applies LLM‑based semantic mutation to evolve trading programs in noisy, non‑stationary markets. 📄&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/aws/agent-toolkit-for-aws" target="_blank" rel="noopener noreferrer">AWS Agent Toolkit: Official MCP servers and plugins for AI agents on AWS&lt;/a>
+ — Provides MCP servers, skills, and plugins that let agents build and interact with AWS services; handy for cloud‑native agent workflows. 🤖&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>Imagine building a self‑hosted agent pipeline that turns PDFs into searchable knowledge bases. Start with &lt;a href="https://github.com/opendatalab/MinerU" target="_blank" rel="noopener noreferrer">MinerU&lt;/a>
+ to strip PDFs and Office docs into markdown/JSON, feed the output into &lt;a href="https://pypi.org/project/openagentd/1.72.0/" target="_blank" rel="noopener noreferrer">openagentd 1.72.0&lt;/a>
+ where a team of agents can chunk, index, and cross‑reference the content. To keep experiments reproducible, spin up &lt;a href="https://github.com/anomalyco/opencode/releases/tag/v1.17.11" target="_blank" rel="noopener noreferrer">OpenCode v1.17.11&lt;/a>
+ as the interactive IDE; its session‑snapshot feature lets you revert any formatting or indexing mistake without losing the underlying files. When the agents need to act on AWS resources—like writing logs to S3 or spawning EC2 instances—plug in the &lt;a href="https://github.com/aws/agent-toolkit-for-aws" target="_blank" rel="noopener noreferrer">AWS Agent Toolkit&lt;/a>
+ MCP servers, giving the agents native cloud capabilities. You can also gate every shell command with the &lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.193" target="_blank" rel="noopener noreferrer">Claude Code v2.1.193&lt;/a>
+ auto‑mode classifier, ensuring that only vetted scripts run inside the agent workflow. The classifier surfaces denial reasons in transcripts, so you get audit trails for any blocked operation. Combine this with the AWS Agent Toolkit’s pre‑built MCP servers for S3, Lambda, and RDS, and you have a fully managed, auditable pipeline that turns raw documents into actionable cloud assets while keeping a revertable history of every change.&lt;/p></description></item><item><title>Tenkai Daily — June 25, 2026</title><link>https://tenkai.blog/posts/2026-06-25/</link><pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-06-25/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B" target="_blank" rel="noopener noreferrer">Qwen/Qwen-AgentWorld-35B-A3B&lt;/a>
 &lt;/strong> — A 35B‑parameter MoE agent model fine‑tuned from Qwen3.5‑35B‑A3B‑Base for environment simulation and world‑model tasks, includes AgentWorldBench and image‑to‑text input. Apache‑2.0 with TGI endpoint support 🤖📄&lt;/li>
