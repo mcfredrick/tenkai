@@ -1,118 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/deepseek-ai/DeepSeek-V3",
-      "date": "2026-04-28"
-    },
-    {
-      "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro",
-      "date": "2026-04-28"
-    },
-    {
-      "url": "https://huggingface.co/z-lab/Qwen3.6-27B-DFlash",
-      "date": "2026-04-28"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.22786",
-      "date": "2026-04-28"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.22783",
-      "date": "2026-04-28"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.22782",
-      "date": "2026-04-28"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.22881",
-      "date": "2026-04-28"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.22778",
-      "date": "2026-04-28"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.22779",
-      "date": "2026-04-28"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.22934",
-      "date": "2026-04-28"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.23194",
-      "date": "2026-04-28"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.22785",
-      "date": "2026-04-28"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.23072",
-      "date": "2026-04-28"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.23057",
-      "date": "2026-04-28"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.23027",
-      "date": "2026-04-28"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.22869",
-      "date": "2026-04-28"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.22777",
-      "date": "2026-04-28"
-    },
-    {
-      "url": "https://www.apogeoapi.com",
-      "date": "2026-04-28"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.121",
-      "date": "2026-04-28"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.14.27",
-      "date": "2026-04-28"
-    },
-    {
-      "url": "https://pypi.org/project/lightagent/0.6.3/",
-      "date": "2026-04-28"
-    },
-    {
-      "url": "https://pypi.org/project/buddhi-sdk/0.3.1/",
-      "date": "2026-04-28"
-    },
-    {
-      "url": "https://pypi.org/project/scitex-agent-container/0.10.6/",
-      "date": "2026-04-28"
-    },
-    {
-      "url": "https://pypi.org/project/fraiseql/1.16.4/",
-      "date": "2026-04-28"
-    },
-    {
-      "url": "https://pypi.org/project/triviumdb/0.6.0/",
-      "date": "2026-04-28"
-    },
-    {
-      "url": "https://pypi.org/project/statspai/1.8.0/",
-      "date": "2026-04-28"
-    },
-    {
-      "url": "https://pypi.org/project/haiku-skills/0.16.0/",
-      "date": "2026-04-28"
-    },
-    {
-      "url": "https://pypi.org/project/tfp-nightly/0.26.0.dev20260428/",
-      "date": "2026-04-28"
-    },
-    {
       "url": "https://github.com/fspecii/ace-step-ui",
       "date": "2026-04-29"
     },
@@ -5099,6 +4987,42 @@
     {
       "url": "https://pypi.org/project/sanipy/0.1.1/",
       "date": "2026-06-26"
+    },
+    {
+      "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B",
+      "date": "2026-06-27"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.195",
+      "date": "2026-06-27"
+    },
+    {
+      "url": "https://pypi.org/project/fastaiagent/1.28.0/",
+      "date": "2026-06-27"
+    },
+    {
+      "url": "https://pypi.org/project/powerailabs-tokenguard/0.6.1/",
+      "date": "2026-06-27"
+    },
+    {
+      "url": "https://pypi.org/project/powerailabs-acttrace/0.7.0/",
+      "date": "2026-06-27"
+    },
+    {
+      "url": "https://pypi.org/project/vllm-cpu-nightly/0.24.1.dev202606270838/",
+      "date": "2026-06-27"
+    },
+    {
+      "url": "https://pypi.org/project/tfp-nightly/0.26.0.dev20260627/",
+      "date": "2026-06-27"
+    },
+    {
+      "url": "https://pypi.org/project/agentdecode/0.1.0/",
+      "date": "2026-06-27"
+    },
+    {
+      "url": "https://pypi.org/project/abstract-hugpy-dev/0.1.61/",
+      "date": "2026-06-27"
     }
   ]
 }
