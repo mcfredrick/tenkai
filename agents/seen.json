@@ -1,70 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/fspecii/ace-step-ui",
-      "date": "2026-04-29"
-    },
-    {
-      "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5",
-      "date": "2026-04-29"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.22951",
-      "date": "2026-04-29"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.24801",
-      "date": "2026-04-29"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.24805",
-      "date": "2026-04-29"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.24809",
-      "date": "2026-04-29"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.24827",
-      "date": "2026-04-29"
-    },
-    {
-      "url": "https://bitpoort.com",
-      "date": "2026-04-29"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.123",
-      "date": "2026-04-29"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.122",
-      "date": "2026-04-29"
-    },
-    {
-      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.33.1",
-      "date": "2026-04-29"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.14.29",
-      "date": "2026-04-29"
-    },
-    {
-      "url": "https://pypi.org/project/jetson-examples/0.2.5/",
-      "date": "2026-04-29"
-    },
-    {
-      "url": "https://pypi.org/project/threat-thinker/0.8.0/",
-      "date": "2026-04-29"
-    },
-    {
-      "url": "https://pypi.org/project/kingdee-mcp-saas/0.1.15/",
-      "date": "2026-04-29"
-    },
-    {
-      "url": "https://pypi.org/project/ziniao/0.2.71/",
-      "date": "2026-04-29"
-    },
-    {
       "url": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
       "date": "2026-04-30"
     },
@@ -5023,6 +4959,46 @@
     {
       "url": "https://pypi.org/project/abstract-hugpy-dev/0.1.61/",
       "date": "2026-06-27"
+    },
+    {
+      "url": "https://github.com/Fission-AI/OpenSpec",
+      "date": "2026-06-28"
+    },
+    {
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark",
+      "date": "2026-06-28"
+    },
+    {
+      "url": "https://huggingface.co/nvidia/GLM-5.2-NVFP4",
+      "date": "2026-06-28"
+    },
+    {
+      "url": "https://huggingface.co/krea/Krea-2-Turbo",
+      "date": "2026-06-28"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/v4.0.1",
+      "date": "2026-06-28"
+    },
+    {
+      "url": "https://pypi.org/project/vllm-cpu-nightly/0.23.1.dev202606280855/",
+      "date": "2026-06-28"
+    },
+    {
+      "url": "https://pypi.org/project/kvquant-plus-plus/0.1.12/",
+      "date": "2026-06-28"
+    },
+    {
+      "url": "https://pypi.org/project/vllm-sr/0.3.0.dev20260628084824/",
+      "date": "2026-06-28"
+    },
+    {
+      "url": "https://pypi.org/project/tfp-nightly/0.26.0.dev20260628/",
+      "date": "2026-06-28"
+    },
+    {
+      "url": "https://pypi.org/project/pygeovision/2.0.7/",
+      "date": "2026-06-28"
     }
   ]
 }
