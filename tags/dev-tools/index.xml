@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev-Tools on Tenkai</title><link>https://tenkai.blog/tags/dev-tools/</link><description>Recent content in Dev-Tools on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 28 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/dev-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — June 28, 2026</title><link>https://tenkai.blog/posts/2026-06-28/</link><pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-06-28/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev-Tools on Tenkai</title><link>https://tenkai.blog/tags/dev-tools/</link><description>Recent content in Dev-Tools on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 29 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/dev-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — June 29, 2026</title><link>https://tenkai.blog/posts/2026-06-29/</link><pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-06-29/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/Robbyant/lingbot-map" target="_blank" rel="noopener noreferrer">Robbyant/lingbot-map&lt;/a>
+&lt;/strong> 🤖 — A feed‑forward 3D foundation model that reconstructs scenes from streaming data, giving you real‑time 3D understanding for robotics, AR/VR, and spatial computing.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/cline/cline/releases/tag/v4.0.2" target="_blank" rel="noopener noreferrer">Cline v4.0.2&lt;/a>
+&lt;/strong> 🛠️ — Adds DeepSeek reasoning effort support (including xhigh) and refines ClinePass with clearer controls, model selection, and canonical resolution alignment.&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2606.27483" target="_blank" rel="noopener noreferrer">Internalizing the Future: A Unified Agentic Training Paradigm for World Model Planning&lt;/a>
+&lt;/strong> 📄 — Introduces a training paradigm that stitches an internal world model into LLM agents, enabling ‘what‑if’ simulations for long‑horizon planning instead of pure reactivity.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2606.27806" target="_blank" rel="noopener noreferrer">Grounded Iterative Language Planning: How Parameterized World Models Reduce Hallucination Propagation in LLM Agents&lt;/a>
+&lt;/strong> 📄 — Shows that parameterized world models (trained transition predictors) cut hallucination propagation compared to pure LLM‑API state tracking.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2606.27510" target="_blank" rel="noopener noreferrer">The Curse of Multiple Mediators: Hidden Interaction Effects in Activation Patching&lt;/a>
+&lt;/strong> 📄 — Re‑derives activation patching from causal mediation analysis and reveals that the natural indirect effect can’t isolate individual component contributions when mediators interact.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2606.27780" target="_blank" rel="noopener noreferrer">Understanding Rollout Error in Graph World Models&lt;/a>
+&lt;/strong> 📄 — Examines how prediction errors spread when rolling forward graph‑structured world models (agents, tools, skills, dependencies) and when edge structure flips local bugs into global failures.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2606.27814" target="_blank" rel="noopener noreferrer">ATOD: Annealed Turn-aware On-policy Distillation for Multi-turn Autonomous Agents&lt;/a>
+&lt;/strong> 📄 — Tackles on‑policy distillation saturation by blending dense teacher guidance with reward‑driven improvements, pushing small LM agents beyond the teacher’s performance.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2606.27757" target="_blank" rel="noopener noreferrer">Towards Reliable and Robust LLM Planning: Symbolic Feedback-Driven Iterative Self-Refinement Framework&lt;/a>
+&lt;/strong> 📄 — Uses symbolic feedback to iteratively prune infeasible LLM plans, closing the reliability gap with a self‑refinement loop driven by validation.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/usestrix/strix" target="_blank" rel="noopener noreferrer">usestrix/strix&lt;/a>
+&lt;/strong> 🤖 — Open‑source AI agents that hunt down and fix application vulnerabilities, automating security testing and remediation.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/hesreallyhim/awesome-claude-code" target="_blank" rel="noopener noreferrer">awesome Curated List of Claude Code Skills and Plugins&lt;/a>
+&lt;/strong> 🛠️ — A curated compendium of skills, hooks, slash‑commands, orchestrators, and plugins for Claude Code, featuring community‑contributed tools, ready‑to‑use skill packs, integration guides, and categorized listings to fast‑track development and extend agent capabilities.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>Imagine building an autonomous robot that not only sees its environment in real time but also plans multi‑step actions without constantly pinging a remote LLM. You can stitch together &lt;a href="https://github.com/Robbyant/lingbot-map" target="_blank" rel="noopener noreferrer">Robbyant/lingbot-map&lt;/a>
+ 🤖—a feed‑forward 3D foundation model that reconstructs scenes from streaming data—with the unified agentic training paradigm described in &lt;a href="https://arxiv.org/abs/2606.27483" target="_blank" rel="noopener noreferrer">Internalizing the Future: A Unified Agentic Training Paradigm for World Model Planning&lt;/a>
+ 📄. The model supplies a low‑latency, on‑device world representation, while the training scheme injects an internal world model into the agent, letting it run ‘what‑if’ simulations for long‑horizon planning. To keep the system honest, plug in &lt;a href="https://github.com/usestrix/strix" target="_blank" rel="noopener noreferrer">usestrix/strix&lt;/a>
+ 🤖, which hunts down and fixes application vulnerabilities, and run its security scans as part of the rollout validation loop. This trio gives you a self‑contained perception‑planning‑security stack: the 3D model provides situational awareness, the internal world model enables offline reasoning, and the security agent ensures you don’t ship a buggy policy. The result is a deployable, privacy‑preserving robot brain that can iterate locally and fail safely.&lt;/p></description></item><item><title>Tenkai Daily — June 28, 2026</title><link>https://tenkai.blog/posts/2026-06-28/</link><pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-06-28/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark" target="_blank" rel="noopener noreferrer">deepseek-ai/DeepSeek-V4-Pro-DSpark&lt;/a>
  — DeepSeek V4 Pro released in DSpark format with FP8 quantization support and endpoints compatibility. Accompanied by arXiv paper 2606.19348, this is a significant update to the DeepSeek model family with 8‑bit FP8 precision. 🤖📄&lt;/li>
