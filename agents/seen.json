@@ -1,62 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
-      "date": "2026-04-30"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.26091",
-      "date": "2026-04-30"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.26211",
-      "date": "2026-04-30"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.26311",
-      "date": "2026-04-30"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.26522",
-      "date": "2026-04-30"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.26039",
-      "date": "2026-04-30"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.25975",
-      "date": "2026-04-30"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.26130",
-      "date": "2026-04-30"
-    },
-    {
-      "url": "https://arxiv.org/abs/2604.26644",
-      "date": "2026-04-30"
-    },
-    {
-      "url": "https://thenextgennexus.com",
-      "date": "2026-04-30"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.14.30",
-      "date": "2026-04-30"
-    },
-    {
-      "url": "https://pypi.org/project/turnzero/0.8.0/",
-      "date": "2026-04-30"
-    },
-    {
-      "url": "https://pypi.org/project/llm-radar/0.2.0/",
-      "date": "2026-04-30"
-    },
-    {
-      "url": "https://pypi.org/project/adlib-client/0.1.2/",
-      "date": "2026-04-30"
-    },
-    {
       "url": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B",
       "date": "2026-05-01"
     },
@@ -4999,6 +4943,62 @@
     {
       "url": "https://pypi.org/project/pygeovision/2.0.7/",
       "date": "2026-06-28"
+    },
+    {
+      "url": "https://github.com/Robbyant/lingbot-map",
+      "date": "2026-06-29"
+    },
+    {
+      "url": "https://github.com/usestrix/strix",
+      "date": "2026-06-29"
+    },
+    {
+      "url": "https://github.com/hesreallyhim/awesome-claude-code",
+      "date": "2026-06-29"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.27483",
+      "date": "2026-06-29"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.27806",
+      "date": "2026-06-29"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.27780",
+      "date": "2026-06-29"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.27814",
+      "date": "2026-06-29"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.27757",
+      "date": "2026-06-29"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.27510",
+      "date": "2026-06-29"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.27449",
+      "date": "2026-06-29"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.27578",
+      "date": "2026-06-29"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.27580",
+      "date": "2026-06-29"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.27438",
+      "date": "2026-06-29"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/v4.0.2",
+      "date": "2026-06-29"
     }
   ]
 }
