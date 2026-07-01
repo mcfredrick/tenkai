@@ -1,4 +1,55 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Tenkai</title><link>https://tenkai.blog/tags/releases/</link><description>Recent content in Releases on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 30 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — June 30, 2026</title><link>https://tenkai.blog/posts/2026-06-30/</link><pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-06-30/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Tenkai</title><link>https://tenkai.blog/tags/releases/</link><description>Recent content in Releases on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 01 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — July 1, 2026</title><link>https://tenkai.blog/posts/2026-07-01/</link><pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-07-01/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF" target="_blank" rel="noopener noreferrer">empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF&lt;/a>
+ — 9 B GGUF model with 1 M‑token context, multimodal vision, and agentic tools for cybersecurity/biomedical tasks. Good for long‑form reasoning and function‑calling 🤖.&lt;/li>
+&lt;li>&lt;a href="https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF" target="_blank" rel="noopener noreferrer">deepreinforce-ai/Ornith-1.0-35B-GGUF&lt;/a>
+ — 35 B GGUF transformer for pure text generation, MIT‑licensed and ready for conversational endpoints.&lt;/li>
+&lt;li>&lt;a href="https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF" target="_blank" rel="noopener noreferrer">yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF&lt;/a>
+ — Gemma‑4 12 B with coding, terminal tool‑use, and reasoning hooks; quantized for local inference.&lt;/li>
+&lt;li>&lt;a href="https://huggingface.co/deepreinforce-ai/Ornith-1.0-9B-GGUF" target="_blank" rel="noopener noreferrer">deepreinforce-ai/Ornith-1.0-9B-GGUF&lt;/a>
+ — 9 B GGUF version of Ornith, same conversational flavor as the larger model.&lt;/li>
+&lt;li>&lt;a href="https://huggingface.co/deepreinforce-ai/Ornith-1.0-9B" target="_blank" rel="noopener noreferrer">deepreinforce-ai/Ornith-1.0-9B&lt;/a>
+ — Safetensors 9 B Qwen3.5 base with image‑text support; includes evaluation results.&lt;/li>
+&lt;li>&lt;a href="https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF" target="_blank" rel="noopener noreferrer">yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF&lt;/a>
+ — Coder‑oriented Gemma‑4 12 B, optimized for code generation and reasoning.&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/altic-dev/FluidVoice" target="_blank" rel="noopener noreferrer">altic-dev/FluidVoice&lt;/a>
+ — macOS‑only dictation app with on‑device STT and a custom enhancement model; a local alternative to Wispr Flow. One ⭐ gets us closer 🚀.&lt;/li>
+&lt;li>&lt;a href="https://github.com/diegosouzapw/OmniRoute" target="_blank" rel="noopener noreferrer">diegosouzapw/OmniRoute&lt;/a>
+ — Free AI gateway that unifies 231+ providers (50+ free) behind a single endpoint, with compression, auto‑fallback, MCP/A2A, and multimodal support.&lt;/li>
+&lt;li>&lt;a href="https://github.com/microsoft/AI-For-Beginners" target="_blank" rel="noopener noreferrer">microsoft/AI-For-Beginners&lt;/a>
+ — 12‑week, 24‑lesson curriculum that tries to make AI approachable for everyone.&lt;/li>
+&lt;li>&lt;a href="https://github.com/nextlevelbuilder/ui-ux-pro-max-skill" target="_blank" rel="noopener noreferrer">nextlevelbuilder/ui-ux-pro-max-skill&lt;/a>
+ — AI skill pack that spits out professional UI/UX designs across platforms; over 98 k stars and counting.&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://arxiv.org/abs/2606.30774" target="_blank" rel="noopener noreferrer">What Drives Interactive Improvement from Feedback?&lt;/a>
+ — Investigates when natural‑language feedback actually moves the needle beyond random retries in multi‑turn agents.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2606.30846" target="_blank" rel="noopener noreferrer">How Can AI Find My Model? A Model-Finding Experimental Study Considering Data Formats, Embeddings, and Retrieval Strategies&lt;/a>
+ — Explores embedding‑based retrieval to surface simulation models that match a given intent.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2606.30850" target="_blank" rel="noopener noreferrer">BayesBench: Evaluating LLM Belief Trajectories Under Multi-Turn Evidence Accumulation&lt;/a>
+ — Benchmarks how LLMs update beliefs as new evidence streams in, measuring epistemic uncertainty reduction.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/xbtlin/ai-berkshire" target="_blank" rel="noopener noreferrer">xbtlin/ai-berkshire&lt;/a>
+ — Value‑investing research framework built on Claude Code/Codex, blending Buffett, Munger, and other masters with multi‑agent adversarial analysis.&lt;/li>
+&lt;li>&lt;a href="https://github.com/google/agents-cli" target="_blank" rel="noopener noreferrer">google/agents-cli&lt;/a>
+ — CLI and skill pack that turns any coding assistant into an agent‑creation, evaluation, and deployment powerhouse on Google Cloud.&lt;/li>
+&lt;li>&lt;a href="https://github.com/santifer/career-ops" target="_blank" rel="noopener noreferrer">santifer/career-ops&lt;/a>
+ — AI‑powered job‑search system built with Claude Code; 14 skill modes, Go dashboard, PDF generation, and batch processing.&lt;/li>
+&lt;li>&lt;a href="https://github.com/CherryHQ/cherry-studio" target="_blank" rel="noopener noreferrer">CherryHQ/cherry-studio&lt;/a>
+ — All‑in‑one AI productivity studio with smart chat, autonomous agents, and 300+ assistants; unified access to frontier LLMs.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>Want a zero‑cost, multi‑agent analysis pipeline that lives on your own hardware? Start with the &lt;a href="https://github.com/diegosouzapw/OmniRoute" target="_blank" rel="noopener noreferrer">OmniRoute&lt;/a>
+ gateway to unify dozens of local and cloud endpoints behind a single URL, then feed it the lightweight &lt;a href="https://huggingface.co/deepreinforce-ai/Ornith-1.0-9B-GGUF" target="_blank" rel="noopener noreferrer">Ornith-1.0-9B-GGUF&lt;/a>
+ model for conversational reasoning. Plug the &lt;a href="https://github.com/xbtlin/ai-berkshire" target="_blank" rel="noopener noreferrer">ai-berkshire&lt;/a>
+ framework on top to run adversarial, value‑investing‑style loops using Claude Code and multi‑agent checks. OmniRoute’s compression and auto‑fallback let you swap in a heavier model—like the &lt;a href="https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF" target="_blank" rel="noopener noreferrer">yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF&lt;/a>
+ for code‑heavy steps—without rewriting your pipeline. Deploy everything in a Docker container that reads a YAML graph, logs metrics to Prometheus, and scales across machines. OmniRoute also supports MCP/A2A, letting you attach external tools like file watchers or calendars without extra hops. ai‑berkshire runs Claude‑Code agents that can execute terminal commands, fetch market data, and run built‑in reasoning checks. Config lives in a single YAML, and each agent logs structured metrics to Prometheus for real‑time dashboards. You can scale horizontally with multiple containers behind a load balancer, or swap in a GPU‑accelerated gemma‑4 model for heavy bursts. The whole stack runs locally, so you never see a cloud invoice. 🚀🛠️📈&lt;/p></description></item><item><title>Tenkai Daily — June 30, 2026</title><link>https://tenkai.blog/posts/2026-06-30/</link><pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-06-30/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
 &lt;p>&lt;strong>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.196" target="_blank" rel="noopener noreferrer">Claude Code v2.1.196 — Org default models, clickable file attachments&lt;/a>
 &lt;/strong> — Admins can now set org-wide default models (surfaced as &amp;ldquo;Org default&amp;rdquo; in &lt;code>/model&lt;/code>), sessions get readable names instead of UUID soup, and Cmd/Ctrl-clicking file attachments opens them in your OS file manager. Small quality-of-life wins that add up if you&amp;rsquo;re living in this thing daily.&lt;/p>
 &lt;p>&lt;strong>&lt;a href="https://pypi.org/project/vllm-sr/0.3.0.dev20260630090145/" target="_blank" rel="noopener noreferrer">vllm-sr 0.3.0.dev — vLLM Semantic Router for Mixture-of-Models&lt;/a>
