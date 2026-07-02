@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "://norahsakal.com/blog/mcp-vs-api-model-context-protocol-explained/",
-      "date": "2026-05-03"
-    },
-    {
-      "url": "://thenextgennexus.com",
-      "date": "2026-05-03"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.14.32",
-      "date": "2026-05-03"
-    },
-    {
-      "url": "https://pypi.org/project/vllm/0.20.1/",
-      "date": "2026-05-03"
-    },
-    {
-      "url": "https://pypi.org/project/tokentoll/0.1.0/",
-      "date": "2026-05-03"
-    },
-    {
-      "url": "https://pypi.org/project/bentocall/0.1.0/",
-      "date": "2026-05-03"
-    },
-    {
-      "url": "https://pypi.org/project/openrunner-sdk/2.15.6/",
-      "date": "2026-05-03"
-    },
-    {
-      "url": "https://pypi.org/project/code-nexus/0.1.1/",
-      "date": "2026-05-03"
-    },
-    {
-      "url": "https://pypi.org/project/timevec/0.3.2/",
-      "date": "2026-05-03"
-    },
-    {
       "url": "https://github.com/AIDC-AI/Pixelle-Video",
       "date": "2026-05-04"
     },
@@ -5179,6 +5143,182 @@
     {
       "url": "https://pypi.org/project/schemalens-exillar/0.1.0/",
       "date": "2026-07-01"
+    },
+    {
+      "url": "https://github.com/allenai/olmocr",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://github.com/togatoga/karukan",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://github.com/0xNyk/council-of-high-intelligence",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://github.com/TencentCloud/CubeSandbox",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://github.com/yikart/AiToEarn",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://huggingface.co/nvidia/Qwen3.6-27B-NVFP4",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://huggingface.co/InternScience/Agents-A1",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://huggingface.co/meituan-longcat/LongCat-2.0",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.00001",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.00002",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.00032",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.00035",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.00064",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.00147",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.00155",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.00211",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.00233",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.00269",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.00334",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.00407",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.00436",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.00454",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.00089",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.00095",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.00113",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.00127",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.00152",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.198",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.40.0",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.17.13",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://pypi.org/project/autodeploy-ai/1.6.4/",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://pypi.org/project/shisad/0.8.0/",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://pypi.org/project/quarry-db/0.2.0/",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://pypi.org/project/nekova-lang/1.9.4/",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://pypi.org/project/memorydrift/3.0.2/",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://pypi.org/project/forgexa-cli/1.14.8/",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://pypi.org/project/llmsessioncontract/0.5.0/",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://pypi.org/project/netzilo/4.3.14/",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://pypi.org/project/edit2docs/0.1.0/",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://pypi.org/project/autodeploy-ai/1.6.3/",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://pypi.org/project/dagent-ai/0.6.5/",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://pypi.org/project/tfp-nightly/0.26.0.dev20260702/",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://pypi.org/project/axiorank/0.17.0/",
+      "date": "2026-07-02"
+    },
+    {
+      "url": "https://pypi.org/project/memorydrift/3.0.1/",
+      "date": "2026-07-02"
     }
   ]
 }
