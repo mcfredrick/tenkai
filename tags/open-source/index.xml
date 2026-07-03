@@ -1,4 +1,48 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open-Source on Tenkai</title><link>https://tenkai.blog/tags/open-source/</link><description>Recent content in Open-Source on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 02 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/open-source/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — July 2, 2026</title><link>https://tenkai.blog/posts/2026-07-02/</link><pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-07-02/</guid><description>&lt;p>##Model Releases&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open-Source on Tenkai</title><link>https://tenkai.blog/tags/open-source/</link><description>Recent content in Open-Source on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 03 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/open-source/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — July 3, 2026</title><link>https://tenkai.blog/posts/2026-07-03/</link><pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-07-03/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/fal/LTX-2.3-3DREAL-LoRA" target="_blank" rel="noopener noreferrer">fal/LTX-2.3-3DREAL-LoRA&lt;/a>
+&lt;/strong> — LoRA adapter for Lightricks&amp;rsquo; LTX-Video that pushes video-to-video and image-to-video toward photorealistic 3D-to-real renders. If you&amp;rsquo;re building generative video tools, this is the quality jump you&amp;rsquo;ve been waiting for.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/huihui-ai/Huihui-GLM-5.2-abliterated-GGUF" target="_blank" rel="noopener noreferrer">huihui-ai/Huihui-GLM-5.2-abliterated-GGUF&lt;/a>
+&lt;/strong> — GGUF quantized version of GLM-5.2 with unsloth optimizations, abliterated to be less offensive. Good for local inference when you want raw power without the alignment theater.&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/openai/codex-plugin-cc" target="_blank" rel="noopener noreferrer">openai/codex-plugin-cc&lt;/a>
+&lt;/strong> — Bridge between Codex and Claude Code. Use Claude to orchestrate Codex for code reviews or delegation. It&amp;rsquo;s like having a research assistant who actually reads the docs.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/pytorch/pytorch" target="_blank" rel="noopener noreferrer">pytorch/pytorch&lt;/a>
+&lt;/strong> — The tensor library that still dominates ML engineering. Latest release includes whatever GPU acceleration tweaks the team baked in this quarter.&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2607.01306" target="_blank" rel="noopener noreferrer">PACE: A Neuro-Symbolic Framework for Plausible and Actionable Counterfactual Explanations&lt;/a>
+&lt;/strong> — Counterfactual explanations that don&amp;rsquo;t hallucinate impossible scenarios. Uses neuro-symbolic methods to stay grounded in reality. Finally, XAI that doesn&amp;rsquo;t make you question your model&amp;rsquo;s sanity.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2607.01366" target="_blank" rel="noopener noreferrer">Auto-FL-Research: Agentic Search for Federated Learning Algorithms&lt;/a>
+&lt;/strong> — Automated research agent that searches through FL algorithm design spaces. Turns weeks of manual experimentation into days of agentic exploration. The kind of tool that makes ML research feel less like archaeology.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2607.01394" target="_blank" rel="noopener noreferrer">The Wiola Architecture for Efficient Small Language Models&lt;/a>
+&lt;/strong> — Completely new SLM architecture built from scratch, no GPT/LLaMA/Mistral DNA. Claims to deliver competitive performance with dramatically fewer parameters. Worth a skim if you&amp;rsquo;re tired of scaling laws.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2607.01425" target="_blank" rel="noopener noreferrer">Agent4cs: A Multi-agent System for Code Summarization in Large Hierarchical Codebases&lt;/a>
+&lt;/strong> — Multi-agent setup for summarizing massive codebases. Solves the &amp;ldquo;nobody reads the docs&amp;rdquo; problem by having agents read the code instead. Practical for any team drowning in legacy systems.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2607.01426" target="_blank" rel="noopener noreferrer">When Should Service Agents Reconsider? Difficulty-Routed Control in Customer-Service Operations&lt;/a>
+&lt;/strong> — Framework for when autonomous customer service agents should backtrack and escalate. Moves beyond chatbots to actual operational decision-making. Critical infrastructure paper.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2607.01433" target="_blank" rel="noopener noreferrer">CreativityNeuro: Steering Language Model Weights to Improve Divergent Thinking and Reduce Mode Collapse&lt;/a>
+&lt;/strong> — Technique to make LLMs less &amp;ldquo;hivemind&amp;rdquo; and more creatively divergent. Stops models from giving the same answer to every open-ended prompt. Finally, something for the ideation phase of product development.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/langflow-ai/langflow" target="_blank" rel="noopener noreferrer">langflow-ai/langflow&lt;/a>
+&lt;/strong> — Visual builder for AI agents and workflows. Drag-and-drop your way out of YAML hell. Still waiting for the day when &amp;ldquo;agent&amp;rdquo; doesn&amp;rsquo;t mean &amp;ldquo;Rube Goldberg machine held together by prompts.&amp;rdquo;&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>The release of &lt;a href="https://huggingface.co/fal/LTX-2.3-3DREAL-LoRA" target="_blank" rel="noopener noreferrer">fal/LTX-2.3-3DREAL-LoRA&lt;/a>
+ for photorealistic video generation, combined with &lt;a href="https://github.com/langflow-ai/langflow" target="_blank" rel="noopener noreferrer">langflow-ai/langflow&lt;/a>
+&amp;rsquo;s visual workflow builder, gives engineers a rapid prototyping platform. To make the pipeline production‑ready, pair LTX‑LoRA with the locally runnable &lt;a href="https://huggingface.co/huihui-ai/Huihui-GLM-5.2-abliterated-GGUF" target="_blank" rel="noopener noreferrer">huihui-ai/Huihui-GLM-5.2-abliterated-GGUF&lt;/a>
+ for on‑prem inference, use the &lt;a href="https://github.com/openai/codex-plugin-cc" target="_blank" rel="noopener noreferrer">openai/codex-plugin-cc&lt;/a>
+ bridge to auto‑review and delegate code generation steps, and optionally swap in the parameter‑efficient &lt;a href="https://arxiv.org/abs/2607.01394" target="_blank" rel="noopener noreferrer">Wiola Architecture&lt;/a>
+ for edge deployment. Layer &lt;a href="https://arxiv.org/abs/2607.01306" target="_blank" rel="noopener noreferrer">PACE: A Neuro‑Symbolic Framework for Plausible and Actionable Counterfactual Explanations&lt;/a>
+ on top to generate grounded, explainable counterfactuals whenever users tweak inputs, and apply the escalation logic from &lt;a href="https://arxiv.org/abs/2607.01426" target="_blank" rel="noopener noreferrer">When Should Service Agents Reconsider?&lt;/a>
+ to route problematic outputs to human reviewers. Leverage &lt;a href="https://arxiv.org/abs/2607.01425" target="_blank" rel="noopener noreferrer">Agent4cs&lt;/a>
+ to auto‑summarize large codebases and keep documentation up‑to‑date, and inject creative diversity with &lt;a href="https://arxiv.org/abs/2607.01433" target="_blank" rel="noopener noreferrer">CreativityNeuro&lt;/a>
+ to reduce mode collapse. The resulting stack—LTX‑LoRA + Langflow + Huihui‑GLM‑5.2 + Codex‑plugin‑cc + Wiola + PACE + Agent4cs + CreativityNeuro—lets engineers prototype a full video‑generation service in hours, with clear trade‑offs (GPU memory vs. LoRA size, latency vs. explainability overhead) and a reproducible workflow for iteration and deployment.&lt;/p></description></item><item><title>Tenkai Daily — July 2, 2026</title><link>https://tenkai.blog/posts/2026-07-02/</link><pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-07-02/</guid><description>&lt;p>##Model Releases&lt;/p>
 &lt;p>&lt;strong>&lt;a href="https://huggingface.co/nvidia/Qwen3.6-27B-NVFP4" target="_blank" rel="noopener noreferrer">nvidia/Qwen3.6-27B-NVFP4&lt;/a>
 &lt;/strong> — NVIDIA&amp;rsquo;s FP4-quantized Qwen3.6-27B via ModelOpt. Drops the model to ~13GB VRAM with minimal quality loss — practical if you&amp;rsquo;re serving 27B params on a single 24GB GPU. Apache 2.0.&lt;/p>
 &lt;p>&lt;strong>&lt;a href="https://huggingface.co/InternScience/Agents-A1" target="_blank" rel="noopener noreferrer">InternScience/Agents-A1&lt;/a>
