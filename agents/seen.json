@@ -1,98 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/AIDC-AI/Pixelle-Video",
-      "date": "2026-05-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.00005",
-      "date": "2026-05-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.00011",
-      "date": "2026-05-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.00082",
-      "date": "2026-05-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.00126",
-      "date": "2026-05-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.00069",
-      "date": "2026-05-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.00064",
-      "date": "2026-05-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.00130",
-      "date": "2026-05-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.00253",
-      "date": "2026-05-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.00086",
-      "date": "2026-05-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.00199",
-      "date": "2026-05-04"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.14.33",
-      "date": "2026-05-04"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.1.31",
-      "date": "2026-05-04"
-    },
-    {
-      "url": "https://pypi.org/project/tensor-optix/1.12.2/",
-      "date": "2026-05-04"
-    },
-    {
-      "url": "https://pypi.org/project/code-outline-graph/0.2.15/",
-      "date": "2026-05-04"
-    },
-    {
-      "url": "https://pypi.org/project/timbal/2.0.6/",
-      "date": "2026-05-04"
-    },
-    {
-      "url": "https://pypi.org/project/vmlx/1.5.12/",
-      "date": "2026-05-04"
-    },
-    {
-      "url": "https://pypi.org/project/tokentoll/0.6.1/",
-      "date": "2026-05-04"
-    },
-    {
-      "url": "https://pypi.org/project/tfp-nightly/0.26.0.dev20260504/",
-      "date": "2026-05-04"
-    },
-    {
-      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
-      "date": "2026-05-04"
-    },
-    {
-      "url": "https://github.com/sst/opencode",
-      "date": "2026-05-04"
-    },
-    {
-      "url": "https://github.com/finbarr/yolobox",
-      "date": "2026-05-04"
-    },
-    {
-      "url": "https://news.ycombinator.com/item?id=44713757",
-      "date": "2026-05-04"
-    },
-    {
       "url": "https://github.com/msitarzewski/agency-agents",
       "date": "2026-05-05"
     },
@@ -5319,6 +5227,154 @@
     {
       "url": "https://pypi.org/project/memorydrift/3.0.1/",
       "date": "2026-07-02"
+    },
+    {
+      "url": "https://github.com/openai/codex-plugin-cc",
+      "date": "2026-07-03"
+    },
+    {
+      "url": "https://github.com/langflow-ai/langflow",
+      "date": "2026-07-03"
+    },
+    {
+      "url": "https://github.com/pytorch/pytorch",
+      "date": "2026-07-03"
+    },
+    {
+      "url": "https://huggingface.co/fal/LTX-2.3-3DREAL-LoRA",
+      "date": "2026-07-03"
+    },
+    {
+      "url": "https://huggingface.co/huihui-ai/Huihui-GLM-5.2-abliterated-GGUF",
+      "date": "2026-07-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.01306",
+      "date": "2026-07-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.01366",
+      "date": "2026-07-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.01394",
+      "date": "2026-07-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.01425",
+      "date": "2026-07-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.01426",
+      "date": "2026-07-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.01433",
+      "date": "2026-07-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.01436",
+      "date": "2026-07-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.01465",
+      "date": "2026-07-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.01470",
+      "date": "2026-07-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.01480",
+      "date": "2026-07-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.01507",
+      "date": "2026-07-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.01510",
+      "date": "2026-07-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.01511",
+      "date": "2026-07-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.01531",
+      "date": "2026-07-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.01567",
+      "date": "2026-07-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.01278",
+      "date": "2026-07-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.01279",
+      "date": "2026-07-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.01280",
+      "date": "2026-07-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.01282",
+      "date": "2026-07-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.01283",
+      "date": "2026-07-03"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.199",
+      "date": "2026-07-03"
+    },
+    {
+      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.41.0",
+      "date": "2026-07-03"
+    },
+    {
+      "url": "https://pypi.org/project/agent-maintainer/0.1.0b5/",
+      "date": "2026-07-03"
+    },
+    {
+      "url": "https://pypi.org/project/one-ctx/0.1.0/",
+      "date": "2026-07-03"
+    },
+    {
+      "url": "https://pypi.org/project/gubbi/1.0.0/",
+      "date": "2026-07-03"
+    },
+    {
+      "url": "https://pypi.org/project/tpu-inference/0.23.0.dev20260703/",
+      "date": "2026-07-03"
+    },
+    {
+      "url": "https://pypi.org/project/rushdb/2.6.0/",
+      "date": "2026-07-03"
+    },
+    {
+      "url": "https://pypi.org/project/compliance-agent/0.1.1/",
+      "date": "2026-07-03"
+    },
+    {
+      "url": "https://pypi.org/project/terminal-pilot/0.1.17/",
+      "date": "2026-07-03"
+    },
+    {
+      "url": "https://pypi.org/project/ai-agent-vcr/0.7.1/",
+      "date": "2026-07-03"
+    },
+    {
+      "url": "https://pypi.org/project/prompt-linker/2.2.0/",
+      "date": "2026-07-03"
+    },
+    {
+      "url": "https://pypi.org/project/primer-eval/1.0.0/",
+      "date": "2026-07-03"
     }
   ]
 }
