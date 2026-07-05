@@ -1,102 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/PriorLabs/TabPFN",
-      "date": "2026-05-06"
-    },
-    {
-      "url": "https://github.com/InsForge/InsForge",
-      "date": "2026-05-06"
-    },
-    {
-      "url": "https://huggingface.co/ibm-granite/granite-4.1-30b",
-      "date": "2026-05-06"
-    },
-    {
-      "url": "https://huggingface.co/google/gemma-4-31B-it-assistant",
-      "date": "2026-05-06"
-    },
-    {
-      "url": "https://huggingface.co/AngelSlim/Hy-MT1.5-1.8B-1.25bit",
-      "date": "2026-05-06"
-    },
-    {
-      "url": "https://huggingface.co/SulphurAI/Sulphur-2-base",
-      "date": "2026-05-06"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.02904",
-      "date": "2026-05-06"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.02905",
-      "date": "2026-05-06"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.02907",
-      "date": "2026-05-06"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.02909",
-      "date": "2026-05-06"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.02913",
-      "date": "2026-05-06"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.02914",
-      "date": "2026-05-06"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.00842",
-      "date": "2026-05-06"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.01130",
-      "date": "2026-05-06"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.01143",
-      "date": "2026-05-06"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.01030",
-      "date": "2026-05-06"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.02918",
-      "date": "2026-05-06"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.02938",
-      "date": "2026-05-06"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.131",
-      "date": "2026-05-06"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.129",
-      "date": "2026-05-06"
-    },
-    {
-      "url": "https://pypi.org/project/pruna-mcp-server/0.1.0/",
-      "date": "2026-05-06"
-    },
-    {
-      "url": "https://pypi.org/project/dglz/0.1.10.post4/",
-      "date": "2026-05-06"
-    },
-    {
-      "url": "https://pypi.org/project/mnemon-memory/0.6.0rc12/",
-      "date": "2026-05-06"
-    },
-    {
-      "url": "https://pypi.org/project/lexsi-sdk/0.1.46/",
-      "date": "2026-05-06"
-    },
-    {
       "url": "://github.com/cheahjs/free-llm-api-resources",
       "date": "2026-05-07"
     },
@@ -5347,6 +5251,122 @@
     {
       "url": "https://pypi.org/project/logsentinelai/2.1.8/",
       "date": "2026-07-04"
+    },
+    {
+      "url": "https://github.com/Zackriya-Solutions/meetily",
+      "date": "2026-07-05"
+    },
+    {
+      "url": "https://github.com/CoplayDev/unity-mcp",
+      "date": "2026-07-05"
+    },
+    {
+      "url": "https://github.com/crynta/terax-ai",
+      "date": "2026-07-05"
+    },
+    {
+      "url": "https://huggingface.co/AliesTaha/fable-traces",
+      "date": "2026-07-05"
+    },
+    {
+      "url": "https://lastlookdata.com/",
+      "date": "2026-07-05"
+    },
+    {
+      "url": "https://wayforth.io",
+      "date": "2026-07-05"
+    },
+    {
+      "url": "https://keenable.ai/",
+      "date": "2026-07-05"
+    },
+    {
+      "url": "https://auseconmcp.com",
+      "date": "2026-07-05"
+    },
+    {
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.4",
+      "date": "2026-07-05"
+    },
+    {
+      "url": "https://pypi.org/project/edit2docs/0.6.0/",
+      "date": "2026-07-05"
+    },
+    {
+      "url": "https://pypi.org/project/qdrant-lens/0.1.2/",
+      "date": "2026-07-05"
+    },
+    {
+      "url": "https://pypi.org/project/stimulir/0.1.210/",
+      "date": "2026-07-05"
+    },
+    {
+      "url": "https://pypi.org/project/tpu-inference/0.23.0.dev20260705/",
+      "date": "2026-07-05"
+    },
+    {
+      "url": "https://pypi.org/project/devmemory-ai/0.1.0/",
+      "date": "2026-07-05"
+    },
+    {
+      "url": "https://pypi.org/project/aindy-runtime/1.5.3/",
+      "date": "2026-07-05"
+    },
+    {
+      "url": "https://pypi.org/project/aibusy/0.0.2/",
+      "date": "2026-07-05"
+    },
+    {
+      "url": "https://pypi.org/project/evoscientist/0.2.1/",
+      "date": "2026-07-05"
+    },
+    {
+      "url": "https://pypi.org/project/pyrestkit/1.2.0/",
+      "date": "2026-07-05"
+    },
+    {
+      "url": "https://pypi.org/project/econox/0.1.4/",
+      "date": "2026-07-05"
+    },
+    {
+      "url": "https://pypi.org/project/exaai-agent/2.3.2/",
+      "date": "2026-07-05"
+    },
+    {
+      "url": "https://pypi.org/project/aither-adk/2.17.1/",
+      "date": "2026-07-05"
+    },
+    {
+      "url": "https://pypi.org/project/bingo-ai/4.9.2/",
+      "date": "2026-07-05"
+    },
+    {
+      "url": "https://pypi.org/project/autogluon/1.5.1b20260705/",
+      "date": "2026-07-05"
+    },
+    {
+      "url": "https://pypi.org/project/autogluon-timeseries/1.5.1b20260705/",
+      "date": "2026-07-05"
+    },
+    {
+      "url": "https://pypi.org/project/autogluon-multimodal/1.5.1b20260705/",
+      "date": "2026-07-05"
+    },
+    {
+      "url": "https://pypi.org/project/autogluon-tabular/1.5.1b20260705/",
+      "date": "2026-07-05"
+    },
+    {
+      "url": "https://pypi.org/project/autogluon-features/1.5.1b20260705/",
+      "date": "2026-07-05"
+    },
+    {
+      "url": "https://pypi.org/project/autogluon-core/1.5.1b20260705/",
+      "date": "2026-07-05"
+    },
+    {
+      "url": "https://pypi.org/project/autogluon-common/1.5.1b20260705/",
+      "date": "2026-07-05"
     }
   ]
 }
