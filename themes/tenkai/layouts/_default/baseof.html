@@ -12,6 +12,26 @@
 </head>
 <body>
   {{ partial "header.html" . }}
+  <div class="promo-banner" id="promo-banner">
+    <div class="promo-banner-content">
+      <a href="https://noogat.app" target="_blank" rel="noopener">
+        <img src="https://noogat.app/assets/logo-transparent.png" alt="Noogat" height="18">
+        Voice Notes that Organize Themselves.
+      </a>
+    </div>
+    <button class="promo-banner-dismiss" id="promo-dismiss" aria-label="Dismiss">×</button>
+  </div>
+  <script>
+    (function() {
+      if (sessionStorage.getItem('promo-dismissed')) {
+        document.getElementById('promo-banner').hidden = true;
+      }
+      document.getElementById('promo-dismiss').addEventListener('click', function() {
+        document.getElementById('promo-banner').hidden = true;
+        sessionStorage.setItem('promo-dismissed', '1');
+      });
+    })();
+  </script>
   <main class="content">
     {{ block "main" . }}{{ end }}
   </main>
