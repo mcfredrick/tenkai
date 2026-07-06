@@ -495,6 +495,9 @@ def main() -> None:
     print(f"Writing post from {len(all_items)} items...", file=sys.stderr)
     writing_prompt = build_writing_prompt(research, holiday)
     bullets_body = clean_post_body(call_llm(writing_prompt, model))
+    if not _has_sections(bullets_body):
+        print("Error: no sections with links after cleaning, aborting", file=sys.stderr)
+        sys.exit(1)
 
     if holiday and holiday.name == "April Fools' Day":
         bullets_body = inject_april_fools_bullet(bullets_body)

@@ -35,10 +35,11 @@ def validate(path: Path) -> list[str]:
     if not sections_with_links:
         errors.append("No ## sections with linked items found")
 
-    # Must have a minimum number of linked items across the whole post
-    all_links = re.findall(r'\]\(https?://[^)]+\)', body)
-    if len(all_links) < MIN_ITEMS:
-        errors.append(f"Only {len(all_links)} linked items (minimum {MIN_ITEMS})")
+    # Must have a minimum number of linked items in bullet sections (synthesis excluded)
+    bullet_body = re.split(r"^## Today's Synthesis", body, maxsplit=1, flags=re.MULTILINE)[0]
+    bullet_links = re.findall(r'\]\(https?://[^)]+\)', bullet_body)
+    if len(bullet_links) < MIN_ITEMS:
+        errors.append(f"Only {len(bullet_links)} linked items in bullets (minimum {MIN_ITEMS})")
 
     # URLs must not contain spaces (broken markdown link)
     bad_urls = re.findall(r'\]\((https?://[^)]*\s[^)]*)\)', body)
