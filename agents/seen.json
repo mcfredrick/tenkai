@@ -5287,6 +5287,78 @@
     {
       "url": "https://github.com/tigicion/dao-code",
       "date": "2026-07-06"
+    },
+    {
+      "url": "https://github.com/karakeep-app/karakeep",
+      "date": "2026-07-06"
+    },
+    {
+      "url": "https://github.com/steipete/CodexBar",
+      "date": "2026-07-06"
+    },
+    {
+      "url": "https://huggingface.co/tencent/Hy3",
+      "date": "2026-07-06"
+    },
+    {
+      "url": "https://huggingface.co/Jackrong/Qwopus3.6-35B-A3B-Coder-MTP-GGUF",
+      "date": "2026-07-06"
+    },
+    {
+      "url": "https://huggingface.co/nationaldesignstudio/rampart",
+      "date": "2026-07-06"
+    },
+    {
+      "url": "https://search.daum.net",
+      "date": "2026-07-06"
+    },
+    {
+      "url": "https://pypi.org/project/opik/2.1.17/",
+      "date": "2026-07-06"
+    },
+    {
+      "url": "https://pypi.org/project/deeppolicy/0.1.0/",
+      "date": "2026-07-06"
+    },
+    {
+      "url": "https://pypi.org/project/kelam/0.2.0/",
+      "date": "2026-07-06"
+    },
+    {
+      "url": "https://pypi.org/project/elitea-sdk/0.8.9/",
+      "date": "2026-07-06"
+    },
+    {
+      "url": "https://pypi.org/project/treebox/0.8.0/",
+      "date": "2026-07-06"
+    },
+    {
+      "url": "https://pypi.org/project/okf-kit/0.1.5/",
+      "date": "2026-07-06"
+    },
+    {
+      "url": "https://pypi.org/project/sage-harness/0.9.36/",
+      "date": "2026-07-06"
+    },
+    {
+      "url": "https://pypi.org/project/tpu-inference/0.23.0.dev20260706/",
+      "date": "2026-07-06"
+    },
+    {
+      "url": "https://pypi.org/project/conduct-cli/0.6.37/",
+      "date": "2026-07-06"
+    },
+    {
+      "url": "https://pypi.org/project/ai-synapse/4.5.1/",
+      "date": "2026-07-06"
+    },
+    {
+      "url": "https://pypi.org/project/promptline-opt/0.1.1/",
+      "date": "2026-07-06"
+    },
+    {
+      "url": "https://pypi.org/project/actaclad-plumbline/0.0.2/",
+      "date": "2026-07-06"
     }
   ]
 }
