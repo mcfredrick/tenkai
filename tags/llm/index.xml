@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Llm on Tenkai</title><link>https://tenkai.blog/tags/llm/</link><description>Recent content in Llm on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 06 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/llm/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — July 6, 2026</title><link>https://tenkai.blog/posts/2026-07-06/</link><pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-07-06/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/tencent/Hy3" target="_blank" rel="noopener noreferrer">tencent/Hy3&lt;/a>
+&lt;/strong> — Tencent&amp;rsquo;s Hunyuan v3 MoE in Apache-2.0 transformers format, conversational and US-region hosted. Another entry in the &amp;ldquo;we also have a competent open model&amp;rdquo; sweepstakes 🤖&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/Jackrong/Qwopus3.6-35B-A3B-Coder-MTP-GGUF" target="_blank" rel="noopener noreferrer">Jackrong/Qwopus3.6-35B-A3B-Coder-MTP-GGUF&lt;/a>
+&lt;/strong> — A 35B-A3B multimodal coder MoE quantized to GGUF, with tool-use, function-calling, and long-context support across five languages. If you run llama.cpp and want a Swiss Army knife that also does vision, this is a dense one to try 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/nationaldesignstudio/rampart" target="_blank" rel="noopener noreferrer">nationaldesignstudio/rampart&lt;/a>
+&lt;/strong> — A client-side transformers.js PII redaction model built on MiniLM, running entirely in the browser across six languages. Privacy-sensitive text scrubbing without a server round-trip — actually useful for frontend work 🔥&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/karakeep-app/karakeep" target="_blank" rel="noopener noreferrer">karakeep-app/karakeep&lt;/a>
+&lt;/strong> — Self-hostable bookmark-everything app with AI auto-tagging and full-text search across links, notes, and images. For the self-hosting crowd who&amp;rsquo;ve outgrown their 400 open tabs.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/steipete/CodexBar" target="_blank" rel="noopener noreferrer">steipete/CodexBar&lt;/a>
+&lt;/strong> — A menu bar tool showing OpenAI Codex and Claude Code usage stats without logging in. Finally, a way to watch your spend anxiety in real time.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://search.daum.net" target="_blank" rel="noopener noreferrer">Daum Search&lt;/a>
+&lt;/strong> — A search extension pulling from Daum&amp;rsquo;s web, video, image, blog, book, and cafe verticals, with video and cafe surfaces that differ from Naver. Niche, but if Korean-web coverage matters to you, it&amp;rsquo;s not redundant.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/opik/2.1.17/" target="_blank" rel="noopener noreferrer">opik 2.1.17&lt;/a>
+&lt;/strong> — Comet&amp;rsquo;s library for logging and evaluating LLM traces. Standard observability plumbing if you&amp;rsquo;re already in their ecosystem 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/deeppolicy/0.1.0/" target="_blank" rel="noopener noreferrer">deeppolicy 0.1.0&lt;/a>
+&lt;/strong> — An LLM-as-a-judge framework for scoring outputs against policies, rules, and plans. Early release, but beats hand-rolling eval prompts for the tenth time.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/kelam/0.2.0/" target="_blank" rel="noopener noreferrer">kelam 0.2.0&lt;/a>
+&lt;/strong> — A CLI for building and running voice AI agents straight from the terminal. Voice agent scaffolding without the notebook poetry 🛠️&lt;/li>
+&lt;/ul>
 &lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
-&lt;p>The &lt;a href="https://huggingface.co/nationaldesignstudio/rampart" target="_blank" rel="noopener noreferrer">nationaldesignstudio/rampart&lt;/a>
- PII redaction model, &lt;a href="https://pypi.org/project/opik/2.1.17/" target="_blank" rel="noopener noreferrer">opik&lt;/a>
-, and &lt;a href="https://pypi.org/project/deeppolicy/0.1.0/" target="_blank" rel="noopener noreferrer">deeppolicy&lt;/a>
- form a powerful privacy-compliance stack for LLM applications. Deploy rampart as a client-side preprocessing layer to sanitize user inputs before they reach your backend, then route the cleaned interactions through opik for trace logging and monitoring, and finally use deeppolicy to evaluate whether the sanitized outputs meet your organization&amp;rsquo;s safety and compliance thresholds. This combination lets you catch PII leakage early while maintaining full audit trails and automated guardrails—all with fully open-source components that you can customize rather than being locked into vendor defaults.&lt;/p></description></item><item><title>Tenkai Daily — July 5, 2026</title><link>https://tenkai.blog/posts/2026-07-05/</link><pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-07-05/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;p>The throughline today is local-first inference meeting practical ops: &lt;a href="https://huggingface.co/nationaldesignstudio/rampart" target="_blank" rel="noopener noreferrer">nationaldesignstudio/rampart&lt;/a>
+ proves you can run PII redaction client-side with transformers.js, and &lt;a href="https://huggingface.co/Jackrong/Qwopus3.6-35B-A3B-Coder-MTP-GGUF" target="_blank" rel="noopener noreferrer">Jackrong/Qwopus3.6-35B-A3B-Coder-MTP-GGUF&lt;/a>
+ shows a 35B-A3B multimodal coder runs fine under llama.cpp. Concrete move — wire rampart into your frontend to scrub user text before it ever hits a backend, then hand the cleaned payload to a local Qwopus instance for codegen or tool-use. You keep sensitive data off servers and skip the per-call API bill. For tracking whether that setup actually holds up, &lt;a href="https://pypi.org/project/opik/2.1.17/" target="_blank" rel="noopener noreferrer">opik 2.1.17&lt;/a>
+ gives you trace logging on the local side, and &lt;a href="https://pypi.org/project/deeppolicy/0.1.0/" target="_blank" rel="noopener noreferrer">deeppolicy 0.1.0&lt;/a>
+ lets you assert the redaction didn&amp;rsquo;t leak before the model sees it. Not hype — just a stack you can ship without a vendor lock-in apology.&lt;/p></description></item><item><title>Tenkai Daily — July 5, 2026</title><link>https://tenkai.blog/posts/2026-07-05/</link><pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-07-05/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/AliesTaha/fable-traces" target="_blank" rel="noopener noreferrer">AliesTaha/fable-traces&lt;/a>
 &lt;/strong> — A finetuned Qwen3-4B-Instruct model trained on conversational Egyptian Arabic traces. Apache 2.0 license, TGI-compatible endpoints in US region. 🤖&lt;/li>
