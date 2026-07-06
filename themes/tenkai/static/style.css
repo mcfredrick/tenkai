@@ -860,3 +860,48 @@ a:hover {
 }
 
 .agi-fool-cta { margin-top: 0.5rem; }
+
+/* ── Promo banner ────────────────────────────────────────── */
+.promo-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.4rem 1.5rem;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+.promo-banner-content {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.promo-banner-content img {
+  height: 18px;
+  width: auto;
+  vertical-align: middle;
+}
+.promo-banner a {
+  color: var(--muted);
+  text-decoration: none;
+}
+.promo-banner a:hover {
+  color: var(--accent);
+  text-shadow: var(--glow);
+}
+.promo-banner-dismiss {
+  background: none;
+  border: none;
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1;
+  padding: 0 0.25rem;
+}
+.promo-banner-dismiss:hover {
+  color: var(--accent);
+}
+.promo-banner[hidden] {
+  display: none;
+}
