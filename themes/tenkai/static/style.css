@@ -875,7 +875,6 @@ a:hover {
 .promo-banner-content {
   display: flex;
   align-items: center;
-  gap: 0.6rem;
 }
 .promo-banner-content img {
   height: 18px;
@@ -885,6 +884,9 @@ a:hover {
 .promo-banner a {
   color: var(--muted);
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
 }
 .promo-banner a:hover {
   color: var(--accent);
@@ -901,6 +903,9 @@ a:hover {
 }
 .promo-banner-dismiss:hover {
   color: var(--accent);
+}
+.promo-banner-dismiss:focus-visible {
+  outline: 1px solid var(--accent);
 }
 .promo-banner[hidden] {
   display: none;
