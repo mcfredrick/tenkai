@@ -16,13 +16,19 @@
     <div class="promo-banner-content">
       <a href="https://noogat.app" target="_blank" rel="noopener">
         <img src="https://noogat.app/assets/logo-transparent.png" alt="Noogat" height="18">
-        Voice Notes that Organize Themselves.
+        <span id="promo-pitch"></span>
       </a>
     </div>
     <button class="promo-banner-dismiss" id="promo-dismiss" aria-label="Dismiss">×</button>
   </div>
   <script>
     (function() {
+      var pitches = [
+        'Voice Notes that Organize Themselves.',
+        'Self-organizing notes with an MCP server.',
+        'The search engine for your thoughts.'
+      ];
+      document.getElementById('promo-pitch').textContent = pitches[Math.floor(Math.random() * pitches.length)];
       if (sessionStorage.getItem('promo-dismissed')) {
         document.getElementById('promo-banner').hidden = true;
       }
