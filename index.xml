@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tenkai</title><link>https://tenkai.blog/</link><description>Recent content on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 06 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — July 6, 2026</title><link>https://tenkai.blog/posts/2026-07-06/</link><pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-07-06/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tenkai</title><link>https://tenkai.blog/</link><description>Recent content on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 07 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — July 7, 2026</title><link>https://tenkai.blog/posts/2026-07-07/</link><pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-07-07/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>🤖 &lt;strong>&lt;a href="https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B" target="_blank" rel="noopener noreferrer">mistralai/Leanstral-1.5-119B-A6B&lt;/a>
+&lt;/strong> — A 119B-parameter MoE (6B active) fine-tune of Leanstral-2603, Apache-2.0 licensed and wired for vLLM. If you&amp;rsquo;re collecting Mistral variants like trading cards, here&amp;rsquo;s the latest US-region entry.&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>🛠️ &lt;strong>&lt;a href="https://aicommander.dev" target="_blank" rel="noopener noreferrer">AI Commander&lt;/a>
+&lt;/strong> — A remote shell for AI agents that lets any MCP client run commands on your machines via a short session code, with a small agent holding the connection open. 3,466 installs suggests people are comfortable letting Claude SSH in through a backdoor with a cute code — what could go wrong.&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>📄 &lt;strong>&lt;a href="https://arxiv.org/abs/2607.02542" target="_blank" rel="noopener noreferrer">iFLYTEK-Embodied-Omni Technical Report&lt;/a>
+&lt;/strong> — iFLYTEK&amp;rsquo;s embodied agent report tackles multimodal instruction following, environment prediction, and long-horizon control. If you&amp;rsquo;re wiring up robots that need to plan past the next frame, it&amp;rsquo;s a potential reference.&lt;/li>
+&lt;li>📄 &lt;strong>&lt;a href="https://arxiv.org/abs/2607.02672" target="_blank" rel="noopener noreferrer">Internal Pluralism and the Limits of Pairwise Comparisons&lt;/a>
+&lt;/strong> — 🔥 This paper pokes holes in the standard local pairwise comparison method used for alignment and participatory design, showing its hidden assumptions. Worth a read if your preference data comes from &amp;ldquo;which response is better?&amp;rdquo; polls.&lt;/li>
+&lt;li>📄 &lt;strong>&lt;a href="https://arxiv.org/abs/2607.02686" target="_blank" rel="noopener noreferrer">ASK in the Dark: Uncertainty-Gated LLM Assistance under Partial Observability&lt;/a>
+&lt;/strong> — Proposes gating small LM guidance by uncertainty to help RL agents acting with incomplete info. A pragmatic way to inject reasoning priors into control loops without a giant model.&lt;/li>
+&lt;li>📄 &lt;strong>&lt;a href="https://arxiv.org/abs/2607.02771" target="_blank" rel="noopener noreferrer">Automated Data Readiness for Scientific AI&lt;/a>
+&lt;/strong> — A framework that unifies automated transformation and readiness scoring for large scientific datasets before AI training. Useful if you live near an HPC cluster and hate manual data wrangling.&lt;/li>
+&lt;li>📄 &lt;strong>&lt;a href="https://arxiv.org/abs/2607.02807" target="_blank" rel="noopener noreferrer">SwarmResearch: Orchestrating Coding Agents for Open-Ended Discovery&lt;/a>
+&lt;/strong> — Coordinates multiple coding agents to avoid the usual convergence on a single approach during open-ended optimization. If your autoresearch runs keep tunneling into local minima, a swarm might broaden the search.&lt;/li>
+&lt;li>📄 &lt;strong>&lt;a href="https://arxiv.org/abs/2607.02846" target="_blank" rel="noopener noreferrer">Object-Centric Environment Modeling for Agentic Tasks&lt;/a>
+&lt;/strong> — Swaps free-form textual memory for LLM agents with object-centric executable skills or programmatic world models. Could keep your agent&amp;rsquo;s experience reusable instead of a growing pile of unvalidated notes.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>🛠️ &lt;strong>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.202" target="_blank" rel="noopener noreferrer">anthropics/claude-code: v2.1.202&lt;/a>
+&lt;/strong> — This release adds a &amp;ldquo;Dynamic workflow size&amp;rdquo; setting to tune agent counts (advisory, not a hard cap) and exposes &lt;code>workflow.run_id&lt;/code> for tracking. More telemetry and guardrails for those spawning Claude swarms, though the limits are suggestions at best.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>If you&amp;rsquo;ve already updated to &lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.202" target="_blank" rel="noopener noreferrer">anthropics/claude-code: v2.1.202&lt;/a>
+, the new Dynamic workflow size knob and &lt;code>workflow.run_id&lt;/code> tracking give you just enough rope to try the multi-agent setup from &lt;a href="https://arxiv.org/abs/2607.02807" target="_blank" rel="noopener noreferrer">SwarmResearch: Orchestrating Coding Agents for Open-Ended Discovery&lt;/a>
+. Instead of letting a pack of coding agents collapse into the same local optimum, spin up a few parallel workflows and use the run IDs to diff their approaches post-hoc. To keep those agents from drowning in their own chat logs, bolt on the object-centric world modeling from &lt;a href="https://arxiv.org/abs/2607.02846" target="_blank" rel="noopener noreferrer">Object-Centric Environment Modeling for Agentic Tasks&lt;/a>
+: have each workflow emit executable skills or programmatic state rather than free-form notes. The practical win is reusable artifacts instead of a Slack channel of half-baked summaries that nobody reads twice. Start with three workflows on a throwaway branch and compare merge conflict rates. Yes, the workflow limit is advisory, so you&amp;rsquo;ll still need your own supervisor loop to actually enforce exploration diversity — but the plumbing is now there, and the papers hand you the strategy without requiring a PhD in orchestration.&lt;/p></description></item><item><title>Tenkai Daily — July 6, 2026</title><link>https://tenkai.blog/posts/2026-07-06/</link><pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-07-06/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/tencent/Hy3" target="_blank" rel="noopener noreferrer">tencent/Hy3&lt;/a>
 &lt;/strong> — Tencent&amp;rsquo;s Hunyuan v3 MoE in Apache-2.0 transformers format, conversational and US-region hosted. Another entry in the &amp;ldquo;we also have a competent open model&amp;rdquo; sweepstakes 🤖&lt;/li>
