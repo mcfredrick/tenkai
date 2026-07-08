@@ -1,102 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/decolua/9router",
-      "date": "2026-05-09"
-    },
-    {
-      "url": "https://github.com/awslabs/aidlc-workflows",
-      "date": "2026-05-09"
-    },
-    {
-      "url": "https://github.com/HKUDS/AI-Trader",
-      "date": "2026-05-09"
-    },
-    {
-      "url": "https://github.com/safishammsi/graphify",
-      "date": "2026-05-09"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.138",
-      "date": "2026-05-09"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.137",
-      "date": "2026-05-09"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.136",
-      "date": "2026-05-09"
-    },
-    {
-      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.33.0",
-      "date": "2026-05-09"
-    },
-    {
-      "url": "https://github.com/aaif-goose/goose/releases/tag/v2.0.0-rc-04-27-0",
-      "date": "2026-05-09"
-    },
-    {
-      "url": "https://pypi.org/project/controlled-execution-system/0.1.14/",
-      "date": "2026-05-09"
-    },
-    {
-      "url": "https://pypi.org/project/ttfs/0.3.0/",
-      "date": "2026-05-09"
-    },
-    {
-      "url": "https://pypi.org/project/vgis-ai/1.7.10/",
-      "date": "2026-05-09"
-    },
-    {
-      "url": "https://pypi.org/project/pagent/0.1.1/",
-      "date": "2026-05-09"
-    },
-    {
-      "url": "https://pypi.org/project/frame-check-mcp/0.9.4/",
-      "date": "2026-05-09"
-    },
-    {
-      "url": "https://pypi.org/project/etzchaim/0.2.32/",
-      "date": "2026-05-09"
-    },
-    {
-      "url": "https://pypi.org/project/pgvectordb/0.0.5/",
-      "date": "2026-05-09"
-    },
-    {
-      "url": "https://pypi.org/project/memocode/0.5.24/",
-      "date": "2026-05-09"
-    },
-    {
-      "url": "https://pypi.org/project/paperprism-agent/0.2.2/",
-      "date": "2026-05-09"
-    },
-    {
-      "url": "https://pypi.org/project/ait-vcs/0.55.48/",
-      "date": "2026-05-09"
-    },
-    {
-      "url": "https://pypi.org/project/csaq-quant/0.5.1/",
-      "date": "2026-05-09"
-    },
-    {
-      "url": "https://pypi.org/project/justai/5.5.5/",
-      "date": "2026-05-09"
-    },
-    {
-      "url": "https://pypi.org/project/synthpilot/1.2.1/",
-      "date": "2026-05-09"
-    },
-    {
-      "url": "https://pypi.org/project/etzchaim/0.2.31/",
-      "date": "2026-05-09"
-    },
-    {
-      "url": "https://pypi.org/project/linkright/0.5.2/",
-      "date": "2026-05-09"
-    },
-    {
       "url": "https://github.com/bytedance/UI-TARS-desktop",
       "date": "2026-05-10"
     },
@@ -5363,6 +5267,134 @@
     {
       "url": "https://pypi.org/project/fabric-dw/2026.7.1.dev4/",
       "date": "2026-07-07"
+    },
+    {
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "date": "2026-07-08"
+    },
+    {
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "date": "2026-07-08"
+    },
+    {
+      "url": "https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.6-27B",
+      "date": "2026-07-08"
+    },
+    {
+      "url": "https://huggingface.co/eric-venti-seeds/Sun-Direction-Lora-Flux2Klein9B",
+      "date": "2026-07-08"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.05456",
+      "date": "2026-07-08"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.05563",
+      "date": "2026-07-08"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.05573",
+      "date": "2026-07-08"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.05577",
+      "date": "2026-07-08"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.05682",
+      "date": "2026-07-08"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.05690",
+      "date": "2026-07-08"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.05708",
+      "date": "2026-07-08"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.05750",
+      "date": "2026-07-08"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.05761",
+      "date": "2026-07-08"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.05775",
+      "date": "2026-07-08"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.05790",
+      "date": "2026-07-08"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.05794",
+      "date": "2026-07-08"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.05804",
+      "date": "2026-07-08"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.05439",
+      "date": "2026-07-08"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.05449",
+      "date": "2026-07-08"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.05450",
+      "date": "2026-07-08"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.05452",
+      "date": "2026-07-08"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.204",
+      "date": "2026-07-08"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.203",
+      "date": "2026-07-08"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.17.15",
+      "date": "2026-07-08"
+    },
+    {
+      "url": "https://pypi.org/project/chatwalaau/0.102.1/",
+      "date": "2026-07-08"
+    },
+    {
+      "url": "https://pypi.org/project/agently/4.1.4.1/",
+      "date": "2026-07-08"
+    },
+    {
+      "url": "https://pypi.org/project/tpu-inference/0.24.0.dev20260708/",
+      "date": "2026-07-08"
+    },
+    {
+      "url": "https://pypi.org/project/contextlake/2.36.0/",
+      "date": "2026-07-08"
+    },
+    {
+      "url": "https://pypi.org/project/ai-forge-sdk/0.2.3/",
+      "date": "2026-07-08"
+    },
+    {
+      "url": "https://pypi.org/project/rainman-memory/0.1.1/",
+      "date": "2026-07-08"
+    },
+    {
+      "url": "https://pypi.org/project/axmp-ai-agent-core/1.3.0rc6/",
+      "date": "2026-07-08"
+    },
+    {
+      "url": "https://pypi.org/project/agenticstar-platform/0.5.22/",
+      "date": "2026-07-08"
     }
   ]
 }
