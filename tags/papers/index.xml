@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Papers on Tenkai</title><link>https://tenkai.blog/tags/papers/</link><description>Recent content in Papers on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 08 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/papers/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — July 8, 2026</title><link>https://tenkai.blog/posts/2026-07-08/</link><pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-07-08/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Papers on Tenkai</title><link>https://tenkai.blog/tags/papers/</link><description>Recent content in Papers on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 09 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/papers/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — July 9, 2026</title><link>https://tenkai.blog/posts/2026-07-09/</link><pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-07-09/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/conradlocke/krea2-identity-edit" target="_blank" rel="noopener noreferrer">conradlocke/krea2-identity-edit&lt;/a>
+&lt;/strong> 🤖 — A LoRA for ComfyUI that bolts identity editing onto the Krea-2 Raw base model. If you&amp;rsquo;re knee-deep in local image pipelines and need consistent faces, here&amp;rsquo;s another weight file to add to the pile.&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.205" target="_blank" rel="noopener noreferrer">anthropics/claude-code: v2.1.205&lt;/a>
+&lt;/strong> 🛠️ — Auto mode now blocks tampering with session transcript files, and &lt;code>--json-schema&lt;/code> stops silently emitting unstructured output on invalid schemas or rejecting the &lt;code>format&lt;/code> keyword. Small fixes, but if you script Claude Code into your tooling, structured output that stays structured is the difference between working and screaming at logs.&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>&lt;a href="https://arxiv.org/abs/2607.06720" target="_blank" rel="noopener noreferrer">When Does In-Context Search Help? A Sampling-Complexity Theory of Reflection-Driven Reasoning&lt;/a>
+&lt;/strong> 📄 — Treats iterative generate-critique-revise loops as approximate search and derives when the extra compute is actually worth it. Nice to see theory catching up to the &amp;ldquo;just think more&amp;rdquo; crowd.&lt;/p></description></item><item><title>Tenkai Daily — July 8, 2026</title><link>https://tenkai.blog/posts/2026-07-08/</link><pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-07-08/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>
 &lt;p>&lt;strong>&lt;a href="https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.6-27B" target="_blank" rel="noopener noreferrer">bottlecapai/ThinkingCap-Qwen3.6-27B&lt;/a>
