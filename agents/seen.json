@@ -1,58 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/bytedance/UI-TARS-desktop",
-      "date": "2026-05-10"
-    },
-    {
-      "url": "://github.com/rohitg00/agentmemory",
-      "date": "2026-05-10"
-    },
-    {
-      "url": "https://github.com/nanocoai/nanoclaw",
-      "date": "2026-05-10"
-    },
-    {
-      "url": "https://huggingface.co/HiDream-ai/HiDream-O1-Image",
-      "date": "2026-05-10"
-    },
-    {
-      "url": "norahsakal.com/blog/mcp-vs-api-model-context-protocol-explained/",
-      "date": "2026-05-10"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.14.46",
-      "date": "2026-05-10"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.14.45",
-      "date": "2026-05-10"
-    },
-    {
-      "url": "https://pypi.org/project/neuralbridge-sdk/1.1.0/",
-      "date": "2026-05-10"
-    },
-    {
-      "url": "https://pypi.org/project/dv-pipecat-ai/0.0.93.dev56/",
-      "date": "2026-05-10"
-    },
-    {
-      "url": "https://pypi.org/project/degraph/1.0.3/",
-      "date": "2026-05-10"
-    },
-    {
-      "url": "https://pypi.org/project/dais-sdk/0.10.17/",
-      "date": "2026-05-10"
-    },
-    {
-      "url": "https://pypi.org/project/silkweb/0.1.0/",
-      "date": "2026-05-10"
-    },
-    {
-      "url": "https://pypi.org/project/wide-research/0.2.0/",
-      "date": "2026-05-10"
-    },
-    {
       "url": "https://github.com/jundot/omlx",
       "date": "2026-05-11"
     },
@@ -5395,6 +5343,146 @@
     {
       "url": "https://pypi.org/project/agenticstar-platform/0.5.22/",
       "date": "2026-07-08"
+    },
+    {
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "date": "2026-07-09"
+    },
+    {
+      "url": "https://huggingface.co/conradlocke/krea2-identity-edit",
+      "date": "2026-07-09"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.06720",
+      "date": "2026-07-09"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.06757",
+      "date": "2026-07-09"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.06760",
+      "date": "2026-07-09"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.06764",
+      "date": "2026-07-09"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.06820",
+      "date": "2026-07-09"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.06906",
+      "date": "2026-07-09"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.06925",
+      "date": "2026-07-09"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.06993",
+      "date": "2026-07-09"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.07021",
+      "date": "2026-07-09"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.07040",
+      "date": "2026-07-09"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.07189",
+      "date": "2026-07-09"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.07321",
+      "date": "2026-07-09"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.06601",
+      "date": "2026-07-09"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.06605",
+      "date": "2026-07-09"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.06607",
+      "date": "2026-07-09"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.06609",
+      "date": "2026-07-09"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.06610",
+      "date": "2026-07-09"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.205",
+      "date": "2026-07-09"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.17.16",
+      "date": "2026-07-09"
+    },
+    {
+      "url": "https://pypi.org/project/gate-cat/0.4.6/",
+      "date": "2026-07-09"
+    },
+    {
+      "url": "https://pypi.org/project/tpu-inference/0.24.0.dev20260709/",
+      "date": "2026-07-09"
+    },
+    {
+      "url": "https://pypi.org/project/jammi-ai-native/0.38.0/",
+      "date": "2026-07-09"
+    },
+    {
+      "url": "https://pypi.org/project/langchain-uniswap-v2/0.1.0/",
+      "date": "2026-07-09"
+    },
+    {
+      "url": "https://pypi.org/project/tensor-grep/1.51.7/",
+      "date": "2026-07-09"
+    },
+    {
+      "url": "https://pypi.org/project/bingo-ai/6.2.41/",
+      "date": "2026-07-09"
+    },
+    {
+      "url": "https://pypi.org/project/agent-corporation/0.0.1/",
+      "date": "2026-07-09"
+    },
+    {
+      "url": "https://pypi.org/project/pyainetwork/0.1.6/",
+      "date": "2026-07-09"
+    },
+    {
+      "url": "https://pypi.org/project/abstractintegratedmodule/1.0.0/",
+      "date": "2026-07-09"
+    },
+    {
+      "url": "https://pypi.org/project/matrice-analytics/0.1.372/",
+      "date": "2026-07-09"
+    },
+    {
+      "url": "https://pypi.org/project/traigent/0.21.3.dev0/",
+      "date": "2026-07-09"
+    },
+    {
+      "url": "https://pypi.org/project/stratum-py/0.2.74/",
+      "date": "2026-07-09"
+    },
+    {
+      "url": "https://pypi.org/project/gpry/4.0/",
+      "date": "2026-07-09"
+    },
+    {
+      "url": "https://pypi.org/project/reefiki/0.1.4/",
+      "date": "2026-07-09"
     }
   ]
 }
