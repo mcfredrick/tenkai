@@ -1,90 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/rasbt/LLMs-from-scratch",
-      "date": "2026-05-12"
-    },
-    {
-      "url": "https://github.com/rohitg00/agentmemory",
-      "date": "2026-05-12"
-    },
-    {
-      "url": "https://huggingface.co/openbmb/MiniCPM-V-4.6",
-      "date": "2026-05-12"
-    },
-    {
-      "url": "https://huggingface.co/Supertone/supertonic-3",
-      "date": "2026-05-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.08200",
-      "date": "2026-05-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.08220",
-      "date": "2026-05-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.08354",
-      "date": "2026-05-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.08368",
-      "date": "2026-05-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.08374",
-      "date": "2026-05-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.08386",
-      "date": "2026-05-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.08399",
-      "date": "2026-05-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.08405",
-      "date": "2026-05-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.08110",
-      "date": "2026-05-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.08111",
-      "date": "2026-05-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.08114",
-      "date": "2026-05-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.08116",
-      "date": "2026-05-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.08123",
-      "date": "2026-05-12"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
-      "date": "2026-05-12"
-    },
-    {
-      "url": "https://pypi.org/project/docforge-cli/0.6.1/",
-      "date": "2026-05-12"
-    },
-    {
-      "url": "https://pypi.org/project/rao-agent/1.0.2.post2449/",
-      "date": "2026-05-12"
-    },
-    {
-      "url": "https://pypi.org/project/orq-ai-sdk/4.9.0rc47/",
-      "date": "2026-05-12"
-    },
-    {
       "url": "https://github.com/tinyhumansai/openhuman",
       "date": "2026-05-13"
     },
@@ -5559,6 +5475,122 @@
     {
       "url": "https://pypi.org/project/tokenjam/0.5.5/",
       "date": "2026-07-10"
+    },
+    {
+      "url": "https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates",
+      "date": "2026-07-11"
+    },
+    {
+      "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize",
+      "date": "2026-07-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.07772",
+      "date": "2026-07-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.07779",
+      "date": "2026-07-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.07820",
+      "date": "2026-07-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.07891",
+      "date": "2026-07-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.07895",
+      "date": "2026-07-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.07937",
+      "date": "2026-07-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.07974",
+      "date": "2026-07-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.07976",
+      "date": "2026-07-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.07985",
+      "date": "2026-07-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.07993",
+      "date": "2026-07-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.08009",
+      "date": "2026-07-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.08010",
+      "date": "2026-07-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.08017",
+      "date": "2026-07-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.08027",
+      "date": "2026-07-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.08034",
+      "date": "2026-07-11"
+    },
+    {
+      "url": "https://moodtrip.ai/",
+      "date": "2026-07-11"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.207",
+      "date": "2026-07-11"
+    },
+    {
+      "url": "https://pypi.org/project/praisonaiagents/1.6.146/",
+      "date": "2026-07-11"
+    },
+    {
+      "url": "https://pypi.org/project/ultragraph-1bit/0.9.0/",
+      "date": "2026-07-11"
+    },
+    {
+      "url": "https://pypi.org/project/pysae-ai-tools/0.1.1551/",
+      "date": "2026-07-11"
+    },
+    {
+      "url": "https://pypi.org/project/transformers/5.13.1/",
+      "date": "2026-07-11"
+    },
+    {
+      "url": "https://pypi.org/project/tpu-inference/0.24.0.dev20260711/",
+      "date": "2026-07-11"
+    },
+    {
+      "url": "https://pypi.org/project/stratum-py/0.2.99/",
+      "date": "2026-07-11"
+    },
+    {
+      "url": "https://pypi.org/project/onepool/0.5.0/",
+      "date": "2026-07-11"
+    },
+    {
+      "url": "https://pypi.org/project/liquid-loop/0.3.0/",
+      "date": "2026-07-11"
+    },
+    {
+      "url": "https://pypi.org/project/cendor-mcp/0.1.2/",
+      "date": "2026-07-11"
+    },
+    {
+      "url": "https://pypi.org/project/argosvix/0.5.0/",
+      "date": "2026-07-11"
     }
   ]
 }
