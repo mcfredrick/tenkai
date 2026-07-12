@@ -1,78 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/tinyhumansai/openhuman",
-      "date": "2026-05-13"
-    },
-    {
-      "url": "https.com/rasbt/LLMs-from-scratch",
-      "date": "2026-05-13"
-    },
-    {
-      "url": "https://huggingface.co/Jackrong/Qwopus3.6-35B-A3B-v1-GGUF",
-      "date": "2026-05-13"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.10959",
-      "date": "2026-05-13"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.10971",
-      "date": "2026-05-13"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.10973",
-      "date": "2026-05-13"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.10974",
-      "date": "2026-05-13"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.10975",
-      "date": "2026-05-13"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.10980",
-      "date": "2026-05-13"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.10981",
-      "date": "2026-05-13"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.10983",
-      "date": "2026-05-13"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.10989",
-      "date": "2026-05-13"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.10991",
-      "date": "2026-05-13"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.10999",
-      "date": "2026-05-13"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.140",
-      "date": "2026-05-13"
-    },
-    {
-      "url": "https://pypi.org/project/agentcloak/0.1.0/",
-      "date": "2026-05-13"
-    },
-    {
-      "url": "https://pypi.org/project/mesh-context-layer/0.4.4/",
-      "date": "2026-05-13"
-    },
-    {
-      "url": "https://pypi.org/project/sniffly-lzwind/0.4.10/",
-      "date": "2026-05-13"
-    },
-    {
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
       "date": "2026-05-14"
     },
@@ -5591,6 +5519,102 @@
     {
       "url": "https://pypi.org/project/argosvix/0.5.0/",
       "date": "2026-07-11"
+    },
+    {
+      "url": "https://github.com/openai/plugins",
+      "date": "2026-07-12"
+    },
+    {
+      "url": "https://github.com/DayuanJiang/next-ai-draw-io",
+      "date": "2026-07-12"
+    },
+    {
+      "url": "https://huggingface.co/nvidia/Nemotron-Labs-Audex-30B-A3B",
+      "date": "2026-07-12"
+    },
+    {
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4",
+      "date": "2026-07-12"
+    },
+    {
+      "url": "https://huggingface.co/SupraLabs/Supra-Router-51M",
+      "date": "2026-07-12"
+    },
+    {
+      "url": "https://ai.glianalabs.com",
+      "date": "2026-07-12"
+    },
+    {
+      "url": "https://pypi.org/project/socratic-agents/0.4.7/",
+      "date": "2026-07-12"
+    },
+    {
+      "url": "https://pypi.org/project/ancestryaudit/0.3.2/",
+      "date": "2026-07-12"
+    },
+    {
+      "url": "https://pypi.org/project/tpu-inference/0.24.0.dev20260712/",
+      "date": "2026-07-12"
+    },
+    {
+      "url": "https://pypi.org/project/airoles/0.10.4/",
+      "date": "2026-07-12"
+    },
+    {
+      "url": "https://pypi.org/project/nextpy-agent/0.1.0/",
+      "date": "2026-07-12"
+    },
+    {
+      "url": "https://pypi.org/project/abstractintegratedmodule/1.0.4/",
+      "date": "2026-07-12"
+    },
+    {
+      "url": "https://pypi.org/project/surreal-memory/2.9.0/",
+      "date": "2026-07-12"
+    },
+    {
+      "url": "https://pypi.org/project/autogluon/1.5.1b20260712/",
+      "date": "2026-07-12"
+    },
+    {
+      "url": "https://pypi.org/project/autogluon-timeseries/1.5.1b20260712/",
+      "date": "2026-07-12"
+    },
+    {
+      "url": "https://pypi.org/project/autogluon-multimodal/1.5.1b20260712/",
+      "date": "2026-07-12"
+    },
+    {
+      "url": "https://pypi.org/project/autogluon-tabular/1.5.1b20260712/",
+      "date": "2026-07-12"
+    },
+    {
+      "url": "https://pypi.org/project/nexus-agent-ai/2.2.2/",
+      "date": "2026-07-12"
+    },
+    {
+      "url": "https://pypi.org/project/autogluon-features/1.5.1b20260712/",
+      "date": "2026-07-12"
+    },
+    {
+      "url": "https://pypi.org/project/autogluon-core/1.5.1b20260712/",
+      "date": "2026-07-12"
+    },
+    {
+      "url": "https://pypi.org/project/autogluon-common/1.5.1b20260712/",
+      "date": "2026-07-12"
+    },
+    {
+      "url": "https://pypi.org/project/sakshi-sdk/0.1.1/",
+      "date": "2026-07-12"
+    },
+    {
+      "url": "https://pypi.org/project/rag-assistant-ldxs/0.9.0/",
+      "date": "2026-07-12"
+    },
+    {
+      "url": "https://pypi.org/project/graphwiki/0.5.2/",
+      "date": "2026-07-12"
     }
   ]
 }
