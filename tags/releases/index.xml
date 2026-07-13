@@ -1,4 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Tenkai</title><link>https://tenkai.blog/tags/releases/</link><description>Recent content in Releases on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 12 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — July 12, 2026</title><link>https://tenkai.blog/posts/2026-07-12/</link><pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-07-12/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Tenkai</title><link>https://tenkai.blog/tags/releases/</link><description>Recent content in Releases on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 13 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — July 13, 2026</title><link>https://tenkai.blog/posts/2026-07-13/</link><pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-07-13/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://huggingface.co/Alissonerdx/LTX-Best-Face-ID" target="_blank" rel="noopener noreferrer">Alissonerdx/LTX-Best-Face-ID&lt;/a>
+ — A LoRA for LTX-2.3 that keeps faces consistent across reference-to-video and text-to-video generation, with ComfyUI support. If you&amp;rsquo;ve watched an AI video turn your subject into a different person every frame, this is the band-aid. 🤖&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/Nutlope/hallmark" target="_blank" rel="noopener noreferrer">Nutlope/hallmark&lt;/a>
+ — A design skill for Claude Code, Cursor, and Codex that tries to stop your agent from producing the usual visual slop. Point it at the model before it decides everything needs a gradient and three centered cards. 🛠️&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://arxiv.org/abs/2607.08773" target="_blank" rel="noopener noreferrer">Interval Certifications for Multilayered Perceptrons via Lattice Traversal&lt;/a>
+ — Reframes adversarial robustness as a lattice traversal problem, giving a rigorous theoretical handle on a foundational AI safety question. The math is the point here, not a demo. 📄&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2607.08774" target="_blank" rel="noopener noreferrer">CogniConsole: Externalizing Inference-Time Control as a Formal Abstraction for Reliable LLM Interactions&lt;/a>
+ — Argues that LLM reliability is driven as much by inference-time control as by raw model capability, and proposes a formal abstraction for it. Worth a read if you&amp;rsquo;re tired of &amp;ldquo;just prompt it better&amp;rdquo; passing for an engineering strategy.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2607.08894" target="_blank" rel="noopener noreferrer">GATS: Graph-Augmented Tree Search with Layered World Models for Efficient Agent Planning&lt;/a>
+ — A tree-search planner that uses graph augmentation and layered world models to cut the LLM inference cost that plagues LATS and ReAct. Faster, cheaper agent planning without calling the model for every single step.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2607.08964" target="_blank" rel="noopener noreferrer">Long-Horizon-Terminal-Bench: Testing the Limits of Agents on Long-Horizon Terminal Tasks with Dense Reward-Based Grading&lt;/a>
+ — A benchmark for terminal agents that runs long-horizon tasks and grades with dense rewards instead of a single final outcome. Finally something that measures whether your agent survives past the five-minute mark. 🔥&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2607.08986" target="_blank" rel="noopener noreferrer">A Formalization of the Mean-Field Derivation of the Vlasov Equation: AI-Assisted Lean Formalization as a Strategy Game&lt;/a>
+ — Frames AI-assisted formalization in Lean 4 as a &amp;ldquo;game&amp;rdquo; where a mathematician directs a model to turn LaTeX into compiled proofs. Niche, but a decent data point on how humans and models actually collaborate on rigorous math.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2607.09059" target="_blank" rel="noopener noreferrer">ARCANA: A Reflective Multi-Agent Program Synthesis Framework for ARC-AGI-2 Reasoning&lt;/a>
+ — A multi-agent setup that breaks ARC-AGI-2 tasks into perception, hypothesis generation, symbolic execution, and reflection under tight test-time and hardware limits. Relevant if you&amp;rsquo;re tracking whether agents can reason under constraints rather than just burn tokens.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/Shubhamsaboo/awesome-llm-apps" target="_blank" rel="noopener noreferrer">Shubhamsaboo/awesome-llm-apps&lt;/a>
+ — A repo of 100+ runnable LLM agent and RAG apps you can clone and ship, not just admire in a README. Practical starting points instead of another &amp;ldquo;hello world&amp;rdquo; notebook. 🛠️&lt;/li>
+&lt;li>&lt;a href="https://github.com/coreyhaines31/marketingskills" target="_blank" rel="noopener noreferrer">coreyhaines31/marketingskills&lt;/a>
+ — A set of marketing skills for Claude Code and agents covering CRO, copywriting, SEO, analytics, and growth engineering. Handy if your agent needs to write landing-page copy that doesn&amp;rsquo;t read like a robot wrote it — irony noted. 🛠️&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>If you&amp;rsquo;re building agents, the research dropped today points to a clear pattern: stop treating the model as a monolith you prompt and start externalizing control as a first-class engineering concern. &lt;a href="https://arxiv.org/abs/2607.08774" target="_blank" rel="noopener noreferrer">CogniConsole&lt;/a>
+ makes the argument that reliability is driven by inference-time control structures rather than raw model capability — a formal abstraction beats &amp;ldquo;just prompt it better&amp;rdquo; as a strategy. &lt;a href="https://arxiv.org/abs/2607.08894" target="_blank" rel="noopener noreferrer">GATS&lt;/a>
+ is one concrete implementation of that idea: a graph-augmented tree search planner that stops calling the LLM for every single planning step, cutting inference cost that normally wrecks agent budgets. Pair that with &lt;a href="https://arxiv.org/abs/2607.08964" target="_blank" rel="noopener noreferrer">Long-Horizon-Terminal-Bench&lt;/a>
+ to actually measure whether your agent survives past the five-minute mark on dense-reward terminal tasks instead of toy evals. Concrete next step: before you wire up another ReAct loop, wrap your LLM calls in a planner with explicit layered state, then run it against a long-horizon benchmark to find where the control structure — not the model — is the bottleneck.&lt;/p></description></item><item><title>Tenkai Daily — July 12, 2026</title><link>https://tenkai.blog/posts/2026-07-12/</link><pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-07-12/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/nvidia/Nemotron-Labs-Audex-30B-A3B" target="_blank" rel="noopener noreferrer">nvidia/Nemotron-Labs-Audex-30B-A3B&lt;/a>
 &lt;/strong> — A 30B-parameter sparse MoE (3B active) that handles audio understanding, speech recognition, TTS, and text generation in one weights file. If you need a single model for voice-in/voice-out pipelines and you&amp;rsquo;re US-based, this saves stitching together separate ASR/TTS models — just watch that &amp;ldquo;other&amp;rdquo; license. 🤖&lt;/li>
