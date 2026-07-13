@@ -1,114 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "date": "2026-05-14"
-    },
-    {
-      "url": "https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF",
-      "date": "2026-05-14"
-    },
-    {
-      "url": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-MTP-GGUF",
-      "date": "2026-05-14"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.12620",
-      "date": "2026-05-14"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.12673",
-      "date": "2026-05-14"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.12674",
-      "date": "2026-05-14"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.12718",
-      "date": "2026-05-14"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.12755",
-      "date": "2026-05-14"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.12922",
-      "date": "2026-05-14"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.12561",
-      "date": "2026-05-14"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.12580",
-      "date": "2026-05-14"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.12648",
-      "date": "2026-05-14"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.12652",
-      "date": "2026-05-14"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.12683",
-      "date": "2026-05-14"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.12693",
-      "date": "2026-05-14"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
-      "date": "2026-05-14"
-    },
-    {
-      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.34.0",
-      "date": "2026-05-14"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.14.50",
-      "date": "2026-05-14"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.14.49",
-      "date": "2026-05-14"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/v3.83.0",
-      "date": "2026-05-14"
-    },
-    {
-      "url": "https://pypi.org/project/khora/0.11.1/",
-      "date": "2026-05-14"
-    },
-    {
-      "url": "https://pypi.org/project/codevira/2.0.0/",
-      "date": "2026-05-14"
-    },
-    {
-      "url": "https://pypi.org/project/slopshield/0.1.0/",
-      "date": "2026-05-14"
-    },
-    {
-      "url": "https://pypi.org/project/agloom/0.1.73/",
-      "date": "2026-05-14"
-    },
-    {
-      "url": "https://pypi.org/project/gl-mcp-feedback/2.2.2/",
-      "date": "2026-05-14"
-    },
-    {
-      "url": "https://pypi.org/project/pipelex/0.28.0/",
-      "date": "2026-05-14"
-    },
-    {
-      "url": "https://pypi.org/project/mcpbundles/1.5.29/",
-      "date": "2026-05-14"
-    },
-    {
       "url": "https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization",
       "date": "2026-05-15"
     },
@@ -5615,6 +5507,158 @@
     {
       "url": "https://pypi.org/project/graphwiki/0.5.2/",
       "date": "2026-07-12"
+    },
+    {
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "date": "2026-07-13"
+    },
+    {
+      "url": "https://github.com/Nutlope/hallmark",
+      "date": "2026-07-13"
+    },
+    {
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "date": "2026-07-13"
+    },
+    {
+      "url": "https://huggingface.co/Alissonerdx/LTX-Best-Face-ID",
+      "date": "2026-07-13"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.08773",
+      "date": "2026-07-13"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.08774",
+      "date": "2026-07-13"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.08894",
+      "date": "2026-07-13"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.08964",
+      "date": "2026-07-13"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.08986",
+      "date": "2026-07-13"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.09059",
+      "date": "2026-07-13"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.09076",
+      "date": "2026-07-13"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.09142",
+      "date": "2026-07-13"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.09153",
+      "date": "2026-07-13"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.09175",
+      "date": "2026-07-13"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.09195",
+      "date": "2026-07-13"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.09217",
+      "date": "2026-07-13"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.09330",
+      "date": "2026-07-13"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.08776",
+      "date": "2026-07-13"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.08778",
+      "date": "2026-07-13"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.08779",
+      "date": "2026-07-13"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.08780",
+      "date": "2026-07-13"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.08781",
+      "date": "2026-07-13"
+    },
+    {
+      "url": "https://docs.byteask.ai/embedded",
+      "date": "2026-07-13"
+    },
+    {
+      "url": "https://kakaomobility.com",
+      "date": "2026-07-13"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/pr-36567-inline-evidence",
+      "date": "2026-07-13"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/pr-36567-evidence",
+      "date": "2026-07-13"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/pr-36516-evidence",
+      "date": "2026-07-13"
+    },
+    {
+      "url": "https://pypi.org/project/langchain-paypack/0.7.0/",
+      "date": "2026-07-13"
+    },
+    {
+      "url": "https://pypi.org/project/hermes-ollama-native/0.3.0/",
+      "date": "2026-07-13"
+    },
+    {
+      "url": "https://pypi.org/project/pinuxd/0.1.0.post1/",
+      "date": "2026-07-13"
+    },
+    {
+      "url": "https://pypi.org/project/graphscout/0.4.0/",
+      "date": "2026-07-13"
+    },
+    {
+      "url": "https://pypi.org/project/tpu-inference/0.24.0.dev20260713/",
+      "date": "2026-07-13"
+    },
+    {
+      "url": "https://pypi.org/project/pygeovision/2.1.6/",
+      "date": "2026-07-13"
+    },
+    {
+      "url": "https://pypi.org/project/lx-annotate/0.9.30/",
+      "date": "2026-07-13"
+    },
+    {
+      "url": "https://pypi.org/project/siontiles/0.3.1/",
+      "date": "2026-07-13"
+    },
+    {
+      "url": "https://pypi.org/project/graphscout/0.3.0/",
+      "date": "2026-07-13"
+    },
+    {
+      "url": "https://pypi.org/project/neer-match-utilities/1.0.2/",
+      "date": "2026-07-13"
+    },
+    {
+      "url": "https://pypi.org/project/vibe-coding-tracker/2.0.0/",
+      "date": "2026-07-13"
     }
   ]
 }
