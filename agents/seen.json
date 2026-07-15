@@ -1,46 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://huggingface.co/TencentARC/Pixal3D",
-      "date": "2026-05-16"
-    },
-    {
-      "url": "https://huggingface.co/ResembleAI/Dramabox",
-      "date": "2026-05-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.13851",
-      "date": "2026-05-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.14038",
-      "date": "2026-05-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.14054",
-      "date": "2026-05-16"
-    },
-    {
-      "url": "httpsorahsakal.com/blog/mcp-vs-api-model-context-protocol-explained/",
-      "date": "2026-05-16"
-    },
-    {
-      "url": "https://ternlang.com",
-      "date": "2026-05-16"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
-      "date": "2026-05-16"
-    },
-    {
-      "url": "https://pypi.org/project/entroly/0.19.4/",
-      "date": "2026-05-16"
-    },
-    {
-      "url": "https://pypi.org/project/mithril-llm/0.2.1/",
-      "date": "2026-05-16"
-    },
-    {
       "url": "https://huggingface.co/ScenemaAI/scenema-audio",
       "date": "2026-05-17"
     },
@@ -5727,6 +5687,182 @@
     {
       "url": "https://pypi.org/project/proviz-elekto/0.11.2/",
       "date": "2026-07-14"
+    },
+    {
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://huggingface.co/prism-ml/Bonsai-27B-gguf",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://huggingface.co/GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-Thinking",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.11888",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.11906",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.11948",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.11951",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.11959",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.11977",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.11980",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.12056",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.12077",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.12097",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.12127",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.12177",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.12188",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.11896",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.11897",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.11928",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.11936",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.11937",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://www.vivaldo.shop/",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://beforeyouship.dev/docs#mcp",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.210",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.1",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.0",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://pypi.org/project/sub2api-usage/0.3.18/",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://pypi.org/project/tensor-grep/1.76.2/",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://pypi.org/project/lmux-openai/0.8.0/",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://pypi.org/project/lmux-anthropic/0.11.0/",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://pypi.org/project/laia-gen-lib/0.9.50/",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://pypi.org/project/qirabot/2.0.9/",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://pypi.org/project/hypha-debugger/0.2.4/",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://pypi.org/project/stashai/0.1.242/",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://pypi.org/project/tpu-inference/0.24.0.dev20260715/",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://pypi.org/project/tigris-ml/0.4.0/",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://pypi.org/project/vecmindb/1.0.0/",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://pypi.org/project/isa-mcp/1.0.3/",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://pypi.org/project/rsl-rl-lib/5.4.2/",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://pypi.org/project/gaia-cli/6.8.9/",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://pypi.org/project/gllm-guardrail-binary/0.0.8/",
+      "date": "2026-07-15"
+    },
+    {
+      "url": "https://pypi.org/project/ragx-cli/0.4.0/",
+      "date": "2026-07-15"
     }
   ]
 }
