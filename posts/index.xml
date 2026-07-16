@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tenkai</title><link>https://tenkai.blog/posts/</link><description>Recent content in Posts on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 15 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — July 15, 2026</title><link>https://tenkai.blog/posts/2026-07-15/</link><pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-07-15/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tenkai</title><link>https://tenkai.blog/posts/</link><description>Recent content in Posts on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 16 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — July 16, 2026</title><link>https://tenkai.blog/posts/2026-07-16/</link><pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-07-16/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/thinkingmachines/Inkling" target="_blank" rel="noopener noreferrer">thinkingmachines/Inkling&lt;/a>
+&lt;/strong> — A multimodal MoE model handling image/audio/text-to-text conversations, Apache-2.0 and US-region. Another entry in the &amp;ldquo;make the model eat everything&amp;rdquo; sweepstakes 🤖&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/ATH-MaaS/OvisOCR2" target="_blank" rel="noopener noreferrer">ATH-MaaS/OvisOCR2&lt;/a>
+&lt;/strong> — Qwen3.5-0.8B fine-tune built for OCR and document parsing, including tables and formulas to markdown, with vLLM support. Actually useful if your pipeline still chokes on scanned PDFs 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/AngelSlim/Hy3-GGUF" target="_blank" rel="noopener noreferrer">AngelSlim/Hy3-GGUF&lt;/a>
+&lt;/strong> — Quantized GGUF build of Tencent&amp;rsquo;s Hy3 with imatrix, ready for local text generation. For the folks running models on whatever spare GPU they can find 🛠️&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2607.13037" target="_blank" rel="noopener noreferrer">OriginBlame: Record- and Token-Level Data Provenance for AI Training Datasets&lt;/a>
+&lt;/strong> — Tackles the unlearning headache: locating exactly which training records belong to a given author when they ask for removal. Practical plumbing work most papers pretend doesn&amp;rsquo;t exist.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2607.13049" target="_blank" rel="noopener noreferrer">SPINE: Bridging the Cyber-Physical Gap with Agentic AI&lt;/a>
+&lt;/strong> — Argues the real robot deployment bottleneck isn&amp;rsquo;t the brain, it&amp;rsquo;s the &amp;ldquo;spinal cord&amp;rdquo; — calibration and platform integration. Worth a look if you&amp;rsquo;ve ever watched a demo fall over in real life.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2607.13069" target="_blank" rel="noopener noreferrer">Interventional Grounding Audits: Black-Box Premise-Dependency Tests for LLM Chain-of-Thought via Predicate Substitution&lt;/a>
+&lt;/strong> — Black-box method to check whether CoT actually depends on its stated premises or just hallucinates a logical trail. The &amp;ldquo;is it thinking or performatively thinking&amp;rdquo; test 🔥&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2607.13073" target="_blank" rel="noopener noreferrer">Probabilistic Extension of Neuro-Symbolic AGI Robots based on Belnap&amp;rsquo;s Typed Intensional FOL&lt;/a>
+&lt;/strong> — Extends neuro-symbolic IFOL_B with probability for self-referential reasoning in robots. The title alone should filter your reading queue.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2607.13104" target="_blank" rel="noopener noreferrer">Self-Improvements in Modern Agentic Systems: A Survey&lt;/a>
+&lt;/strong> — Frames the shift from research prototypes to deployed self-improving agents around controllable evolution with minimal human input. Good map if you&amp;rsquo;re being asked to &amp;ldquo;just make the agents learn on their own&amp;rdquo; at work.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2607.13115" target="_blank" rel="noopener noreferrer">Improving Molecular Property Prediction in Small Language Models Using Graph-based Tools&lt;/a>
+&lt;/strong> — Adds graph-based tooling to small LMs to fix their structural blindness on SMILES strings. Niche, but a real fix for a real SLM limitation.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>The throughline today is that the gap between a model and a working system is where the real engineering lives. &lt;a href="https://arxiv.org/abs/2607.13049" target="_blank" rel="noopener noreferrer">SPINE&lt;/a>
+ makes the point bluntly: robot demos don&amp;rsquo;t fail because the model is dumb, they fail because calibration and platform glue — the &amp;ldquo;spinal cord&amp;rdquo; — is missing. That&amp;rsquo;s the same lesson buried in &lt;a href="https://huggingface.co/ATH-MaaS/OvisOCR2" target="_blank" rel="noopener noreferrer">OvisOCR2&lt;/a>
+: a fine-tune on Qwen3.5-0.8B only matters because it ships vLLM support and actually parses tables to markdown instead of hand-waving the integration. Meanwhile &lt;a href="https://arxiv.org/abs/2607.13069" target="_blank" rel="noopener noreferrer">Interventional Grounding Audits&lt;/a>
+ gives you a black-box way to check if your CoT is reasoning or just narrating — directly useful before you trust an agent in that fragile integration layer. Concrete takeaway: stop evaluating models in isolation. If you&amp;rsquo;re dropping &lt;a href="https://huggingface.co/thinkingmachines/Inkling" target="_blank" rel="noopener noreferrer">thinkingmachines/Inkling&lt;/a>
+ or a local &lt;a href="https://huggingface.co/AngelSlim/Hy3-GGUF" target="_blank" rel="noopener noreferrer">Hy3-GGUF&lt;/a>
+ build into a pipeline, budget more time for the spinal cord than the brain, and run a premise-dependency audit on anything claiming to reason before it touches production.&lt;/p></description></item><item><title>Tenkai Daily — July 15, 2026</title><link>https://tenkai.blog/posts/2026-07-15/</link><pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-07-15/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>
 &lt;p>🤖 &lt;strong>&lt;a href="https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf" target="_blank" rel="noopener noreferrer">prism-ml/Ternary-Bonsai-27B-gguf&lt;/a>
