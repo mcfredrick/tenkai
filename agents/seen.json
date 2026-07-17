@@ -1,110 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/tech-leads-club/agent-skills",
-      "date": "2026-05-18"
-    },
-    {
-      "url": "https://github.com/Light-Heart-Labs/DreamServer",
-      "date": "2026-05-18"
-    },
-    {
-      "url": "https://huggingface.co/microsoft/Fara-7B",
-      "date": "2026-05-18"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.15202",
-      "date": "2026-05-18"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.15204",
-      "date": "2026-05-18"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.15215",
-      "date": "2026-05-18"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.15217",
-      "date": "2026-05-18"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.15218",
-      "date": "2026-05-18"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.15219",
-      "date": "2026-05-18"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.15224",
-      "date": "2026-05-18"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.15227",
-      "date": "2026-05-18"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.15228",
-      "date": "2026-05-18"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.15301",
-      "date": "2026-05-18"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.15308",
-      "date": "2026-05-18"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.15315",
-      "date": "2026-05-18"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.15333",
-      "date": "2026-05-18"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.15343",
-      "date": "2026-05-18"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.15206",
-      "date": "2026-05-18"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.15208",
-      "date": "2026-05-18"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.15231",
-      "date": "2026-05-18"
-    },
-    {
-      "url": "https://smithery.ai/servers/clickhouse",
-      "date": "2026-05-18"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.15.4",
-      "date": "2026-05-18"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/cli-v3.0.7",
-      "date": "2026-05-18"
-    },
-    {
-      "url": "https://pypi.org/project/code-context-mcp/2.0.4/",
-      "date": "2026-05-18"
-    },
-    {
-      "url": "https://pypi.org/project/lurkr/0.2.7/",
-      "date": "2026-05-18"
-    },
-    {
-      "url": "https://pypi.org/project/anemoi-utils/0.4.35.post1/",
-      "date": "2026-05-18"
-    },
-    {
       "url": "https://github.com/humanlayer/12-factor-agents",
       "date": "2026-05-19"
     },
@@ -5943,6 +5839,190 @@
     {
       "url": "https://pypi.org/project/3xcode-cli/0.2.0/",
       "date": "2026-07-16"
+    },
+    {
+      "url": "https://github.com/apache/ossie",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://github.com/PostHog/posthog",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://github.com/lobehub/lobehub",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://huggingface.co/unsloth/Qwen3.6-27B-NVFP4",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://huggingface.co/jlnsrk/GLM-5.2-colibri-int4",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://huggingface.co/Cactus-Compute/needle",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.14093",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.14095",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.14096",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.14097",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.14115",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.14126",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.14141",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.14144",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.14145",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.14149",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.14158",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.14159",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.14169",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.14178",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.14187",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.14123",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.14125",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.14127",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.14157",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.14160",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://dev-match.xyz/",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://www.meteomatics.com/en/api/data-connectors/#mcp",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://ignav.com/docs/mcp",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://smithery.ai/servers/heavysword1/agentflight",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://mcp.sap.oobeprotocol.ai/",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://onehaus.app",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.212",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.3",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://pypi.org/project/agt-agent/0.3.0/",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://pypi.org/project/lmux-bedrock-shared/0.1.0/",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://pypi.org/project/lmux-anthropic/0.13.0/",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://pypi.org/project/iicp-client/0.7.93/",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://pypi.org/project/plyngent/0.1.1/",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://pypi.org/project/agentcrew-mcn/0.2.0/",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://pypi.org/project/tolokaforge/0.9.0/",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://pypi.org/project/renderers/0.1.9.dev2/",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://pypi.org/project/synthpilot/1.3.1/",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://pypi.org/project/tpu-inference/0.24.0.dev20260717/",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://pypi.org/project/stashai/0.1.271/",
+      "date": "2026-07-17"
+    },
+    {
+      "url": "https://pypi.org/project/power-loop/3.18.0/",
+      "date": "2026-07-17"
     }
   ]
 }
