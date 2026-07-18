@@ -1,138 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/humanlayer/12-factor-agents",
-      "date": "2026-05-19"
-    },
-    {
-      "url": "https://github.com/NVlabs/Sana",
-      "date": "2026-05-19"
-    },
-    {
-      "url": "https://github.com/affaan-m/ECC",
-      "date": "2026-05-19"
-    },
-    {
-      "url": "https://github.com/shareAI-lab/learn-claude-code",
-      "date": "2026-05-19"
-    },
-    {
-      "url": "https://huggingface.co/bytedance-research/Lance",
-      "date": "2026-05-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.16265",
-      "date": "2026-05-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.16309",
-      "date": "2026-05-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.16565",
-      "date": "2026-05-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.16259",
-      "date": "2026-05-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.16311",
-      "date": "2026-05-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.16302",
-      "date": "2026-05-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.16342",
-      "date": "2026-05-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.16675",
-      "date": "2026-05-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.16339",
-      "date": "2026-05-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.16341",
-      "date": "2026-05-19"
-    },
-    {
-      "url": "https://www.npmjs.com/package/@joseairosa/recall",
-      "date": "2026-05-19"
-    },
-    {
-      "url": "https://github.com/stuzero/pg-mcp",
-      "date": "2026-05-19"
-    },
-    {
-      "url": "https://blender-mcp-psi.vercel.app/",
-      "date": "2026-05-19"
-    },
-    {
-      "url": "https://github.com/lastmile-ai/mcp-agent",
-      "date": "2026-05-19"
-    },
-    {
-      "url": "https://github.com/lharries/whatsapp-mcp",
-      "date": "2026-05-19"
-    },
-    {
-      "url": "https://github.com/jlumbroso/passage-of-time-mcp",
-      "date": "2026-05-19"
-    },
-    {
-      "url": "https://www.stephendiehl.com/posts/computer_algebra_mcp/",
-      "date": "2026-05-19"
-    },
-    {
-      "url": "https://troystack.com/",
-      "date": "2026-05-19"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
-      "date": "2026-05-19"
-    },
-    {
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.1.26",
-      "date": "2026-05-19"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.15.5",
-      "date": "2026-05-19"
-    },
-    {
-      "url": "https://pypi.org/project/torch-pyodide/0.0.17/",
-      "date": "2026-05-19"
-    },
-    {
-      "url": "https://pypi.org/project/agloom/0.1.91/",
-      "date": "2026-05-19"
-    },
-    {
-      "url": "https://pypi.org/project/venturalitica/0.6.10/",
-      "date": "2026-05-19"
-    },
-    {
-      "url": "https://pypi.org/project/tenax-tn/0.5.1.dev20260519/",
-      "date": "2026-05-19"
-    },
-    {
-      "url": "https://pypi.org/project/modern-tts/0.1.2/",
-      "date": "2026-05-19"
-    },
-    {
-      "url": "https://pypi.org/project/openagentd/1.6.1/",
-      "date": "2026-05-19"
-    },
-    {
-      "url": "https://pypi.org/project/tfp-nightly/0.26.0.dev20260519/",
-      "date": "2026-05-19"
-    },
-    {
       "url": "https://huggingface.co/inclusionAI/Ring-2.6-1T",
       "date": "2026-05-20"
     },
@@ -6023,6 +5891,54 @@
     {
       "url": "https://pypi.org/project/power-loop/3.18.0/",
       "date": "2026-07-17"
+    },
+    {
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "date": "2026-07-18"
+    },
+    {
+      "url": "https://huggingface.co/prism-ml/Bonsai-27B-mlx-1bit",
+      "date": "2026-07-18"
+    },
+    {
+      "url": "https://huggingface.co/Wan-AI/Wan-Dancer-14B",
+      "date": "2026-07-18"
+    },
+    {
+      "url": "https://huggingface.co/GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-GGUF",
+      "date": "2026-07-18"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.214",
+      "date": "2026-07-18"
+    },
+    {
+      "url": "https://pypi.org/project/tpu-inference/0.24.0.dev20260718/",
+      "date": "2026-07-18"
+    },
+    {
+      "url": "https://pypi.org/project/nemo-fabric-adapters-deepagents/0.1.0a20260718/",
+      "date": "2026-07-18"
+    },
+    {
+      "url": "https://pypi.org/project/mcp-embedding-daemon/1.20.0/",
+      "date": "2026-07-18"
+    },
+    {
+      "url": "https://pypi.org/project/clauderizer/1.11.0/",
+      "date": "2026-07-18"
+    },
+    {
+      "url": "https://pypi.org/project/boost-skill-cli/1.0.22/",
+      "date": "2026-07-18"
+    },
+    {
+      "url": "https://pypi.org/project/attacklm/0.17.5/",
+      "date": "2026-07-18"
+    },
+    {
+      "url": "https://pypi.org/project/yeaboi/2.13.0/",
+      "date": "2026-07-18"
     }
   ]
 }
