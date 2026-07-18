@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev-Tools on Tenkai</title><link>https://tenkai.blog/tags/dev-tools/</link><description>Recent content in Dev-Tools on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 17 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/dev-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — July 17, 2026</title><link>https://tenkai.blog/posts/2026-07-17/</link><pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-07-17/</guid><description>&lt;h2 id="-model-releases-">🤖🚀 Model Releases 📦✨&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev-Tools on Tenkai</title><link>https://tenkai.blog/tags/dev-tools/</link><description>Recent content in Dev-Tools on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 18 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/dev-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — July 18, 2026</title><link>https://tenkai.blog/posts/2026-07-18/</link><pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-07-18/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/prism-ml/Bonsai-27B-mlx-1bit" target="_blank" rel="noopener noreferrer">prism-ml/Bonsai-27B-mlx-1bit&lt;/a>
+&lt;/strong> — A 1-bit MLX quantization of Qwen3.6-27B with hybrid attention, built for on-device CUDA/metal inference. If you&amp;rsquo;re running LLMs on edge hardware and tired of 4-bit being &amp;ldquo;good enough,&amp;rdquo; this is worth a look 🤖&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/Wan-AI/Wan-Dancer-14B" target="_blank" rel="noopener noreferrer">Wan-AI/Wan-Dancer-14B&lt;/a>
+&lt;/strong> — Image-to-video model that turns a still image plus music into a dancing sequence, with an Apache-2.0 license and multilingual support. The &amp;ldquo;music-to-dance&amp;rdquo; framing is either a party trick or a pipeline component depending on who you ask 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-GGUF" target="_blank" rel="noopener noreferrer">GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-GGUF&lt;/a>
+&lt;/strong> — A 1B GGUF build with thinking, tool-calling, and function-calling wired in for llama.cpp. The naming convention is doing a lot of heavy lifting, but a 1B model that does tool calls locally isn&amp;rsquo;t nothing 🤖&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.214" target="_blank" rel="noopener noreferrer">anthropics/claude-code: v2.1.214&lt;/a>
+&lt;/strong> — Patch release fixing &lt;code>dir/**&lt;/code> allow rules that were auto-approving writes outside the intended scope, plus a permission-check bypass fix. Standard security-hole-plugging that you&amp;rsquo;ll appreciate if you&amp;rsquo;d been wondering why your guardrails felt porous 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/tpu-inference/0.24.0.dev20260718/" target="_blank" rel="noopener noreferrer">tpu-inference 0.24.0.dev20260718&lt;/a>
+&lt;/strong> — New dev prerelease for TPU inference tooling. Pre-1.0 and dated, so treat it as a moving target unless you&amp;rsquo;re already in that ecosystem.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/nemo-fabric-adapters-deepagents/0.1.0a20260718/" target="_blank" rel="noopener noreferrer">nemo-fabric-adapters-deepagents 0.1.0a20260718&lt;/a>
+&lt;/strong> — A LangChain Deep Agents adapter for NeMo Fabric, still alpha. Relevant if you&amp;rsquo;re stitching agent frameworks onto NVIDIA&amp;rsquo;s orchestration layer.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/mcp-embedding-daemon/1.20.0/" target="_blank" rel="noopener noreferrer">mcp-embedding-daemon 1.20.0&lt;/a>
+&lt;/strong> — A shared ONNX/GGUF embedding server for the n24q02m MCP ecosystem. If your MCP setup is choking on embedding calls, a dedicated daemon beats reloading models per process 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/clauderizer/1.11.0/" target="_blank" rel="noopener noreferrer">clauderizer 1.11.0&lt;/a>
+&lt;/strong> — MCP-native working memory for agents: gameplans, phases, dependency graphs, all over plain markdown. The &amp;ldquo;post-hoc cascade&amp;rdquo; bit suggests it tracks how changes ripple — useful if your agents keep forgetting what they were doing.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/boost-skill-cli/1.0.22/" target="_blank" rel="noopener noreferrer">boost-skill-cli 1.0.22&lt;/a>
+&lt;/strong> — &amp;ldquo;Homebrew for AI coding skills&amp;rdquo; — a CLI for installing and managing reusable agent skills. Catchy analogy, though whether the package manager space needed another entrant is a question for your free time 🛠️&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/tirth8205/code-review-graph" target="_blank" rel="noopener noreferrer">tirth8205/code-review-graph&lt;/a>
+&lt;/strong> — Local-first code intelligence graph for MCP and CLI that maps your codebase so AI tools read only relevant files. Benchmarked context reductions on reviews — if your coding agent keeps drowning in irrelevant files, this is the kind of plumbing that helps 🔥&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>The throughline today is local-first agent infrastructure getting quietly serious. &lt;a href="https://github.com/tirth8205/code-review-graph" target="_blank" rel="noopener noreferrer">tirth8205/code-review-graph&lt;/a>
+ cuts agent context bloat by mapping your codebase so tools read only what matters, and &lt;a href="https://pypi.org/project/mcp-embedding-daemon/1.20.0/" target="_blank" rel="noopener noreferrer">mcp-embedding-daemon&lt;/a>
+ stops you from reloading embedding models per process by serving them shared over ONNX/GGUF. Pair that with &lt;a href="https://pypi.org/project/clauderizer/1.11.0/" target="_blank" rel="noopener noreferrer">clauderizer&lt;/a>
+, which gives MCP agents persistent working memory via plain markdown, and you&amp;rsquo;ve got a coherent stack: scope the code, embed it once, and stop your agents from forgetting mid-task. Concrete move — if you&amp;rsquo;re already on MCP, drop in the embedding daemon and the review graph before your next agent eval; the context reduction is measurable and the memory layer is cheap to trial. The model releases (&lt;a href="https://huggingface.co/prism-ml/Bonsai-27B-mlx-1bit" target="_blank" rel="noopener noreferrer">prism-ml/Bonsai-27B-mlx-1bit&lt;/a>
+, &lt;a href="https://huggingface.co/GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-GGUF" target="_blank" rel="noopener noreferrer">GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-GGUF&lt;/a>
+) sit fine on top of that once the plumbing holds.&lt;/p></description></item><item><title>Tenkai Daily — July 17, 2026</title><link>https://tenkai.blog/posts/2026-07-17/</link><pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-07-17/</guid><description>&lt;h2 id="-model-releases-">🤖🚀 Model Releases 📦✨&lt;/h2>
 &lt;ul>
 &lt;li>
 &lt;p>&lt;strong>&lt;a href="https://huggingface.co/unsloth/Qwen3.6-27B-NVFP4" target="_blank" rel="noopener noreferrer">unsloth/Qwen3.6-27B-NVFP4&lt;/a>
