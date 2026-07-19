@@ -1,4 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open-Source on Tenkai</title><link>https://tenkai.blog/tags/open-source/</link><description>Recent content in Open-Source on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 18 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/open-source/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — July 18, 2026</title><link>https://tenkai.blog/posts/2026-07-18/</link><pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-07-18/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open-Source on Tenkai</title><link>https://tenkai.blog/tags/open-source/</link><description>Recent content in Open-Source on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 19 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/open-source/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — July 19, 2026</title><link>https://tenkai.blog/posts/2026-07-19/</link><pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-07-19/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/prism-ml/Ternary-Bonsai-27B-mlx-2bit" target="_blank" rel="noopener noreferrer">prism-ml/Ternary-Bonsai-27B-mlx-2bit&lt;/a>
+&lt;/strong> — A 2-bit ternary MLX quantization of Qwen3.6-27B built for on-device inference on CUDA and Metal. If you&amp;rsquo;ve got Apple Silicon and want a 27B that doesn&amp;rsquo;t eat your RAM, this is worth a look 🤖&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/unsloth/inkling-GGUF" target="_blank" rel="noopener noreferrer">unsloth/inkling-GGUF&lt;/a>
+&lt;/strong> — GGUF quants of Thinking Machines&amp;rsquo; Inkling multimodal MoE that handles image-text and audio-text tasks. Usable via endpoints and local runners if you want a small multimodal model without rolling your own quant 📄&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/elder-plinius/G0DM0D3" target="_blank" rel="noopener noreferrer">elder-plinius/G0DM0D3&lt;/a>
+&lt;/strong> — A &amp;ldquo;liberated&amp;rdquo; AI chat client with no apparent guardrails or hosted dependencies. Read the source before you run it; the naming is doing a lot of work.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://www.npmjs.com/package/@joseairosa/recall" target="_blank" rel="noopener noreferrer">Show HN: Recall: Give Claude memory with Redis-backed persistent context&lt;/a>
+&lt;/strong> — An npm package that wires Redis-backed persistent context into Claude sessions so it stops forgetting who you are between calls 🛠️ (171 points, 93 comments)&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/stuzero/pg-mcp" target="_blank" rel="noopener noreferrer">Show HN: Cloud-Ready Postgres MCP Server&lt;/a>
+&lt;/strong> — An MCP server exposing Postgres operations, pitched as cloud-deployable for agent workflows (167 points, 79 comments)&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://blender-mcp-psi.vercel.app/" target="_blank" rel="noopener noreferrer">Show HN: MCP server for Blender that builds 3D scenes via natural language&lt;/a>
+&lt;/strong> — Natural-language scene generation in Blender through MCP — useful if your agent needs to stop writing Python and start making cubes (151 points, 61 comments)&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/lharries/whatsapp-mcp" target="_blank" rel="noopener noreferrer">Show HN: WhatsApp MCP Server&lt;/a>
+&lt;/strong> — Lets an LLM send and read WhatsApp messages through MCP. Highest engagement of the batch, which tells you something about where people want their agents poking (229 points, 138 comments)&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/jlumbroso/passage-of-time-mcp" target="_blank" rel="noopener noreferrer">Show HN: An MCP server that gives LLMs temporal awareness and time calculation&lt;/a>
+&lt;/strong> — An MCP server for time math and &amp;ldquo;temporal awareness,&amp;rdquo; because apparently your model still thinks February has 30 days (91 points, 55 comments)&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/KnockOutEZ/wigolo" target="_blank" rel="noopener noreferrer">KnockOutEZ/wigolo&lt;/a>
+&lt;/strong> — A local-first web research tool for coding agents over MCP — search, fetch, crawl with no API keys and no per-query cost. Public beta, so expect rough edges 🔥&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/affaan-m/ECC" target="_blank" rel="noopener noreferrer">affaan-m/ECC&lt;/a>
+&lt;/strong> — An &amp;ldquo;agent harness performance optimization system&amp;rdquo; with skills, memory, and security tooling for Claude Code, Codex, Opencode, and Cursor. The star count is doing impossible numbers, but the scope is broad if you&amp;rsquo;re tuning agent setups 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/shareAI-lab/learn-claude-code" target="_blank" rel="noopener noreferrer">shareAI-lab/learn-claude-code&lt;/a>
+&lt;/strong> — A from-scratch educational &amp;ldquo;nano Claude Code&amp;rdquo; agent harness in Python, for people who&amp;rsquo;d rather read the internals than trust the black box (71k stars, apparently)&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/lastmile-ai/mcp-agent" target="_blank" rel="noopener noreferrer">Show HN: Mcp-Agent – Build effective agents with Model Context Protocol&lt;/a>
+&lt;/strong> — A framework for composing agents around MCP servers, from LastMile AI (80 points, 28 comments)&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>The MCP gold rush is getting absurd: between the &lt;a href="https://github.com/lharries/whatsapp-mcp" target="_blank" rel="noopener noreferrer">WhatsApp MCP Server&lt;/a>
+, the &lt;a href="https://github.com/stuzero/pg-mcp" target="_blank" rel="noopener noreferrer">Cloud-Ready Postgres MCP Server&lt;/a>
+, and the &lt;a href="https://blender-mcp-psi.vercel.app/" target="_blank" rel="noopener noreferrer">MCP server for Blender&lt;/a>
+, your agent can now text your mom, query prod, and render a donut without you writing a line of glue code. The concrete move: stop hand-rolling integrations and stand up a local MCP router (pair it with &lt;a href="https://github.com/lastmile-ai/mcp-agent" target="_blank" rel="noopener noreferrer">mcp-agent&lt;/a>
+ to compose them) so your coding agent gets Postgres + research via &lt;a href="https://github.com/KnockOutEZ/wigolo" target="_blank" rel="noopener noreferrer">wigolo&lt;/a>
+ in one session. Just don&amp;rsquo;t wire the WhatsApp one to the same agent that has write access to your database — 229 points of internet enthusiasm is not a security review. If you&amp;rsquo;re running models locally anyway, throw &lt;a href="https://huggingface.co/prism-ml/Ternary-Bonsai-27B-mlx-2bit" target="_blank" rel="noopener noreferrer">Ternary-Bonsai-27B&lt;/a>
+ on the Metal backend and keep the whole stack on-device.&lt;/p></description></item><item><title>Tenkai Daily — July 18, 2026</title><link>https://tenkai.blog/posts/2026-07-18/</link><pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-07-18/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/prism-ml/Bonsai-27B-mlx-1bit" target="_blank" rel="noopener noreferrer">prism-ml/Bonsai-27B-mlx-1bit&lt;/a>
 &lt;/strong> — A 1-bit MLX quantization of Qwen3.6-27B with hybrid attention, built for on-device CUDA/metal inference. If you&amp;rsquo;re running LLMs on edge hardware and tired of 4-bit being &amp;ldquo;good enough,&amp;rdquo; this is worth a look 🤖&lt;/li>
