@@ -1,130 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/can1357/oh-my-pi",
-      "date": "2026-05-21"
-    },
-    {
-      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
-      "date": "2026-05-21"
-    },
-    {
-      "url": "https://github.com/ggml-org/llama.cpp",
-      "date": "2026-05-21"
-    },
-    {
-      "url": "https://huggingface.co/CohereLabs/command-a-plus-05-2026-w4a4",
-      "date": "2026-05-21"
-    },
-    {
-      "url": "https://huggingface.co/NemoStation/Marlin-2B",
-      "date": "2026-05-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.18801",
-      "date": "2026-05-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.18818",
-      "date": "2026-05-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.18937",
-      "date": "2026-05-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.19010",
-      "date": "2026-05-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.19031",
-      "date": "2026-05-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.19035",
-      "date": "2026-05-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.19093",
-      "date": "2026-05-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.19140",
-      "date": "2026-05-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.19151",
-      "date": "2026-05-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.19156",
-      "date": "2026-05-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.19186",
-      "date": "2026-05-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.20187",
-      "date": "2026-05-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.20188",
-      "date": "2026-05-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.20234",
-      "date": "2026-05-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.20235",
-      "date": "2026-05-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.20240",
-      "date": "2026-05-21"
-    },
-    {
-      "url": "https://tickerr.ai/mcp-server",
-      "date": "2026-05-21"
-    },
-    {
-      "url": "https://smithery.ai/servers/ai-research/Airesearchass",
-      "date": "2026-05-21"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.146",
-      "date": "2026-05-21"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.15.6",
-      "date": "2026-05-21"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/v3.84.0",
-      "date": "2026-05-21"
-    },
-    {
-      "url": "https://pypi.org/project/nexusmemo/0.2.2/",
-      "date": "2026-05-21"
-    },
-    {
-      "url": "https://pypi.org/project/vllm-htop/0.4.6/",
-      "date": "2026-05-21"
-    },
-    {
-      "url": "https://pypi.org/project/ml-atlas-sdk/0.2.0/",
-      "date": "2026-05-21"
-    },
-    {
-      "url": "https://pypi.org/project/marm-mcp-server/2.6.1/",
-      "date": "2026-05-21"
-    },
-    {
-      "url": "https://pypi.org/project/khora/0.16.2/",
-      "date": "2026-05-21"
-    },
-    {
       "url": "https://github.com/anthropics/claude-plugins-official",
       "date": "2026-05-22"
     },
@@ -5927,6 +5803,154 @@
     {
       "url": "https://pypi.org/project/autogovern/0.1.0/",
       "date": "2026-07-19"
+    },
+    {
+      "url": "https://github.com/kvcache-ai/ktransformers",
+      "date": "2026-07-20"
+    },
+    {
+      "url": "https://github.com/AstrBotDevs/AstrBot",
+      "date": "2026-07-20"
+    },
+    {
+      "url": "https://github.com/Canner/WrenAI",
+      "date": "2026-07-20"
+    },
+    {
+      "url": "https://github.com/router-for-me/CLIProxyAPI",
+      "date": "2026-07-20"
+    },
+    {
+      "url": "https://github.com/sickn33/agentic-awesome-skills",
+      "date": "2026-07-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.15281",
+      "date": "2026-07-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.15367",
+      "date": "2026-07-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.15439",
+      "date": "2026-07-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.15459",
+      "date": "2026-07-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.15550",
+      "date": "2026-07-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.15660",
+      "date": "2026-07-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.15456",
+      "date": "2026-07-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.15280",
+      "date": "2026-07-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.15314",
+      "date": "2026-07-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.15388",
+      "date": "2026-07-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.15418",
+      "date": "2026-07-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.15592",
+      "date": "2026-07-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.15647",
+      "date": "2026-07-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.15412",
+      "date": "2026-07-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.15421",
+      "date": "2026-07-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.15447",
+      "date": "2026-07-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.15449",
+      "date": "2026-07-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.15457",
+      "date": "2026-07-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.15467",
+      "date": "2026-07-20"
+    },
+    {
+      "url": "https://github.com/Aherontas/Pycon_Greece_2025_Presentation_Agents",
+      "date": "2026-07-20"
+    },
+    {
+      "url": "https://norahsakal.com/blog/mcp-vs-api-model-context-protocol-explained/",
+      "date": "2026-07-20"
+    },
+    {
+      "url": "https://github.com/apify/mcp-cli",
+      "date": "2026-07-20"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=46220577",
+      "date": "2026-07-20"
+    },
+    {
+      "url": "https://github.com/ahujasid/ableton-mcp",
+      "date": "2026-07-20"
+    },
+    {
+      "url": "https://pypi.org/project/team-harness/0.6.1/",
+      "date": "2026-07-20"
+    },
+    {
+      "url": "https://pypi.org/project/teenyfactories/0.1.0.dev20260720/",
+      "date": "2026-07-20"
+    },
+    {
+      "url": "https://pypi.org/project/marona/0.8.5/",
+      "date": "2026-07-20"
+    },
+    {
+      "url": "https://pypi.org/project/django-orm-lens/1.2.1/",
+      "date": "2026-07-20"
+    },
+    {
+      "url": "https://pypi.org/project/bollard-ai/0.3.0/",
+      "date": "2026-07-20"
+    },
+    {
+      "url": "https://pypi.org/project/openkb/0.4.5/",
+      "date": "2026-07-20"
+    },
+    {
+      "url": "https://pypi.org/project/reefiki/0.2.2/",
+      "date": "2026-07-20"
+    },
+    {
+      "url": "https://pypi.org/project/utim-cli/1.47.8/",
+      "date": "2026-07-20"
     }
   ]
 }
