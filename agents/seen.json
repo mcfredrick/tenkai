@@ -1,90 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/anthropics/claude-plugins-official",
-      "date": "2026-05-22"
-    },
-    {
-      "url": "https://github.com/antoinezambelli/forge",
-      "date": "2026-05-22"
-    },
-    {
-      "url": "https://github.com/dotnet/skills",
-      "date": "2026-05-22"
-    },
-    {
-      "url": "https://huggingface.co/tencent/Hy-MT2-1.8B",
-      "date": "2026-05-22"
-    },
-    {
-      "url": "https://huggingface.co/CohereLabs/command-a-plus-05-2026-bf16",
-      "date": "2026-05-22"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.20189",
-      "date": "2026-05-22"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.20190",
-      "date": "2026-05-22"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.20577",
-      "date": "2026-05-22"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.20618",
-      "date": "2026-05-22"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.20630",
-      "date": "2026-05-22"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.21516",
-      "date": "2026-05-22"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.21539",
-      "date": "2026-05-22"
-    },
-    {
-      "url": "https.com/lastmile-ai/mcp-agent",
-      "date": "2026-05-22"
-    },
-    {
-      "url": "https://docs.metamask.io/embedded-wallets/build-with-ai/",
-      "date": "2026-05-22"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.147",
-      "date": "2026-05-22"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/cli-v3.0.10",
-      "date": "2026-05-22"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.15.7",
-      "date": "2026-05-22"
-    },
-    {
-      "url": "https://pypi.org/project/oragent/0.3.6/",
-      "date": "2026-05-22"
-    },
-    {
-      "url": "https://pypi.org/project/chainmem/0.4.2/",
-      "date": "2026-05-22"
-    },
-    {
-      "url": "https://pypi.org/project/lilbee/0.6.66b481/",
-      "date": "2026-05-22"
-    },
-    {
-      "url": "https://pypi.org/project/buddyme/0.2.8/",
-      "date": "2026-05-22"
-    },
-    {
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "date": "2026-05-23"
     },
@@ -5951,6 +5867,98 @@
     {
       "url": "https://pypi.org/project/utim-cli/1.47.8/",
       "date": "2026-07-20"
+    },
+    {
+      "url": "https://github.com/handy-computer/transcribe.cpp",
+      "date": "2026-07-21"
+    },
+    {
+      "url": "https://github.com/moonshine-ai/moonshine",
+      "date": "2026-07-21"
+    },
+    {
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "date": "2026-07-21"
+    },
+    {
+      "url": "https://huggingface.co/openbmb/MiniCPM-RobotManip",
+      "date": "2026-07-21"
+    },
+    {
+      "url": "https://huggingface.co/openbmb/MiniCPM-RobotTrack",
+      "date": "2026-07-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.16195",
+      "date": "2026-07-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.16199",
+      "date": "2026-07-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.16200",
+      "date": "2026-07-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.16201",
+      "date": "2026-07-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.16204",
+      "date": "2026-07-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.16206",
+      "date": "2026-07-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.16208",
+      "date": "2026-07-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.16209",
+      "date": "2026-07-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.16222",
+      "date": "2026-07-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.16228",
+      "date": "2026-07-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.16231",
+      "date": "2026-07-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.16232",
+      "date": "2026-07-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.16235",
+      "date": "2026-07-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.16237",
+      "date": "2026-07-21"
+    },
+    {
+      "url": "https://pypi.org/project/gpt-workflow/0.4.0/",
+      "date": "2026-07-21"
+    },
+    {
+      "url": "https://pypi.org/project/hound-mcp/11.1.0/",
+      "date": "2026-07-21"
+    },
+    {
+      "url": "https://pypi.org/project/ternary-qat/0.1.0/",
+      "date": "2026-07-21"
+    },
+    {
+      "url": "https://pypi.org/project/utim-cli/1.47.15/",
+      "date": "2026-07-21"
     }
   ]
 }
