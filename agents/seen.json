@@ -1,54 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-      "date": "2026-05-24"
-    },
-    {
-      "url": "https://huggingface.co/numind/NuExtract3",
-      "date": "2026-05-24"
-    },
-    {
-      "url": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-GGUF",
-      "date": "2026-05-24"
-    },
-    {
-      "url": "https://pypi.org/project/hexdag/0.8.0.dev4/",
-      "date": "2026-05-24"
-    },
-    {
-      "url": "https://pypi.org/project/cli-comet/1.0.0/",
-      "date": "2026-05-24"
-    },
-    {
-      "url": "https://pypi.org/project/observeco/0.1.0/",
-      "date": "2026-05-24"
-    },
-    {
-      "url": "https://pypi.org/project/dglz/0.1.16.post9/",
-      "date": "2026-05-24"
-    },
-    {
-      "url": "https://pypi.org/project/llm-redacted/0.2.1/",
-      "date": "2026-05-24"
-    },
-    {
-      "url": "https://pypi.org/project/slopguard-cli/0.2.0/",
-      "date": "2026-05-24"
-    },
-    {
-      "url": "://pypi.org/project/hermes-katana/3.0.0/",
-      "date": "2026-05-24"
-    },
-    {
-      "url": "https://pypi.org/project/github-context-tools/0.1.0/",
-      "date": "2026-05-24"
-    },
-    {
-      "url": "https://pypi.org/project/llm-join/0.2.4/",
-      "date": "2026-05-24"
-    },
-    {
       "url": "https://github.com/earendil-works/pi",
       "date": "2026-05-25"
     },
@@ -5955,6 +5907,110 @@
     {
       "url": "https://pypi.org/project/portable-ai/1.0.0/",
       "date": "2026-07-22"
+    },
+    {
+      "url": "https://huggingface.co/microsoft/Mage-Flow",
+      "date": "2026-07-23"
+    },
+    {
+      "url": "https://huggingface.co/upstage/Solar-Open2-250B",
+      "date": "2026-07-23"
+    },
+    {
+      "url": "https://huggingface.co/poolside/Laguna-S-2.1-NVFP4",
+      "date": "2026-07-23"
+    },
+    {
+      "url": "https://huggingface.co/Motif-Technologies/Motif-3-Beta",
+      "date": "2026-07-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.19349",
+      "date": "2026-07-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.19353",
+      "date": "2026-07-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.19356",
+      "date": "2026-07-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.19358",
+      "date": "2026-07-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.19359",
+      "date": "2026-07-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.19362",
+      "date": "2026-07-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.19363",
+      "date": "2026-07-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.19364",
+      "date": "2026-07-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.19391",
+      "date": "2026-07-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.19393",
+      "date": "2026-07-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.19351",
+      "date": "2026-07-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.19365",
+      "date": "2026-07-23"
+    },
+    {
+      "url": "https://framesail.com/developers",
+      "date": "2026-07-23"
+    },
+    {
+      "url": "https://agentdevx.onrender.com",
+      "date": "2026-07-23"
+    },
+    {
+      "url": "https://tradingstrategies.work/api",
+      "date": "2026-07-23"
+    },
+    {
+      "url": "https://pypi.org/project/basert-agent/1.0.0/",
+      "date": "2026-07-23"
+    },
+    {
+      "url": "https://pypi.org/project/tpu-inference/0.25.0.dev20260723/",
+      "date": "2026-07-23"
+    },
+    {
+      "url": "https://pypi.org/project/newton-vision/1.1.2/",
+      "date": "2026-07-23"
+    },
+    {
+      "url": "https://pypi.org/project/p-layers/0.1.3/",
+      "date": "2026-07-23"
+    },
+    {
+      "url": "https://pypi.org/project/psycgod-sage/2.5.8/",
+      "date": "2026-07-23"
+    },
+    {
+      "url": "https://pypi.org/project/llmfw/0.1.0/",
+      "date": "2026-07-23"
+    },
+    {
+      "url": "https://pypi.org/project/datahub-agent-context/1.6.0.8.post1/",
+      "date": "2026-07-23"
     }
   ]
 }
