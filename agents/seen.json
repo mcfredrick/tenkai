@@ -1,90 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/manaflow-ai/cmux",
-      "date": "2026-05-26"
-    },
-    {
-      "url": "https://github.com/moeru-ai/airi",
-      "date": "2026-05-26"
-    },
-    {
-      "url": "https://github.com/Lum1104/Understand-Anything",
-      "date": "2026-05-26"
-    },
-    {
-      "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
-      "date": "2026-05-26"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.23926",
-      "date": "2026-05-26"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.23929",
-      "date": "2026-05-26"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.23909",
-      "date": "2026-05-26"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.24041",
-      "date": "2026-05-26"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.24058",
-      "date": "2026-05-26"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.24033",
-      "date": "2026-05-26"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.24048",
-      "date": "2026-05-26"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.24059",
-      "date": "2026-05-26"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.24057",
-      "date": "2026-05-26"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.24042",
-      "date": "2026-05-26"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/v3.85.0",
-      "date": "2026-05-26"
-    },
-    {
-      "url": "https://pypi.org/project/tea-agent/0.9.7/",
-      "date": "2026-05-26"
-    },
-    {
-      "url": "https://pypi.org/project/polymetrics/0.1.0/",
-      "date": "2026-05-26"
-    },
-    {
-      "url": "https://pypi.org/project/gwenflow/1.0.0/",
-      "date": "2026-05-26"
-    },
-    {
-      "url": "https://pypi.org/project/greatminds/1.2.10/",
-      "date": "2026-05-26"
-    },
-    {
-      "url": "https://pypi.org/project/imagine-mcp/1.5.0/",
-      "date": "2026-05-26"
-    },
-    {
-      "url": "https://pypi.org/project/mnemo-mcp/2.1.0/",
-      "date": "2026-05-26"
-    },
-    {
       "url": "https://github.com/twentyhq/twenty",
       "date": "2026-05-27"
     },
@@ -6007,6 +5923,42 @@
     {
       "url": "https://pypi.org/project/everos/1.2.0rc1/",
       "date": "2026-07-24"
+    },
+    {
+      "url": "https://github.com/citrolabs/ego-lite",
+      "date": "2026-07-25"
+    },
+    {
+      "url": "https://github.com/OtterMind/Chat2DB",
+      "date": "2026-07-25"
+    },
+    {
+      "url": "https://github.com/ruvnet/ruflo",
+      "date": "2026-07-25"
+    },
+    {
+      "url": "https://huggingface.co/poolside/Laguna-S-2.1",
+      "date": "2026-07-25"
+    },
+    {
+      "url": "https://huggingface.co/Kwaipilot/KAT-Coder-V2.5-Dev",
+      "date": "2026-07-25"
+    },
+    {
+      "url": "https://pypi.org/project/novafabric/0.80.0/",
+      "date": "2026-07-25"
+    },
+    {
+      "url": "https://pypi.org/project/saka-nlp/0.3.0/",
+      "date": "2026-07-25"
+    },
+    {
+      "url": "https://pypi.org/project/sernixa-cli/0.4.6/",
+      "date": "2026-07-25"
+    },
+    {
+      "url": "https://pypi.org/project/leanpass/0.1.3/",
+      "date": "2026-07-25"
     }
   ]
 }
