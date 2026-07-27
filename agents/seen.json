@@ -1,94 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
-      "date": "2026-05-28"
-    },
-    {
-      "url": "https://huggingface.co/microsoft/Lens",
-      "date": "2026-05-28"
-    },
-    {
-      "url": "https://huggingface.co/microsoft/Lens-Turbo",
-      "date": "2026-05-28"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.27605",
-      "date": "2026-05-28"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.27570",
-      "date": "2026-05-28"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.27569",
-      "date": "2026-05-28"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.27567",
-      "date": "2026-05-28"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.27575",
-      "date": "2026-05-28"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.27499",
-      "date": "2026-05-28"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.27482",
-      "date": "2026-05-28"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.27431",
-      "date": "2026-05-28"
-    },
-    {
-      "url": "https://smithery.ai/servers/alex-kenny-lee-vfjv/panko-food-safety",
-      "date": "2026-05-28"
-    },
-    {
-      "url": "https://smithery.ai/servers/underground-district/ucd-mcp",
-      "date": "2026-05-28"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
-      "date": "2026-05-28"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/github-v1.2.24",
-      "date": "2026-05-28"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/cli-v3.0.14",
-      "date": "2026-05-28"
-    },
-    {
-      "url": "https://pypi.org/project/cyllama-vulkan/0.3.0/",
-      "date": "2026-05-28"
-    },
-    {
-      "url": "https://pypi.org/project/mykg/0.1.9/",
-      "date": "2026-05-28"
-    },
-    {
-      "url": "https://pypi.org/project/redactkit/0.1.0/",
-      "date": "2026-05-28"
-    },
-    {
-      "url": "https://pypi.org/project/agentcage/0.22.4/",
-      "date": "2026-05-28"
-    },
-    {
-      "url": "https://pypi.org/project/albumentationsx/2.3.1/",
-      "date": "2026-05-28"
-    },
-    {
-      "url": "https://pypi.org/project/fyron/0.1.9/",
-      "date": "2026-05-28"
-    },
-    {
       "url": "https://github.com/unclecode/crawl4ai",
       "date": "2026-05-29"
     },
@@ -5927,6 +5839,98 @@
     {
       "url": "https://pypi.org/project/iterate-ai/0.3.1/",
       "date": "2026-07-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.21653",
+      "date": "2026-07-27"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.21861",
+      "date": "2026-07-27"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.21978",
+      "date": "2026-07-27"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.21981",
+      "date": "2026-07-27"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.21645",
+      "date": "2026-07-27"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.21644",
+      "date": "2026-07-27"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.21646",
+      "date": "2026-07-27"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.21673",
+      "date": "2026-07-27"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.21671",
+      "date": "2026-07-27"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.21619",
+      "date": "2026-07-27"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.21936",
+      "date": "2026-07-27"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.21758",
+      "date": "2026-07-27"
+    },
+    {
+      "url": "https://pypi.org/project/octop/0.9.15/",
+      "date": "2026-07-27"
+    },
+    {
+      "url": "https://pypi.org/project/brainiac-cli/0.19.15/",
+      "date": "2026-07-27"
+    },
+    {
+      "url": "https://pypi.org/project/vv-llm/0.3.110/",
+      "date": "2026-07-27"
+    },
+    {
+      "url": "https://pypi.org/project/shanquan/1.2.0/",
+      "date": "2026-07-27"
+    },
+    {
+      "url": "https://pypi.org/project/ado-vllm-performance/1.10.3/",
+      "date": "2026-07-27"
+    },
+    {
+      "url": "https://pypi.org/project/vv-agent/0.10.0/",
+      "date": "2026-07-27"
+    },
+    {
+      "url": "https://pypi.org/project/torchax/0.0.14.dev20260727/",
+      "date": "2026-07-27"
+    },
+    {
+      "url": "https://pypi.org/project/cendor-guardrails/1.6.1/",
+      "date": "2026-07-27"
+    },
+    {
+      "url": "https://pypi.org/project/cendor-core/1.14.2/",
+      "date": "2026-07-27"
+    },
+    {
+      "url": "https://pypi.org/project/cendor-cassette/1.1.1/",
+      "date": "2026-07-27"
+    },
+    {
+      "url": "https://pypi.org/project/lx-annotate/0.9.5/",
+      "date": "2026-07-27"
     }
   ]
 }
