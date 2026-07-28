@@ -1,150 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/unclecode/crawl4ai",
-      "date": "2026-05-29"
-    },
-    {
-      "url": "https://github.com/OpenMOSS/MOSS-TTS",
-      "date": "2026-05-29"
-    },
-    {
-      "url": "https://github.com/thedotmack/claude-mem",
-      "date": "2026-05-29"
-    },
-    {
-      "url": "https://huggingface.co/nvidia/LocateAnything-3B",
-      "date": "2026-05-29"
-    },
-    {
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
-      "date": "2026-05-29"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.28849",
-      "date": "2026-05-29"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.28855",
-      "date": "2026-05-29"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.28864",
-      "date": "2026-05-29"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.28883",
-      "date": "2026-05-29"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.28897",
-      "date": "2026-05-29"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.28902",
-      "date": "2026-05-29"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.28965",
-      "date": "2026-05-29"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.28978",
-      "date": "2026-05-29"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.28994",
-      "date": "2026-05-29"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.29018",
-      "date": "2026-05-29"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.29027",
-      "date": "2026-05-29"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.29041",
-      "date": "2026-05-29"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.29042",
-      "date": "2026-05-29"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.29055",
-      "date": "2026-05-29"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.28839",
-      "date": "2026-05-29"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.28850",
-      "date": "2026-05-29"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.28860",
-      "date": "2026-05-29"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.28862",
-      "date": "2026-05-29"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.28863",
-      "date": "2026-05-29"
-    },
-    {
-      "url": "https://bouch.dev/products/pinescript-mcp/",
-      "date": "2026-05-29"
-    },
-    {
-      "url": "https://bouch.dev/products/uk-legal-mcp/",
-      "date": "2026-05-29"
-    },
-    {
-      "url": "https://bouch.dev/products/govuk-mcp/",
-      "date": "2026-05-29"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
-      "date": "2026-05-29"
-    },
-    {
-      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.35.0",
-      "date": "2026-05-29"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.15.12",
-      "date": "2026-05-29"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/v3.86.0",
-      "date": "2026-05-29"
-    },
-    {
-      "url": "https://pypi.org/project/humecodec/0.7.0/",
-      "date": "2026-05-29"
-    },
-    {
-      "url": "https://pypi.org/project/diffcb/0.1.4/",
-      "date": "2026-05-29"
-    },
-    {
-      "url": "https://pypi.org/project/neuralsmith-cli/1.1.2/",
-      "date": "2026-05-29"
-    },
-    {
-      "url": "https://pypi.org/project/clawmetry/0.12.357/",
-      "date": "2026-05-29"
-    },
-    {
-      "url": "https://pypi.org/project/vaara/0.42.0/",
-      "date": "2026-05-29"
-    },
-    {
       "url": "https://github.com/harry0703/MoneyPrinterTurbo",
       "date": "2026-05-30"
     },
@@ -5931,6 +5787,110 @@
     {
       "url": "https://pypi.org/project/lx-annotate/0.9.5/",
       "date": "2026-07-27"
+    },
+    {
+      "url": "https://github.com/moeru-ai/airi",
+      "date": "2026-07-28"
+    },
+    {
+      "url": "https://huggingface.co/microsoft/Fara1.5-27B",
+      "date": "2026-07-28"
+    },
+    {
+      "url": "https://huggingface.co/baseten/GLM-5.2-Vision-NVFP4",
+      "date": "2026-07-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.22544",
+      "date": "2026-07-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.22548",
+      "date": "2026-07-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.22554",
+      "date": "2026-07-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.22555",
+      "date": "2026-07-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.22556",
+      "date": "2026-07-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.22562",
+      "date": "2026-07-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.22564",
+      "date": "2026-07-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.22565",
+      "date": "2026-07-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.22566",
+      "date": "2026-07-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.22568",
+      "date": "2026-07-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.22569",
+      "date": "2026-07-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.22570",
+      "date": "2026-07-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.22545",
+      "date": "2026-07-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.22711",
+      "date": "2026-07-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.22720",
+      "date": "2026-07-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.22724",
+      "date": "2026-07-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.22743",
+      "date": "2026-07-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.22769",
+      "date": "2026-07-28"
+    },
+    {
+      "url": "https://pypi.org/project/agent-inbox/0.24.0/",
+      "date": "2026-07-28"
+    },
+    {
+      "url": "https://pypi.org/project/helen-lang/1.29.14/",
+      "date": "2026-07-28"
+    },
+    {
+      "url": "https://pypi.org/project/privaite/0.4.1/",
+      "date": "2026-07-28"
+    },
+    {
+      "url": "https://pypi.org/project/maritime/0.7.0/",
+      "date": "2026-07-28"
+    },
+    {
+      "url": "https://pypi.org/project/ai-dynamo-runtime/1.4.0.dev20260728/",
+      "date": "2026-07-28"
     }
   ]
 }
