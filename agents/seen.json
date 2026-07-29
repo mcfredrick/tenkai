@@ -1,62 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-      "date": "2026-05-30"
-    },
-    {
-      "url": "://github.com/twentyhq/twenty",
-      "date": "2026-05-30"
-    },
-    {
-      "url": "https://github.com/Leonxlnx/taste-skill",
-      "date": "2026-05-30"
-    },
-    {
-      "url": "https://github.com/hardikpandya/stop-slop",
-      "date": "2026-05-30"
-    },
-    {
-      "url": "github.com/thedotmack/claude-mem",
-      "date": "2026-05-30"
-    },
-    {
-      "url": "https://aidatanorge.no",
-      "date": "2026-05-30"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.158",
-      "date": "2026-05-30"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
-      "date": "2026-05-30"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/cli-v3.0.15",
-      "date": "2026-05-30"
-    },
-    {
-      "url": "https://pypi.org/project/openagentd/1.37.0/",
-      "date": "2026-05-30"
-    },
-    {
-      "url": "https://pypi.org/project/tfp-nightly/0.26.0.dev20260530/",
-      "date": "2026-05-30"
-    },
-    {
-      "url": "://pypi.org/project/attestplane/1.9.1/",
-      "date": "2026-05-30"
-    },
-    {
-      "url": "https://pypi.org/project/helix-context/0.6.1/",
-      "date": "2026-05-30"
-    },
-    {
-      "url": "https://pypi.org/project/conexus/5.4.5/",
-      "date": "2026-05-30"
-    },
-    {
       "url": "https://github.com/FareedKhan-dev/train-llm-from-scratch",
       "date": "2026-05-31"
     },
@@ -5891,6 +5835,70 @@
     {
       "url": "https://pypi.org/project/ai-dynamo-runtime/1.4.0.dev20260728/",
       "date": "2026-07-28"
+    },
+    {
+      "url": "https://github.com/huggingface/speech-to-speech",
+      "date": "2026-07-29"
+    },
+    {
+      "url": "https://github.com/different-ai/openwork",
+      "date": "2026-07-29"
+    },
+    {
+      "url": "https://github.com/maderix/ANE",
+      "date": "2026-07-29"
+    },
+    {
+      "url": "https://github.com/thedotmack/claude-mem",
+      "date": "2026-07-29"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.24762",
+      "date": "2026-07-29"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.24770",
+      "date": "2026-07-29"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.24771",
+      "date": "2026-07-29"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.24773",
+      "date": "2026-07-29"
+    },
+    {
+      "url": "https://www.creed.space",
+      "date": "2026-07-29"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.219",
+      "date": "2026-07-29"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.8",
+      "date": "2026-07-29"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.7",
+      "date": "2026-07-29"
+    },
+    {
+      "url": "https://pypi.org/project/django-pydantic-agent/0.4.3/",
+      "date": "2026-07-29"
+    },
+    {
+      "url": "https://pypi.org/project/django-ag-ui/0.26.2/",
+      "date": "2026-07-29"
+    },
+    {
+      "url": "https://pypi.org/project/corio/2.6.2/",
+      "date": "2026-07-29"
+    },
+    {
+      "url": "https://pypi.org/project/langguardx/0.4.0/",
+      "date": "2026-07-29"
     }
   ]
 }
