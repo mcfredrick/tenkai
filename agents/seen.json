@@ -1,54 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/FareedKhan-dev/train-llm-from-scratch",
-      "date": "2026-05-31"
-    },
-    {
-      "url": "https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6",
-      "date": "2026-05-31"
-    },
-    {
-      "url": "https://github.com/kuibinlin/hsk-mcp-server",
-      "date": "2026-05-31"
-    },
-    {
-      "url": "https://unclick.world",
-      "date": "2026-05-31"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.15.13",
-      "date": "2026-05-31"
-    },
-    {
-      "url": "https://pypi.org/project/verifiable-rag/0.5.1/",
-      "date": "2026-05-31"
-    },
-    {
-      "url": "https://pypi.org/project/hugiml-core/1.1.4/",
-      "date": "2026-05-31"
-    },
-    {
-      "url": "https://pypi.org/project/connordb/1.8.5/",
-      "date": "2026-05-31"
-    },
-    {
-      "url": "https://pypi.org/project/oragent/0.3.13/",
-      "date": "2026-05-31"
-    },
-    {
-      "url": "https://pypi.org/project/qybersafe/0.1.0a3/",
-      "date": "2026-05-31"
-    },
-    {
-      "url": "https://pypi.org/project/lamcp/0.1.1/",
-      "date": "2026-05-31"
-    },
-    {
-      "url": "://pypi.org/project/alchemydetect/0.5.0/",
-      "date": "2026-05-31"
-    },
-    {
       "url": "https://github.com/supermemoryai/supermemory",
       "date": "2026-06-01"
     },
@@ -5899,6 +5851,78 @@
     {
       "url": "https://pypi.org/project/langguardx/0.4.0/",
       "date": "2026-07-29"
+    },
+    {
+      "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
+      "date": "2026-07-30"
+    },
+    {
+      "url": "https://huggingface.co/unsloth/Kimi-K3",
+      "date": "2026-07-30"
+    },
+    {
+      "url": "https://huggingface.co/nota-ai/Solar-Open2-250B-Nota-NVFP4",
+      "date": "2026-07-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.26094",
+      "date": "2026-07-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.26246",
+      "date": "2026-07-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.26253",
+      "date": "2026-07-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.26247",
+      "date": "2026-07-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.26339",
+      "date": "2026-07-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.26173",
+      "date": "2026-07-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.26298",
+      "date": "2026-07-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.26192",
+      "date": "2026-07-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.26278",
+      "date": "2026-07-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.24769",
+      "date": "2026-07-30"
+    },
+    {
+      "url": "https://pypi.org/project/huggingface-hub/1.26.0rc0/",
+      "date": "2026-07-30"
+    },
+    {
+      "url": "https://pypi.org/project/hf/1.26.0rc0/",
+      "date": "2026-07-30"
+    },
+    {
+      "url": "https://pypi.org/project/modelfuzz/0.3.3/",
+      "date": "2026-07-30"
+    },
+    {
+      "url": "https://pypi.org/project/xskill/0.6.29a3/",
+      "date": "2026-07-30"
+    },
+    {
+      "url": "https://pypi.org/project/hpc-agent-core/0.4.10/",
+      "date": "2026-07-30"
     }
   ]
 }
