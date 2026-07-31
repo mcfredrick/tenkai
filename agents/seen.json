@@ -1,118 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/supermemoryai/supermemory",
-      "date": "2026-06-01"
-    },
-    {
-      "url": "https://github.com/a5c-ai/babysitter",
-      "date": "2026-06-01"
-    },
-    {
-      "url": "https://huggingface.co/nvidia/Qwen3.6-35B-A3B-NVFP4",
-      "date": "2026-06-01"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.30512",
-      "date": "2026-06-01"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.30542",
-      "date": "2026-06-01"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.30576",
-      "date": "2026-06-01"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.30621",
-      "date": "2026-06-01"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.30738",
-      "date": "2026-06-01"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.30785",
-      "date": "2026-06-01"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.30832",
-      "date": "2026-06-01"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.30376",
-      "date": "2026-06-01"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.30381",
-      "date": "2026-06-01"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.30451",
-      "date": "2026-06-01"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.30452",
-      "date": "2026-06-01"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.30456",
-      "date": "2026-06-01"
-    },
-    {
-      "url": "https://arxiv.org/abs/2605.30461",
-      "date": "2026-06-01"
-    },
-    {
-      "url": "https://superpowers.social",
-      "date": "2026-06-01"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/v3.86.1",
-      "date": "2026-06-01"
-    },
-    {
-      "url": "https://pypi.org/project/elitea-sdk/0.7.9/",
-      "date": "2026-06-01"
-    },
-    {
-      "url": "https://pypi.org/project/jbfoundry/0.2.0/",
-      "date": "2026-06-01"
-    },
-    {
-      "url": "https://pypi.org/project/fry-bisenetv2/0.1.0/",
-      "date": "2026-06-01"
-    },
-    {
-      "url": "https://pypi.org/project/python-code-quality/0.2.1/",
-      "date": "2026-06-01"
-    },
-    {
-      "url": "https://pypi.org/project/opik-mcp/0.2.0/",
-      "date": "2026-06-01"
-    },
-    {
-      "url": "https://pypi.org/project/dsalt/0.3.88/",
-      "date": "2026-06-01"
-    },
-    {
-      "url": "https://pypi.org/project/ranksmith/0.5.1/",
-      "date": "2026-06-01"
-    },
-    {
-      "url": "https://pypi.org/project/llm-inspect/0.1.8/",
-      "date": "2026-06-01"
-    },
-    {
-      "url": "https://pypi.org/project/nvidia-nat-memmachine/1.8.0a20260601/",
-      "date": "2026-06-01"
-    },
-    {
-      "url": "https://pypi.org/project/qualix/0.2.0a1/",
-      "date": "2026-06-01"
-    },
-    {
       "url": "https://github.com/dmtrKovalenko/fff",
       "date": "2026-06-02"
     },
@@ -5923,6 +5811,74 @@
     {
       "url": "https://pypi.org/project/hpc-agent-core/0.4.10/",
       "date": "2026-07-30"
+    },
+    {
+      "url": "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.6b",
+      "date": "2026-07-31"
+    },
+    {
+      "url": "https://huggingface.co/microsoft/Mage-VL",
+      "date": "2026-07-31"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.27269",
+      "date": "2026-07-31"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.27271",
+      "date": "2026-07-31"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.27273",
+      "date": "2026-07-31"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.27275",
+      "date": "2026-07-31"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.26307",
+      "date": "2026-07-31"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.26181",
+      "date": "2026-07-31"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.26490",
+      "date": "2026-07-31"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.26512",
+      "date": "2026-07-31"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.27260",
+      "date": "2026-07-31"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.26119",
+      "date": "2026-07-31"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.26452",
+      "date": "2026-07-31"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.27290",
+      "date": "2026-07-31"
+    },
+    {
+      "url": "https://pipeworx.io",
+      "date": "2026-07-31"
+    },
+    {
+      "url": "https://pypi.org/project/mlango/0.2.0/",
+      "date": "2026-07-31"
+    },
+    {
+      "url": "https://pypi.org/project/tpu-inference/0.26.0.dev20260731/",
+      "date": "2026-07-31"
     }
   ]
 }
