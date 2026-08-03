@@ -4,7 +4,6 @@
 # You can add topics manually — just one topic per line, no extra fields needed.
 # Topics carried forward from the agent will include date and surface count.
 # Higher surface count = topic has appeared as a strong candidate multiple weeks running.
-Local LLM setups for coding assistants | 2026-04-14 | 7
-AI agent value and real-world use cases | 2026-05-04 | 3
-Coding agent configuration and memory | 2026-06-22 | 1
-API rate limits and quota management | 2026-06-22 | 1
+AI agent value and real-world use cases | 2026-05-04 | 4
+Coding agent configuration and memory | 2026-06-22 | 2
+API rate limits and quota management | 2026-06-22 | 2
