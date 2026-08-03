@@ -1,102 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/lyogavin/airllm",
-      "date": "2026-06-04"
-    },
-    {
-      "url": "https://huggingface.co/google/gemma-4-12B",
-      "date": "2026-06-04"
-    },
-    {
-      "url": "https://huggingface.co/stepfun-ai/Step-3.7-Flash",
-      "date": "2026-06-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.04246",
-      "date": "2026-06-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.04050",
-      "date": "2026-06-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.04032",
-      "date": "2026-06-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.04048",
-      "date": "2026-06-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.04202",
-      "date": "2026-06-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.04261",
-      "date": "2026-06-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.04402",
-      "date": "2026-06-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.04036",
-      "date": "2026-06-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.04051",
-      "date": "2026-06-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.04028",
-      "date": "2026-06-04"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162",
-      "date": "2026-06-04"
-    },
-    {
-      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.37.0",
-      "date": "2026-06-04"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/cli-v3.0.17",
-      "date": "2026-06-04"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/cli-v3.0.16",
-      "date": "2026-06-04"
-    },
-    {
-      "url": "https://pypi.org/project/vllm-sr/0.3.0.dev20260604091623/",
-      "date": "2026-06-04"
-    },
-    {
-      "url": "https://pypi.org/project/langchain-tealtiger/0.1.0/",
-      "date": "2026-06-04"
-    },
-    {
-      "url": "https://pypi.org/project/kj-depviz/0.2.0/",
-      "date": "2026-06-04"
-    },
-    {
-      "url": "https://pypi.org/project/mcp-threads/0.1.0/",
-      "date": "2026-06-04"
-    },
-    {
-      "url": "https://pypi.org/project/hermes-mcp-server/1.2.1/",
-      "date": "2026-06-04"
-    },
-    {
-      "url": "https://pypi.org/project/repowire/0.15.1/",
-      "date": "2026-06-04"
-    },
-    {
-      "url": "https://pypi.org/project/openai-router/0.1.15/",
-      "date": "2026-06-04"
-    },
-    {
       "url": "https://github.com/PaddlePaddle/PaddleOCR",
       "date": "2026-06-05"
     },
@@ -5759,6 +5663,86 @@
     {
       "url": "https://pypi.org/project/autogluon/1.5.1b20260802/",
       "date": "2026-08-02"
+    },
+    {
+      "url": "https://github.com/antirez/ds4",
+      "date": "2026-08-03"
+    },
+    {
+      "url": "https://github.com/livekit/agents",
+      "date": "2026-08-03"
+    },
+    {
+      "url": "https://github.com/esengine/DeepSeek-Reasonix",
+      "date": "2026-08-03"
+    },
+    {
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
+      "date": "2026-08-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.28633",
+      "date": "2026-08-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.28669",
+      "date": "2026-08-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.28755",
+      "date": "2026-08-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.28642",
+      "date": "2026-08-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.28657",
+      "date": "2026-08-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.28685",
+      "date": "2026-08-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.28678",
+      "date": "2026-08-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.28662",
+      "date": "2026-08-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.28698",
+      "date": "2026-08-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.28679",
+      "date": "2026-08-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.28670",
+      "date": "2026-08-03"
+    },
+    {
+      "url": "https://pypi.org/project/haptix/0.2.0/",
+      "date": "2026-08-03"
+    },
+    {
+      "url": "https://pypi.org/project/ternary-qat/0.1.5/",
+      "date": "2026-08-03"
+    },
+    {
+      "url": "https://pypi.org/project/cai-causal-graph/0.5.15.dev5/",
+      "date": "2026-08-03"
+    },
+    {
+      "url": "https://pypi.org/project/inference-models/0.35.0rc3/",
+      "date": "2026-08-03"
+    },
+    {
+      "url": "https://pypi.org/project/docmill/0.1.1/",
+      "date": "2026-08-03"
     }
   ]
 }
