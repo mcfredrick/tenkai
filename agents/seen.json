@@ -1,114 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/PaddlePaddle/PaddleOCR",
-      "date": "2026-06-05"
-    },
-    {
-      "url": "https://github.com/NVIDIA/cosmos",
-      "date": "2026-06-05"
-    },
-    {
-      "url": "https://github.com/mvanhorn/last30days-skill",
-      "date": "2026-06-05"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.04037",
-      "date": "2026-06-05"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.04315",
-      "date": "2026-06-05"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.04391",
-      "date": "2026-06-05"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.04421",
-      "date": "2026-06-05"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.05170",
-      "date": "2026-06-05"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.05186",
-      "date": "2026-06-05"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.05191",
-      "date": "2026-06-05"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.05201",
-      "date": "2026-06-05"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.05232",
-      "date": "2026-06-05"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.05247",
-      "date": "2026-06-05"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.05253",
-      "date": "2026-06-05"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.05254",
-      "date": "2026-06-05"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.05257",
-      "date": "2026-06-05"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.05263",
-      "date": "2026-06-05"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.05264",
-      "date": "2026-06-05"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.163",
-      "date": "2026-06-05"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.16.0",
-      "date": "2026-06-05"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/cli-v3.0.20",
-      "date": "2026-06-05"
-    },
-    {
-      "url": "https://pypi.org/project/djobs/0.7.0/",
-      "date": "2026-06-05"
-    },
-    {
-      "url": "https://pypi.org/project/tracelit-sdk/0.1.4/",
-      "date": "2026-06-05"
-    },
-    {
-      "url": "https://pypi.org/project/smartmemory-core/1.4.25/",
-      "date": "2026-06-05"
-    },
-    {
-      "url": "https://pypi.org/project/nopaddle/0.1.0/",
-      "date": "2026-06-05"
-    },
-    {
-      "url": "https://pypi.org/project/greatminds/1.6.7/",
-      "date": "2026-06-05"
-    },
-    {
-      "url": "https://pypi.org/project/tensor-grep/1.13.34/",
-      "date": "2026-06-05"
-    },
-    {
       "url": "https://github.com/CopilotKit/CopilotKit",
       "date": "2026-06-06"
     },
@@ -5763,6 +5655,46 @@
     {
       "url": "https://github.com/21st-dev/1code",
       "date": "2026-08-03"
+    },
+    {
+      "url": "https://github.com/lyogavin/airllm",
+      "date": "2026-08-04"
+    },
+    {
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
+      "date": "2026-08-04"
+    },
+    {
+      "url": "https://huggingface.co/unsloth/Kimi-K3-GGUF",
+      "date": "2026-08-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.00106",
+      "date": "2026-08-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.00129",
+      "date": "2026-08-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.00220",
+      "date": "2026-08-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.00246",
+      "date": "2026-08-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.00316",
+      "date": "2026-08-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.00019",
+      "date": "2026-08-04"
+    },
+    {
+      "url": "https://pypi.org/project/agent-inbox/0.51.0/",
+      "date": "2026-08-04"
     }
   ]
 }
