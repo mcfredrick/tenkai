@@ -1,106 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/CopilotKit/CopilotKit",
-      "date": "2026-06-06"
-    },
-    {
-      "url": "https://github.com/Panniantong/Agent-Reach",
-      "date": "2026-06-06"
-    },
-    {
-      "url": "https://github.com/MemPalace/mempalace",
-      "date": "2026-06-06"
-    },
-    {
-      "url": "https://huggingface.co/google/gemma-4-12B-it",
-      "date": "2026-06-06"
-    },
-    {
-      "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b",
-      "date": "2026-06-06"
-    },
-    {
-      "url": "https://huggingface.co/ByteDance/Bernini-R",
-      "date": "2026-06-06"
-    },
-    {
-      "url": "https://huggingface.co/bosonai/higgs-audio-v3-tts-4b",
-      "date": "2026-06-06"
-    },
-    {
-      "url": "https://huggingface.co/ideogram-ai/ideogram-4-fp8",
-      "date": "2026-06-06"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.05332",
-      "date": "2026-06-06"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.05389",
-      "date": "2026-06-06"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.05400",
-      "date": "2026-06-06"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.05408",
-      "date": "2026-06-06"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.05304",
-      "date": "2026-06-06"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.05382",
-      "date": "2026-06-06"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.05404",
-      "date": "2026-06-06"
-    },
-    {
-      "url": "https://news.ycombinator.com/item?id=462220577",
-      "date": "2026-06-06"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.166",
-      "date": "2026-06-06"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.16.2",
-      "date": "2026-06-06"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/v3.88.0",
-      "date": "2026-06-06"
-    },
-    {
-      "url": "https://pypi.org/project/mcp-memory-service-lite/10.74.1/",
-      "date": "2026-06-06"
-    },
-    {
-      "url": "https://pypi.org/project/mcp-memory-service/10.74.1/",
-      "date": "2026-06-06"
-    },
-    {
-      "url": "https://pypi.org/project/diffjudge/0.1.0/",
-      "date": "2026-06-06"
-    },
-    {
-      "url": "https://pypi.org/project/ragcheck-cli/0.2.7/",
-      "date": "2026-06-06"
-    },
-    {
-      "url": "https://pypi.org/project/graphifyy/0.8.33/",
-      "date": "2026-06-06"
-    },
-    {
-      "url": "https://pypi.org/project/nullspace-sdk/0.1.9/",
-      "date": "2026-06-06"
-    },
-    {
       "url": "https://github.com/microsoft/VibeVoice",
       "date": "2026-06-07"
     },
@@ -5695,6 +5595,146 @@
     {
       "url": "https://pypi.org/project/agent-inbox/0.51.0/",
       "date": "2026-08-04"
+    },
+    {
+      "url": "https://github.com/uber/ADR",
+      "date": "2026-08-05"
+    },
+    {
+      "url": "https://github.com/luongnv89/claude-howto",
+      "date": "2026-08-05"
+    },
+    {
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
+      "date": "2026-08-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.02618",
+      "date": "2026-08-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.02650",
+      "date": "2026-08-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.02876",
+      "date": "2026-08-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.02940",
+      "date": "2026-08-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.02632",
+      "date": "2026-08-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.02691",
+      "date": "2026-08-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.02690",
+      "date": "2026-08-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.02668",
+      "date": "2026-08-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.02878",
+      "date": "2026-08-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.02879",
+      "date": "2026-08-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.02993",
+      "date": "2026-08-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.02628",
+      "date": "2026-08-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.02662",
+      "date": "2026-08-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.02663",
+      "date": "2026-08-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.02697",
+      "date": "2026-08-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.02700",
+      "date": "2026-08-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.02705",
+      "date": "2026-08-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.02709",
+      "date": "2026-08-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.02604",
+      "date": "2026-08-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.02630",
+      "date": "2026-08-05"
+    },
+    {
+      "url": "https://mcp.revnuvo.site",
+      "date": "2026-08-05"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.222",
+      "date": "2026-08-05"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.221",
+      "date": "2026-08-05"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.12",
+      "date": "2026-08-05"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.70",
+      "date": "2026-08-05"
+    },
+    {
+      "url": "https://pypi.org/project/swarph-cli/0.41.5/",
+      "date": "2026-08-05"
+    },
+    {
+      "url": "https://pypi.org/project/lorekeep/0.14.0/",
+      "date": "2026-08-05"
+    },
+    {
+      "url": "https://pypi.org/project/trikedb/0.13.1/",
+      "date": "2026-08-05"
+    },
+    {
+      "url": "https://pypi.org/project/edit2docs/0.14.1/",
+      "date": "2026-08-05"
+    },
+    {
+      "url": "https://pypi.org/project/trellis2-3d-info/0.1.6/",
+      "date": "2026-08-05"
+    },
+    {
+      "url": "https://pypi.org/project/sourcecode/4.10.3/",
+      "date": "2026-08-05"
+    },
+    {
+      "url": "https://pypi.org/project/geny-executor/2.64.6/",
+      "date": "2026-08-05"
     }
   ]
 }
