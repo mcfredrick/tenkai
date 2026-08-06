@@ -1,34 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/microsoft/VibeVoice",
-      "date": "2026-06-07"
-    },
-    {
-      "url": "://github.com/openai/whisper",
-      "date": "2026-06-07"
-    },
-    {
-      "url": "https://pypi.org/project/agent-guardian/1.0.0rc10/",
-      "date": "2026-06-07"
-    },
-    {
-      "url": "https://pypi.org/project/agent-commerce-protocol-mcp/1.0.4/",
-      "date": "2026-06-07"
-    },
-    {
-      "url": "https://pypi.org/project/chimera-memory/0.8.0/",
-      "date": "2026-06-07"
-    },
-    {
-      "url": "https://pypi.org/project/evi-assistant/0.24.0/",
-      "date": "2026-06-07"
-    },
-    {
-      "url": "https://pypi.org/project/xpander-sdk/2.0.344/",
-      "date": "2026-06-07"
-    },
-    {
       "url": "https://github.com/RyanCodrai/turbovec",
       "date": "2026-06-08"
     },
@@ -5735,6 +5707,106 @@
     {
       "url": "https://pypi.org/project/geny-executor/2.64.6/",
       "date": "2026-08-05"
+    },
+    {
+      "url": "https://github.com/huangruiteng/loopx",
+      "date": "2026-08-06"
+    },
+    {
+      "url": "https://huggingface.co/deepgrove/maple-preview",
+      "date": "2026-08-06"
+    },
+    {
+      "url": "https://huggingface.co/mistralai/Shieldstral-1.0-3B",
+      "date": "2026-08-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.04458",
+      "date": "2026-08-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.04048",
+      "date": "2026-08-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.04074",
+      "date": "2026-08-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.04066",
+      "date": "2026-08-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.04289",
+      "date": "2026-08-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.04509",
+      "date": "2026-08-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.04013",
+      "date": "2026-08-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.04057",
+      "date": "2026-08-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.04358",
+      "date": "2026-08-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.04071",
+      "date": "2026-08-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.04084",
+      "date": "2026-08-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.04285",
+      "date": "2026-08-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.04190",
+      "date": "2026-08-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.04043",
+      "date": "2026-08-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.04045",
+      "date": "2026-08-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.04051",
+      "date": "2026-08-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.04060",
+      "date": "2026-08-06"
+    },
+    {
+      "url": "https://pypi.org/project/orda-kernel/0.1.0/",
+      "date": "2026-08-06"
+    },
+    {
+      "url": "https://pypi.org/project/runic-rag-docling/0.2.2/",
+      "date": "2026-08-06"
+    },
+    {
+      "url": "https://pypi.org/project/best-engine-ai-helper/1.1.0/",
+      "date": "2026-08-06"
+    },
+    {
+      "url": "https://pypi.org/project/agent-inbox/0.84.0/",
+      "date": "2026-08-06"
+    },
+    {
+      "url": "https://pypi.org/project/neuromem/0.23.3/",
+      "date": "2026-08-06"
     }
   ]
 }
