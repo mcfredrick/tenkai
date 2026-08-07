@@ -1,122 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/RyanCodrai/turbovec",
-      "date": "2026-06-08"
-    },
-    {
-      "url": "https://github.com/Andyyyy64/whichllm",
-      "date": "2026-06-08"
-    },
-    {
-      "url": "https://github.com/aaif-goose/goose",
-      "date": "2026-06-08"
-    },
-    {
-      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
-      "date": "2026-06-08"
-    },
-    {
-      "url": "https://huggingface.co/google/magenta-realtime-2",
-      "date": "2026-06-08"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.06514",
-      "date": "2026-06-08"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.06518",
-      "date": "2026-06-08"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.06519",
-      "date": "2026-06-08"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.06523",
-      "date": "2026-06-08"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.06526",
-      "date": "2026-06-08"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.06531",
-      "date": "2026-06-08"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.06533",
-      "date": "2026-06-08"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.06641",
-      "date": "2026-06-08"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.06656",
-      "date": "2026-06-08"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.06660",
-      "date": "2026-06-08"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.06735",
-      "date": "2026-06-08"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.06741",
-      "date": "2026-06-08"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.06787",
-      "date": "2026-06-08"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.06869",
-      "date": "2026-06-08"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.06547",
-      "date": "2026-06-08"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.06554",
-      "date": "2026-06-08"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.06564",
-      "date": "2026-06-08"
-    },
-    {
-      "url": "https://pypi.org/project/semql/0.2.1/",
-      "date": "2026-06-08"
-    },
-    {
-      "url": "https://pypi.org/project/agentautopsy/1.6.1/",
-      "date": "2026-06-08"
-    },
-    {
-      "url": "https://pypi.org/project/trapdoor-mcp/1.1.0/",
-      "date": "2026-06-08"
-    },
-    {
-      "url": "https://pypi.org/project/agentprecept/0.3.0/",
-      "date": "2026-06-08"
-    },
-    {
-      "url": "https://pypi.org/project/dreamer4/0.10.7/",
-      "date": "2026-06-08"
-    },
-    {
-      "url": "https://pypi.org/project/ttllm-gateway/0.0.25/",
-      "date": "2026-06-08"
-    },
-    {
-      "url": "https://pypi.org/project/hprc-framework/0.1.0/",
-      "date": "2026-06-08"
-    },
-    {
       "url": "https://github.com/Egonex-AI/Understand-Anything",
       "date": "2026-06-09"
     },
@@ -5807,6 +5691,114 @@
     {
       "url": "https://pypi.org/project/neuromem/0.23.3/",
       "date": "2026-08-06"
+    },
+    {
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "date": "2026-08-07"
+    },
+    {
+      "url": "https://huggingface.co/nvidia/NVIDIA-NemotronLabs-VoiceChat-11B",
+      "date": "2026-08-07"
+    },
+    {
+      "url": "https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora",
+      "date": "2026-08-07"
+    },
+    {
+      "url": "https://huggingface.co/drbaph/MiniMax-H3-Turbo-Lora-ComfyUI",
+      "date": "2026-08-07"
+    },
+    {
+      "url": "https://huggingface.co/realrebelai/MiniMax-H3_GGUFs",
+      "date": "2026-08-07"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.05168",
+      "date": "2026-08-07"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.05326",
+      "date": "2026-08-07"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.05212",
+      "date": "2026-08-07"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.05250",
+      "date": "2026-08-07"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.05253",
+      "date": "2026-08-07"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.05245",
+      "date": "2026-08-07"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.05234",
+      "date": "2026-08-07"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.05204",
+      "date": "2026-08-07"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.05242",
+      "date": "2026-08-07"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.05249",
+      "date": "2026-08-07"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.05160",
+      "date": "2026-08-07"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.05207",
+      "date": "2026-08-07"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.05218",
+      "date": "2026-08-07"
+    },
+    {
+      "url": "https://www.pushrealm.com/",
+      "date": "2026-08-07"
+    },
+    {
+      "url": "https://mcp.listentosadhu.app",
+      "date": "2026-08-07"
+    },
+    {
+      "url": "https://pypi.org/project/agentic-hil/0.9.0/",
+      "date": "2026-08-07"
+    },
+    {
+      "url": "https://pypi.org/project/tfp-nightly/0.26.0.dev20260807/",
+      "date": "2026-08-07"
+    },
+    {
+      "url": "https://pypi.org/project/samai-zagent/0.28.90/",
+      "date": "2026-08-07"
+    },
+    {
+      "url": "https://pypi.org/project/converseek/0.2.7/",
+      "date": "2026-08-07"
+    },
+    {
+      "url": "https://pypi.org/project/tea-agent/0.14.0/",
+      "date": "2026-08-07"
+    },
+    {
+      "url": "https://pypi.org/project/lorekeep/0.21.1/",
+      "date": "2026-08-07"
+    },
+    {
+      "url": "https://pypi.org/project/metrik-ai/0.5.0/",
+      "date": "2026-08-07"
     }
   ]
 }
