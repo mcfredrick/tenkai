@@ -1,106 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/Egonex-AI/Understand-Anything",
-      "date": "2026-06-09"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.07549",
-      "date": "2026-06-09"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.07577",
-      "date": "2026-06-09"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.07594",
-      "date": "2026-06-09"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.07718",
-      "date": "2026-06-09"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.07720",
-      "date": "2026-06-09"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.07721",
-      "date": "2026-06-09"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.07722",
-      "date": "2026-06-09"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.07780",
-      "date": "2026-06-09"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.07798",
-      "date": "2026-06-09"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.07801",
-      "date": "2026-06-09"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.07808",
-      "date": "2026-06-09"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.07812",
-      "date": "2026-06-09"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.07819",
-      "date": "2026-06-09"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.07866",
-      "date": "2026-06-09"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.07550",
-      "date": "2026-06-09"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.07553",
-      "date": "2026-06-09"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.07557",
-      "date": "2026-06-09"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.07563",
-      "date": "2026-06-09"
-    },
-    {
-      "url": "https://gread.dev/",
-      "date": "2026-06-09"
-    },
-    {
-      "url": "https://datanexusmcp.com",
-      "date": "2026-06-09"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.169",
-      "date": "2026-06-09"
-    },
-    {
-      "url": "https://pypi.org/project/iam-policy-autopilot/0.2.2/",
-      "date": "2026-06-09"
-    },
-    {
-      "url": "https://pypi.org/project/tenax-tn/0.7.1.dev20260609/",
-      "date": "2026-06-09"
-    },
-    {
-      "url": "https://pypi.org/project/riftor/1.0.0/",
-      "date": "2026-06-09"
-    },
-    {
       "url": "https://arxiv.org/abs/2606.10044",
       "date": "2026-06-10"
     },
@@ -5799,6 +5699,74 @@
     {
       "url": "https://pypi.org/project/metrik-ai/0.5.0/",
       "date": "2026-08-07"
+    },
+    {
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "date": "2026-08-08"
+    },
+    {
+      "url": "https://github.com/semantica-agi/semantica",
+      "date": "2026-08-08"
+    },
+    {
+      "url": "https://github.com/unclebob/swarm-forge",
+      "date": "2026-08-08"
+    },
+    {
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "date": "2026-08-08"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.05151",
+      "date": "2026-08-08"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.05153",
+      "date": "2026-08-08"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.05154",
+      "date": "2026-08-08"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.05161",
+      "date": "2026-08-08"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.05163",
+      "date": "2026-08-08"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.05166",
+      "date": "2026-08-08"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.05167",
+      "date": "2026-08-08"
+    },
+    {
+      "url": "https://pypi.org/project/lucid-yolo/0.1.0.dev3/",
+      "date": "2026-08-08"
+    },
+    {
+      "url": "https://pypi.org/project/m3-memory/2026.8.9.0/",
+      "date": "2026-08-08"
+    },
+    {
+      "url": "https://pypi.org/project/agent-runtime-governance/0.9.1/",
+      "date": "2026-08-08"
+    },
+    {
+      "url": "https://pypi.org/project/context-gc/0.2.1/",
+      "date": "2026-08-08"
+    },
+    {
+      "url": "https://pypi.org/project/lorekeep/0.23.1/",
+      "date": "2026-08-08"
+    },
+    {
+      "url": "https://pypi.org/project/textgraph-kg/3.3.0/",
+      "date": "2026-08-08"
     }
   ]
 }
