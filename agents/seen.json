@@ -1,118 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://arxiv.org/abs/2606.10044",
-      "date": "2026-06-10"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.10062",
-      "date": "2026-06-10"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.10086",
-      "date": "2026-06-10"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.10094",
-      "date": "2026-06-10"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.10147",
-      "date": "2026-06-10"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.10209",
-      "date": "2026-06-10"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.10237",
-      "date": "2026-06-10"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.10241",
-      "date": "2026-06-10"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.10254",
-      "date": "2026-06-10"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.10279",
-      "date": "2026-06-10"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.10286",
-      "date": "2026-06-10"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.10298",
-      "date": "2026-06-10"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.10299",
-      "date": "2026-06-10"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.10314",
-      "date": "2026-06-10"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.10334",
-      "date": "2026-06-10"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.09850",
-      "date": "2026-06-10"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.09853",
-      "date": "2026-06-10"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.09857",
-      "date": "2026-06-10"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.09859",
-      "date": "2026-06-10"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.09860",
-      "date": "2026-06-10"
-    },
-    {
-      "url": "https://x711.io",
-      "date": "2026-06-10"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.170",
-      "date": "2026-06-10"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.17.0",
-      "date": "2026-06-10"
-    },
-    {
-      "url": "https://pypi.org/project/fluidflow/0.3.0/",
-      "date": "2026-06-10"
-    },
-    {
-      "url": "https://pypi.org/project/bnnr/0.4.15/",
-      "date": "2026-06-10"
-    },
-    {
-      "url": "https://pypi.org/project/spawnllm/0.1.0/",
-      "date": "2026-06-10"
-    },
-    {
-      "url": "https://pypi.org/project/ltcai/3.6.0/",
-      "date": "2026-06-10"
-    },
-    {
-      "url": "https://pypi.org/project/tm-ai/2.91.44/",
-      "date": "2026-06-10"
-    },
-    {
       "url": "https://huggingface.co/google/diffusiongemma-26B-A4B-it",
       "date": "2026-06-11"
     },
@@ -5767,6 +5655,34 @@
     {
       "url": "https://pypi.org/project/textgraph-kg/3.3.0/",
       "date": "2026-08-08"
+    },
+    {
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "date": "2026-08-09"
+    },
+    {
+      "url": "https://github.com/Egonex-AI/Understand-Anything",
+      "date": "2026-08-09"
+    },
+    {
+      "url": "https://coinrailz.com",
+      "date": "2026-08-09"
+    },
+    {
+      "url": "https://pypi.org/project/spotwarp/3.2.2/",
+      "date": "2026-08-09"
+    },
+    {
+      "url": "https://pypi.org/project/minirag-mcp/0.3.1/",
+      "date": "2026-08-09"
+    },
+    {
+      "url": "https://pypi.org/project/inspeximus/2.3.0/",
+      "date": "2026-08-09"
+    },
+    {
+      "url": "https://pypi.org/project/burmesenlp/1.0.1/",
+      "date": "2026-08-09"
     }
   ]
 }
