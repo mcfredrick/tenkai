@@ -1,114 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/NVIDIA/SkillSpector",
-      "date": "2026-06-12"
-    },
-    {
-      "url": "https://github.com/hexo-ai/sia",
-      "date": "2026-06-12"
-    },
-    {
-      "url": "https://huggingface.co/zai-org/SCAIL-2",
-      "date": "2026-06-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.12451",
-      "date": "2026-06-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.12587",
-      "date": "2026-06-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.12594",
-      "date": "2026-06-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.12616",
-      "date": "2026-06-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.12618",
-      "date": "2026-06-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.12657",
-      "date": "2026-06-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.12674",
-      "date": "2026-06-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.12683",
-      "date": "2026-06-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.12713",
-      "date": "2026-06-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.12721",
-      "date": "2026-06-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.12736",
-      "date": "2026-06-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.12742",
-      "date": "2026-06-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.11192",
-      "date": "2026-06-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.11201",
-      "date": "2026-06-12"
-    },
-    {
-      "url": "https://thelocalintel.com",
-      "date": "2026-06-12"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.175",
-      "date": "2026-06-12"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.174",
-      "date": "2026-06-12"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.17.4",
-      "date": "2026-06-12"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/v3.89.2",
-      "date": "2026-06-12"
-    },
-    {
-      "url": "https://pypi.org/project/remembrane/0.4.0/",
-      "date": "2026-06-12"
-    },
-    {
-      "url": "https://pypi.org/project/tramdag/0.2.0/",
-      "date": "2026-06-12"
-    },
-    {
-      "url": "https://pypi.org/project/ami-torchcodec/0.13.0a1/",
-      "date": "2026-06-12"
-    },
-    {
-      "url": "https://pypi.org/project/unplug-ai/0.2.2/",
-      "date": "2026-06-12"
-    },
-    {
-      "url": "https://pypi.org/project/bee-sdk/0.4.0/",
-      "date": "2026-06-12"
-    },
-    {
       "url": "https://github.com/LMCache/LMCache",
       "date": "2026-06-13"
     },
@@ -5719,6 +5611,122 @@
     {
       "url": "https://klausai.com/",
       "date": "2026-08-10"
+    },
+    {
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "date": "2026-08-11"
+    },
+    {
+      "url": "https://github.com/stablyai/orca",
+      "date": "2026-08-11"
+    },
+    {
+      "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
+      "date": "2026-08-11"
+    },
+    {
+      "url": "https://huggingface.co/unsloth/Muse-Glimmer-30B-GGUF",
+      "date": "2026-08-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.07524",
+      "date": "2026-08-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.07528",
+      "date": "2026-08-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.07532",
+      "date": "2026-08-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.07719",
+      "date": "2026-08-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.07814",
+      "date": "2026-08-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.07746",
+      "date": "2026-08-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.07542",
+      "date": "2026-08-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.07535",
+      "date": "2026-08-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.07851",
+      "date": "2026-08-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.07827",
+      "date": "2026-08-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.07639",
+      "date": "2026-08-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.07533",
+      "date": "2026-08-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.07630",
+      "date": "2026-08-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.07770",
+      "date": "2026-08-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.07681",
+      "date": "2026-08-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.07474",
+      "date": "2026-08-11"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.225",
+      "date": "2026-08-11"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.16",
+      "date": "2026-08-11"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.15",
+      "date": "2026-08-11"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.14",
+      "date": "2026-08-11"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/v4.1.8",
+      "date": "2026-08-11"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/v4.1.7",
+      "date": "2026-08-11"
+    },
+    {
+      "url": "https://pypi.org/project/alpiecode/0.9.2/",
+      "date": "2026-08-11"
+    },
+    {
+      "url": "https://pypi.org/project/django-ai-tokens-meter/0.1.0/",
+      "date": "2026-08-11"
+    },
+    {
+      "url": "https://pypi.org/project/datasentry-ai/0.4.0/",
+      "date": "2026-08-11"
     }
   ]
 }
