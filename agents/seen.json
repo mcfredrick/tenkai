@@ -1,50 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/LMCache/LMCache",
-      "date": "2026-06-13"
-    },
-    {
-      "url": "https://github.com/rtk-ai/rtk",
-      "date": "2026-06-13"
-    },
-    {
-      "url": "https://github.com/JuliusBrussee/caveman",
-      "date": "2026-06-13"
-    },
-    {
-      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3",
-      "date": "2026-06-13"
-    },
-    {
-      "url": "https://huggingface.co/nex-agi/Nex-N2-Pro",
-      "date": "2026-06-13"
-    },
-    {
-      "url": "https://redstone.finance",
-      "date": "2026-06-13"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.176",
-      "date": "2026-06-13"
-    },
-    {
-      "url": "https://pypi.org/project/django-cfg/2.2.70/",
-      "date": "2026-06-13"
-    },
-    {
-      "url": "https://pypi.org/project/cobol-bridge-mcp/1.1.10/",
-      "date": "2026-06-13"
-    },
-    {
-      "url": "https://pypi.org/kagura-code-reviewer/0.3.0/",
-      "date": "2026-06-13"
-    },
-    {
-      "url": "https://pypi.org/meeting-helper/7.4.0/",
-      "date": "2026-06-13"
-    },
-    {
       "url": "https://github.com/andrewyng/aisuite",
       "date": "2026-06-14"
     },
@@ -5727,6 +5683,154 @@
     {
       "url": "https://pypi.org/project/datasentry-ai/0.4.0/",
       "date": "2026-08-11"
+    },
+    {
+      "url": "https://github.com/huggingface/transformers",
+      "date": "2026-08-12"
+    },
+    {
+      "url": "https://huggingface.co/Lightricks/LTX-2.5",
+      "date": "2026-08-12"
+    },
+    {
+      "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "date": "2026-08-12"
+    },
+    {
+      "url": "https://huggingface.co/ethanfel/Qwen3-VL-32B-Ultra-Heretic-H3-ComfyUI-INT8-ConvRot",
+      "date": "2026-08-12"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.09949",
+      "date": "2026-08-12"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.09967",
+      "date": "2026-08-12"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.09986",
+      "date": "2026-08-12"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.10004",
+      "date": "2026-08-12"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.10090",
+      "date": "2026-08-12"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.10108",
+      "date": "2026-08-12"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.10157",
+      "date": "2026-08-12"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.10171",
+      "date": "2026-08-12"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.10176",
+      "date": "2026-08-12"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.10198",
+      "date": "2026-08-12"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.10206",
+      "date": "2026-08-12"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.10207",
+      "date": "2026-08-12"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.09997",
+      "date": "2026-08-12"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.10007",
+      "date": "2026-08-12"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.10010",
+      "date": "2026-08-12"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.10016",
+      "date": "2026-08-12"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.10037",
+      "date": "2026-08-12"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.10039",
+      "date": "2026-08-12"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.10042",
+      "date": "2026-08-12"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.10045",
+      "date": "2026-08-12"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.10120",
+      "date": "2026-08-12"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.10126",
+      "date": "2026-08-12"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.10144",
+      "date": "2026-08-12"
+    },
+    {
+      "url": "https://lmk.today/mcp",
+      "date": "2026-08-12"
+    },
+    {
+      "url": "https://entia.systems",
+      "date": "2026-08-12"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.228",
+      "date": "2026-08-12"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.227",
+      "date": "2026-08-12"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.73",
+      "date": "2026-08-12"
+    },
+    {
+      "url": "https://pypi.org/project/apowerb/0.1.26/",
+      "date": "2026-08-12"
+    },
+    {
+      "url": "https://pypi.org/project/nmem-cli/0.10.57/",
+      "date": "2026-08-12"
+    },
+    {
+      "url": "https://pypi.org/project/ormah/0.14.9/",
+      "date": "2026-08-12"
+    },
+    {
+      "url": "https://pypi.org/project/scinr/0.3.3/",
+      "date": "2026-08-12"
+    },
+    {
+      "url": "https://pypi.org/project/pstone/0.1.3/",
+      "date": "2026-08-12"
     }
   ]
 }
