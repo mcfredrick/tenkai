@@ -1,4 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open-Source on Tenkai</title><link>https://tenkai.blog/tags/open-source/</link><description>Recent content in Open-Source on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 14 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/open-source/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — August 14, 2026</title><link>https://tenkai.blog/posts/2026-08-14/</link><pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-08-14/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open-Source on Tenkai</title><link>https://tenkai.blog/tags/open-source/</link><description>Recent content in Open-Source on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 15 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/open-source/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — August 15, 2026</title><link>https://tenkai.blog/posts/2026-08-15/</link><pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-08-15/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/unsloth/Qwen3.8-27B-GGUF" target="_blank" rel="noopener noreferrer">Unsloth-GGUF Quantized Qwen3.8-27B&lt;/a>
+&lt;/strong> — A GGUF‑quantized Qwen3.8‑27B built with Unsloth that enables efficient local inference via imatrix and conversational workflows, supporting base and quantized loading under Apache 2.0.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/Qwen/Qwen3.8-27B-FP8" target="_blank" rel="noopener noreferrer">Qwen3.8-27B FP8 Quantized Release&lt;/a>
+&lt;/strong> — FP8‑quantized Qwen3.8‑27B using transformers/safetensors for low‑precision inference, keeping Apache 2.0 licensing and endpoint compatibility for image‑to‑text and chat on modest hardware.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-MTP-GGUF" target="_blank" rel="noopener noreferrer">Qwen3.6-27B GGUF Multi-Stage Tuned and Quantized Release&lt;/a>
+&lt;/strong> — A GGUF‑quantized, multi‑stage tuned Qwen3.6‑27B bundling unsloth fine‑tuning, various GGUF quantizations (MTP, regular) and specialized datasets for coding, creative writing, roleplay and reasoning, aiming to be a Swiss‑army knife for local deployment.&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/matrx-rag/0.1.106/" target="_blank" rel="noopener noreferrer">matrx-rag 0.1.106&lt;/a>
+&lt;/strong> — A multi‑tenant RAG framework juggling hybrid retrieval, assorted chunking/embedding pipelines (PDF, images, repos) and agent‑extraction indexing, all while ranking results by priority; built for scalable, production‑grade systems with per‑user isolation.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/ai-agent-guardrails/0.1.1/" target="_blank" rel="noopener noreferrer">ai-agent-guardrails 0.1.1&lt;/a>
+&lt;/strong> — A policy layer that sits between you and autonomous AI coders, nixing destructive or unsafe commands and logging everything for compliance, because letting an agent run wild is usually a bad idea.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/cline/cline/releases/tag/v4.1.10" target="_blank" rel="noopener noreferrer">Cline v4.1.10&lt;/a>
+&lt;/strong> — Cline now sports a web‑search toggle, letting supported models pull in live results that stick around in the chat history; it’s off by default, because nobody wants unexpected search noise polluting their workflow.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/matrx-ai/0.5.34/" target="_blank" rel="noopener noreferrer">matrx-ai 0.5.34&lt;/a>
+&lt;/strong> — A multi‑provider AI client that smooths over the chaos of OpenAI, Anthropic et al., handling tool use, prompt management and consistent calling across APIs, so you don’t have to write glue code for every new model.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/matrx-batch/0.2.10/" target="_blank" rel="noopener noreferrer">matrx-batch 0.2.10&lt;/a>
+&lt;/strong> — Handles batch API routing, an urgency scheduler and a shared embedding cache to cut redundant computation and lower costs for high‑volume AI workloads; basically a discount coupon for your GPU budget.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/rishi/0.1.14/" target="_blank" rel="noopener noreferrer">rishi 0.1.14&lt;/a>
+&lt;/strong> — A lightweight driver that squeezes performance out of local LLMs with built‑in tool support, ideal for offline or resource‑constrained setups where you’d rather not phone home to an API.&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2608.12395" target="_blank" rel="noopener noreferrer">Research Assistant: AstraZeneca&amp;rsquo;s Agentic System for R&amp;amp;D&lt;/a>
+&lt;/strong> — An internal LLM‑based agent that pulls from scientific literature, knowledge graphs, chemistry databases and clinical trial data through a chat interface, aiming to answer biomedical questions; the paper outlines a modular architecture for multi‑source retrieval.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.233" target="_blank" rel="noopener noreferrer">Anthropic Claude Code v2.1.233&lt;/a>
+&lt;/strong> — Adds GitLab merge‑request URL support to the &amp;ndash;worktree flag and the Claude agents view, showing MRs as !N, plus an opt‑in identity‑forwarding gateway that pipes signed‑in user headers for per‑user spend attribution behind a proxy.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/plandex-ai/plandex/releases/tag/cli%2Fv2.2.1" target="_blank" rel="noopener noreferrer">Plandex cli/v2.2.1&lt;/a>
+&lt;/strong> — Lets Claude Pro/Max subscribers tap Anthropic models via Plandex in Integrated Models mode or with a bring‑your‑own‑key setup, and nags you to link your subscription when using the default model pack.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/ToolJet/ToolJet" target="_blank" rel="noopener noreferrer">ToolJet&lt;/a>
+&lt;/strong> — An open‑source framework for whipping up internal tools, dashboards, workflows and AI agents with minimal code, pairing a drag‑and‑drop UI with a plug‑in architecture that hooks into various LLMs, databases and APIs for custom business apps.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>If you&amp;rsquo;ve been looking to run a private, production‑grade RAG system without spiraling GPU costs or security blind spots, the matrx ecosystem just gave you three puzzle pieces that fit together neatly. Start with &lt;strong>matrx‑rag 0.1.106&lt;/strong> (&lt;a href="https://pypi.org/project/matrx-rag/0.1.106/" target="_blank" rel="noopener noreferrer">pypi&lt;/a>
+), which juggles hybrid retrieval across PDFs, images, and repos while ranking results by priority and enforcing per‑user isolation—ideal for multi‑tenant internal tools. Pair it with &lt;strong>ai‑agent‑guardrails 0.1.1&lt;/strong> (&lt;a href="https://pypi.org/project/ai-agent-guardrails/0.1.1/" target="_blank" rel="noopener noreferrer">pypi&lt;/a>
+), a policy layer that nixes destructive or unsafe commands and logs everything for compliance, so your agents don’t accidentally delete production data while chasing prompts. Then layer on &lt;strong>matrx‑batch 0.2.10&lt;/strong> (&lt;a href="https://pypi.org/project/matrx-batch/0.2.10/" target="_blank" rel="noopener noreferrer">pypi&lt;/a>
+), which routes batch API calls through an urgency scheduler and shares embedding caches to slash redundant computation. The result is a locally controllable, safe, and cost‑efficient pipeline you can deploy on modest hardware, feed your own quantized Qwen models via GGUF or FP8, and actually afford at scale. No more stitching together fragile scripts or watching your GPU bill haunt you after every deployment.&lt;/p></description></item><item><title>Tenkai Daily — August 14, 2026</title><link>https://tenkai.blog/posts/2026-08-14/</link><pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-08-14/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://pypi.org/project/privaparse/0.1.0/" target="_blank" rel="noopener noreferrer">privaparse 0.1.0&lt;/a>
  — Local privacy utility for LLM workflows that detects personally identifiable information, replaces it with deterministic placeholders during processing, and restores original values post-response. Enables compliant agent deployment by enforcing data minimization and privacy constraints without transmitting data off-device.&lt;/li>
