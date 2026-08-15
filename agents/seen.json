@@ -1,102 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/alibaba/zvec",
-      "date": "2026-06-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.14885",
-      "date": "2026-06-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.14892",
-      "date": "2026-06-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.14935",
-      "date": "2026-06-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.15034",
-      "date": "2026-06-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.15179",
-      "date": "2026-06-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.14801",
-      "date": "2026-06-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.14865",
-      "date": "2026-06-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.14900",
-      "date": "2026-06-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.14945",
-      "date": "2026-06-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.14990",
-      "date": "2026-06-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.14970",
-      "date": "2026-06-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.14971",
-      "date": "2026-06-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.14934",
-      "date": "2026-06-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.14941",
-      "date": "2026-06-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.14965",
-      "date": "2026-06-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.15107",
-      "date": "2026-06-16"
-    },
-    {
-      "url": "https://github.com/cyanheads/calculator-mcp-server",
-      "date": "2026-06-16"
-    },
-    {
-      "url": "://datanexusmcp.com",
-      "date": "2026-06-16"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.178",
-      "date": "2026-06-16"
-    },
-    {
-      "url": "https://pypi.org/project/tpu-inference/0.22.1.dev20260616/",
-      "date": "2026-06-16"
-    },
-    {
-      "url": "https://pypi.org/project/turnstone/1.7.0a2/",
-      "date": "2026-06-16"
-    },
-    {
-      "url": "https://pypi.org/project/novalab-adk/2.9.0/",
-      "date": "2026-06-16"
-    },
-    {
-      "url": "https://pypi.org/project/unstructured-ingest/1.6.16/",
-      "date": "2026-06-16"
-    },
-    {
       "url": "https://huggingface.co/zai-org/GLM-5.2",
       "date": "2026-06-17"
     },
@@ -5963,6 +5867,86 @@
     {
       "url": "https://pypi.org/project/hprobes/0.8.1/",
       "date": "2026-08-14"
+    },
+    {
+      "url": "https://github.com/ToolJet/ToolJet",
+      "date": "2026-08-15"
+    },
+    {
+      "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+      "date": "2026-08-15"
+    },
+    {
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+      "date": "2026-08-15"
+    },
+    {
+      "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-MTP-GGUF",
+      "date": "2026-08-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.12395",
+      "date": "2026-08-15"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.233",
+      "date": "2026-08-15"
+    },
+    {
+      "url": "https://github.com/sigoden/aichat/releases/tag/v0.30.0",
+      "date": "2026-08-15"
+    },
+    {
+      "url": "https://github.com/plandex-ai/plandex/releases/tag/cli%2Fv2.2.1",
+      "date": "2026-08-15"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/v4.1.10",
+      "date": "2026-08-15"
+    },
+    {
+      "url": "https://pypi.org/project/quantity-guard/0.6.1/",
+      "date": "2026-08-15"
+    },
+    {
+      "url": "https://pypi.org/project/matrx-rag/0.1.106/",
+      "date": "2026-08-15"
+    },
+    {
+      "url": "https://pypi.org/project/matrx-ai/0.5.34/",
+      "date": "2026-08-15"
+    },
+    {
+      "url": "https://pypi.org/project/matrx-batch/0.2.10/",
+      "date": "2026-08-15"
+    },
+    {
+      "url": "https://pypi.org/project/millet-pipeline/0.15.0/",
+      "date": "2026-08-15"
+    },
+    {
+      "url": "https://pypi.org/project/riskratchet/0.3.3/",
+      "date": "2026-08-15"
+    },
+    {
+      "url": "https://pypi.org/project/ai-agent-guardrails/0.1.1/",
+      "date": "2026-08-15"
+    },
+    {
+      "url": "https://pypi.org/project/rishi/0.1.14/",
+      "date": "2026-08-15"
+    },
+    {
+      "url": "https://pypi.org/project/gede/0.4.62/",
+      "date": "2026-08-15"
+    },
+    {
+      "url": "https://pypi.org/project/ragking/2.2.0/",
+      "date": "2026-08-15"
+    },
+    {
+      "url": "https://pypi.org/project/muster-roll/0.0.1/",
+      "date": "2026-08-15"
     }
   ]
 }
