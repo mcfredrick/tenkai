@@ -1,78 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://huggingface.co/zai-org/GLM-5.2",
-      "date": "2026-06-17"
-    },
-    {
-      "url": "https://huggingface.co/microsoft/FastContext-1.0-4B-SFT",
-      "date": "2026-06-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.17209",
-      "date": "2026-06-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.17107",
-      "date": "2026-06-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.17182",
-      "date": "2026-06-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.17118",
-      "date": "2026-06-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.17199",
-      "date": "2026-06-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.17368",
-      "date": "2026-06-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.17454",
-      "date": "2026-06-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.17328",
-      "date": "2026-06-17"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.179",
-      "date": "2026-06-17"
-    },
-    {
-      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.38.0",
-      "date": "2026-06-17"
-    },
-    {
-      "url": "https://github.com/continuedev/continue/releases/tag/v1.2.24-vscode",
-      "date": "2026-06-17"
-    },
-    {
-      "url": "https://pypi.org/project/ai-artifact-risk-validator/0.8.0/",
-      "date": "2026-06-17"
-    },
-    {
-      "url": "https://pypi.org/project/nbos/2.3.4/",
-      "date": "2026-06-17"
-    },
-    {
-      "url": "https://pypi.org/project/liter-llm/1.6.4/",
-      "date": "2026-06-17"
-    },
-    {
-      "url": "https://pypi.org/project/kolega-code/0.3.2/",
-      "date": "2026-06-17"
-    },
-    {
-      "url": "https://pypi.org/project/abstractintegratedmodule/0.5.6/",
-      "date": "2026-06-17"
-    },
-    {
       "url": "https://github.com/google-research/timesfm",
       "date": "2026-06-18"
     },
@@ -5947,6 +5875,50 @@
     {
       "url": "https://pypi.org/project/muster-roll/0.0.1/",
       "date": "2026-08-15"
+    },
+    {
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "date": "2026-08-16"
+    },
+    {
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+      "date": "2026-08-16"
+    },
+    {
+      "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8",
+      "date": "2026-08-16"
+    },
+    {
+      "url": "https://motivegrid.com/connect",
+      "date": "2026-08-16"
+    },
+    {
+      "url": "https://wikipedia.caseyjhand.com/mcp",
+      "date": "2026-08-16"
+    },
+    {
+      "url": "https://pypi.org/project/surreal-memory/3.6.0/",
+      "date": "2026-08-16"
+    },
+    {
+      "url": "https://pypi.org/project/xpander-sdk/2.0.459/",
+      "date": "2026-08-16"
+    },
+    {
+      "url": "https://pypi.org/project/clawmetry/0.12.719/",
+      "date": "2026-08-16"
+    },
+    {
+      "url": "https://pypi.org/project/cureview/0.11.0/",
+      "date": "2026-08-16"
+    },
+    {
+      "url": "https://pypi.org/project/neuroreg/0.10.6/",
+      "date": "2026-08-16"
+    },
+    {
+      "url": "https://pypi.org/project/opendot/0.3.0/",
+      "date": "2026-08-16"
     }
   ]
 }
