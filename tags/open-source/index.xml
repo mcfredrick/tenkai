@@ -1,4 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open-Source on Tenkai</title><link>https://tenkai.blog/tags/open-source/</link><description>Recent content in Open-Source on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 17 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/open-source/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — August 17, 2026</title><link>https://tenkai.blog/posts/2026-08-17/</link><pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-08-17/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open-Source on Tenkai</title><link>https://tenkai.blog/tags/open-source/</link><description>Recent content in Open-Source on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 18 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/open-source/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — August 18, 2026</title><link>https://tenkai.blog/posts/2026-08-18/</link><pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-08-18/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://huggingface.co/unsloth/Qwen3.8-27B-NVFP4" target="_blank" rel="noopener noreferrer">Unsloth NVFP4-Compressed Qwen3.8-27B&lt;/a>
+ — NVFP4-compressed Qwen3.8-27B release from Unsloth, optimized for training and inference while maintaining endpoint compatibility. Apache-2.0 licensed, region-US deployed, and built to work with Unsloth&amp;rsquo;s existing transformer optimization toolkit.&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/jundot/omlx" target="_blank" rel="noopener noreferrer">omlx: LLM Inference Server for Apple Silicon&lt;/a>
+ — High-performance inference server for macOS Apple Silicon with continuous batching, SSD-backed caching, and a menu-bar UI for local model management.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/ragmodel/0.5.0/" target="_blank" rel="noopener noreferrer">ragmodel 0.5.0&lt;/a>
+ — Modular, provider-independent RAG execution kernel that lets you swap retrievers, embedders, and LLMs without vendor lock-in via a unified pipeline interface.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/contextlake/7.22.0/" target="_blank" rel="noopener noreferrer">contextlake 7.22.0&lt;/a>
+ — Local context layer that mirrors repositories, indexes code/docs into a knowledge graph, and serves queries via MCP for source-grounded agent responses.&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://arxiv.org/abs/2608.14580" target="_blank" rel="noopener noreferrer">OGX: An Open-Source, Vendor-Neutral Generative AI Application Server&lt;/a>
+ — Python library and app server implementing OpenAI, Anthropic, and Google APIs with pluggable backends for portable agentic AI pipelines.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2608.14563" target="_blank" rel="noopener noreferrer">Forward Pass Domain Adaptation (Without Cross-Layer Backpropagation)&lt;/a>
+ — Proposes forward-pass-only training that ditches backward passes for 2.7–3.2x throughput and ~40% lower peak memory, while keeping off-domain benchmark performance within seed noise.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2608.14550" target="_blank" rel="noopener noreferrer">FLOPs vs Real Work: The Importance of Replication in AI Efficiency Assessment&lt;/a>
+ — Shows that reported FLOPs deviate significantly from real execution time/memory due to layer-wise patterns and hardware effects, advocating for replication-based assessment.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2608.14559" target="_blank" rel="noopener noreferrer">When to Communicate: Belief Distributions and KL Divergence for Principled Gating in Multi-Agent RL&lt;/a>
+ — Replaces high-variance REINFORCE binary gates with KL-divergence-based communication gating for stable, interpretable multi-agent coordination.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2608.14569" target="_blank" rel="noopener noreferrer">Certified Correctness in Neural Constraint Reasoning Requires Symbolic Integration&lt;/a>
+ — Argues neural CSP solvers fail under distribution shift and proposes symbolic integration as necessary for certified correctness.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2608.14579" target="_blank" rel="noopener noreferrer">SKILL: Self-correcting Knowledge-guided Iterative LLM Agent for Logic Optimization&lt;/a>
+ — LLM agent framework that iteratively corrects logic optimization errors via knowledge-guided self-correction, tackling sparse rewards and large search spaces.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/akitaonrails/ai-memory" target="_blank" rel="noopener noreferrer">ai-memory: Long-Term Memory Layer for AI Coding Agents&lt;/a>
+ — Persistent memory layer for AI coding CLIs, enabling cross-session state retention and vendor-agnostic handoff by serializing task history, decisions, and code artifacts.&lt;/li>
+&lt;li>&lt;a href="https://github.com/mukul975/Anthropic-Cybersecurity-Skills" target="_blank" rel="noopener noreferrer">Anthropic Cybersecurity Skills Taxonomy for AI Agents&lt;/a>
+ — Structured dataset of 817 cybersecurity skills mapped to six industry frameworks, providing a standardized vocabulary for evaluating AI agent security capabilities.&lt;/li>
+&lt;li>&lt;a href="https://github.com/DietrichGebert/ponytail" target="_blank" rel="noopener noreferrer">DietrichGebert/ponytail&lt;/a>
+ — Agent skill that configures coding agents to generate minimal, functional code prioritizing YAGNI, cutting unnecessary output.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>Here&amp;rsquo;s a thinking process:&lt;/p></description></item><item><title>Tenkai Daily — August 17, 2026</title><link>https://tenkai.blog/posts/2026-08-17/</link><pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-08-17/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
 &lt;ul>
 &lt;li>
 &lt;p>&lt;strong>llm-pycascade 0.2.0&lt;/strong> (&lt;a href="https://pypi.org/project/llm-pycascade/0.2.0/" target="_blank" rel="noopener noreferrer">pypi&lt;/a>
