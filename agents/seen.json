@@ -1,98 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/Lightricks/LTX-2",
-      "date": "2026-06-19"
-    },
-    {
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "date": "2026-06-19"
-    },
-    {
-      "url": "https://github.com/farion1231/cc-switch",
-      "date": "2026-06-19"
-    },
-    {
-      "url": "https://github.com/HKUDS/nanobot",
-      "date": "2026-06-19"
-    },
-    {
-      "url": "https://huggingface.co/Zyphra/ZONOS2",
-      "date": "2026-06-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.19538",
-      "date": "2026-06-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.19475",
-      "date": "2026-06-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.19464",
-      "date": "2026-06-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.19494",
-      "date": "2026-06-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.19559",
-      "date": "2026-06-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.19607",
-      "date": "2026-06-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.19527",
-      "date": "2026-06-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.19376",
-      "date": "2026-06-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.19365",
-      "date": "2026-06-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.19367",
-      "date": "2026-06-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.19364",
-      "date": "2026-06-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.19602",
-      "date": "2026-06-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.19588",
-      "date": "2026-06-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.19363",
-      "date": "2026-06-19"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.183",
-      "date": "2026-06-19"
-    },
-    {
-      "url": "https://pypi.org/project/agenticbridge/0.1.0/",
-      "date": "2026-06-19"
-    },
-    {
-      "url": "https://pypi.org/project/nvidia-nat-langchain/1.9.0a20260619/",
-      "date": "2026-06-19"
-    },
-    {
-      "url": "https://pypi.org/project/nvidia-nat-memmachine/1.9.0a20260619/",
-      "date": "2026-06-19"
-    },
-    {
       "url": "https://github.com/aishwaryanr/awesome-generative-ai-guide",
       "date": "2026-06-20"
     },
@@ -5863,6 +5771,102 @@
     {
       "url": "https://pypi.org/project/sourcecode/5.8.1/",
       "date": "2026-08-17"
+    },
+    {
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "date": "2026-08-18"
+    },
+    {
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "date": "2026-08-18"
+    },
+    {
+      "url": "https://github.com/jundot/omlx",
+      "date": "2026-08-18"
+    },
+    {
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "date": "2026-08-18"
+    },
+    {
+      "url": "https://huggingface.co/unsloth/Qwen3.8-27B-NVFP4",
+      "date": "2026-08-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.14550",
+      "date": "2026-08-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.14558",
+      "date": "2026-08-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.14559",
+      "date": "2026-08-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.14567",
+      "date": "2026-08-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.14569",
+      "date": "2026-08-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.14579",
+      "date": "2026-08-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.14580",
+      "date": "2026-08-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.14585",
+      "date": "2026-08-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.14556",
+      "date": "2026-08-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.14563",
+      "date": "2026-08-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.14614",
+      "date": "2026-08-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.14619",
+      "date": "2026-08-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.14620",
+      "date": "2026-08-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.14634",
+      "date": "2026-08-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.14636",
+      "date": "2026-08-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.14638",
+      "date": "2026-08-18"
+    },
+    {
+      "url": "https://pypi.org/project/ragmodel/0.5.0/",
+      "date": "2026-08-18"
+    },
+    {
+      "url": "https://pypi.org/project/contextlake/7.22.0/",
+      "date": "2026-08-18"
+    },
+    {
+      "url": "https://pypi.org/project/raven-guardrail/0.1.0/",
+      "date": "2026-08-18"
     }
   ]
 }
