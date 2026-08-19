@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/aishwaryanr/awesome-generative-ai-guide",
-      "date": "2026-06-20"
-    },
-    {
-      "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF",
-      "date": "2026-06-20"
-    },
-    {
-      "url": "https://zlurp.ai/",
-      "date": "2026-06-20"
-    },
-    {
-      "url": "https://pypi.org/project/mnemostack/0.7.0/",
-      "date": "2026-06-20"
-    },
-    {
-      "url": "https://pypi.org/tau-coding-agent/0.2.0/",
-      "date": "2026-06-20"
-    },
-    {
-      "url": "https://pypi.org/saidso/0.4.1/",
-      "date": "2026-06-20"
-    },
-    {
-      "url": "https://pypi.org/jentic-apitools-score/1.0.0a19/",
-      "date": "2026-06-20"
-    },
-    {
-      "url": "https://pypi.org/jentic-apitools-llm/1.0.0a19/",
-      "date": "2026-06-20"
-    },
-    {
-      "url": "https://pypi.org/cc-agent-messenger/0.2.0/",
-      "date": "2026-06-20"
-    },
-    {
       "url": "https://github.com/owainlewis/awesome-artificial-intelligence",
       "date": "2026-06-21"
     },
@@ -5867,6 +5831,134 @@
     {
       "url": "https://pypi.org/project/raven-guardrail/0.1.0/",
       "date": "2026-08-18"
+    },
+    {
+      "url": "https://github.com/volcengine/OpenViking",
+      "date": "2026-08-19"
+    },
+    {
+      "url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
+      "date": "2026-08-19"
+    },
+    {
+      "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-MLX",
+      "date": "2026-08-19"
+    },
+    {
+      "url": "https://huggingface.co/Gazingstars123/Anima-2.9B",
+      "date": "2026-08-19"
+    },
+    {
+      "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
+      "date": "2026-08-19"
+    },
+    {
+      "url": "https://huggingface.co/dots-studio/dots3-note-prev",
+      "date": "2026-08-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.16890",
+      "date": "2026-08-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.16891",
+      "date": "2026-08-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.16971",
+      "date": "2026-08-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.16977",
+      "date": "2026-08-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.17007",
+      "date": "2026-08-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.17067",
+      "date": "2026-08-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.17071",
+      "date": "2026-08-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.17124",
+      "date": "2026-08-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.17170",
+      "date": "2026-08-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.17183",
+      "date": "2026-08-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.17202",
+      "date": "2026-08-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.16926",
+      "date": "2026-08-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.16927",
+      "date": "2026-08-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.16930",
+      "date": "2026-08-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.16931",
+      "date": "2026-08-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.16932",
+      "date": "2026-08-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.17034",
+      "date": "2026-08-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.17063",
+      "date": "2026-08-19"
+    },
+    {
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.8.18",
+      "date": "2026-08-19"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.14",
+      "date": "2026-08-19"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.235",
+      "date": "2026-08-19"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.234",
+      "date": "2026-08-19"
+    },
+    {
+      "url": "https://pypi.org/project/inferris/0.1.0/",
+      "date": "2026-08-19"
+    },
+    {
+      "url": "https://pypi.org/project/stackformers/4.7.0b2/",
+      "date": "2026-08-19"
+    },
+    {
+      "url": "https://pypi.org/project/cpgpt/0.0.11/",
+      "date": "2026-08-19"
+    },
+    {
+      "url": "https://pypi.org/project/curatorkit/0.1.8/",
+      "date": "2026-08-19"
     }
   ]
 }
