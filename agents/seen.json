@@ -1,58 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/owainlewis/awesome-artificial-intelligence",
-      "date": "2026-06-21"
-    },
-    {
-      "url": "https://github.com/asgeirtj/system_prompts_leaks",
-      "date": "2026-06-21"
-    },
-    {
-      "url": "https://huggingface.co/WeiboAI/VibeThinker-3B",
-      "date": "2026-06-21"
-    },
-    {
-      "url": "https://huggingface.co/zai-org/GLM-5.2-FP8",
-      "date": "2026-06-21"
-    },
-    {
-      "url": "https://ucpg.ai",
-      "date": "2026-06-21"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.17.9",
-      "date": "2026-06-21"
-    },
-    {
-      "url": "https://pypi.org/project/vaara/1.5.0/",
-      "date": "2026-06-21"
-    },
-    {
-      "url": "https://pypi.org/project/tau-coding-agent/0.3.1/",
-      "date": "2026-06-21"
-    },
-    {
-      "url": "https://pypi.org/project/karst/0.2.1/",
-      "date": "2026-06-21"
-    },
-    {
-      "url": "https://pypi.org/project/spectraldiag/0.2.0/",
-      "date": "2026-06-21"
-    },
-    {
-      "url": "https://pypi.org/project/agentmatrix-core/0.7.0.49/",
-      "date": "2026-06-21"
-    },
-    {
-      "url": "https://pypi.org/intentspec/0.1.1/",
-      "date": "2026-06-21"
-    },
-    {
-      "url": "https://pypi.org/code-mower/0.5.0b27/",
-      "date": "2026-06-21"
-    },
-    {
       "url": "https://github.com/topoteretes/cognee",
       "date": "2026-06-22"
     },
@@ -5959,6 +5907,102 @@
     {
       "url": "https://pypi.org/project/curatorkit/0.1.8/",
       "date": "2026-08-19"
+    },
+    {
+      "url": "https://huggingface.co/empero-ai/Qwen3.8-27B-Ridge-GGUF",
+      "date": "2026-08-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.18079",
+      "date": "2026-08-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.18086",
+      "date": "2026-08-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.18088",
+      "date": "2026-08-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.18092",
+      "date": "2026-08-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.18111",
+      "date": "2026-08-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.18131",
+      "date": "2026-08-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.18133",
+      "date": "2026-08-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.18147",
+      "date": "2026-08-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.18183",
+      "date": "2026-08-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.18185",
+      "date": "2026-08-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.18222",
+      "date": "2026-08-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.18230",
+      "date": "2026-08-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.18263",
+      "date": "2026-08-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.18271",
+      "date": "2026-08-20"
+    },
+    {
+      "url": "https://census.caseyjhand.com/mcp",
+      "date": "2026-08-20"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.237",
+      "date": "2026-08-20"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.236",
+      "date": "2026-08-20"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.19",
+      "date": "2026-08-20"
+    },
+    {
+      "url": "https://pypi.org/project/agentic-hil/0.17.0/",
+      "date": "2026-08-20"
+    },
+    {
+      "url": "https://pypi.org/project/ethan-agent/0.5.152/",
+      "date": "2026-08-20"
+    },
+    {
+      "url": "https://pypi.org/project/weir-scan/0.1.0/",
+      "date": "2026-08-20"
+    },
+    {
+      "url": "https://pypi.org/project/minimal-harness/0.8.1a6/",
+      "date": "2026-08-20"
+    },
+    {
+      "url": "https://pypi.org/project/xgen-omnifuse/0.5.0/",
+      "date": "2026-08-20"
     }
   ]
 }
