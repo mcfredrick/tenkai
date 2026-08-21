@@ -1,58 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/topoteretes/cognee",
-      "date": "2026-06-22"
-    },
-    {
-      "url": "https://github.com/headroomlabs-ai/headroom",
-      "date": "2026-06-22"
-    },
-    {
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-Embedding-350M",
-      "date": "2026-06-22"
-    },
-    {
-      "url": "https://huggingface.co/datalab-to/lift",
-      "date": "2026-06-22"
-    },
-    {
-      "url": "https://pypi.org/project/vault-for-llm/0.6.37/",
-      "date": "2026-06-22"
-    },
-    {
-      "url": "https://pypi.org/project/skillware/0.3.7/",
-      "date": "2026-06-22"
-    },
-    {
-      "url": "https://pypi.org/project/aimd-tool/0.10.0/",
-      "date": "2026-06-22"
-    },
-    {
-      "url": "https://github.com/obra/superpowers",
-      "date": "2026-06-22"
-    },
-    {
-      "url": "https://github.com/bytedance/deer-flow",
-      "date": "2026-06-22"
-    },
-    {
-      "url": "https://github.com/langchain-ai/langgraph",
-      "date": "2026-06-22"
-    },
-    {
-      "url": "https://github.com/openai/openai-agents-python",
-      "date": "2026-06-22"
-    },
-    {
-      "url": "https://github.com/shanraisshan/claude-code-best-practice",
-      "date": "2026-06-22"
-    },
-    {
-      "url": "https://github.com/deepset-ai/haystack",
-      "date": "2026-06-22"
-    },
-    {
       "url": "https://github.com/zhayujie/CowAgent",
       "date": "2026-06-23"
     },
@@ -6003,6 +5951,118 @@
     {
       "url": "https://pypi.org/project/xgen-omnifuse/0.5.0/",
       "date": "2026-08-20"
+    },
+    {
+      "url": "https://github.com/RyanCodrai/turbovec",
+      "date": "2026-08-21"
+    },
+    {
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "date": "2026-08-21"
+    },
+    {
+      "url": "https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B",
+      "date": "2026-08-21"
+    },
+    {
+      "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-GGUF",
+      "date": "2026-08-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.19216",
+      "date": "2026-08-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.19303",
+      "date": "2026-08-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.19408",
+      "date": "2026-08-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.19511",
+      "date": "2026-08-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.19535",
+      "date": "2026-08-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.19579",
+      "date": "2026-08-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.19625",
+      "date": "2026-08-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.19652",
+      "date": "2026-08-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.19680",
+      "date": "2026-08-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.19684",
+      "date": "2026-08-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.19210",
+      "date": "2026-08-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.19338",
+      "date": "2026-08-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.19351",
+      "date": "2026-08-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.19488",
+      "date": "2026-08-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.19491",
+      "date": "2026-08-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.19492",
+      "date": "2026-08-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.19463",
+      "date": "2026-08-21"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.20",
+      "date": "2026-08-21"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/v4.1.11",
+      "date": "2026-08-21"
+    },
+    {
+      "url": "https://pypi.org/project/pitloom/0.16.4/",
+      "date": "2026-08-21"
+    },
+    {
+      "url": "https://pypi.org/project/modelq/1.0.19/",
+      "date": "2026-08-21"
+    },
+    {
+      "url": "https://pypi.org/project/parqdb/0.2.0rc3/",
+      "date": "2026-08-21"
+    },
+    {
+      "url": "https://pypi.org/project/datorum/0.1.0a1.post1/",
+      "date": "2026-08-21"
+    },
+    {
+      "url": "https://pypi.org/project/scrapegraphai/2.2.1/",
+      "date": "2026-08-21"
     }
   ]
 }
