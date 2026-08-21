@@ -1,4 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tenkai</title><link>https://tenkai.blog/</link><description>Recent content on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 20 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — August 20, 2026</title><link>https://tenkai.blog/posts/2026-08-20/</link><pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-08-20/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tenkai</title><link>https://tenkai.blog/</link><description>Recent content on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 21 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — August 21, 2026</title><link>https://tenkai.blog/posts/2026-08-21/</link><pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-08-21/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B" target="_blank" rel="noopener noreferrer">ornith-ai/Ornith-1.5-35B-A3B&lt;/a>
+&lt;/strong> — Qwen3.5 MoE model with 35B total and 3.6B active parameters, supporting image-text-to-text and conversational AI with eval results and endpoints_compatible API. Released under MIT license for research and production use. 🤖&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-GGUF" target="_blank" rel="noopener noreferrer">orcarouter/Qwen3.8-27B-Uncensored-GGUF&lt;/a>
+&lt;/strong> — Abliterated and uncensored Qwen3.8 27B in GGUF format with vision-language mmproj, function-calling, and reasoning support for en/zh multilingual conversational AI. Incorporates red-teaming markers and imatrix for enhanced multimodal interaction. 🔥&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/parqdb/0.2.0rc3/" target="_blank" rel="noopener noreferrer">parqdb 0.2.0rc3&lt;/a>
+&lt;/strong> — Introduces a lightweight vector index extension for the open lakehouse stack, enabling approximate nearest-neighbor search over large datasets directly within SQL-on-Parquet workflows, reducing RAG and ML pipeline data movement overhead. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/RyanCodrai/turbovec" target="_blank" rel="noopener noreferrer">turbovec: Rust-Based Vector Index with Python Bindings&lt;/a>
+&lt;/strong> — Vector index library implemented in Rust, designed for high-performance similarity search. Python bindings provide seamless integration with existing ML workflows, targeting low-latency vector operations in production systems. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/modelq/1.0.19/" target="_blank" rel="noopener noreferrer">modelq 1.0.19&lt;/a>
+&lt;/strong> — Functions as a Celery-compatible task queue tailored for ML inference workloads, offering async task dispatch, result backends, and worker pooling designed for high-throughput model serving pipelines. 📦&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/scrapegraphai/2.2.1/" target="_blank" rel="noopener noreferrer">scrapegraphai 2.2.1&lt;/a>
+&lt;/strong> — Releases a LangChain-based web scraping library that combines LLM-driven intent understanding with graph logic to build deterministic extraction pipelines, supporting structured data recovery from complex DOMs. 🕷️&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2608.19535" target="_blank" rel="noopener noreferrer">From Retrieved Context to Runtime Control: Adaptive Compression for Edge-based RAG&lt;/a>
+&lt;/strong> — Addresses RAG overhead by proposing adaptive context compression that prunes retrieved passages before generation, reducing prompt length, KV-cache footprint, latency, and energy consumption at the edge. Evaluates tradeoffs between compression ratio and answer fidelity. 📉&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2608.19491" target="_blank" rel="noopener noreferrer">DeltaMomentum: A Key-Value based Anisotropic Momentum Update via Delta Rule&lt;/a>
+&lt;/strong> — Introduces a key-value based anisotropic momentum optimizer that adapts EMA forgetting rates per direction using a delta rule, addressing gradient anisotropy in deep network training and improving convergence over fixed-rate optimizers like Adam. 📈&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2608.19303" target="_blank" rel="noopener noreferrer">Outcome Monitors: Recovery Affordances for Silent Tool Failures&lt;/a>
+&lt;/strong> — Introduces Outcome Monitors that detect violations of mined or schema-derived outcome contracts when tool calls produce silent failures like cached error pages or unexpected format consumption. Enables recovery routing without requiring explicit error signals from the tool. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2608.19408" target="_blank" rel="noopener noreferrer">Beyond Imitation: Filtering On-Policy Distillation by Reasoning Progress&lt;/a>
+&lt;/strong> — Critiques on-policy distillation for assuming uniform teacher reward quality, proposing a filtering mechanism that prioritizes teacher feedback correlated with actual reasoning progress. Aims to improve student LLM post-training by distilling only high-value trajectories. 🎓&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2608.19652" target="_blank" rel="noopener noreferrer">Can Agent Memory Systems Track Evolving State?&lt;/a>
+&lt;/strong> — Argues that effective LLM agent memory must track evolving world state across long interactions, where facts, constraints, and decisions are revised, and benchmarks recall-shaped tasks against state-tracking capability. Proposes metrics and architectural considerations for persistent memory. 🧠&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2608.19338" target="_blank" rel="noopener noreferrer">Mechanistic Tomography: Designed Measurement for Control-Oriented Interpretability&lt;/a>
+&lt;/strong> — Formulates mechanistic interpretability measurements (represented states, component effects, interventions) with control-oriented design, enabling targeted model analysis through designed patches, gradients, and Hessian-vector products under varying access assumptions. 🔬&lt;/li>
+&lt;/ul>
+&lt;h2 id="community-finds">Community Finds&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/asgeirtj/system_prompts_leaks" target="_blank" rel="noopener noreferrer">asgeirtj/system_prompts_leaks: Extracted System Prompts from Major LLM Providers&lt;/a>
+&lt;/strong> — Regularly updated repository of extracted system prompts from Anthropic (Claude Fable 5, Opus 5, Claude Code), OpenAI (ChatGPT GPT-5.6-Sol, Codex), Google (Gemini 3.5 Flash, 3.1 Pro), xAI (Grok), Cursor, Copilot, VS Code, and Perplexity. Valuable for prompt engineering research and understanding und&amp;hellip; 📜&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>Here&amp;rsquo;s a thinking process:&lt;/p></description></item><item><title>Tenkai Daily — August 20, 2026</title><link>https://tenkai.blog/posts/2026-08-20/</link><pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-08-20/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://huggingface.co/empero-ai/Qwen3.8-27B-Ridge-GGUF" target="_blank" rel="noopener noreferrer">empero-ai Qwen3.8-27B Ridge GGUF&lt;/a>
  — GGUF-quantized Qwen3.8-27B with ridge gated-delta-net, imatrix, and MTP speculative decoding. Long-context multimodal vision reasoning with en-zh support and endpoints_compatible deployment.&lt;/li>
