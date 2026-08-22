@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Tenkai</title><link>https://tenkai.blog/tags/releases/</link><description>Recent content in Releases on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 21 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — August 21, 2026</title><link>https://tenkai.blog/posts/2026-08-21/</link><pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-08-21/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Tenkai</title><link>https://tenkai.blog/tags/releases/</link><description>Recent content in Releases on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 22 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — August 22, 2026</title><link>https://tenkai.blog/posts/2026-08-22/</link><pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-08-22/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B-GGUF" target="_blank" rel="noopener noreferrer">Ornith-1.5-35B-A3B GGUF Port&lt;/a>
+ — 🤖 GGUF-quantized MoE port bringing text-generation and chat to local setups with transformers compatibility and MIT-licensed endpoints for region-us deployment.&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://pypi.org/project/vectorai-sdk/1.1.0/" target="_blank" rel="noopener noreferrer">vectorai-sdk 1.1.0&lt;/a>
+ — 📄 Python SDK for multi-modal vector storage and hybrid semantic search, built for RAG pipelines and LLM apps with support for diverse data types.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/arc-training/5.1.2/" target="_blank" rel="noopener noreferrer">arc-training 5.1.2&lt;/a>
+ — 🛠️ Automatic recovery controller for neural network training that detects failures, restores checkpoints, and resumes experiments.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/tensor-grep/1.111.4/" target="_blank" rel="noopener noreferrer">tensor-grep 1.111.4&lt;/a>
+ — 🔍 grep-compatible CLI built with Rust that adds GPU acceleration and AST/NLP-aware routing for searching large codebases and tokenized corpora.&lt;/li>
+&lt;li>&lt;a href="https://github.com/anomalyco/opencode/releases/tag/v1.18.21" target="_blank" rel="noopener noreferrer">opencode v1.18.21 release&lt;/a>
+ — Fixes unknown model finish reason handling and routes Vertex AI multi-region Gemini requests through REP endpoints for more reliable multi-region deployments.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/vaara/1.75.0/" target="_blank" rel="noopener noreferrer">vaara 1.75.0&lt;/a>
+ — 🛡️ Framework for accountable AI agent autonomy under the EU AI Act, featuring policy-gated tool calls, hash-chained audit trails with time anchoring, and verifiable execution receipts per call.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/nsys-ai/0.3.0/" target="_blank" rel="noopener noreferrer">nsys-ai 0.3.0&lt;/a>
+ — 📊 Adds AI-powered profiling analysis to Nsight Systems, with automated kernel navigation, timeline insights, and NVTX hierarchy summarization for HPC and ML workload optimization.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/microsoft/onnxruntime" target="_blank" rel="noopener noreferrer">microsoft/onnxruntime&lt;/a>
+ — 🛠️ Cross-platform high-performance accelerator for ML model inferencing and training, optimizing latency and throughput for production workloads with diverse operator support and ONNX interoperability.&lt;/li>
+&lt;li>&lt;a href="https://github.com/headroomlabs-ai/headroom" target="_blank" rel="noopener noreferrer">headroomlabs-ai/headroom&lt;/a>
+ — 💾 Compression library and proxy that reduces token counts by 20% for coding agents and 60-95% for JSON while preserving answer quality, available as library, proxy, or MCP server.&lt;/li>
+&lt;li>&lt;a href="https://github.com/apache/maka" target="_blank" rel="noopener noreferrer">apache/maka&lt;/a>
+ — 📜 Incubating Apache project recording model messages, tool calls, and permission decisions in an append-only log, enabling local-first AI agent workflows with full auditability and replay.&lt;/li>
+&lt;li>&lt;a href="https://github.com/harry0703/MoneyPrinterTurbo" target="_blank" rel="noopener noreferrer">MoneyPrinterTurbo&lt;/a>
+ — Open-source framework automating HD short video generation from keywords using large AI models and workflow pipelines.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>Building a RAG-enabled AI agent that’s both performant and compliant often feels like wiring together incompatible layers, but three recent releases offer a concrete stack for exactly this problem. &lt;a href="https://github.com/apache/maka" target="_blank" rel="noopener noreferrer">apache/maka&lt;/a>
+ records model messages, tool calls, and permission decisions in an append-only log, giving you full replay and local-first auditability without pulling data into third-party services. Pair that with &lt;a href="https://pypi.org/project/vaara/1.75.0/" target="_blank" rel="noopener noreferrer">vaara 1.75.0&lt;/a>
+, which enforces policy-gated tool calls and maintains hash-chained audit trails with time anchoring to satisfy EU AI Act–style requirements out of the box. Then layer in &lt;a href="https://pypi.org/project/vectorai-sdk/1.1.0/" target="_blank" rel="noopener noreferrer">vectorai-sdk 1.1.0&lt;/a>
+ for multi-modal vector storage and hybrid semantic search; it feeds grounded context into your agent while keeping data types diverse and pipelines extensible. The engineer-actionable idea: prototype a closed loop where maka logs every agent step, vaara validates each tool call against your policy rules before execution, and vectorai-sdk retrieves the right context via semantic search. You get verifiable execution receipts, compressed token usage, and searchable history in a single workflow—all without abandoning local control or writing custom compliance glue.&lt;/p></description></item><item><title>Tenkai Daily — August 21, 2026</title><link>https://tenkai.blog/posts/2026-08-21/</link><pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-08-21/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B" target="_blank" rel="noopener noreferrer">ornith-ai/Ornith-1.5-35B-A3B&lt;/a>
 &lt;/strong> — Qwen3.5 MoE model with 35B total and 3.6B active parameters, supporting image-text-to-text and conversational AI with eval results and endpoints_compatible API. Released under MIT license for research and production use. 🤖&lt;/li>
