@@ -1,54 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/zhayujie/CowAgent",
-      "date": "2026-06-23"
-    },
-    {
-      "url": "https://huggingface.co/baidu/Unlimited-OCR",
-      "date": "2026-06-23"
-    },
-    {
-      "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
-      "date": "2026-06-23"
-    },
-    {
-      "url": "https://agentdm.ai",
-      "date": "2026-06-23"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.186",
-      "date": "2026-06-23"
-    },
-    {
-      "url": "https://github.com/continuedev/continue/releases/tag/v2.1.0-vscode",
-      "date": "2026-06-23"
-    },
-    {
-      "url": "https://github.com/sigoden/aichat/releases/tag/v0.28.0",
-      "date": "2026-06-23"
-    },
-    {
-      "url": "https://pypi.org/project/eole/0.5.3/",
-      "date": "2026-06-23"
-    },
-    {
-      "url": "https://pypi.org/project/scrapegraphai/2.1.4/",
-      "date": "2026-06-23"
-    },
-    {
-      "url": "https://pypi.org/project/vincio/3.40.0/",
-      "date": "2026-06-23"
-    },
-    {
-      "url": "https://pypi.org/project/kailash-align/0.7.3/",
-      "date": "2026-06-23"
-    },
-    {
-      "url": "https://pypi.org/project/gllm-docproc-binary/0.11.28/",
-      "date": "2026-06-23"
-    },
-    {
       "url": "https://github.com/jamiepine/voicebox",
       "date": "2026-06-24"
     },
@@ -6063,6 +6015,86 @@
     {
       "url": "https://pypi.org/project/scrapegraphai/2.2.1/",
       "date": "2026-08-21"
+    },
+    {
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "date": "2026-08-22"
+    },
+    {
+      "url": "https://github.com/apache/maka",
+      "date": "2026-08-22"
+    },
+    {
+      "url": "https://github.com/microsoft/onnxruntime",
+      "date": "2026-08-22"
+    },
+    {
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "date": "2026-08-22"
+    },
+    {
+      "url": "https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B-GGUF",
+      "date": "2026-08-22"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.238",
+      "date": "2026-08-22"
+    },
+    {
+      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.47.0",
+      "date": "2026-08-22"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.21",
+      "date": "2026-08-22"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/v4.1.12",
+      "date": "2026-08-22"
+    },
+    {
+      "url": "https://pypi.org/project/vectorai-sdk/1.1.0/",
+      "date": "2026-08-22"
+    },
+    {
+      "url": "https://pypi.org/project/ngan/0.1.0/",
+      "date": "2026-08-22"
+    },
+    {
+      "url": "https://pypi.org/project/smartlog-tui/0.1.0/",
+      "date": "2026-08-22"
+    },
+    {
+      "url": "https://pypi.org/project/arc-training/5.1.2/",
+      "date": "2026-08-22"
+    },
+    {
+      "url": "https://pypi.org/project/cogplane/0.2.0/",
+      "date": "2026-08-22"
+    },
+    {
+      "url": "https://pypi.org/project/tensor-grep/1.111.4/",
+      "date": "2026-08-22"
+    },
+    {
+      "url": "https://pypi.org/project/anywhere-agents/0.7.17/",
+      "date": "2026-08-22"
+    },
+    {
+      "url": "https://pypi.org/project/vaara/1.75.0/",
+      "date": "2026-08-22"
+    },
+    {
+      "url": "https://pypi.org/project/nsys-ai/0.3.0/",
+      "date": "2026-08-22"
+    },
+    {
+      "url": "https://pypi.org/project/nightsitter/0.2.0/",
+      "date": "2026-08-22"
+    },
+    {
+      "url": "https://pypi.org/project/cortexdb-mcp/0.7.1/",
+      "date": "2026-08-22"
     }
   ]
 }
