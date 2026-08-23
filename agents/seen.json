@@ -1,78 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/jamiepine/voicebox",
-      "date": "2026-06-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.24010",
-      "date": "2026-06-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.24014",
-      "date": "2026-06-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.24026",
-      "date": "2026-06-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.24124",
-      "date": "2026-06-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.24157",
-      "date": "2026-06-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.23739",
-      "date": "2026-06-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.23740",
-      "date": "2026-06-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.23741",
-      "date": "2026-06-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.24064",
-      "date": "2026-06-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.23858",
-      "date": "2026-06-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.23867",
-      "date": "2026-06-24"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.187",
-      "date": "2026-06-24"
-    },
-    {
-      "url": "https://pypi.org/project/lmdeploy/0.14.0/",
-      "date": "2026-06-24"
-    },
-    {
-      "url": "https://pypi.org/project/amjax/0.0.3/",
-      "date": "2026-06-24"
-    },
-    {
-      "url": "https://pypi.org/project/vault-for-llm/0.6.88/",
-      "date": "2026-06-24"
-    },
-    {
-      "url": "https://pypi.org/project/tencentcloud-cls-sdk-langchain/1.0.1/",
-      "date": "2026-06-24"
-    },
-    {
-      "url": "https://pypi.org/project/mureo/0.10.13/",
-      "date": "2026-06-24"
-    },
-    {
       "url": "https://github.com/JCodesMore/ai-website-cloner-template",
       "date": "2026-06-25"
     },
@@ -6095,6 +6023,70 @@
     {
       "url": "https://pypi.org/project/cortexdb-mcp/0.7.1/",
       "date": "2026-08-22"
+    },
+    {
+      "url": "https://github.com/openai/codex",
+      "date": "2026-08-23"
+    },
+    {
+      "url": "https://github.com/n8n-io/n8n",
+      "date": "2026-08-23"
+    },
+    {
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "date": "2026-08-23"
+    },
+    {
+      "url": "https://github.com/zhayujie/CowAgent",
+      "date": "2026-08-23"
+    },
+    {
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "date": "2026-08-23"
+    },
+    {
+      "url": "https://github.com/farion1231/cc-switch",
+      "date": "2026-08-23"
+    },
+    {
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "date": "2026-08-23"
+    },
+    {
+      "url": "https://huggingface.co/superwhisper/s1-mini",
+      "date": "2026-08-23"
+    },
+    {
+      "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-Cold-Fusion-GAIN-V1.1-NM-DAU-NEO-MAX-MTP-GGUF",
+      "date": "2026-08-23"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.239",
+      "date": "2026-08-23"
+    },
+    {
+      "url": "https://github.com/sigoden/aichat/releases/tag/v0.28.0",
+      "date": "2026-08-23"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/v4.1.13",
+      "date": "2026-08-23"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.78",
+      "date": "2026-08-23"
+    },
+    {
+      "url": "https://pypi.org/project/autorun-ai/1.0.0rc1/",
+      "date": "2026-08-23"
+    },
+    {
+      "url": "https://pypi.org/project/paper-sage/1.12.0/",
+      "date": "2026-08-23"
+    },
+    {
+      "url": "https://pypi.org/project/symvion/0.4.11/",
+      "date": "2026-08-23"
     }
   ]
 }
