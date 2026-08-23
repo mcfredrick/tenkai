@@ -1,4 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Community on Tenkai</title><link>https://tenkai.blog/tags/community/</link><description>Recent content in Community on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 21 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/community/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — August 21, 2026</title><link>https://tenkai.blog/posts/2026-08-21/</link><pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-08-21/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Community on Tenkai</title><link>https://tenkai.blog/tags/community/</link><description>Recent content in Community on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 23 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/community/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — August 23, 2026</title><link>https://tenkai.blog/posts/2026-08-23/</link><pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-08-23/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/superwhisper/s1-mini" target="_blank" rel="noopener noreferrer">superwhisper/s1-mini Qwen3-ASR Pipeline&lt;/a>
+&lt;/strong> — Qwen3-0.6B fine-tuned pipeline for automatic speech recognition, incorporating text-normalization, inverse-text-normalization, punctuation, and truecasing for end-to-end dictation workflows. Includes ASR-specific post-processing and an endpoints_compatible API, serving as a lightweight open-source base for speech-to-text experiments.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/DavidAU/Qwen3.8-27B-Cold-Fusion-GAIN-V1.1-NM-DAU-NEO-MAX-MTP-GGUF" target="_blank" rel="noopener noreferrer">DavidAU/Qwen3.8-27B-Cold-Fusion-GAIN Multi-Stage Tuning&lt;/a>
+&lt;/strong> — Qwen3.8-27B fine-tuned via GAIN training with cold-fusion methodology, incorporating multi-stage reasoning and thinking tokens for enhanced code generation, creative writing, and multi-turn conversation. Ships as a GGUF-quantized model with MTP speculative decoding, targeting improved efficiency for local inference workloads.&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/symvion/0.4.11/" target="_blank" rel="noopener noreferrer">symvion 0.4.11&lt;/a>
+&lt;/strong> — Scalable orchestration framework for multi-tenant AI workloads, leveraging LangGraph&amp;rsquo;s stateful graph architecture to manage agent interactions, resource partitioning, and workflow persistence across isolated tenant environments.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/sigoden/aichat/releases/tag/v0.28.0" target="_blank" rel="noopener noreferrer">aichat v0.28.0 - Reasoning tokens, think tag, model alias&lt;/a>
+&lt;/strong> — Reasoning tokens now displayed in output for improved transparency and debugging. WebUI think tag support added for reasoning visualization in UI, and reasoning contents can be stripped from responses. Model alias support added for easier model referencing and aliasing.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/cline/cline/releases/tag/v4.1.13" target="_blank" rel="noopener noreferrer">cline v4.1.13 - Tool calling restoration for custom OpenAI-compatible models&lt;/a>
+&lt;/strong> — Tool calling restored for custom OpenAI-compatible models whose capability list was previously inferred from convenience flags like supportsReasoning. Explicitly authored capabilities now respected instead of being read as authoritative denials, fixing tool stripping in custom model setups.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/autorun-ai/1.0.0rc1/" target="_blank" rel="noopener noreferrer">autorun-ai 1.0.0rc1&lt;/a>
+&lt;/strong> — Structured task management and safety mechanisms for AI-assisted coding workflows. Enables developers to define task boundaries, monitor execution lifecycles, and inject safety checks into automated code generation pipelines.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.239" target="_blank" rel="noopener noreferrer">claude-code v2.1.239 - Cost estimates, fullscreen renderer, API upgrade&lt;/a>
+&lt;/strong> — Cost estimates now include the 1.1× US-only-inference premium for data-residency workspaces via /cost and status line. New installs on Bedrock, Vertex, and Foundry start in fullscreen via the one-time renderer offer. A /claude-api upgrade command was added for API version management.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/paper-sage/1.12.0/" target="_blank" rel="noopener noreferrer">paper-sage 1.12.0&lt;/a>
+&lt;/strong> — Package implements a multi-agent system for document retrieval and synthesis, combining hybrid RAG techniques with orchestrated agent workflows to assist in systematic literature review and knowledge extraction from scientific papers.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/multica-ai/andrej-karpathy-skills" target="_blank" rel="noopener noreferrer">multica-ai/andrej-karpathy-skills&lt;/a>
+&lt;/strong> — Community-maintained CLAUDE.md file derived from Andrej Karpathy&amp;rsquo;s observations on common LLM coding pitfalls. Provides structured prompts and guidelines to improve code generation reliability, reduce hallucinations, and align output with engineering best practices.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.78" target="_blank" rel="noopener noreferrer">cline SDK v0.0.78 - Hub draining, durable event log, event replay/dedup&lt;/a>
+&lt;/strong> — Hub can now be drained and upgraded without losing work in progress; draining hub refuses new mutating work while finishing running tasks. Durable event log lets reconnecting clients replay everything missed. Queued runs rather than dropped, and events deduped by ID across replay and live streams.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/openai/codex" target="_blank" rel="noopener noreferrer">openai/codex&lt;/a>
+&lt;/strong> — OpenAI&amp;rsquo;s lightweight coding agent that operates directly in the terminal, leveraging LLMs to assist with code generation, editing, and task automation. Integrates with model APIs and provides a streamlined interface for developers to embed AI-assisted coding into local workflows.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/zhayujie/CowAgent" target="_blank" rel="noopener noreferrer">CowAgent: Open-source super AI assistant &amp;amp; Agent Harness&lt;/a>
+&lt;/strong> — Open-source super AI assistant and agent harness that plans tasks, runs tools and skills, and self-evolves with memory and knowledge. Supports multiple models and channels with a lightweight, extensible design, offering a one-line install experience.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/n8n-io/n8n" target="_blank" rel="noopener noreferrer">n8n-io/n8n&lt;/a>
+&lt;/strong> — Fair-code licensed workflow automation platform that adds native AI capabilities, enabling visual pipeline construction and custom code integration. With over 400 integrations and self-hosting support, it serves as an extensible framework for connecting AI models, APIs, and data sources.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/NousResearch/hermes-agent" target="_blank" rel="noopener noreferrer">hermes-agent: AI agent that grows with you&lt;/a>
+&lt;/strong> — AI agent framework designed to grow and adapt with user interaction. Supports integration with various LLM platforms including Anthropic Claude, ChatGPT, and Hermes, offering a framework for developing adaptive AI assistants that evolve based on usage patterns.&lt;/li>
+&lt;/ul>
+&lt;h2 id="community-finds">Community Finds&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/shanraisshan/claude-code-best-practice" target="_blank" rel="noopener noreferrer">claude-code-best-practice: Best practices from vibe coding to agentic engineering&lt;/a>
+&lt;/strong> — This repository documents best practices for moving from &amp;lsquo;vibe coding&amp;rsquo; to agentic engineering with Claude Code. Covers context engineering, workflow design, and practical patterns for developing production-ready AI coding assistants.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>Here&amp;rsquo;s a thinking process:&lt;/p></description></item><item><title>Tenkai Daily — August 21, 2026</title><link>https://tenkai.blog/posts/2026-08-21/</link><pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-08-21/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B" target="_blank" rel="noopener noreferrer">ornith-ai/Ornith-1.5-35B-A3B&lt;/a>
 &lt;/strong> — Qwen3.5 MoE model with 35B total and 3.6B active parameters, supporting image-text-to-text and conversational AI with eval results and endpoints_compatible API. Released under MIT license for research and production use. 🤖&lt;/li>
