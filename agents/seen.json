@@ -1,74 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/JCodesMore/ai-website-cloner-template",
-      "date": "2026-06-25"
-    },
-    {
-      "url": "https://github.com/addyosmani/agent-skills",
-      "date": "2026-06-25"
-    },
-    {
-      "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
-      "date": "2026-06-25"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.24898",
-      "date": "2026-06-25"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.24900",
-      "date": "2026-06-25"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.24901",
-      "date": "2026-06-25"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.24945",
-      "date": "2026-06-25"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.24946",
-      "date": "2026-06-25"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.24956",
-      "date": "2026-06-25"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.191",
-      "date": "2026-06-25"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.17.10",
-      "date": "2026-06-25"
-    },
-    {
-      "url": "https://pypi.org/project/dv-pipecat-ai/0.0.93.dev92/",
-      "date": "2026-06-25"
-    },
-    {
-      "url": "https://pypi.org/project/prompt-shield-ai/0.6.0/",
-      "date": "2026-06-25"
-    },
-    {
-      "url": "https://pypi.org/project/contextlake/2.4.0/",
-      "date": "2026-06-25"
-    },
-    {
-      "url": "https://pypi.org/project/cuda-triton-multiarch/0.1.0/",
-      "date": "2026-06-25"
-    },
-    {
-      "url": "https://pypi.org/project/tm-ai/3.3.55/",
-      "date": "2026-06-25"
-    },
-    {
-      "url": "https://pypi.org/project/myrm-agent-harness/0.1.0rc4/",
-      "date": "2026-06-25"
-    },
-    {
       "url": "https://github.com/aws/agent-toolkit-for-aws",
       "date": "2026-06-26"
     },
@@ -6087,6 +6019,126 @@
     {
       "url": "https://pypi.org/project/symvion/0.4.11/",
       "date": "2026-08-23"
+    },
+    {
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+      "date": "2026-08-24"
+    },
+    {
+      "url": "https://huggingface.co/z-lab/Qwen3.8-27B-DFlash2",
+      "date": "2026-08-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.20341",
+      "date": "2026-08-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.20342",
+      "date": "2026-08-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.20378",
+      "date": "2026-08-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.20384",
+      "date": "2026-08-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.20389",
+      "date": "2026-08-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.20397",
+      "date": "2026-08-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.20400",
+      "date": "2026-08-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.20401",
+      "date": "2026-08-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.20477",
+      "date": "2026-08-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.20427",
+      "date": "2026-08-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.20439",
+      "date": "2026-08-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.20441",
+      "date": "2026-08-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.20442",
+      "date": "2026-08-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.20480",
+      "date": "2026-08-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.20488",
+      "date": "2026-08-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.20497",
+      "date": "2026-08-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.20516",
+      "date": "2026-08-24"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/v4.1.15",
+      "date": "2026-08-24"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/v4.1.14",
+      "date": "2026-08-24"
+    },
+    {
+      "url": "https://pypi.org/project/mambo-agents/0.4.0b3/",
+      "date": "2026-08-24"
+    },
+    {
+      "url": "https://pypi.org/project/pydfig/0.1.0/",
+      "date": "2026-08-24"
+    },
+    {
+      "url": "https://pypi.org/project/trigger-tree/1.30.0/",
+      "date": "2026-08-24"
+    },
+    {
+      "url": "https://pypi.org/project/diffcohesive/0.1.0/",
+      "date": "2026-08-24"
+    },
+    {
+      "url": "https://pypi.org/project/ai-slopgate/2.2.2/",
+      "date": "2026-08-24"
+    },
+    {
+      "url": "https://pypi.org/project/hol-guard/3.0.0a239/",
+      "date": "2026-08-24"
+    },
+    {
+      "url": "https://pypi.org/project/cognifity-verdict/0.1.0a10/",
+      "date": "2026-08-24"
+    },
+    {
+      "url": "https://pypi.org/project/cuvis-ai-dataloader/0.6.0/",
+      "date": "2026-08-24"
+    },
+    {
+      "url": "https://pypi.org/project/bpe-tokenizer-editor/0.2.0/",
+      "date": "2026-08-24"
     }
   ]
 }
