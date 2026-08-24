@@ -1,4 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tenkai</title><link>https://tenkai.blog/</link><description>Recent content on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 23 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — August 23, 2026</title><link>https://tenkai.blog/posts/2026-08-23/</link><pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-08-23/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tenkai</title><link>https://tenkai.blog/</link><description>Recent content on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 24 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — August 24, 2026</title><link>https://tenkai.blog/posts/2026-08-24/</link><pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-08-24/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/z-lab/Qwen3.8-27B-DFlash2" target="_blank" rel="noopener noreferrer">Qwen3.8-27B DFlash2 Speculative Decoding&lt;/a>
+&lt;/strong> — Integration of DFlash2 speculative-decoding and block-diffusion draft-model with sglang and vllm, achieving significant latency reduction for Qwen3.8-27B text-generation. Demonstrates practical inference optimization techniques for large-scale LLM serving. 🤖&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/trigger-tree/1.30.0/" target="_blank" rel="noopener noreferrer">trigger-tree 1.30.0&lt;/a>
+&lt;/strong> — Local documentation telemetry tool for AI coding agents that tracks which project docs agents actually discover, operating with zero-token overhead. Provides insights for optimizing doc indexing and context strategies in agentic development. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/cognifity-verdict/0.1.0a10/" target="_blank" rel="noopener noreferrer">cognifity-verdict 0.1.0a10&lt;/a>
+&lt;/strong> — Open-source SDK for LLM observability and drift detection, providing metrics, monitoring, and automated drift tracking for production Large Language Models. Enables engineering teams to maintain model performance and reliability over time.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/cline/cline/releases/tag/v4.1.14" target="_blank" rel="noopener noreferrer">cline/cline v4.1.14&lt;/a>
+&lt;/strong> — Built-in model catalog refreshed with new entries including Claude Fable 5, Grok 4.6 on Vertex, multiple DeepSeek V4 Flash variants, MiMo v2.5, Qwen3.8 27B, Gemma 4 26B, LongCat 2.0, Nemotron 3.5 Lightning, and Thinking Machines&amp;rsquo; Inkling models.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/mambo-agents/0.4.0b3/" target="_blank" rel="noopener noreferrer">mambo-agents 0.4.0b3&lt;/a>
+&lt;/strong> — AI Agent framework extending LangChain and LangGraph, featuring multi-backend filesystem integration, sub-agent scheduling, conversation summarization, security review, and an out-of-the-box skills system. Targets production-ready multi-agent workflows.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/bpe-tokenizer-editor/0.2.0/" target="_blank" rel="noopener noreferrer">bpe-tokenizer-editor 0.2.0&lt;/a>
+&lt;/strong> — High-performance editor for HuggingFace tokenizer.json files utilizing BPE encoding. Enables efficient vocabulary modification, analysis, and optimization for NLP workflows and model fine-tuning.&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/diffcohesive/0.1.0/" target="_blank" rel="noopener noreferrer">diffcohesive 0.1.0&lt;/a>
+&lt;/strong> — Differentiable finite element framework for cohesive-zone fracture modeling in 2D/3D, with gradient-based identification of analytic and neural traction-separation laws. Built on TensorMesh and PyTorch, enabling ML-augmented simulation and optimization in computational mechanics. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2608.20397" target="_blank" rel="noopener noreferrer">Nexus: Depth-Adaptive KV-Cache Splicing and Retrieval-Decoupled Tool Routing for Agentic LLMs on Unified Memory&lt;/a>
+&lt;/strong> — Introduces Nexus, a system that decouples tool routing from prefill overhead in agentic LLMs via an INT8 semantic lookaside buffer and depth-adaptive KV-cache splicing, substantially reducing time-to-first-token for growing tool registries while maintaining routing accuracy.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2608.20427" target="_blank" rel="noopener noreferrer">BF1: A Causal Dyadic Sparse-Attention Retrofit for Efficient Long-Context Transformers&lt;/a>
+&lt;/strong> — Introduces BF1, a deterministic dyadic sparse-attention route for causal Transformers that combines local exact attention, a global first block, and logarithmically spaced historical blocks, achieving significant long-context inference efficiency with minimal accuracy degradation.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2608.20497" target="_blank" rel="noopener noreferrer">Bern2Edge: A Neurosymbolic Compiler for Edge Deployment via Bernstein Polynomial Networks&lt;/a>
+&lt;/strong> — Presents Bern2Edge, a neurosymbolic compiler that jointly optimizes training, compression, and hardware synthesis for resource-constrained edge devices via Bernstein polynomial networks, enabling end-to-end efficient and interpretable model deployment without separate pipeline stages.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2608.20341" target="_blank" rel="noopener noreferrer">SDAD: Spec-Driven Agentic Development for the AI-Native SDLC&lt;/a>
+&lt;/strong> — Proposes a Spec-Driven Agentic Development (SDAD) framework that leverages large-context large language models to ingest full Functional Requirement Documents and repository context in a single workflow, enabling end-to-end spec-to-code generation with agentic reasoning and persistent context across&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2608.20378" target="_blank" rel="noopener noreferrer">Truth Lies Deep: Countering Semantic Camouflage via Latent Intent Verification&lt;/a>
+&lt;/strong> — Exposes a fundamental vulnerability in LLM safety where harmful concepts survive pretraining and bypass final-stage refusals through semantic camouflage, and proposes latent intent verification at the representation level to detect and counter such evasion during generation.&lt;/li>
+&lt;/ul>
+&lt;h2 id="tutorials--guides">Tutorials &amp;amp; Guides&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/freestylefly/awesome-gpt-image-2" target="_blank" rel="noopener noreferrer">awesome-gpt-image-2&lt;/a>
+&lt;/strong> — Curated library of 500+ industrial-grade GPT-Image2 prompts with reverse-engineered cases, template bundles, and skill tags, enabling reproducible multimodal workflows and systematic prompt engineering research.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>The latest wave of inference optimizations—from &lt;a href="https://huggingface.co/z-lab/Qwen3.8-27B-DFlash2" target="_blank" rel="noopener noreferrer">Qwen3.8-27B DFlash2 Speculative Decoding&lt;/a>
+ to &lt;a href="https://arxiv.org/abs/2608.20397" target="_blank" rel="noopener noreferrer">Nexus: Depth-Adaptive KV-Cache Splicing and Retrieval-Decoupled Tool Routing for Agentic LLMs on Unified Memory&lt;/a>
+ and [BF1: A Causal Dyadic Sparse-Attention Retrofit for Efficient&lt;/p></description></item><item><title>Tenkai Daily — August 23, 2026</title><link>https://tenkai.blog/posts/2026-08-23/</link><pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-08-23/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/superwhisper/s1-mini" target="_blank" rel="noopener noreferrer">superwhisper/s1-mini Qwen3-ASR Pipeline&lt;/a>
 &lt;/strong> — Qwen3-0.6B fine-tuned pipeline for automatic speech recognition, incorporating text-normalization, inverse-text-normalization, punctuation, and truecasing for end-to-end dictation workflows. Includes ASR-specific post-processing and an endpoints_compatible API, serving as a lightweight open-source base for speech-to-text experiments.&lt;/li>
