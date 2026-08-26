@@ -1,4 +1,50 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tutorials on Tenkai</title><link>https://tenkai.blog/tags/tutorials/</link><description>Recent content in Tutorials on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 24 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/tutorials/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — August 24, 2026</title><link>https://tenkai.blog/posts/2026-08-24/</link><pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-08-24/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tutorials on Tenkai</title><link>https://tenkai.blog/tags/tutorials/</link><description>Recent content in Tutorials on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 26 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/tutorials/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — August 26, 2026</title><link>https://tenkai.blog/posts/2026-08-26/</link><pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-08-26/</guid><description>&lt;h2 id="model-releases-">Model Releases 🐕&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/ornith-ai/Ornith-1.5-9B" target="_blank" rel="noopener noreferrer">ornith-ai/Ornith-1.5-9B&lt;/a>
+&lt;/strong> — A 9B-parameter multimodal model with Qwen3.5 architecture, handling image-text-to-text tasks while staying lightweight compared to its 35B MoE sibling. It&amp;rsquo;s a spry Jack Russell Terrier — small but surprisingly capable, great for edge deployments where you can&amp;rsquo;t afford a St. Bernard. 🐶&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases-">Open Source Releases 🦴&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/smg-grpc-servicer/0.9.1/" target="_blank" rel="noopener noreferrer">smg-grpc-servicer 0.9.1&lt;/a>
+&lt;/strong> — gRPC servicers for vLLM, MLX, SGLang, and more, standardizing how you serve LLMs across different backends. Think of it as a well-trained Border Collie — obedient, reliable, and handles streaming responses without chewing up your infrastructure. 🐕&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/smg-grpc-proto/0.4.16/" target="_blank" rel="noopener noreferrer">smg-grpc-proto 0.4.16&lt;/a>
+&lt;/strong> — Protocol buffer definitions for the same LLM runtimes, ensuring consistent gRPC communication schemas. A sturdy German Shepherd — protective of your API contracts and always on guard for schema drift. 🐶&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/swo-bench/3.4.0/" target="_blank" rel="noopener noreferrer">swo-bench 3.4.0&lt;/a>
+&lt;/strong> — Real agentic coding workload benchmark for evaluating deployed LLM endpoints on latency, throughput, and cost. A no-nonsense Doberman Pinscher — doesn&amp;rsquo;t fetch, just stares down your performance metrics until they confess. 🐕&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/pgvector-haystack/6.6.0/" target="_blank" rel="noopener noreferrer">pgvector-haystack 6.6.0&lt;/a>
+&lt;/strong> — Bridges PostgreSQL&amp;rsquo;s pgvector with Haystack for vector search and RAG directly in Postgres. A clever Poodle — elegant, intelligent, and always impeccably groomed with hybrid search support. 🐩&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/dv-pipecat-ai/0.0.93.dev135/" target="_blank" rel="noopener noreferrer">dv-pipecat-ai 0.0.93.dev135&lt;/a>
+&lt;/strong> — Framework for voice and multimodal conversational assistants with real-time audio processing and turn-taking. A talkative Parrot — constantly babbling useful things about latency improvements and multi-backend support, though you&amp;rsquo;re not sure it fully understands what it&amp;rsquo;s saying. 🦜&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading-">Research Worth Reading 📄&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2608.23632" target="_blank" rel="noopener noreferrer">Function-Level Execution Feedback for Code Preference Optimization&lt;/a>
+&lt;/strong> — Uses execution feedback at the function level as process supervision for code preference optimization, targeting lines, reasoning traces, and program states. A meticulous Border Collie — herds your code generation by the line, ensuring every step is accounted for. 🐕&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2608.23646" target="_blank" rel="noopener noreferrer">MolEmb: Multimodal LLMs as Molecular Embedding Models&lt;/a>
+&lt;/strong> — Shows that multimodal LLMs can serve as strong molecular embedding models for property prediction and virtual screening without specialist encoders. A versatile Mixed Breed — not flashy, but surprisingly good at chemistry tasks you didn&amp;rsquo;t expect it to handle. 🐕&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2608.23816" target="_blank" rel="noopener noreferrer">AQLoRA: Zero-Search Fast Quantized LoRA Fine-Tuning&lt;/a>
+&lt;/strong> — Eliminates per-layer calibration search with adaptive quantization, achieving fp16-speed training with 4-bit weights via a single CPU pass. A lazy Bulldog that somehow runs faster than expected — low-effort setup, high-performance payoff. 🐕&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2608.23569" target="_blank" rel="noopener noreferrer">ESQ-Bench: Multi-Tier Enterprise Oracle NL2SQL Benchmark&lt;/a>
+&lt;/strong> — Enterprise-focused NL2SQL benchmark addressing Oracle dialect generalization and silent semantic divergence. A sharp Akita — stands guard over your SQL correctness and won&amp;rsquo;t let subtle bugs slip by. 🐕&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2608.23622" target="_blank" rel="noopener noreferrer">LLM Agents Perform Controlled Experiments Using Simulation Models&lt;/a>
+&lt;/strong> — Multi-agent framework for LLM-driven controlled experimentation within simulation models. A pack of Huskies — energetic, collaborative, and always running toward the next intervention analysis. 🐺&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2608.23631" target="_blank" rel="noopener noreferrer">TRACE: Transition-Aware Residual Control for Materials Discovery&lt;/a>
+&lt;/strong> — Transition-aware residual control for LLM-driven multi-objective materials discovery, tracking executable edits across search steps. A determined Sled Dog — pulls your materials discovery forward, one thoughtful edit at a time. 🐕&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools-">AI Dev Tools 🛠️&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anthropics/claude-plugins-official" target="_blank" rel="noopener noreferrer">anthropics/claude-plugins-official&lt;/a>
+&lt;/strong> — Curated directory of official Claude Code plugins with manifests and API hooks. A well-mannered Golden Retriever — friendly, reliable, and always ready to fetch the right plugin for your coding workflow. 🐕&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/tinyhumansai/openhuman" target="_blank" rel="noopener noreferrer">tinyhumansai/openhuman&lt;/a>
+&lt;/strong> — Local-first AI OS framework with personal memory orchestration and agent fleet management. A clever Border Collie mix — combines local memory persistence with deep research capabilities, always watching your digital domain. 🐕&lt;/li>
+&lt;/ul>
+&lt;h2 id="tutorials--guides-">Tutorials &amp;amp; Guides 📖&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/AgriciDaniel/claude-obsidian" target="_blank" rel="noopener noreferrer">AgriciDaniel/claude-obsidian&lt;/a>
+&lt;/strong> — Integrates Claude Code with Obsidian for self-organizing knowledge graphs from Markdown. A scholarly English Sheepdog — always surrounded by books (Markdown files) and connecting ideas you didn&amp;rsquo;t realize were related. 🐕&lt;/li>
+&lt;/ul>
+&lt;h2 id="best-in-show-">Best in Show 🏆&lt;/h2>
+&lt;p>After reviewing the entire pack today, the &lt;strong>AQLoRA paper&lt;/strong> takes the top prize — a Bulldog that looks lazy but sprints past the competition. It eliminates the tedious hyperparameter search that plagues quantized fine-tuning, achieving fp16 speeds with 4-bit weights using nothing more than a single CPU pass. For engineers tired of treating LoRA tuning like a needle-in-a-haystack hunt, this is the reliable companion that just gets the job done. 🏆🐕&lt;/p></description></item><item><title>Tenkai Daily — August 24, 2026</title><link>https://tenkai.blog/posts/2026-08-24/</link><pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-08-24/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/z-lab/Qwen3.8-27B-DFlash2" target="_blank" rel="noopener noreferrer">Qwen3.8-27B DFlash2 Speculative Decoding&lt;/a>
 &lt;/strong> — Integration of DFlash2 speculative-decoding and block-diffusion draft-model with sglang and vllm, achieving significant latency reduction for Qwen3.8-27B text-generation. Demonstrates practical inference optimization techniques for large-scale LLM serving. 🤖&lt;/li>
