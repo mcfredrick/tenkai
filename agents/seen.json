@@ -1,118 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/aws/agent-toolkit-for-aws",
-      "date": "2026-06-26"
-    },
-    {
-      "url": "https://github.com/opendatalab/MinerU",
-      "date": "2026-06-26"
-    },
-    {
-      "url": "https://huggingface.co/krea/Krea-2-Raw",
-      "date": "2026-06-26"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.26155",
-      "date": "2026-06-26"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.26161",
-      "date": "2026-06-26"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.26173",
-      "date": "2026-06-26"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.26300",
-      "date": "2026-06-26"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.26356",
-      "date": "2026-06-26"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.26257",
-      "date": "2026-06-26"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.26290",
-      "date": "2026-06-26"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.26217",
-      "date": "2026-06-26"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.26179",
-      "date": "2026-06-26"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
-      "date": "2026-06-26"
-    },
-    {
-      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.39.0",
-      "date": "2026-06-26"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.17.11",
-      "date": "2026-06-26"
-    },
-    {
-      "url": "https://github.com/sigoden/aichat/releases/tag/v0.29.0",
-      "date": "2026-06-26"
-    },
-    {
-      "url": "https://pypi.org/project/openagentd/1.72.0/",
-      "date": "2026-06-26"
-    },
-    {
-      "url": "https://pypi.org/project/trinity-agent/1.0.331/",
-      "date": "2026-06-26"
-    },
-    {
-      "url": "https://pypi.org/project/sanipy/0.1.1/",
-      "date": "2026-06-26"
-    },
-    {
-      "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B",
-      "date": "2026-06-27"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.195",
-      "date": "2026-06-27"
-    },
-    {
-      "url": "https://pypi.org/project/fastaiagent/1.28.0/",
-      "date": "2026-06-27"
-    },
-    {
-      "url": "https://pypi.org/project/powerailabs-tokenguard/0.6.1/",
-      "date": "2026-06-27"
-    },
-    {
-      "url": "https://pypi.org/project/powerailabs-acttrace/0.7.0/",
-      "date": "2026-06-27"
-    },
-    {
-      "url": "https://pypi.org/project/vllm-cpu-nightly/0.24.1.dev202606270838/",
-      "date": "2026-06-27"
-    },
-    {
-      "url": "https://pypi.org/project/tfp-nightly/0.26.0.dev20260627/",
-      "date": "2026-06-27"
-    },
-    {
-      "url": "https://pypi.org/project/agentdecode/0.1.0/",
-      "date": "2026-06-27"
-    },
-    {
-      "url": "https://pypi.org/project/abstract-hugpy-dev/0.1.61/",
-      "date": "2026-06-27"
-    },
-    {
       "url": "https://github.com/Fission-AI/OpenSpec",
       "date": "2026-06-28"
     },
@@ -6139,6 +6027,178 @@
     {
       "url": "https://pypi.org/project/bpe-tokenizer-editor/0.2.0/",
       "date": "2026-08-24"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://github.com/AgriciDaniel/claude-obsidian",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://huggingface.co/ornith-ai/Ornith-1.5-9B",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.23569",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.23622",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.23626",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.23631",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.23632",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.23640",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.23643",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.23644",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.23646",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.23666",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.23670",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.23691",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.23571",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.23573",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.23660",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.23696",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.23725",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.23744",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.23765",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.23776",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.23782",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.23794",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.23798",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.23809",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.23814",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.23816",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.23835",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.246",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.245",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.23",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.22",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.17",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://pypi.org/project/swo-bench/3.4.0/",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://pypi.org/project/pytorch-rad/0.2.1b2/",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://pypi.org/project/pgvector-haystack/6.6.0/",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://pypi.org/project/dv-pipecat-ai/0.0.93.dev135/",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://pypi.org/project/agstack/2.0.0/",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://pypi.org/project/smg-grpc-servicer/0.9.1/",
+      "date": "2026-08-26"
+    },
+    {
+      "url": "https://pypi.org/project/smg-grpc-proto/0.4.16/",
+      "date": "2026-08-26"
     }
   ]
 }
