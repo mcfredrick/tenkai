@@ -1,4 +1,55 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Tenkai</title><link>https://tenkai.blog/tags/releases/</link><description>Recent content in Releases on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 26 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — August 26, 2026</title><link>https://tenkai.blog/posts/2026-08-26/</link><pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-08-26/</guid><description>&lt;h2 id="model-releases-">Model Releases 🐕&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Tenkai</title><link>https://tenkai.blog/tags/releases/</link><description>Recent content in Releases on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 27 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — August 27, 2026</title><link>https://tenkai.blog/posts/2026-08-27/</link><pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-08-27/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/Qwen/Qwen3.8-Flash-Next" target="_blank" rel="noopener noreferrer">Qwen/Qwen3.8-Flash-Next&lt;/a>
+&lt;/strong> — Latest in the Qwen family, an image-text-to-text model with conversational capabilities. Available in transformers safetensors format, ready for endpoints.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/zai-org/GLM-5.3-Flash" target="_blank" rel="noopener noreferrer">zai-org/GLM-5.3-Flash&lt;/a>
+&lt;/strong> — A multilingual (en/zh/ar) text-generation and conversational model from the GLM series. Supports FP8 quantization and comes with arxiv paper backing.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED" target="_blank" rel="noopener noreferrer">OBLITERATUS/Qwen3.8-27B-OBLITERATED&lt;/a>
+&lt;/strong> — An abliterated, uncensored version of Qwen3.8-27B built for red-team and AI safety research. Available in MLX and GGUF formats, Apache 2.0 licensed.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF" target="_blank" rel="noopener noreferrer">unsloth/Qwen3.8-Flash-Next-GGUF&lt;/a>
+&lt;/strong> — Unsloth-quantized GGUF of the Qwen3.8-Flash-Next model. Drop-in replacement for anyone running local inference with Ollama or similar.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/unsloth/GLM-5.3-Flash-GGUF" target="_blank" rel="noopener noreferrer">unsloth/GLM-5.3-Flash-GGUF&lt;/a>
+&lt;/strong> — GGUF quantizations of GLM-5.3-Flash, including iMatrix variants. Same multilingual support, just easier to run locally.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/sensenova/SenseNova-U1.5-8B-MoT" target="_blank" rel="noopener noreferrer">sensenova/SenseNova-U1.5-8B-MoT&lt;/a>
+&lt;/strong> — A native multimodal 8B model that handles image generation, editing, and any-to-any tasks. Supports custom code and is bilingual en/zh.&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/rohitg00/ai-engineering-from-scratch" target="_blank" rel="noopener noreferrer">rohitg00/ai-engineering-from-scratch&lt;/a>
+&lt;/strong> — A learn-it-build-it-ship-it guide for AI engineering. Good if you want to understand the full pipeline without the tutorial-hop.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/ComposioHQ/awesome-claude-skills" target="_blank" rel="noopener noreferrer">ComposioHQ/awesome-claude-skills&lt;/a>
+&lt;/strong> — Curated list of Claude skills, resources, and tools for customizing Claude workflows. Useful reference if you&amp;rsquo;re building agentic setups around Claude.&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2608.23641" target="_blank" rel="noopener noreferrer">How much of a measured AI preference is the model, and how much is the instrument?&lt;/a>
+&lt;/strong> — Investigates whether model welfare research actually measures model preferences or just the instrument used to elicit them. Important caveat for anyone interpreting alignment benchmarks.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2608.23642" target="_blank" rel="noopener noreferrer">AI Agents Push Humans Out of the Loop&lt;/a>
+&lt;/strong> — Examines the risks of increasing agent autonomy and why &amp;ldquo;human in the loop&amp;rdquo; is harder to implement than it sounds. A reality check on current agent design patterns.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2608.24904" target="_blank" rel="noopener noreferrer">Dynamic Influence-Weighted Distillation for Single-IMU Activity Recognition&lt;/a>
+&lt;/strong> — Proposes training with multiple IMUs to improve a student model that only needs one sensor at inference time. Practical approach for reducing deployment burden in wearable activity recognition.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2608.24936" target="_blank" rel="noopener noreferrer">GreenLeaf Law Embed Tiny: A Compact Embedding Model for Legal Domain Retrieval&lt;/a>
+&lt;/strong> — A 0.6B parameter embedding model that hits 75.11% on MLEB for legal retrieval. Compact enough to run locally with competitive results for legal-domain RAG.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2608.24937" target="_blank" rel="noopener noreferrer">Multi-Modal Anomaly Detection: A Survey&lt;/a>
+&lt;/strong> — Surveys MMAD approaches for detecting rare events across heterogeneous data sources. Fragmented literature gets a (long overdue) organizing attempt for safety-critical applications.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2608.24938" target="_blank" rel="noopener noreferrer">ExFold: Unified Expert Folding for Training-Free MoE Prefill-Decode Acceleration&lt;/a>
+&lt;/strong> — Addresses the two-phase inference bottleneck in MoE models with training-free expert folding. Could matter if you&amp;rsquo;re serving MoE models and care about latency.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/JetBrains/go-modern-guidelines" target="_blank" rel="noopener noreferrer">JetBrains/go-modern-guidelines&lt;/a>
+&lt;/strong> — Guidelines to help AI coding agents write idiomatic Go. Straightforward value if your team uses Copilot or similar for Go development.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/K-Dense-AI/scientific-agent-skills" target="_blank" rel="noopener noreferrer">K-Dense-AI/scientific-agent-skills&lt;/a>
+&lt;/strong> — 163 validated skills plus 100+ scientific databases turned into agent skills for biology, chemistry, medicine, and drug discovery. 175k+ scientists already using it.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/calesthio/OpenMontage" target="_blank" rel="noopener noreferrer">calesthio/OpenMontage&lt;/a>
+&lt;/strong> — Open-source agentic video production system with 12 pipelines, 100+ tools, and 700+ skill files. Turns your coding assistant into a video studio — niche but wild.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/addosmani/agent-skills" target="_blank" rel="noopener noreferrer">addyosmani/agent-skills&lt;/a>
+&lt;/strong> — Production-grade engineering skills for AI coding agents. 90k stars, compatible with Cursor, Claude Code, Codex, and Antigravity.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>The quantized GGUF releases of Qwen3.8-Flash-Next and GLM-5.3-Flash make it practical to run capable models locally, and paired with &lt;a href="https://github.com/addyosmani/agent-skills" target="_blank" rel="noopener noreferrer">addyosmani/agent-skills&lt;/a>
+, you can assemble production-grade agentic workflows without cloud dependencies. But before you hand over the reins, &lt;a href="https://arxiv.org/abs/2608.23642" target="_blank" rel="noopener noreferrer">the paper on agents pushing humans out of the loop&lt;/a>
+ is a direct warning: &amp;ldquo;human in the loop&amp;rdquo; degrades fast once agents gain autonomy, and retrofitting oversight after deployment is far harder than baking it in from the start. The actionable takeaway is to prototype your agent pipeline now using local quantized models and validated skills, but instrument explicit guardrails — escalation thresholds, permission boundaries, audit logging — as core features, not afterthoughts.&lt;/p></description></item><item><title>Tenkai Daily — August 26, 2026</title><link>https://tenkai.blog/posts/2026-08-26/</link><pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-08-26/</guid><description>&lt;h2 id="model-releases-">Model Releases 🐕&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/ornith-ai/Ornith-1.5-9B" target="_blank" rel="noopener noreferrer">ornith-ai/Ornith-1.5-9B&lt;/a>
 &lt;/strong> — A 9B-parameter multimodal model with Qwen3.5 architecture, handling image-text-to-text tasks while staying lightweight compared to its 35B MoE sibling. It&amp;rsquo;s a spry Jack Russell Terrier — small but surprisingly capable, great for edge deployments where you can&amp;rsquo;t afford a St. Bernard. 🐶&lt;/li>
