@@ -1,62 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/Robbyant/lingbot-map",
-      "date": "2026-06-29"
-    },
-    {
-      "url": "https://github.com/usestrix/strix",
-      "date": "2026-06-29"
-    },
-    {
-      "url": "https://github.com/hesreallyhim/awesome-claude-code",
-      "date": "2026-06-29"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.27483",
-      "date": "2026-06-29"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.27806",
-      "date": "2026-06-29"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.27780",
-      "date": "2026-06-29"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.27814",
-      "date": "2026-06-29"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.27757",
-      "date": "2026-06-29"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.27510",
-      "date": "2026-06-29"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.27449",
-      "date": "2026-06-29"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.27578",
-      "date": "2026-06-29"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.27580",
-      "date": "2026-06-29"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.27438",
-      "date": "2026-06-29"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/v4.0.2",
-      "date": "2026-06-29"
-    },
-    {
       "url": "https://github.com/logto-io/logto",
       "date": "2026-06-30"
     },
@@ -6323,6 +6267,166 @@
     {
       "url": "https://pypi.org/project/sys2txt/0.5.3/",
       "date": "2026-08-27"
+    },
+    {
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://huggingface.co/zai-org/GLM-5.3",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://huggingface.co/tencent/Hy4-preview",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://huggingface.co/alibaba-pai/MiniMax-H3-Fun-Controlnet-Union",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://huggingface.co/BreezeBlue/Breeze-TTS-2",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.26107",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.26109",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.26111",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.26113",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.26114",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.26116",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.26134",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.26149",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.26150",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.26151",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.26153",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.26156",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.26157",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.26160",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.26132",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.26233",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.26288",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.26309",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.251",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.250",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.248",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.25",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.24",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://pypi.org/project/matrx-ai/0.5.178/",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://pypi.org/project/clusterpilot/0.4.0/",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://pypi.org/project/mcpify-openapi/1.0.0/",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://pypi.org/project/openoutreach/0.1.38/",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://pypi.org/project/chalkruntime/3.42.32/",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://pypi.org/project/journeyman-bench/0.1.2/",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://pypi.org/project/fermion-research/0.1.20/",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://pypi.org/project/journeyman-bench/0.1.1/",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://pypi.org/project/tokdash/2.4.0/",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://pypi.org/project/nova-ai-pro/1.1.1.dev48/",
+      "date": "2026-08-28"
+    },
+    {
+      "url": "https://pypi.org/project/urag-cli/0.2.1.dev9/",
+      "date": "2026-08-28"
     }
   ]
 }
