@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tenkai</title><link>https://tenkai.blog/</link><description>Recent content on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 28 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — August 28, 2026</title><link>https://tenkai.blog/posts/2026-08-28/</link><pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-08-28/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tenkai</title><link>https://tenkai.blog/</link><description>Recent content on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 30 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — August 30, 2026</title><link>https://tenkai.blog/posts/2026-08-30/</link><pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-08-30/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>&lt;a href="https://huggingface.co/FastVideo/FastVideo-FastH3-4-step-Preview-v1-VSA-DataFree" target="_blank" rel="noopener noreferrer">FastH3 4-Step Distilled Video Model&lt;/a>
+&lt;/strong> — MiniMax-H3 gets a data-free 4-step distillation via VSA, enabling text-to-video and text-to-audio-video generation with diffusers integration and notable inference speedup as detailed in arXiv:2405.14867. 🤖&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>&lt;a href="https://huggingface.co/Qwen/Qwen3.8-Flash-Next-FP8" target="_blank" rel="noopener noreferrer">Qwen3.8-Flash-Next FP8 Quantization&lt;/a>
+&lt;/strong> — FP8-quantized variant of Qwen3.8-Flash-Next preserving image-text-to-text and conversational capabilities, enabling high-throughput vLLM serving with block-fp8 precision and endpoints compatibility directly from the base Flash-Next model. 🤖 🛠️&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>&lt;a href="https://github.com/colinhacks/zod" target="_blank" rel="noopener noreferrer">colinhacks/zod&lt;/a>
+&lt;/strong> — TypeScript-first schema validation library performing static type inference to ensure runtime data conforms to defined types, enabling safe parsing of inputs, configs, and API responses in ML/AI tooling. 🛠️&lt;/p></description></item><item><title>Tenkai Daily — August 28, 2026</title><link>https://tenkai.blog/posts/2026-08-28/</link><pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-08-28/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/zai-org/GLM-5.3" target="_blank" rel="noopener noreferrer">zai-org/GLM-5.3&lt;/a>
 &lt;/strong> — 🤖 MoE text-generation model with fp8 support, conversational capabilities in English and Chinese. Comes with eval results and endpoints compatibility.&lt;/li>
