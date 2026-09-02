@@ -1,4 +1,53 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Llm on Tenkai</title><link>https://tenkai.blog/tags/llm/</link><description>Recent content in Llm on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 30 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/llm/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — August 30, 2026</title><link>https://tenkai.blog/posts/2026-08-30/</link><pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-08-30/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Llm on Tenkai</title><link>https://tenkai.blog/tags/llm/</link><description>Recent content in Llm on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 02 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/llm/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — September 2, 2026</title><link>https://tenkai.blog/posts/2026-09-02/</link><pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-09-02/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/pipecat-ai/phonellm-alpha-1" target="_blank" rel="noopener noreferrer">phonellm-alpha-1&lt;/a>
+&lt;/strong> — Pipecat framework with Nemotron MoE base model enabling voice-agent AI, tool-use, function-calling, and conversational AI with custom code integration and endpoints compatibility for phone-based interaction.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp" target="_blank" rel="noopener noreferrer">DeepSeek-V4-Flash-Vision-Exp&lt;/a>
+&lt;/strong> — DeepSeek V4 Flash Vision Experimental model with multimodal text-generation and image-text-to-text capabilities, supporting 8-bit and fp8 precision, and endpoints compatibility for high-throughput serving.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/google/timesfm-3.0-pytorch" target="_blank" rel="noopener noreferrer">timesfm-3.0-pytorch&lt;/a>
+&lt;/strong> — TimesFM 3.0 pretrained PyTorch model for time-series forecasting with extensive horizon support, based on arxiv:2310.10688, and endpoints compatibility for production forecasting pipelines.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF" target="_blank" rel="noopener noreferrer">Qwen3.8-Flash-Next-Uncensored-GGUF&lt;/a>
+&lt;/strong> — GGUF-uncensored Qwen3.8-Flash-Next with abliterated weights, vision-language mmproj, function-calling, reasoning, and red-teaming support, llama.cpp compatible, and endpoints compatibility.&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/prune-sdk/0.3.0/" target="_blank" rel="noopener noreferrer">prune-sdk 0.3.0&lt;/a>
+&lt;/strong> — prune-sdk 0.3.0 delivers a unified, drop-in client for 12 major LLM providers through the Prune AI proxy, featuring vaulted key management, Ed25519 receipt verification on every call, and automatic cost optimization. The SDK aims to reduce operational overhead and security risks for LLM-integrated a&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/arrowspace/0.27.3/" target="_blank" rel="noopener noreferrer">arrowspace 0.27.3&lt;/a>
+&lt;/strong> — arrowspace 0.27.3 provides Python bindings for the ArrowSpace Rust library, delivering graph-based similarity search, signal graph construction, and spectral methods for vector data analysis. The release targets vector database and similarity search optimization for large-scale ML workloads.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/diegosouzapw/OmniRoute" target="_blank" rel="noopener noreferrer">diegosouzapw/OmniRoute&lt;/a>
+&lt;/strong> — Free MIT AI gateway providing single endpoint access to 352 providers and 1200+ models including Claude, GPT, Gemini. Features quota-aware auto-fallback, RTK+Caveman compression saving 15-95% tokens, and MCP/A2A support.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.257" target="_blank" rel="noopener noreferrer">anthropics/claude-code: v2.1.257&lt;/a>
+&lt;/strong> — Introduced Claude Fable 5.1 as the default Fable model with 1M context window and tiered pricing ($10/$50 per Mtok with $0.25/Mtok cache reads), added timeFormat and timeZone configuration settings for turn-end clock and transcript timestamps.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anomalyco/opencode/releases/tag/v1.18.26" target="_blank" rel="noopener noreferrer">sst/opencode: v1.18.26&lt;/a>
+&lt;/strong> — Added tolerance for stale thinking blocks in Claude 5 sessions, enabled Bedrock GPT-5.6 models to accept &amp;ldquo;none&amp;rdquo; reasoning effort, and improved reliability of Bedrock reasoning and replay handling.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/comfy-aimdo/0.5.0/" target="_blank" rel="noopener noreferrer">comfy-aimdo 0.5.0&lt;/a>
+&lt;/strong> — comfy-aimdo 0.5.0 provides a dynamic model offloading mechanism for ComfyUI, enabling runtime GPU memory management by shifting AI models in and out of VRAM as needed. The tool targets resource-constrained environments, allowing larger models or concurrent sessions without hardware upgrades.&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.00049" target="_blank" rel="noopener noreferrer">REAL-Q: E2E LLM Quantization via Dynamic Gradient Descent&lt;/a>
+&lt;/strong> — REAL-Q proposes an end-to-end post-training quantization method for LLMs that replaces closed-form solvers with dynamic gradient descent per layer, capturing cross-channel coupling avoided by existing PTQ approaches. The method achieves notable accuracy retention under extreme compression, demonstra&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.00097" target="_blank" rel="noopener noreferrer">Faster Than Flash: Exploiting Attention Sparsity for Efficient Long-Context Decoding&lt;/a>
+&lt;/strong> — Faster Than Flash proposes a sparsity-aware decoding algorithm that exploits attention pattern sparsity to reduce memory bandwidth and computational overhead during long-context LLM inference. The method achieves significant speedups with minimal accuracy loss, addressing the quadratic complexity bo&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.00012" target="_blank" rel="noopener noreferrer">Long-Horizon State Tracking in LLMs: Executing MD5 through a Deep Sequence of Dependent Tool Calls&lt;/a>
+&lt;/strong> — This paper analyzes error cascading in long-horizon LLM tool-use sequences, showing that per-step accuracy decays sharply with task length due to dependent tool calls. The authors propose a state-tracking framework that persists critical information (e.g., MD5 hashes) across calls, mitigating compou&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.00061" target="_blank" rel="noopener noreferrer">ReNFT: Repairing Mode Collapse in Reward Post-Training via Internal Probability-Mass Recalibration&lt;/a>
+&lt;/strong> — ReNFT addresses mode collapse in diffusion reward post-training by internally recalibrating probability mass across modes using a self-adaptive scheme, without relying on external perceptual objectives or reference modifications. The method preserves within-prompt diversity while aligning generator&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.00078" target="_blank" rel="noopener noreferrer">RW-LoRA: Communication-Efficient Decentralized LoRA Fine-Tuning via Random Walks&lt;/a>
+&lt;/strong> — RW-LoRA introduces a communication-efficient decentralized LoRA fine-tuning protocol that synchronizes parameters via random-walk-based traversal across distributed nodes, eliminating centralized aggregation bottlenecks. The method achieves scalability and reduced communication overhead while mainta&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.82" target="_blank" rel="noopener noreferrer">cline/cline: SDK v0.0.82&lt;/a>
+&lt;/strong> — Detailed fix for gateway model tool calling: three producers had drifted capability translations where builtin-provider emitted [&amp;ldquo;text&amp;rdquo;] while others emitted undefined, causing authoritative denials of tool use.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/superlinked/sie" target="_blank" rel="noopener noreferrer">Superlinked SIE: Open-Source Inference Server for Agentic Models&lt;/a>
+&lt;/strong> — SIE provides a production-ready inference server and cluster management framework designed for serving multiple AI agent models at scale. It focuses on efficient routing, batching, and lifecycle management for diverse model types in agentic workflows.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/cline/cline/releases/tag/sdk%2Fshared%2Fv0.0.82" target="_blank" rel="noopener noreferrer">cline/cline: sdk/shared/v0.0.82&lt;/a>
+&lt;/strong> — Fixed tool calling being silently disabled for gateway models where catalog entries declared no capabilities, resolving a discrepancy between builtin-provider and hand-written capability translations.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>Here&amp;rsquo;s a thinking process:&lt;/p></description></item><item><title>Tenkai Daily — August 30, 2026</title><link>https://tenkai.blog/posts/2026-08-30/</link><pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-08-30/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>
 &lt;p>&lt;strong>&lt;a href="https://huggingface.co/FastVideo/FastVideo-FastH3-4-step-Preview-v1-VSA-DataFree" target="_blank" rel="noopener noreferrer">FastH3 4-Step Distilled Video Model&lt;/a>
