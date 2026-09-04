@@ -1,218 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/Zackriya-Solutions/meetily",
-      "date": "2026-07-05"
-    },
-    {
-      "url": "https://github.com/CoplayDev/unity-mcp",
-      "date": "2026-07-05"
-    },
-    {
-      "url": "https://github.com/crynta/terax-ai",
-      "date": "2026-07-05"
-    },
-    {
-      "url": "https://huggingface.co/AliesTaha/fable-traces",
-      "date": "2026-07-05"
-    },
-    {
-      "url": "https://lastlookdata.com/",
-      "date": "2026-07-05"
-    },
-    {
-      "url": "https://wayforth.io",
-      "date": "2026-07-05"
-    },
-    {
-      "url": "https://keenable.ai/",
-      "date": "2026-07-05"
-    },
-    {
-      "url": "https://auseconmcp.com",
-      "date": "2026-07-05"
-    },
-    {
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.4",
-      "date": "2026-07-05"
-    },
-    {
-      "url": "https://pypi.org/project/edit2docs/0.6.0/",
-      "date": "2026-07-05"
-    },
-    {
-      "url": "https://pypi.org/project/qdrant-lens/0.1.2/",
-      "date": "2026-07-05"
-    },
-    {
-      "url": "https://pypi.org/project/stimulir/0.1.210/",
-      "date": "2026-07-05"
-    },
-    {
-      "url": "https://pypi.org/project/tpu-inference/0.23.0.dev20260705/",
-      "date": "2026-07-05"
-    },
-    {
-      "url": "https://pypi.org/project/devmemory-ai/0.1.0/",
-      "date": "2026-07-05"
-    },
-    {
-      "url": "https://pypi.org/project/aindy-runtime/1.5.3/",
-      "date": "2026-07-05"
-    },
-    {
-      "url": "https://pypi.org/project/aibusy/0.0.2/",
-      "date": "2026-07-05"
-    },
-    {
-      "url": "https://pypi.org/project/evoscientist/0.2.1/",
-      "date": "2026-07-05"
-    },
-    {
-      "url": "https://pypi.org/project/pyrestkit/1.2.0/",
-      "date": "2026-07-05"
-    },
-    {
-      "url": "https://pypi.org/project/econox/0.1.4/",
-      "date": "2026-07-05"
-    },
-    {
-      "url": "https://pypi.org/project/exaai-agent/2.3.2/",
-      "date": "2026-07-05"
-    },
-    {
-      "url": "https://pypi.org/project/aither-adk/2.17.1/",
-      "date": "2026-07-05"
-    },
-    {
-      "url": "https://pypi.org/project/bingo-ai/4.9.2/",
-      "date": "2026-07-05"
-    },
-    {
-      "url": "https://pypi.org/project/autogluon/1.5.1b20260705/",
-      "date": "2026-07-05"
-    },
-    {
-      "url": "https://pypi.org/project/autogluon-timeseries/1.5.1b20260705/",
-      "date": "2026-07-05"
-    },
-    {
-      "url": "https://pypi.org/project/autogluon-multimodal/1.5.1b20260705/",
-      "date": "2026-07-05"
-    },
-    {
-      "url": "https://pypi.org/project/autogluon-tabular/1.5.1b20260705/",
-      "date": "2026-07-05"
-    },
-    {
-      "url": "https://pypi.org/project/autogluon-features/1.5.1b20260705/",
-      "date": "2026-07-05"
-    },
-    {
-      "url": "https://pypi.org/project/autogluon-core/1.5.1b20260705/",
-      "date": "2026-07-05"
-    },
-    {
-      "url": "https://pypi.org/project/autogluon-common/1.5.1b20260705/",
-      "date": "2026-07-05"
-    },
-    {
-      "url": "https://github.com/huggingface/tokenizers",
-      "date": "2026-07-06"
-    },
-    {
-      "url": "https://github.com/Opencode-DCP/opencode-dynamic-context-pruning",
-      "date": "2026-07-06"
-    },
-    {
-      "url": "https://github.com/tonl-dev/tonl",
-      "date": "2026-07-06"
-    },
-    {
-      "url": "https://github.com/nadimtuhin/claude-token-optimizer",
-      "date": "2026-07-06"
-    },
-    {
-      "url": "https://github.com/ooples/token-optimizer-mcp",
-      "date": "2026-07-06"
-    },
-    {
-      "url": "https://github.com/tigicion/dao-code",
-      "date": "2026-07-06"
-    },
-    {
-      "url": "https://github.com/karakeep-app/karakeep",
-      "date": "2026-07-06"
-    },
-    {
-      "url": "https://github.com/steipete/CodexBar",
-      "date": "2026-07-06"
-    },
-    {
-      "url": "https://huggingface.co/tencent/Hy3",
-      "date": "2026-07-06"
-    },
-    {
-      "url": "https://huggingface.co/Jackrong/Qwopus3.6-35B-A3B-Coder-MTP-GGUF",
-      "date": "2026-07-06"
-    },
-    {
-      "url": "https://huggingface.co/nationaldesignstudio/rampart",
-      "date": "2026-07-06"
-    },
-    {
-      "url": "https://search.daum.net",
-      "date": "2026-07-06"
-    },
-    {
-      "url": "https://pypi.org/project/opik/2.1.17/",
-      "date": "2026-07-06"
-    },
-    {
-      "url": "https://pypi.org/project/deeppolicy/0.1.0/",
-      "date": "2026-07-06"
-    },
-    {
-      "url": "https://pypi.org/project/kelam/0.2.0/",
-      "date": "2026-07-06"
-    },
-    {
-      "url": "https://pypi.org/project/elitea-sdk/0.8.9/",
-      "date": "2026-07-06"
-    },
-    {
-      "url": "https://pypi.org/project/treebox/0.8.0/",
-      "date": "2026-07-06"
-    },
-    {
-      "url": "https://pypi.org/project/okf-kit/0.1.5/",
-      "date": "2026-07-06"
-    },
-    {
-      "url": "https://pypi.org/project/sage-harness/0.9.36/",
-      "date": "2026-07-06"
-    },
-    {
-      "url": "https://pypi.org/project/tpu-inference/0.23.0.dev20260706/",
-      "date": "2026-07-06"
-    },
-    {
-      "url": "https://pypi.org/project/conduct-cli/0.6.37/",
-      "date": "2026-07-06"
-    },
-    {
-      "url": "https://pypi.org/project/ai-synapse/4.5.1/",
-      "date": "2026-07-06"
-    },
-    {
-      "url": "https://pypi.org/project/promptline-opt/0.1.1/",
-      "date": "2026-07-06"
-    },
-    {
-      "url": "https://pypi.org/project/actaclad-plumbline/0.0.2/",
-      "date": "2026-07-06"
-    },
-    {
       "url": "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B",
       "date": "2026-07-07"
     },
@@ -5931,6 +5719,122 @@
     {
       "url": "https://pypi.org/project/arrowspace/0.27.3/",
       "date": "2026-09-02"
+    },
+    {
+      "url": "https://github.com/magnitudedev/magnitude",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://github.com/google-research/timesfm",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://github.com/radixark/miles",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.03209",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.03236",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.03340",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.03416",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.03438",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.03493",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.03494",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.03503",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.03515",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.02959",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.02982",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.02986",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.02987",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.02988",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.02991",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.02993",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.02998",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.03003",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.03026",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.03069",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.03079",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.03090",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://pypi.org/project/slm388-torchdiff/0.1.23/",
+      "date": "2026-09-04"
+    },
+    {
+      "url": "https://pypi.org/project/code-context-control/2.110.1/",
+      "date": "2026-09-04"
     }
   ]
 }
