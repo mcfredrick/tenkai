@@ -1,118 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B",
-      "date": "2026-07-07"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.02542",
-      "date": "2026-07-07"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.02672",
-      "date": "2026-07-07"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.02686",
-      "date": "2026-07-07"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.02771",
-      "date": "2026-07-07"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.02807",
-      "date": "2026-07-07"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.02846",
-      "date": "2026-07-07"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.02879",
-      "date": "2026-07-07"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.02914",
-      "date": "2026-07-07"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.02931",
-      "date": "2026-07-07"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.02941",
-      "date": "2026-07-07"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.02975",
-      "date": "2026-07-07"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.02983",
-      "date": "2026-07-07"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.03025",
-      "date": "2026-07-07"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.02623",
-      "date": "2026-07-07"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.02632",
-      "date": "2026-07-07"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.02633",
-      "date": "2026-07-07"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.02636",
-      "date": "2026-07-07"
-    },
-    {
-      "url": "https://aicommander.dev",
-      "date": "2026-07-07"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.202",
-      "date": "2026-07-07"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.17.14",
-      "date": "2026-07-07"
-    },
-    {
-      "url": "https://pypi.org/project/praisonaiagents/1.6.134/",
-      "date": "2026-07-07"
-    },
-    {
-      "url": "https://pypi.org/project/askfaro-embedded-search/0.6.0/",
-      "date": "2026-07-07"
-    },
-    {
-      "url": "https://pypi.org/project/matrice-analytics/0.1.353/",
-      "date": "2026-07-07"
-    },
-    {
-      "url": "https://pypi.org/project/tpu-inference/0.24.0.dev20260707/",
-      "date": "2026-07-07"
-    },
-    {
-      "url": "https://pypi.org/project/vllm-rbln/0.11.1a4/",
-      "date": "2026-07-07"
-    },
-    {
-      "url": "https://pypi.org/project/fabric-dw/2026.7.1.dev5/",
-      "date": "2026-07-07"
-    },
-    {
-      "url": "https://pypi.org/project/fabric-dw/2026.7.1.dev4/",
-      "date": "2026-07-07"
-    },
-    {
       "url": "https://github.com/MadsLorentzen/ai-job-search",
       "date": "2026-07-08"
     },
@@ -5835,6 +5723,78 @@
     {
       "url": "https://pypi.org/project/code-context-control/2.110.1/",
       "date": "2026-09-04"
+    },
+    {
+      "url": "https://github.com/WorldFlowAI/everything-claude-code",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://huggingface.co/facebook/mms-300m",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://huggingface.co/distilbert/distilbert-base-uncased",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.261",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.260",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.259",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.49.0",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.29",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.28",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.27",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.23",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.23-beta.1",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://pypi.org/project/omnicache-proxy/2.6.3/",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://pypi.org/project/slm388-torchdiff/0.1.38/",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://pypi.org/project/deep-fbsde-nn/0.2.0/",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://pypi.org/project/agentkey/1.0.1/",
+      "date": "2026-09-05"
+    },
+    {
+      "url": "https://pypi.org/project/vibedasher-mcp/0.5.3/",
+      "date": "2026-09-05"
     }
   ]
 }
