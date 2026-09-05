@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open-Source on Tenkai</title><link>https://tenkai.blog/tags/open-source/</link><description>Recent content in Open-Source on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 04 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/open-source/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — September 4, 2026</title><link>https://tenkai.blog/posts/2026-09-04/</link><pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-09-04/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open-Source on Tenkai</title><link>https://tenkai.blog/tags/open-source/</link><description>Recent content in Open-Source on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 05 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/open-source/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — September 5, 2026</title><link>https://tenkai.blog/posts/2026-09-05/</link><pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-09-05/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2" target="_blank" rel="noopener noreferrer">all-MiniLM-L6-v2&lt;/a>
+&lt;/strong> — Small sentence-transformers model for semantic similarity and clustering. Trained on diverse text pairs, it plays well across frameworks and languages if you need lightweight embeddings without spinning up a massive GPU farm. 🤖&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/facebook/mms-300m" target="_blank" rel="noopener noreferrer">MMS-300m&lt;/a>
+&lt;/strong> — Facebook&amp;rsquo;s Wav2vec2-based multilingual speech model covering dozens of languages. Good starting point for speech recognition or translation projects where you don&amp;rsquo;t want to train from scratch on audio data. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/distilbert/distilbert-base-uncased" target="_blank" rel="noopener noreferrer">DistilBERT&lt;/a>
+&lt;/strong> — Distilled BERT that keeps most of the performance with fewer parameters. Available across PyTorch, TensorFlow, JAX, and Rust, making it a practical choice when you need BERT-like capabilities but have actual work to do. 🛠️&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/slm388-torchdiff/0.1.38/" target="_blank" rel="noopener noreferrer">slm388-torchdiff&lt;/a>
+&lt;/strong> — PyTorch framework for Masked Diffusion Language Model pretraining. Includes FSDP2 distributed training, Muon optimizer, and Hugging Face Jobs integration for scaling up LLM workflows. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.260" target="_blank" rel="noopener noreferrer">anthropics/claude-code v2.1.260&lt;/a>
+&lt;/strong> — Adds a diff panel in fullscreen mode showing uncommitted changes as Claude edits, plus prompt-cache miss detection. Toggled with /diff command. 🔧&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.259" target="_blank" rel="noopener noreferrer">anthropics/claude-code v2.1.259&lt;/a>
+&lt;/strong> — Introduces managedMcpServers for organizational HTTP/SSE MCP servers and &amp;ndash;permission-prompts none for headless hosts. Good if you&amp;rsquo;re running Claude in unattended environments. 🤖&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anomalyco/opencode/releases/tag/v1.18.27" target="_blank" rel="noopener noreferrer">sst/opencode v1.18.27&lt;/a>
+&lt;/strong> — Sets default provider header timeouts to five minutes and streamed chunk timeouts similarly. Adds Anthropic thinking.blockBinding opt-out via config. Helpful if slow model startups have been burning your time. ⏱️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.261" target="_blank" rel="noopener noreferrer">anthropics/claude-code v2.1.261&lt;/a>
+&lt;/strong> — Adds organization policy disclosure to /status and claude doctor, plus bashOutputMaxChars and taskOutputMaxChars settings to limit command output in context. Useful for keeping prompts tidy in enterprise setups. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anomalyco/opencode/releases/tag/v1.18.29" target="_blank" rel="noopener noreferrer">sst/opencode v1.18.29&lt;/a>
+&lt;/strong> — Fixes Codex OAuth model filtering to recognize integer GPT versions like gpt-6. Resolves gpt-6-astra not showing up for OpenAI subscribers. Minor versioning fix that actually matters when discovering models. 🔢&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/WorldFlowAI/everything-claude-code" target="_blank" rel="noopener noreferrer">everything-claude-code&lt;/a>
+&lt;/strong> — Toolkit extending Anthropic&amp;rsquo;s Claude Code CLI with modular framework of agents, commands, skills, rules, and hooks. Provides programmable extensions and reusable components for AI-assisted development workflows. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/cline/cline/releases/tag/desktop-v0.0.23" target="_blank" rel="noopener noreferrer">cline/desktop v0.0.23&lt;/a>
+&lt;/strong> — Agent Plugins now discovered and run by the shared Hub. Packages under ~/.agents/plugins validated from plugin.json, skills become available, and MCP servers start automatically via stdio/Streamable HTTP/SSE. 🤖&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/aaif-goose/goose/releases/tag/v1.49.0" target="_blank" rel="noopener noreferrer">block/goose v1.49.0&lt;/a>
+&lt;/strong> — Released auto-updater for desktop, Linux ARM64 packages, and background extension loading so CLI prompt is immediately usable. Key deployment and usability improvements for the Goose assistant. 🛠️&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>Here&amp;rsquo;s a thinking process:&lt;/p></description></item><item><title>Tenkai Daily — September 4, 2026</title><link>https://tenkai.blog/posts/2026-09-04/</link><pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-09-04/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF" target="_blank" rel="noopener noreferrer">ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF&lt;/a>
 &lt;/strong> — ISTA-DASLab drops a quantized mixed-precision GGUF build of Qwen3.8-27B with GSQ-RCO compression and multimodal vision support. Comes with imatrix and endpoints compatibility if you&amp;rsquo;re working with the original arXiv papers.&lt;/li>
