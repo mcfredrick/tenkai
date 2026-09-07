@@ -5,5 +5,7 @@
 # Topics carried forward from the agent will include date and surface count.
 # Higher surface count = topic has appeared as a strong candidate multiple weeks running.
 AI agent value and real-world use cases | 2026-05-04 | 5
-Coding agent configuration and memory | 2026-06-22 | 3
 API rate limits and quota management | 2026-06-22 | 3
+Local LLM coding assistants | 2026-09-07 | 1
+AI agent real-world value | 2026-09-07 | 1
+API rate limit management | 2026-09-07 | 1
