@@ -1,102 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/openai/plugins",
-      "date": "2026-07-12"
-    },
-    {
-      "url": "https://github.com/DayuanJiang/next-ai-draw-io",
-      "date": "2026-07-12"
-    },
-    {
-      "url": "https://huggingface.co/nvidia/Nemotron-Labs-Audex-30B-A3B",
-      "date": "2026-07-12"
-    },
-    {
-      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4",
-      "date": "2026-07-12"
-    },
-    {
-      "url": "https://huggingface.co/SupraLabs/Supra-Router-51M",
-      "date": "2026-07-12"
-    },
-    {
-      "url": "https://ai.glianalabs.com",
-      "date": "2026-07-12"
-    },
-    {
-      "url": "https://pypi.org/project/socratic-agents/0.4.7/",
-      "date": "2026-07-12"
-    },
-    {
-      "url": "https://pypi.org/project/ancestryaudit/0.3.2/",
-      "date": "2026-07-12"
-    },
-    {
-      "url": "https://pypi.org/project/tpu-inference/0.24.0.dev20260712/",
-      "date": "2026-07-12"
-    },
-    {
-      "url": "https://pypi.org/project/airoles/0.10.4/",
-      "date": "2026-07-12"
-    },
-    {
-      "url": "https://pypi.org/project/nextpy-agent/0.1.0/",
-      "date": "2026-07-12"
-    },
-    {
-      "url": "https://pypi.org/project/abstractintegratedmodule/1.0.4/",
-      "date": "2026-07-12"
-    },
-    {
-      "url": "https://pypi.org/project/surreal-memory/2.9.0/",
-      "date": "2026-07-12"
-    },
-    {
-      "url": "https://pypi.org/project/autogluon/1.5.1b20260712/",
-      "date": "2026-07-12"
-    },
-    {
-      "url": "https://pypi.org/project/autogluon-timeseries/1.5.1b20260712/",
-      "date": "2026-07-12"
-    },
-    {
-      "url": "https://pypi.org/project/autogluon-multimodal/1.5.1b20260712/",
-      "date": "2026-07-12"
-    },
-    {
-      "url": "https://pypi.org/project/autogluon-tabular/1.5.1b20260712/",
-      "date": "2026-07-12"
-    },
-    {
-      "url": "https://pypi.org/project/nexus-agent-ai/2.2.2/",
-      "date": "2026-07-12"
-    },
-    {
-      "url": "https://pypi.org/project/autogluon-features/1.5.1b20260712/",
-      "date": "2026-07-12"
-    },
-    {
-      "url": "https://pypi.org/project/autogluon-core/1.5.1b20260712/",
-      "date": "2026-07-12"
-    },
-    {
-      "url": "https://pypi.org/project/autogluon-common/1.5.1b20260712/",
-      "date": "2026-07-12"
-    },
-    {
-      "url": "https://pypi.org/project/sakshi-sdk/0.1.1/",
-      "date": "2026-07-12"
-    },
-    {
-      "url": "https://pypi.org/project/rag-assistant-ldxs/0.9.0/",
-      "date": "2026-07-12"
-    },
-    {
-      "url": "https://pypi.org/project/graphwiki/0.5.2/",
-      "date": "2026-07-12"
-    },
-    {
       "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "date": "2026-07-13"
     },
@@ -5347,6 +5251,134 @@
     {
       "url": "https://pypi.org/project/under-llm-governance/0.1.0b1/",
       "date": "2026-09-09"
+    },
+    {
+      "url": "https://github.com/alsk1992/CloddsBot",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://github.com/nashsu/llm_wiki",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://huggingface.co/openbbm/MiniCPM5-2B",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://huggingface.co/dealinai/GLM-5.3-CYBERSECURITY-FP8",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://huggingface.co/WarmBloodAban/Minimax-h3_Singularity",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-NVFP4",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://huggingface.co/Jackrong/Qwopus3.8-27B-Flash-GGUF",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.05446",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.05461",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.05481",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.05505",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.05511",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.05512",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.05513",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.05435",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.05575",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.05650",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.05658",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.05676",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.05727",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.05766",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.05770",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=43368327",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.267",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.25",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://pypi.org/project/gguf-trainer/0.0.3/",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://pypi.org/project/emu-mps/2.10.0rc1/",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://pypi.org/project/emu-sv/2.10.0rc1/",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://pypi.org/project/samai-zagent/0.30.85/",
+      "date": "2026-09-10"
+    },
+    {
+      "url": "https://pypi.org/project/agent-moss/0.15.3/",
+      "date": "2026-09-10"
     }
   ]
 }
