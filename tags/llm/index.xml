@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Llm on Tenkai</title><link>https://tenkai.blog/tags/llm/</link><description>Recent content in Llm on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 09 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/llm/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — September 9, 2026</title><link>https://tenkai.blog/posts/2026-09-09/</link><pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-09-09/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Llm on Tenkai</title><link>https://tenkai.blog/tags/llm/</link><description>Recent content in Llm on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 10 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/llm/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — September 10, 2026</title><link>https://tenkai.blog/posts/2026-09-10/</link><pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-09-10/</guid><description>&lt;p>The user wants me to generate a markdown body for the Tenkai digest based on the provided items organized by section. I need to follow the specific rules:&lt;/p>
+&lt;ol>
+&lt;li>Output only the markdown body, no front matter&lt;/li>
+&lt;li>No &amp;ldquo;Today&amp;rsquo;s Synthesis&amp;rdquo; section&lt;/li>
+&lt;li>Write sections in the order given&lt;/li>
+&lt;li>Each bullet: &lt;strong>&lt;a href="url">Name&lt;/a>
+&lt;/strong> — 1-2 sentences. What it is, why an engineer might care (or why they might not)&lt;/li>
+&lt;li>Only write sections that have items - no empty sections, no &amp;ldquo;None.&amp;rdquo;&lt;/li>
+&lt;li>Voice: casual, punchy, occasionally snarky, dry wit welcome, eye-rolls at obvious hype&lt;/li>
+&lt;li>Technically precise but fun&lt;/li>
+&lt;li>Never use certain words: &amp;ldquo;exciting&amp;rdquo;, &amp;ldquo;groundbreaking&amp;rdquo;, &amp;ldquo;revolutionary&amp;rdquo;, &amp;ldquo;game-changing&amp;rdquo;, &amp;ldquo;impressive&amp;rdquo;, &amp;ldquo;delve&amp;rdquo;, &amp;ldquo;unleash&amp;rdquo;, &amp;ldquo;leverage&amp;rdquo;&lt;/li>
+&lt;li>Emojis: use with personality and spontaneity, scatter where they feel right, not on every line. If forced, skip it.&lt;/li>
+&lt;/ol>
+&lt;p>Let me go through each section:&lt;/p></description></item><item><title>Tenkai Daily — September 9, 2026</title><link>https://tenkai.blog/posts/2026-09-09/</link><pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-09-09/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/dealngai/GLM-5.3-CYBERSECURITY-FP8" target="_blank" rel="noopener noreferrer">GLM-5.3-CYBERSECURITY-FP8&lt;/a>
 &lt;/strong> 🤖 A domain-specific GLM-MOE-DSA fine-tune for cybersecurity and red-team work, quantized to FP8 for more practical GPU deployments. The refusal-removal tuning is useful only if that is explicitly the workload.&lt;/li>
