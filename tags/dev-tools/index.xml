@@ -1,4 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev-Tools on Tenkai</title><link>https://tenkai.blog/tags/dev-tools/</link><description>Recent content in Dev-Tools on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 10 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/dev-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — September 10, 2026</title><link>https://tenkai.blog/posts/2026-09-10/</link><pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-09-10/</guid><description>&lt;p>The user wants me to generate a markdown body for the Tenkai digest based on the provided items organized by section. I need to follow the specific rules:&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev-Tools on Tenkai</title><link>https://tenkai.blog/tags/dev-tools/</link><description>Recent content in Dev-Tools on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/dev-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — September 11, 2026</title><link>https://tenkai.blog/posts/2026-09-11/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-09-11/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/dealignai/GLM-5.3-CYBERSECURITY-FP8" target="_blank" rel="noopener noreferrer">GLM-5.3-CYBERSECURITY-FP8&lt;/a>
+&lt;/strong> — 🤖 An FP8-quantized, abliterated GLM-5.3-MOE variant fine-tuned for cybersecurity work. Removes domain-specific refusal guardrails and supports red-teaming and pentest workflows in multiple languages.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/m-a-p/YuE2-3B" target="_blank" rel="noopener noreferrer">YuE2-3B&lt;/a>
+&lt;/strong> — 🎵 A 3B-parameter music generation model with symbolic planning and agentic-editing pipelines. Supports text-to-audio in English and Chinese, with custom_code-based editing for symbolic music workflows.&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/torchmodal/0.2.1/" target="_blank" rel="noopener noreferrer">torchmodal 0.2.1&lt;/a>
+&lt;/strong> — 🛠️ Drops differentiable modal logic into PyTorch via Modal Logical Neural Networks (MLNNs). If you&amp;rsquo;ve ever wanted formal logic grounding inside your neural nets, now you can.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/agent-work-runtime/0.3.2/" target="_blank" rel="noopener noreferrer">agent-work-runtime 0.3.2&lt;/a>
+&lt;/strong> — Addresses the perennial problem of long-running agents losing state. Provides persistent work state and minimal context management so agents can resume reliably across restarts.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.268" target="_blank" rel="noopener noreferrer">claude-code v2.1.268: Gateway pricing and access control warnings&lt;/a>
+&lt;/strong> — Added pricing integration through the Claude apps gateway so signed-in clients get consistent rates. Also added a startup warning when &lt;code>access_control.allow_cidrs&lt;/code> is empty — because apparently someone was shipping gateways with no access control configured.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.10" target="_blank" rel="noopener noreferrer">MCP servers 2026.7.10: Updated package releases for core MCP services&lt;/a>
+&lt;/strong> — Incremental updates to &lt;code>server-filesystem&lt;/code>, &lt;code>mcp-server-time&lt;/code>, &lt;code>mcp-server-fetch&lt;/code>, and &lt;code>mcp-server-git&lt;/code> at version 2026.7.10. The MCP ecosystem keeps ticking along.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/cline/cline/releases/tag/desktop-v0.0.26" target="_blank" rel="noopener noreferrer">cline Desktop v0.0.26: GitHub PR integration in composer showing branch status&lt;/a>
+&lt;/strong> — Composer now surfaces the current branch&amp;rsquo;s GitHub PR with number, merge status, changed-line totals, and CI checks. Refreshes every 30 seconds and auto-creates a PR if the branch has none.&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.10658" target="_blank" rel="noopener noreferrer">GEOSTEER: Geodesic Optimization for Activation Steering in Large Language Models&lt;/a>
+&lt;/strong> — Proposes geodesic optimization for norm-preserving activation steering, modifying hidden states at inference without norm collapse. A lightweight way to direct model behavior without the usual calibration headaches.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.09233" target="_blank" rel="noopener noreferrer">Subagents vs Agent Skills: Executing Reusable Knowledge for Long-Horizon Agentic Tasks&lt;/a>
+&lt;/strong> — Compares subagent orchestration against flat skill execution on long-horizon tasks. The paper analyzes whether packaging reusable knowledge as multi-file skill bundles actually pays off — or just adds overhead.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.09395" target="_blank" rel="noopener noreferrer">The Menu Is an Execution Prior: State-Path Tool Menus for Online Agents&lt;/a>
+&lt;/strong> — Argues that presenting agents with short, ordered tool subsets before execution reduces library overhead. Turns out agents need prerequisite tools that create their own inputs, not just the final action — a detail most agent frameworks miss.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.09448" target="_blank" rel="noopener noreferrer">Do Agents Know When They Succeed? Calibrating Agent Confidence from Internal Representations&lt;/a>
+&lt;/strong> — Extracts confidence signals from internal model representations rather than relying on external outputs. If you&amp;rsquo;re deploying agents in safety-critical settings, this alignment problem matters more than anyone wants to admit.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.10737" target="_blank" rel="noopener noreferrer">Conformal Calibration Transfer&lt;/a>
+&lt;/strong> — Tackles conformal prediction when you have labeled calibration data in the source domain but none in the target. Maintains coverage guarantees under distribution shift — useful when retraining isn&amp;rsquo;t an option.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.10752" target="_blank" rel="noopener noreferrer">Adaptive Margin Ordinal Loss: Penalizing Center-Class Hedging in Ordinal Classification&lt;/a>
+&lt;/strong> — Identifies &amp;ldquo;center-class hedging&amp;rdquo; as a real failure mode where networks predict middle classes to minimize symmetric loss. The proposed adaptive margin loss penalizes this bias and shows improvements across ordinal benchmarks.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/melgarafael/DeskcommCRM" target="_blank" rel="noopener noreferrer">DeskcommCRM: Open-Source AI Sales OS&lt;/a>
+&lt;/strong> — Self-hosted AI-powered CRM with WhatsApp integration via WAHA, MCP compatibility, multi-tenant architecture, and LGPD compliance. A solid open alternative if you&amp;rsquo;re tired of commercial CRM platforms skimming your data.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/pascalorg/editor" target="_blank" rel="noopener noreferrer">pascalorg/editor: 3D Architectural Editor&lt;/a>
+&lt;/strong> — Open-source 3D architectural editor with a local CLI and MCP integration. Designed for both human designers and AI agents in construction pipelines, with an emphasis on local processing and extensibility.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>Here&amp;rsquo;s a thinking process:&lt;/p></description></item><item><title>Tenkai Daily — September 10, 2026</title><link>https://tenkai.blog/posts/2026-09-10/</link><pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-09-10/</guid><description>&lt;p>The user wants me to generate a markdown body for the Tenkai digest based on the provided items organized by section. I need to follow the specific rules:&lt;/p>
 &lt;ol>
 &lt;li>Output only the markdown body, no front matter&lt;/li>
 &lt;li>No &amp;ldquo;Today&amp;rsquo;s Synthesis&amp;rdquo; section&lt;/li>
