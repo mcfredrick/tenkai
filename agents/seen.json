@@ -1,158 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-      "date": "2026-07-13"
-    },
-    {
-      "url": "https://github.com/Nutlope/hallmark",
-      "date": "2026-07-13"
-    },
-    {
-      "url": "https://github.com/coreyhaines31/marketingskills",
-      "date": "2026-07-13"
-    },
-    {
-      "url": "https://huggingface.co/Alissonerdx/LTX-Best-Face-ID",
-      "date": "2026-07-13"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.08773",
-      "date": "2026-07-13"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.08774",
-      "date": "2026-07-13"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.08894",
-      "date": "2026-07-13"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.08964",
-      "date": "2026-07-13"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.08986",
-      "date": "2026-07-13"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.09059",
-      "date": "2026-07-13"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.09076",
-      "date": "2026-07-13"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.09142",
-      "date": "2026-07-13"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.09153",
-      "date": "2026-07-13"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.09175",
-      "date": "2026-07-13"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.09195",
-      "date": "2026-07-13"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.09217",
-      "date": "2026-07-13"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.09330",
-      "date": "2026-07-13"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.08776",
-      "date": "2026-07-13"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.08778",
-      "date": "2026-07-13"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.08779",
-      "date": "2026-07-13"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.08780",
-      "date": "2026-07-13"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.08781",
-      "date": "2026-07-13"
-    },
-    {
-      "url": "https://docs.byteask.ai/embedded",
-      "date": "2026-07-13"
-    },
-    {
-      "url": "https://kakaomobility.com",
-      "date": "2026-07-13"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/pr-36567-inline-evidence",
-      "date": "2026-07-13"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/pr-36567-evidence",
-      "date": "2026-07-13"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/pr-36516-evidence",
-      "date": "2026-07-13"
-    },
-    {
-      "url": "https://pypi.org/project/langchain-paypack/0.7.0/",
-      "date": "2026-07-13"
-    },
-    {
-      "url": "https://pypi.org/project/hermes-ollama-native/0.3.0/",
-      "date": "2026-07-13"
-    },
-    {
-      "url": "https://pypi.org/project/pinuxd/0.1.0.post1/",
-      "date": "2026-07-13"
-    },
-    {
-      "url": "https://pypi.org/project/graphscout/0.4.0/",
-      "date": "2026-07-13"
-    },
-    {
-      "url": "https://pypi.org/project/tpu-inference/0.24.0.dev20260713/",
-      "date": "2026-07-13"
-    },
-    {
-      "url": "https://pypi.org/project/pygeovision/2.1.6/",
-      "date": "2026-07-13"
-    },
-    {
-      "url": "https://pypi.org/project/lx-annotate/0.9.30/",
-      "date": "2026-07-13"
-    },
-    {
-      "url": "https://pypi.org/project/siontiles/0.3.1/",
-      "date": "2026-07-13"
-    },
-    {
-      "url": "https://pypi.org/project/graphscout/0.3.0/",
-      "date": "2026-07-13"
-    },
-    {
-      "url": "https://pypi.org/project/neer-match-utilities/1.0.2/",
-      "date": "2026-07-13"
-    },
-    {
-      "url": "https://pypi.org/project/vibe-coding-tracker/2.0.0/",
-      "date": "2026-07-13"
-    },
-    {
       "url": "https://huggingface.co/empero-ai/Qwythos-9B-v2-GGUF",
       "date": "2026-07-14"
     },
@@ -5379,6 +5227,102 @@
     {
       "url": "https://pypi.org/project/agent-moss/0.15.3/",
       "date": "2026-09-10"
+    },
+    {
+      "url": "https://github.com/melgarafael/DeskcommCRM",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://github.com/pascalorg/editor",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://huggingface.co/dealignai/GLM-5.3-CYBERSECURITY-FP8",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://huggingface.co/m-a-p/YuE2-3B",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.09233",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.09395",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.09448",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.10658",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.10737",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.10752",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.10796",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.10798",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.10589",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.10643",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.10647",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.268",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.10",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.26",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://pypi.org/project/keycall/1.12.0/",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://pypi.org/project/pyvisim/0.9.4/",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://pypi.org/project/agent-work-runtime/0.3.2/",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://pypi.org/project/acbici/2.2.0/",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://pypi.org/project/firmwareloop/0.8.0/",
+      "date": "2026-09-11"
+    },
+    {
+      "url": "https://pypi.org/project/torchmodal/0.2.1/",
+      "date": "2026-09-11"
     }
   ]
 }
