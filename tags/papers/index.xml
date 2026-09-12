@@ -1,4 +1,51 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Papers on Tenkai</title><link>https://tenkai.blog/tags/papers/</link><description>Recent content in Papers on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/papers/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — September 11, 2026</title><link>https://tenkai.blog/posts/2026-09-11/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-09-11/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Papers on Tenkai</title><link>https://tenkai.blog/tags/papers/</link><description>Recent content in Papers on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 12 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/papers/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — September 12, 2026</title><link>https://tenkai.blog/posts/2026-09-12/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-09-12/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/Edge0/Edge0-35B-A3B-preview" target="_blank" rel="noopener noreferrer">Edge0/Edge0-35B-A3B-preview&lt;/a>
+&lt;/strong> — MLX-optimized 35B MOE with 4-bit precision, edge prerouter, and SSD-offload for Apple Silicon. Apache 2.0, good for on-device conversational workloads without melting your laptop. 🤖&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/openbmb/MiniCPM5-2B-GGUF" target="_blank" rel="noopener noreferrer">openbmb/MiniCPM5-2B-GGUF&lt;/a>
+&lt;/strong> — GGUF-quantized MiniCPM5-2B for on-device edge AI with long-context, tool-calling, and multimodal abilities. Cites arxiv:2506.07900 and arxiv:2602; reduced footprint without sacrificing core tool-calling.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/nex-agi/Nex-N2.5-Pro" target="_blank" rel="noopener noreferrer">nex-agi/Nex-N2.5-Pro&lt;/a>
+&lt;/strong> — Qwen3.5 MOE with compressed-tensors optimization, endpoints_compatible API. Apache 2.0, text and image-text generation with better token efficiency.&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/jax-mps/0.10.11.dev834/" target="_blank" rel="noopener noreferrer">jax-mps 0.10.11.dev834&lt;/a>
+&lt;/strong> — JAX backend for Apple Metal Performance Shaders. Accelerates array ops on macOS GPU, bridges JAX and native GPU performance. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/agentknit/0.1004.0/" target="_blank" rel="noopener noreferrer">agentknit 0.1004.0&lt;/a>
+&lt;/strong> — Framework for coding agents against OpenAI-compatible endpoints with spec-driven tools, cache verification, and sandboxing. 0.1004.0 adds context compaction and deterministic execution for lower token usage.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/limatus/0.27.0/" target="_blank" rel="noopener noreferrer">limatus 0.27.0&lt;/a>
+&lt;/strong> — Diagnose-and-steer quality loop for AI-generated content with real-time feedback. 0.27.0 adds enhanced hallucination pattern detection and fine-grained content attribute control.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/savi-sdk/0.15.0/" target="_blank" rel="noopener noreferrer">savi-sdk 0.15.0&lt;/a>
+&lt;/strong> — Observability SDK for LLM operational costs, carbon emissions, and compliance metrics. 0.15.0 adds fine-grained per-request cost attribution and major provider integrations.&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.10629" target="_blank" rel="noopener noreferrer">Automating Quadratic Unconstrained Binary Optimization (QUBO) Formulation Generation from Natural Language&lt;/a>
+&lt;/strong> — Parses natural language into QUBO formulations for combinatorial optimization. Bridges NLP and quantum/hybrid solvers. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.10656" target="_blank" rel="noopener noreferrer">Understanding LoRA Rank Trade-offs in Diffusion Model Fine-Tuning&lt;/a>
+&lt;/strong> — Controlled study on LoRA rank {2,4,8,16,32} for CIFAR-10 DDPM U-Net fine-tuning. Rank 8 hits the sweet spot on the quality-compute Pareto frontier.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.10728" target="_blank" rel="noopener noreferrer">Towards a Deterministic Math Solver for Clinical Language Models&lt;/a>
+&lt;/strong> — Clinical LLMs generate Python scripts instead of computing directly; validated interpreter executes. Deterministic arithmetic results for clinical calculations.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.10964" target="_blank" rel="noopener noreferrer">Decoupling Readiness from Release for Tail-Aware Scheduling of Agentic LLM Workflows&lt;/a>
+&lt;/strong> — Immediate release of ready turns under contention degrades efficiency. Tail-aware scheduling queues ready turns, decoupling readiness from release.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.10584" target="_blank" rel="noopener noreferrer">Probabilistic Focal Search: Accelerating Bounded-Suboptimal Search via Lower-Bound Advancement&lt;/a>
+&lt;/strong> — Randomized Focal Search variant with probabilistic frontier selection within FOCAL threshold. f_min decreases across expansions for better search efficiency in pathfinding.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.10712" target="_blank" rel="noopener noreferrer">An Open Recipe for IMO Gold: Training Nemotron for Olympiad Mathematics&lt;/a>
+&lt;/strong> — Post-training and test-time inference design for Nemotron 3 Ultra proof generation. SFT + RL specialist checkpoints, verification/refinement strategies. 🧮&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/max-sixty/worktrunk" target="_blank" rel="noopener noreferrer">worktrunk: CLI for Git Worktree Management in Parallel AI Agent Workflows&lt;/a>
+&lt;/strong> — CLI for Git worktree management in parallel AI agent workflows. Branch isolation and context switching across concurrent agent tasks. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/vxcontrol/pentagi" target="_blank" rel="noopener noreferrer">pentagi: Fully Autonomous AI Penetration Testing System&lt;/a>
+&lt;/strong> — Autonomous AI agent for penetration testing: recon, vuln scanning, exploit generation, automated reporting. Offensive security automation. ⚔️&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>When orchestrating parallel AI agent workflows, the instinct to fire ready turns immediately creates contention and wasted compute. Applying the tail-aware scheduling principle from &lt;a href="https://arxiv.org/abs/2609.10964" target="_blank" rel="noopener noreferrer">Decoupling Readiness from Release for Tail-Aware Scheduling of Agentic LLM Workflows&lt;/a>
+, you can decouple readiness from release by queuing turns based on actual preparedness rather than mere availability. Pair this with &lt;a href="https://github.com/max-sixty/worktrunk" target="_blank" rel="noopener noreferrer">worktrunk&lt;/a>
+’s Git worktree isolation: each agent instance lives in its own branch, preventing context bleed and enabling independent versioning of prompts, dependencies, and model weights. Then, use &lt;a href="https://pypi.org/project/agentknit/0.1004.0/" target="_blank" rel="noopener noreferrer">agentknit&lt;/a>
+&amp;rsquo;s spec-driven tool framework to define exactly which endpoints and functions each worktree can invoke, with cache verification and deterministic execution to keep token usage predictable. The result is a fleet of edge- or cloud-deployed agents—whether running &lt;a href="https://huggingface.co/openbmb/MiniCPM5-2B-GGUF" target="_blank" rel="noopener noreferrer">MiniCPM5-2B-GGUF&lt;/a>
+ for on-device tool-calling or larger MOE models—where only fully ready agents proceed, ready turns queue under contention, and every spawning event is traced through a controlled spec. You get fewer blind executions, lower overall cost, and a clear upgrade path when models shift.&lt;/p></description></item><item><title>Tenkai Daily — September 11, 2026</title><link>https://tenkai.blog/posts/2026-09-11/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-09-11/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/dealignai/GLM-5.3-CYBERSECURITY-FP8" target="_blank" rel="noopener noreferrer">GLM-5.3-CYBERSECURITY-FP8&lt;/a>
 &lt;/strong> — 🤖 An FP8-quantized, abliterated GLM-5.3-MOE variant fine-tuned for cybersecurity work. Removes domain-specific refusal guardrails and supports red-teaming and pentest workflows in multiple languages.&lt;/li>
