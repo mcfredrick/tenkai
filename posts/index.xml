@@ -1,4 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tenkai</title><link>https://tenkai.blog/posts/</link><description>Recent content in Posts on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 12 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — September 12, 2026</title><link>https://tenkai.blog/posts/2026-09-12/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-09-12/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tenkai</title><link>https://tenkai.blog/posts/</link><description>Recent content in Posts on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 15 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — September 15, 2026</title><link>https://tenkai.blog/posts/2026-09-15/</link><pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-09-15/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/tencent/AuK" target="_blank" rel="noopener noreferrer">tencent/AuK&lt;/a>
+&lt;/strong> — Audio toolkit covering zero-shot TTS, voice cloning, source separation, and enhancement via instruction-guided diffusion. Useful if you need a one-stop speech processing stack without stitching together five separate repos.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/TokenRhythm/NeoHorse-1-4B" target="_blank" rel="noopener noreferrer">TokenRhythm/NeoHorse-1-4B&lt;/a>
+&lt;/strong> — 4B parameter model fine-tuned from Qwen3.5, focused on agentic tool-use, coding, and reasoning. Small enough to run locally, capable enough for technical tasks.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/ukisai/Swift-Qwen3.8-27b" target="_blank" rel="noopener noreferrer">ukisai/Swift-Qwen3.8-27b&lt;/a>
+&lt;/strong> — Token-efficient reasoning for Qwen3.8-27B with LoRA support. Targets reduced inference cost without tanking conversational quality — relevant if you&amp;rsquo;re burning budget on 27B deployments.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/nex-agi/Nex-N2.5-mini" target="_blank" rel="noopener noreferrer">nex-agi/Nex-N2.5-mini&lt;/a>
+&lt;/strong> — MoE multimodal model (image-text-to-text) built on Qwen3.5, Apache 2.0 licensed. Straightforward conversational AI deployment option with endpoints compatibility.&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/mlipaudit/0.1.7/" target="_blank" rel="noopener noreferrer">mlipaudit 0.1.7&lt;/a>
+&lt;/strong> — Benchmarks ML Interatomic Potentials with standardized test suites, energy/force metrics, and comparison frameworks. 0.1.7 adds more potential families, GPU acceleration flags, and export functionality.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/ellf-recipes-gpu/0.1.156/" target="_blank" rel="noopener noreferrer">ellf-recipes-gpu 0.1.156&lt;/a>
+&lt;/strong> — GPU-optimized training/inference recipes for spaCy-curated transformer models. Mixed-precision configs and benchmarked pipelines for CUDA hardware.&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.13356" target="_blank" rel="noopener noreferrer">ZGCM-1&lt;/a>
+&lt;/strong> — 7B dense model for math and agentic search with internal reasoning + external tool use. Fully open, efficiency-focused alternative to bloated larger models.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.13463" target="_blank" rel="noopener noreferrer">Root-Cause Attribution as Search&lt;/a>
+&lt;/strong> — Frames agent failure diagnosis as a continual search over execution logs. Automated RCA techniques that turn outcome signals into actionable fixes for long-horizon tasks.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.13470" target="_blank" rel="noopener noreferrer">OrchSLM&lt;/a>
+&lt;/strong> — Empirical study of SLM orchestration dynamics in agentic pipelines. Addresses latency, privacy, and compute trade-offs — useful if you&amp;rsquo;re running multiple small models instead of one big one.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.13491" target="_blank" rel="noopener noreferrer">Token Efficient Web Agents&lt;/a>
+&lt;/strong> — Models application UI behavior to cut token consumption during web agent task execution. Significant cost savings without tanking success rates.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.13171" target="_blank" rel="noopener noreferrer">Derivative-Fidelity Failure in PINNs&lt;/a>
+&lt;/strong> — Function-value accuracy ≠ derivative accuracy in physics-informed neural networks. Strengthened benchmark evidence and training dynamics analysis for scientific ML reliability concerns.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.13202" target="_blank" rel="noopener noreferrer">Do Tabular Foundation Models Still Need Feature Engineering?&lt;/a>
+&lt;/strong> — Empirical evaluation across tabular benchmarks. TFMs reduce engineering overhead but feature construction still matters for peak performance on heterogeneous structured data.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/danny-avila/LibreChat" target="_blank" rel="noopener noreferrer">LibreChat&lt;/a>
+&lt;/strong> — Self-hosted ChatGPT clone supporting OpenAI, Anthropic, Groq, Gemini, MCP, langchain, code interpreter, DALL-E-3. Multi-user auth and model switching. Good drop-in for teams wanting local control over their LLM playground.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/earendil-works/pi" target="_blank" rel="noopener noreferrer">pi&lt;/a>
+&lt;/strong> — Lightweight AI agent toolkit with unified LLM API abstraction, structured agent loop, terminal UI, and coding agent CLI. Built for rapid prototyping of agent-driven workflows.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/cline/cline/releases/tag/sdk%2Fshared%2Fv0.0.83" target="_blank" rel="noopener noreferrer">cline SDK shared v0.0.83&lt;/a>
+&lt;/strong> — Hub-managed agent plugins discovered from &lt;code>~/.agents/plugins/*&lt;/code>, validated via &lt;code>plugin.json&lt;/code>. Skills exposed through the skills tool as &lt;code>plugin-name:skill-name&lt;/code>, with stdio and Streamable HTTP support.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>Here&amp;rsquo;s a thinking process:&lt;/p></description></item><item><title>Tenkai Daily — September 12, 2026</title><link>https://tenkai.blog/posts/2026-09-12/</link><pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-09-12/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/Edge0/Edge0-35B-A3B-preview" target="_blank" rel="noopener noreferrer">Edge0/Edge0-35B-A3B-preview&lt;/a>
 &lt;/strong> — MLX-optimized 35B MOE with 4-bit precision, edge prerouter, and SSD-offload for Apple Silicon. Apache 2.0, good for on-device conversational workloads without melting your laptop. 🤖&lt;/li>
