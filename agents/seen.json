@@ -1,54 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/tirth8205/code-review-graph",
-      "date": "2026-07-18"
-    },
-    {
-      "url": "https://huggingface.co/prism-ml/Bonsai-27B-mlx-1bit",
-      "date": "2026-07-18"
-    },
-    {
-      "url": "https://huggingface.co/Wan-AI/Wan-Dancer-14B",
-      "date": "2026-07-18"
-    },
-    {
-      "url": "https://huggingface.co/GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-GGUF",
-      "date": "2026-07-18"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.214",
-      "date": "2026-07-18"
-    },
-    {
-      "url": "https://pypi.org/project/tpu-inference/0.24.0.dev20260718/",
-      "date": "2026-07-18"
-    },
-    {
-      "url": "https://pypi.org/project/nemo-fabric-adapters-deepagents/0.1.0a20260718/",
-      "date": "2026-07-18"
-    },
-    {
-      "url": "https://pypi.org/project/mcp-embedding-daemon/1.20.0/",
-      "date": "2026-07-18"
-    },
-    {
-      "url": "https://pypi.org/project/clauderizer/1.11.0/",
-      "date": "2026-07-18"
-    },
-    {
-      "url": "https://pypi.org/project/boost-skill-cli/1.0.22/",
-      "date": "2026-07-18"
-    },
-    {
-      "url": "https://pypi.org/project/attacklm/0.17.5/",
-      "date": "2026-07-18"
-    },
-    {
-      "url": "https://pypi.org/project/yeaboi/2.13.0/",
-      "date": "2026-07-18"
-    },
-    {
       "url": "https://github.com/elder-plinius/G0DM0D3",
       "date": "2026-07-19"
     },
@@ -4895,6 +4847,122 @@
     {
       "url": "https://pypi.org/project/mlipaudit/0.1.7/",
       "date": "2026-09-15"
+    },
+    {
+      "url": "https://github.com/Tencent/WeKnora",
+      "date": "2026-09-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.16129",
+      "date": "2026-09-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.16145",
+      "date": "2026-09-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.16163",
+      "date": "2026-09-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.16189",
+      "date": "2026-09-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.16206",
+      "date": "2026-09-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.16213",
+      "date": "2026-09-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.16215",
+      "date": "2026-09-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.16232",
+      "date": "2026-09-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.16245",
+      "date": "2026-09-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.16247",
+      "date": "2026-09-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.16251",
+      "date": "2026-09-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.16258",
+      "date": "2026-09-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.16298",
+      "date": "2026-09-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.16301",
+      "date": "2026-09-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.16305",
+      "date": "2026-09-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.16054",
+      "date": "2026-09-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.16056",
+      "date": "2026-09-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.16057",
+      "date": "2026-09-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.16058",
+      "date": "2026-09-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.16060",
+      "date": "2026-09-16"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.273",
+      "date": "2026-09-16"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.271",
+      "date": "2026-09-16"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.83",
+      "date": "2026-09-16"
+    },
+    {
+      "url": "https://pypi.org/project/mstar-ai/0.2.1/",
+      "date": "2026-09-16"
+    },
+    {
+      "url": "https://pypi.org/project/lexsi-sdk/0.1.59/",
+      "date": "2026-09-16"
+    },
+    {
+      "url": "https://pypi.org/project/kainguru-sdk/0.2.14.dev0/",
+      "date": "2026-09-16"
+    },
+    {
+      "url": "https://pypi.org/project/pitloom/0.18.0/",
+      "date": "2026-09-16"
+    },
+    {
+      "url": "https://pypi.org/project/dtflow/0.8.2/",
+      "date": "2026-09-16"
     }
   ]
 }
