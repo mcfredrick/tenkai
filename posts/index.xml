@@ -1,4 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tenkai</title><link>https://tenkai.blog/posts/</link><description>Recent content in Posts on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 15 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — September 15, 2026</title><link>https://tenkai.blog/posts/2026-09-15/</link><pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-09-15/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tenkai</title><link>https://tenkai.blog/posts/</link><description>Recent content in Posts on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 16 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — September 16, 2026</title><link>https://tenkai.blog/posts/2026-09-16/</link><pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-09-16/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/mstar-ai/0.2.1/" target="_blank" rel="noopener noreferrer">mstar-ai 0.2.1&lt;/a>
+&lt;/strong> — Multimodal inference engine for efficient execution of text, image, and other modality models with low-latency serving and deployment.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/kainguru-sdk/0.2.14.dev0/" target="_blank" rel="noopener noreferrer">kainguru-sdk 0.2.14.dev0&lt;/a>
+&lt;/strong> — Python SDK for the Kainguru ML platform, streamlining model execution, fine-tuning, and deployment workflows.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/pitloom/0.18.0/" target="_blank" rel="noopener noreferrer">pitloom 0.18.0&lt;/a>
+&lt;/strong> — SPDX 3.0 SBOM generator for Python projects and AI models with Hatchling build-hook support, useful for dependency tracking and compliance scanning in ML workloads.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/dtflow/0.8.2/" target="_blank" rel="noopener noreferrer">dtflow 0.8.2&lt;/a>
+&lt;/strong> — Data transformation tool supporting SFT, RLHF, and pretraining formats with standardized preprocessing pipelines for consistent dataset preparation.&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.16129" target="_blank" rel="noopener noreferrer">Optimal Pruning for Neural Architectures using Fisher Information Distances&lt;/a>
+&lt;/strong> — Parameter pruning via differential-geometric distance in model space; a geometric take on which weights to zero out.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.16145" target="_blank" rel="noopener noreferrer">Safe Error Correction for Language Models: Frozen-Base Adjustment with Capability Preservation&lt;/a>
+&lt;/strong> — CRN v2 adds a ~34M parameter logit-level correction module to frozen LMs, fixing errors without degrading base capabilities — practical if you&amp;rsquo;re stuck with a model you can&amp;rsquo;t retrain.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.16163" target="_blank" rel="noopener noreferrer">GPEvac: GNN-Based PPO for Adaptive Evacuation Routing&lt;/a>
+&lt;/strong> — GNN + PPO for real-time evacuation routing during shooting events, accounting for adversarial uncertainty and crowding dynamics.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.16189" target="_blank" rel="noopener noreferrer">Position: AI Is Not Ready for Strategic Conflicts&lt;/a>
+&lt;/strong> — Argues LMs are insufficient for high-stakes strategic wargames involving adversaries, escalation, and crisis response; a reality check on simulation hype.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.16206" target="_blank" rel="noopener noreferrer">Calibrate, Then Route: Learned Request Routing for Disaggregated LLM Serving&lt;/a>
+&lt;/strong> — Measured study of routing in disaggregated LLM serving (DistServe, Splitwise, Mooncake), where prefill and decode sit on separate GPU pools.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.16213" target="_blank" rel="noopener noreferrer">AI and Biosecurity: Capabilities, Threat Pathways, and Governance&lt;/a>
+&lt;/strong> — Survey of AI&amp;rsquo;s role in biological research workflows, threat pathways, and defense-in-depth governance frameworks.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/Tencent/WeKnora" target="_blank" rel="noopener noreferrer">Tencent/WeKnora&lt;/a>
+&lt;/strong> — Open-source LLM knowledge platform for RAG and autonomous agents; transforms raw docs into queryable knowledge bases, reasoning agents, and self-maintaining wikis.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.273" target="_blank" rel="noopener noreferrer">Claude Code v2.1.273&lt;/a>
+&lt;/strong> — Adds LLM gateway request headers (x-claude-code-request-class, x-claude-code-agent-type, etc.) for better monitoring and instrumentation when routing through gateways.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.83" target="_blank" rel="noopener noreferrer">Cl SDK v0.0.83&lt;/a>
+&lt;/strong> — Hub-managed agent plugin discovery with skills exposed via the skills tool; supports stdio, Streamable HTTP, and SSE servers from mcp.json without extra config.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>Here&amp;rsquo;s a thinking process:&lt;/p></description></item><item><title>Tenkai Daily — September 15, 2026</title><link>https://tenkai.blog/posts/2026-09-15/</link><pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-09-15/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/tencent/AuK" target="_blank" rel="noopener noreferrer">tencent/AuK&lt;/a>
 &lt;/strong> — Audio toolkit covering zero-shot TTS, voice cloning, source separation, and enhancement via instruction-guided diffusion. Useful if you need a one-stop speech processing stack without stitching together five separate repos.&lt;/li>
