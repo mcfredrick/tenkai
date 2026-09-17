@@ -1,118 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/elder-plinius/G0DM0D3",
-      "date": "2026-07-19"
-    },
-    {
-      "url": "https://github.com/KnockOutEZ/wigolo",
-      "date": "2026-07-19"
-    },
-    {
-      "url": "https://github.com/affaan-m/ECC",
-      "date": "2026-07-19"
-    },
-    {
-      "url": "https://github.com/shareAI-lab/learn-claude-code",
-      "date": "2026-07-19"
-    },
-    {
-      "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-mlx-2bit",
-      "date": "2026-07-19"
-    },
-    {
-      "url": "https://huggingface.co/unsloth/inkling-GGUF",
-      "date": "2026-07-19"
-    },
-    {
-      "url": "https://www.npmjs.com/package/@joseairosa/recall",
-      "date": "2026-07-19"
-    },
-    {
-      "url": "https://github.com/stuzero/pg-mcp",
-      "date": "2026-07-19"
-    },
-    {
-      "url": "https://blender-mcp-psi.vercel.app/",
-      "date": "2026-07-19"
-    },
-    {
-      "url": "https://github.com/lastmile-ai/mcp-agent",
-      "date": "2026-07-19"
-    },
-    {
-      "url": "https://github.com/lharries/whatsapp-mcp",
-      "date": "2026-07-19"
-    },
-    {
-      "url": "https://github.com/jlumbroso/passage-of-time-mcp",
-      "date": "2026-07-19"
-    },
-    {
-      "url": "https://www.stephendiehl.com/posts/computer_algebra_mcp/",
-      "date": "2026-07-19"
-    },
-    {
-      "url": "https://colourmemory.com",
-      "date": "2026-07-19"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.215",
-      "date": "2026-07-19"
-    },
-    {
-      "url": "https://pypi.org/project/tensor-grep/1.81.20/",
-      "date": "2026-07-19"
-    },
-    {
-      "url": "https://pypi.org/project/traice-sdk/0.1.0/",
-      "date": "2026-07-19"
-    },
-    {
-      "url": "https://pypi.org/project/gpt-workflow/0.3.4/",
-      "date": "2026-07-19"
-    },
-    {
-      "url": "https://pypi.org/project/vmware-aiops/1.8.0/",
-      "date": "2026-07-19"
-    },
-    {
-      "url": "https://pypi.org/project/fabri/0.16.1/",
-      "date": "2026-07-19"
-    },
-    {
-      "url": "https://pypi.org/project/autogluon/1.5.1b20260719/",
-      "date": "2026-07-19"
-    },
-    {
-      "url": "https://pypi.org/project/autogluon-timeseries/1.5.1b20260719/",
-      "date": "2026-07-19"
-    },
-    {
-      "url": "https://pypi.org/project/autogluon-multimodal/1.5.1b20260719/",
-      "date": "2026-07-19"
-    },
-    {
-      "url": "https://pypi.org/project/autogluon-tabular/1.5.1b20260719/",
-      "date": "2026-07-19"
-    },
-    {
-      "url": "https://pypi.org/project/autogluon-features/1.5.1b20260719/",
-      "date": "2026-07-19"
-    },
-    {
-      "url": "https://pypi.org/project/autogluon-core/1.5.1b20260719/",
-      "date": "2026-07-19"
-    },
-    {
-      "url": "https://pypi.org/project/autogluon-common/1.5.1b20260719/",
-      "date": "2026-07-19"
-    },
-    {
-      "url": "https://pypi.org/project/autogovern/0.1.0/",
-      "date": "2026-07-19"
-    },
-    {
       "url": "https://github.com/kvcache-ai/ktransformers",
       "date": "2026-07-20"
     },
@@ -4963,6 +4851,114 @@
     {
       "url": "https://pypi.org/project/dtflow/0.8.2/",
       "date": "2026-09-16"
+    },
+    {
+      "url": "https://github.com/Tencent/BrowserSkill",
+      "date": "2026-09-17"
+    },
+    {
+      "url": "https://github.com/TencentCloud/Octop",
+      "date": "2026-09-17"
+    },
+    {
+      "url": "https://huggingface.co/dealignai/DeepSeek-V4.1-Flash-UNCENSORED-FP8",
+      "date": "2026-09-17"
+    },
+    {
+      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+      "date": "2026-09-17"
+    },
+    {
+      "url": "https://huggingface.co/openai-community/gpt2",
+      "date": "2026-09-17"
+    },
+    {
+      "url": "https://huggingface.co/Agnes-AI/Agnes-3.0-Flash",
+      "date": "2026-09-17"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.17699",
+      "date": "2026-09-17"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.17564",
+      "date": "2026-09-17"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.17652",
+      "date": "2026-09-17"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.17786",
+      "date": "2026-09-17"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.17631",
+      "date": "2026-09-17"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.17635",
+      "date": "2026-09-17"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.17688",
+      "date": "2026-09-17"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.17695",
+      "date": "2026-09-17"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.17637",
+      "date": "2026-09-17"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.17757",
+      "date": "2026-09-17"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.17775",
+      "date": "2026-09-17"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.17804",
+      "date": "2026-09-17"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.17560",
+      "date": "2026-09-17"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.17575",
+      "date": "2026-09-17"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.17686",
+      "date": "2026-09-17"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.17697",
+      "date": "2026-09-17"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.17653",
+      "date": "2026-09-17"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.17682",
+      "date": "2026-09-17"
+    },
+    {
+      "url": "https://pypi.org/project/matrx-batch/0.2.92/",
+      "date": "2026-09-17"
+    },
+    {
+      "url": "https://pypi.org/project/leai/0.3.5/",
+      "date": "2026-09-17"
+    },
+    {
+      "url": "https://pypi.org/project/ephemora-cell/1.0.3/",
+      "date": "2026-09-17"
     }
   ]
 }
