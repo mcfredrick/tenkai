@@ -1,154 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/kvcache-ai/ktransformers",
-      "date": "2026-07-20"
-    },
-    {
-      "url": "https://github.com/AstrBotDevs/AstrBot",
-      "date": "2026-07-20"
-    },
-    {
-      "url": "https://github.com/Canner/WrenAI",
-      "date": "2026-07-20"
-    },
-    {
-      "url": "https://github.com/router-for-me/CLIProxyAPI",
-      "date": "2026-07-20"
-    },
-    {
-      "url": "https://github.com/sickn33/agentic-awesome-skills",
-      "date": "2026-07-20"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.15281",
-      "date": "2026-07-20"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.15367",
-      "date": "2026-07-20"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.15439",
-      "date": "2026-07-20"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.15459",
-      "date": "2026-07-20"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.15550",
-      "date": "2026-07-20"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.15660",
-      "date": "2026-07-20"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.15456",
-      "date": "2026-07-20"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.15280",
-      "date": "2026-07-20"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.15314",
-      "date": "2026-07-20"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.15388",
-      "date": "2026-07-20"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.15418",
-      "date": "2026-07-20"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.15592",
-      "date": "2026-07-20"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.15647",
-      "date": "2026-07-20"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.15412",
-      "date": "2026-07-20"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.15421",
-      "date": "2026-07-20"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.15447",
-      "date": "2026-07-20"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.15449",
-      "date": "2026-07-20"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.15457",
-      "date": "2026-07-20"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.15467",
-      "date": "2026-07-20"
-    },
-    {
-      "url": "https://github.com/Aherontas/Pycon_Greece_2025_Presentation_Agents",
-      "date": "2026-07-20"
-    },
-    {
-      "url": "https://norahsakal.com/blog/mcp-vs-api-model-context-protocol-explained/",
-      "date": "2026-07-20"
-    },
-    {
-      "url": "https://github.com/apify/mcp-cli",
-      "date": "2026-07-20"
-    },
-    {
-      "url": "https://news.ycombinator.com/item?id=46220577",
-      "date": "2026-07-20"
-    },
-    {
-      "url": "https://github.com/ahujasid/ableton-mcp",
-      "date": "2026-07-20"
-    },
-    {
-      "url": "https://pypi.org/project/team-harness/0.6.1/",
-      "date": "2026-07-20"
-    },
-    {
-      "url": "https://pypi.org/project/teenyfactories/0.1.0.dev20260720/",
-      "date": "2026-07-20"
-    },
-    {
-      "url": "https://pypi.org/project/marona/0.8.5/",
-      "date": "2026-07-20"
-    },
-    {
-      "url": "https://pypi.org/project/django-orm-lens/1.2.1/",
-      "date": "2026-07-20"
-    },
-    {
-      "url": "https://pypi.org/project/bollard-ai/0.3.0/",
-      "date": "2026-07-20"
-    },
-    {
-      "url": "https://pypi.org/project/openkb/0.4.5/",
-      "date": "2026-07-20"
-    },
-    {
-      "url": "https://pypi.org/project/reefiki/0.2.2/",
-      "date": "2026-07-20"
-    },
-    {
-      "url": "https://pypi.org/project/utim-cli/1.47.8/",
-      "date": "2026-07-20"
-    },
-    {
       "url": "https://github.com/handy-computer/transcribe.cpp",
       "date": "2026-07-21"
     },
@@ -4959,6 +4811,222 @@
     {
       "url": "https://pypi.org/project/ephemora-cell/1.0.3/",
       "date": "2026-09-17"
+    },
+    {
+      "url": "https://github.com/Fission-AI/OpenSpec",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://github.com/supermemoryai/supermemory",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://github.com/affaan-m/ECC",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://github.com/shareAI-lab/learn-claude-code",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://github.com/hesreallyhim/awesome-claude-code",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://github.com/CherryHQ/cherry-studio",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://github.com/jeecgboot/JeecgBoot",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://huggingface.co/harshatheg/Qwen-2.5-1B-RLCD",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://huggingface.co/ukisai/Swift-Qwen3.8-27B-GGUF",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.19170",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.19203",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.19244",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.19387",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.19391",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.19425",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.19465",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.19472",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.19513",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.19515",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.19519",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.19209",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.19213",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.19242",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.19243",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.19279",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.19288",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.19337",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.19356",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.19363",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.19383",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.19414",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://www.npmjs.com/package/@joseairosa/recall",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://github.com/stuzero/pg-mcp",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://blender-mcp-psi.vercel.app/",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://github.com/lastmile-ai/mcp-agent",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://github.com/lharries/whatsapp-mcp",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://github.com/jlumbroso/passage-of-time-mcp",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://www.stephendiehl.com/posts/computer_algebra_mcp/",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.276",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.274",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.31",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.275",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.51.0",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.32",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/v4.1.19",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://pypi.org/project/kagent-openai/1.0.0a1/",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://pypi.org/project/pbi-cli-tool/3.12.0/",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://pypi.org/project/acgs-lite/3.0.0/",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://pypi.org/project/pentachrome-plugin/0.15.0/",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://pypi.org/project/pyfixer-ai/0.4.0/",
+      "date": "2026-09-18"
+    },
+    {
+      "url": "https://pypi.org/project/gatekeeper-solana/0.1.0/",
+      "date": "2026-09-18"
     }
   ]
 }
