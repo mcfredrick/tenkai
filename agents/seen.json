@@ -1,98 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/handy-computer/transcribe.cpp",
-      "date": "2026-07-21"
-    },
-    {
-      "url": "https://github.com/moonshine-ai/moonshine",
-      "date": "2026-07-21"
-    },
-    {
-      "url": "https://github.com/Imbad0202/academic-research-skills",
-      "date": "2026-07-21"
-    },
-    {
-      "url": "https://huggingface.co/openbmb/MiniCPM-RobotManip",
-      "date": "2026-07-21"
-    },
-    {
-      "url": "https://huggingface.co/openbmb/MiniCPM-RobotTrack",
-      "date": "2026-07-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.16195",
-      "date": "2026-07-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.16199",
-      "date": "2026-07-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.16200",
-      "date": "2026-07-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.16201",
-      "date": "2026-07-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.16204",
-      "date": "2026-07-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.16206",
-      "date": "2026-07-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.16208",
-      "date": "2026-07-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.16209",
-      "date": "2026-07-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.16222",
-      "date": "2026-07-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.16228",
-      "date": "2026-07-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.16231",
-      "date": "2026-07-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.16232",
-      "date": "2026-07-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.16235",
-      "date": "2026-07-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.16237",
-      "date": "2026-07-21"
-    },
-    {
-      "url": "https://pypi.org/project/gpt-workflow/0.4.0/",
-      "date": "2026-07-21"
-    },
-    {
-      "url": "https://pypi.org/project/hound-mcp/11.1.0/",
-      "date": "2026-07-21"
-    },
-    {
-      "url": "https://pypi.org/project/ternary-qat/0.1.0/",
-      "date": "2026-07-21"
-    },
-    {
-      "url": "https://pypi.org/project/utim-cli/1.47.15/",
-      "date": "2026-07-21"
-    },
-    {
       "url": "https://github.com/dottxt-ai/outlines",
       "date": "2026-07-22"
     },
@@ -5027,6 +4935,82 @@
     {
       "url": "https://pypi.org/project/gatekeeper-solana/0.1.0/",
       "date": "2026-09-18"
+    },
+    {
+      "url": "https://github.com/higgsfield-ai/higgsfield",
+      "date": "2026-09-19"
+    },
+    {
+      "url": "https://github.com/docling-project/docling",
+      "date": "2026-09-19"
+    },
+    {
+      "url": "https://github.com/yynxxxxx/Codex-X",
+      "date": "2026-09-19"
+    },
+    {
+      "url": "https://github.com/router-for-me/CLIProxyAPI",
+      "date": "2026-09-19"
+    },
+    {
+      "url": "https://github.com/Aherontas/Pycon_Greece_2025_Presentation_Agents",
+      "date": "2026-09-19"
+    },
+    {
+      "url": "https://norahsakal.com/blog/mcp-vs-api-model-context-protocol-explained/",
+      "date": "2026-09-19"
+    },
+    {
+      "url": "https://github.com/apify/mcp-cli",
+      "date": "2026-09-19"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=46220577",
+      "date": "2026-09-19"
+    },
+    {
+      "url": "https://github.com/ahujasid/ableton-mcp",
+      "date": "2026-09-19"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.278",
+      "date": "2026-09-19"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.277",
+      "date": "2026-09-19"
+    },
+    {
+      "url": "https://pypi.org/project/vidknot/0.6.8/",
+      "date": "2026-09-19"
+    },
+    {
+      "url": "https://pypi.org/project/cgh/0.13.0/",
+      "date": "2026-09-19"
+    },
+    {
+      "url": "https://pypi.org/project/convolvger/0.3.0/",
+      "date": "2026-09-19"
+    },
+    {
+      "url": "https://pypi.org/project/slopvac/2.7.0/",
+      "date": "2026-09-19"
+    },
+    {
+      "url": "https://pypi.org/project/flowproof/0.23.9/",
+      "date": "2026-09-19"
+    },
+    {
+      "url": "https://pypi.org/project/vllm-cpu-nightly/0.29.1.dev202609191028/",
+      "date": "2026-09-19"
+    },
+    {
+      "url": "https://pypi.org/project/funcyflows/0.2.1/",
+      "date": "2026-09-19"
+    },
+    {
+      "url": "https://pypi.org/project/sadhan/0.1.0a1/",
+      "date": "2026-09-19"
     }
   ]
 }
