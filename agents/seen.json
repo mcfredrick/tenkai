@@ -1,106 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/dottxt-ai/outlines",
-      "date": "2026-07-22"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.18241",
-      "date": "2026-07-22"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.18242",
-      "date": "2026-07-22"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.18243",
-      "date": "2026-07-22"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.18246",
-      "date": "2026-07-22"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.18253",
-      "date": "2026-07-22"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.18255",
-      "date": "2026-07-22"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.18256",
-      "date": "2026-07-22"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.18258",
-      "date": "2026-07-22"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.18259",
-      "date": "2026-07-22"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.18278",
-      "date": "2026-07-22"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.18280",
-      "date": "2026-07-22"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.18284",
-      "date": "2026-07-22"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.18285",
-      "date": "2026-07-22"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.18287",
-      "date": "2026-07-22"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.18288",
-      "date": "2026-07-22"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.18290",
-      "date": "2026-07-22"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.18292",
-      "date": "2026-07-22"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.18293",
-      "date": "2026-07-22"
-    },
-    {
-      "url": "https://pypi.org/project/codenexus-ai/1.0.2/",
-      "date": "2026-07-22"
-    },
-    {
-      "url": "https://pypi.org/project/mkd-retriever/0.3.0/",
-      "date": "2026-07-22"
-    },
-    {
-      "url": "https://pypi.org/project/singularic/1.0.0/",
-      "date": "2026-07-22"
-    },
-    {
-      "url": "https://pypi.org/project/hybrid-frame/0.3.1/",
-      "date": "2026-07-22"
-    },
-    {
-      "url": "https://pypi.org/project/grp-mcp/0.68.16/",
-      "date": "2026-07-22"
-    },
-    {
-      "url": "https://pypi.org/project/portable-ai/1.0.0/",
-      "date": "2026-07-22"
-    },
-    {
       "url": "https://huggingface.co/microsoft/Mage-Flow",
       "date": "2026-07-23"
     },
@@ -5011,6 +4911,42 @@
     {
       "url": "https://pypi.org/project/sadhan/0.1.0a1/",
       "date": "2026-09-19"
+    },
+    {
+      "url": "https://pypi.org/project/hazzel/1.5.3/",
+      "date": "2026-09-20"
+    },
+    {
+      "url": "https://pypi.org/project/seedance-client/1.0.1/",
+      "date": "2026-09-20"
+    },
+    {
+      "url": "https://pypi.org/project/gemini-omni-client/1.0.1/",
+      "date": "2026-09-20"
+    },
+    {
+      "url": "https://pypi.org/project/minimax-h3/1.0.1/",
+      "date": "2026-09-20"
+    },
+    {
+      "url": "https://pypi.org/project/hol-guard/3.0.193/",
+      "date": "2026-09-20"
+    },
+    {
+      "url": "https://pypi.org/project/smartmemory-core/1.4.104/",
+      "date": "2026-09-20"
+    },
+    {
+      "url": "https://pypi.org/project/claude-token-saver/1.6.0/",
+      "date": "2026-09-20"
+    },
+    {
+      "url": "https://pypi.org/project/remagent/1.1.1/",
+      "date": "2026-09-20"
+    },
+    {
+      "url": "https://pypi.org/project/fde-framework/0.1.31/",
+      "date": "2026-09-20"
     }
   ]
 }
