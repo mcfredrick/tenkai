@@ -1,4 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Papers on Tenkai</title><link>https://tenkai.blog/tags/papers/</link><description>Recent content in Papers on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 18 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/papers/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — September 18, 2026</title><link>https://tenkai.blog/posts/2026-09-18/</link><pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-09-18/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Papers on Tenkai</title><link>https://tenkai.blog/tags/papers/</link><description>Recent content in Papers on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 21 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/papers/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — September 21, 2026</title><link>https://tenkai.blog/posts/2026-09-21/</link><pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-09-21/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-mlx-2bit" target="_blank" rel="noopener noreferrer">Ternary-Bonsai-2-27B MLX 2-Bit Quantization&lt;/a>
+&lt;/strong> — A ternary 2-bit Qwen3.8-27B running on MLX with prism Hadamard attention and CUDA/Metal hybrid acceleration. Runs on Apple Silicon with tiny memory footprint, so you can finally do local LLM stuff without a server farm. 🤖&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/abenzerps/Qwen-Image-2.1-GGUF" target="_blank" rel="noopener noreferrer">Qwen-Image-2.1 GGUF Quantization&lt;/a>
+&lt;/strong> — GGUF-quantized Qwen-Image 2.1 for on-device text-to-image via ComfyUI-GGUF. Cuts VRAM needs so consumer hardware can actually generate images instead of just crashing. 🖼️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/Qwen/Qwen-Image-2.1" target="_blank" rel="noopener noreferrer">Qwen-Image 2.1 Release&lt;/a>
+&lt;/strong> — Adds text-to-image and editing to Diffusers with RGBA output and multimodal generation. Standard diffusion workflow, but now Qwen can spit out images with alpha channels. 🎨&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/AlexWortega/openjev" target="_blank" rel="noopener noreferrer">Qwen3.5 Reranker and Cross-Encoder&lt;/a>
+&lt;/strong> — Qwen3.5-based cross-encoder and reranker for NLI and text-classification. Better retrieval in image-text pipelines without training a new backbone. 🔍&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/zhouxiaoka/autoclip" target="_blank" rel="noopener noreferrer">AutoClip: AI-powered video highlight extraction and clipping tool&lt;/a>
+&lt;/strong> — CV and temporal attention models that auto-detect highlight clips from raw video. Integrates with open-source video LLMs and does frame-level relevance scoring. 🎬&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.20888" target="_blank" rel="noopener noreferrer">Elastic Threshold Attention: Learned Contextual Sparsity for Long-Context Decoding&lt;/a>
+&lt;/strong> — ETA adaptively thresholds attention scores per token for learned contextual sparsity during long-context decoding. Reduces KV cache memory-bandwidth bottlenecks by only loading what&amp;rsquo;s necessary. 📉&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.20971" target="_blank" rel="noopener noreferrer">RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models&lt;/a>
+&lt;/strong> — Radius-bounded sparse attention to kill the O(n^2) prefill cost in long-context LLMs. Tackles &amp;ldquo;mean dilution&amp;rdquo; where block centroids hide relevant tokens in irrelevant noise. 🎯&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.21096" target="_blank" rel="noopener noreferrer">Detecting Hallucination in LLMs: Tracing the Topological Signatures of Impaired Context Sharing&lt;/a>
+&lt;/strong> — Uses Forman-Ricci curvature of attention graphs to spot structural info bottlenecks and hallucination. Captures semi-local curvature shifts and global topology changes. 🧠&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.21113" target="_blank" rel="noopener noreferrer">Decoupling Internal Representational Changes and Causal Importance in Fine-Tuned Large Language Models&lt;/a>
+&lt;/strong> — Probes how fine-tuning messes with internal representations and attention patterns, then decouples representational drift from causal importance via intervention-based attribution. 🔬&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.21139" target="_blank" rel="noopener noreferrer">TinyCeNN-LM: Quality-Gated Conversion of Pretrained Attention with CeNN-Inspired Cellular-Recurrent Layers&lt;/a>
+&lt;/strong> — Post-training framework replacing pretrained attention with CeNN-inspired cellular-recurrent layers with bounded local processing. Quality-gated routing and fusion to preserve compatibility. 🧬&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.21157" target="_blank" rel="noopener noreferrer">Can Agents Design Better Chips with a Higher Level Abstraction?&lt;/a>
+&lt;/strong> — Compares four chip design flows using LLM agents: Direct RTL, Agent-based HLS, Post-Compiler HLS Refinement, Post-HLS RTL Refinement. Higher-level abstractions + post-compiler refinement win on speed vs quality trade-off. 🏗️&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/Crosstalk-Solutions/project-nomad" target="_blank" rel="noopener noreferrer">Project NOMAD: Offline-first knowledge server with optional local AI&lt;/a>
+&lt;/strong> — Offline knowledge platform with Wikipedia, books, courses, and maps, plus modular local LLM integration for RAG without internet. Private, reproducible AI-assisted workflows. 📚&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>Here&amp;rsquo;s a thinking process:&lt;/p></description></item><item><title>Tenkai Daily — September 18, 2026</title><link>https://tenkai.blog/posts/2026-09-18/</link><pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-09-18/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;p>&lt;strong>&lt;a href="https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf" target="_blank" rel="noopener noreferrer">Ternary-Bonsai-2-27B: Ternary 2-bit Qwen3.8-27B GGUF&lt;/a>
 &lt;/strong> — Ternary 2-bit quantization of Qwen3.8-27B in GGUF, tuned for llama.cpp with CUDA and Metal. Hybrid attention keeps things interesting; if your deployment target is a phone or laptop, this is worth a look. 🤖&lt;/p>
 &lt;p>&lt;strong>&lt;a href="https://huggingface.co/harshatheg/Qwen-2.5-1B-RLCD" target="_blank" rel="noopener noreferrer">Qwen-2.5-1B-RLCD: MLX structured generation with parallel decoding&lt;/a>
