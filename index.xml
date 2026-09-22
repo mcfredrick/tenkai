@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tenkai</title><link>https://tenkai.blog/</link><description>Recent content on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 21 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — September 21, 2026</title><link>https://tenkai.blog/posts/2026-09-21/</link><pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-09-21/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tenkai</title><link>https://tenkai.blog/</link><description>Recent content on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 22 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — September 22, 2026</title><link>https://tenkai.blog/posts/2026-09-22/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-09-22/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anomalyco/opencode/releases/tag/v1.18.32" target="_blank" rel="noopener noreferrer">Opencode v1.18.32&lt;/a>
+&lt;/strong> — Bedrock image attachments now only hoisted for Claude, Nova, and Llama 4 (saving tokens on models that don&amp;rsquo;t need them). Together AI streaming usage reporting fixed — finally accurate token counts.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/awex/0.8.2/" target="_blank" rel="noopener noreferrer">awex 0.8.2&lt;/a>
+&lt;/strong> — Syncs neural network weights between RL training and inference with low latency. If you&amp;rsquo;re running distributed RL in production, this aims to stop the consistency headaches.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/datacontract-x/0.1.9/" target="_blank" rel="noopener noreferrer">datacontract-x 0.1.9&lt;/a>
+&lt;/strong> — Data contracts, but AI-native. LLM-powered enrichment for descriptions, tags, and quality checks. Live import/apply workflows built on datacontract-cli for automated pipeline validation.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.85" target="_blank" rel="noopener noreferrer">Cline SDK v0.0.85&lt;/a>
+&lt;/strong> — When a model burns through its output token limit without producing usable tool calls, it now retries up to 3 times with appended reminders. Prevents premature run failures from reasoning-heavy responses.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/dream-num/univer" target="_blank" rel="noopener noreferrer">univer: Unified Office Runtime for AI Agents&lt;/a>
+&lt;/strong> — Spreadsheets, docs, slides, canvas, relational tables, PDF — all in one runtime. Built as a harness for AI agents doing office-style document manipulation and data processing.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/career-ops-hq/career-ops" target="_blank" rel="noopener noreferrer">career-ops-hq/career-ops&lt;/a>
+&lt;/strong> — 72k stars, runs in your local AI coding CLI. Scans job portals, scores listings A-H with a 1-5 global score, tailors your CV, tracks applications. Topics: ai-agent, ai-job-search, ats.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>If your AI coding agent keeps choking on multimodal inputs or hitting token ceilings mid-tool-call, start by upgrading to &lt;a href="https://github.com/anomalyco/opencode/releases/tag/v1.18.32" target="_blank" rel="noopener noreferrer">opencode v1.18.32&lt;/a>
+, which hoists Bedrock image attachments only for Claude, Nova, and Llama 4, silently trimming waste for models that don&amp;rsquo;t need them. Pair that with &lt;a href="https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.85" target="_blank" rel="noopener noreferrer">cline sdk v0.0.85&lt;/a>
+, which now retries up to three times with appended reminders when a model burns through its output limit without producing usable calls, turning premature failures into transient hiccups rather than hard stops. For any downstream code or data the agent spits out, wrap the workflow with &lt;a href="https://pypi.org/project/datacontract-x/0.1.9/" target="_blank" rel="noopener noreferrer">datacontract-x 0.1.9&lt;/a>
+, whose LLM-powered enrichment and live import&lt;/p></description></item><item><title>Tenkai Daily — September 21, 2026</title><link>https://tenkai.blog/posts/2026-09-21/</link><pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-09-21/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-mlx-2bit" target="_blank" rel="noopener noreferrer">Ternary-Bonsai-2-27B MLX 2-Bit Quantization&lt;/a>
 &lt;/strong> — A ternary 2-bit Qwen3.8-27B running on MLX with prism Hadamard attention and CUDA/Metal hybrid acceleration. Runs on Apple Silicon with tiny memory footprint, so you can finally do local LLM stuff without a server farm. 🤖&lt;/li>
