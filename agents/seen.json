@@ -1,106 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/alibaba/open-code-review",
-      "date": "2026-07-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.20466",
-      "date": "2026-07-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.20467",
-      "date": "2026-07-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.20468",
-      "date": "2026-07-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.20475",
-      "date": "2026-07-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.20492",
-      "date": "2026-07-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.20472",
-      "date": "2026-07-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.20473",
-      "date": "2026-07-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.20517",
-      "date": "2026-07-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.20538",
-      "date": "2026-07-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.20532",
-      "date": "2026-07-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.20529",
-      "date": "2026-07-24"
-    },
-    {
-      "url": "https://lex-oracle.artificerworkshop.sk",
-      "date": "2026-07-24"
-    },
-    {
-      "url": "https://food.memoryapi.org",
-      "date": "2026-07-24"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.218",
-      "date": "2026-07-24"
-    },
-    {
-      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.44.0",
-      "date": "2026-07-24"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.4",
-      "date": "2026-07-24"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.4",
-      "date": "2026-07-24"
-    },
-    {
-      "url": "https://pypi.org/project/glia-agents/0.8.1/",
-      "date": "2026-07-24"
-    },
-    {
-      "url": "https://pypi.org/project/llmtrafficlens/0.1.6/",
-      "date": "2026-07-24"
-    },
-    {
-      "url": "https://pypi.org/project/hf-xet/1.5.3.dev0/",
-      "date": "2026-07-24"
-    },
-    {
-      "url": "https://pypi.org/project/dv-pipecat-ai/0.0.93.dev108/",
-      "date": "2026-07-24"
-    },
-    {
-      "url": "https://pypi.org/project/tpu-inference/0.25.0.dev20260724/",
-      "date": "2026-07-24"
-    },
-    {
-      "url": "https://pypi.org/project/mcp-grok/2026.7.24.0/",
-      "date": "2026-07-24"
-    },
-    {
-      "url": "https://pypi.org/project/everos/1.2.0rc1/",
-      "date": "2026-07-24"
-    },
-    {
       "url": "https://github.com/citrolabs/ego-lite",
       "date": "2026-07-25"
     },
@@ -4919,6 +4819,30 @@
     {
       "url": "https://arxiv.org/abs/2609.20982",
       "date": "2026-09-21"
+    },
+    {
+      "url": "https://github.com/dream-num/univer",
+      "date": "2026-09-22"
+    },
+    {
+      "url": "https://github.com/career-ops-hq/career-ops",
+      "date": "2026-09-22"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.32",
+      "date": "2026-09-22"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.85",
+      "date": "2026-09-22"
+    },
+    {
+      "url": "https://pypi.org/project/awex/0.8.2/",
+      "date": "2026-09-22"
+    },
+    {
+      "url": "https://pypi.org/project/datacontract-x/0.1.9/",
+      "date": "2026-09-22"
     }
   ]
 }
