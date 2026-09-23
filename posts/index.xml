@@ -1,4 +1,51 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tenkai</title><link>https://tenkai.blog/posts/</link><description>Recent content in Posts on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 22 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — September 22, 2026</title><link>https://tenkai.blog/posts/2026-09-22/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-09-22/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tenkai</title><link>https://tenkai.blog/posts/</link><description>Recent content in Posts on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 23 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — September 23, 2026</title><link>https://tenkai.blog/posts/2026-09-23/</link><pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-09-23/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/convaiinnovations/laya" target="_blank" rel="noopener noreferrer">convaiinnovations/laya&lt;/a>
+&lt;/strong> — Qwen3.5-27B fine-tune trained with RLCD for classification routing, guardrails, and moderation. Apache 2.0, endpoints compatible. 🛡️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF" target="_blank" rel="noopener noreferrer">abenzerps/Qwen-Image-2.1-Uncensored-GGUF&lt;/a>
+&lt;/strong> — Uncensored GGUF quant of Qwen-Image-2.1 for comfyui text-to-image. License is restrictive, check before using. 🔓&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/Comfy-Org/Qwen-Image-2.1" target="_blank" rel="noopener noreferrer">Comfy-Org/Qwen-Image-2.1&lt;/a>
+&lt;/strong> — Official comfyui diffusion single-file for Qwen-Image-2.1. Straightforward integration if you&amp;rsquo;re already in that ecosystem. 🎨&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/Altworld/Hemmingway-1" target="_blank" rel="noopener noreferrer">Altworld/Hemmingway-1&lt;/a>
+&lt;/strong> — Qwen3.8-27B fine-tune tuned for creative writing and conversational chat. CC-BY-NC-4.0, so no commercial use. ✍️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL" target="_blank" rel="noopener noreferrer">XiaomiMiMo/MiMo-V2.6-Pro-RL&lt;/a>
+&lt;/strong> — MiMo V2.6 Pro with RL, multimodal (vision, audio, video understanding, agents). MIT license, fp8/8-bit support. 🚀&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Flash-RL" target="_blank" rel="noopener noreferrer">XiaomiMiMo/MiMo-V2.6-Flash-RL&lt;/a>
+&lt;/strong> — Flash variant of the above, same multimodal capabilities, lighter footprint. ⚡&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/macos-computer-use-kit/0.3.1/" target="_blank" rel="noopener noreferrer">macos-computer-use-kit 0.3.1&lt;/a>
+&lt;/strong> — AX-first macOS automation layer for AI agents. Accessibility trees, background input, on-device OCR, deterministic safety policy. No cursor needed. 🍎&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/akar/0.2.4/" target="_blank" rel="noopener noreferrer">akar 0.2.4&lt;/a>
+&lt;/strong> — Pure Rust embedded graph DB with Python bindings, built for AI agent memory. Graph-structured storage optimized for agentic workflows. 🗄️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/declaw/1.5.1/" target="_blank" rel="noopener noreferrer">declaw 1.5.1&lt;/a>
+&lt;/strong> — Secure runtime for AI agents: PII scanning, prompt injection defense, network isolation, egress filtering. Policy-driven safety at the execution layer. 🔒&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/vectros/0.45.0/" target="_blank" rel="noopener noreferrer">vectros 0.45.0&lt;/a>
+&lt;/strong> — AI platform SDK with hybrid search (vector+keyword), document ingestion, structured records, inference serving. Modular backend for RAG and agentic apps. 🔍&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/modelproof/1.0.1/" target="_blank" rel="noopener noreferrer">modelproof 1.0.1&lt;/a>
+&lt;/strong> — Client-side CLI that catches LLM spoofing, masking, and downgrading attacks by analyzing output distributions and behavioral signatures. No persistent storage needed. 🔎&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.22161" target="_blank" rel="noopener noreferrer">Didactic knowledge or Clinical Cases? How Data Types Shape Medical Large Language Models&lt;/a>
+&lt;/strong> — Probes how didactic vs. clinical training data differently shapes medical LLM capabilities. Relevant if you&amp;rsquo;re mixing data sources for domain-specific models. 📚&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.22277" target="_blank" rel="noopener noreferrer">An Affordable AI-Integrated Smart Cane for Multimodal Mobility Assistance of Visually Impaired Users&lt;/a>
+&lt;/strong> — Low-cost AI cane detecting elevated hazards and semantic context, avoiding expensive hardware or cloud dependency. Good example of edge-first assistive design. 🦯&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.22353" target="_blank" rel="noopener noreferrer">PAANI: On Device Visual Evidence Fusion and Explainable Guidance for River Robot Simulation&lt;/a>
+&lt;/strong> — On-device visual fusion for resource-constrained river monitoring robots, turning imperfect predictions into inspectable guidance. 🌊&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.22410" target="_blank" rel="noopener noreferrer">Learning 3D biophysical cell properties from 2D images and cell-population statistics&lt;/a>
+&lt;/strong> — Population-supervised framework inferring 3D cellular properties from 2D microscopy when only aggregate stats are available. Interesting semi-supervised approach. 🔬&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/strands-agents/harness-sdk" target="_blank" rel="noopener noreferrer">strands-agents/harness-sdk&lt;/a>
+&lt;/strong> — Production-grade open-source SDK for building AI agents end-to-end. Python and TypeScript, model-agnostic and cloud-agnostic, with modular orchestration, memory, and tool integration. 🧪&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/TNT-Likely/PanWatch" target="_blank" rel="noopener noreferrer">PanWatch: Self-Hosted AI Market Monitoring Agent&lt;/a>
+&lt;/strong> — Self-hosted financial monitoring agent using TradingAgents framework. Tracks A-shares, HK, and US stocks with portfolio management and cross-channel notifications. 📈&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>Here&amp;rsquo;s a thinking process:&lt;/p></description></item><item><title>Tenkai Daily — September 22, 2026</title><link>https://tenkai.blog/posts/2026-09-22/</link><pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-09-22/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://github.com/anomalyco/opencode/releases/tag/v1.18.32" target="_blank" rel="noopener noreferrer">Opencode v1.18.32&lt;/a>
 &lt;/strong> — Bedrock image attachments now only hoisted for Claude, Nova, and Llama 4 (saving tokens on models that don&amp;rsquo;t need them). Together AI streaming usage reporting fixed — finally accurate token counts.&lt;/li>
