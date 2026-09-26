@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev-Tools on Tenkai</title><link>https://tenkai.blog/tags/dev-tools/</link><description>Recent content in Dev-Tools on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 23 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/dev-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — September 23, 2026</title><link>https://tenkai.blog/posts/2026-09-23/</link><pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-09-23/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev-Tools on Tenkai</title><link>https://tenkai.blog/tags/dev-tools/</link><description>Recent content in Dev-Tools on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 26 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/dev-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — September 26, 2026</title><link>https://tenkai.blog/posts/2026-09-26/</link><pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-09-26/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/nvidia/Nemotron-3-Diarization" target="_blank" rel="noopener noreferrer">nvidia/Nemotron-3-Diarization&lt;/a>
+&lt;/strong> — NVIDIA&amp;rsquo;s streaming speaker diarization system integrates Nemo, SortFormer, and GGuF quantization across recent arXiv preprints, delivering real-time speaker tagging and audio-frame classification for production audio pipelines. 🤖&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/Edge0/Audio8-ASR-Infinite" target="_blank" rel="noopener noreferrer">Edge0/Audio8-ASR-Infinite&lt;/a>
+&lt;/strong> — Transformers-based ASR system enabling real-time streaming speech recognition in Chinese and English, with Apache 2.0 licensing and custom code support for multilingual deployment. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/Altworld/Hemingway-1" target="_blank" rel="noopener noreferrer">Altworld/Hemingway-1&lt;/a>
+&lt;/strong> — Qwen3.8-27B fine-tuned model for conversational chat and creative writing, released with endpoints compatibility and CC-BY-NC-4.0 license, targeting English-language interactive applications. 🤖&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/yandex/AliceAI-Foundation-80B-A3B-Base" target="_blank" rel="noopener noreferrer">yandex/AliceAI-Foundation-80B-A3B-Base&lt;/a>
+&lt;/strong> — MoE language model supporting Russian and English text generation with vllm optimization and Apache 2.0 licensing, built for large-scale deployment across Transformers and safetensors. 🛠️&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/NVIDIA/Model-Optimizer" target="_blank" rel="noopener noreferrer">NVIDIA Model-Optimizer: Unified SOTA Model Optimization Library&lt;/a>
+&lt;/strong> — Unified open-source library implementing state-of-the-art optimization techniques including quantization, distillation, pruning, NAS, and speculative decoding, compressing models for TensorRT-LLM and TensorRT deployment. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/triepick/0.1.0/" target="_blank" rel="noopener noreferrer">triepick 0.1.0&lt;/a>
+&lt;/strong> — Implements a trie-planned candidate scoring algorithm for user-managed vLLM deployments, optimizing token selection and batching efficiency in LLM serving systems while reducing computational overhead. 📦&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/closecode-ai/0.2.0/" target="_blank" rel="noopener noreferrer">closecode-ai 0.2.0&lt;/a>
+&lt;/strong> — Agentic terminal coding assistant framework built on LangGraph, OpenRouter, and MCP, enabling automated code generation and terminal interactions via LLM agents for programmable coding pipelines. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/promptdrift-ci/0.3.1/" target="_blank" rel="noopener noreferrer">promptdrift-ci 0.3.1&lt;/a>
+&lt;/strong> — CI-integrated framework for regression testing LLM prompts, automatically detecting prompt drift and behavioral shifts across model versions, temperature changes, or dataset modifications for stable production workflows. 🔧&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/Imbad0202/academic-research-skills" target="_blank" rel="noopener noreferrer">Imbad0202/academic-research-skills - Academic research pipeline for Claude Code&lt;/a>
+&lt;/strong> — Provides academic research skills for Claude Code covering the full pipeline from research → write → review → revise → finalize, automating literature reviews, peer review, and final paper generation. 📄&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/sickn33/agentic-awesome-skills" target="_blank" rel="noopener noreferrer">sickn33/agentic-awesome-skills - AAS Core agent-first control plane&lt;/a>
+&lt;/strong> — Local, agent-first control plane enabling complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,445+ agentic skills with CLI, local MCP, catalog, plugins, and Workbench for comprehensive agent management. 🤖&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/ruvnet/ruflo" target="_blank" rel="noopener noreferrer">ruvnet/ruflo - Original agent harness with multi-player swarms&lt;/a>
+&lt;/strong> — Original agent harness featuring adaptive memory, self-learning intelligence, federation, and vector RAG integration, supporting native Claude Code and Codex integration for deployment of intelligent multi-player swarms coordinating autonomous workflows. 🛠️&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>Here&amp;rsquo;s a thinking process:&lt;/p></description></item><item><title>Tenkai Daily — September 23, 2026</title><link>https://tenkai.blog/posts/2026-09-23/</link><pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-09-23/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/convaiinnovations/laya" target="_blank" rel="noopener noreferrer">convaiinnovations/laya&lt;/a>
 &lt;/strong> — Qwen3.5-27B fine-tune trained with RLCD for classification routing, guardrails, and moderation. Apache 2.0, endpoints compatible. 🛡️&lt;/li>
