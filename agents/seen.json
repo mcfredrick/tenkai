@@ -1,238 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://huggingface.co/fdtn-ai/antares-1b",
-      "date": "2026-07-26"
-    },
-    {
-      "url": "https://huggingface.co/owensong/Inflect-Micro-v2",
-      "date": "2026-07-26"
-    },
-    {
-      "url": "https://huggingface.co/unsloth/Laguna-S-2.1-GGUF",
-      "date": "2026-07-26"
-    },
-    {
-      "url": "https://news.ycombinator.com/item?id=43506068",
-      "date": "2026-07-26"
-    },
-    {
-      "url": "https://pypi.org/project/smcx/1.14.7/",
-      "date": "2026-07-26"
-    },
-    {
-      "url": "https://pypi.org/project/vaultspec-rag/0.3.11/",
-      "date": "2026-07-26"
-    },
-    {
-      "url": "https://pypi.org/project/pgmnemo-mcp/0.14.1/",
-      "date": "2026-07-26"
-    },
-    {
-      "url": "https://pypi.org/project/autogluon/1.5.1b20260726/",
-      "date": "2026-07-26"
-    },
-    {
-      "url": "https://pypi.org/project/iterate-ai/0.3.1/",
-      "date": "2026-07-26"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.21653",
-      "date": "2026-07-27"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.21861",
-      "date": "2026-07-27"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.21978",
-      "date": "2026-07-27"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.21981",
-      "date": "2026-07-27"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.21645",
-      "date": "2026-07-27"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.21644",
-      "date": "2026-07-27"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.21646",
-      "date": "2026-07-27"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.21673",
-      "date": "2026-07-27"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.21671",
-      "date": "2026-07-27"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.21619",
-      "date": "2026-07-27"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.21936",
-      "date": "2026-07-27"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.21758",
-      "date": "2026-07-27"
-    },
-    {
-      "url": "https://pypi.org/project/octop/0.9.15/",
-      "date": "2026-07-27"
-    },
-    {
-      "url": "https://pypi.org/project/brainiac-cli/0.19.15/",
-      "date": "2026-07-27"
-    },
-    {
-      "url": "https://pypi.org/project/vv-llm/0.3.110/",
-      "date": "2026-07-27"
-    },
-    {
-      "url": "https://pypi.org/project/shanquan/1.2.0/",
-      "date": "2026-07-27"
-    },
-    {
-      "url": "https://pypi.org/project/ado-vllm-performance/1.10.3/",
-      "date": "2026-07-27"
-    },
-    {
-      "url": "https://pypi.org/project/vv-agent/0.10.0/",
-      "date": "2026-07-27"
-    },
-    {
-      "url": "https://pypi.org/project/torchax/0.0.14.dev20260727/",
-      "date": "2026-07-27"
-    },
-    {
-      "url": "https://pypi.org/project/cendor-guardrails/1.6.1/",
-      "date": "2026-07-27"
-    },
-    {
-      "url": "https://pypi.org/project/cendor-core/1.14.2/",
-      "date": "2026-07-27"
-    },
-    {
-      "url": "https://pypi.org/project/cendor-cassette/1.1.1/",
-      "date": "2026-07-27"
-    },
-    {
-      "url": "https://pypi.org/project/lx-annotate/0.9.5/",
-      "date": "2026-07-27"
-    },
-    {
-      "url": "https://github.com/moeru-ai/airi",
-      "date": "2026-07-28"
-    },
-    {
-      "url": "https://huggingface.co/microsoft/Fara1.5-27B",
-      "date": "2026-07-28"
-    },
-    {
-      "url": "https://huggingface.co/baseten/GLM-5.2-Vision-NVFP4",
-      "date": "2026-07-28"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.22544",
-      "date": "2026-07-28"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.22548",
-      "date": "2026-07-28"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.22554",
-      "date": "2026-07-28"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.22555",
-      "date": "2026-07-28"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.22556",
-      "date": "2026-07-28"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.22562",
-      "date": "2026-07-28"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.22564",
-      "date": "2026-07-28"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.22565",
-      "date": "2026-07-28"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.22566",
-      "date": "2026-07-28"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.22568",
-      "date": "2026-07-28"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.22569",
-      "date": "2026-07-28"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.22570",
-      "date": "2026-07-28"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.22545",
-      "date": "2026-07-28"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.22711",
-      "date": "2026-07-28"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.22720",
-      "date": "2026-07-28"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.22724",
-      "date": "2026-07-28"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.22743",
-      "date": "2026-07-28"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.22769",
-      "date": "2026-07-28"
-    },
-    {
-      "url": "https://pypi.org/project/agent-inbox/0.24.0/",
-      "date": "2026-07-28"
-    },
-    {
-      "url": "https://pypi.org/project/helen-lang/1.29.14/",
-      "date": "2026-07-28"
-    },
-    {
-      "url": "https://pypi.org/project/privaite/0.4.1/",
-      "date": "2026-07-28"
-    },
-    {
-      "url": "https://pypi.org/project/maritime/0.7.0/",
-      "date": "2026-07-28"
-    },
-    {
-      "url": "https://pypi.org/project/ai-dynamo-runtime/1.4.0.dev20260728/",
-      "date": "2026-07-28"
-    },
-    {
       "url": "https://github.com/huggingface/speech-to-speech",
       "date": "2026-07-29"
     },
@@ -4959,6 +4727,50 @@
     {
       "url": "https://pypi.org/project/neural-state-architecture/0.6.0/",
       "date": "2026-09-23"
+    },
+    {
+      "url": "https://github.com/NVIDIA/Model-Optimizer",
+      "date": "2026-09-26"
+    },
+    {
+      "url": "https://github.com/sickn33/agentic-awesome-skills",
+      "date": "2026-09-26"
+    },
+    {
+      "url": "https://github.com/ruvnet/ruflo",
+      "date": "2026-09-26"
+    },
+    {
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "date": "2026-09-26"
+    },
+    {
+      "url": "https://huggingface.co/Altworld/Hemingway-1",
+      "date": "2026-09-26"
+    },
+    {
+      "url": "https://huggingface.co/Edge0/Audio8-ASR-Infinite",
+      "date": "2026-09-26"
+    },
+    {
+      "url": "https://huggingface.co/nvidia/Nemotron-3-Diarization",
+      "date": "2026-09-26"
+    },
+    {
+      "url": "https://huggingface.co/yandex/AliceAI-Foundation-80B-A3B-Base",
+      "date": "2026-09-26"
+    },
+    {
+      "url": "https://pypi.org/project/closecode-ai/0.2.0/",
+      "date": "2026-09-26"
+    },
+    {
+      "url": "https://pypi.org/project/triepick/0.1.0/",
+      "date": "2026-09-26"
+    },
+    {
+      "url": "https://pypi.org/project/promptdrift-ci/0.3.1/",
+      "date": "2026-09-26"
     }
   ]
 }
