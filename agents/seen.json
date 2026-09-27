@@ -1,70 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/huggingface/speech-to-speech",
-      "date": "2026-07-29"
-    },
-    {
-      "url": "https://github.com/different-ai/openwork",
-      "date": "2026-07-29"
-    },
-    {
-      "url": "https://github.com/maderix/ANE",
-      "date": "2026-07-29"
-    },
-    {
-      "url": "https://github.com/thedotmack/claude-mem",
-      "date": "2026-07-29"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.24762",
-      "date": "2026-07-29"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.24770",
-      "date": "2026-07-29"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.24771",
-      "date": "2026-07-29"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.24773",
-      "date": "2026-07-29"
-    },
-    {
-      "url": "https://www.creed.space",
-      "date": "2026-07-29"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.219",
-      "date": "2026-07-29"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.8",
-      "date": "2026-07-29"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.7",
-      "date": "2026-07-29"
-    },
-    {
-      "url": "https://pypi.org/project/django-pydantic-agent/0.4.3/",
-      "date": "2026-07-29"
-    },
-    {
-      "url": "https://pypi.org/project/django-ag-ui/0.26.2/",
-      "date": "2026-07-29"
-    },
-    {
-      "url": "https://pypi.org/project/corio/2.6.2/",
-      "date": "2026-07-29"
-    },
-    {
-      "url": "https://pypi.org/project/langguardx/0.4.0/",
-      "date": "2026-07-29"
-    },
-    {
       "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
       "date": "2026-07-30"
     },
@@ -4771,6 +4707,46 @@
     {
       "url": "https://pypi.org/project/promptdrift-ci/0.3.1/",
       "date": "2026-09-26"
+    },
+    {
+      "url": "https://huggingface.co/StarDoc-AI/TeleOCR",
+      "date": "2026-09-27"
+    },
+    {
+      "url": "https://huggingface.co/Contrastive-LM/CLM-v0.1-8B",
+      "date": "2026-09-27"
+    },
+    {
+      "url": "https://huggingface.co/Viggle/Qwen-Image-2.1-viggle-turbo",
+      "date": "2026-09-27"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.283",
+      "date": "2026-09-27"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.282",
+      "date": "2026-09-27"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.281",
+      "date": "2026-09-27"
+    },
+    {
+      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.52.0",
+      "date": "2026-09-27"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/v4.1.21",
+      "date": "2026-09-27"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.36",
+      "date": "2026-09-27"
+    },
+    {
+      "url": "https://pypi.org/project/laya-apple/1.6.0/",
+      "date": "2026-09-27"
     }
   ]
 }
