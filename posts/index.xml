@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tenkai</title><link>https://tenkai.blog/posts/</link><description>Recent content in Posts on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 26 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — September 26, 2026</title><link>https://tenkai.blog/posts/2026-09-26/</link><pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-09-26/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tenkai</title><link>https://tenkai.blog/posts/</link><description>Recent content in Posts on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 27 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — September 27, 2026</title><link>https://tenkai.blog/posts/2026-09-27/</link><pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-09-27/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/StarDoc-AI/TeleOCR" target="_blank" rel="noopener noreferrer">StarDoc-AI/TeleOCR&lt;/a>
+&lt;/strong> — Fine-tunes Qwen2.5-VL for end-to-end document OCR and parsing, with multilingual (zh/en) conversational queries over parsed content. Strong text-generation-inference accuracy across diverse layouts, integrates detection and recognition. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/Contrastive-LM/CLM-v0.1-8B" target="_blank" rel="noopener noreferrer">Contrastive-LM/CLM-v0.1-8B&lt;/a>
+&lt;/strong> — Contrastive learning framework on Qwen3-8B that trains a verifier and reranker for text ranking and agent decision-making, aligned with human preferences in retrieval tasks. Practical finetune for ranking/agent pipelines. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/Viggle/Qwen-Image-2.1-viggle-turbo" target="_blank" rel="noopener noreferrer">Viggle/Qwen-Image-2.1-viggle-turbo&lt;/a>
+&lt;/strong> — Turbo variant using few-step distillation (DMD) + LoRA for real-time text-to-image and image-editing with minimal quality drop. ComfyUI-optimized, practical for production distilla 🤖&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/laya-apple/1.6.0/" target="_blank" rel="noopener noreferrer">Correctness-validated heterogeneous Laya runtime for Apple Silicon&lt;/a>
+&lt;/strong> — Heterogeneous runtime with MLX GPU and Apple Neural Engine support, rigorous validation protocols for reliable AI/ML workloads on Apple Silicon. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.283" target="_blank" rel="noopener noreferrer">claude-code v2.1.283&lt;/a>
+&lt;/strong> — Gateway hint headers (&lt;code>x-claude-code-prompt-id&lt;/code>) for LLM gateways to group requests, opt-in via env var. &lt;code>availableModelsMatch&lt;/code> with exact mode for pinning model versions. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.281" target="_blank" rel="noopener noreferrer">claude-code v2.1.281&lt;/a>
+&lt;/strong> — Newer Claude Desktop keys support with &lt;code>blockReadsOutsideWorkingDirectories&lt;/code> and &lt;code>disableBypassPermissionsMode&lt;/code>. &lt;code>assume_role&lt;/code> for Bedrock via STS in another account. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/aaif-goose/goose/releases/tag/v1.52.0" target="_blank" rel="noopener noreferrer">goose v1.52.0&lt;/a>
+&lt;/strong> — Live voice conversations in desktop app, Decisions provider crate (OpenRouter + Jev), Z.AI Coding Plan with streaming tool calls for planning. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/cline/cline/releases/tag/v4.1.21" target="_blank" rel="noopener noreferrer">cline v4.1.21&lt;/a>
+&lt;/strong> — New ai&amp;amp; provider (OpenAI-compatible, Japan-served open-weight models), refreshed catalog to 6,386 models across 209 providers, default model changes for 19 providers including Claude Opus 5.5. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.282" target="_blank" rel="noopener noreferrer">claude-code v2.1.282&lt;/a>
+&lt;/strong> — &lt;code>maxProseWidth&lt;/code> to cap Claude&amp;rsquo;s prose in wide terminals (tables/code blocks unaffected). Startup notice and &lt;code>/status/claude doctor&lt;/code> for listing ignored/disabled telemetry vars. 🛠️&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>Here&amp;rsquo;s a thinking process:&lt;/p></description></item><item><title>Tenkai Daily — September 26, 2026</title><link>https://tenkai.blog/posts/2026-09-26/</link><pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-09-26/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/nvidia/Nemotron-3-Diarization" target="_blank" rel="noopener noreferrer">nvidia/Nemotron-3-Diarization&lt;/a>
 &lt;/strong> — NVIDIA&amp;rsquo;s streaming speaker diarization system integrates Nemo, SortFormer, and GGuF quantization across recent arXiv preprints, delivering real-time speaker tagging and audio-frame classification for production audio pipelines. 🤖&lt;/li>
