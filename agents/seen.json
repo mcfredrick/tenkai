@@ -1,78 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
-      "date": "2026-07-30"
-    },
-    {
-      "url": "https://huggingface.co/unsloth/Kimi-K3",
-      "date": "2026-07-30"
-    },
-    {
-      "url": "https://huggingface.co/nota-ai/Solar-Open2-250B-Nota-NVFP4",
-      "date": "2026-07-30"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.26094",
-      "date": "2026-07-30"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.26246",
-      "date": "2026-07-30"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.26253",
-      "date": "2026-07-30"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.26247",
-      "date": "2026-07-30"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.26339",
-      "date": "2026-07-30"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.26173",
-      "date": "2026-07-30"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.26298",
-      "date": "2026-07-30"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.26192",
-      "date": "2026-07-30"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.26278",
-      "date": "2026-07-30"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.24769",
-      "date": "2026-07-30"
-    },
-    {
-      "url": "https://pypi.org/project/huggingface-hub/1.26.0rc0/",
-      "date": "2026-07-30"
-    },
-    {
-      "url": "https://pypi.org/project/hf/1.26.0rc0/",
-      "date": "2026-07-30"
-    },
-    {
-      "url": "https://pypi.org/project/modelfuzz/0.3.3/",
-      "date": "2026-07-30"
-    },
-    {
-      "url": "https://pypi.org/project/xskill/0.6.29a3/",
-      "date": "2026-07-30"
-    },
-    {
-      "url": "https://pypi.org/project/hpc-agent-core/0.4.10/",
-      "date": "2026-07-30"
-    },
-    {
       "url": "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.6b",
       "date": "2026-07-31"
     },
@@ -4747,6 +4675,122 @@
     {
       "url": "https://pypi.org/project/laya-apple/1.6.0/",
       "date": "2026-09-27"
+    },
+    {
+      "url": "https://github.com/thedotmack/claude-mem",
+      "date": "2026-09-28"
+    },
+    {
+      "url": "https://huggingface.co/XingChen-AGI/TeleOCR",
+      "date": "2026-09-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.30325",
+      "date": "2026-09-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.30328",
+      "date": "2026-09-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.30341",
+      "date": "2026-09-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.30456",
+      "date": "2026-09-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.30469",
+      "date": "2026-09-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.30553",
+      "date": "2026-09-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.30563",
+      "date": "2026-09-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.30569",
+      "date": "2026-09-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.30287",
+      "date": "2026-09-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.30288",
+      "date": "2026-09-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.30289",
+      "date": "2026-09-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.30290",
+      "date": "2026-09-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.30293",
+      "date": "2026-09-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.30297",
+      "date": "2026-09-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.30298",
+      "date": "2026-09-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.30416",
+      "date": "2026-09-28"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.30439",
+      "date": "2026-09-28"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.33",
+      "date": "2026-09-28"
+    },
+    {
+      "url": "https://pypi.org/project/k9-aif/1.12.8/",
+      "date": "2026-09-28"
+    },
+    {
+      "url": "https://pypi.org/project/eval-judge-mcp/0.1.0/",
+      "date": "2026-09-28"
+    },
+    {
+      "url": "https://pypi.org/project/mylonite/0.10.4/",
+      "date": "2026-09-28"
+    },
+    {
+      "url": "https://pypi.org/project/disensa/0.1.0/",
+      "date": "2026-09-28"
+    },
+    {
+      "url": "https://pypi.org/project/tokdash/2.6.6/",
+      "date": "2026-09-28"
+    },
+    {
+      "url": "https://pypi.org/project/acco/1.23.0/",
+      "date": "2026-09-28"
+    },
+    {
+      "url": "https://pypi.org/project/shieldpi-mcp/0.5.1/",
+      "date": "2026-09-28"
+    },
+    {
+      "url": "https://pypi.org/project/shieldpi/0.7.1/",
+      "date": "2026-09-28"
+    },
+    {
+      "url": "https://pypi.org/project/pawnlogic/0.3.12/",
+      "date": "2026-09-28"
     }
   ]
 }
