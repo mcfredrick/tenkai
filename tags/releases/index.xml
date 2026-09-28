@@ -1,4 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Tenkai</title><link>https://tenkai.blog/tags/releases/</link><description>Recent content in Releases on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 27 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — September 27, 2026</title><link>https://tenkai.blog/posts/2026-09-27/</link><pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-09-27/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Tenkai</title><link>https://tenkai.blog/tags/releases/</link><description>Recent content in Releases on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 28 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — September 28, 2026</title><link>https://tenkai.blog/posts/2026-09-28/</link><pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-09-28/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/XingChen-AGI/TeleOCR" target="_blank" rel="noopener noreferrer">TeleOCR&lt;/a>
+&lt;/strong> — Multimodal OCR built on Qwen2_5_VL for conversational text extraction and grounding across Chinese and English documents. Backed by arXiv:2608.12898 on document-level multimodal reasoning. 📄&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anomalyco/opencode/releases/tag/v1.18.33" target="_blank" rel="noopener noreferrer">sst/opencode v1.18.33&lt;/a>
+&lt;/strong> — Cloudflare AI Gateway timeout handling fixes, better MCP browser error reporting, credential redaction in debug output. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/k9-aif/1.12.8/" target="_blank" rel="noopener noreferrer">k9-aif 1.12.8&lt;/a>
+&lt;/strong> — Architecture-first framework for governed multi-agent systems with structured interfaces, lifecycle management, and governance hooks. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/eval-judge-mcp/0.1.0/" target="_blank" rel="noopener noreferrer">eval-judge-mcp 0.1.0&lt;/a>
+&lt;/strong> — Output judging for agents/RAG without LLM-as-judge; uses the Laya framework for relevance, hallucination, and prompt injection checks. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/mylonite/0.10.4/" target="_blank" rel="noopener noreferrer">mylonite 0.10.4&lt;/a>
+&lt;/strong> — Autonomous AI agent security testing that generates regression tests from findings and gates CI pipelines on vulnerabilities. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/acco/1.23.0/" target="_blank" rel="noopener noreferrer">ACCO 1.23.0&lt;/a>
+&lt;/strong> — Context optimizer for AI coding agents: manages retrieval, memory, routing, and output to cut token overhead via MCP. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/shieldpi-mcp/0.5.1/" target="_blank" rel="noopener noreferrer">shieldpi-mcp 0.5.1&lt;/a>
+&lt;/strong> — MCP server for ShieldPi Watchtower: LLM security scans, guardrail generation, incident triage, and kill-chain reconstruction from IDEs. 🛠️&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.30328" target="_blank" rel="noopener noreferrer">When Is a Multi-Agent Code Judge Actually Grounded?&lt;/a>
+&lt;/strong> — Two label-free diagnostics for code judge grounding, plus a judge that abstains when it lacks evidence. Tackles overconfident LLM verification. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.30290" target="_blank" rel="noopener noreferrer">Auditing LLM-as-Judge Failures in Text-to-SQL&lt;/a>
+&lt;/strong> — Production pipeline audit finds Cohen&amp;rsquo;s kappa of 0.04 vs human gold; proposes repair strategies to reduce over-flagging. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2608.12893" target="_blank" rel="noopener noreferrer">Cartograph: Federated Tool Discovery&lt;/a>
+&lt;/strong> — MCP proxy that cuts tool discovery from O(n) to O(k) via operator attestation. Scalable agent tool usage in large environments. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.30325" target="_blank" rel="noopener noreferrer">ScopeBench&lt;/a>
+&lt;/strong> — Bench for whether agents respect engagement boundaries during autonomous pen testing under goal pressure. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.30553" target="_blank" rel="noopener noreferrer">TGL-NSGA-II for TinyML Architecture Search&lt;/a>
+&lt;/strong> — Teacher-guided fitness ranking approximation for expensive evolutionary NAS; keeps search quality while slashing compute. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2609.30287" target="_blank" rel="noopener noreferrer">AI-Text Detection Neurons in Frozen BERT&lt;/a>
+&lt;/strong> — Sparse probing and activation patching reveal specific BERT neurons driving AI-text detection across generator models. 📄&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/thedotmack/claude-mem" target="_blank" rel="noopener noreferrer">claude-mem&lt;/a>
+&lt;/strong> — Persistent context compression across agent sessions; captures, compresses, and re-injects relevant history into Claude Code, Codex, Gemini, and Copilot. Solves the multi-session memory gap. 🧠&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>The area of the triangle with vertices at (0,0), (3,4), and (5,0) can be found using the coordinate formula or base-height method. Using the base from (0,0) to (5,0) with length 5 and height 4 (the y-coordinate of the third vertex), the area is (\frac{1}{2} \times 5 \times 4 = 10).&lt;/p></description></item><item><title>Tenkai Daily — September 27, 2026</title><link>https://tenkai.blog/posts/2026-09-27/</link><pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-09-27/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/StarDoc-AI/TeleOCR" target="_blank" rel="noopener noreferrer">StarDoc-AI/TeleOCR&lt;/a>
 &lt;/strong> — Fine-tunes Qwen2.5-VL for end-to-end document OCR and parsing, with multilingual (zh/en) conversational queries over parsed content. Strong text-generation-inference accuracy across diverse layouts, integrates detection and recognition. 📄&lt;/li>
