@@ -1,122 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.6b",
-      "date": "2026-07-31"
-    },
-    {
-      "url": "https://huggingface.co/microsoft/Mage-VL",
-      "date": "2026-07-31"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.27269",
-      "date": "2026-07-31"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.27271",
-      "date": "2026-07-31"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.27273",
-      "date": "2026-07-31"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.27275",
-      "date": "2026-07-31"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.26307",
-      "date": "2026-07-31"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.26181",
-      "date": "2026-07-31"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.26490",
-      "date": "2026-07-31"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.26512",
-      "date": "2026-07-31"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.27260",
-      "date": "2026-07-31"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.26119",
-      "date": "2026-07-31"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.26452",
-      "date": "2026-07-31"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.27290",
-      "date": "2026-07-31"
-    },
-    {
-      "url": "https://pipeworx.io",
-      "date": "2026-07-31"
-    },
-    {
-      "url": "https://pypi.org/project/mlango/0.2.0/",
-      "date": "2026-07-31"
-    },
-    {
-      "url": "https://pypi.org/project/tpu-inference/0.26.0.dev20260731/",
-      "date": "2026-07-31"
-    },
-    {
-      "url": "https://github.com/zhaoxuya520/reverse-skill",
-      "date": "2026-08-01"
-    },
-    {
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
-      "date": "2026-08-01"
-    },
-    {
-      "url": "https://huggingface.co/moonshotai/Kimi-K3",
-      "date": "2026-08-01"
-    },
-    {
-      "url": "https://huggingface.co/thinkingmachines/Inkling-Small",
-      "date": "2026-08-01"
-    },
-    {
-      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.45.0",
-      "date": "2026-08-01"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.10",
-      "date": "2026-08-01"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.9",
-      "date": "2026-08-01"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.68",
-      "date": "2026-08-01"
-    },
-    {
-      "url": "https://pypi.org/project/langchain-openapi-tools/1.0.0/",
-      "date": "2026-08-01"
-    },
-    {
-      "url": "https://pypi.org/project/agent-first-data/0.28.0/",
-      "date": "2026-08-01"
-    },
-    {
-      "url": "https://pypi.org/project/helen-lang/1.30.6/",
-      "date": "2026-08-01"
-    },
-    {
-      "url": "https://pypi.org/project/autogluon/1.5.1b20260801/",
-      "date": "2026-08-01"
-    },
-    {
       "url": "https://huggingface.co/unsloth/DeepSeek-V4-Flash-0731-GGUF",
       "date": "2026-08-02"
     },
@@ -4791,6 +4675,118 @@
     {
       "url": "https://pypi.org/project/pawnlogic/0.3.12/",
       "date": "2026-09-28"
+    },
+    {
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "date": "2026-09-30"
+    },
+    {
+      "url": "https://github.com/t8y2/dbx",
+      "date": "2026-09-30"
+    },
+    {
+      "url": "https://github.com/VectifyAI/PageIndex",
+      "date": "2026-09-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.35799",
+      "date": "2026-09-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.35833",
+      "date": "2026-09-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.35868",
+      "date": "2026-09-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.35869",
+      "date": "2026-09-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.35873",
+      "date": "2026-09-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.35874",
+      "date": "2026-09-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.35875",
+      "date": "2026-09-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.35890",
+      "date": "2026-09-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.35897",
+      "date": "2026-09-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.35924",
+      "date": "2026-09-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.35953",
+      "date": "2026-09-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.36043",
+      "date": "2026-09-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.36052",
+      "date": "2026-09-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.36056",
+      "date": "2026-09-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.36057",
+      "date": "2026-09-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.35790",
+      "date": "2026-09-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.35792",
+      "date": "2026-09-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.35793",
+      "date": "2026-09-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.35795",
+      "date": "2026-09-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.35797",
+      "date": "2026-09-30"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.285",
+      "date": "2026-09-30"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.284",
+      "date": "2026-09-30"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/v4.1.22",
+      "date": "2026-09-30"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.88",
+      "date": "2026-09-30"
+    },
+    {
+      "url": "https://pypi.org/project/friday-memory/1.5.1/",
+      "date": "2026-09-30"
     }
   ]
 }
