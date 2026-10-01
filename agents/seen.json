@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://huggingface.co/unsloth/DeepSeek-V4-Flash-0731-GGUF",
-      "date": "2026-08-02"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.11",
-      "date": "2026-08-02"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.69",
-      "date": "2026-08-02"
-    },
-    {
-      "url": "https://pypi.org/project/agent-airlock/0.8.62/",
-      "date": "2026-08-02"
-    },
-    {
-      "url": "https://pypi.org/project/bergson/0.17.1/",
-      "date": "2026-08-02"
-    },
-    {
-      "url": "https://pypi.org/project/bentoworks/0.9.4/",
-      "date": "2026-08-02"
-    },
-    {
-      "url": "https://pypi.org/project/agent-audit-kit/0.3.66/",
-      "date": "2026-08-02"
-    },
-    {
-      "url": "https://pypi.org/project/agenticstack-cache/0.1.0/",
-      "date": "2026-08-02"
-    },
-    {
-      "url": "https://pypi.org/project/autogluon/1.5.1b20260802/",
-      "date": "2026-08-02"
-    },
-    {
       "url": "https://github.com/antirez/ds4",
       "date": "2026-08-03"
     },
@@ -4787,6 +4751,38 @@
     {
       "url": "https://pypi.org/project/friday-memory/1.5.1/",
       "date": "2026-09-30"
+    },
+    {
+      "url": "https://huggingface.co/SupersonicLabs/Julia-1",
+      "date": "2026-10-01"
+    },
+    {
+      "url": "https://huggingface.co/fastino/GLiNER2.5-Decide",
+      "date": "2026-10-01"
+    },
+    {
+      "url": "https://huggingface.co/PSRben/VisionHOPE",
+      "date": "2026-10-01"
+    },
+    {
+      "url": "https://huggingface.co/orcarouter/OrcaSAQ-2-27B",
+      "date": "2026-10-01"
+    },
+    {
+      "url": "https://huggingface.co/akatz-ai/MiniMax-H3-Character-Swap-LoRA",
+      "date": "2026-10-01"
+    },
+    {
+      "url": "https://huggingface.co/orcarouter/OrcaSAQ-2-Cyber-27B-Uncensored-GGUF",
+      "date": "2026-10-01"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.286",
+      "date": "2026-10-01"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.34",
+      "date": "2026-10-01"
     }
   ]
 }
