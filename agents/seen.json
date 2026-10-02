@@ -1,106 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/antirez/ds4",
-      "date": "2026-08-03"
-    },
-    {
-      "url": "https://github.com/livekit/agents",
-      "date": "2026-08-03"
-    },
-    {
-      "url": "https://github.com/esengine/DeepSeek-Reasonix",
-      "date": "2026-08-03"
-    },
-    {
-      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
-      "date": "2026-08-03"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.28633",
-      "date": "2026-08-03"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.28669",
-      "date": "2026-08-03"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.28755",
-      "date": "2026-08-03"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.28642",
-      "date": "2026-08-03"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.28657",
-      "date": "2026-08-03"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.28685",
-      "date": "2026-08-03"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.28678",
-      "date": "2026-08-03"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.28662",
-      "date": "2026-08-03"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.28698",
-      "date": "2026-08-03"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.28679",
-      "date": "2026-08-03"
-    },
-    {
-      "url": "https://arxiv.org/abs/2607.28670",
-      "date": "2026-08-03"
-    },
-    {
-      "url": "https://pypi.org/project/haptix/0.2.0/",
-      "date": "2026-08-03"
-    },
-    {
-      "url": "https://pypi.org/project/ternary-qat/0.1.5/",
-      "date": "2026-08-03"
-    },
-    {
-      "url": "https://pypi.org/project/cai-causal-graph/0.5.15.dev5/",
-      "date": "2026-08-03"
-    },
-    {
-      "url": "https://pypi.org/project/inference-models/0.35.0rc3/",
-      "date": "2026-08-03"
-    },
-    {
-      "url": "https://pypi.org/project/docmill/0.1.1/",
-      "date": "2026-08-03"
-    },
-    {
-      "url": "https://github.com/antoinezambelli/forge",
-      "date": "2026-08-03"
-    },
-    {
-      "url": "https://github.com/generalaction/emdash",
-      "date": "2026-08-03"
-    },
-    {
-      "url": "https://www.dyad.sh/",
-      "date": "2026-08-03"
-    },
-    {
-      "url": "https://github.com/rowboatlabs/rowboat",
-      "date": "2026-08-03"
-    },
-    {
-      "url": "https://github.com/21st-dev/1code",
-      "date": "2026-08-03"
-    },
-    {
       "url": "https://github.com/lyogavin/airllm",
       "date": "2026-08-04"
     },
@@ -4783,6 +4683,162 @@
     {
       "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.34",
       "date": "2026-10-01"
+    },
+    {
+      "url": "https://huggingface.co/Cloudflare/clef",
+      "date": "2026-10-02"
+    },
+    {
+      "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-Coder-GGUF",
+      "date": "2026-10-02"
+    },
+    {
+      "url": "https://huggingface.co/Cloudflare/clef-flash",
+      "date": "2026-10-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.00010",
+      "date": "2026-10-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.00012",
+      "date": "2026-10-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.00015",
+      "date": "2026-10-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.00018",
+      "date": "2026-10-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.00025",
+      "date": "2026-10-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.00047",
+      "date": "2026-10-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.00061",
+      "date": "2026-10-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.00074",
+      "date": "2026-10-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.00084",
+      "date": "2026-10-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.00197",
+      "date": "2026-10-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.00212",
+      "date": "2026-10-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.00224",
+      "date": "2026-10-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.00282",
+      "date": "2026-10-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.38193",
+      "date": "2026-10-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.38194",
+      "date": "2026-10-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.38195",
+      "date": "2026-10-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.38196",
+      "date": "2026-10-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.38197",
+      "date": "2026-10-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.38198",
+      "date": "2026-10-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.38332",
+      "date": "2026-10-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.38342",
+      "date": "2026-10-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.38348",
+      "date": "2026-10-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.38349",
+      "date": "2026-10-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.38356",
+      "date": "2026-10-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.38360",
+      "date": "2026-10-02"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.38363",
+      "date": "2026-10-02"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=43506068",
+      "date": "2026-10-02"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.287",
+      "date": "2026-10-02"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fshared%2Fv0.0.90",
+      "date": "2026-10-02"
+    },
+    {
+      "url": "https://pypi.org/project/stacktrace-cli/0.7.1/",
+      "date": "2026-10-02"
+    },
+    {
+      "url": "https://pypi.org/project/haiku-rag/0.92.0/",
+      "date": "2026-10-02"
+    },
+    {
+      "url": "https://pypi.org/project/datris-mcp-server/1.41.0/",
+      "date": "2026-10-02"
+    },
+    {
+      "url": "https://pypi.org/project/aideforge/1.0a1/",
+      "date": "2026-10-02"
+    },
+    {
+      "url": "https://pypi.org/project/awdk/3.8.43/",
+      "date": "2026-10-02"
+    },
+    {
+      "url": "https://pypi.org/project/zerochat/8.10.0/",
+      "date": "2026-10-02"
+    },
+    {
+      "url": "https://pypi.org/project/pycsamt/2.6.4/",
+      "date": "2026-10-02"
     }
   ]
 }
