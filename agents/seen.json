@@ -1,106 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/huangruiteng/loopx",
-      "date": "2026-08-06"
-    },
-    {
-      "url": "https://huggingface.co/deepgrove/maple-preview",
-      "date": "2026-08-06"
-    },
-    {
-      "url": "https://huggingface.co/mistralai/Shieldstral-1.0-3B",
-      "date": "2026-08-06"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.04458",
-      "date": "2026-08-06"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.04048",
-      "date": "2026-08-06"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.04074",
-      "date": "2026-08-06"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.04066",
-      "date": "2026-08-06"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.04289",
-      "date": "2026-08-06"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.04509",
-      "date": "2026-08-06"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.04013",
-      "date": "2026-08-06"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.04057",
-      "date": "2026-08-06"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.04358",
-      "date": "2026-08-06"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.04071",
-      "date": "2026-08-06"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.04084",
-      "date": "2026-08-06"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.04285",
-      "date": "2026-08-06"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.04190",
-      "date": "2026-08-06"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.04043",
-      "date": "2026-08-06"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.04045",
-      "date": "2026-08-06"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.04051",
-      "date": "2026-08-06"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.04060",
-      "date": "2026-08-06"
-    },
-    {
-      "url": "https://pypi.org/project/orda-kernel/0.1.0/",
-      "date": "2026-08-06"
-    },
-    {
-      "url": "https://pypi.org/project/runic-rag-docling/0.2.2/",
-      "date": "2026-08-06"
-    },
-    {
-      "url": "https://pypi.org/project/best-engine-ai-helper/1.1.0/",
-      "date": "2026-08-06"
-    },
-    {
-      "url": "https://pypi.org/project/agent-inbox/0.84.0/",
-      "date": "2026-08-06"
-    },
-    {
-      "url": "https://pypi.org/project/neuromem/0.23.3/",
-      "date": "2026-08-06"
-    },
-    {
       "url": "https://github.com/Panniantong/Agent-Reach",
       "date": "2026-08-07"
     },
@@ -4711,6 +4611,114 @@
     {
       "url": "https://pypi.org/project/authyouragent/0.3.23/",
       "date": "2026-10-04"
+    },
+    {
+      "url": "https://huggingface.co/autotrust/JEV-27B-VL",
+      "date": "2026-10-05"
+    },
+    {
+      "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
+      "date": "2026-10-05"
+    },
+    {
+      "url": "https://huggingface.co/FermionResearch/Phonon-2",
+      "date": "2026-10-05"
+    },
+    {
+      "url": "https://huggingface.co/Infatoshi/GLM-5.3-UNCENSORED-EXL3-3.0bpw",
+      "date": "2026-10-05"
+    },
+    {
+      "url": "https://huggingface.co/autotrust/GEV-26B-Decide",
+      "date": "2026-10-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.02260",
+      "date": "2026-10-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.02300",
+      "date": "2026-10-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.02330",
+      "date": "2026-10-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.02331",
+      "date": "2026-10-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.02351",
+      "date": "2026-10-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.02372",
+      "date": "2026-10-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.02395",
+      "date": "2026-10-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.02405",
+      "date": "2026-10-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.02478",
+      "date": "2026-10-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.02480",
+      "date": "2026-10-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.02248",
+      "date": "2026-10-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.02251",
+      "date": "2026-10-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.02252",
+      "date": "2026-10-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.02255",
+      "date": "2026-10-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.02256",
+      "date": "2026-10-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.02268",
+      "date": "2026-10-05"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.02283",
+      "date": "2026-10-05"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.90",
+      "date": "2026-10-05"
+    },
+    {
+      "url": "https://pypi.org/project/stepscribe-cad/0.1.1/",
+      "date": "2026-10-05"
+    },
+    {
+      "url": "https://pypi.org/project/sampledisco/0.4.0/",
+      "date": "2026-10-05"
+    },
+    {
+      "url": "https://pypi.org/project/clawmetry/0.12.911/",
+      "date": "2026-10-05"
+    },
+    {
+      "url": "https://pypi.org/project/llm-spendguard/0.12.7/",
+      "date": "2026-10-05"
     }
   ]
 }
