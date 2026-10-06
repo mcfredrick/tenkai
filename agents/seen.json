@@ -1,114 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/Panniantong/Agent-Reach",
-      "date": "2026-08-07"
-    },
-    {
-      "url": "https://huggingface.co/nvidia/NVIDIA-NemotronLabs-VoiceChat-11B",
-      "date": "2026-08-07"
-    },
-    {
-      "url": "https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora",
-      "date": "2026-08-07"
-    },
-    {
-      "url": "https://huggingface.co/drbaph/MiniMax-H3-Turbo-Lora-ComfyUI",
-      "date": "2026-08-07"
-    },
-    {
-      "url": "https://huggingface.co/realrebelai/MiniMax-H3_GGUFs",
-      "date": "2026-08-07"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.05168",
-      "date": "2026-08-07"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.05326",
-      "date": "2026-08-07"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.05212",
-      "date": "2026-08-07"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.05250",
-      "date": "2026-08-07"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.05253",
-      "date": "2026-08-07"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.05245",
-      "date": "2026-08-07"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.05234",
-      "date": "2026-08-07"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.05204",
-      "date": "2026-08-07"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.05242",
-      "date": "2026-08-07"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.05249",
-      "date": "2026-08-07"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.05160",
-      "date": "2026-08-07"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.05207",
-      "date": "2026-08-07"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.05218",
-      "date": "2026-08-07"
-    },
-    {
-      "url": "https://www.pushrealm.com/",
-      "date": "2026-08-07"
-    },
-    {
-      "url": "https://mcp.listentosadhu.app",
-      "date": "2026-08-07"
-    },
-    {
-      "url": "https://pypi.org/project/agentic-hil/0.9.0/",
-      "date": "2026-08-07"
-    },
-    {
-      "url": "https://pypi.org/project/tfp-nightly/0.26.0.dev20260807/",
-      "date": "2026-08-07"
-    },
-    {
-      "url": "https://pypi.org/project/samai-zagent/0.28.90/",
-      "date": "2026-08-07"
-    },
-    {
-      "url": "https://pypi.org/project/converseek/0.2.7/",
-      "date": "2026-08-07"
-    },
-    {
-      "url": "https://pypi.org/project/tea-agent/0.14.0/",
-      "date": "2026-08-07"
-    },
-    {
-      "url": "https://pypi.org/project/lorekeep/0.21.1/",
-      "date": "2026-08-07"
-    },
-    {
-      "url": "https://pypi.org/project/metrik-ai/0.5.0/",
-      "date": "2026-08-07"
-    },
-    {
       "url": "https://github.com/PrimeIntellect-ai/prime-agent",
       "date": "2026-08-08"
     },
@@ -4719,6 +4611,34 @@
     {
       "url": "https://pypi.org/project/llm-spendguard/0.12.7/",
       "date": "2026-10-05"
+    },
+    {
+      "url": "https://github.com/deepseek-ai/DeepGEMM",
+      "date": "2026-10-06"
+    },
+    {
+      "url": "https://pypi.org/project/dspm-memory/0.1.9/",
+      "date": "2026-10-06"
+    },
+    {
+      "url": "https://pypi.org/project/tokenmizer/0.6.0/",
+      "date": "2026-10-06"
+    },
+    {
+      "url": "https://pypi.org/project/airo-spatial-algebra/2026.10.0/",
+      "date": "2026-10-06"
+    },
+    {
+      "url": "https://pypi.org/project/quarry-db/1.5.3/",
+      "date": "2026-10-06"
+    },
+    {
+      "url": "https://pypi.org/project/hugpy-agent/0.1.109/",
+      "date": "2026-10-06"
+    },
+    {
+      "url": "https://pypi.org/project/airo-robots/2026.10.0/",
+      "date": "2026-10-06"
     }
   ]
 }
