@@ -1,34 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/TauricResearch/TradingAgents",
-      "date": "2026-08-09"
-    },
-    {
-      "url": "https://github.com/Egonex-AI/Understand-Anything",
-      "date": "2026-08-09"
-    },
-    {
-      "url": "https://coinrailz.com",
-      "date": "2026-08-09"
-    },
-    {
-      "url": "https://pypi.org/project/spotwarp/3.2.2/",
-      "date": "2026-08-09"
-    },
-    {
-      "url": "https://pypi.org/project/minirag-mcp/0.3.1/",
-      "date": "2026-08-09"
-    },
-    {
-      "url": "https://pypi.org/project/inspeximus/2.3.0/",
-      "date": "2026-08-09"
-    },
-    {
-      "url": "https://pypi.org/project/burmesenlp/1.0.1/",
-      "date": "2026-08-09"
-    },
-    {
       "url": "https://github.com/vitali87/code-graph-rag",
       "date": "2026-08-10"
     },
@@ -4711,6 +4683,38 @@
     {
       "url": "https://pypi.org/project/safecadence-netrisk/17.0.0a3/",
       "date": "2026-10-07"
+    },
+    {
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "date": "2026-10-08"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.294",
+      "date": "2026-10-08"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293",
+      "date": "2026-10-08"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.92",
+      "date": "2026-10-08"
+    },
+    {
+      "url": "https://pypi.org/project/imervue/1.0.94/",
+      "date": "2026-10-08"
+    },
+    {
+      "url": "https://pypi.org/project/jaxtari/0.2.0/",
+      "date": "2026-10-08"
+    },
+    {
+      "url": "https://pypi.org/project/design-graph/2.1.0/",
+      "date": "2026-10-08"
+    },
+    {
+      "url": "https://pypi.org/project/kitaru-pydantic-ai/0.3.1/",
+      "date": "2026-10-08"
     }
   ]
 }
