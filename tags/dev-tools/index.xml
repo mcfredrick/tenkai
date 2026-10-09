@@ -1,4 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev-Tools on Tenkai</title><link>https://tenkai.blog/tags/dev-tools/</link><description>Recent content in Dev-Tools on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 08 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/dev-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — October 8, 2026</title><link>https://tenkai.blog/posts/2026-10-08/</link><pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-10-08/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev-Tools on Tenkai</title><link>https://tenkai.blog/tags/dev-tools/</link><description>Recent content in Dev-Tools on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 09 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/dev-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — October 9, 2026</title><link>https://tenkai.blog/posts/2026-10-09/</link><pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-10-09/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/autotrust/GLM5.3-Flash-E224-DGX-Spark" target="_blank" rel="noopener noreferrer">GLM5.3-Flash-E224-DGX-Spark&lt;/a>
+&lt;/strong> — Expert-pruned MoE variant of GLM-5.3-Flash, optimized for NVIDIA DGX Spark (GB10) with nvfp4 quantization and modelopt compression, enabling 8-bit image-text-to-text generation for conversational en/zh workloads. 🤖&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/Cactus-Compute/whistle" target="_blank" rel="noopener noreferrer">Whistle&lt;/a>
+&lt;/strong> — ASR model optimized for on-device edge deployment via WebAssembly and advanced quantization, supporting English and multiple European languages with real-time inference and reduced model size. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/LiquidAI/d1-3B" target="_blank" rel="noopener noreferrer">LiquidAI/d1-3B&lt;/a>
+&lt;/strong> — Multimodal decision-model based on LFM2.5-VL-3B, featuring system-one reasoning, calibrated probabilities, and edge-optimized inference for multilingual conversational tasks, with custom-code integration for decision-flow automation. 🤖&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/unsloth/embeddinggemma-2-GGUF" target="_blank" rel="noopener noreferrer">unsloth/embeddinggemma-2-GGUF&lt;/a>
+&lt;/strong> — GGUF-quantized version of Google&amp;rsquo;s embeddingGemma-2, enabling multimodal feature extraction across vision, audio, and video with sentence-similarity search, optimized for edge and conversational retrieval. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/jialinyyzz/humanizer" target="_blank" rel="noopener noreferrer">humanizer&lt;/a>
+&lt;/strong> — Gemma-4-based finetuned model for text rewriting, paraphrasing, and style transfer, supporting English and Chinese conversational inputs, compatible with llama.cpp and transformers pipelines via safetensors and gguf. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/canberkkkkkk/ema-lightning" target="_blank" rel="noopener noreferrer">ema-lightning&lt;/a>
+&lt;/strong> — TTS model using flow-matching for efficient Turkish speech synthesis, released with an arXiv preprint demonstrating training and inference pipelines, targeting low-resource language TTS with high-quality audio and minimal latency. 🤖&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/exllamav3/1.6.0/" target="_blank" rel="noopener noreferrer">exllamav3 1.6.0&lt;/a>
+&lt;/strong> — Inference optimization library update enabling efficient local LLM execution on modern consumer GPUs with reduced memory overhead, expanding model compatibility and improving token throughput for real-time deployment. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.295" target="_blank" rel="noopener noreferrer">anthropics/claude-code v2.1.295&lt;/a>
+&lt;/strong> — Release adds onFailure: &amp;ldquo;block&amp;rdquo; hook mode to prevent unintended command execution when hooks fail, plus OSC 7501 support for terminals to display Claude Code&amp;rsquo;s working state (waiting, processing, etc.). 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/omnismart-personas/0.1.6/" target="_blank" rel="noopener noreferrer">omnismart-personas 0.1.6&lt;/a>
+&lt;/strong> — Introduces role-based, data-scoped LLM persona templates integrated with a routing framework for production analytics copilots, addressing scoped access control and persona management in LLM-driven data analysis workflows. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/intelai/0.1.8/" target="_blank" rel="noopener noreferrer">intelai 0.1.8&lt;/a>
+&lt;/strong> — Releases a persona-aware AI analytics and RAG copilot framework featuring multi-domain KPI intelligence and GraphRAG-lite implementation, combining graph-augmented retrieval with ML forecasting for domain-specific KPI insights from LLM outputs. 🛠️&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>This week&amp;rsquo;s releases sketch a clear path toward fully local, multimodal AI workstations: &lt;a href="https://pypi.org/project/exllamav3/1.6.0/" target="_blank" rel="noopener noreferrer">exllamav3 1.6.0&lt;/a>
+ solves the inference bottleneck by reducing memory overhead and boosting token throughput on consumer GPUs, making it practical to run 70B+ models on a single desktop without cloud credits. Meanwhile, [unsloth/embeddinggemma-2-GG&lt;/p></description></item><item><title>Tenkai Daily — October 8, 2026</title><link>https://tenkai.blog/posts/2026-10-08/</link><pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-10-08/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://pypi.org/project/jaxtari/0.2.0/" target="_blank" rel="noopener noreferrer">JAXtari 0.2.0&lt;/a>
 &lt;/strong> — JAXtari 0.2.0 ships GPU-accelerated, object-centric Atari wrappers for JAX-based RL. If you&amp;rsquo;re still training policies on CPU, this is your wake-up call. 🎮&lt;/li>
