@@ -1,138 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/vitali87/code-graph-rag",
-      "date": "2026-08-10"
-    },
-    {
-      "url": "https://github.com/Comfy-Org/ComfyUI",
-      "date": "2026-08-10"
-    },
-    {
-      "url": "https://huggingface.co/Abiray/Minimax-H3-nvfp4-INT4-INT8-Convrot",
-      "date": "2026-08-10"
-    },
-    {
-      "url": "https://huggingface.co/lightx2v/Minimax-h3-Turbo",
-      "date": "2026-08-10"
-    },
-    {
-      "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF",
-      "date": "2026-08-10"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.06398",
-      "date": "2026-08-10"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.06411",
-      "date": "2026-08-10"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.06441",
-      "date": "2026-08-10"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.06503",
-      "date": "2026-08-10"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.06394",
-      "date": "2026-08-10"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.06400",
-      "date": "2026-08-10"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.06410",
-      "date": "2026-08-10"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.06657",
-      "date": "2026-08-10"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.06417",
-      "date": "2026-08-10"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.06422",
-      "date": "2026-08-10"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.06516",
-      "date": "2026-08-10"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.06402",
-      "date": "2026-08-10"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.06544",
-      "date": "2026-08-10"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.06578",
-      "date": "2026-08-10"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.06632",
-      "date": "2026-08-10"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.06430",
-      "date": "2026-08-10"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.06486",
-      "date": "2026-08-10"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.06512",
-      "date": "2026-08-10"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.06520",
-      "date": "2026-08-10"
-    },
-    {
-      "url": "https://ko.io",
-      "date": "2026-08-10"
-    },
-    {
-      "url": "https://nist-nvd.caseyjhand.com/mcp",
-      "date": "2026-08-10"
-    },
-    {
-      "url": "https://pypi.org/project/pycorex/1.0.34/",
-      "date": "2026-08-10"
-    },
-    {
-      "url": "https://pypi.org/project/sanityops-agent/0.0.2/",
-      "date": "2026-08-10"
-    },
-    {
-      "url": "https://github.com/browseros-ai/BrowserOS",
-      "date": "2026-08-10"
-    },
-    {
-      "url": "https://github.com/besimple-oss/broccoli",
-      "date": "2026-08-10"
-    },
-    {
-      "url": "https://github.com/epicenter-so/epicenter/tree/main/apps/whispering",
-      "date": "2026-08-10"
-    },
-    {
-      "url": "https://github.com/inkeep/open-knowledge",
-      "date": "2026-08-10"
-    },
-    {
-      "url": "https://klausai.com/",
-      "date": "2026-08-10"
-    },
-    {
       "url": "https://github.com/msitarzewski/agency-agents",
       "date": "2026-08-11"
     },
@@ -4715,6 +4583,122 @@
     {
       "url": "https://pypi.org/project/kitaru-pydantic-ai/0.3.1/",
       "date": "2026-10-08"
+    },
+    {
+      "url": "https://github.com/alibaba/open-code-review",
+      "date": "2026-10-09"
+    },
+    {
+      "url": "https://github.com/BerriAI/litellm",
+      "date": "2026-10-09"
+    },
+    {
+      "url": "https://github.com/Robbyant/lingbot-map",
+      "date": "2026-10-09"
+    },
+    {
+      "url": "https://github.com/twostraws/SwiftUI-Agent-Skill",
+      "date": "2026-10-09"
+    },
+    {
+      "url": "https://huggingface.co/jialinyyzz/humanizer",
+      "date": "2026-10-09"
+    },
+    {
+      "url": "https://huggingface.co/autotrust/GLM5.3-Flash-E224-DGX-Spark",
+      "date": "2026-10-09"
+    },
+    {
+      "url": "https://huggingface.co/canberkkkkkk/ema-lightning",
+      "date": "2026-10-09"
+    },
+    {
+      "url": "https://huggingface.co/Cactus-Compute/whistle",
+      "date": "2026-10-09"
+    },
+    {
+      "url": "https://huggingface.co/LiquidAI/d1-3B",
+      "date": "2026-10-09"
+    },
+    {
+      "url": "https://huggingface.co/unsloth/embeddinggemma-2-GGUF",
+      "date": "2026-10-09"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.10541",
+      "date": "2026-10-09"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.10549",
+      "date": "2026-10-09"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.10590",
+      "date": "2026-10-09"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.10611",
+      "date": "2026-10-09"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.10629",
+      "date": "2026-10-09"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.10786",
+      "date": "2026-10-09"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.10833",
+      "date": "2026-10-09"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.10857",
+      "date": "2026-10-09"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.10942",
+      "date": "2026-10-09"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.10954",
+      "date": "2026-10-09"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.11005",
+      "date": "2026-10-09"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.11007",
+      "date": "2026-10-09"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.10552",
+      "date": "2026-10-09"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.10571",
+      "date": "2026-10-09"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.295",
+      "date": "2026-10-09"
+    },
+    {
+      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.54.0",
+      "date": "2026-10-09"
+    },
+    {
+      "url": "https://pypi.org/project/omnismart-personas/0.1.6/",
+      "date": "2026-10-09"
+    },
+    {
+      "url": "https://pypi.org/project/intelai/0.1.8/",
+      "date": "2026-10-09"
+    },
+    {
+      "url": "https://pypi.org/project/exllamav3/1.6.0/",
+      "date": "2026-10-09"
     }
   ]
 }
