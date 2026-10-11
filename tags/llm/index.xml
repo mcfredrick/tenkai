@@ -1,4 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Llm on Tenkai</title><link>https://tenkai.blog/tags/llm/</link><description>Recent content in Llm on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 09 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/llm/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — October 9, 2026</title><link>https://tenkai.blog/posts/2026-10-09/</link><pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-10-09/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Llm on Tenkai</title><link>https://tenkai.blog/tags/llm/</link><description>Recent content in Llm on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/llm/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — October 11, 2026</title><link>https://tenkai.blog/posts/2026-10-11/</link><pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-10-11/</guid><description>&lt;p>Let me analyze the items and create the markdown body in the specified format. I need to follow all the rules:&lt;/p>
+&lt;ol>
+&lt;li>Write sections in the order given&lt;/li>
+&lt;li>Each bullet: &lt;strong>&lt;a href="url">Name&lt;/a>
+&lt;/strong> — 1-2 sentences&lt;/li>
+&lt;li>Only write sections that have items&lt;/li>
+&lt;li>No empty sections&lt;/li>
+&lt;li>Casual, punchy, occasionally snarky tone&lt;/li>
+&lt;li>Dry wit welcome, eye-rolls at obvious hype encouraged&lt;/li>
+&lt;li>Technically precise but fun&lt;/li>
+&lt;li>Never use: &amp;ldquo;exciting&amp;rdquo;, &amp;ldquo;groundbreaking&amp;rdquo;, &amp;ldquo;revolutionary&amp;rdquo;, &amp;ldquo;game-changing&amp;rdquo;, &amp;ldquo;impressive&amp;rdquo;, &amp;ldquo;delve&amp;rdquo;, &amp;ldquo;unleash&amp;rdquo;, &amp;ldquo;leverage&amp;rdquo;&lt;/li>
+&lt;li>Use emojis with personality and spontaneity&lt;/li>
+&lt;li>No closing remarks or sign-offs&lt;/li>
+&lt;li>No mention of where items were found&lt;/li>
+&lt;li>No synthesis section&lt;/li>
+&lt;/ol>
+&lt;p>Let me go through each section:&lt;/p></description></item><item><title>Tenkai Daily — October 9, 2026</title><link>https://tenkai.blog/posts/2026-10-09/</link><pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-10-09/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/autotrust/GLM5.3-Flash-E224-DGX-Spark" target="_blank" rel="noopener noreferrer">GLM5.3-Flash-E224-DGX-Spark&lt;/a>
 &lt;/strong> — Expert-pruned MoE variant of GLM-5.3-Flash, optimized for NVIDIA DGX Spark (GB10) with nvfp4 quantization and modelopt compression, enabling 8-bit image-text-to-text generation for conversational en/zh workloads. 🤖&lt;/li>
