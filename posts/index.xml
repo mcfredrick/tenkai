@@ -1,4 +1,49 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tenkai</title><link>https://tenkai.blog/posts/</link><description>Recent content in Posts on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 12 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — October 12, 2026</title><link>https://tenkai.blog/posts/2026-10-12/</link><pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-10-12/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tenkai</title><link>https://tenkai.blog/posts/</link><description>Recent content in Posts on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 13 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — October 13, 2026</title><link>https://tenkai.blog/posts/2026-10-13/</link><pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-10-13/</guid><description>&lt;h2 id="-model-releases-">🖊️💡⭐🔬 Model Releases 🔬⭐💡&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B" target="_blank" rel="noopener noreferrer">openbmb/MiniCPM-V-4.7-35B-A3B&lt;/a>
+&lt;/strong> — 🖊️ On‑device multimodal model with MoE, Apache‑2.0 licensing, and conversational capability for edge deployment.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/autotrust/JEV-35B" target="_blank" rel="noopener noreferrer">autotrust/JEV-35B&lt;/a>
+&lt;/strong> — 💡 35 B‑parameter MoE with typed‑decision heads, calibrated probabilities, and vLLM‑optimized inference for text‑classification workloads.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/baidu/Unlimited-OCR" target="_blank" rel="noopener noreferrer">baidu/Unlimited-OCR&lt;/a>
+&lt;/strong> — ⭐ Vision‑language OCR supporting multilingual feature extraction, backed by arXiv:2606.23050, with SageMaker endpoints for document pipelines.&lt;/li>
+&lt;/ul>
+&lt;h2 id="-open-source-releases-">🖊️💡⭐🔬 Open Source Releases 🌟🔬&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/cline/cline/releases/tag/v4.1.24" target="_blank" rel="noopener noreferrer">Cline v4.1.24: Claude Sonnet 5.5 default, Haiku 5.5, AI/ML API catalog&lt;/a>
+&lt;/strong> — 🔬 Cline now defaults to Claude Sonnet 5.5, adds Haiku 5.5 and an AI/ML API picker, dropping the generic OpenAI wrapper.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/ezpiizi/0.1.0/" target="_blank" rel="noopener noreferrer">ezpiizi 0.1.0&lt;/a>
+&lt;/strong> — 🔬 Reversible PII pseudonymizer for French and Moroccan LLM assistants, integrating Presidio and PII‑Tracer to keep data usable downstream.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/trustgraph-embeddings-hf/2.9.12/" target="_blank" rel="noopener noreferrer">trustgraph-embeddings-hf 2.9.12&lt;/a>
+&lt;/strong> — ⭐ HuggingFace integration for TrustGraph, providing standardized access to sentence‑transformer and other HF embedding models in multimodal pipelines.&lt;/li>
+&lt;/ul>
+&lt;h2 id="-research-worth-reading-">🖊️💡⭐🔬 Research Worth Reading 📚⭐&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2610.12570" target="_blank" rel="noopener noreferrer">Contextual Correction of Parallel Drafts for Speculative Decoding&lt;/a>
+&lt;/strong> — 🖊️ Adjusts speculative drafts with input context, boosting token‑acceptance rates and verification accuracy.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2610.12822" target="_blank" rel="noopener noreferrer">Reward Hacking as a Transmissible Strategy in Multi-Agent Coding Systems&lt;/a>
+&lt;/strong> — 💡 Formalizes reward‑hacking propagation in coding agents, proposing trajectory‑based detection to curb evaluator bypass.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2610.12545" target="_blank" rel="noopener noreferrer">AutoIndexer: Flexible-Order Decoding by Training Causal Models on Chains of Edits&lt;/a>
+&lt;/strong> — ⭐ Causal edit‑chain model enables arbitrary insertion, removal, and reordering beyond standard autoregressive limits.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2610.12707" target="_blank" rel="noopener noreferrer">Unsupervised Multimodal Reward Modeling&lt;/a>
+&lt;/strong> — 🔬 Trains vision‑language reward models without human preference labels, using a frozen Qwen3‑VL backbone and web‑scale perturbed captions.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2610.12580" target="_blank" rel="noopener noreferrer">CLUE: A Contrastive Learning Framework for Unsupervised Event Type Induction and Annotation&lt;/a>
+&lt;/strong> — 🌟 Contrastive clustering of event mentions learns both representations and type assignments without expert annotations.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2610.12582" target="_blank" rel="noopener noreferrer">One Model to Loop Them All: Elastic Latent Recurrence for Language Models&lt;/a>
+&lt;/strong> — 🔬 Eliminates the “one‑loop tax” in latent RNNs, delivering flexible compute‑accuracy trade‑offs.&lt;/li>
+&lt;/ul>
+&lt;h2 id="-ai-dev-tools-">🖊️💡⭐🔬 AI Dev Tools 🛠️🔬&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/rtk-ai/rtk" target="_blank" rel="noopener noreferrer">rtk-ai/rtk: CLI proxy reducing LLM token consumption by 60-90%&lt;/a>
+&lt;/strong> — 🖊️ Zero‑dependency Rust proxy shaves 60‑90 % tokens for common dev commands, built for cost‑first agentic workflows.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anomalyco/opencode/releases/tag/vscode-v1.0.0" target="_blank" rel="noopener noreferrer">Opencode vscode-v1.0.0: Fix V2 CLI launch without &amp;ndash;port&lt;/a>
+&lt;/strong> — 💡 VS Code extension now launches V2 CLI without manual port flag, simplifying PATH handling.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/cline/cline/releases/tag/sdk%2Fshared%2Fv0.0.93" target="_blank" rel="noopener noreferrer">Cline sdk/shared v0.0.93: In-process plugin loading architecture&lt;/a>
+&lt;/strong> — ⭐ Plugins load in‑process via per‑process registry, retaining sandbox mode and removing runtime PATH dependencies.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/JuliusBrussee/caveman" target="_blank" rel="noopener noreferrer">JuliusBrussee/caveman: Token reduction skill for coding agents&lt;/a>
+&lt;/strong> — 🔥 “Caveman” style cuts ~65 % tokens in agent workflows, a handy cost‑saving hack for coding bots.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>Today&amp;rsquo;s synthesis: Ada Lovelace would be thrilled that modern AI infrastructure is finally making her 1840s vision of &amp;ldquo;the analytical engine&amp;rdquo; practical for real-world systems. The trifecta of &lt;strong>Cline v4.1.24&lt;/strong> provides the foundation—refined model selection through its Claude Sonnet 5.5 and Haiku 5.5 defaults alongside a new AI/ML API catalog. Pair that with the &lt;strong>rtk-ai/rtk&lt;/strong> CLI proxy, which slashes LLM token costs by 60–90%, and you have a concrete, engineer-ready pipeline: choose the best model family via Cline&amp;rsquo;s unified interface, then route every command through RTK to minimize expenditure without compromising quality. Add &lt;strong>AutoIndexer&lt;/strong> to unlock flexible-ordered editing chains that let you rearrange, insert, and remove content beyond autoregressive boundaries, and suddenly prompt iteration becomes a structured search rather than a guesswork exercise. For someone building production assistants or code-generation agents, this means faster development cycles, lower cloud bills, and more sophisticated output control—all concrete wins worth celebrating on a day honoring pioneering women in computing. 🎉&lt;/p></description></item><item><title>Tenkai Daily — October 12, 2026</title><link>https://tenkai.blog/posts/2026-10-12/</link><pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-10-12/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/Lightricks/LTX-2.5" target="_blank" rel="noopener noreferrer">LTX-2.5 Versatile Diffusion Model for Video and Audio&lt;/a>
 &lt;/strong> — A diffusion model that handles bidirectional video, audio, and cross-modal generation in a single file. If you&amp;rsquo;re sick of juggling separate pipelines for image-to-video and text-to-audio, this cuts the glue code. 🤖&lt;/li>
