@@ -1,86 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/ToolJet/ToolJet",
-      "date": "2026-08-15"
-    },
-    {
-      "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
-      "date": "2026-08-15"
-    },
-    {
-      "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
-      "date": "2026-08-15"
-    },
-    {
-      "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-MTP-GGUF",
-      "date": "2026-08-15"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.12395",
-      "date": "2026-08-15"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.233",
-      "date": "2026-08-15"
-    },
-    {
-      "url": "https://github.com/sigoden/aichat/releases/tag/v0.30.0",
-      "date": "2026-08-15"
-    },
-    {
-      "url": "https://github.com/plandex-ai/plandex/releases/tag/cli%2Fv2.2.1",
-      "date": "2026-08-15"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/v4.1.10",
-      "date": "2026-08-15"
-    },
-    {
-      "url": "https://pypi.org/project/quantity-guard/0.6.1/",
-      "date": "2026-08-15"
-    },
-    {
-      "url": "https://pypi.org/project/matrx-rag/0.1.106/",
-      "date": "2026-08-15"
-    },
-    {
-      "url": "https://pypi.org/project/matrx-ai/0.5.34/",
-      "date": "2026-08-15"
-    },
-    {
-      "url": "https://pypi.org/project/matrx-batch/0.2.10/",
-      "date": "2026-08-15"
-    },
-    {
-      "url": "https://pypi.org/project/millet-pipeline/0.15.0/",
-      "date": "2026-08-15"
-    },
-    {
-      "url": "https://pypi.org/project/riskratchet/0.3.3/",
-      "date": "2026-08-15"
-    },
-    {
-      "url": "https://pypi.org/project/ai-agent-guardrails/0.1.1/",
-      "date": "2026-08-15"
-    },
-    {
-      "url": "https://pypi.org/project/rishi/0.1.14/",
-      "date": "2026-08-15"
-    },
-    {
-      "url": "https://pypi.org/project/gede/0.4.62/",
-      "date": "2026-08-15"
-    },
-    {
-      "url": "https://pypi.org/project/ragking/2.2.0/",
-      "date": "2026-08-15"
-    },
-    {
-      "url": "https://pypi.org/project/muster-roll/0.0.1/",
-      "date": "2026-08-15"
-    },
-    {
       "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
       "date": "2026-08-16"
     },
@@ -4439,6 +4359,46 @@
     {
       "url": "https://pypi.org/project/janction-render/0.4.90/",
       "date": "2026-10-13"
+    },
+    {
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B",
+      "date": "2026-10-14"
+    },
+    {
+      "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-1B",
+      "date": "2026-10-14"
+    },
+    {
+      "url": "https://huggingface.co/fishaudio/drama-3",
+      "date": "2026-10-14"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.299",
+      "date": "2026-10-14"
+    },
+    {
+      "url": "https://pypi.org/project/doc-ai-slopcheck/1.2.0/",
+      "date": "2026-10-14"
+    },
+    {
+      "url": "https://pypi.org/project/astscribe/0.12.0/",
+      "date": "2026-10-14"
+    },
+    {
+      "url": "https://pypi.org/project/graph-knowledge-doc-parser/0.2.16/",
+      "date": "2026-10-14"
+    },
+    {
+      "url": "https://pypi.org/project/claude-pc-control/0.7.2/",
+      "date": "2026-10-14"
+    },
+    {
+      "url": "https://pypi.org/project/agent-intern/0.33.0/",
+      "date": "2026-10-14"
+    },
+    {
+      "url": "https://pypi.org/project/gnosis-air/0.1.25/",
+      "date": "2026-10-14"
     }
   ]
 }
