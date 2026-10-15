@@ -1,50 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-      "date": "2026-08-16"
-    },
-    {
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
-      "date": "2026-08-16"
-    },
-    {
-      "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8",
-      "date": "2026-08-16"
-    },
-    {
-      "url": "https://motivegrid.com/connect",
-      "date": "2026-08-16"
-    },
-    {
-      "url": "https://wikipedia.caseyjhand.com/mcp",
-      "date": "2026-08-16"
-    },
-    {
-      "url": "https://pypi.org/project/surreal-memory/3.6.0/",
-      "date": "2026-08-16"
-    },
-    {
-      "url": "https://pypi.org/project/xpander-sdk/2.0.459/",
-      "date": "2026-08-16"
-    },
-    {
-      "url": "https://pypi.org/project/clawmetry/0.12.719/",
-      "date": "2026-08-16"
-    },
-    {
-      "url": "https://pypi.org/project/cureview/0.11.0/",
-      "date": "2026-08-16"
-    },
-    {
-      "url": "https://pypi.org/project/neuroreg/0.10.6/",
-      "date": "2026-08-16"
-    },
-    {
-      "url": "https://pypi.org/project/opendot/0.3.0/",
-      "date": "2026-08-16"
-    },
-    {
       "url": "https://arxiv.org/abs/2608.13565",
       "date": "2026-08-17"
     },
@@ -4399,6 +4355,126 @@
     {
       "url": "https://pypi.org/project/gnosis-air/0.1.25/",
       "date": "2026-10-14"
+    },
+    {
+      "url": "https://github.com/xerj-org/xerj",
+      "date": "2026-10-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.14118",
+      "date": "2026-10-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.14136",
+      "date": "2026-10-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.14180",
+      "date": "2026-10-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.14186",
+      "date": "2026-10-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.14190",
+      "date": "2026-10-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.14209",
+      "date": "2026-10-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.14224",
+      "date": "2026-10-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.14277",
+      "date": "2026-10-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.14307",
+      "date": "2026-10-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.14334",
+      "date": "2026-10-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.18878",
+      "date": "2026-10-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.18883",
+      "date": "2026-10-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.19013",
+      "date": "2026-10-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.19033",
+      "date": "2026-10-15"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.19042",
+      "date": "2026-10-15"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.300",
+      "date": "2026-10-15"
+    },
+    {
+      "url": "https://github.com/sigoden/aichat/releases/tag/v0.30.0",
+      "date": "2026-10-15"
+    },
+    {
+      "url": "https://github.com/plandex-ai/plandex/releases/tag/cli%2Fv2.2.1",
+      "date": "2026-10-15"
+    },
+    {
+      "url": "https://pypi.org/project/ctxlen/2026.10.15.3/",
+      "date": "2026-10-15"
+    },
+    {
+      "url": "https://pypi.org/project/ximinf/0.0.207/",
+      "date": "2026-10-15"
+    },
+    {
+      "url": "https://pypi.org/project/busysloths-mlox/0.5.0/",
+      "date": "2026-10-15"
+    },
+    {
+      "url": "https://pypi.org/project/openinvest/0.42.4/",
+      "date": "2026-10-15"
+    },
+    {
+      "url": "https://pypi.org/project/axm-echo/0.2.1/",
+      "date": "2026-10-15"
+    },
+    {
+      "url": "https://pypi.org/project/squadron-ai/0.22.0/",
+      "date": "2026-10-15"
+    },
+    {
+      "url": "https://pypi.org/project/prismor/1.61.5/",
+      "date": "2026-10-15"
+    },
+    {
+      "url": "https://pypi.org/project/axm-smelt/0.3.1/",
+      "date": "2026-10-15"
+    },
+    {
+      "url": "https://pypi.org/project/llmshim/0.28.0/",
+      "date": "2026-10-15"
+    },
+    {
+      "url": "https://pypi.org/project/adriane-ai/2.7.1/",
+      "date": "2026-10-15"
+    },
+    {
+      "url": "https://pypi.org/project/xdsl-jax/0.6.0/",
+      "date": "2026-10-15"
     }
   ]
 }
