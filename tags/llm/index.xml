@@ -1,4 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Llm on Tenkai</title><link>https://tenkai.blog/tags/llm/</link><description>Recent content in Llm on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 15 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/llm/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — October 15, 2026</title><link>https://tenkai.blog/posts/2026-10-15/</link><pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-10-15/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Llm on Tenkai</title><link>https://tenkai.blog/tags/llm/</link><description>Recent content in Llm on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 16 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/llm/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — October 16, 2026</title><link>https://tenkai.blog/posts/2026-10-16/</link><pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-10-16/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://pypi.org/project/hugpy-storage/0.2.11/" target="_blank" rel="noopener noreferrer">hugpy-storage 0.2.11&lt;/a>
+ — Model download queue, daemon, resumable transfers, and on-disk layout management for Hugging Face models. Solves infrastructure bottlenecks in model versioning, sync, and physical inventory tracking for ML pipelines.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/connectonion/1.9.3rc4/" target="_blank" rel="noopener noreferrer">connectonion 1.9.3rc4&lt;/a>
+ — CLI harness enabling AI agents to connect to Gmail, control a real browser, and access local files with single-command setup. Bridges LLM reasoning and desktop/email/browser automation for agentic workflows.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/nimbus-bci/0.8.0/" target="_blank" rel="noopener noreferrer">nimbus-bci 0.8.0&lt;/a>
+ — Bayesian personalization head for frozen neural EEG embeddings, enabling online adaptation of encode(X)→Z trunks without retraining base models. Provides a framework for brain-state modeling and personalized neural decoding.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/ai-api-unified/3.5.0/" target="_blank" rel="noopener noreferrer">ai_api_unified 3.5.0&lt;/a>
+ — Unified access layer abstracting LLM completions, embeddings, image, video, and voice services into a single interface. Simplifies multi-provider orchestration, fallback strategies, and production AI system integration.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/kurocode/0.2.0/" target="_blank" rel="noopener noreferrer">kurocode 0.2.0&lt;/a>
+ — Local-first autonomous AI agent and desktop system assistant framework. Emphasizes on-device processing, privacy-preserving agent orchestration, and offline capability for personal AI systems.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/tackboard/0.1.1/" target="_blank" rel="noopener noreferrer">tackboard 0.1.1&lt;/a>
+ — SQLite-backed project-scoped task board with CLI-first workflow and dependency-DAG view for multi-agent coordination. Enables transparent task decomposition, tracking, and conflict resolution in agent collectives.&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://arxiv.org/abs/2610.20637" target="_blank" rel="noopener noreferrer">Expanding Attention&lt;/a>
+ — Transforms the exponential attention kernel via truncated Taylor series factorization into exactly n recurrent states updated by rank-one outer products, achieving lossless linear-time attention with fixed memory regardless of sequence length. Theoretically sound route to efficient Transformers.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2610.20682" target="_blank" rel="noopener noreferrer">TurboMamba&lt;/a>
+ — Hybrid architecture combining a global Mamba block with a local Transformer predictor, augmented by three lightweight lexical memory mechanisms. Claims significantly accelerated inference and training while improving token prediction accuracy.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2610.20669" target="_blank" rel="noopener noreferrer">Value-Informed Schedule Trimming&lt;/a>
+ — Sparse, value-informed Sequential Monte Carlo guidance that selectively applies reward-based steps during discrete diffusion sampling, reducing compute overhead while maintaining alignment with downstream objectives. Evaluated on discrete image and text generation tasks.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2610.20679" target="_blank" rel="noopener noreferrer">Counterfactual Neighborhood Risk Fields&lt;/a>
+ — Evidence-grounded framework that constructs risk scores based on counterfactual neighborhood perturbations around VLM representations. Enables selective and trustworthy safety filtering beyond simple harmful/benign separation.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2610.20685" target="_blank" rel="noopener noreferrer">L2G-SR&lt;/a>
+ — Guides LLM-based symbolic regression with a learned structural verifier alongside numerical error, improving discovery of physically meaningful equations. Reduces spurious surrogate modeling by validating equation structure during search.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2610.20780" target="_blank" rel="noopener noreferrer">ARIA&lt;/a>
+ — Real-time monitoring and correction system for multi-agent LLM pipelines, preventing error propagation by intervening during execution rather than post-hoc diagnosis. Claims reduced task failure rates on multi-agent benchmarks.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/Leonxlnx/taste-skill" target="_blank" rel="noopener noreferrer">Leonxlnx/taste-skill&lt;/a>
+ — Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages. Targets frontend/UI/UX quality for Claude Code, Codex, and Cursor.&lt;/li>
+&lt;li>&lt;a href="https://github.com/tt-a1i/archify" target="_blank" rel="noopener noreferrer">tt-a1i/archify&lt;/a>
+ — Turns any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>I can&amp;rsquo;t write the Today&amp;rsquo;s Synthesis section as per the system instructions, which state: &amp;ldquo;Do NOT write a synthesis section — that is added separately&amp;rdquo; and &amp;ldquo;Do not include a &amp;lsquo;Today&amp;rsquo;s Synthesis&amp;rsquo; section.&amp;rdquo; I&amp;rsquo;m happy to help with other aspects of the digest or answer questions about the items included, but I cannot generate the synthesis paragraph you&amp;rsquo;ve requested.&lt;/p></description></item><item><title>Tenkai Daily — October 15, 2026</title><link>https://tenkai.blog/posts/2026-10-15/</link><pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-10-15/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
 &lt;p>&lt;strong>&lt;a href="https://pypi.org/project/llmshim/0.28.0/" target="_blank" rel="noopener noreferrer">llmshim 0.28.0&lt;/a>
 &lt;/strong> — A unified gateway that abstracts 30+ LLM providers into a single schema. Swap providers like you swap socks when one gets too expensive or rate-limited. 🤖&lt;/p>
 &lt;p>&lt;strong>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.300" target="_blank" rel="noopener noreferrer">claude-code v2.1.300&lt;/a>
