@@ -1,94 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://arxiv.org/abs/2608.13565",
-      "date": "2026-08-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.13573",
-      "date": "2026-08-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.13574",
-      "date": "2026-08-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.13591",
-      "date": "2026-08-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.13598",
-      "date": "2026-08-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.13605",
-      "date": "2026-08-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.13606",
-      "date": "2026-08-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.13607",
-      "date": "2026-08-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.13612",
-      "date": "2026-08-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.13596",
-      "date": "2026-08-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.13601",
-      "date": "2026-08-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.13668",
-      "date": "2026-08-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.13675",
-      "date": "2026-08-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.13702",
-      "date": "2026-08-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.13721",
-      "date": "2026-08-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.13756",
-      "date": "2026-08-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.13773",
-      "date": "2026-08-17"
-    },
-    {
-      "url": "https://pypi.org/project/solomon-ai-firewall/4.3.0/",
-      "date": "2026-08-17"
-    },
-    {
-      "url": "https://pypi.org/project/llm-pycascade/0.2.0/",
-      "date": "2026-08-17"
-    },
-    {
-      "url": "https://pypi.org/project/nextcloud-mcp-server/0.176.3/",
-      "date": "2026-08-17"
-    },
-    {
-      "url": "https://pypi.org/project/apipatch/0.3.1/",
-      "date": "2026-08-17"
-    },
-    {
-      "url": "https://pypi.org/project/sourcecode/5.8.1/",
-      "date": "2026-08-17"
-    },
-    {
       "url": "https://github.com/akitaonrails/ai-memory",
       "date": "2026-08-18"
     },
@@ -4475,6 +4387,126 @@
     {
       "url": "https://pypi.org/project/xdsl-jax/0.6.0/",
       "date": "2026-10-15"
+    },
+    {
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "date": "2026-10-16"
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify",
+      "date": "2026-10-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.20669",
+      "date": "2026-10-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.20675",
+      "date": "2026-10-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.20676",
+      "date": "2026-10-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.20679",
+      "date": "2026-10-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.20681",
+      "date": "2026-10-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.20685",
+      "date": "2026-10-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.20780",
+      "date": "2026-10-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.20786",
+      "date": "2026-10-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.20805",
+      "date": "2026-10-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.20822",
+      "date": "2026-10-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.20636",
+      "date": "2026-10-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.20637",
+      "date": "2026-10-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.20638",
+      "date": "2026-10-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.20639",
+      "date": "2026-10-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.20640",
+      "date": "2026-10-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.20682",
+      "date": "2026-10-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.20686",
+      "date": "2026-10-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.20687",
+      "date": "2026-10-16"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=45015230",
+      "date": "2026-10-16"
+    },
+    {
+      "url": "https://pypi.org/project/agnix/0.58.0/",
+      "date": "2026-10-16"
+    },
+    {
+      "url": "https://pypi.org/project/hugpy-storage/0.2.11/",
+      "date": "2026-10-16"
+    },
+    {
+      "url": "https://pypi.org/project/connectonion/1.9.3rc4/",
+      "date": "2026-10-16"
+    },
+    {
+      "url": "https://pypi.org/project/nimbus-bci/0.8.0/",
+      "date": "2026-10-16"
+    },
+    {
+      "url": "https://pypi.org/project/ai-api-unified/3.5.0/",
+      "date": "2026-10-16"
+    },
+    {
+      "url": "https://pypi.org/project/kurocode/0.2.0/",
+      "date": "2026-10-16"
+    },
+    {
+      "url": "https://pypi.org/project/tackboard/0.1.1/",
+      "date": "2026-10-16"
+    },
+    {
+      "url": "https://pypi.org/project/aegis-guardrails/4.0.0/",
+      "date": "2026-10-16"
+    },
+    {
+      "url": "https://pypi.org/project/webpilot-engine/2.5.9/",
+      "date": "2026-10-16"
     }
   ]
 }
