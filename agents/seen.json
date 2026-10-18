@@ -1,134 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/volcengine/OpenViking",
-      "date": "2026-08-19"
-    },
-    {
-      "url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
-      "date": "2026-08-19"
-    },
-    {
-      "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-MLX",
-      "date": "2026-08-19"
-    },
-    {
-      "url": "https://huggingface.co/Gazingstars123/Anima-2.9B",
-      "date": "2026-08-19"
-    },
-    {
-      "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
-      "date": "2026-08-19"
-    },
-    {
-      "url": "https://huggingface.co/dots-studio/dots3-note-prev",
-      "date": "2026-08-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.16890",
-      "date": "2026-08-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.16891",
-      "date": "2026-08-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.16971",
-      "date": "2026-08-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.16977",
-      "date": "2026-08-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.17007",
-      "date": "2026-08-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.17067",
-      "date": "2026-08-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.17071",
-      "date": "2026-08-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.17124",
-      "date": "2026-08-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.17170",
-      "date": "2026-08-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.17183",
-      "date": "2026-08-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.17202",
-      "date": "2026-08-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.16926",
-      "date": "2026-08-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.16927",
-      "date": "2026-08-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.16930",
-      "date": "2026-08-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.16931",
-      "date": "2026-08-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.16932",
-      "date": "2026-08-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.17034",
-      "date": "2026-08-19"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.17063",
-      "date": "2026-08-19"
-    },
-    {
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.8.18",
-      "date": "2026-08-19"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.14",
-      "date": "2026-08-19"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.235",
-      "date": "2026-08-19"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.234",
-      "date": "2026-08-19"
-    },
-    {
-      "url": "https://pypi.org/project/inferris/0.1.0/",
-      "date": "2026-08-19"
-    },
-    {
-      "url": "https://pypi.org/project/stackformers/4.7.0b2/",
-      "date": "2026-08-19"
-    },
-    {
-      "url": "https://pypi.org/project/cpgpt/0.0.11/",
-      "date": "2026-08-19"
-    },
-    {
-      "url": "https://pypi.org/project/curatorkit/0.1.8/",
-      "date": "2026-08-19"
-    },
-    {
       "url": "https://huggingface.co/empero-ai/Qwen3.8-27B-Ridge-GGUF",
       "date": "2026-08-20"
     },
@@ -4439,6 +4311,74 @@
     {
       "url": "https://huggingface.co/vllm-sr/d3",
       "date": "2026-10-17"
+    },
+    {
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.302",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.301",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.55.0",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://github.com/aaif-goose/goose/releases/tag/gdk-v0.1.0-alpha.12",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://github.com/continuedev/continue/releases/tag/v2.0.0-vscode",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://github.com/continuedev/continue/releases/tag/v1.3.40-vscode",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.3.dev",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.2",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.2.dev",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v2.0.32",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v2.0.31",
+      "date": "2026-10-18"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.19.3",
+      "date": "2026-10-18"
     }
   ]
 }
