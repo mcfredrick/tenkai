@@ -1,102 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://huggingface.co/empero-ai/Qwen3.8-27B-Ridge-GGUF",
-      "date": "2026-08-20"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.18079",
-      "date": "2026-08-20"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.18086",
-      "date": "2026-08-20"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.18088",
-      "date": "2026-08-20"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.18092",
-      "date": "2026-08-20"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.18111",
-      "date": "2026-08-20"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.18131",
-      "date": "2026-08-20"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.18133",
-      "date": "2026-08-20"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.18147",
-      "date": "2026-08-20"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.18183",
-      "date": "2026-08-20"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.18185",
-      "date": "2026-08-20"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.18222",
-      "date": "2026-08-20"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.18230",
-      "date": "2026-08-20"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.18263",
-      "date": "2026-08-20"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.18271",
-      "date": "2026-08-20"
-    },
-    {
-      "url": "https://census.caseyjhand.com/mcp",
-      "date": "2026-08-20"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.237",
-      "date": "2026-08-20"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.236",
-      "date": "2026-08-20"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.19",
-      "date": "2026-08-20"
-    },
-    {
-      "url": "https://pypi.org/project/agentic-hil/0.17.0/",
-      "date": "2026-08-20"
-    },
-    {
-      "url": "https://pypi.org/project/ethan-agent/0.5.152/",
-      "date": "2026-08-20"
-    },
-    {
-      "url": "https://pypi.org/project/weir-scan/0.1.0/",
-      "date": "2026-08-20"
-    },
-    {
-      "url": "https://pypi.org/project/minimal-harness/0.8.1a6/",
-      "date": "2026-08-20"
-    },
-    {
-      "url": "https://pypi.org/project/xgen-omnifuse/0.5.0/",
-      "date": "2026-08-20"
-    },
-    {
       "url": "https://github.com/RyanCodrai/turbovec",
       "date": "2026-08-21"
     },
@@ -4379,6 +4283,134 @@
     {
       "url": "https://github.com/anomalyco/opencode/releases/tag/v1.19.3",
       "date": "2026-10-18"
+    },
+    {
+      "url": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-FP4-Local",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://huggingface.co/Comfy-Org/MOSS-Image",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://huggingface.co/datalab-to/indra-ocr",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.22373",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.22400",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.22403",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.22408",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.22426",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.22445",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.22446",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.22465",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.22466",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.22469",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.22538",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.22561",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.22379",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.22380",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.22381",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.22435",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.22437",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.22438",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.22439",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.22448",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.22467",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.22512",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.0.0",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.95",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://pypi.org/project/neoma-pcam/2.5.0/",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://pypi.org/project/agent-footprint/0.1.3/",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://pypi.org/project/aics-mcp/0.1.0/",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://pypi.org/project/evidentia-mcp/0.13.0/",
+      "date": "2026-10-19"
+    },
+    {
+      "url": "https://pypi.org/project/evidentia-ai/0.13.0/",
+      "date": "2026-10-19"
     }
   ]
 }
