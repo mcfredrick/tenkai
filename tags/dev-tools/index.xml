@@ -1,4 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev-Tools on Tenkai</title><link>https://tenkai.blog/tags/dev-tools/</link><description>Recent content in Dev-Tools on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 18 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/dev-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — October 18, 2026</title><link>https://tenkai.blog/posts/2026-10-18/</link><pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-10-18/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev-Tools on Tenkai</title><link>https://tenkai.blog/tags/dev-tools/</link><description>Recent content in Dev-Tools on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 19 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/dev-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — October 19, 2026</title><link>https://tenkai.blog/posts/2026-10-19/</link><pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-10-19/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://huggingface.co/nvidia/Qwen3.8-Flash-Next-FP4-Local" target="_blank" rel="noopener noreferrer">Qwen3.8-Flash-Next-FP4-Local&lt;/a>
+ — NVIDIA&amp;rsquo;s modelopt-optimized Qwen3.8 checkpoint with FP4 quantization for local inference with minimal accuracy loss on image-text-to-text and conversational tasks.&lt;/li>
+&lt;li>&lt;a href="https://huggingface.co/datalab-to/indra-ocr" target="_blank" rel="noopener noreferrer">Indra-OCR&lt;/a>
+ — ONNX-based OCR and document parser covering handwriting, PDF layouts, markdown, and 30+ languages, optimized for CPU inference.&lt;/li>
+&lt;li>&lt;a href="https://huggingface.co/ComfyOrg/MOSS-Image" target="_blank" rel="noopener noreferrer">MOSS-Image (Comfy-Org)&lt;/a>
+ — ComfyUI diffusion model derived from OpenMOSS-Team/MOSS-Image-Base, supporting en/zh text-to-image generation under Apache 2.0.&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/modelcontextprotocol/servers/releases/tag/v2.0.0" target="_blank" rel="noopener noreferrer">modelcontextprotocol/servers v2.0.0&lt;/a>
+ — Refactored all MCP servers to modern era spec while maintaining backward compatibility, bumping server-everything, filesystem, memory, and sequential-thinking to v2.0.0.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/neoma-pcam/2.5.0/" target="_blank" rel="noopener noreferrer">neoma-pcam 2.5.0&lt;/a>
+ — Client SDK for in-memory computing hardware enabling sub-millisecond latency AI workloads, with API bindings and benchmark data.&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://arxiv.org/abs/2610.22373" target="_blank" rel="noopener noreferrer">Structured Authority Injection: Persistent Human Control for LLM Agents via Typed MCP Overrides&lt;/a>
+ — Protocol-level typed overrides ensure human operators maintain persistent control across LLM agent planning cycles, avoiding ambiguous free-text override interpretation.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2610.22403" target="_blank" rel="noopener noreferrer">From Events to Reasoning: Hierarchical Rule Composition over Explicit States&lt;/a>
+ — Event Reasoning System formalizes hierarchical rule composition that requires every reasoning step to be admissible on available facts, preserving dependencies and allowing premise revision.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2610.22408" target="_blank" rel="noopener noreferrer">ECHOES: Seeing Beyond the Current Image via Recursive History Compression and Privileged On-Policy Distillation&lt;/a>
+ — Addresses long-horizon GUI agent token costs by compressing visual history recursively while preserving critical state cues through a privileged on-policy distillation objective.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2610.22426" target="_blank" rel="noopener noreferrer">PRIME: Towards Verifiable Evidence-Grounded Reasoning in LLM Agents&lt;/a>
+ — Framework rejecting acceptance when required checks fail, demanding explicit evidence grounding for verifiable reasoning in agent tasks like vulnerability report advisory checking.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2610.22446" target="_blank" rel="noopener noreferrer">Learnable Splines for Unstructured Neural Operators&lt;/a>
+ — L-SplineFNO extends Fourier neural operators to unstructured meshes using learnable spline bases, avoiding grid interpolation for engineering simulations on non-rectangular domains.&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2610.22466" target="_blank" rel="noopener noreferrer">Harness-Delta Attribution: Dissecting Gains From Harness Evolution&lt;/a>
+ — Statistical framework decomposing performance gains from harness evolution into model capacity versus search-space overfitting components.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.95" target="_blank" rel="noopener noreferrer">cline/cline SDK v0.0.95&lt;/a>
+ — Updated SDK to send max_completion_tokens instead of max_tokens for GPT-5 through GPT-9 models, while Azure gpt-35-turbo keeps max_tokens, and the hub daemon now tracks client starts.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>A practical local document-understanding pipeline drops two items from today&amp;rsquo;s digest together: Indra-OCR parses handwritten PDFs, complex layouts, and multi-language docs into plain text via ONNX, while Qwen3.8-Flash-Next-FP4-Local delivers near-baseline accuracy on image-text-to-text tasks at FP4. Combine them — feed ONNX-parsed documents directly into the quantized checkpoint for lightweight reasoning, keeping everything on consumer hardware with sub-millisecond parsing and no cloud dependency. The result is a self-hosted document triage system that avoids both the cost of cloud OCR APIs and the accuracy hit of naive local LLMs, which matters when you&amp;rsquo;re processing customer-facing intake forms or internal compliance docs where you can&amp;rsquo;t trust a third-party API and can&amp;rsquo;t afford accuracy loss.&lt;/p></description></item><item><title>Tenkai Daily — October 18, 2026</title><link>https://tenkai.blog/posts/2026-10-18/</link><pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-10-18/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;p>&lt;strong>&lt;a href="https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT" target="_blank" rel="noopener noreferrer">OpenMOSS-Team/MOSS-Image-SFT&lt;/a>
 &lt;/strong> — diffusers safetensors moss-image text-to-image en zh base_model:OpenMOSS-Team/MOSS-Image-Base base_model:finetune:OpenMOSS-Team/MOSS-Image-Base license:apache-2.0 diffusers:MOSSImagePipeline region:us&lt;br>
 This is a multilingual (English/Chinese) text-to-image model with both base and fine-tuned variants, released under Apache-2.0 for unrestricted commercial use. The MOSSImagePipeline integration streamlines loading and serving, making it a solid choice for open-source research and production pipelines that require strict licensing compliance.&lt;/p>
