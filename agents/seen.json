@@ -1,118 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/RyanCodrai/turbovec",
-      "date": "2026-08-21"
-    },
-    {
-      "url": "https://github.com/asgeirtj/system_prompts_leaks",
-      "date": "2026-08-21"
-    },
-    {
-      "url": "https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B",
-      "date": "2026-08-21"
-    },
-    {
-      "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-GGUF",
-      "date": "2026-08-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.19216",
-      "date": "2026-08-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.19303",
-      "date": "2026-08-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.19408",
-      "date": "2026-08-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.19511",
-      "date": "2026-08-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.19535",
-      "date": "2026-08-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.19579",
-      "date": "2026-08-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.19625",
-      "date": "2026-08-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.19652",
-      "date": "2026-08-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.19680",
-      "date": "2026-08-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.19684",
-      "date": "2026-08-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.19210",
-      "date": "2026-08-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.19338",
-      "date": "2026-08-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.19351",
-      "date": "2026-08-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.19488",
-      "date": "2026-08-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.19491",
-      "date": "2026-08-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.19492",
-      "date": "2026-08-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.19463",
-      "date": "2026-08-21"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.20",
-      "date": "2026-08-21"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/v4.1.11",
-      "date": "2026-08-21"
-    },
-    {
-      "url": "https://pypi.org/project/pitloom/0.16.4/",
-      "date": "2026-08-21"
-    },
-    {
-      "url": "https://pypi.org/project/modelq/1.0.19/",
-      "date": "2026-08-21"
-    },
-    {
-      "url": "https://pypi.org/project/parqdb/0.2.0rc3/",
-      "date": "2026-08-21"
-    },
-    {
-      "url": "https://pypi.org/project/datorum/0.1.0a1.post1/",
-      "date": "2026-08-21"
-    },
-    {
-      "url": "https://pypi.org/project/scrapegraphai/2.2.1/",
-      "date": "2026-08-21"
-    },
-    {
       "url": "https://github.com/harry0703/MoneyPrinterTurbo",
       "date": "2026-08-22"
     },
@@ -4411,6 +4299,62 @@
     {
       "url": "https://pypi.org/project/evidentia-ai/0.13.0/",
       "date": "2026-10-19"
+    },
+    {
+      "url": "https://github.com/vllm-project/vllm",
+      "date": "2026-10-20"
+    },
+    {
+      "url": "https://github.com/heygen-com/hyperframes",
+      "date": "2026-10-20"
+    },
+    {
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "date": "2026-10-20"
+    },
+    {
+      "url": "https://github.com/blader/humanizer",
+      "date": "2026-10-20"
+    },
+    {
+      "url": "https://huggingface.co/tencent/Hy-Memory-30B-A3B",
+      "date": "2026-10-20"
+    },
+    {
+      "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-GGUF",
+      "date": "2026-10-20"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.304",
+      "date": "2026-10-20"
+    },
+    {
+      "url": "https://pypi.org/project/kb-memory/2.1.0/",
+      "date": "2026-10-20"
+    },
+    {
+      "url": "https://pypi.org/project/parajax/0.4.2/",
+      "date": "2026-10-20"
+    },
+    {
+      "url": "https://pypi.org/project/parametrix/0.1.10/",
+      "date": "2026-10-20"
+    },
+    {
+      "url": "https://pypi.org/project/correspond/0.0.39/",
+      "date": "2026-10-20"
+    },
+    {
+      "url": "https://pypi.org/project/runledger-ai/0.7.0/",
+      "date": "2026-10-20"
+    },
+    {
+      "url": "https://pypi.org/project/mxm-scaffold/0.24.1.dev120485607/",
+      "date": "2026-10-20"
+    },
+    {
+      "url": "https://pypi.org/project/multicad-mcp-server/0.2.2/",
+      "date": "2026-10-20"
     }
   ]
 }
