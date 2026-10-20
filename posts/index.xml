@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tenkai</title><link>https://tenkai.blog/posts/</link><description>Recent content in Posts on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 19 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — October 19, 2026</title><link>https://tenkai.blog/posts/2026-10-19/</link><pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-10-19/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tenkai</title><link>https://tenkai.blog/posts/</link><description>Recent content in Posts on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 20 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — October 20, 2026</title><link>https://tenkai.blog/posts/2026-10-20/</link><pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-10-20/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-GGUF" target="_blank" rel="noopener noreferrer">LiquidAI/LFM2.5-24B-A2B-GGUF&lt;/a>
+&lt;/strong> 🤖 — GGUF-quantized variant of LFM2.5-24B-A2B that preserves the MoE sparsity pattern while shrinking the memory footprint enough for on-device inference via llama.cpp. Multi-language conversational AI without giving up the architecture.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/tencent/Hy-Memory-30B-A3B" target="_blank" rel="noopener noreferrer">tencent/Hy-Memory-30B-A3B&lt;/a>
+&lt;/strong> 📄 — Tencent&amp;rsquo;s 30B-A3B MoE with Transformers+Safetensors weights, fine-tuned for English and Chinese generation. arXiv reference attached; endpoint-ready if you need a scalable serving setup.&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/vllm-project/vllm" target="_blank" rel="noopener noreferrer">vLLM: High-Throughput LLM Inference and Serving Engine&lt;/a>
+&lt;/strong> 🔥 — The default open-serving engine when throughput over novelty matters. Token paging, kernel-level attention optimizations, memory efficiency that actually holds up at scale. Skip it and you&amp;rsquo;re hand-tuning your own server.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/parajax/0.4.2/" target="_blank" rel="noopener noreferrer">parajax 0.4.2&lt;/a>
+&lt;/strong> — JAX function vectorization and parallelization you don&amp;rsquo;t have to hand-tune. If your ML workloads are JAX-based and you&amp;rsquo;ve been fighting the scheduler manually, this cuts that off at the knee.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/runledger-ai/0.7.0/" target="_blank" rel="noopener noreferrer">runledger-ai 0.7.0&lt;/a>
+&lt;/strong> — Audit trails, cost tracking, and real-time guardrails for AI coding agents. Generates receipts, risk scores, rollback hooks. Works with Claude Code, Codex CLI, Aider, Factory Droid — basically any agent you&amp;rsquo;d actually want to constrain.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.304" target="_blank" rel="noopener noreferrer">anthropics/claude-code v2.1.304 - Plugin system improvements&lt;/a>
+&lt;/strong> — Plugin hooks now log which plugin skipped a hook during execution, plus a &lt;code>decider: &amp;quot;person&amp;quot;&lt;/code> config that routes permission decisions exclusively to human dialog or host callbacks with refusal reasons. Useful if you actually care about auditability instead of just getting things done.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/kb-memory/2.1.0/" target="_blank" rel="noopener noreferrer">kb-memory 2.1.0&lt;/a>
+&lt;/strong> — Local-first agent memory with hybrid retrieval, decay rules, deduplication, and freshness governance. Dual REST + MCP protocols, fully offline, doesn&amp;rsquo;t need an LLM to function. If you&amp;rsquo;re privacy-conscious and tired of cloud memory services that phone home, this is the one.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/parametrix/0.1.10/" target="_blank" rel="noopener noreferrer">parametrix 0.1.10&lt;/a>
+&lt;/strong> — Flax-style parameter management for bare JAX. If you miss Flax&amp;rsquo;s composable abstractions and want them in low-level JAX without the overhead, this gives you that. Fine if you&amp;rsquo;re already deep in JAX land; skip it if you&amp;rsquo;re not.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/heygen-com/hyperframes" target="_blank" rel="noopener noreferrer">Hyperframes: HTML Video Generation for Agents&lt;/a>
+&lt;/strong> 🛠️ — Build HTML and render video from it, purpose-built for agents. If your coding agent needs to produce video output, this is the framework for the job.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/blader/humanizer" target="_blank" rel="noopener noreferrer">Humanizer: AI-Generated Text De-identification Skill&lt;/a>
+&lt;/strong> 🛠️ — Agent skill that strips AI-generated writing markers from text output so it looks more human. Useful if your agent&amp;rsquo;s output keeps getting flagged by detection systems.&lt;/li>
+&lt;/ul>
+&lt;h2 id="tutorials--guides">Tutorials &amp;amp; Guides&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/cathrynlavery/diagram-design" target="_blank" rel="noopener noreferrer">Diagram-Design: Editorial Diagrams for AI Coding Tools&lt;/a>
+&lt;/strong> — 44 editorial diagram types bundled as self-contained HTML+SVG files, no Mermaid dependency, no shadow rendering issues. If you&amp;rsquo;re hand-drawing diagrams for Claude Code or Codex prompts and hate Mermaid, this saves you.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>Today&amp;rsquo;s synthesis connects two governance-focused releases: &lt;strong>runledger-ai&lt;/strong> for runtime audit trails, cost tracking, and rollback hooks on coding agents, paired with &lt;strong>kb-memory&lt;/strong> for local-first agent memory with hybrid retrieval, decay rules, deduplication, and freshness governance. Together they form a self-hosted agent governance stack — replacing cloud memory services and third-party surveillance with full auditability and offline persistence. Add the &lt;strong>LiquidAI/LFM2.5-24B-A2B-GGUF&lt;/strong> quantized variant for on-device inference via llama.cpp, and you get a privacy-compliant coding agent layer running entirely on your own infrastructure. No vendor lock-in, no telemetry, no surprise costs. If your team&amp;rsquo;s policy requires knowing exactly what your coding agents do at runtime, this stack delivers it without the cloud dependency.&lt;/p></description></item><item><title>Tenkai Daily — October 19, 2026</title><link>https://tenkai.blog/posts/2026-10-19/</link><pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-10-19/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://huggingface.co/nvidia/Qwen3.8-Flash-Next-FP4-Local" target="_blank" rel="noopener noreferrer">Qwen3.8-Flash-Next-FP4-Local&lt;/a>
  — NVIDIA&amp;rsquo;s modelopt-optimized Qwen3.8 checkpoint with FP4 quantization for local inference with minimal accuracy loss on image-text-to-text and conversational tasks.&lt;/li>
