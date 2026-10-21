@@ -1,86 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-      "date": "2026-08-22"
-    },
-    {
-      "url": "https://github.com/apache/maka",
-      "date": "2026-08-22"
-    },
-    {
-      "url": "https://github.com/microsoft/onnxruntime",
-      "date": "2026-08-22"
-    },
-    {
-      "url": "https://github.com/headroomlabs-ai/headroom",
-      "date": "2026-08-22"
-    },
-    {
-      "url": "https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B-GGUF",
-      "date": "2026-08-22"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.238",
-      "date": "2026-08-22"
-    },
-    {
-      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.47.0",
-      "date": "2026-08-22"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.21",
-      "date": "2026-08-22"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/v4.1.12",
-      "date": "2026-08-22"
-    },
-    {
-      "url": "https://pypi.org/project/vectorai-sdk/1.1.0/",
-      "date": "2026-08-22"
-    },
-    {
-      "url": "https://pypi.org/project/ngan/0.1.0/",
-      "date": "2026-08-22"
-    },
-    {
-      "url": "https://pypi.org/project/smartlog-tui/0.1.0/",
-      "date": "2026-08-22"
-    },
-    {
-      "url": "https://pypi.org/project/arc-training/5.1.2/",
-      "date": "2026-08-22"
-    },
-    {
-      "url": "https://pypi.org/project/cogplane/0.2.0/",
-      "date": "2026-08-22"
-    },
-    {
-      "url": "https://pypi.org/project/tensor-grep/1.111.4/",
-      "date": "2026-08-22"
-    },
-    {
-      "url": "https://pypi.org/project/anywhere-agents/0.7.17/",
-      "date": "2026-08-22"
-    },
-    {
-      "url": "https://pypi.org/project/vaara/1.75.0/",
-      "date": "2026-08-22"
-    },
-    {
-      "url": "https://pypi.org/project/nsys-ai/0.3.0/",
-      "date": "2026-08-22"
-    },
-    {
-      "url": "https://pypi.org/project/nightsitter/0.2.0/",
-      "date": "2026-08-22"
-    },
-    {
-      "url": "https://pypi.org/project/cortexdb-mcp/0.7.1/",
-      "date": "2026-08-22"
-    },
-    {
       "url": "https://github.com/openai/codex",
       "date": "2026-08-23"
     },
@@ -4355,6 +4275,122 @@
     {
       "url": "https://pypi.org/project/multicad-mcp-server/0.2.2/",
       "date": "2026-10-20"
+    },
+    {
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "date": "2026-10-21"
+    },
+    {
+      "url": "https://huggingface.co/mistralai/Timestral-209M",
+      "date": "2026-10-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.26904",
+      "date": "2026-10-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.26942",
+      "date": "2026-10-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.26866",
+      "date": "2026-10-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.26932",
+      "date": "2026-10-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.26950",
+      "date": "2026-10-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.26974",
+      "date": "2026-10-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.27078",
+      "date": "2026-10-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.26992",
+      "date": "2026-10-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.26995",
+      "date": "2026-10-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.27012",
+      "date": "2026-10-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.26887",
+      "date": "2026-10-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.26913",
+      "date": "2026-10-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.26941",
+      "date": "2026-10-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.26964",
+      "date": "2026-10-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.26924",
+      "date": "2026-10-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.26948",
+      "date": "2026-10-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.27032",
+      "date": "2026-10-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.26914",
+      "date": "2026-10-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.26959",
+      "date": "2026-10-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.26979",
+      "date": "2026-10-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.26999",
+      "date": "2026-10-21"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.27000",
+      "date": "2026-10-21"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.306",
+      "date": "2026-10-21"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.305",
+      "date": "2026-10-21"
+    },
+    {
+      "url": "https://pypi.org/project/langchain-webextract/0.1.0/",
+      "date": "2026-10-21"
+    },
+    {
+      "url": "https://pypi.org/project/webextract-sdk/0.1.0/",
+      "date": "2026-10-21"
+    },
+    {
+      "url": "https://pypi.org/project/trimitdown/0.3.0/",
+      "date": "2026-10-21"
     }
   ]
 }
