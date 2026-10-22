@@ -1,70 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/openai/codex",
-      "date": "2026-08-23"
-    },
-    {
-      "url": "https://github.com/n8n-io/n8n",
-      "date": "2026-08-23"
-    },
-    {
-      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
-      "date": "2026-08-23"
-    },
-    {
-      "url": "https://github.com/zhayujie/CowAgent",
-      "date": "2026-08-23"
-    },
-    {
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "date": "2026-08-23"
-    },
-    {
-      "url": "https://github.com/farion1231/cc-switch",
-      "date": "2026-08-23"
-    },
-    {
-      "url": "https://github.com/shanraisshan/claude-code-best-practice",
-      "date": "2026-08-23"
-    },
-    {
-      "url": "https://huggingface.co/superwhisper/s1-mini",
-      "date": "2026-08-23"
-    },
-    {
-      "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-Cold-Fusion-GAIN-V1.1-NM-DAU-NEO-MAX-MTP-GGUF",
-      "date": "2026-08-23"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.239",
-      "date": "2026-08-23"
-    },
-    {
-      "url": "https://github.com/sigoden/aichat/releases/tag/v0.28.0",
-      "date": "2026-08-23"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/v4.1.13",
-      "date": "2026-08-23"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.78",
-      "date": "2026-08-23"
-    },
-    {
-      "url": "https://pypi.org/project/autorun-ai/1.0.0rc1/",
-      "date": "2026-08-23"
-    },
-    {
-      "url": "https://pypi.org/project/paper-sage/1.12.0/",
-      "date": "2026-08-23"
-    },
-    {
-      "url": "https://pypi.org/project/symvion/0.4.11/",
-      "date": "2026-08-23"
-    },
-    {
       "url": "https://github.com/freestylefly/awesome-gpt-image-2",
       "date": "2026-08-24"
     },
@@ -4391,6 +4327,82 @@
     {
       "url": "https://pypi.org/project/trimitdown/0.3.0/",
       "date": "2026-10-21"
+    },
+    {
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "date": "2026-10-22"
+    },
+    {
+      "url": "https://github.com/cheaper-inference/OmniRoute",
+      "date": "2026-10-22"
+    },
+    {
+      "url": "https://huggingface.co/RecursiveSI/flint",
+      "date": "2026-10-22"
+    },
+    {
+      "url": "https://huggingface.co/reflection/Beam-1.0-501B-A23B",
+      "date": "2026-10-22"
+    },
+    {
+      "url": "https://huggingface.co/lodestones/Kromoss",
+      "date": "2026-10-22"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.27028",
+      "date": "2026-10-22"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.28637",
+      "date": "2026-10-22"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.28707",
+      "date": "2026-10-22"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.28703",
+      "date": "2026-10-22"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.28714",
+      "date": "2026-10-22"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.28770",
+      "date": "2026-10-22"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.28779",
+      "date": "2026-10-22"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.28784",
+      "date": "2026-10-22"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.28788",
+      "date": "2026-10-22"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.307",
+      "date": "2026-10-22"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.19.4",
+      "date": "2026-10-22"
+    },
+    {
+      "url": "https://pypi.org/project/torchada/0.1.102/",
+      "date": "2026-10-22"
+    },
+    {
+      "url": "https://pypi.org/project/llmswitch-sdk/0.1.1/",
+      "date": "2026-10-22"
+    },
+    {
+      "url": "https://pypi.org/project/bornsim/0.5.8/",
+      "date": "2026-10-22"
     }
   ]
 }
