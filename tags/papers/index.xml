@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Papers on Tenkai</title><link>https://tenkai.blog/tags/papers/</link><description>Recent content in Papers on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 22 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/papers/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — October 22, 2026</title><link>https://tenkai.blog/posts/2026-10-22/</link><pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-10-22/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Papers on Tenkai</title><link>https://tenkai.blog/tags/papers/</link><description>Recent content in Papers on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 23 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/papers/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — October 23, 2026</title><link>https://tenkai.blog/posts/2026-10-23/</link><pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-10-23/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>&lt;a href="https://huggingface.co/dealingai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8" target="_blank" rel="noopener noreferrer">DeepSeek-V4.1-Flash FP8 Uncensored&lt;/a>
+&lt;/strong> — FP8-quantized, uncensored variant with 1M context length, vision-language reasoning and tool-calling capabilities, extending the original Flash release with optimized 8-bit inference and multimodal extensions. 🤖&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>&lt;a href="https://huggingface.co/InternScience/Sage-A1.5" target="_blank" rel="noopener noreferrer">Sage-A1.5&lt;/a>
+&lt;/strong> — Mixture-of-Experts model based on Qwen3.5 supporting vision, agentic code generation and tool-use, with arXiv research and endpoints compatibility for scalable agentic and multimodal deployments. 📄&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>&lt;a href="https://huggingface.co/XHToken/Spark-X2.6-4B" target="_blank" rel="noopener noreferrer">Spark X2.6-4B&lt;/a>
+&lt;/strong> — 4-billion parameter conversational LLM built on Transformers, supporting English and Chinese with custom code flexibility and Apache 2.0 licensing, featuring endpoints compatibility for production integration. 🛠️&lt;/p></description></item><item><title>Tenkai Daily — October 22, 2026</title><link>https://tenkai.blog/posts/2026-10-22/</link><pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-10-22/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;p>&lt;strong>&lt;a href="https://huggingface.co/reflection/Beam-1.0-501B-A23B" target="_blank" rel="noopener noreferrer">reflection/Beam-1.0-501B-A23B&lt;/a>
 &lt;/strong> — Reflection releases Beam-1.0-501B-A23B, a Mixture-of-Experts language model with 501B parameters focusing on reasoning, code generation, and tool use. The release includes eval results and SageMaker/Azure deployment compatibility.&lt;/p>
 &lt;p>&lt;strong>&lt;a href="https://huggingface.co/RecursiveSI/flint" target="_blank" rel="noopener noreferrer">RecursiveSI/flint&lt;/a>
