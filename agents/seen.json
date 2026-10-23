@@ -1,126 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
-      "date": "2026-08-24"
-    },
-    {
-      "url": "https://huggingface.co/z-lab/Qwen3.8-27B-DFlash2",
-      "date": "2026-08-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.20341",
-      "date": "2026-08-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.20342",
-      "date": "2026-08-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.20378",
-      "date": "2026-08-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.20384",
-      "date": "2026-08-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.20389",
-      "date": "2026-08-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.20397",
-      "date": "2026-08-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.20400",
-      "date": "2026-08-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.20401",
-      "date": "2026-08-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.20477",
-      "date": "2026-08-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.20427",
-      "date": "2026-08-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.20439",
-      "date": "2026-08-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.20441",
-      "date": "2026-08-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.20442",
-      "date": "2026-08-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.20480",
-      "date": "2026-08-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.20488",
-      "date": "2026-08-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.20497",
-      "date": "2026-08-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2608.20516",
-      "date": "2026-08-24"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/v4.1.15",
-      "date": "2026-08-24"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/v4.1.14",
-      "date": "2026-08-24"
-    },
-    {
-      "url": "https://pypi.org/project/mambo-agents/0.4.0b3/",
-      "date": "2026-08-24"
-    },
-    {
-      "url": "https://pypi.org/project/pydfig/0.1.0/",
-      "date": "2026-08-24"
-    },
-    {
-      "url": "https://pypi.org/project/trigger-tree/1.30.0/",
-      "date": "2026-08-24"
-    },
-    {
-      "url": "https://pypi.org/project/diffcohesive/0.1.0/",
-      "date": "2026-08-24"
-    },
-    {
-      "url": "https://pypi.org/project/ai-slopgate/2.2.2/",
-      "date": "2026-08-24"
-    },
-    {
-      "url": "https://pypi.org/project/hol-guard/3.0.0a239/",
-      "date": "2026-08-24"
-    },
-    {
-      "url": "https://pypi.org/project/cognifity-verdict/0.1.0a10/",
-      "date": "2026-08-24"
-    },
-    {
-      "url": "https://pypi.org/project/cuvis-ai-dataloader/0.6.0/",
-      "date": "2026-08-24"
-    },
-    {
-      "url": "https://pypi.org/project/bpe-tokenizer-editor/0.2.0/",
-      "date": "2026-08-24"
-    },
-    {
       "url": "https://github.com/anthropics/claude-plugins-official",
       "date": "2026-08-26"
     },
@@ -4403,6 +4283,126 @@
     {
       "url": "https://pypi.org/project/bornsim/0.5.8/",
       "date": "2026-10-22"
+    },
+    {
+      "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
+      "date": "2026-10-23"
+    },
+    {
+      "url": "https://huggingface.co/dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8",
+      "date": "2026-10-23"
+    },
+    {
+      "url": "https://huggingface.co/InternScience/Sage-A1.5",
+      "date": "2026-10-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.28686",
+      "date": "2026-10-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.28698",
+      "date": "2026-10-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.28706",
+      "date": "2026-10-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.28763",
+      "date": "2026-10-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.28815",
+      "date": "2026-10-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.28891",
+      "date": "2026-10-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.28914",
+      "date": "2026-10-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.28934",
+      "date": "2026-10-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.30206",
+      "date": "2026-10-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.28909",
+      "date": "2026-10-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.30215",
+      "date": "2026-10-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.30220",
+      "date": "2026-10-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.30223",
+      "date": "2026-10-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.30228",
+      "date": "2026-10-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.30231",
+      "date": "2026-10-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.30280",
+      "date": "2026-10-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.30284",
+      "date": "2026-10-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.30291",
+      "date": "2026-10-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.30292",
+      "date": "2026-10-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.30339",
+      "date": "2026-10-23"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.309",
+      "date": "2026-10-23"
+    },
+    {
+      "url": "https://github.com/sigoden/aichat/releases/tag/v0.28.0",
+      "date": "2026-10-23"
+    },
+    {
+      "url": "https://pypi.org/project/openvlclip/0.7.1/",
+      "date": "2026-10-23"
+    },
+    {
+      "url": "https://pypi.org/project/llm-feature-gen/0.1.14/",
+      "date": "2026-10-23"
+    },
+    {
+      "url": "https://pypi.org/project/ctxlen/2026.10.23.3/",
+      "date": "2026-10-23"
+    },
+    {
+      "url": "https://pypi.org/project/smaulbrain-core/5.4.0/",
+      "date": "2026-10-23"
+    },
+    {
+      "url": "https://pypi.org/project/crisp-nam/0.2.0/",
+      "date": "2026-10-23"
     }
   ]
 }
