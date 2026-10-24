@@ -4403,6 +4403,70 @@
     {
       "url": "https://pypi.org/project/crisp-nam/0.2.0/",
       "date": "2026-10-23"
+    },
+    {
+      "url": "https://github.com/aws/agent-toolkit-for-aws",
+      "date": "2026-10-24"
+    },
+    {
+      "url": "https://github.com/Nutlope/hallmark",
+      "date": "2026-10-24"
+    },
+    {
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "date": "2026-10-24"
+    },
+    {
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "date": "2026-10-24"
+    },
+    {
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
+      "date": "2026-10-24"
+    },
+    {
+      "url": "https://huggingface.co/orcarouter/OrcaCyber-Nano-1.0",
+      "date": "2026-10-24"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.310",
+      "date": "2026-10-24"
+    },
+    {
+      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.56.0",
+      "date": "2026-10-24"
+    },
+    {
+      "url": "https://pypi.org/project/sql-mcp/2.3.5/",
+      "date": "2026-10-24"
+    },
+    {
+      "url": "https://pypi.org/project/serpkite/0.7.0/",
+      "date": "2026-10-24"
+    },
+    {
+      "url": "https://pypi.org/project/gsc-security/1.4.1/",
+      "date": "2026-10-24"
+    },
+    {
+      "url": "https://pypi.org/project/free-claude-code/6.16.20/",
+      "date": "2026-10-24"
+    },
+    {
+      "url": "https://pypi.org/project/lingagent/0.1.0/",
+      "date": "2026-10-24"
+    },
+    {
+      "url": "https://pypi.org/project/llm-stopcheck/0.1.0/",
+      "date": "2026-10-24"
+    },
+    {
+      "url": "https://pypi.org/project/mediapipe-nightly/1.2.0rc20261024/",
+      "date": "2026-10-24"
+    },
+    {
+      "url": "https://pypi.org/project/singlens/0.2.0/",
+      "date": "2026-10-24"
     }
   ]
 }
