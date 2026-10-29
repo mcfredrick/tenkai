@@ -1,62 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/unclecode/crawl4ai",
-      "date": "2026-08-30"
-    },
-    {
-      "url": "https://github.com/colinhacks/zod",
-      "date": "2026-08-30"
-    },
-    {
-      "url": "https://huggingface.co/FastVideo/FastVideo-FastH3-4-step-Preview-v1-VSA-DataFree",
-      "date": "2026-08-30"
-    },
-    {
-      "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next-FP8",
-      "date": "2026-08-30"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.20",
-      "date": "2026-08-30"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/v4.1.16",
-      "date": "2026-08-30"
-    },
-    {
-      "url": "https://pypi.org/project/returnn/1.20260830.135814/",
-      "date": "2026-08-30"
-    },
-    {
-      "url": "https://pypi.org/project/proxen/0.11.4/",
-      "date": "2026-08-30"
-    },
-    {
-      "url": "https://pypi.org/project/execweave/0.7.7/",
-      "date": "2026-08-30"
-    },
-    {
-      "url": "https://pypi.org/project/ollama-workspace-agent/0.3.2/",
-      "date": "2026-08-30"
-    },
-    {
-      "url": "https://pypi.org/project/misata/0.9.6.37/",
-      "date": "2026-08-30"
-    },
-    {
-      "url": "https://pypi.org/project/simplicio-loop/3.43.3/",
-      "date": "2026-08-30"
-    },
-    {
-      "url": "https://pypi.org/project/oumigo/0.3.0/",
-      "date": "2026-08-30"
-    },
-    {
-      "url": "https://pypi.org/project/promptanalyzer/0.1.1/",
-      "date": "2026-08-30"
-    },
-    {
       "url": "https://github.com/superlinked/sie",
       "date": "2026-09-02"
     },
@@ -4395,6 +4339,66 @@
     {
       "url": "https://pypi.org/project/poraque/26.10.9/",
       "date": "2026-10-28"
+    },
+    {
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "date": "2026-10-29"
+    },
+    {
+      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "date": "2026-10-29"
+    },
+    {
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+      "date": "2026-10-29"
+    },
+    {
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
+      "date": "2026-10-29"
+    },
+    {
+      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.57.0",
+      "date": "2026-10-29"
+    },
+    {
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.2.0",
+      "date": "2026-10-29"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v2.2.1",
+      "date": "2026-10-29"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/process-daemon-v0.3.2",
+      "date": "2026-10-29"
+    },
+    {
+      "url": "https://pypi.org/project/gptcomet/2.8.0/",
+      "date": "2026-10-29"
+    },
+    {
+      "url": "https://pypi.org/project/seltz/1.19.0/",
+      "date": "2026-10-29"
+    },
+    {
+      "url": "https://pypi.org/project/ormah/0.16.0/",
+      "date": "2026-10-29"
+    },
+    {
+      "url": "https://pypi.org/project/langchain-zerogpu/1.3.0/",
+      "date": "2026-10-29"
+    },
+    {
+      "url": "https://pypi.org/project/aidevelopmenttoolkit/1.0.0/",
+      "date": "2026-10-29"
+    },
+    {
+      "url": "https://pypi.org/project/neuralk-oss/0.1.0/",
+      "date": "2026-10-29"
+    },
+    {
+      "url": "https://pypi.org/project/docling/2.145.0/",
+      "date": "2026-10-29"
     }
   ]
 }
