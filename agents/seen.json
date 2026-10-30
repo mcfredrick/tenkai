@@ -4399,6 +4399,54 @@
     {
       "url": "https://pypi.org/project/docling/2.145.0/",
       "date": "2026-10-29"
+    },
+    {
+      "url": "https://github.com/lightpanda-io/browser",
+      "date": "2026-10-30"
+    },
+    {
+      "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
+      "date": "2026-10-30"
+    },
+    {
+      "url": "https://huggingface.co/LiquidAI/LFM3-Omni-2B",
+      "date": "2026-10-30"
+    },
+    {
+      "url": "https://huggingface.co/openbmb/MiniCPM-OCR-1.0",
+      "date": "2026-10-30"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
+      "date": "2026-10-30"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v2.2.3",
+      "date": "2026-10-30"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v2.2.2",
+      "date": "2026-10-30"
+    },
+    {
+      "url": "https://pypi.org/project/radlab-llm-router-plugins/0.1.6/",
+      "date": "2026-10-30"
+    },
+    {
+      "url": "https://pypi.org/project/gingugu/0.37.0/",
+      "date": "2026-10-30"
+    },
+    {
+      "url": "https://pypi.org/project/pygeoinf/2.0.0/",
+      "date": "2026-10-30"
+    },
+    {
+      "url": "https://pypi.org/project/finledgerpoli/0.5.0/",
+      "date": "2026-10-30"
+    },
+    {
+      "url": "https://pypi.org/project/plures/1.16.0/",
+      "date": "2026-10-30"
     }
   ]
 }
