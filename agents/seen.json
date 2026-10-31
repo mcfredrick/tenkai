@@ -4447,6 +4447,78 @@
     {
       "url": "https://pypi.org/project/plures/1.16.0/",
       "date": "2026-10-30"
+    },
+    {
+      "url": "https://github.com/Orkas-AI/Orkas",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.37720",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.37731",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.37732",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.37739",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.37809",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.37849",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.37906",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v2.2.5",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v2.2.4",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://pypi.org/project/nex-heal/0.1.3/",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://pypi.org/project/digline/1.0.3/",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://pypi.org/project/credgate/0.3.0/",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://pypi.org/project/zenagent-py/0.4.5/",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://pypi.org/project/clousd/1.3.0/",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://pypi.org/project/clousd-mcp/1.3.0/",
+      "date": "2026-10-31"
+    },
+    {
+      "url": "https://pypi.org/project/langchain-docker-backend/1.2.0/",
+      "date": "2026-10-31"
     }
   ]
 }
