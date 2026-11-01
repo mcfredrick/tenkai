@@ -1,162 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/superlinked/sie",
-      "date": "2026-09-02"
-    },
-    {
-      "url": "https://github.com/diegosouzapw/OmniRoute",
-      "date": "2026-09-02"
-    },
-    {
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
-      "date": "2026-09-02"
-    },
-    {
-      "url": "https://huggingface.co/google/timesfm-3.0-pytorch",
-      "date": "2026-09-02"
-    },
-    {
-      "url": "https://huggingface.co/pipecat-ai/phonellm-alpha-1",
-      "date": "2026-09-02"
-    },
-    {
-      "url": "https://huggingface.co/alibaba-pai/MiniMax-H3-Acc-LoRAs",
-      "date": "2026-09-02"
-    },
-    {
-      "url": "https://huggingface.co/orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF",
-      "date": "2026-09-02"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.00002",
-      "date": "2026-09-02"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.00003",
-      "date": "2026-09-02"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.00012",
-      "date": "2026-09-02"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.00015",
-      "date": "2026-09-02"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.00018",
-      "date": "2026-09-02"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.00028",
-      "date": "2026-09-02"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.00032",
-      "date": "2026-09-02"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.00137",
-      "date": "2026-09-02"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.00047",
-      "date": "2026-09-02"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.00049",
-      "date": "2026-09-02"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.00061",
-      "date": "2026-09-02"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.00064",
-      "date": "2026-09-02"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.00078",
-      "date": "2026-09-02"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.00090",
-      "date": "2026-09-02"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.00092",
-      "date": "2026-09-02"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.00097",
-      "date": "2026-09-02"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.258",
-      "date": "2026-09-02"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.257",
-      "date": "2026-09-02"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.252",
-      "date": "2026-09-02"
-    },
-    {
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.8.31",
-      "date": "2026-09-02"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.26",
-      "date": "2026-09-02"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/v4.1.17",
-      "date": "2026-09-02"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fshared%2Fv0.0.82",
-      "date": "2026-09-02"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.82",
-      "date": "2026-09-02"
-    },
-    {
-      "url": "https://pypi.org/project/mindroom/2026.9.8/",
-      "date": "2026-09-02"
-    },
-    {
-      "url": "https://pypi.org/project/comfy-aimdo/0.5.0/",
-      "date": "2026-09-02"
-    },
-    {
-      "url": "https://pypi.org/project/dense-armor/1.1.12/",
-      "date": "2026-09-02"
-    },
-    {
-      "url": "https://pypi.org/project/prune-sdk/0.3.0/",
-      "date": "2026-09-02"
-    },
-    {
-      "url": "https://pypi.org/project/synapt/0.23.0/",
-      "date": "2026-09-02"
-    },
-    {
-      "url": "https://pypi.org/project/g8-mcp-server/0.51.1/",
-      "date": "2026-09-02"
-    },
-    {
-      "url": "https://pypi.org/project/pawnlogic/0.3.6/",
-      "date": "2026-09-02"
-    },
-    {
-      "url": "https://pypi.org/project/arrowspace/0.27.3/",
-      "date": "2026-09-02"
-    },
-    {
       "url": "https://github.com/magnitudedev/magnitude",
       "date": "2026-09-04"
     },
@@ -4519,6 +4363,74 @@
     {
       "url": "https://pypi.org/project/langchain-docker-backend/1.2.0/",
       "date": "2026-10-31"
+    },
+    {
+      "url": "https://github.com/kornia/kornia",
+      "date": "2026-11-01"
+    },
+    {
+      "url": "https://github.com/beenuar/AiSOC",
+      "date": "2026-11-01"
+    },
+    {
+      "url": "https://github.com/patchy631/ai-engineering-hub",
+      "date": "2026-11-01"
+    },
+    {
+      "url": "https://github.com/farion1231/cc-switch",
+      "date": "2026-11-01"
+    },
+    {
+      "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex",
+      "date": "2026-11-01"
+    },
+    {
+      "url": "https://huggingface.co/speridlabs/idol",
+      "date": "2026-11-01"
+    },
+    {
+      "url": "https://huggingface.co/Diffuspace/Clover-35B-A3B-Preview",
+      "date": "2026-11-01"
+    },
+    {
+      "url": "https://huggingface.co/LiquidAI/LFM3-VL-2B",
+      "date": "2026-11-01"
+    },
+    {
+      "url": "https://github.com/plandex-ai/plandex/releases/cli/v2.2.1",
+      "date": "2026-11-01"
+    },
+    {
+      "url": "https://pypi.org/project/anyray-agent/0.1.4/",
+      "date": "2026-11-01"
+    },
+    {
+      "url": "https://pypi.org/project/factorly/0.20.0/",
+      "date": "2026-11-01"
+    },
+    {
+      "url": "https://pypi.org/project/orma-ai/0.1.12/",
+      "date": "2026-11-01"
+    },
+    {
+      "url": "https://pypi.org/project/munet-nn/0.4.0/",
+      "date": "2026-11-01"
+    },
+    {
+      "url": "https://pypi.org/project/zambo-llamaindex/0.2.6/",
+      "date": "2026-11-01"
+    },
+    {
+      "url": "https://pypi.org/project/zambo-ai/1.0.11/",
+      "date": "2026-11-01"
+    },
+    {
+      "url": "https://pypi.org/project/zambo/1.0.9/",
+      "date": "2026-11-01"
+    },
+    {
+      "url": "https://pypi.org/project/aioli-cli/0.4.1/",
+      "date": "2026-11-01"
     }
   ]
 }
