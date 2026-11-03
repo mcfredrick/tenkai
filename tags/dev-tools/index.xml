@@ -1,4 +1,48 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev-Tools on Tenkai</title><link>https://tenkai.blog/tags/dev-tools/</link><description>Recent content in Dev-Tools on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 01 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/dev-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — November 1, 2026</title><link>https://tenkai.blog/posts/2026-11-01/</link><pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-11-01/</guid><description>&lt;p>&lt;strong>&lt;a href="https://huggingface.co/speridlabs/idol" target="_blank" rel="noopener noreferrer">idol&lt;/a>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev-Tools on Tenkai</title><link>https://tenkai.blog/tags/dev-tools/</link><description>Recent content in Dev-Tools on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 03 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/dev-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — November 3, 2026</title><link>https://tenkai.blog/posts/2026-11-03/</link><pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-11-03/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://huggingface.co/AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF" target="_blank" rel="noopener noreferrer">DeepSeek V4.1 Flash Uncensored GGUF&lt;/a>
+ — Quantized DeepSeek V4.1‑Flash in GGUF with GSQ‑RCO compression, abliteration, and refusal‑direction steering for uncensored chat. Supports 8‑bit and custom quant routes, ready for endpoint‑compatible deployment 🤖&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/JustVugg/colibri" target="_blank" rel="noopener noreferrer">colibri: Hierarchical Inference Engine for Frontier MoE Models&lt;/a>
+ — C‑level tiering engine that runs hot experts on GPU/CUDA/Vulkan, warm ones in RAM, and streams cold experts from NVMe. Targets zero‑cost hardware utilization by dynamically swapping expertise 🎯&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/hnsw-lite-lib/0.4.0/" target="_blank" rel="noopener noreferrer">hnsw-lite-lib 0.4.0: Vector search with hybrid dense-BM25 and automatic maintenance&lt;/a>
+ — High‑performance HNSW vector search library now sports metadata filtering, hybrid dense‑BM25 queries, durability guarantees, and auto‑index maintenance. Cuts operational overhead for retrieval pipelines 📚&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/omniverse-mcp/0.5.1/" target="_blank" rel="noopener noreferrer">omniverse-mcp 0.5.1: AI‑controlled NVIDIA Omniverse and Isaac Sim integration&lt;/a>
+ — Middleware server that lets AI agents drive Omniverse apps, Isaac Sim 5.x, and USD Composer. Bridges LLM reasoning with programmable simulation, robotics, and 3D content generation 🤖&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/an/0.1.376/" target="_blank" rel="noopener noreferrer">an 0.1.376: AI‑driven structured animation from scene description&lt;/a>
+ — Python library that turns scene.md markdown into rendered video using deterministic pipelines plus learned motion models. Aimed at rapid prototyping of animated content from text 🎬&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/anti-rea/0.1.32/" target="_blank" rel="noopener noreferrer">anti-rea 0.1.32: Evidence‑driven application hardening against AI reverse engineering&lt;/a>
+ — Runtime defenses, metadata obfuscation, and integrity checks to keep deployed ML models from being reverse‑engineered or extracted 🛡️&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/minimalai-mcp/0.23.0/" target="_blank" rel="noopener noreferrer">minimalai-mcp 0.23.0: MCP server for MINIMAL AI open‑world agent ecosystem&lt;/a>
+ — Simulated economy where agents handle passports, contracts, and TON‑escrowed transactions. Exposes agent pages, a city environment, and Cocoon inference for decentralized, incentive‑driven reasoning 🏙️&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://arxiv.org/abs/2610.40917" target="_blank" rel="noopener noreferrer">Towards Portable Specification of the Agent Harness&lt;/a>
+ — Breaks the LLM agent harness into eight functional components, giving a portable spec framework for comparing architectures and fixing the lack of standards 📄&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2610.40927" target="_blank" rel="noopener noreferrer">Agentic World Modeling for Agent Test‑time Scaling without Environment Replica&lt;/a>
+ — World‑model‑based test‑time scaling avoids replica needs, enabling trajectory sampling/selection on shared, persistent resources. Shows efficiency gains over pure parallel execution 💡&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2610.40939" target="_blank" rel="noopener noreferrer">The First Few Tokens Matter: Understanding Chain‑of‑Thought Controllability&lt;/a>
+ — Links CoT monitoring limits to an entropy collapse in the first few tokens after CoT onset. Analyzes scale and training effects on reasoning trace controllability, with safety‑oversight implications 🧠&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2610.40946" target="_blank" rel="noopener noreferrer">Opening the Box Changes the Cat: LLMs Detect Chain‑of‑Thought Monitoring - What now?&lt;/a>
+ — LLMs can infer when CoT monitoring is active, based on model behaviors and conditions. Discusses safety pipeline tweaks and CoT obfuscation tricks 🔍&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2610.40798" target="_blank" rel="noopener noreferrer">Beyond Plausible Prediction: Safety Sufficiency in Web World Models&lt;/a>
+ — Human‑rated 3 000 predictions from ten open web world models; 86.1 % are plausible but not safety‑sufficient. Highlights asymmetry between plausibility and safety decisions for alignment work ⚖️&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2610.40906" target="_blank" rel="noopener noreferrer">Does Recursive Knowledge Construction Help Agents Verify Consensus Claims in Science?&lt;/a>
+ — Explores recursive evidence retrieval and intermediate state sufficiency judgment in scientific agents. Shows how each design axis nudges end‑to‑end performance without ground truth 📊&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.317" target="_blank" rel="noopener noreferrer">claude-code v2.1.317 security and permissions updates&lt;/a>
+ — Warns about unexpected connectors on cloud scheduled tasks, adds pre‑flight checks to stop account email leaks, and introduces onFailure: ‘block’ callbacks for Agent SDK hook failures. Tightens security and error handling 🛠️&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>Running large MoE models on static hardware is a budget drain: you either keep everything on GPU and waste cycles, or split stacks manually and deal with fragmentation. &lt;a href="https://github.com/JustVugg/colibri" target="_blank" rel="noopener noreferrer">colibri&lt;/a>
+ automates hot/warm/cold expert tiering across GPU, RAM, and NVMe, but it doesn&amp;rsquo;t address how you&amp;rsquo;ll actually query those experts efficiently. Pair it with &lt;a href="https://pypi.org/project/hnsw-lite-lib/0.4.0/" target="_blank" rel="noopener noreferrer">hnsw-lite-lib&lt;/a>
+&amp;rsquo;s hybrid dense-BM25 vector search that auto-maintains indexes, and you get sub-millisecond retrieval without operational toil. The security catch: as soon as a model hits production, reverse-engineering attempts follow. Deploy &lt;a href="https://pypi.org/project/anti-rea/0.1.32/" target="_blank" rel="noopener noreferrer">anti-rea&lt;/a>
+ for runtime integrity checks and metadata obfuscation to lock down the stack. The engineer&amp;rsquo;s move: spin up a colibri-tiered serving layer, hook in hnsw-lite-lib for metadata-rich search, and sandwich the whole pipeline between anti-rea guards. You keep latency low, hardware costs down, and IP protected—all without adding headcount or compromising on flexibility. And because colibri exposes streaming metrics, you can watch expert utilization in real time, prune dead routes, and iteratively shift tiers as workload patterns shift—no re-architecting required.&lt;/p></description></item><item><title>Tenkai Daily — November 1, 2026</title><link>https://tenkai.blog/posts/2026-11-01/</link><pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-11-01/</guid><description>&lt;p>&lt;strong>&lt;a href="https://huggingface.co/speridlabs/idol" target="_blank" rel="noopener noreferrer">idol&lt;/a>
 &lt;/strong> — IDOL leverages 3D Gaussian splatting for image-to-3D reconstruction under an Apache-2.0 license, enabling novel view synthesis and 3D content creation from single images with implications for rapid digital twin and asset generation pipelines. 🤖&lt;/p>
 &lt;p>&lt;strong>&lt;a href="https://huggingface.co/Pika-Labs/Pika-H3-Flex" target="_blank" rel="noopener noreferrer">Pika-H3-Flex&lt;/a>
 &lt;/strong> — Pika H3-Flex combines diffusers with LoRA adaptation from MiniMax-H3 to support audio-video generation and image-to-video workflows, giving media creators a flexible, framework-integrated pipeline for video generation. 📄&lt;/p>
