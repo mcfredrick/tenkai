@@ -1,122 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/magnitudedev/magnitude",
-      "date": "2026-09-04"
-    },
-    {
-      "url": "https://github.com/google-research/timesfm",
-      "date": "2026-09-04"
-    },
-    {
-      "url": "https://github.com/radixark/miles",
-      "date": "2026-09-04"
-    },
-    {
-      "url": "https://github.com/Graphify-Labs/graphify",
-      "date": "2026-09-04"
-    },
-    {
-      "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
-      "date": "2026-09-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.03209",
-      "date": "2026-09-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.03236",
-      "date": "2026-09-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.03340",
-      "date": "2026-09-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.03416",
-      "date": "2026-09-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.03438",
-      "date": "2026-09-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.03493",
-      "date": "2026-09-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.03494",
-      "date": "2026-09-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.03503",
-      "date": "2026-09-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.03515",
-      "date": "2026-09-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.02959",
-      "date": "2026-09-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.02982",
-      "date": "2026-09-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.02986",
-      "date": "2026-09-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.02987",
-      "date": "2026-09-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.02988",
-      "date": "2026-09-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.02991",
-      "date": "2026-09-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.02993",
-      "date": "2026-09-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.02998",
-      "date": "2026-09-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.03003",
-      "date": "2026-09-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.03026",
-      "date": "2026-09-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.03069",
-      "date": "2026-09-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.03079",
-      "date": "2026-09-04"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.03090",
-      "date": "2026-09-04"
-    },
-    {
-      "url": "https://pypi.org/project/slm388-torchdiff/0.1.23/",
-      "date": "2026-09-04"
-    },
-    {
-      "url": "https://pypi.org/project/code-context-control/2.110.1/",
-      "date": "2026-09-04"
-    },
-    {
       "url": "https://github.com/WorldFlowAI/everything-claude-code",
       "date": "2026-09-05"
     },
@@ -4539,6 +4423,86 @@
     {
       "url": "https://pypi.org/project/aipass/2.8.34/",
       "date": "2026-11-02"
+    },
+    {
+      "url": "https://github.com/JustVugg/colibri",
+      "date": "2026-11-03"
+    },
+    {
+      "url": "https://huggingface.co/AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
+      "date": "2026-11-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.40798",
+      "date": "2026-11-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.40906",
+      "date": "2026-11-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.40917",
+      "date": "2026-11-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.40927",
+      "date": "2026-11-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.40938",
+      "date": "2026-11-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.40939",
+      "date": "2026-11-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.40940",
+      "date": "2026-11-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.40946",
+      "date": "2026-11-03"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.40959",
+      "date": "2026-11-03"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317",
+      "date": "2026-11-03"
+    },
+    {
+      "url": "https://pypi.org/project/hnsw-lite-lib/0.4.0/",
+      "date": "2026-11-03"
+    },
+    {
+      "url": "https://pypi.org/project/omniverse-mcp/0.5.1/",
+      "date": "2026-11-03"
+    },
+    {
+      "url": "https://pypi.org/project/an/0.1.376/",
+      "date": "2026-11-03"
+    },
+    {
+      "url": "https://pypi.org/project/anti-rea/0.1.32/",
+      "date": "2026-11-03"
+    },
+    {
+      "url": "https://pypi.org/project/minimalai-mcp/0.23.0/",
+      "date": "2026-11-03"
+    },
+    {
+      "url": "https://pypi.org/project/use-agent-os/2026.11.3.post2/",
+      "date": "2026-11-03"
+    },
+    {
+      "url": "https://pypi.org/project/neuralk-oss/0.2.3/",
+      "date": "2026-11-03"
+    },
+    {
+      "url": "https://pypi.org/project/wisdom-core/0.8.0/",
+      "date": "2026-11-03"
     }
   ]
 }
