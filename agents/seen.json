@@ -1,78 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/WorldFlowAI/everything-claude-code",
-      "date": "2026-09-05"
-    },
-    {
-      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
-      "date": "2026-09-05"
-    },
-    {
-      "url": "https://huggingface.co/facebook/mms-300m",
-      "date": "2026-09-05"
-    },
-    {
-      "url": "https://huggingface.co/distilbert/distilbert-base-uncased",
-      "date": "2026-09-05"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.261",
-      "date": "2026-09-05"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.260",
-      "date": "2026-09-05"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.259",
-      "date": "2026-09-05"
-    },
-    {
-      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.49.0",
-      "date": "2026-09-05"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.29",
-      "date": "2026-09-05"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.28",
-      "date": "2026-09-05"
-    },
-    {
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.27",
-      "date": "2026-09-05"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.23",
-      "date": "2026-09-05"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.23-beta.1",
-      "date": "2026-09-05"
-    },
-    {
-      "url": "https://pypi.org/project/omnicache-proxy/2.6.3/",
-      "date": "2026-09-05"
-    },
-    {
-      "url": "https://pypi.org/project/slm388-torchdiff/0.1.38/",
-      "date": "2026-09-05"
-    },
-    {
-      "url": "https://pypi.org/project/deep-fbsde-nn/0.2.0/",
-      "date": "2026-09-05"
-    },
-    {
-      "url": "https://pypi.org/project/agentkey/1.0.1/",
-      "date": "2026-09-05"
-    },
-    {
-      "url": "https://pypi.org/project/vibedasher-mcp/0.5.3/",
-      "date": "2026-09-05"
-    },
-    {
       "url": "https://github.com/CaviraOSS/OpenMemory",
       "date": "2026-09-07"
     },
@@ -4503,6 +4431,134 @@
     {
       "url": "https://pypi.org/project/wisdom-core/0.8.0/",
       "date": "2026-11-03"
+    },
+    {
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "date": "2026-11-04"
+    },
+    {
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "date": "2026-11-04"
+    },
+    {
+      "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+      "date": "2026-11-04"
+    },
+    {
+      "url": "https://github.com/scenario-labs/skills",
+      "date": "2026-11-04"
+    },
+    {
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "date": "2026-11-04"
+    },
+    {
+      "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Turbo-Quantized",
+      "date": "2026-11-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2303.12212",
+      "date": "2026-11-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.00172",
+      "date": "2026-11-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.00244",
+      "date": "2026-11-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.00300",
+      "date": "2026-11-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.00319",
+      "date": "2026-11-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.00352",
+      "date": "2026-11-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.00359",
+      "date": "2026-11-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.00420",
+      "date": "2026-11-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.00442",
+      "date": "2026-11-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.00450",
+      "date": "2026-11-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.00469",
+      "date": "2026-11-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.00515",
+      "date": "2026-11-04"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.00555",
+      "date": "2026-11-04"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318",
+      "date": "2026-11-04"
+    },
+    {
+      "url": "https://pypi.org/project/roboscope-kit/0.8.0b15/",
+      "date": "2026-11-04"
+    },
+    {
+      "url": "https://pypi.org/project/nyxa-ai/0.0.1/",
+      "date": "2026-11-04"
+    },
+    {
+      "url": "https://pypi.org/project/openqml/0.13.0/",
+      "date": "2026-11-04"
+    },
+    {
+      "url": "https://pypi.org/project/dingo-pack/0.4.2/",
+      "date": "2026-11-04"
+    },
+    {
+      "url": "https://pypi.org/project/stimulir/0.2.119/",
+      "date": "2026-11-04"
+    },
+    {
+      "url": "https://pypi.org/project/langchain-core/1.7.5/",
+      "date": "2026-11-04"
+    },
+    {
+      "url": "https://pypi.org/project/ari-by-harjas-aireview/0.1.0/",
+      "date": "2026-11-04"
+    },
+    {
+      "url": "https://pypi.org/project/ai-container/0.18.0/",
+      "date": "2026-11-04"
+    },
+    {
+      "url": "https://pypi.org/project/computer-control-mcp/0.3.15/",
+      "date": "2026-11-04"
+    },
+    {
+      "url": "https://pypi.org/project/ai-teammate-ros2-bridge/2.6.70/",
+      "date": "2026-11-04"
+    },
+    {
+      "url": "https://pypi.org/project/aegiss/0.2.0rc1/",
+      "date": "2026-11-04"
+    },
+    {
+      "url": "https://pypi.org/project/northcel/0.3.1/",
+      "date": "2026-11-04"
     }
   ]
 }
