@@ -1,26 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/CaviraOSS/OpenMemory",
-      "date": "2026-09-07"
-    },
-    {
-      "url": "https://github.com/kostey/khms-memory",
-      "date": "2026-09-07"
-    },
-    {
-      "url": "https://github.com/satyasairay/remembrane",
-      "date": "2026-09-07"
-    },
-    {
-      "url": "https://github.com/hatchet-dev/pickaxe",
-      "date": "2026-09-07"
-    },
-    {
-      "url": "https://github.com/NevaMind-AI/memU",
-      "date": "2026-09-07"
-    },
-    {
       "url": "https://github.com/jo-inc/camofox-browser",
       "date": "2026-09-08"
     },
@@ -4667,6 +4647,66 @@
     {
       "url": "https://pypi.org/project/mipiti-mcp/0.102.5/",
       "date": "2026-11-05"
+    },
+    {
+      "url": "https://huggingface.co/burner22/numbat",
+      "date": "2026-11-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.06984",
+      "date": "2026-11-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.07066",
+      "date": "2026-11-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.07088",
+      "date": "2026-11-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.06953",
+      "date": "2026-11-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.06956",
+      "date": "2026-11-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.06991",
+      "date": "2026-11-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.07025",
+      "date": "2026-11-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.07069",
+      "date": "2026-11-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.07071",
+      "date": "2026-11-06"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.07093",
+      "date": "2026-11-06"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/desktop-nightly-20261104233655",
+      "date": "2026-11-06"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/process-daemon-v0.5.0",
+      "date": "2026-11-06"
+    },
+    {
+      "url": "https://pypi.org/project/my-llm-py/2.0.1/",
+      "date": "2026-11-06"
+    },
+    {
+      "url": "https://pypi.org/project/pygenius-ai/0.3.21/",
+      "date": "2026-11-06"
     }
   ]
 }
