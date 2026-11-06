@@ -1,4 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Tenkai</title><link>https://tenkai.blog/tags/releases/</link><description>Recent content in Releases on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 05 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — November 5, 2026</title><link>https://tenkai.blog/posts/2026-11-05/</link><pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-11-05/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Tenkai</title><link>https://tenkai.blog/tags/releases/</link><description>Recent content in Releases on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 06 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — November 6, 2026</title><link>https://tenkai.blog/posts/2026-11-06/</link><pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-11-06/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/burner22/numbat" target="_blank" rel="noopener noreferrer">Numbat&lt;/a>
+&lt;/strong> — 🤖 8-bit quantized model release with Google Modelopt integration, targeting reduced memory footprint and efficient inference for transformer-based workloads. Modelopt compatibility enables automated optimization and deployment acceleration.&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/pygenius-ai/0.3.21/" target="_blank" rel="noopener noreferrer">pygenius-ai&lt;/a>
+&lt;/strong> — 🛠️ Production-grade Python code generation framework leveraging AST-aware parsing, multi-agent orchestration, and layered security defenses for reliable automated coding workflows.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/my-llm-py/2.0.1/" target="_blank" rel="noopener noreferrer">my-llm-py&lt;/a>
+&lt;/strong> — Profile-driven async LLM adapter enabling unified, non-blocking integration with OpenAI and Anthropic APIs, supporting configurable request profiles and concurrent workloads.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anomalyco/opencode/releases/tag/process-daemon-v0.5.0" target="_blank" rel="noopener noreferrer">sst/opencode process-daemon&lt;/a>
+&lt;/strong> — 🛠️ opencode-pty protocol 8 released as @opencode/pty@0.5.0, introducing new protocol version for improved terminal/pty handling in the opencode ecosystem.&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2611.07025" target="_blank" rel="noopener noreferrer">LowRAM&lt;/a>
+&lt;/strong> — 📄 Identifies that within each attention head, values are largely predictable from keys, proposing low-rank key compression and amortized value storage for test-time KV cache compression. Introduces composable compression that integrates with existing attention implementations.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2611.06984" target="_blank" rel="noopener noreferrer">Resource-Efficient Reinforcement Learning Post-Training&lt;/a>
+&lt;/strong> — 📄 Tackles the computational bottleneck of generating training responses in RL post-training for MoE models, where fast workers idle waiting for slow experts. Introduces elastic expert parallelism that dynamically reallocates workers based on expert availability and response length.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2611.06956" target="_blank" rel="noopener noreferrer">Octopus&lt;/a>
+&lt;/strong> — 📄 Introduces a multi-agent LLM framework using latent-KV branches with isolated context windows per sub-agent, avoiding KV cache duplication across parallel branches. Proposes efficient inter-branch communication via summary prefill rather than full cache exchange.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2611.07071" target="_blank" rel="noopener noreferrer">Shaping &amp;amp; Monitoring Models&lt;/a>
+&lt;/strong> — 📄 Present Mechanistic Shaping, a training framework that enforces specifications on model concepts via internal representation monitoring, not just output-level constraints. Optimizes shape losses that penalize deviation from desired concept activation patterns across layers.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2611.07093" target="_blank" rel="noopener noreferrer">Server-Side Sparse Assignment&lt;/a>
+&lt;/strong> — 📄 Addresses client heterogeneity in federated MoE training by proposing server-side sparse assignment that routes tokens to experts without requiring client-side expert selection. Reduces communication overhead and accommodates diverse data distributions across edge devices.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2611.07066" target="_blank" rel="noopener noreferrer">Cooperative Multi-Agent Reinforcement Learning&lt;/a>
+&lt;/strong> — 📄 Addresses the combinatorial complexity in MARL joint state-action spaces that hinders cooperative behavior emergence. Introduces epigraph-form guided exploration that structures intrinsic rewards to align with team objectives without distorting learning dynamics.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/cline/cline/releases/tag/desktop-nightly-20261104233655" target="_blank" rel="noopener noreferrer">cline/cline desktop nightly&lt;/a>
+&lt;/strong> — 🛠️ Cline nightly build delegates UX verification to subagents, preserves delegated tool approval policies, and maintains worker and child identity across hub event projections for consistent multi-agent execution.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>If you&amp;rsquo;re serving Mixture-of-Experts models in production, the trio of LowRAM, server-side sparse assignment, and elastic expert parallelism offers a surprisingly practical stack for taming KV cache bloat and straggler bottlenecks. LowRAM&amp;rsquo;s insight that attention head values are largely predictable from keys opens the door to low-rank key compression and amortized value storage, reducing memory footprint without retraining. Pair that with server-side sparse assignment, which routes tokens to experts from the server side rather than forcing heterogeneous edge devices to perform expert selection, and you cut communication overhead across federated or distributed setups. Throw in elastic expert parallelism from the RL post-training work, which dynamically reallocates workers based on expert availability and response length, and you finally solve the &amp;ldquo;fast workers idling for slow experts&amp;rdquo; problem that plagues MoE training loops. The engineer takeaway: combine test-time KV compression, server-guided routing, and dynamic parallelism adjustment into a single serving pipeline, and you can deploy larger MoE models on existing hardware while keeping latency and cost in check. &lt;a href="https://arxiv.org/abs/2611.07025" target="_blank" rel="noopener noreferrer">LowRAM&lt;/a>
+ · &lt;a href="https://arxiv.org/abs/2611.07093" target="_blank" rel="noopener noreferrer">Server-Side Sparse Assignment&lt;/a>
+ · &lt;a href="https://arxiv.org/abs/2611.06984" target="_blank" rel="noopener noreferrer">Resource-Efficient RL Post-Training&lt;/a>
+&lt;/p></description></item><item><title>Tenkai Daily — November 5, 2026</title><link>https://tenkai.blog/posts/2026-11-05/</link><pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-11-05/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/moonshotai/Kimi-K3.1-Pro" target="_blank" rel="noopener noreferrer">Kimi K3.1-Pro Multimodal&lt;/a>
 &lt;/strong> — Multimodal model handling text and image-to-text tasks, built on transformers with compressed-tensors and 8-bit quantization for efficient deployment. Emphasizes conversational AI integration and flexible code generation.&lt;/li>
