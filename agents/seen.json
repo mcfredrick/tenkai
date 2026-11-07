@@ -1,46 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/jo-inc/camofox-browser",
-      "date": "2026-09-08"
-    },
-    {
-      "url": "https://github.com/browser-use/browser-use",
-      "date": "2026-09-08"
-    },
-    {
-      "url": "https://github.com/mksglu/context-mode",
-      "date": "2026-09-08"
-    },
-    {
-      "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
-      "date": "2026-09-08"
-    },
-    {
-      "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
-      "date": "2026-09-08"
-    },
-    {
-      "url": "https://huggingface.co/IFM/K2-Horizon-MoVA-36B-A4B",
-      "date": "2026-09-08"
-    },
-    {
-      "url": "https://pypi.org/project/llm-distillery/0.1.0/",
-      "date": "2026-09-08"
-    },
-    {
-      "url": "https://pypi.org/project/finefettle/1.13.1/",
-      "date": "2026-09-08"
-    },
-    {
-      "url": "https://pypi.org/project/dbcrust/0.37.2/",
-      "date": "2026-09-08"
-    },
-    {
-      "url": "https://pypi.org/project/srforge/0.15.4/",
-      "date": "2026-09-08"
-    },
-    {
       "url": "https://github.com/vastsa/PI-Desktop",
       "date": "2026-09-09"
     },
@@ -4707,6 +4667,38 @@
     {
       "url": "https://pypi.org/project/pygenius-ai/0.3.21/",
       "date": "2026-11-06"
+    },
+    {
+      "url": "https://github.com/dsx-ai-factory/nvke",
+      "date": "2026-11-07"
+    },
+    {
+      "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "date": "2026-11-07"
+    },
+    {
+      "url": "https://huggingface.co/ccore/Qwen3.5-4B-GLB-3D-Coder",
+      "date": "2026-11-07"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319",
+      "date": "2026-11-07"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v2.2.6",
+      "date": "2026-11-07"
+    },
+    {
+      "url": "https://pypi.org/project/shortkit-ml/0.2.1/",
+      "date": "2026-11-07"
+    },
+    {
+      "url": "https://pypi.org/project/zenagent-py/0.9.1/",
+      "date": "2026-11-07"
+    },
+    {
+      "url": "https://pypi.org/project/datasheet-lens/0.5.0/",
+      "date": "2026-11-07"
     }
   ]
 }
