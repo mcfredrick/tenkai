@@ -1,102 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/melgarafael/DeskcommCRM",
-      "date": "2026-09-11"
-    },
-    {
-      "url": "https://github.com/pascalorg/editor",
-      "date": "2026-09-11"
-    },
-    {
-      "url": "https://huggingface.co/dealignai/GLM-5.3-CYBERSECURITY-FP8",
-      "date": "2026-09-11"
-    },
-    {
-      "url": "https://huggingface.co/m-a-p/YuE2-3B",
-      "date": "2026-09-11"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.09233",
-      "date": "2026-09-11"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.09395",
-      "date": "2026-09-11"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.09448",
-      "date": "2026-09-11"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.10658",
-      "date": "2026-09-11"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.10737",
-      "date": "2026-09-11"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.10752",
-      "date": "2026-09-11"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.10796",
-      "date": "2026-09-11"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.10798",
-      "date": "2026-09-11"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.10589",
-      "date": "2026-09-11"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.10643",
-      "date": "2026-09-11"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.10647",
-      "date": "2026-09-11"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.268",
-      "date": "2026-09-11"
-    },
-    {
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.10",
-      "date": "2026-09-11"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.26",
-      "date": "2026-09-11"
-    },
-    {
-      "url": "https://pypi.org/project/keycall/1.12.0/",
-      "date": "2026-09-11"
-    },
-    {
-      "url": "https://pypi.org/project/pyvisim/0.9.4/",
-      "date": "2026-09-11"
-    },
-    {
-      "url": "https://pypi.org/project/agent-work-runtime/0.3.2/",
-      "date": "2026-09-11"
-    },
-    {
-      "url": "https://pypi.org/project/acbici/2.2.0/",
-      "date": "2026-09-11"
-    },
-    {
-      "url": "https://pypi.org/project/firmwareloop/0.8.0/",
-      "date": "2026-09-11"
-    },
-    {
-      "url": "https://pypi.org/project/torchmodal/0.2.1/",
-      "date": "2026-09-11"
-    },
-    {
       "url": "https://github.com/max-sixty/worktrunk",
       "date": "2026-09-12"
     },
@@ -4627,6 +4531,62 @@
     {
       "url": "https://pypi.org/project/kagent-openai/1.0.0rc4/",
       "date": "2026-11-09"
+    },
+    {
+      "url": "https://github.com/ruvnet/RuView",
+      "date": "2026-11-10"
+    },
+    {
+      "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+      "date": "2026-11-10"
+    },
+    {
+      "url": "https://huggingface.co/PrunaAI/P-H3-Image",
+      "date": "2026-11-10"
+    },
+    {
+      "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Base",
+      "date": "2026-11-10"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.322",
+      "date": "2026-11-10"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.321",
+      "date": "2026-11-10"
+    },
+    {
+      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.58.1",
+      "date": "2026-11-10"
+    },
+    {
+      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.58.0",
+      "date": "2026-11-10"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v2.2.7",
+      "date": "2026-11-10"
+    },
+    {
+      "url": "https://pypi.org/project/entroptics-context/0.3.0/",
+      "date": "2026-11-10"
+    },
+    {
+      "url": "https://pypi.org/project/atalaya/0.3.2/",
+      "date": "2026-11-10"
+    },
+    {
+      "url": "https://pypi.org/project/ragnarok-mcp/2.1.1/",
+      "date": "2026-11-10"
+    },
+    {
+      "url": "https://pypi.org/project/tensorflow-riemopt/0.4.3/",
+      "date": "2026-11-10"
+    },
+    {
+      "url": "https://pypi.org/project/redpanda-security/0.2.0/",
+      "date": "2026-11-10"
     }
   ]
 }
