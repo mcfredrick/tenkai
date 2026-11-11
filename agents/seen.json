@@ -1,126 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/max-sixty/worktrunk",
-      "date": "2026-09-12"
-    },
-    {
-      "url": "https://github.com/vxcontrol/pentagi",
-      "date": "2026-09-12"
-    },
-    {
-      "url": "https://huggingface.co/nex-agi/Nex-N2.5-Pro",
-      "date": "2026-09-12"
-    },
-    {
-      "url": "https://huggingface.co/Edge0/Edge0-35B-A3B-preview",
-      "date": "2026-09-12"
-    },
-    {
-      "url": "https://huggingface.co/openbmb/MiniCPM5-2B-GGUF",
-      "date": "2026-09-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.10584",
-      "date": "2026-09-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.10629",
-      "date": "2026-09-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.10654",
-      "date": "2026-09-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.10656",
-      "date": "2026-09-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.10657",
-      "date": "2026-09-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.10712",
-      "date": "2026-09-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.10724",
-      "date": "2026-09-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.10728",
-      "date": "2026-09-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.10824",
-      "date": "2026-09-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.10873",
-      "date": "2026-09-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.10964",
-      "date": "2026-09-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.10992",
-      "date": "2026-09-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.11030",
-      "date": "2026-09-12"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.11060",
-      "date": "2026-09-12"
-    },
-    {
-      "url": "https://pypi.org/project/ethan-agent/0.5.256/",
-      "date": "2026-09-12"
-    },
-    {
-      "url": "https://pypi.org/project/mindroom/2026.9.93/",
-      "date": "2026-09-12"
-    },
-    {
-      "url": "https://pypi.org/project/limatus/0.27.0/",
-      "date": "2026-09-12"
-    },
-    {
-      "url": "https://pypi.org/project/jax-mps/0.10.11.dev834/",
-      "date": "2026-09-12"
-    },
-    {
-      "url": "https://pypi.org/project/featrixsphere/2.0.12574/",
-      "date": "2026-09-12"
-    },
-    {
-      "url": "https://pypi.org/project/savi-sdk/0.15.0/",
-      "date": "2026-09-12"
-    },
-    {
-      "url": "https://pypi.org/project/entelligence-cli/0.1.299/",
-      "date": "2026-09-12"
-    },
-    {
-      "url": "https://pypi.org/project/softqcos-mcp/3.8.3/",
-      "date": "2026-09-12"
-    },
-    {
-      "url": "https://pypi.org/project/nebelus/0.1.8/",
-      "date": "2026-09-12"
-    },
-    {
-      "url": "https://pypi.org/project/tesserae/0.41.2/",
-      "date": "2026-09-12"
-    },
-    {
-      "url": "https://pypi.org/project/agentknit/0.1004.0/",
-      "date": "2026-09-12"
-    },
-    {
       "url": "https://github.com/danny-avila/LibreChat",
       "date": "2026-09-15"
     },
@@ -4587,6 +4467,106 @@
     {
       "url": "https://pypi.org/project/redpanda-security/0.2.0/",
       "date": "2026-11-10"
+    },
+    {
+      "url": "https://github.com/openai/codex-security",
+      "date": "2026-11-11"
+    },
+    {
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+      "date": "2026-11-11"
+    },
+    {
+      "url": "https://huggingface.co/VideoRebirthAI/hyperflow-h3-flash",
+      "date": "2026-11-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.12935",
+      "date": "2026-11-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.12956",
+      "date": "2026-11-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.12938",
+      "date": "2026-11-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.12950",
+      "date": "2026-11-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.13003",
+      "date": "2026-11-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.13013",
+      "date": "2026-11-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.13016",
+      "date": "2026-11-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.12954",
+      "date": "2026-11-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.12974",
+      "date": "2026-11-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.12988",
+      "date": "2026-11-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.13005",
+      "date": "2026-11-11"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.12990",
+      "date": "2026-11-11"
+    },
+    {
+      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.59.0",
+      "date": "2026-11-11"
+    },
+    {
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.4.0",
+      "date": "2026-11-11"
+    },
+    {
+      "url": "https://pypi.org/project/cognicore-env/0.13.0/",
+      "date": "2026-11-11"
+    },
+    {
+      "url": "https://pypi.org/project/inference-control-plane/0.1.0/",
+      "date": "2026-11-11"
+    },
+    {
+      "url": "https://pypi.org/project/quincaillerie/0.2.0b1/",
+      "date": "2026-11-11"
+    },
+    {
+      "url": "https://pypi.org/project/filaire/0.3.0b1/",
+      "date": "2026-11-11"
+    },
+    {
+      "url": "https://pypi.org/project/jentic-apitools-score/1.0.0a27/",
+      "date": "2026-11-11"
+    },
+    {
+      "url": "https://pypi.org/project/jentic-apitools-llm/1.0.0a27/",
+      "date": "2026-11-11"
+    },
+    {
+      "url": "https://pypi.org/project/tokensafe/2.3.0/",
+      "date": "2026-11-11"
+    },
+    {
+      "url": "https://pypi.org/project/areev/1.14.3/",
+      "date": "2026-11-11"
     }
   ]
 }
