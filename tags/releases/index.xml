@@ -1,4 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Tenkai</title><link>https://tenkai.blog/tags/releases/</link><description>Recent content in Releases on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 11 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — November 11, 2026</title><link>https://tenkai.blog/posts/2026-11-11/</link><pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-11-11/</guid><description>&lt;p>🎖️ Veterans Day edition. The through-line today is unglamorous infrastructure — the tooling, safety patches, and evaluation work that quietly holds systems up. Which is a decent frame for the day, honestly.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Tenkai</title><link>https://tenkai.blog/tags/releases/</link><description>Recent content in Releases on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 12 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — November 12, 2026</title><link>https://tenkai.blog/posts/2026-11-12/</link><pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-11-12/</guid><description>&lt;h2 id="model-releases-">Model Releases 🤖&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://huggingface.co/tencent/Qwen3.8-27B-DSpine-b16" target="_blank" rel="noopener noreferrer">tencent/Qwen3.8-27B-DSpine-b16&lt;/a>
+ — A speculative-decoding draft model fine-tuned from Qwen3.8-27B for SGLang. If you want lower latency without redesigning your serving stack, benchmark it against your target model and check the acceptance rate.&lt;/li>
+&lt;li>&lt;a href="https://huggingface.co/unsloth/Qwen3.8-27B-GGUF" target="_blank" rel="noopener noreferrer">unsloth/Qwen3.8-27B-GGUF&lt;/a>
+ — Unsloth’s GGUF quantization for Qwen3.8-27B, with imatrix calibration for llama.cpp-style local serving. Good for edge-ish deployments, less good if you expected a free lunch on memory.&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://pypi.org/project/writ-mcp/0.2.1/" target="_blank" rel="noopener noreferrer">writ-mcp 0.2.1&lt;/a>
+ — An MCP server that gates agent writes with ALLOW, DENY, or STEP_UP decisions and keeps an audit trail. If your agents have write access, this is less “nice to have” and more “please stop letting them YOLO prod.”&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/fieldgraph/0.4.7/" target="_blank" rel="noopener noreferrer">fieldgraph 0.4.7&lt;/a>
+ — A streaming dataflow and ML pipeline framework built around ordered, versioned tables, with per-cell caching and SQL access. Could make stateful feature pipelines less painful, assuming you want another framework in the stack.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/authsome-mcp-proxy/0.9.0/" target="_blank" rel="noopener noreferrer">authsome-mcp-proxy 0.9.0&lt;/a>
+ — An MCP proxy that adds OAuth/OIDC to upstream MCP servers that otherwise accept static creds or nothing. Useful when you need Claude or Cursor talking to MCP servers without turning auth into a side quest.&lt;/li>
+&lt;li>&lt;a href="https://github.com/ggml-org/llama.cpp" target="_blank" rel="noopener noreferrer">ggml-org/llama.cpp&lt;/a>
+ — The C/C++ workhorse for local LLM inference. Still the reference implementation when you care about running models on modest hardware.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/claimidx/0.7.24/" target="_blank" rel="noopener noreferrer">claimidx 0.7.24&lt;/a>
+ — A prior-art index for agents that stores replay-gated failures so they can check before retrying. Could cut down on agents rediscovering the same dead end with extra confidence.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/flagwake/0.5.0rc2/" target="_blank" rel="noopener noreferrer">flagwake 0.5.0rc2&lt;/a>
+ — An offline, repeatable security exercise for testing how an AI defender handles incidents, scored with business-cost metrics. Useful if your incident-response plans are currently vibes and a wiki page.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools-">AI Dev Tools 🛠️&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/ashhart/TensorFold" target="_blank" rel="noopener noreferrer">ashhart/TensorFold&lt;/a>
+ — An LLM inference engine with Metal, CUDA, and Vulkan backends. Relevant if you’re building a local inference stack that refuses to pick one GPU vendor and stick with it.&lt;/li>
+&lt;li>&lt;a href="https://github.com/QwenLM/qwen-code" target="_blank" rel="noopener noreferrer">QwenLM/qwen-code&lt;/a>
+ — An open-source terminal coding agent from Qwen. Worth a look if you want CLI-native assistance without opening another browser tab.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>If your agents are about to touch real systems, stitch &lt;a href="https://pypi.org/project/writ-mcp/0.2.1/" target="_blank" rel="noopener noreferrer">writ-mcp 0.2.1&lt;/a>
+, &lt;a href="https://pypi.org/project/authsome-mcp-proxy/0.9.0/" target="_blank" rel="noopener noreferrer">authsome-mcp-proxy 0.9.0&lt;/a>
+, and &lt;a href="https://pypi.org/project/claimidx/0.7.24/" target="_blank" rel="noopener noreferrer">claimidx 0.7.24&lt;/a>
+ into one boring, auditable path. Put &lt;a href="https://pypi.org/project/authsome-mcp-proxy/0.9.0/" target="_blank" rel="noopener noreferrer">authsome-mcp-proxy 0.9.0&lt;/a>
+ in front of every MCP server that currently trusts static tokens, map the upstream identity to a scoped principal, and require short-lived credentials before any tool call. Then route write-capable tools through &lt;a href="https://pypi.org/project/writ-mcp/0.2.1/" target="_blank" rel="noopener noreferrer">writ-mcp 0.2.1&lt;/a>
+ with explicit ALLOW, DENY, or STEP_UP policies, and make STEP_UP actually block until a human approves. When an agent hits a deny or approval gate, log the attempt, tool name, argument hash, principal, and outcome into &lt;a href="https://pypi.org/project/claimidx/0.7.24/" target="_blank" rel="noopener noreferrer">claimidx 0.7.24&lt;/a>
+ so the next retry can check whether that exact failure already burned a path. The payoff is not agent magic; it is fewer repeated prod pokes, cleaner incident trails, and a policy boundary you can test. Start by inventorying MCP servers, wrapping auth first, then enabling write gating in dry-run mode before flipping enforcement.&lt;/p></description></item><item><title>Tenkai Daily — November 11, 2026</title><link>https://tenkai.blog/posts/2026-11-11/</link><pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-11-11/</guid><description>&lt;p>🎖️ Veterans Day edition. The through-line today is unglamorous infrastructure — the tooling, safety patches, and evaluation work that quietly holds systems up. Which is a decent frame for the day, honestly.&lt;/p>
 &lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://huggingface.co/MiniMaxAI/MiniMax-H3-Image" target="_blank" rel="noopener noreferrer">MiniMax-H3-Image&lt;/a>
