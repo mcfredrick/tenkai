@@ -4567,6 +4567,50 @@
     {
       "url": "https://pypi.org/project/areev/1.14.3/",
       "date": "2026-11-11"
+    },
+    {
+      "url": "https://github.com/QwenLM/qwen-code",
+      "date": "2026-11-12"
+    },
+    {
+      "url": "https://github.com/ashhart/TensorFold",
+      "date": "2026-11-12"
+    },
+    {
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "date": "2026-11-12"
+    },
+    {
+      "url": "https://huggingface.co/tencent/Qwen3.8-27B-DSpine-b16",
+      "date": "2026-11-12"
+    },
+    {
+      "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+      "date": "2026-11-12"
+    },
+    {
+      "url": "https://pypi.org/project/writ-mcp/0.2.1/",
+      "date": "2026-11-12"
+    },
+    {
+      "url": "https://pypi.org/project/fieldgraph/0.4.7/",
+      "date": "2026-11-12"
+    },
+    {
+      "url": "https://pypi.org/project/claimidx/0.7.24/",
+      "date": "2026-11-12"
+    },
+    {
+      "url": "https://pypi.org/project/authsome-mcp-proxy/0.9.0/",
+      "date": "2026-11-12"
+    },
+    {
+      "url": "https://pypi.org/project/flagwake/0.5.0rc2/",
+      "date": "2026-11-12"
+    },
+    {
+      "url": "https://pypi.org/project/mcp-server-appwrite/2.5.0/",
+      "date": "2026-11-12"
     }
   ]
 }
