@@ -4611,6 +4611,42 @@
     {
       "url": "https://pypi.org/project/mcp-server-appwrite/2.5.0/",
       "date": "2026-11-12"
+    },
+    {
+      "url": "https://github.com/Likely7/Veyra-NRVideo",
+      "date": "2026-11-13"
+    },
+    {
+      "url": "https://huggingface.co/Zyphra/ZONOS3-Mini",
+      "date": "2026-11-13"
+    },
+    {
+      "url": "https://huggingface.co/Cactus-Compute/mirage",
+      "date": "2026-11-13"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.323",
+      "date": "2026-11-13"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v2.3.0",
+      "date": "2026-11-13"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/process-daemon-v0.5.2",
+      "date": "2026-11-13"
+    },
+    {
+      "url": "https://pypi.org/project/xformers/0.0.36/",
+      "date": "2026-11-13"
+    },
+    {
+      "url": "https://pypi.org/project/superuser/0.1.1/",
+      "date": "2026-11-13"
+    },
+    {
+      "url": "https://pypi.org/project/connectpak/0.1.0/",
+      "date": "2026-11-13"
     }
   ]
 }
