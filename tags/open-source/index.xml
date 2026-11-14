@@ -1,4 +1,48 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open-Source on Tenkai</title><link>https://tenkai.blog/tags/open-source/</link><description>Recent content in Open-Source on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 13 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/open-source/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — November 13, 2026</title><link>https://tenkai.blog/posts/2026-11-13/</link><pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-11-13/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open-Source on Tenkai</title><link>https://tenkai.blog/tags/open-source/</link><description>Recent content in Open-Source on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 14 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/open-source/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — November 14, 2026</title><link>https://tenkai.blog/posts/2026-11-14/</link><pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-11-14/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/Edge0/Edge0-145B-NVFP4" target="_blank" rel="noopener noreferrer">Edge0/Edge0-145B-NVFP4&lt;/a>
+&lt;/strong> — A 4-bit NVFP4 MoE based on Qwen3.8-Flash-Next, tagged for CUDA and latent MoE, aimed at edge inference and coding agents. Worth a look if you need big-model behavior in tight GPU memory; otherwise it&amp;rsquo;s another quantized variant. 🤖&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.325" target="_blank" rel="noopener noreferrer">Claude Code v2.1.325 fixes zstd response decoding security issue&lt;/a>
+&lt;/strong> — Patches a zstd response decoding security bug and adds minor terminal/Jupyter and /rewind policy-recovery notes. Update if Claude Code sits in your automation path. 🛠️&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/tau-by-clarity/0.60.10/" target="_blank" rel="noopener noreferrer">tau-by-clarity 0.60.10&lt;/a>
+&lt;/strong> — Python port of pi-mono with a coding-agent loop, multi-provider LLM support, TUI, and tools. Useful reference if you&amp;rsquo;re building or benchmarking terminal agents.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/embeddings-tumbler/0.11.6/" target="_blank" rel="noopener noreferrer">embeddings-tumbler 0.11.6&lt;/a>
+&lt;/strong> — Interactive 3D explorer for high-dimensional embedding spaces with tumble, lattice, and wander modes. Handy when you need to eyeball embedding geometry instead of trusting cosine similarity blindly.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/ha-mcp-dev/9.3.0.dev3550/" target="_blank" rel="noopener noreferrer">ha-mcp-dev 9.3.0.dev3550&lt;/a>
+&lt;/strong> — Dev release of an MCP package wiring Home Assistant to AI assistants for config and automation. Niche, but relevant if you&amp;rsquo;re poking at model-controlled smart-home tooling.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/cognitrix/0.5.5/" target="_blank" rel="noopener noreferrer">cognitrix 0.5.5&lt;/a>
+&lt;/strong> — Python package for building LLM-powered agent workflows. It&amp;rsquo;s another agent abstraction layer; check the ergonomics before adding it to your stack.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/open-short-drama-studio/0.10.0/" target="_blank" rel="noopener noreferrer">open-short-drama-studio 0.10.0&lt;/a>
+&lt;/strong> — Deterministic pipeline for AI-generated short dramas, with quality gates, storyboard prompt standardization, shot alignment, and delivery checks. It also includes credit optimization, CapCut timelines, audio/BGM gating, and MP4 mastering utilities, so it&amp;rsquo;s either a handy studio kit or a very specific rabbit hole.&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2611.14681" target="_blank" rel="noopener noreferrer">Together Compiler: Continual Compilation for AI Inference&lt;/a>
+&lt;/strong> — Paper on continual compilation for fast-changing inference workloads, model architectures, and traffic patterns. Relevant if you care about compiler design and production serving. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2611.14850" target="_blank" rel="noopener noreferrer">Effective Teacher Support for Reasoning Distillation&lt;/a>
+&lt;/strong> — Distills from only the teacher&amp;rsquo;s top-probability vocabulary fraction rather than full logits, cutting training and storage cost. It sweeps retained support from 100% down to 0.01%.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2611.14654" target="_blank" rel="noopener noreferrer">Cleaning an Agent&amp;rsquo;s History Hurts When the World Still Holds the Error&lt;/a>
+&lt;/strong> — Studies agent history compaction when external state still contains the mistake. Main takeaway: scrubbing internal memory can make things worse if the environment isn&amp;rsquo;t corrected.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2611.14765" target="_blank" rel="noopener noreferrer">SynthCorp: A Platform for Creating Benchmarks for Data Agents&lt;/a>
+&lt;/strong> — Generates benchmarks for LLM data agents by simulating business events that create and mutate corporate data. Gives you synthetic relational DBs, document stores, and catalogs for evaluation. 📄&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2611.14781" target="_blank" rel="noopener noreferrer">Robust Task-Aware State Estimation from Pre-trained Perception&lt;/a>
+&lt;/strong> — Tackles brittle state estimation when agents rely on pretrained perception like VLMs. Instead of collapsing uncertainty into one best guess, it keeps task-aware uncertainty in the loop.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2611.14794" target="_blank" rel="noopener noreferrer">When Is Proof-Step Verification Worth Its Cost? Operating Requirements of Certify-or-Decline Verification for Open-Weight Mathematical Reasoning&lt;/a>
+&lt;/strong> — Evaluates proof-step verification with LLM judges that certify or decline answers. Reports precision gains on GPQA, AIME-2025, and MATH-500, plus the cost/coverage trade-off. 📄&lt;/li>
+&lt;/ul>
+&lt;h2 id="tutorials--guides">Tutorials &amp;amp; Guides&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/shanraischan/claude-code-best-practice" target="_blank" rel="noopener noreferrer">Claude Code best practices for agentic engineering&lt;/a>
+&lt;/strong> — Practical patterns for moving from vibe coding to structured agentic engineering with Claude Code. Covers commands, skills, context management, and workflow practices, so it&amp;rsquo;s useful if you&amp;rsquo;re formalizing agent workflows beyond ad hoc prompts. 🛠️&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>If you’re wiring Claude Code into real pipelines, treat &lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.325" target="_blank" rel="noopener noreferrer">Claude Code v2.1.325&lt;/a>
+ as the boring-but-necessary first step: patch the zstd decoding issue before you spend another afternoon debugging weird agent output. Then pair it with the patterns in &lt;a href="https://github.com/shanraischan/claude-code-best-practice" target="_blank" rel="noopener noreferrer">Claude Code best practices for agentic engineering&lt;/a>
+ so your commands, skills, and context handling stop looking like a pile of prompt spaghetti. The useful move is to make the agent’s history auditable: log tool calls, file diffs, and failed attempts, then inspect whether similar failures cluster around the same context or retrieval path. The paper &lt;a href="https://arxiv.org/abs/2611.14654" target="_blank" rel="noopener noreferrer">Cleaning an Agent&amp;rsquo;s History Hurts When the World Still Holds the Error&lt;/a>
+ makes the point sharply: compaction can backfire if the environment still contains the mistake. So don’t just scrub the transcript; fix the external state, tests, or docs the agent is reading. That turns “the model forgot” into a concrete engineering bug you can reproduce, patch, and regression-test.&lt;/p></description></item><item><title>Tenkai Daily — November 13, 2026</title><link>https://tenkai.blog/posts/2026-11-13/</link><pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-11-13/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/Zyphra/ZONOS3-Mini" target="_blank" rel="noopener noreferrer">Zyphra/ZONOS3-Mini&lt;/a>
 &lt;/strong> — Multilingual TTS with voice cloning, shipped in both Safetensors and GGUF. 🤖 The GGUF build is the interesting part — it means you can actually run this somewhere other than a datacenter GPU.&lt;/li>
