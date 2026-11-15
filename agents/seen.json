@@ -1,122 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/Tencent/WeKnora",
-      "date": "2026-09-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.16129",
-      "date": "2026-09-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.16145",
-      "date": "2026-09-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.16163",
-      "date": "2026-09-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.16189",
-      "date": "2026-09-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.16206",
-      "date": "2026-09-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.16213",
-      "date": "2026-09-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.16215",
-      "date": "2026-09-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.16232",
-      "date": "2026-09-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.16245",
-      "date": "2026-09-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.16247",
-      "date": "2026-09-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.16251",
-      "date": "2026-09-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.16258",
-      "date": "2026-09-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.16298",
-      "date": "2026-09-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.16301",
-      "date": "2026-09-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.16305",
-      "date": "2026-09-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.16054",
-      "date": "2026-09-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.16056",
-      "date": "2026-09-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.16057",
-      "date": "2026-09-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.16058",
-      "date": "2026-09-16"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.16060",
-      "date": "2026-09-16"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.273",
-      "date": "2026-09-16"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.271",
-      "date": "2026-09-16"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.83",
-      "date": "2026-09-16"
-    },
-    {
-      "url": "https://pypi.org/project/mstar-ai/0.2.1/",
-      "date": "2026-09-16"
-    },
-    {
-      "url": "https://pypi.org/project/lexsi-sdk/0.1.59/",
-      "date": "2026-09-16"
-    },
-    {
-      "url": "https://pypi.org/project/kainguru-sdk/0.2.14.dev0/",
-      "date": "2026-09-16"
-    },
-    {
-      "url": "https://pypi.org/project/pitloom/0.18.0/",
-      "date": "2026-09-16"
-    },
-    {
-      "url": "https://pypi.org/project/dtflow/0.8.2/",
-      "date": "2026-09-16"
-    },
-    {
       "url": "https://github.com/Tencent/BrowserSkill",
       "date": "2026-09-17"
     },
@@ -4619,6 +4503,38 @@
     {
       "url": "https://pypi.org/project/tau-by-clarity/0.60.10/",
       "date": "2026-11-14"
+    },
+    {
+      "url": "https://huggingface.co/higurashi-ai/Haru-4B",
+      "date": "2026-11-15"
+    },
+    {
+      "url": "https://huggingface.co/adventists-ai/Sophon-Realtime-v1",
+      "date": "2026-11-15"
+    },
+    {
+      "url": "https://pypi.org/project/free-claude-code/6.19.31/",
+      "date": "2026-11-15"
+    },
+    {
+      "url": "https://pypi.org/project/aisecuritywarden/0.7.9/",
+      "date": "2026-11-15"
+    },
+    {
+      "url": "https://pypi.org/project/vouchwell/0.8.2/",
+      "date": "2026-11-15"
+    },
+    {
+      "url": "https://pypi.org/project/ai-costs/2.11.2/",
+      "date": "2026-11-15"
+    },
+    {
+      "url": "https://pypi.org/project/aisignoff/1.0.0rc4/",
+      "date": "2026-11-15"
+    },
+    {
+      "url": "https://pypi.org/project/tpu-inference/0.33.0.dev20261115/",
+      "date": "2026-11-15"
     }
   ]
 }
