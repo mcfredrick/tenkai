@@ -1,114 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/Tencent/BrowserSkill",
-      "date": "2026-09-17"
-    },
-    {
-      "url": "https://github.com/TencentCloud/Octop",
-      "date": "2026-09-17"
-    },
-    {
-      "url": "https://huggingface.co/dealignai/DeepSeek-V4.1-Flash-UNCENSORED-FP8",
-      "date": "2026-09-17"
-    },
-    {
-      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
-      "date": "2026-09-17"
-    },
-    {
-      "url": "https://huggingface.co/openai-community/gpt2",
-      "date": "2026-09-17"
-    },
-    {
-      "url": "https://huggingface.co/Agnes-AI/Agnes-3.0-Flash",
-      "date": "2026-09-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.17699",
-      "date": "2026-09-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.17564",
-      "date": "2026-09-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.17652",
-      "date": "2026-09-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.17786",
-      "date": "2026-09-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.17631",
-      "date": "2026-09-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.17635",
-      "date": "2026-09-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.17688",
-      "date": "2026-09-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.17695",
-      "date": "2026-09-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.17637",
-      "date": "2026-09-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.17757",
-      "date": "2026-09-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.17775",
-      "date": "2026-09-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.17804",
-      "date": "2026-09-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.17560",
-      "date": "2026-09-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.17575",
-      "date": "2026-09-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.17686",
-      "date": "2026-09-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.17697",
-      "date": "2026-09-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.17653",
-      "date": "2026-09-17"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.17682",
-      "date": "2026-09-17"
-    },
-    {
-      "url": "https://pypi.org/project/matrx-batch/0.2.92/",
-      "date": "2026-09-17"
-    },
-    {
-      "url": "https://pypi.org/project/leai/0.3.5/",
-      "date": "2026-09-17"
-    },
-    {
-      "url": "https://pypi.org/project/ephemora-cell/1.0.3/",
-      "date": "2026-09-17"
-    },
-    {
       "url": "https://github.com/Fission-AI/OpenSpec",
       "date": "2026-09-18"
     },
@@ -4535,6 +4427,110 @@
     {
       "url": "https://pypi.org/project/tpu-inference/0.33.0.dev20261115/",
       "date": "2026-11-15"
+    },
+    {
+      "url": "https://github.com/google-research/paper-orchestra",
+      "date": "2026-11-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.17338",
+      "date": "2026-11-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.17339",
+      "date": "2026-11-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.17340",
+      "date": "2026-11-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.17341",
+      "date": "2026-11-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.17501",
+      "date": "2026-11-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.17524",
+      "date": "2026-11-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.17616",
+      "date": "2026-11-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.17620",
+      "date": "2026-11-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.17398",
+      "date": "2026-11-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.17412",
+      "date": "2026-11-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.17459",
+      "date": "2026-11-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.17460",
+      "date": "2026-11-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.17462",
+      "date": "2026-11-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.17472",
+      "date": "2026-11-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.17478",
+      "date": "2026-11-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.17484",
+      "date": "2026-11-16"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.17556",
+      "date": "2026-11-16"
+    },
+    {
+      "url": "https://pypi.org/project/hol-guard/3.60.0a107/",
+      "date": "2026-11-16"
+    },
+    {
+      "url": "https://pypi.org/project/backend-switchboard/0.1.8/",
+      "date": "2026-11-16"
+    },
+    {
+      "url": "https://pypi.org/project/b4n1-web/0.16.2/",
+      "date": "2026-11-16"
+    },
+    {
+      "url": "https://pypi.org/project/assay-pipeline/0.1.0/",
+      "date": "2026-11-16"
+    },
+    {
+      "url": "https://pypi.org/project/xnns/0.28.0/",
+      "date": "2026-11-16"
+    },
+    {
+      "url": "https://pypi.org/project/vtt-transcribe/0.5.0/",
+      "date": "2026-11-16"
+    },
+    {
+      "url": "https://pypi.org/project/feagi-core/2.6.22/",
+      "date": "2026-11-16"
+    },
+    {
+      "url": "https://pypi.org/project/statsx/0.1.1/",
+      "date": "2026-11-16"
     }
   ]
 }
