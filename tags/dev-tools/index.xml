@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev-Tools on Tenkai</title><link>https://tenkai.blog/tags/dev-tools/</link><description>Recent content in Dev-Tools on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 12 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/dev-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — November 12, 2026</title><link>https://tenkai.blog/posts/2026-11-12/</link><pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-11-12/</guid><description>&lt;h2 id="model-releases-">Model Releases 🤖&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev-Tools on Tenkai</title><link>https://tenkai.blog/tags/dev-tools/</link><description>Recent content in Dev-Tools on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 16 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/dev-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — November 16, 2026</title><link>https://tenkai.blog/posts/2026-11-16/</link><pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-11-16/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/xnns/0.28.0/" target="_blank" rel="noopener noreferrer">xnns 0.28.0&lt;/a>
+&lt;/strong> — PyTorch-native ML interatomic potentials for molecules and periodic systems. If you’re doing atomistic simulation, this is probably more useful than another chatbot wrapper.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/vtt-transcribe/0.5.0/" target="_blank" rel="noopener noreferrer">vtt-transcribe 0.5.0&lt;/a>
+&lt;/strong> — Whisper-based audio/video transcription with optional speaker diarization. Handy for media pipelines, less handy if you enjoy manually naming speaker tracks.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/statsx/0.1.1/" target="_blank" rel="noopener noreferrer">statsx 0.1.1&lt;/a>
+&lt;/strong> — NumPy-only Python stats library with a Rust core: Bayesian inference, forecasting, causal impact, tests, and experimental design. Nice when you want serious statistics without dragging in a giant dependency tree.&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2611.17338" target="_blank" rel="noopener noreferrer">When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors&lt;/a>
+&lt;/strong> — Hard-filtering stale facts can nuke query-critical info when the resolver is wrong. If you’re building agent memory, this is a reminder that aggressive forgetting needs uncertainty-aware guardrails.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2611.17339" target="_blank" rel="noopener noreferrer">Does the Ranking Hold? A Practitioner-Facing Audit of Hallucination Detectors on Small, Quantized, On-Device LLMs&lt;/a>
+&lt;/strong> — Audits hallucination detectors on small quantized on-device LLMs. If you’re deploying 4-bit models, don’t assume detector rankings from big research models survive contact with reality.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2611.17340" target="_blank" rel="noopener noreferrer">LoRAWeaver: Directional Adapter Routing in LoRA Representation Space&lt;/a>
+&lt;/strong> — Routes among LoRA adapters using directional info in LoRA representation space. Useful if you’re serving multiple task adapters and don’t want to retrain an encoder every time someone adds a new one.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2611.17501" target="_blank" rel="noopener noreferrer">Advancing Quantization for R&amp;amp;R Models with Microscaling Formats&lt;/a>
+&lt;/strong> — Tests microscaling quantization for recommendation/ranking models, where throughput matters and precision regressions can kill launches. It’s a systems-y look at squeezing accuracy out of production rankers without breaking them.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2611.17524" target="_blank" rel="noopener noreferrer">Model Annealing: Data-Efficient Learning through Review and Consolidation&lt;/a>
+&lt;/strong> — After a small labeled set is memorized, spend the remaining budget on review/consolidation episodes with re-raised learning rates. A data-efficient alternative to pretending more epochs magically fix everything.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2611.17620" target="_blank" rel="noopener noreferrer">Safety Side Effects of Preventative Persona Steering: An Empirical Audit&lt;/a>
+&lt;/strong> — Audits persona steering during fine-tuning as a preventative safety move, comparing it with inference-time vector subtraction. If you’re trying to suppress sycophancy or hallucination, this is worth reading before you ship a persona vector.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/google-research/paper-orchestra" target="_blank" rel="noopener noreferrer">google-research/paper-orchestra&lt;/a>
+&lt;/strong> — Multi-agent framework for automating AI research paper writing. If you’ve ever wanted a swarm of agents to draft, revise, and probably argue about citations, this is the repo.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>If you’re shipping an on-device agent with long-term memory, treat forgetting as a safety control, not a cleanup step. The &lt;a href="https://arxiv.org/abs/2611.17338" target="_blank" rel="noopener noreferrer">memory filtering paper&lt;/a>
+ says hard eviction can delete query-critical facts when the resolver is wrong, so gate deletion behind confidence, provenance, and a cheap retrieval replay. Pair that with the &lt;a href="https://arxiv.org/abs/2611.17339" target="_blank" rel="noopener noreferrer">hallucination detector audit&lt;/a>
+: don’t trust detector rankings from 7B+ models once you’re on 4-bit local models. Run your own small eval on the quantized build before wiring detectors into memory writes. Then use &lt;a href="https://arxiv.org/abs/2611.17340" target="_blank" rel="noopener noreferrer">LoRAWeaver&lt;/a>
+ to route task-specific adapters without retraining a router every time a new skill lands. The practical build: store memories with uncertainty tags, route queries through the relevant adapter, and only promote a memory to permanent state if a local detector passes and a replay query still resolves. That gives you a cheaper, less brittle memory system than “delete old stuff” or “keep everything forever.” It also keeps evaluation close to the deployment target, where quantization bugs usually hide.&lt;/p></description></item><item><title>Tenkai Daily — November 12, 2026</title><link>https://tenkai.blog/posts/2026-11-12/</link><pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-11-12/</guid><description>&lt;h2 id="model-releases-">Model Releases 🤖&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://huggingface.co/tencent/Qwen3.8-27B-DSpine-b16" target="_blank" rel="noopener noreferrer">tencent/Qwen3.8-27B-DSpine-b16&lt;/a>
  — A speculative-decoding draft model fine-tuned from Qwen3.8-27B for SGLang. If you want lower latency without redesigning your serving stack, benchmark it against your target model and check the acceptance rate.&lt;/li>
