@@ -1,222 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/Fission-AI/OpenSpec",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://github.com/supermemoryai/supermemory",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://github.com/affaan-m/ECC",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://github.com/shareAI-lab/learn-claude-code",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://github.com/hesreallyhim/awesome-claude-code",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://github.com/CherryHQ/cherry-studio",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://github.com/jeecgboot/JeecgBoot",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://huggingface.co/harshatheg/Qwen-2.5-1B-RLCD",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://huggingface.co/ukisai/Swift-Qwen3.8-27B-GGUF",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.19170",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.19203",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.19244",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.19387",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.19391",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.19425",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.19465",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.19472",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.19513",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.19515",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.19519",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.19209",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.19213",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.19242",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.19243",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.19279",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.19288",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.19337",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.19356",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.19363",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.19383",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.19414",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://www.npmjs.com/package/@joseairosa/recall",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://github.com/stuzero/pg-mcp",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://blender-mcp-psi.vercel.app/",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://github.com/lastmile-ai/mcp-agent",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://github.com/lharries/whatsapp-mcp",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://github.com/jlumbroso/passage-of-time-mcp",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://www.stephendiehl.com/posts/computer_algebra_mcp/",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.276",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.274",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.31",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.275",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.51.0",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.32",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/v4.1.19",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://pypi.org/project/kagent-openai/1.0.0a1/",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://pypi.org/project/pbi-cli-tool/3.12.0/",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://pypi.org/project/acgs-lite/3.0.0/",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://pypi.org/project/pentachrome-plugin/0.15.0/",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://pypi.org/project/pyfixer-ai/0.4.0/",
-      "date": "2026-09-18"
-    },
-    {
-      "url": "https://pypi.org/project/gatekeeper-solana/0.1.0/",
-      "date": "2026-09-18"
-    },
-    {
       "url": "https://github.com/higgsfield-ai/higgsfield",
       "date": "2026-09-19"
     },
@@ -4531,6 +4315,46 @@
     {
       "url": "https://pypi.org/project/statsx/0.1.1/",
       "date": "2026-11-16"
+    },
+    {
+      "url": "https://github.com/jingyaogong/minimind",
+      "date": "2026-11-17"
+    },
+    {
+      "url": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.6",
+      "date": "2026-11-17"
+    },
+    {
+      "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B",
+      "date": "2026-11-17"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.19.6",
+      "date": "2026-11-17"
+    },
+    {
+      "url": "https://pypi.org/project/vibe-coding-tracker/3.2.1/",
+      "date": "2026-11-17"
+    },
+    {
+      "url": "https://pypi.org/project/puffin-local/0.4.8/",
+      "date": "2026-11-17"
+    },
+    {
+      "url": "https://pypi.org/project/omicstra/1.4.0/",
+      "date": "2026-11-17"
+    },
+    {
+      "url": "https://pypi.org/project/agentchatme/1.4.0/",
+      "date": "2026-11-17"
+    },
+    {
+      "url": "https://pypi.org/project/aipaygen-mcp/2.1.0/",
+      "date": "2026-11-17"
+    },
+    {
+      "url": "https://pypi.org/project/fixlock/0.8.0/",
+      "date": "2026-11-17"
     }
   ]
 }
