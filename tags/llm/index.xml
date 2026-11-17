@@ -1,4 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Llm on Tenkai</title><link>https://tenkai.blog/tags/llm/</link><description>Recent content in Llm on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 16 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/llm/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — November 16, 2026</title><link>https://tenkai.blog/posts/2026-11-16/</link><pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-11-16/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Llm on Tenkai</title><link>https://tenkai.blog/tags/llm/</link><description>Recent content in Llm on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 17 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/llm/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — November 17, 2026</title><link>https://tenkai.blog/posts/2026-11-17/</link><pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-11-17/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.6" target="_blank" rel="noopener noreferrer">LongCat-Video-Avatar-1.6&lt;/a>
+ — 🤖 Meituan&amp;rsquo;s audio-driven avatar generator, now with ONNX, Diffusers, and Transformers support so you&amp;rsquo;re not locked into one stack. Does audio-to-video and audio-image-to-video for talking-head and video-continuation work. Whether you need a lip-synced avatar is between you and your roadmap.&lt;/li>
+&lt;li>&lt;a href="https://huggingface.co/sensenova/SenseNova-Loop-9B" target="_blank" rel="noopener noreferrer">SenseNova-Loop-9B&lt;/a>
+ — A 9B multimodal model built on a looped-transformer architecture, which is the interesting bit if you care about parameter efficiency over raw size. Handles text and image-text-to-text, ships with custom code, so read the implementation before you trust the benchmarks.&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://pypi.org/project/puffin-local/0.4.8/" target="_blank" rel="noopener noreferrer">puffin-local 0.4.8&lt;/a>
+ — 🛠️ SDK, CLI, and MCP server for agent identity and messaging, aimed at local tooling and MCP interop. If you&amp;rsquo;re wiring up agents that need to find and talk to each other, this is one of the growing pile of options.&lt;/li>
+&lt;li>&lt;a href="https://github.com/anomalyco/opencode/releases/tag/v1.19.6" target="_blank" rel="noopener noreferrer">sst/opencode: v1.19.6&lt;/a>
+ — Adds a 1-to-2 upgrade path with background download and user-controlled install, keeping your sessions, projects, and settings intact. Also patches a core bug that wrecked sessions with lots of images, which is the fix most of you actually wanted.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/vibe-coding-tracker/3.2.1/" target="_blank" rel="noopener noreferrer">vibe-coding-tracker 3.2.1&lt;/a>
+ — Parses AI coding assistant telemetry from JSONL logs into structured CodeAnalysis results. Handy if you&amp;rsquo;re trying to put real numbers on how much your team leans on Copilot-shaped crutches.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/omicstra/1.4.0/" target="_blank" rel="noopener noreferrer">omicstra 1.4.0&lt;/a>
+ — Multi-agent MCP server for cross-modal embedding alignment and evidence-based routing in spatial biology. Niche, but worth a look if you&amp;rsquo;re doing multimodal retrieval or scientific AI and want the domain workflows pre-built.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/agentchatme/1.4.0/" target="_blank" rel="noopener noreferrer">agentchatme 1.4.0&lt;/a>
+ — Official Python SDK for AgentChat, mirroring the TypeScript package. Boring in the best way if you need agent-to-agent messaging from a Python service.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/aipaygen-mcp/2.1.0/" target="_blank" rel="noopener noreferrer">aipaygen-mcp 2.1.0&lt;/a>
+ — MCP server with 100+ tools spanning web, company data, crypto, and media, gated behind x402 or prepaid keys. Dependency-free and built for tool-augmented runtimes, though 100+ tools is a lot of surface area to vet.&lt;/li>
+&lt;/ul>
+&lt;h2 id="tutorials--guides">Tutorials &amp;amp; Guides&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/jingyaogong/minimind" target="_blank" rel="noopener noreferrer">jingyaogong/minimind&lt;/a>
+ — 📄 Trains a 64M-parameter language model from scratch in a suspiciously short amount of time. Great if you want a small, reproducible LLM training setup to actually understand the moving parts instead of just calling an API.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>Pair &lt;a href="https://pypi.org/project/vibe-coding-tracker/3.2.1/" target="_blank" rel="noopener noreferrer">vibe-coding-tracker 3.2.1&lt;/a>
+ with &lt;a href="https://github.com/anomalyco/opencode/releases/tag/v1.19.6" target="_blank" rel="noopener noreferrer">sst/opencode: v1.19.6&lt;/a>
+ and &lt;a href="https://github.com/jingyaogong/minimind" target="_blank" rel="noopener noreferrer">jingyaogong/minimind&lt;/a>
+ to build a tiny internal feedback loop for AI coding assistants. Run opencode on a few representative repos, let the image-heavy sessions stress the patched core, and pipe its JSONL logs into vibe-coding-tracker. Use the resulting CodeAnalysis data to identify where the model wastes turns, repeats context, or burns tokens on weak tests. Then take the worst 1,000 transcripts, convert them into a small supervised dataset, and train a 64M minimind-style model as a cheap policy or critic for prompt repair, test selection, or repo-context retrieval. You probably won’t ship that model to users, but you’ll get a reproducible way to measure whether your assistant is actually helping or just generating plausible noise. Keep the loop small, version the prompts, and gate rollouts on task success, not vibes. If it fails, you’ve still got telemetry and regression tests instead of another dashboard nobody opens.&lt;/p></description></item><item><title>Tenkai Daily — November 16, 2026</title><link>https://tenkai.blog/posts/2026-11-16/</link><pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-11-16/</guid><description>&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://pypi.org/project/xnns/0.28.0/" target="_blank" rel="noopener noreferrer">xnns 0.28.0&lt;/a>
 &lt;/strong> — PyTorch-native ML interatomic potentials for molecules and periodic systems. If you’re doing atomistic simulation, this is probably more useful than another chatbot wrapper.&lt;/li>
