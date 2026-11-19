@@ -1,42 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://pypi.org/project/hazzel/1.5.3/",
-      "date": "2026-09-20"
-    },
-    {
-      "url": "https://pypi.org/project/seedance-client/1.0.1/",
-      "date": "2026-09-20"
-    },
-    {
-      "url": "https://pypi.org/project/gemini-omni-client/1.0.1/",
-      "date": "2026-09-20"
-    },
-    {
-      "url": "https://pypi.org/project/minimax-h3/1.0.1/",
-      "date": "2026-09-20"
-    },
-    {
-      "url": "https://pypi.org/project/hol-guard/3.0.193/",
-      "date": "2026-09-20"
-    },
-    {
-      "url": "https://pypi.org/project/smartmemory-core/1.4.104/",
-      "date": "2026-09-20"
-    },
-    {
-      "url": "https://pypi.org/project/claude-token-saver/1.6.0/",
-      "date": "2026-09-20"
-    },
-    {
-      "url": "https://pypi.org/project/remagent/1.1.1/",
-      "date": "2026-09-20"
-    },
-    {
-      "url": "https://pypi.org/project/fde-framework/0.1.31/",
-      "date": "2026-09-20"
-    },
-    {
       "url": "https://github.com/zhouxiaoka/autoclip",
       "date": "2026-09-21"
     },
@@ -4467,6 +4431,98 @@
     {
       "url": "https://pypi.org/project/conexus/8.4.0/",
       "date": "2026-11-18"
+    },
+    {
+      "url": "https://github.com/affaan-m/ECC",
+      "date": "2026-11-19"
+    },
+    {
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "date": "2026-11-19"
+    },
+    {
+      "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+      "date": "2026-11-19"
+    },
+    {
+      "url": "https://huggingface.co/maxwell-model/Maxwell-V1-Flash",
+      "date": "2026-11-19"
+    },
+    {
+      "url": "https://huggingface.co/inworld/voice-isolator",
+      "date": "2026-11-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.23388",
+      "date": "2026-11-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.23362",
+      "date": "2026-11-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.23397",
+      "date": "2026-11-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.23339",
+      "date": "2026-11-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.23358",
+      "date": "2026-11-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.21937",
+      "date": "2026-11-19"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.23246",
+      "date": "2026-11-19"
+    },
+    {
+      "url": "https://github.com/apify/mcp-cli",
+      "date": "2026-11-19"
+    },
+    {
+      "url": "https://github.com/Aherontas/Pycon_Greece_2025_Presentation_Agents",
+      "date": "2026-11-19"
+    },
+    {
+      "url": "https://norahsakal.com/blog/mcp-vs-api-model-context-protocol-explained/",
+      "date": "2026-11-19"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=46220577",
+      "date": "2026-11-19"
+    },
+    {
+      "url": "https://github.com/ahujasid/ableton-mcp",
+      "date": "2026-11-19"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.328",
+      "date": "2026-11-19"
+    },
+    {
+      "url": "https://pypi.org/project/tattlescan/0.1.0/",
+      "date": "2026-11-19"
+    },
+    {
+      "url": "https://pypi.org/project/praisonai/4.8.0/",
+      "date": "2026-11-19"
+    },
+    {
+      "url": "https://pypi.org/project/hoimin/0.15.0/",
+      "date": "2026-11-19"
+    },
+    {
+      "url": "https://pypi.org/project/praisonai-train/0.2.0/",
+      "date": "2026-11-19"
+    },
+    {
+      "url": "https://pypi.org/project/agent-security-harness/4.31.1/",
+      "date": "2026-11-19"
     }
   ]
 }
