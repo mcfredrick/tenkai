@@ -1,4 +1,61 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tenkai</title><link>https://tenkai.blog/posts/</link><description>Recent content in Posts on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 18 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — November 18, 2026</title><link>https://tenkai.blog/posts/2026-11-18/</link><pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-11-18/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tenkai</title><link>https://tenkai.blog/posts/</link><description>Recent content in Posts on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 19 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — November 19, 2026</title><link>https://tenkai.blog/posts/2026-11-19/</link><pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-11-19/</guid><description>&lt;h2 id="model-releases-">Model Releases 🤖&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted" target="_blank" rel="noopener noreferrer">Qwen3.8-27B PEFT/GRPO agent adaptation&lt;/a>
+&lt;/strong> — A PEFT/LoRA adaptation of Qwen3.8-27B trained with TRL GRPO and async-GRPO for agentic and environment-based tasks. The Harbor/OpenEnv references make it relevant if you’re tuning agents with RL-style loops.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/inworld/voice-isolator" target="_blank" rel="noopener noreferrer">Inworld real-time voice isolation model&lt;/a>
+&lt;/strong> — Real-time voice isolation for speech enhancement, denoising, and noise suppression, with 48 kHz full-band streaming audio-to-audio under Apache-2.0. If your pipeline has a microphone anywhere near it, this is worth a look.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/maxwell-model/Maxwell-V1-Flash" target="_blank" rel="noopener noreferrer">Maxwell-V1-Flash MoE text-generation model&lt;/a>
+&lt;/strong> — A mixture-of-experts text-generation model with safetensors weights and custom code. Useful if you’re poking at MoE inference and want a conversational target.&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/agent-security-harness/4.31.1/" target="_blank" rel="noopener noreferrer">agent-security-harness 4.31.1&lt;/a>
+&lt;/strong> — A security test suite for AI-agent systems, covering MCP, A2A, x402, and payment/mandate flows. The governance and compliance checks aligned with NIST AI guidance make it handy for hardening agent deployments.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/praisonai/4.8.0/" target="_blank" rel="noopener noreferrer">PraisonAI 4.8.0&lt;/a>
+&lt;/strong> — An open-source Python framework for building and running AI agents locally, including fully offline deployments. If you need self-hosted agent orchestration without external services, this is the target.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/praisonai-train/0.2.0/" target="_blank" rel="noopener noreferrer">praisonai-train 0.2.0&lt;/a>
+&lt;/strong> — Adds training utilities for PraisonAI, including LLM fine-tuning with Unsloth and iterative agent-training workflows. Pulling training out of the main wrapper helps reproducible model and agent improvement.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://news.ycombinator.com/item?id=46220577" target="_blank" rel="noopener noreferrer">MCPShark: Traffic inspector for Model Context Protocol&lt;/a>
+&lt;/strong> — A traffic inspector for Model Context Protocol communications. It helps debug and audit MCP request/response flows between clients and servers.&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading-">Research Worth Reading 📄&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2611.23388" target="_blank" rel="noopener noreferrer">QDA: Closed-Loop LLM Quantization Design with Agents&lt;/a>
+&lt;/strong> — Uses an LLM agent to iteratively design post-training quantization recipes across models and precisions. It automates a tuning loop that usually needs expert redesign, which could cut cost and improve quantization quality.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2611.23362" target="_blank" rel="noopener noreferrer">TRACE-MAS: Diagnosing and Repairing Collaboration Failures in Multi-Agent Systems&lt;/a>
+&lt;/strong> — Targets multi-agent failures caused by message exchanges and task dependencies, not just bad individual agents. It offers diagnosis and repair methods for interaction-level collaboration failures that agent-level detectors miss.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2611.23397" target="_blank" rel="noopener noreferrer">Which Tokens, in What Order, and How Fast? A Theoretical Analysis of On-Policy Distillation Objectives&lt;/a>
+&lt;/strong> — Analyzes on-policy distillation objectives, comparing sequence-level and token-level choices and their divergences. It gives theoretical guidance for picking objectives when training student language models from their own generations.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2611.23339" target="_blank" rel="noopener noreferrer">Optimize the Cob, Then the Kernel: Optimizing Beam Search for Generative Recommendation Inference&lt;/a>
+&lt;/strong> — Looks at inference for generative recommendation, where long prompts, wide beam search, and short outputs break typical LLM serving assumptions. It spots redundant KV-cache accesses in systems like vLLM and proposes optimizations for beam-search-heavy workloads.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2611.23358" target="_blank" rel="noopener noreferrer">Implementing Binary Transformers with Approximate Memories with Permutation Invariance Enabled Selective (PIES) Protection&lt;/a>
+&lt;/strong> — Studies binary Transformers with approximate memory to cut storage, computation, and power. PIES protection limits errors from approximate memories while preserving permutation invariance, which matters for hardware-oriented implementations.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2611.21937" target="_blank" rel="noopener noreferrer">SLED: Sensor SLicing from Edge to Datacenter&lt;/a>
+&lt;/strong> — Deals with placement and slicing of heterogeneous sensor streams across edge and datacenter environments. It accounts for different network and compute needs across sensing, AI inference, and training workloads.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools-">AI Dev Tools 🛠️&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/affaan-m/ECC" target="_blank" rel="noopener noreferrer">affaan-m/ECC&lt;/a>
+&lt;/strong> — A performance-focused agent harness for Claude Code, Codex, OpenCode, Cursor, and similar tools. It bundles skills, memory, security, and research-first patterns to make coding agents more reliable and efficient.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/apify/mcp-cli" target="_blank" rel="noopener noreferrer">mcpc: Universal command-line client for MCP&lt;/a>
+&lt;/strong> — A universal command-line client for Model Context Protocol servers. It gives you a terminal surface for testing, debugging, and exercising MCP tools.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.328" target="_blank" rel="noopener noreferrer">Claude Code v2.1.328&lt;/a>
+&lt;/strong> — Adds auto mode for Claude Opus 4.6 and Sonnet 4.6 across Amazon Bedrock, Google Cloud Agent Platform, Microsoft Foundry, and Claude apps gateway; interactive sessions without a permission mode start in it. It also adds &lt;code>&amp;quot;onFailure&amp;quot;: &amp;quot;block&amp;quot;&lt;/code> for mcp_tool hooks, so failed hook calls can block actions.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/nextlevelbuilder/ui-ux-pro-max-skill" target="_blank" rel="noopener noreferrer">nextlevelbuilder/ui-ux-pro-max-skill&lt;/a>
+&lt;/strong> — An AI skill that supplies UI/UX design guidance for professional web and mobile interfaces. It targets React, Tailwind, landing pages, and component systems, making it useful for frontend-focused coding agents.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/Aherontas/Pycon_Greece_2025_Presentation_Agents" target="_blank" rel="noopener noreferrer">AI-powered web service combining FastAPI, Pydantic-AI, and MCP servers&lt;/a>
+&lt;/strong> — A presentation-style AI web service combining FastAPI, Pydantic-AI, and MCP servers. It provides example code for HTTP-exposed agent services with structured tool integration.&lt;/li>
+&lt;/ul>
+&lt;h2 id="tutorials--guides">Tutorials &amp;amp; Guides&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://norahsakal.com/blog/mcp-vs-api-model-context-protocol-explained/" target="_blank" rel="noopener noreferrer">MCP vs. API Explained&lt;/a>
+&lt;/strong> — An explainer comparing Model Context Protocol with traditional API integration patterns. It is useful for engineers deciding when MCP adds value over conventional HTTP APIs.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>Turn your MCP stack into a boring, observable control plane instead of a mystery box. Start by wiring &lt;a href="https://github.com/apify/mcp-cli" target="_blank" rel="noopener noreferrer">mcpc&lt;/a>
+ into CI or a local smoke-test script so every tool call can be replayed from the terminal. Then run &lt;a href="https://news.ycombinator.com/item?id=46220577" target="_blank" rel="noopener noreferrer">MCPShark&lt;/a>
+ alongside it to capture request/response flows, diff payloads, and spot where a client is sending junk schemas or a server is silently dropping fields. Once you have traces, add &lt;a href="https://pypi.org/project/agent-security-harness/4.31.1/" target="_blank" rel="noopener noreferrer">agent-security-harness&lt;/a>
+ as the gate: exercise MCP, A2A, and payment/mandate paths, then fail the build on policy violations or unsafe tool behavior. The useful part is not any single tool; it is the loop. mcpc gives you a reproducible caller, MCPShark gives you evidence, and the security harness turns that evidence into a release decision. Keep the traces as CI artifacts so regressions are reviewable, not anecdotal. That combination makes MCP debugging less like reading tea leaves and more like normal software engineering: reproduce, inspect, assert, ship.&lt;/p></description></item><item><title>Tenkai Daily — November 18, 2026</title><link>https://tenkai.blog/posts/2026-11-18/</link><pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-11-18/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/tencent/Hy4-flash" target="_blank" rel="noopener noreferrer">tencent/Hy4-flash&lt;/a>
 &lt;/strong> — A multimodal mixture-of-experts instruct model with safetensors weights and endpoint compatibility. If you&amp;rsquo;re poking at large MoE image-text assistants, it&amp;rsquo;s a candidate to benchmark; if you just need a tiny classifier, it&amp;rsquo;s overkill. 🤖&lt;/li>
