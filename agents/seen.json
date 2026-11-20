@@ -1,82 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/zhouxiaoka/autoclip",
-      "date": "2026-09-21"
-    },
-    {
-      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
-      "date": "2026-09-21"
-    },
-    {
-      "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
-      "date": "2026-09-21"
-    },
-    {
-      "url": "https://huggingface.co/AlexWortega/openjev",
-      "date": "2026-09-21"
-    },
-    {
-      "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-GGUF",
-      "date": "2026-09-21"
-    },
-    {
-      "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-mlx-2bit",
-      "date": "2026-09-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.20971",
-      "date": "2026-09-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.20974",
-      "date": "2026-09-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.20981",
-      "date": "2026-09-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.21061",
-      "date": "2026-09-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.21096",
-      "date": "2026-09-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.21113",
-      "date": "2026-09-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.21139",
-      "date": "2026-09-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.21157",
-      "date": "2026-09-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.21208",
-      "date": "2026-09-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.20888",
-      "date": "2026-09-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.21221",
-      "date": "2026-09-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.20954",
-      "date": "2026-09-21"
-    },
-    {
-      "url": "https://arxiv.org/abs/2609.20982",
-      "date": "2026-09-21"
-    },
-    {
       "url": "https://github.com/dream-num/univer",
       "date": "2026-09-22"
     },
@@ -4523,6 +4447,106 @@
     {
       "url": "https://pypi.org/project/agent-security-harness/4.31.1/",
       "date": "2026-11-19"
+    },
+    {
+      "url": "https://huggingface.co/HuggingFaceTB/SmolVLM2-256M-Video-Instruct",
+      "date": "2026-11-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.23365",
+      "date": "2026-11-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.23375",
+      "date": "2026-11-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.23398",
+      "date": "2026-11-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.23410",
+      "date": "2026-11-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.23445",
+      "date": "2026-11-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.23454",
+      "date": "2026-11-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.23456",
+      "date": "2026-11-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.23476",
+      "date": "2026-11-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.23480",
+      "date": "2026-11-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.23483",
+      "date": "2026-11-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.23508",
+      "date": "2026-11-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.23509",
+      "date": "2026-11-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.23520",
+      "date": "2026-11-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.25000",
+      "date": "2026-11-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.25003",
+      "date": "2026-11-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.25100",
+      "date": "2026-11-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.25119",
+      "date": "2026-11-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.25130",
+      "date": "2026-11-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.25165",
+      "date": "2026-11-20"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.25167",
+      "date": "2026-11-20"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.329",
+      "date": "2026-11-20"
+    },
+    {
+      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.60.2",
+      "date": "2026-11-20"
+    },
+    {
+      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.60.1",
+      "date": "2026-11-20"
+    },
+    {
+      "url": "https://pypi.org/project/syndisco/2.3.0/",
+      "date": "2026-11-20"
     }
   ]
 }
