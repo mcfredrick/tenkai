@@ -1,4 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Tenkai</title><link>https://tenkai.blog/tags/releases/</link><description>Recent content in Releases on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 21 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — November 21, 2026</title><link>https://tenkai.blog/posts/2026-11-21/</link><pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-11-21/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Tenkai</title><link>https://tenkai.blog/tags/releases/</link><description>Recent content in Releases on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 22 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — November 22, 2026</title><link>https://tenkai.blog/posts/2026-11-22/</link><pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-11-22/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://huggingface.co/Lakonik/pi-H3" target="_blank" rel="noopener noreferrer">Lakonik/pi-H3&lt;/a>
+ — Flow-matching distilled model for text/image-conditioned audio-video generation, with ComfyUI support and an arXiv paper behind it. If you&amp;rsquo;re poking at joint audio-video synthesis or distillation tricks, it&amp;rsquo;s worth a look 🤖&lt;/li>
+&lt;li>&lt;a href="https://huggingface.co/n4ze3m/tiny-voca" target="_blank" rel="noopener noreferrer">n4ze3m/tiny-voca&lt;/a>
+ — Small English TTS model shipping in both ONNX and GGUF. Handly for edge inference experiments where you don&amp;rsquo;t want to babysit a 400MB vocoder.&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://pypi.org/project/agentic-hil/0.28.0/" target="_blank" rel="noopener noreferrer">agentic-hil 0.28.0&lt;/a>
+ — Hardware-in-the-loop MCP server that lets a coding agent flash, reset, and drive UART/CAN on actual boards behind debug probes. Ships a pytest plugin, so the hardware gate can live in CI instead of someone&amp;rsquo;s bench notes.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/visualkit/3.0.1/" target="_blank" rel="noopener noreferrer">visualkit 3.0.1&lt;/a>
+ — Local-first programmable video editing engine with versioned SQLite timelines, exact rational clocks, and FFmpeg rendering. The rational clocks are the detail that tells you the author has actually been burned by floating-point timestamps.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/membase-ai/0.4.1/" target="_blank" rel="noopener noreferrer">membase-ai 0.4.1&lt;/a>
+ — Agent memory layer with a Python client, CLI, and MCP server, hosted or self-run. Another entry in the increasingly crowded &amp;ldquo;persistent agent memory&amp;rdquo; category.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/opendockit/0.3.15/" target="_blank" rel="noopener noreferrer">opendockit 0.3.15&lt;/a>
+ — Converts PDF, Office, HWP/HWPX, OpenDocument, RTF, EPUB, HTML, email, and images into clean LLM-ready Markdown. The HWP support suggests Korean enterprise document ingestion was the actual problem being solved.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/skywake/0.4.2/" target="_blank" rel="noopener noreferrer">skywake 0.4.2&lt;/a>
+ — Branching filesystem for agents backed by an S3 bucket, with vector, full-text, and hybrid search. Git semantics for agent storage, which is either clever or a great way to watch agents lose track of which branch they&amp;rsquo;re on.&lt;/li>
+&lt;li>&lt;a href="https://pypi.org/project/doubled-graph/3.5.0/" target="_blank" rel="noopener noreferrer">doubled-graph 3.5.0&lt;/a>
+ — MCP facade over CodeGraphContext and GRACE 4 artifacts, exposing impact analysis, context retrieval, drift detection, and migration workflows. Useful if you want an LLM to answer &amp;ldquo;what breaks if I touch this&amp;rdquo; without guessing 🛠️&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/pingdotgg/t3code" target="_blank" rel="noopener noreferrer">t3code: remote control for coding agents&lt;/a>
+ — Control Claude Code, Codex, and friends from desktop or mobile. Basically a steering wheel for long-running agent sessions, which is the part everyone underestimates until an agent spends 40 minutes confidently refactoring the wrong module.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>The most useful agent setup isn&amp;rsquo;t a bigger model; it&amp;rsquo;s a tighter feedback loop. Pair &lt;a href="https://github.com/pingdotgg/t3code" target="_blank" rel="noopener noreferrer">t3code&lt;/a>
+ with &lt;a href="https://pypi.org/project/doubled-graph/3.5.0/" target="_blank" rel="noopener noreferrer">doubled-graph&lt;/a>
+ and &lt;a href="https://pypi.org/project/agentic-hil/0.28.0/" target="_blank" rel="noopener noreferrer">agentic-hil&lt;/a>
+ so a long-running coding agent can be paused, queried, and gated before it does something expensive. Concretely: when t3code shows the agent about to touch a module, hit doubled-graph&amp;rsquo;s impact analysis to get the blast radius, then require agentic-hil&amp;rsquo;s pytest hardware gate to pass on the actual board before the session can continue. That turns &amp;ldquo;the agent said it works&amp;rdquo; into a checkable sequence: remote steering, dependency-aware context, and real hardware validation. It also gives you a clean place to fail fast—if the impact set is huge or the board doesn&amp;rsquo;t reset, stop the run instead of letting it refactor for another 40 minutes. Start with one repo and one board; if the gate is flaky, fix that before adding more agents. The pieces are individually useful, but together they make agent workflows less vibes-based and more like CI with a human in the loop.&lt;/p></description></item><item><title>Tenkai Daily — November 21, 2026</title><link>https://tenkai.blog/posts/2026-11-21/</link><pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-11-21/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://huggingface.co/thinkingmachines/Inkling-2-Mini" target="_blank" rel="noopener noreferrer">thinkingmachines/Inkling-2-Mini&lt;/a>
 &lt;/strong> — 🤖 A conversational image-text-to-text MoE released under Apache-2.0. Handy if you want a permissive multimodal model with Transformers/Safetensors packaging and endpoint-friendly bits.&lt;/li>
