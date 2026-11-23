@@ -1,4 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Llm on Tenkai</title><link>https://tenkai.blog/tags/llm/</link><description>Recent content in Llm on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 22 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/llm/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — November 22, 2026</title><link>https://tenkai.blog/posts/2026-11-22/</link><pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-11-22/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Llm on Tenkai</title><link>https://tenkai.blog/tags/llm/</link><description>Recent content in Llm on Tenkai</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 23 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tenkai.blog/tags/llm/index.xml" rel="self" type="application/rss+xml"/><item><title>Tenkai Daily — November 23, 2026</title><link>https://tenkai.blog/posts/2026-11-23/</link><pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-11-23/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://huggingface.co/facebook/sam-3d-body-dinov3" target="_blank" rel="noopener noreferrer">facebook/sam-3d-body-dinov3&lt;/a>
+&lt;/strong> — 🤖 Meta’s 3D body model built from SAM-3D/DINOv3-related parts, aimed at human mesh recovery and pose estimation. Relevant for avatars, motion capture, and human-centric perception; less so if your stack is all text.&lt;/li>
+&lt;/ul>
+&lt;h2 id="open-source-releases">Open Source Releases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/forcefield/0.8.1/" target="_blank" rel="noopener noreferrer">forcefield 0.8.1&lt;/a>
+&lt;/strong> — 🛠️ A zero-dependency guardrail library for prompt-injection detection, PII redaction, content safety, rate limiting, abuse detection, tool governance, and security evals. Useful if you want LLM app safety without dragging in a huge dependency tree.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/safetypulse/0.1.2/" target="_blank" rel="noopener noreferrer">safetypulse 0.1.2&lt;/a>
+&lt;/strong> — Adds a Circuit Integrity Score for a cheap check that fine-tuning hasn’t quietly degraded refusal behavior. Worth a look if you keep adapting models and need a smoke test for safety regressions.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/datris-mcp-server/1.62.0/" target="_blank" rel="noopener noreferrer">datris-mcp-server 1.62.0&lt;/a>
+&lt;/strong> — MCP server for data pipeline operations: ingestion, validation, transformation, analysis, and querying. It plugs into databases, vector stores, object storage, and streaming systems.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/ai-sessions/3.22.1/" target="_blank" rel="noopener noreferrer">ai-sessions 3.22.1&lt;/a>
+&lt;/strong> — A terminal browser and cross-harness bridge for coding agents like Codex, Claude Code, OpenCode, and Grok. Handy if you’re herding multiple assistants from one interface.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://pypi.org/project/metergraphrelay/0.8.0/" target="_blank" rel="noopener noreferrer">metergraphrelay 0.8.0&lt;/a>
+&lt;/strong> — Moves LLM trace data between systems, pulling from providers and pushing into MeterGraph. Useful for observability and telemetry plumbing around LLM apps.&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-worth-reading">Research Worth Reading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2611.26722" target="_blank" rel="noopener noreferrer">TOUMAII: A 4.5M-Pair Tool-Calling Preference Dataset and Its Source-Agnostic Generator&lt;/a>
+&lt;/strong> — 📄 A 4.5M-pair preference dataset for tool calling, built around correct API calls versus plausible wrong alternatives. Also ships a source-agnostic generator, which is the interesting part if you need tool-use training data across environments.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2611.26942" target="_blank" rel="noopener noreferrer">CodeReviewBench: An Automated Benchmark for Evaluating the Software Factory&lt;/a>
+&lt;/strong> — An automated benchmark for AI code review quality in realistic software workflows. It fixes a common benchmark flaw by using PR-author judgments instead of third-party reviewers.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2611.26803" target="_blank" rel="noopener noreferrer">Don&amp;rsquo;t Discard Your Rollouts: Reusing Teacher RL Traces for Student Distillation&lt;/a>
+&lt;/strong> — Looks at reusing teacher RL rollouts, including multiple completions and rewards, for student distillation instead of regenerating data from the final teacher. If you’re burning compute on PPO/GRPO-style post-training, the cost angle is the point.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2611.26906" target="_blank" rel="noopener noreferrer">Budget-Aware Predict-and-Verify Theorem Proving with Heterogeneous LLM Solvers&lt;/a>
+&lt;/strong> — BudgetPV routes subgoals to different LLM solvers based on capability and inference cost, then uses predict-and-verify to cut wasted computation. Relevant if you’re orchestrating multiple solvers and care about cost-efficient reasoning.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2611.26912" target="_blank" rel="noopener noreferrer">Self-Evolving Beyond Human-Crafted Experience for EDA Scripting&lt;/a>
+&lt;/strong> — ZhuLong-SE is a self-evolving agent for EDA scripting that learns from execution feedback instead of relying only on hand-crafted knowledge. It targets sparse proprietary APIs and silent failures, which are exactly the annoying parts of EDA toolchains.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://arxiv.org/abs/2611.26966" target="_blank" rel="noopener noreferrer">Keep the Process, Change the Supplier: Runtime Governance for Tool-Using AI Agents&lt;/a>
+&lt;/strong> — Proposes an execution boundary that mediates tool-using agent actions, separating proposals from business-controlled authorization, context disclosure, and supplier selection. The Open Process Control Plane records uncertain or external effects, which is useful if you need runtime governance instead of vibes.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ai-dev-tools">AI Dev Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://github.com/anomalyco/opencode/releases/tag/v2.4.0" target="_blank" rel="noopener noreferrer">OpenCode v2.4.0&lt;/a>
+&lt;/strong> — 🛠️ Adds a built-in desktop browser that can import profiles and extensions from common browsers. The persistent profile lets chat links open signed in and lets the agent read and drive the same pages.&lt;/li>
+&lt;/ul>
+&lt;h2 id="todays-synthesis">Today&amp;rsquo;s Synthesis&lt;/h2>
+&lt;p>If you&amp;rsquo;re distilling a teacher into a student, you&amp;rsquo;re not just copying capability. You&amp;rsquo;re copying its refusals, its tool-call habits, and whatever else it picked up along the way. That&amp;rsquo;s the pitch behind &lt;a href="https://arxiv.org/abs/2611.26803" target="_blank" rel="noopener noreferrer">Don&amp;rsquo;t Discard Your Rollouts&lt;/a>
+: the traces are already paid for, so mining them for near-miss cases costs you almost nothing. Pair that with &lt;a href="https://pypi.org/project/safetypulse/0.1.2/" target="_blank" rel="noopener noreferrer">safetypulse&lt;/a>
+&amp;rsquo;s Circuit Integrity Score and you&amp;rsquo;ve got a cheap gate. Run the student over a fixed prompt set before and after each distillation run, and fail the build if refusal behavior drifts more than a couple of points. Then add &lt;a href="https://arxiv.org/abs/2611.26722" target="_blank" rel="noopener noreferrer">TOUMAII&lt;/a>
+&amp;rsquo;s plausible-wrong tool calls to the same harness. Those are exactly the inputs that slip past a student that learned API shapes from a teacher that never got corrected. Concretely: one CI job, three evals, one threshold, no new training data. The rollouts you already have are the cheapest safety regression suite you&amp;rsquo;ll ever build. The alternative is finding out in production that your 8B model now happily approves wire transfers.&lt;/p></description></item><item><title>Tenkai Daily — November 22, 2026</title><link>https://tenkai.blog/posts/2026-11-22/</link><pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate><guid>https://tenkai.blog/posts/2026-11-22/</guid><description>&lt;h2 id="model-releases">Model Releases&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://huggingface.co/Lakonik/pi-H3" target="_blank" rel="noopener noreferrer">Lakonik/pi-H3&lt;/a>
  — Flow-matching distilled model for text/image-conditioned audio-video generation, with ComfyUI support and an arXiv paper behind it. If you&amp;rsquo;re poking at joint audio-video synthesis or distillation tricks, it&amp;rsquo;s worth a look 🤖&lt;/li>
