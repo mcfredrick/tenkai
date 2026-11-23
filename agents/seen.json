@@ -4483,6 +4483,106 @@
     {
       "url": "https://pypi.org/project/subtitle-generator/4.0.1/",
       "date": "2026-11-22"
+    },
+    {
+      "url": "https://huggingface.co/facebook/sam-3d-body-dinov3",
+      "date": "2026-11-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.26722",
+      "date": "2026-11-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.26942",
+      "date": "2026-11-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.26803",
+      "date": "2026-11-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.26906",
+      "date": "2026-11-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.26912",
+      "date": "2026-11-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.26966",
+      "date": "2026-11-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.26805",
+      "date": "2026-11-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.26782",
+      "date": "2026-11-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.26731",
+      "date": "2026-11-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.26752",
+      "date": "2026-11-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.26856",
+      "date": "2026-11-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.26711",
+      "date": "2026-11-23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.26717",
+      "date": "2026-11-23"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v2.4.0",
+      "date": "2026-11-23"
+    },
+    {
+      "url": "https://pypi.org/project/safetypulse/0.1.2/",
+      "date": "2026-11-23"
+    },
+    {
+      "url": "https://pypi.org/project/ai-sessions/3.22.1/",
+      "date": "2026-11-23"
+    },
+    {
+      "url": "https://pypi.org/project/metergraphrelay/0.8.0/",
+      "date": "2026-11-23"
+    },
+    {
+      "url": "https://pypi.org/project/datris-mcp-server/1.62.0/",
+      "date": "2026-11-23"
+    },
+    {
+      "url": "https://pypi.org/project/codescope-ai/0.1.0/",
+      "date": "2026-11-23"
+    },
+    {
+      "url": "https://pypi.org/project/pipelex/0.116.0/",
+      "date": "2026-11-23"
+    },
+    {
+      "url": "https://pypi.org/project/forcefield/0.8.1/",
+      "date": "2026-11-23"
+    },
+    {
+      "url": "https://pypi.org/project/fintom8/0.1.59/",
+      "date": "2026-11-23"
+    },
+    {
+      "url": "https://pypi.org/project/dex-agents-pydantic-ai-cli/0.6.17/",
+      "date": "2026-11-23"
+    },
+    {
+      "url": "https://pypi.org/project/dex-agents-openai-sdk-cli/0.6.17/",
+      "date": "2026-11-23"
     }
   ]
 }
