@@ -4583,6 +4583,98 @@
     {
       "url": "https://pypi.org/project/dex-agents-openai-sdk-cli/0.6.17/",
       "date": "2026-11-23"
+    },
+    {
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "date": "2026-11-24"
+    },
+    {
+      "url": "https://huggingface.co/llamaindex/OCRia-nano-1",
+      "date": "2026-11-24"
+    },
+    {
+      "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview",
+      "date": "2026-11-24"
+    },
+    {
+      "url": "https://huggingface.co/inclusionAI/Ling-3.2-air",
+      "date": "2026-11-24"
+    },
+    {
+      "url": "https://huggingface.co/inclusionAI/LingSante-3.1-flash",
+      "date": "2026-11-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.26747",
+      "date": "2026-11-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.26756",
+      "date": "2026-11-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.26775",
+      "date": "2026-11-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.26776",
+      "date": "2026-11-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.26806",
+      "date": "2026-11-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.26809",
+      "date": "2026-11-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.26832",
+      "date": "2026-11-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.26833",
+      "date": "2026-11-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.26835",
+      "date": "2026-11-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.26841",
+      "date": "2026-11-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.26863",
+      "date": "2026-11-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.26874",
+      "date": "2026-11-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.26875",
+      "date": "2026-11-24"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.331",
+      "date": "2026-11-24"
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v2.4.1",
+      "date": "2026-11-24"
+    },
+    {
+      "url": "https://pypi.org/project/imrobot/0.8.0/",
+      "date": "2026-11-24"
+    },
+    {
+      "url": "https://pypi.org/project/pipecat-moss/0.2.0/",
+      "date": "2026-11-24"
+    },
+    {
+      "url": "https://pypi.org/project/polanon/0.4.4/",
+      "date": "2026-11-24"
     }
   ]
 }
