@@ -1,50 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://github.com/NVIDIA/Model-Optimizer",
-      "date": "2026-09-26"
-    },
-    {
-      "url": "https://github.com/sickn33/agentic-awesome-skills",
-      "date": "2026-09-26"
-    },
-    {
-      "url": "https://github.com/ruvnet/ruflo",
-      "date": "2026-09-26"
-    },
-    {
-      "url": "https://github.com/Imbad0202/academic-research-skills",
-      "date": "2026-09-26"
-    },
-    {
-      "url": "https://huggingface.co/Altworld/Hemingway-1",
-      "date": "2026-09-26"
-    },
-    {
-      "url": "https://huggingface.co/Edge0/Audio8-ASR-Infinite",
-      "date": "2026-09-26"
-    },
-    {
-      "url": "https://huggingface.co/nvidia/Nemotron-3-Diarization",
-      "date": "2026-09-26"
-    },
-    {
-      "url": "https://huggingface.co/yandex/AliceAI-Foundation-80B-A3B-Base",
-      "date": "2026-09-26"
-    },
-    {
-      "url": "https://pypi.org/project/closecode-ai/0.2.0/",
-      "date": "2026-09-26"
-    },
-    {
-      "url": "https://pypi.org/project/triepick/0.1.0/",
-      "date": "2026-09-26"
-    },
-    {
-      "url": "https://pypi.org/project/promptdrift-ci/0.3.1/",
-      "date": "2026-09-26"
-    },
-    {
       "url": "https://huggingface.co/StarDoc-AI/TeleOCR",
       "date": "2026-09-27"
     },
@@ -4675,6 +4631,38 @@
     {
       "url": "https://pypi.org/project/polanon/0.4.4/",
       "date": "2026-11-24"
+    },
+    {
+      "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+      "date": "2026-11-25"
+    },
+    {
+      "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+      "date": "2026-11-25"
+    },
+    {
+      "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+      "date": "2026-11-25"
+    },
+    {
+      "url": "https://huggingface.co/RadixArk/DaisyRose-27B",
+      "date": "2026-11-25"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.332",
+      "date": "2026-11-25"
+    },
+    {
+      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.61.0",
+      "date": "2026-11-25"
+    },
+    {
+      "url": "https://pypi.org/project/snowllm/0.4.0.dev1/",
+      "date": "2026-11-25"
+    },
+    {
+      "url": "https://pypi.org/project/turbo-attn/0.93.2/",
+      "date": "2026-11-25"
     }
   ]
 }
