@@ -1,46 +1,6 @@
 {
   "urls": [
     {
-      "url": "https://huggingface.co/StarDoc-AI/TeleOCR",
-      "date": "2026-09-27"
-    },
-    {
-      "url": "https://huggingface.co/Contrastive-LM/CLM-v0.1-8B",
-      "date": "2026-09-27"
-    },
-    {
-      "url": "https://huggingface.co/Viggle/Qwen-Image-2.1-viggle-turbo",
-      "date": "2026-09-27"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.283",
-      "date": "2026-09-27"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.282",
-      "date": "2026-09-27"
-    },
-    {
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.281",
-      "date": "2026-09-27"
-    },
-    {
-      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.52.0",
-      "date": "2026-09-27"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/v4.1.21",
-      "date": "2026-09-27"
-    },
-    {
-      "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.36",
-      "date": "2026-09-27"
-    },
-    {
-      "url": "https://pypi.org/project/laya-apple/1.6.0/",
-      "date": "2026-09-27"
-    },
-    {
       "url": "https://github.com/thedotmack/claude-mem",
       "date": "2026-09-28"
     },
@@ -4663,6 +4623,118 @@
     {
       "url": "https://pypi.org/project/turbo-attn/0.93.2/",
       "date": "2026-11-25"
+    },
+    {
+      "url": "https://github.com/ruvnet/ruflo",
+      "date": "2026-11-26"
+    },
+    {
+      "url": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B",
+      "date": "2026-11-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.31301",
+      "date": "2026-11-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.31347",
+      "date": "2026-11-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.31424",
+      "date": "2026-11-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.31427",
+      "date": "2026-11-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.31457",
+      "date": "2026-11-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.31475",
+      "date": "2026-11-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.31480",
+      "date": "2026-11-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.31522",
+      "date": "2026-11-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.33162",
+      "date": "2026-11-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.33168",
+      "date": "2026-11-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.33182",
+      "date": "2026-11-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.33183",
+      "date": "2026-11-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.33184",
+      "date": "2026-11-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.33236",
+      "date": "2026-11-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.33257",
+      "date": "2026-11-26"
+    },
+    {
+      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.61.1",
+      "date": "2026-11-26"
+    },
+    {
+      "url": "https://github.com/cline/cline/releases/tag/v4.1.28",
+      "date": "2026-11-26"
+    },
+    {
+      "url": "https://pypi.org/project/lcode-cli/0.65.0/",
+      "date": "2026-11-26"
+    },
+    {
+      "url": "https://pypi.org/project/peerhub/0.26.19/",
+      "date": "2026-11-26"
+    },
+    {
+      "url": "https://pypi.org/project/hexiel/0.9.23/",
+      "date": "2026-11-26"
+    },
+    {
+      "url": "https://pypi.org/project/karachay-shazam/0.1.0/",
+      "date": "2026-11-26"
+    },
+    {
+      "url": "https://pypi.org/project/smartmemory-core/2.0.9/",
+      "date": "2026-11-26"
+    },
+    {
+      "url": "https://pypi.org/project/timeplus-agentguard-codex-plugin/0.1.1/",
+      "date": "2026-11-26"
+    },
+    {
+      "url": "https://pypi.org/project/lifeboatrouter/0.1.9/",
+      "date": "2026-11-26"
+    },
+    {
+      "url": "https://pypi.org/project/agent-strace/0.125.0/",
+      "date": "2026-11-26"
+    },
+    {
+      "url": "https://pypi.org/project/useml/1.4.0/",
+      "date": "2026-11-26"
     }
   ]
 }
