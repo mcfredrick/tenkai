@@ -4727,6 +4727,26 @@
     {
       "url": "https://pypi.org/project/tpu-inference/0.34.0.dev20261127/",
       "date": "2026-11-27"
+    },
+    {
+      "url": "https://github.com/thedotmack/claude-mem",
+      "date": "2026-11-28"
+    },
+    {
+      "url": "https://huggingface.co/ai-sage/GigaChat4-708B-A41B",
+      "date": "2026-11-28"
+    },
+    {
+      "url": "https://pypi.org/project/ezco/0.2.1/",
+      "date": "2026-11-28"
+    },
+    {
+      "url": "https://pypi.org/project/remgu/0.4.0/",
+      "date": "2026-11-28"
+    },
+    {
+      "url": "https://pypi.org/project/dotcode-sdk/0.3.0/",
+      "date": "2026-11-28"
     }
   ]
 }
